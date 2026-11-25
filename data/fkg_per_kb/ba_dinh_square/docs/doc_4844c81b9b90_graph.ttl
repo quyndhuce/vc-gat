@@ -1,0 +1,80 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:located_in <http://transmtl.vn/ent/de5f4e1a> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q2234574> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:part_of <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    onto:renamed_to <http://transmtl.vn/ent/dc322ccd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5417 ;
+    fkg:docId "doc_4844c81b9b90" ;
+    fkg:kbId "ba_dinh_square" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2234574> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6511 ;
+    fkg:docId "doc_4844c81b9b90" ;
+    fkg:kbId "ba_dinh_square" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5509 ;
+    fkg:docId "doc_4844c81b9b90" ;
+    fkg:kbId "ba_dinh_square" ;
+    rdf:object <http://transmtl.vn/ent/dc322ccd> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q2234574> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5383 ;
+    fkg:docId "doc_4844c81b9b90" ;
+    fkg:kbId "ba_dinh_square" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2234574> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2907 ;
+    fkg:docId "doc_4844c81b9b90" ;
+    fkg:kbId "ba_dinh_square" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3803 ;
+    fkg:docId "doc_4844c81b9b90" ;
+    fkg:kbId "ba_dinh_square" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2234574> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2741 ;
+    fkg:docId "doc_4844c81b9b90" ;
+    fkg:kbId "ba_dinh_square" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2234574> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.389 ;
+    fkg:docId "doc_4844c81b9b90" ;
+    fkg:kbId "ba_dinh_square" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2234574> .
+

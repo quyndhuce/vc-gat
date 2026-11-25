@@ -1,0 +1,173 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/06d05eed> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/ent/9e828743> onto:located_in <http://transmtl.vn/kb/bat_trang_gate> .
+
+<http://transmtl.vn/ent/dd8fc45d> onto:leading_to <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/ent/e354be06> onto:located_in <http://transmtl.vn/kb/bat_trang_gate> .
+
+<http://transmtl.vn/ent/16115e85> onto:located_in <http://www.wikidata.org/entity/Q1319921> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/ent/b8e49c5b> onto:near <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/ent/cb4d0d5a> onto:located_in <http://transmtl.vn/kb/bat_trang_gate> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/bat_trang_gate> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:architectural_style <http://transmtl.vn/ent/005542a5> ;
+    onto:dedicated_to <http://transmtl.vn/ent/eb49045e> ;
+    onto:located_in <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:near <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4904 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7164 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/b8e49c5b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3587 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/16115e85> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3087 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5532 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6256 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/ent/005542a5> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.596 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb4d0d5a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.257 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/06d05eed> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7598 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e354be06> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2701 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/16115e85> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4994 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/ent/eb49045e> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.361 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6684 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/ent/eb49045e> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4541 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8706 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb4d0d5a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7106 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9e828743> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2531 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/dd8fc45d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4339 ;
+    fkg:docId "doc_dc0968412b30" ;
+    fkg:kbId "pottery" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/b8e49c5b> .
+

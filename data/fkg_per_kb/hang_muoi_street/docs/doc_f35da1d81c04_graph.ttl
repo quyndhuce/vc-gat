@@ -1,0 +1,655 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/8d3e54a8> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/hang_bac_street> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/595679ea> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/kb/hang_muoi_street> .
+
+<http://transmtl.vn/ent/63be8e4a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_muoi_street#windows> onto:part_of <http://transmtl.vn/ent/a1b0311b> .
+
+<http://transmtl.vn/kb/hang_muoi_street#buildings> onto:made_of <http://transmtl.vn/ent/22811dd9>,
+        <http://transmtl.vn/ent/7ceffe3b> .
+
+<http://transmtl.vn/kb/hang_muoi_street#upper_floors> onto:part_of <http://transmtl.vn/ent/94a55a83> ;
+    onto:used_as <http://transmtl.vn/ent/26fbc0ca> .
+
+<http://transmtl.vn/kb/hang_muoi_street#older_structures> onto:used_as <http://transmtl.vn/ent/24b280c6>,
+        <http://transmtl.vn/ent/59da8bd0>,
+        <http://transmtl.vn/ent/ceb20772> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/94a55a83> onto:on <http://transmtl.vn/kb/hang_muoi_street> .
+
+<http://transmtl.vn/kb/hang_muoi_street#ground_floor> onto:part_of <http://transmtl.vn/ent/94a55a83> ;
+    onto:used_as <http://transmtl.vn/ent/ca733863> .
+
+<http://transmtl.vn/kb/hang_muoi_street#street> onto:architectural_style <http://transmtl.vn/ent/951bc3bb> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/kb/red_river> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/hang_muoi_street> onto:architectural_style <http://transmtl.vn/ent/e33930b6>,
+        <http://transmtl.vn/ent/ef6d0166> ;
+    onto:connects <http://transmtl.vn/ent/8d8ada09>,
+        <http://transmtl.vn/ent/ced18fc6> ;
+    onto:has_part <http://transmtl.vn/kb/hang_muoi_street#buildings>,
+        <http://transmtl.vn/kb/hang_muoi_street#ground_floor>,
+        <http://transmtl.vn/kb/hang_muoi_street#older_structures>,
+        <http://transmtl.vn/kb/hang_muoi_street#street>,
+        <http://transmtl.vn/kb/hang_muoi_street#upper_floors>,
+        <http://transmtl.vn/kb/hang_muoi_street#windows> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/63be8e4a>,
+        <http://transmtl.vn/ent/6b77ef4b>,
+        <http://transmtl.vn/ent/966c3396> ;
+    onto:near <http://transmtl.vn/kb/red_river> ;
+    onto:part_of <http://transmtl.vn/ent/0d336970>,
+        <http://transmtl.vn/ent/1002163d>,
+        <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5761 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/1002163d> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3659 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2573 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/a1b0311b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5904 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.63 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/e33930b6> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#buildings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.384 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4477 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/22811dd9> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2636 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2562 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3194 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2852 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/8d3e54a8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.79 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2538 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2505 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/26fbc0ca> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#upper_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3067 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3672 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#upper_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3382 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3102 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#ground_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4166 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/6b77ef4b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6381 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/1002163d> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2698 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4038 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/0d336970> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.651 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/ca733863> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4106 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2582 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.386 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/0d336970> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3228 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/595679ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4868 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3408 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4372 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2743 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#upper_floors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2809 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5979 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2539 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3294 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/24b280c6> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#older_structures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5993 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/94a55a83> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3548 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3628 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/ceb20772> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#older_structures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4409 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.335 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#older_structures> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4687 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/94a55a83> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3233 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5459 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4767 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.559 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3031 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6895 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2629 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/966c3396> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3189 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3228 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/951bc3bb> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2585 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/ced18fc6> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3243 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2838 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/8d8ada09> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#ground_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.414 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7081 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.291 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/ca733863> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4344 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/ef6d0166> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3894 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/59da8bd0> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#older_structures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5095 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2567 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3884 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/966c3396> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2604 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/595679ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4974 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.36 ;
+    fkg:docId "doc_f35da1d81c04" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_bac_street> .
+

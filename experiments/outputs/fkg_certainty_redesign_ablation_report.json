@@ -1,0 +1,344 @@
+{
+  "version": "V2_Conflict_Aware_Redesign",
+  "architecture": "Ontology_Schema_Gate + Context_Enriched_NLI + Relevance_Gate + Yager_Fusion + Weighted_Horn",
+  "all_unique_facts": {
+    "n": 16347,
+    "n_pos": 10642,
+    "n_neg": 5705,
+    "base_rate": 65.1,
+    "auroc": 0.7574,
+    "auprc": 0.8055,
+    "brier": 0.2252,
+    "ece": 0.1998,
+    "spearman_rho": -0.0757,
+    "sweep": {
+      "tau_0.1": {
+        "retained": 12389,
+        "retained_pct": 75.79,
+        "precision": 76.75,
+        "recall": 89.34,
+        "far": 50.5,
+        "accuracy": 75.44
+      },
+      "tau_0.3": {
+        "retained": 11476,
+        "retained_pct": 70.2,
+        "precision": 78.24,
+        "recall": 84.37,
+        "far": 43.77,
+        "accuracy": 74.55
+      },
+      "tau_0.5": {
+        "retained": 11002,
+        "retained_pct": 67.3,
+        "precision": 78.91,
+        "recall": 81.58,
+        "far": 40.67,
+        "accuracy": 73.82
+      },
+      "tau_0.7": {
+        "retained": 10489,
+        "retained_pct": 64.16,
+        "precision": 79.72,
+        "recall": 78.58,
+        "far": 37.28,
+        "accuracy": 73.04
+      },
+      "tau_0.8": {
+        "retained": 9989,
+        "retained_pct": 61.11,
+        "precision": 79.97,
+        "recall": 75.06,
+        "far": 35.07,
+        "accuracy": 71.52
+      },
+      "tau_0.85": {
+        "retained": 9411,
+        "retained_pct": 57.57,
+        "precision": 80.34,
+        "recall": 71.05,
+        "far": 32.43,
+        "accuracy": 69.84
+      },
+      "tau_0.9": {
+        "retained": 8874,
+        "retained_pct": 54.29,
+        "precision": 81.21,
+        "recall": 67.72,
+        "far": 29.22,
+        "accuracy": 68.79
+      },
+      "tau_0.95": {
+        "retained": 7626,
+        "retained_pct": 46.65,
+        "precision": 81.33,
+        "recall": 58.28,
+        "far": 24.96,
+        "accuracy": 64.13
+      },
+      "tau_1.0": {
+        "retained": 1163,
+        "retained_pct": 7.11,
+        "precision": 82.37,
+        "recall": 9.0,
+        "far": 3.59,
+        "accuracy": 39.51
+      }
+    }
+  },
+  "kb_base_unique_facts": {
+    "n": 7088,
+    "n_pos": 5444,
+    "n_neg": 1644,
+    "base_rate": 76.81,
+    "auroc": 0.6784,
+    "auprc": 0.834,
+    "brier": 0.2434,
+    "ece": 0.2376,
+    "spearman_rho": -0.0083,
+    "sweep": {
+      "tau_0.1": {
+        "retained": 5600,
+        "retained_pct": 79.01,
+        "precision": 83.8,
+        "recall": 86.2,
+        "far": 55.17,
+        "accuracy": 76.61
+      },
+      "tau_0.3": {
+        "retained": 5311,
+        "retained_pct": 74.93,
+        "precision": 84.13,
+        "recall": 82.07,
+        "far": 51.28,
+        "accuracy": 74.34
+      },
+      "tau_0.5": {
+        "retained": 5132,
+        "retained_pct": 72.4,
+        "precision": 84.28,
+        "recall": 79.45,
+        "far": 49.09,
+        "accuracy": 72.83
+      },
+      "tau_0.7": {
+        "retained": 4930,
+        "retained_pct": 69.55,
+        "precision": 84.2,
+        "recall": 76.25,
+        "far": 47.38,
+        "accuracy": 70.77
+      },
+      "tau_0.8": {
+        "retained": 4733,
+        "retained_pct": 66.77,
+        "precision": 84.09,
+        "recall": 73.11,
+        "far": 45.8,
+        "accuracy": 68.72
+      },
+      "tau_0.85": {
+        "retained": 4476,
+        "retained_pct": 63.15,
+        "precision": 84.16,
+        "recall": 69.2,
+        "far": 43.13,
+        "accuracy": 66.34
+      },
+      "tau_0.9": {
+        "retained": 4314,
+        "retained_pct": 60.86,
+        "precision": 84.12,
+        "recall": 66.66,
+        "far": 41.67,
+        "accuracy": 64.73
+      },
+      "tau_0.95": {
+        "retained": 4033,
+        "retained_pct": 56.9,
+        "precision": 83.93,
+        "recall": 62.18,
+        "far": 39.42,
+        "accuracy": 61.81
+      },
+      "tau_1.0": {
+        "retained": 489,
+        "retained_pct": 6.9,
+        "precision": 81.39,
+        "recall": 7.31,
+        "far": 5.54,
+        "accuracy": 27.53
+      }
+    }
+  },
+  "horn_inferred_unique_facts": {
+    "n": 9259,
+    "n_pos": 5198,
+    "n_neg": 4061,
+    "base_rate": 56.14,
+    "auroc": 0.795,
+    "auprc": 0.7806,
+    "brier": 0.2113,
+    "ece": 0.184,
+    "spearman_rho": -0.1179,
+    "sweep": {
+      "tau_0.1": {
+        "retained": 6789,
+        "retained_pct": 73.32,
+        "precision": 70.92,
+        "recall": 92.63,
+        "far": 48.61,
+        "accuracy": 74.54
+      },
+      "tau_0.3": {
+        "retained": 6165,
+        "retained_pct": 66.58,
+        "precision": 73.17,
+        "recall": 86.78,
+        "far": 40.73,
+        "accuracy": 74.72
+      },
+      "tau_0.5": {
+        "retained": 5870,
+        "retained_pct": 63.4,
+        "precision": 74.22,
+        "recall": 83.82,
+        "far": 37.26,
+        "accuracy": 74.58
+      },
+      "tau_0.7": {
+        "retained": 5559,
+        "retained_pct": 60.04,
+        "precision": 75.75,
+        "recall": 81.01,
+        "far": 33.19,
+        "accuracy": 74.78
+      },
+      "tau_0.8": {
+        "retained": 5256,
+        "retained_pct": 56.77,
+        "precision": 76.26,
+        "recall": 77.11,
+        "far": 30.73,
+        "accuracy": 73.67
+      },
+      "tau_0.85": {
+        "retained": 4935,
+        "retained_pct": 53.3,
+        "precision": 76.88,
+        "recall": 72.99,
+        "far": 28.1,
+        "accuracy": 72.51
+      },
+      "tau_0.9": {
+        "retained": 4560,
+        "retained_pct": 49.25,
+        "precision": 78.46,
+        "recall": 68.83,
+        "far": 24.18,
+        "accuracy": 71.9
+      },
+      "tau_0.95": {
+        "retained": 3593,
+        "retained_pct": 38.81,
+        "precision": 78.4,
+        "recall": 54.19,
+        "far": 19.11,
+        "accuracy": 65.9
+      },
+      "tau_1.0": {
+        "retained": 674,
+        "retained_pct": 7.28,
+        "precision": 83.09,
+        "recall": 10.77,
+        "far": 2.81,
+        "accuracy": 48.68
+      }
+    }
+  },
+  "test_clip_instances": {
+    "n": 33153,
+    "n_pos": 25936,
+    "n_neg": 7217,
+    "base_rate": 78.23,
+    "auroc": 0.717,
+    "auprc": 0.8674,
+    "brier": 0.1943,
+    "ece": 0.1699,
+    "spearman_rho": 0.1768,
+    "sweep": {
+      "tau_0.1": {
+        "retained": 28282,
+        "retained_pct": 85.31,
+        "precision": 84.2,
+        "recall": 91.82,
+        "far": 61.91,
+        "accuracy": 80.12
+      },
+      "tau_0.3": {
+        "retained": 27171,
+        "retained_pct": 81.96,
+        "precision": 84.91,
+        "recall": 88.96,
+        "far": 56.8,
+        "accuracy": 79.0
+      },
+      "tau_0.5": {
+        "retained": 26345,
+        "retained_pct": 79.46,
+        "precision": 85.07,
+        "recall": 86.41,
+        "far": 54.51,
+        "accuracy": 77.5
+      },
+      "tau_0.7": {
+        "retained": 24907,
+        "retained_pct": 75.13,
+        "precision": 85.21,
+        "recall": 81.83,
+        "far": 51.05,
+        "accuracy": 74.67
+      },
+      "tau_0.8": {
+        "retained": 22984,
+        "retained_pct": 69.33,
+        "precision": 86.63,
+        "recall": 76.77,
+        "far": 42.57,
+        "accuracy": 72.56
+      },
+      "tau_0.85": {
+        "retained": 20888,
+        "retained_pct": 63.0,
+        "precision": 86.79,
+        "recall": 69.9,
+        "far": 38.24,
+        "accuracy": 68.12
+      },
+      "tau_0.9": {
+        "retained": 19552,
+        "retained_pct": 58.98,
+        "precision": 87.51,
+        "recall": 65.97,
+        "far": 33.84,
+        "accuracy": 66.01
+      },
+      "tau_0.95": {
+        "retained": 17408,
+        "retained_pct": 52.51,
+        "precision": 88.47,
+        "recall": 59.38,
+        "far": 27.81,
+        "accuracy": 62.17
+      },
+      "tau_1.0": {
+        "retained": 835,
+        "retained_pct": 2.52,
+        "precision": 90.3,
+        "recall": 2.91,
+        "far": 1.12,
+        "accuracy": 23.8
+      }
+    }
+  }
+}

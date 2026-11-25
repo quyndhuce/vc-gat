@@ -1,0 +1,279 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/van_mieu_gate> onto:located_in <http://transmtl.vn/ent/f6fbb633> .
+
+<http://transmtl.vn/ent/2a20afe0> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thai_hoc_gate#courtyard> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thai_hoc_gate#fifth_and_final_courtyard> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thai_hoc_gate#its> onto:architectural_style <http://transmtl.vn/ent/437645a9> .
+
+<http://transmtl.vn/kb/thai_hoc_gate#gate> onto:on <http://transmtl.vn/ent/2c2bf458> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/9ec5e3e7> .
+
+<http://transmtl.vn/kb/thai_hoc_gate> onto:connects <http://transmtl.vn/ent/47ed4995>,
+        <http://transmtl.vn/ent/68e2d837> ;
+    onto:dedicated_to <http://transmtl.vn/ent/eb90dc9c> ;
+    onto:has_part <http://transmtl.vn/kb/thai_hoc_gate#courtyard>,
+        <http://transmtl.vn/kb/thai_hoc_gate#fifth_and_final_courtyard>,
+        <http://transmtl.vn/kb/thai_hoc_gate#gate>,
+        <http://transmtl.vn/kb/thai_hoc_gate#its> ;
+    onto:located_in <http://transmtl.vn/ent/f6fbb633> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:renovated_in <http://transmtl.vn/ent/5ec829de> ;
+    onto:used_as <http://transmtl.vn/ent/2a20afe0> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:destroyed_in <http://transmtl.vn/ent/cc175ee9> ;
+    onto:founded_in <http://transmtl.vn/ent/3c4ae94d> ;
+    onto:has_part <http://transmtl.vn/ent/21168512>,
+        <http://transmtl.vn/ent/2c2bf458> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3377 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/eb90dc9c> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2746 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7492 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/9ec5e3e7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2577 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4506 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate#its> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3907 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7597 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/68e2d837> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2819 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3799 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/3c4ae94d> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4879 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate#fifth_and_final_courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3229 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4414 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/21168512> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3137 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/437645a9> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate#its> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3069 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2734 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/cc175ee9> ;
+    rdf:predicate onto:destroyed_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4087 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8381 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3645 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/5ec829de> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5781 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.559 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6589 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/ent/47ed4995> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6572 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate#fifth_and_final_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2625 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/2a20afe0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3462 ;
+    fkg:docId "doc_ab4dce19c74e" ;
+    fkg:kbId "thai_hoc_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate#courtyard> .
+

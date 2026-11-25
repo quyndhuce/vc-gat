@@ -1,0 +1,95 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/2nd_floor_revolution#rooms> onto:part_of <http://transmtl.vn/ent/1b9b57f8> .
+
+<http://transmtl.vn/kb/2nd_floor_revolution> onto:has_part <http://transmtl.vn/kb/2nd_floor_revolution#images>,
+        <http://transmtl.vn/kb/2nd_floor_revolution#rooms>,
+        <http://transmtl.vn/kb/2nd_floor_revolution#simple_objects> .
+
+<http://transmtl.vn/kb/2nd_floor_revolution#images> onto:surrounded_by <http://transmtl.vn/ent/cd415b3c> .
+
+<http://transmtl.vn/kb/2nd_floor_revolution#simple_objects> onto:used_by <http://transmtl.vn/ent/afc4d1bd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/kb/2nd_floor_revolution#simple_objects> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/kb/2nd_floor_revolution#simple_objects> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7842 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/ent/afc4d1bd> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution#simple_objects> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/kb/2nd_floor_revolution#images> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/kb/2nd_floor_revolution#images> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2553 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/ent/1b9b57f8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution#rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/kb/2nd_floor_revolution#rooms> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3856 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/ent/afc4d1bd> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution#simple_objects> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2948 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/ent/cd415b3c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution#images> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7297 ;
+    fkg:docId "doc_e7763ed903d6" ;
+    fkg:kbId "2nd_floor_revolution" ;
+    rdf:object <http://transmtl.vn/ent/cd415b3c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution#images> .
+

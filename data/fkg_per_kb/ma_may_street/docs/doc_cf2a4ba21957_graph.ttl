@@ -1,0 +1,150 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/cb897c2c> onto:located_in <http://www.wikidata.org/entity/Q10796192> .
+
+<http://transmtl.vn/ent/f47eed95> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://www.wikidata.org/entity/Q10796192> .
+
+<http://www.wikidata.org/entity/Q10796192#antique_furniture> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q10796192#lacquer_paintings> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q10796192> onto:connects <http://transmtl.vn/ent/47ed4995>,
+        <http://transmtl.vn/ent/68e2d837> ;
+    onto:has_part <http://www.wikidata.org/entity/Q10796192#antique_furniture>,
+        <http://www.wikidata.org/entity/Q10796192#lacquer_paintings> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/f8b570df> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2729 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2565 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/68e2d837> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3235 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f47eed95> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2677 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192#antique_furniture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192#lacquer_paintings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3172 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/f47eed95> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2606 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/47ed4995> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2531 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3208 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/f8b570df> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3546 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb897c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2757 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4863 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3431 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192#antique_furniture> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2536 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192#lacquer_paintings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3077 ;
+    fkg:docId "doc_cf2a4ba21957" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+

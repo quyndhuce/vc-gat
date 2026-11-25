@@ -1,0 +1,170 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam#and> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam#arched_corners> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam#curved_eaves> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam#facade> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam#roof_tiles> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam#walls> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam> onto:has_part <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#and>,
+        <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#arched_corners>,
+        <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#curved_eaves>,
+        <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#facade>,
+        <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#roof_tiles>,
+        <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#walls> .
+
+<http://transmtl.vn/ent/eb0ea0bc> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6946 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3368 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3529 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#curved_eaves> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5146 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3405 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#arched_corners> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#roof_tiles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#arched_corners> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#roof_tiles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#curved_eaves> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#and> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2535 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#and> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2844 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#roof_tiles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4764 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#roof_tiles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3199 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#facade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7674 ;
+    fkg:docId "doc_167fbd01f814" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+

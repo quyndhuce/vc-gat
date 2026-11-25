@@ -1,0 +1,62 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/ceramic_painting#blue_glaze> onto:used_by <http://transmtl.vn/ent/abb45fdc> .
+
+<http://transmtl.vn/kb/ceramic_painting#stained_color_mixing_tray> onto:symbol_of <http://transmtl.vn/ent/b94c11ac> .
+
+<http://transmtl.vn/kb/ceramic_painting> onto:has_part <http://transmtl.vn/kb/ceramic_painting#blue_glaze>,
+        <http://transmtl.vn/kb/ceramic_painting#stained_color_mixing_tray> ;
+    onto:located_in <http://www.wikidata.org/entity/Q1319921> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_39c961d36b66" ;
+    fkg:kbId "ceramic_painting" ;
+    rdf:object <http://transmtl.vn/kb/ceramic_painting#stained_color_mixing_tray> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ceramic_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2573 ;
+    fkg:docId "doc_39c961d36b66" ;
+    fkg:kbId "ceramic_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ceramic_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3047 ;
+    fkg:docId "doc_39c961d36b66" ;
+    fkg:kbId "ceramic_painting" ;
+    rdf:object <http://transmtl.vn/ent/b94c11ac> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/ceramic_painting#stained_color_mixing_tray> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3736 ;
+    fkg:docId "doc_39c961d36b66" ;
+    fkg:kbId "ceramic_painting" ;
+    rdf:object <http://transmtl.vn/ent/abb45fdc> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/ceramic_painting#blue_glaze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_39c961d36b66" ;
+    fkg:kbId "ceramic_painting" ;
+    rdf:object <http://transmtl.vn/kb/ceramic_painting#blue_glaze> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ceramic_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2574 ;
+    fkg:docId "doc_39c961d36b66" ;
+    fkg:kbId "ceramic_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ceramic_painting> .
+

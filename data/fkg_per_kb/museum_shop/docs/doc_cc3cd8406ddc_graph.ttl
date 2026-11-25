@@ -1,0 +1,51 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/museum_shop> onto:located_in <http://transmtl.vn/ent/152649df> ;
+    onto:part_of <http://transmtl.vn/ent/1d4719fb>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/ent/eb0ea0bc> onto:located_in <http://transmtl.vn/ent/f5796276> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2953 ;
+    fkg:docId "doc_cc3cd8406ddc" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/f5796276> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2848 ;
+    fkg:docId "doc_cc3cd8406ddc" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6862 ;
+    fkg:docId "doc_cc3cd8406ddc" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/152649df> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4039 ;
+    fkg:docId "doc_cc3cd8406ddc" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/1d4719fb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5709 ;
+    fkg:docId "doc_cc3cd8406ddc" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/f5796276> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+

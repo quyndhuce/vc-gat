@@ -1,0 +1,63 @@
+{
+  "n_entities": 248,
+  "n_single_valued_groups": 2,
+  "n_multi_valued_facts": 19,
+  "n_metadata_facts": 0,
+  "n_evidence_single_valued": 5,
+  "n_evidence_multi_valued": 31,
+  "n_conflicts_flagged": 0,
+  "n_uri_merges": 0,
+  "n_ambiguous_pairs": 0,
+  "relation_summary": {
+    "symbol_of": {
+      "type": "single_valued",
+      "n_groups": 1,
+      "mean_K": 0.05,
+      "max_K": 0.05,
+      "n_flagged": 0
+    },
+    "founded_in": {
+      "type": "single_valued",
+      "n_groups": 1,
+      "mean_K": 0.0,
+      "max_K": 0.0,
+      "n_flagged": 0
+    },
+    "located_in": {
+      "type": "multi_valued",
+      "n_facts": 6,
+      "mean_mu": 0.4689,
+      "max_mu": 0.8281
+    },
+    "on": {
+      "type": "multi_valued",
+      "n_facts": 2,
+      "mean_mu": 0.2476,
+      "max_mu": 0.2751
+    },
+    "surrounded_by": {
+      "type": "multi_valued",
+      "n_facts": 3,
+      "mean_mu": 0.4373,
+      "max_mu": 0.6786
+    },
+    "has_part": {
+      "type": "multi_valued",
+      "n_facts": 4,
+      "mean_mu": 0.9465,
+      "max_mu": 0.9905
+    },
+    "part_of": {
+      "type": "multi_valued",
+      "n_facts": 3,
+      "mean_mu": 0.3264,
+      "max_mu": 0.4751
+    },
+    "near": {
+      "type": "multi_valued",
+      "n_facts": 1,
+      "mean_mu": 0.247,
+      "max_mu": 0.247
+    }
+  }
+}

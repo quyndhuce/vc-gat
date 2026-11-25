@@ -1,0 +1,2733 @@
+{
+  "scene_metadata": {
+    "scene_id": "scene_03",
+    "scene_index": 3,
+    "video_path": "/home/nguyendinhquy/OvSGTR/demo2.mp4",
+    "start_frame": 179,
+    "end_frame": 320,
+    "start_seconds": 7.16,
+    "end_seconds": 12.8,
+    "duration_seconds": 5.64,
+    "num_keyframes": 4,
+    "fps": 25.0
+  },
+  "tracked_entities": [
+    {
+      "track_id": "T01",
+      "detector_label": "building",
+      "detector_score": 0.4073,
+      "siglip2_label": "Buddhist pagoda",
+      "siglip2_concept_id": "pagoda",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "concrete",
+          "label_en": "concrete",
+          "confidence": 0.2087
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.7233
+        }
+      },
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 207,
+          "box_2d": [
+            560.11,
+            101.26,
+            1607.12,
+            1075.53
+          ],
+          "score": 0.4073
+        },
+        {
+          "frame_idx": 235,
+          "box_2d": [
+            581.39,
+            100.42,
+            1583.91,
+            1075.68
+          ],
+          "score": 0.4024
+        },
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            605.79,
+            68.52,
+            1561.66,
+            1070.4
+          ],
+          "score": 0.377
+        },
+        {
+          "frame_idx": 291,
+          "box_2d": [
+            626.78,
+            37.06,
+            1539.67,
+            984.54
+          ],
+          "score": 0.3256
+        }
+      ]
+    },
+    {
+      "track_id": "T02",
+      "detector_label": "roof",
+      "detector_score": 0.3895,
+      "siglip2_label": "Buddhist pagoda",
+      "siglip2_concept_id": "pagoda",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "concrete",
+          "label_en": "concrete",
+          "confidence": 0.2786
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.8409
+        }
+      },
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 207,
+          "box_2d": [
+            567.13,
+            103.09,
+            1606.71,
+            696.2
+          ],
+          "score": 0.3895
+        },
+        {
+          "frame_idx": 235,
+          "box_2d": [
+            585.9,
+            101.19,
+            1581.89,
+            728.78
+          ],
+          "score": 0.3693
+        },
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            609.4,
+            69.29,
+            1558.65,
+            715.76
+          ],
+          "score": 0.3328
+        },
+        {
+          "frame_idx": 291,
+          "box_2d": [
+            629.48,
+            39.52,
+            1538.17,
+            696.35
+          ],
+          "score": 0.3384
+        }
+      ]
+    },
+    {
+      "track_id": "T03",
+      "detector_label": "tree",
+      "detector_score": 0.3556,
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 207,
+          "box_2d": [
+            1.82,
+            0.27,
+            1919.92,
+            688.44
+          ],
+          "score": 0.3325
+        },
+        {
+          "frame_idx": 235,
+          "box_2d": [
+            2.11,
+            0.72,
+            1919.65,
+            710.21
+          ],
+          "score": 0.3556
+        },
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            2.13,
+            0.79,
+            1918.05,
+            1075.37
+          ],
+          "score": 0.2816
+        },
+        {
+          "frame_idx": 291,
+          "box_2d": [
+            2.97,
+            -0.2,
+            1919.22,
+            911.9
+          ],
+          "score": 0.2431
+        }
+      ]
+    },
+    {
+      "track_id": "T04",
+      "detector_label": "tree",
+      "detector_score": 0.2895,
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 207,
+          "box_2d": [
+            1.41,
+            0.29,
+            648.76,
+            682.41
+          ],
+          "score": 0.2512
+        },
+        {
+          "frame_idx": 235,
+          "box_2d": [
+            1.19,
+            -0.04,
+            650.93,
+            598.52
+          ],
+          "score": 0.2339
+        },
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            1.49,
+            0.38,
+            657.58,
+            483.23
+          ],
+          "score": 0.2895
+        },
+        {
+          "frame_idx": 291,
+          "box_2d": [
+            1.57,
+            0.58,
+            662.83,
+            336.29
+          ],
+          "score": 0.2803
+        }
+      ]
+    },
+    {
+      "track_id": "T05",
+      "detector_label": "person",
+      "detector_score": 0.2158,
+      "siglip2_label": "person",
+      "siglip2_concept_id": "person",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        207
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 207,
+          "box_2d": [
+            1677.31,
+            509.54,
+            1825.99,
+            629.88
+          ],
+          "score": 0.2158
+        }
+      ]
+    },
+    {
+      "track_id": "T06",
+      "detector_label": "person",
+      "detector_score": 0.2105,
+      "siglip2_label": "person",
+      "siglip2_concept_id": "person",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        207,
+        235,
+        263
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 207,
+          "box_2d": [
+            1451.15,
+            699.27,
+            1508.54,
+            817.45
+          ],
+          "score": 0.2084
+        },
+        {
+          "frame_idx": 235,
+          "box_2d": [
+            1429.73,
+            616.72,
+            1485.86,
+            726.86
+          ],
+          "score": 0.2105
+        },
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            1413.41,
+            513.13,
+            1477.21,
+            610.94
+          ],
+          "score": 0.2073
+        }
+      ]
+    },
+    {
+      "track_id": "T07",
+      "detector_label": "tree",
+      "detector_score": 0.3324,
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        235,
+        263,
+        291
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 235,
+          "box_2d": [
+            1594.46,
+            -0.38,
+            1919.33,
+            707.12
+          ],
+          "score": 0.2359
+        },
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            1573.56,
+            0.06,
+            1919.56,
+            1002.66
+          ],
+          "score": 0.2259
+        },
+        {
+          "frame_idx": 291,
+          "box_2d": [
+            1557.15,
+            -0.11,
+            1919.56,
+            904.75
+          ],
+          "score": 0.3324
+        }
+      ]
+    },
+    {
+      "track_id": "T08",
+      "detector_label": "water",
+      "detector_score": 0.2766,
+      "siglip2_label": "water",
+      "siglip2_concept_id": "water",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        263,
+        291
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            1261.18,
+            834.2,
+            1520.74,
+            1076.75
+          ],
+          "score": 0.2472
+        },
+        {
+          "frame_idx": 291,
+          "box_2d": [
+            0.26,
+            636.08,
+            403.22,
+            1077.25
+          ],
+          "score": 0.2766
+        }
+      ]
+    },
+    {
+      "track_id": "T09",
+      "detector_label": "water",
+      "detector_score": 0.2331,
+      "siglip2_label": "water",
+      "siglip2_concept_id": "water",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        263
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            0.33,
+            764.75,
+            241.73,
+            1076.98
+          ],
+          "score": 0.2331
+        }
+      ]
+    },
+    {
+      "track_id": "T10",
+      "detector_label": "gate",
+      "detector_score": 0.2165,
+      "siglip2_label": "something else",
+      "siglip2_concept_id": "bg_other",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "brick",
+          "label_en": "brick",
+          "confidence": 0.491
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.8755
+        }
+      },
+      "frames_observed": [
+        263
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 263,
+          "box_2d": [
+            1292.72,
+            554.34,
+            1402.9,
+            677.12
+          ],
+          "score": 0.2165
+        }
+      ]
+    },
+    {
+      "track_id": "T11",
+      "detector_label": "lake",
+      "detector_score": 0.2998,
+      "siglip2_label": "lake",
+      "siglip2_concept_id": "lake",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        291
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 291,
+          "box_2d": [
+            0.26,
+            636.08,
+            403.22,
+            1077.25
+          ],
+          "score": 0.2998
+        }
+      ]
+    }
+  ],
+  "scene_level_relations": [
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T02 (Buddhist pagoda) -> on -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.1605,
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T10",
+      "subject_siglip2_label": "something else",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T10 (something else) -> on -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.1168,
+      "frames_observed": [
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T06 (person) -> on -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.1141,
+      "frames_observed": [
+        207,
+        235,
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "person",
+      "predicate": "in",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T05 (person) -> in -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.1045,
+      "frames_observed": [
+        207
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T03 (tree) -> above -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.1035,
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "on",
+      "object_track_id": "T08",
+      "object_siglip2_label": "water",
+      "refined_triple": "T01 (Buddhist pagoda) -> on -> T08 (water)",
+      "max_confidence": 0.0935,
+      "frames_observed": [
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "tree",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T07 (tree) -> near -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.0886,
+      "frames_observed": [
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "on",
+      "object_track_id": "T02",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T01 (Buddhist pagoda) -> on -> T02 (Buddhist pagoda)",
+      "max_confidence": 0.0842,
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T11",
+      "subject_siglip2_label": "lake",
+      "predicate": "on",
+      "object_track_id": "T08",
+      "object_siglip2_label": "water",
+      "refined_triple": "T11 (lake) -> on -> T08 (water)",
+      "max_confidence": 0.0812,
+      "frames_observed": [
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "water",
+      "predicate": "on",
+      "object_track_id": "T11",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T08 (water) -> on -> T11 (lake)",
+      "max_confidence": 0.0812,
+      "frames_observed": [
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "tree",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T04 (tree) -> near -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.0782,
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T02",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T03 (tree) -> above -> T02 (Buddhist pagoda)",
+      "max_confidence": 0.0768,
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "near",
+      "object_track_id": "T03",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T01 (Buddhist pagoda) -> near -> T03 (tree)",
+      "max_confidence": 0.0744,
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "tree",
+      "predicate": "near",
+      "object_track_id": "T03",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T07 (tree) -> near -> T03 (tree)",
+      "max_confidence": 0.0645,
+      "frames_observed": [
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "on",
+      "object_track_id": "T10",
+      "object_siglip2_label": "something else",
+      "refined_triple": "T01 (Buddhist pagoda) -> on -> T10 (something else)",
+      "max_confidence": 0.0642,
+      "frames_observed": [
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T08 (water) -> near -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.0638,
+      "frames_observed": [
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "tree",
+      "predicate": "near",
+      "object_track_id": "T03",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T04 (tree) -> near -> T03 (tree)",
+      "max_confidence": 0.0636,
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T02 (Buddhist pagoda) -> on -> T03 (tree)",
+      "max_confidence": 0.0623,
+      "frames_observed": [
+        207,
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "on",
+      "object_track_id": "T06",
+      "object_siglip2_label": "person",
+      "refined_triple": "T01 (Buddhist pagoda) -> on -> T06 (person)",
+      "max_confidence": 0.059,
+      "frames_observed": [
+        207,
+        235,
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "near",
+      "object_track_id": "T07",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T01 (Buddhist pagoda) -> near -> T07 (tree)",
+      "max_confidence": 0.0588,
+      "frames_observed": [
+        235,
+        263,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "near",
+      "object_track_id": "T04",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T01 (Buddhist pagoda) -> near -> T04 (tree)",
+      "max_confidence": 0.0549,
+      "frames_observed": [
+        207,
+        235,
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T07",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T03 (tree) -> above -> T07 (tree)",
+      "max_confidence": 0.0538,
+      "frames_observed": [
+        235,
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T06 (person) -> on -> T03 (tree)",
+      "max_confidence": 0.0531,
+      "frames_observed": [
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T04",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T03 (tree) -> above -> T04 (tree)",
+      "max_confidence": 0.053,
+      "frames_observed": [
+        207,
+        235,
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T02",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T06 (person) -> on -> T02 (Buddhist pagoda)",
+      "max_confidence": 0.0523,
+      "frames_observed": [
+        235,
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "on",
+      "object_track_id": "T09",
+      "object_siglip2_label": "water",
+      "refined_triple": "T01 (Buddhist pagoda) -> on -> T09 (water)",
+      "max_confidence": 0.0523,
+      "frames_observed": [
+        263
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "predicate": "on",
+      "object_track_id": "T11",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T01 (Buddhist pagoda) -> on -> T11 (lake)",
+      "max_confidence": 0.0516,
+      "frames_observed": [
+        291
+      ]
+    },
+    {
+      "subject_track_id": "T11",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Buddhist pagoda",
+      "refined_triple": "T11 (lake) -> near -> T01 (Buddhist pagoda)",
+      "max_confidence": 0.0501,
+      "frames_observed": [
+        291
+      ]
+    }
+  ],
+  "keyframes": [
+    {
+      "frame_idx": 207,
+      "timestamp_sec": 8.28,
+      "image_path": "demo2_output/scene_03/frame_000207.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            560.11,
+            101.26,
+            1607.12,
+            1075.53
+          ],
+          "detector_label": "building",
+          "detector_score": 0.4073,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Buddhist pagoda",
+          "siglip2_concept_id": "pagoda",
+          "refined_concept": {
+            "id": "pagoda",
+            "label_en": "Buddhist pagoda",
+            "description": "a Buddhist pagoda with curved tiled roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.6087,
+            "runner_up": {
+              "id": "stele_house",
+              "label_en": "stele pavilion",
+              "siglip2_confidence": 0.1734
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.2087
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.7233
+            }
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            567.13,
+            103.09,
+            1606.71,
+            696.2
+          ],
+          "detector_label": "roof",
+          "detector_score": 0.3895,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Buddhist pagoda",
+          "siglip2_concept_id": "pagoda",
+          "refined_concept": {
+            "id": "pagoda",
+            "label_en": "Buddhist pagoda",
+            "description": "a Buddhist pagoda with curved tiled roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.7828,
+            "runner_up": {
+              "id": "temple_den",
+              "label_en": "Vietnamese temple",
+              "siglip2_confidence": 0.0943
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.2786
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.8409
+            }
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            1.82,
+            0.27,
+            1919.92,
+            688.44
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.3325,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            1.41,
+            0.29,
+            648.76,
+            682.41
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2512,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1677.31,
+            509.54,
+            1825.99,
+            629.88
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2158,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T05"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            1451.15,
+            699.27,
+            1508.54,
+            817.45
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2084,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T06"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1605,
+          "rel_score": 0.4029,
+          "detector_triple": "T02 (roof) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T02 (Buddhist pagoda) -> on -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1095,
+          "rel_score": 0.3757,
+          "detector_triple": "T06 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T06 (person) -> on -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "in",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1045,
+          "rel_score": 0.3525,
+          "detector_triple": "T05 (person) -> in -> T01 (building)",
+          "siglip2_refined_triple": "T05 (person) -> in -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1035,
+          "rel_score": 0.2814,
+          "detector_triple": "T03 (tree) -> above -> T01 (building)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0842,
+          "rel_score": 0.2113,
+          "detector_triple": "T01 (building) -> on -> T02 (roof)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0768,
+          "rel_score": 0.2134,
+          "detector_triple": "T03 (tree) -> above -> T02 (roof)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.076,
+          "rel_score": 0.2375,
+          "detector_triple": "T04 (tree) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T04 (tree) -> near -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0703,
+          "rel_score": 0.191,
+          "detector_triple": "T01 (building) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0598,
+          "rel_score": 0.2069,
+          "detector_triple": "T04 (tree) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T04 (tree) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0572,
+          "rel_score": 0.1588,
+          "detector_triple": "T02 (roof) -> on -> T03 (tree)",
+          "siglip2_refined_triple": "T02 (Buddhist pagoda) -> on -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.056,
+          "rel_score": 0.1923,
+          "detector_triple": "T01 (building) -> on -> T06 (person)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T06 (person)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T04",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0539,
+          "rel_score": 0.1685,
+          "detector_triple": "T01 (building) -> near -> T04 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T04 (tree)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T04",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0525,
+          "rel_score": 0.1816,
+          "detector_triple": "T03 (tree) -> above -> T04 (tree)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T04 (tree)"
+        }
+      ]
+    },
+    {
+      "frame_idx": 235,
+      "timestamp_sec": 9.4,
+      "image_path": "demo2_output/scene_03/frame_000235.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            581.39,
+            100.42,
+            1583.91,
+            1075.68
+          ],
+          "detector_label": "building",
+          "detector_score": 0.4024,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Buddhist pagoda",
+          "siglip2_concept_id": "pagoda",
+          "refined_concept": {
+            "id": "pagoda",
+            "label_en": "Buddhist pagoda",
+            "description": "a Buddhist pagoda with curved tiled roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.5563,
+            "runner_up": {
+              "id": "temple_den",
+              "label_en": "Vietnamese temple",
+              "siglip2_confidence": 0.1873
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "brick",
+              "label_en": "brick",
+              "confidence": 0.4695
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.5911
+            }
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            585.9,
+            101.19,
+            1581.89,
+            728.78
+          ],
+          "detector_label": "roof",
+          "detector_score": 0.3693,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Buddhist pagoda",
+          "siglip2_concept_id": "pagoda",
+          "refined_concept": {
+            "id": "pagoda",
+            "label_en": "Buddhist pagoda",
+            "description": "a Buddhist pagoda with curved tiled roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.7481,
+            "runner_up": {
+              "id": "temple_den",
+              "label_en": "Vietnamese temple",
+              "siglip2_confidence": 0.1295
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "brick",
+              "label_en": "brick",
+              "confidence": 0.3182
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.6872
+            }
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            2.11,
+            0.72,
+            1919.65,
+            710.21
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.3556,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            1594.46,
+            -0.38,
+            1919.33,
+            707.12
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2359,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T07"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1.19,
+            -0.04,
+            650.93,
+            598.52
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2339,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            1429.73,
+            616.72,
+            1485.86,
+            726.86
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2105,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T06"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1582,
+          "rel_score": 0.4104,
+          "detector_triple": "T02 (roof) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T02 (Buddhist pagoda) -> on -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1135,
+          "rel_score": 0.3901,
+          "detector_triple": "T06 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T06 (person) -> on -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1012,
+          "rel_score": 0.2676,
+          "detector_triple": "T03 (tree) -> above -> T01 (building)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0833,
+          "rel_score": 0.2702,
+          "detector_triple": "T07 (tree) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T07 (tree) -> near -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.081,
+          "rel_score": 0.2102,
+          "detector_triple": "T01 (building) -> on -> T02 (roof)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0744,
+          "rel_score": 0.1968,
+          "detector_triple": "T01 (building) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0723,
+          "rel_score": 0.2355,
+          "detector_triple": "T04 (tree) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T04 (tree) -> near -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0717,
+          "rel_score": 0.1979,
+          "detector_triple": "T03 (tree) -> above -> T02 (roof)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0602,
+          "rel_score": 0.2079,
+          "detector_triple": "T07 (tree) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T07 (tree) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0595,
+          "rel_score": 0.2062,
+          "detector_triple": "T04 (tree) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T04 (tree) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T07",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0588,
+          "rel_score": 0.1908,
+          "detector_triple": "T01 (building) -> near -> T07 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T07 (tree)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.058,
+          "rel_score": 0.16,
+          "detector_triple": "T02 (roof) -> on -> T03 (tree)",
+          "siglip2_refined_triple": "T02 (Buddhist pagoda) -> on -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0573,
+          "rel_score": 0.1968,
+          "detector_triple": "T01 (building) -> on -> T06 (person)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T06 (person)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T07",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0538,
+          "rel_score": 0.1856,
+          "detector_triple": "T03 (tree) -> above -> T07 (tree)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T07 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T04",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0528,
+          "rel_score": 0.1722,
+          "detector_triple": "T01 (building) -> near -> T04 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T04 (tree)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0509,
+          "rel_score": 0.1827,
+          "detector_triple": "T06 (person) -> on -> T02 (roof)",
+          "siglip2_refined_triple": "T06 (person) -> on -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T04",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0507,
+          "rel_score": 0.1758,
+          "detector_triple": "T03 (tree) -> above -> T04 (tree)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T04 (tree)"
+        }
+      ]
+    },
+    {
+      "frame_idx": 263,
+      "timestamp_sec": 10.52,
+      "image_path": "demo2_output/scene_03/frame_000263.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            605.79,
+            68.52,
+            1561.66,
+            1070.4
+          ],
+          "detector_label": "building",
+          "detector_score": 0.377,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Buddhist pagoda",
+          "siglip2_concept_id": "pagoda",
+          "refined_concept": {
+            "id": "pagoda",
+            "label_en": "Buddhist pagoda",
+            "description": "a Buddhist pagoda with curved tiled roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.6362,
+            "runner_up": {
+              "id": "stele_house",
+              "label_en": "stele pavilion",
+              "siglip2_confidence": 0.1832
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "brick",
+              "label_en": "brick",
+              "confidence": 0.3627
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.5158
+            }
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            609.4,
+            69.29,
+            1558.65,
+            715.76
+          ],
+          "detector_label": "roof",
+          "detector_score": 0.3328,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Buddhist pagoda",
+          "siglip2_concept_id": "pagoda",
+          "refined_concept": {
+            "id": "pagoda",
+            "label_en": "Buddhist pagoda",
+            "description": "a Buddhist pagoda with curved tiled roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.6025,
+            "runner_up": {
+              "id": "roof_dragon_ornament",
+              "label_en": "dragon roof ornament",
+              "siglip2_confidence": 0.2698
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "stone",
+              "label_en": "stone",
+              "confidence": 0.2306
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.4241
+            }
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            1.49,
+            0.38,
+            657.58,
+            483.23
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2895,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            2.13,
+            0.79,
+            1918.05,
+            1075.37
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2816,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1261.18,
+            834.2,
+            1520.74,
+            1076.75
+          ],
+          "detector_label": "water",
+          "detector_score": 0.2472,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "water",
+          "siglip2_concept_id": "water",
+          "refined_concept": {
+            "id": "water",
+            "label_en": "water",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T08"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            0.33,
+            764.75,
+            241.73,
+            1076.98
+          ],
+          "detector_label": "water",
+          "detector_score": 0.2331,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "water",
+          "siglip2_concept_id": "water",
+          "refined_concept": {
+            "id": "water",
+            "label_en": "water",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T09"
+        },
+        {
+          "node_idx": 6,
+          "orig_idx": 6,
+          "box_2d": [
+            1573.56,
+            0.06,
+            1919.56,
+            1002.66
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2259,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T07"
+        },
+        {
+          "node_idx": 7,
+          "orig_idx": 7,
+          "box_2d": [
+            1292.72,
+            554.34,
+            1402.9,
+            677.12
+          ],
+          "detector_label": "gate",
+          "detector_score": 0.2165,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "something else",
+          "siglip2_concept_id": "bg_other",
+          "refined_concept": {
+            "id": "bg_other",
+            "label_en": "something else",
+            "description": "an unrelated object",
+            "group": "background",
+            "siglip2_confidence": 0.229,
+            "runner_up": {
+              "id": "charcoal_grill",
+              "label_en": "charcoal grill",
+              "siglip2_confidence": 0.0962
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "brick",
+              "label_en": "brick",
+              "confidence": 0.491
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.8755
+            }
+          },
+          "track_id": "T10"
+        },
+        {
+          "node_idx": 8,
+          "orig_idx": 8,
+          "box_2d": [
+            1413.41,
+            513.13,
+            1477.21,
+            610.94
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2073,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T06"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1452,
+          "rel_score": 0.41,
+          "detector_triple": "T02 (roof) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T02 (Buddhist pagoda) -> on -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T10",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "something else",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1168,
+          "rel_score": 0.4088,
+          "detector_triple": "T10 (gate) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T10 (something else) -> on -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1141,
+          "rel_score": 0.408,
+          "detector_triple": "T06 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T06 (person) -> on -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T08",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0935,
+          "rel_score": 0.3064,
+          "detector_triple": "T01 (building) -> on -> T08 (water)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T08 (water)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0862,
+          "rel_score": 0.2954,
+          "detector_triple": "T07 (tree) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T07 (tree) -> near -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0824,
+          "rel_score": 0.2529,
+          "detector_triple": "T03 (tree) -> above -> T01 (building)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0782,
+          "rel_score": 0.2368,
+          "detector_triple": "T04 (tree) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T04 (tree) -> near -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0764,
+          "rel_score": 0.2157,
+          "detector_triple": "T01 (building) -> on -> T02 (roof)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0707,
+          "rel_score": 0.217,
+          "detector_triple": "T01 (building) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T10",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "something else",
+          "confidence": 0.0642,
+          "rel_score": 0.2247,
+          "detector_triple": "T01 (building) -> on -> T10 (gate)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T10 (something else)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0638,
+          "rel_score": 0.2089,
+          "detector_triple": "T08 (water) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T08 (water) -> near -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0636,
+          "rel_score": 0.2228,
+          "detector_triple": "T04 (tree) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T04 (tree) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0623,
+          "rel_score": 0.2034,
+          "detector_triple": "T02 (roof) -> on -> T03 (tree)",
+          "siglip2_refined_triple": "T02 (Buddhist pagoda) -> on -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.062,
+          "rel_score": 0.2457,
+          "detector_triple": "T07 (tree) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T07 (tree) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.059,
+          "rel_score": 0.2111,
+          "detector_triple": "T01 (building) -> on -> T06 (person)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T06 (person)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0586,
+          "rel_score": 0.1913,
+          "detector_triple": "T03 (tree) -> above -> T02 (roof)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T07",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.056,
+          "rel_score": 0.1918,
+          "detector_triple": "T01 (building) -> near -> T07 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T07 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T04",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0549,
+          "rel_score": 0.1663,
+          "detector_triple": "T01 (building) -> near -> T04 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T04 (tree)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0531,
+          "rel_score": 0.2196,
+          "detector_triple": "T06 (person) -> on -> T03 (tree)",
+          "siglip2_refined_triple": "T06 (person) -> on -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T04",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.053,
+          "rel_score": 0.1857,
+          "detector_triple": "T03 (tree) -> above -> T04 (tree)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T04 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T09",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0523,
+          "rel_score": 0.1764,
+          "detector_triple": "T01 (building) -> on -> T09 (water)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T09 (water)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0523,
+          "rel_score": 0.199,
+          "detector_triple": "T06 (person) -> on -> T02 (roof)",
+          "siglip2_refined_triple": "T06 (person) -> on -> T02 (Buddhist pagoda)"
+        }
+      ]
+    },
+    {
+      "frame_idx": 291,
+      "timestamp_sec": 11.64,
+      "image_path": "demo2_output/scene_03/frame_000291.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            629.48,
+            39.52,
+            1538.17,
+            696.35
+          ],
+          "detector_label": "roof",
+          "detector_score": 0.3384,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Buddhist pagoda",
+          "siglip2_concept_id": "pagoda",
+          "refined_concept": {
+            "id": "pagoda",
+            "label_en": "Buddhist pagoda",
+            "description": "a Buddhist pagoda with curved tiled roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.7911,
+            "runner_up": {
+              "id": "temple_den",
+              "label_en": "Vietnamese temple",
+              "siglip2_confidence": 0.0476
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "brick",
+              "label_en": "brick",
+              "confidence": 0.4406
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.5052
+            }
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            1557.15,
+            -0.11,
+            1919.56,
+            904.75
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.3324,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T07"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            626.78,
+            37.06,
+            1539.67,
+            984.54
+          ],
+          "detector_label": "building",
+          "detector_score": 0.3256,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Buddhist pagoda",
+          "siglip2_concept_id": "pagoda",
+          "refined_concept": {
+            "id": "pagoda",
+            "label_en": "Buddhist pagoda",
+            "description": "a Buddhist pagoda with curved tiled roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.5683,
+            "runner_up": {
+              "id": "stele_house",
+              "label_en": "stele pavilion",
+              "siglip2_confidence": 0.209
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "brick",
+              "label_en": "brick",
+              "confidence": 0.3761
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.4528
+            }
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            0.26,
+            636.08,
+            403.22,
+            1077.25
+          ],
+          "detector_label": "lake",
+          "detector_score": 0.2998,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "lake",
+          "siglip2_concept_id": "lake",
+          "refined_concept": {
+            "id": "lake",
+            "label_en": "lake",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T11"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1.57,
+            0.58,
+            662.83,
+            336.29
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2803,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            0.26,
+            636.08,
+            403.22,
+            1077.25
+          ],
+          "detector_label": "water",
+          "detector_score": 0.2766,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "water",
+          "siglip2_concept_id": "water",
+          "refined_concept": {
+            "id": "water",
+            "label_en": "water",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T08"
+        },
+        {
+          "node_idx": 6,
+          "orig_idx": 6,
+          "box_2d": [
+            2.97,
+            -0.2,
+            1919.22,
+            911.9
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2431,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T03"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.1216,
+          "rel_score": 0.3662,
+          "detector_triple": "T02 (roof) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T02 (Buddhist pagoda) -> on -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0886,
+          "rel_score": 0.2693,
+          "detector_triple": "T07 (tree) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T07 (tree) -> near -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "on",
+          "object_track_id": "T08",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0812,
+          "rel_score": 0.282,
+          "detector_triple": "T11 (lake) -> on -> T08 (water)",
+          "siglip2_refined_triple": "T11 (lake) -> on -> T08 (water)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "on",
+          "object_track_id": "T11",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0812,
+          "rel_score": 0.282,
+          "detector_triple": "T08 (water) -> on -> T11 (lake)",
+          "siglip2_refined_triple": "T08 (water) -> on -> T11 (lake)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0777,
+          "rel_score": 0.234,
+          "detector_triple": "T01 (building) -> on -> T02 (roof)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0714,
+          "rel_score": 0.2539,
+          "detector_triple": "T03 (tree) -> above -> T01 (building)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0645,
+          "rel_score": 0.2136,
+          "detector_triple": "T04 (tree) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T04 (tree) -> near -> T01 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0645,
+          "rel_score": 0.2269,
+          "detector_triple": "T07 (tree) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T07 (tree) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T02",
+          "object_detector_label": "roof",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0613,
+          "rel_score": 0.2136,
+          "detector_triple": "T03 (tree) -> above -> T02 (roof)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T02 (Buddhist pagoda)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T07",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0556,
+          "rel_score": 0.1689,
+          "detector_triple": "T01 (building) -> near -> T07 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T07 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0552,
+          "rel_score": 0.1963,
+          "detector_triple": "T01 (building) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0535,
+          "rel_score": 0.1867,
+          "detector_triple": "T02 (roof) -> on -> T03 (tree)",
+          "siglip2_refined_triple": "T02 (Buddhist pagoda) -> on -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T07",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0526,
+          "rel_score": 0.185,
+          "detector_triple": "T03 (tree) -> above -> T07 (tree)",
+          "siglip2_refined_triple": "T03 (tree) -> above -> T07 (tree)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0521,
+          "rel_score": 0.1997,
+          "detector_triple": "T04 (tree) -> near -> T03 (tree)",
+          "siglip2_refined_triple": "T04 (tree) -> near -> T03 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Buddhist pagoda",
+          "predicate": "on",
+          "object_track_id": "T11",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0516,
+          "rel_score": 0.1652,
+          "detector_triple": "T01 (building) -> on -> T11 (lake)",
+          "siglip2_refined_triple": "T01 (Buddhist pagoda) -> on -> T11 (lake)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Buddhist pagoda",
+          "confidence": 0.0501,
+          "rel_score": 0.1603,
+          "detector_triple": "T11 (lake) -> near -> T01 (building)",
+          "siglip2_refined_triple": "T11 (lake) -> near -> T01 (Buddhist pagoda)"
+        }
+      ]
+    }
+  ]
+}

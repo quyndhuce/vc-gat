@@ -1,0 +1,135 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0439e983> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/41a555ee> onto:near <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+<http://transmtl.vn/ent/8f673d54> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/90189e4d> onto:near <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/582b795a>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:near <http://transmtl.vn/ent/90189e4d> ;
+    onto:surrounded_by <http://transmtl.vn/ent/41e253b3>,
+        <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2578 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/90189e4d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8758 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/41e253b3> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2651 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0439e983> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2952 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2815 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/41a555ee> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4263 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8904 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8897 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4279 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/90189e4d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2568 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3715 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8065 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3525 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8f673d54> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2917 ;
+    fkg:docId "doc_35afe986fc99" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+

@@ -1,0 +1,72 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/ebd556e6> onto:over <http://transmtl.vn/kb/tay_ho_temple> .
+
+<http://transmtl.vn/ent/9c02c638> onto:on <http://transmtl.vn/kb/tay_ho_temple> ;
+    onto:overlooks <http://transmtl.vn/kb/tay_ho_temple> ;
+    onto:symbol_of <http://transmtl.vn/kb/ancient_malayan_banyan_tree> .
+
+<http://transmtl.vn/kb/ancient_malayan_banyan_tree> onto:located_in <http://transmtl.vn/ent/e05eebf4>,
+        <http://transmtl.vn/kb/tay_ho_temple> .
+
+<http://transmtl.vn/kb/tay_ho_temple> onto:located_in <http://transmtl.vn/ent/e05eebf4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6687 ;
+    fkg:docId "doc_6bfb36cea403" ;
+    fkg:kbId "ancient_malayan_banyan_tree" ;
+    rdf:object <http://transmtl.vn/kb/ancient_malayan_banyan_tree> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/ent/9c02c638> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3057 ;
+    fkg:docId "doc_6bfb36cea403" ;
+    fkg:kbId "ancient_malayan_banyan_tree" ;
+    rdf:object <http://transmtl.vn/ent/e05eebf4> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4251 ;
+    fkg:docId "doc_6bfb36cea403" ;
+    fkg:kbId "ancient_malayan_banyan_tree" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/ent/ebd556e6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5368 ;
+    fkg:docId "doc_6bfb36cea403" ;
+    fkg:kbId "ancient_malayan_banyan_tree" ;
+    rdf:object <http://transmtl.vn/ent/e05eebf4> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ancient_malayan_banyan_tree> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2991 ;
+    fkg:docId "doc_6bfb36cea403" ;
+    fkg:kbId "ancient_malayan_banyan_tree" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/ent/9c02c638> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3098 ;
+    fkg:docId "doc_6bfb36cea403" ;
+    fkg:kbId "ancient_malayan_banyan_tree" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/9c02c638> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4542 ;
+    fkg:docId "doc_6bfb36cea403" ;
+    fkg:kbId "ancient_malayan_banyan_tree" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ancient_malayan_banyan_tree> .
+

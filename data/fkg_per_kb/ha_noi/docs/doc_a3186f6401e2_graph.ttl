@@ -1,0 +1,292 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/02482948> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/63960604> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/c4a790e6> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/e05eebf4> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/4ed5d2ea> onto:near <http://transmtl.vn/kb/west_lake>,
+        <http://www.wikidata.org/entity/Q1151254> .
+
+<http://www.wikidata.org/entity/Q1858> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/west_lake> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:ruled_by <http://transmtl.vn/ent/5e232f5c> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/68658f61> ;
+    onto:ruled_by <http://transmtl.vn/ent/5e232f5c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4178 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/02482948> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4024 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3177 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3975 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4874 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5e232f5c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4622 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2633 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/68658f61> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3287 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2795 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2772 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/e05eebf4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6389 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.594 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2793 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/63960604> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4989 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6617 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5e232f5c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5769 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3159 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2523 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4869 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4505 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6684 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5373 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5e232f5c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3064 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5806 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2637 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.942 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5558 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3616 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7423 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2801 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c4a790e6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3548 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3477 ;
+    fkg:docId "doc_a3186f6401e2" ;
+    fkg:kbId "ha_noi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+

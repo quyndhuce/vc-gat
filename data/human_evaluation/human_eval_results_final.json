@@ -1,0 +1,607 @@
+{
+  "overall_summary": {
+    "ours": {
+      "factual_correctness": [
+        4.253333333333333,
+        0.6448427887649999
+      ],
+      "scene_relevance": [
+        4.576666666666667,
+        0.5922743358350832
+      ],
+      "informativeness": [
+        3.18,
+        0.7354817015625429
+      ],
+      "appropriate_specificity": [
+        4.636666666666667,
+        0.7103911285732357
+      ],
+      "overall_mean": [
+        4.161666666666667,
+        0.8919251961658867
+      ]
+    },
+    "vlm_rag": {
+      "factual_correctness": [
+        1.6566666666666667,
+        0.9011782410945252
+      ],
+      "scene_relevance": [
+        1.4833333333333334,
+        0.7893386824143078
+      ],
+      "informativeness": [
+        2.46,
+        0.9941830817309254
+      ],
+      "appropriate_specificity": [
+        1.6833333333333333,
+        1.3843369853070056
+      ],
+      "overall_mean": [
+        1.8208333333333333,
+        1.107730098996241
+      ]
+    },
+    "ablation_no_threshold": {
+      "factual_correctness": [
+        4.156666666666666,
+        0.7475218317138899
+      ],
+      "scene_relevance": [
+        4.466666666666667,
+        0.7180219742846006
+      ],
+      "informativeness": [
+        3.8266666666666667,
+        0.5259488779550939
+      ],
+      "appropriate_specificity": [
+        4.403333333333333,
+        1.0135690515313807
+      ],
+      "overall_mean": [
+        4.213333333333333,
+        0.8110624034081607
+      ]
+    }
+  },
+  "per_annotator_summary": [
+    {
+      "ours": {
+        "factual_correctness": [
+          4.24,
+          0.6601010023726168
+        ],
+        "scene_relevance": [
+          4.533333333333333,
+          0.6182412330330469
+        ],
+        "informativeness": [
+          3.1933333333333334,
+          0.6397568982737808
+        ],
+        "appropriate_specificity": [
+          4.7,
+          0.4864839839775475
+        ],
+        "overall_mean": [
+          4.166666666666667,
+          0.8419553960210059
+        ]
+      },
+      "vlm_rag": {
+        "factual_correctness": [
+          1.5866666666666667,
+          0.932285125675378
+        ],
+        "scene_relevance": [
+          1.3066666666666666,
+          0.6318930992572153
+        ],
+        "informativeness": [
+          2.6933333333333334,
+          0.8636871861707545
+        ],
+        "appropriate_specificity": [
+          1.76,
+          1.4361058456812994
+        ],
+        "overall_mean": [
+          1.8366666666666667,
+          1.1357767777555978
+        ]
+      },
+      "ablation_no_threshold": {
+        "factual_correctness": [
+          3.8933333333333335,
+          0.8338398460669104
+        ],
+        "scene_relevance": [
+          4.086666666666667,
+          0.7826166934642329
+        ],
+        "informativeness": [
+          3.7,
+          0.5972157622389639
+        ],
+        "appropriate_specificity": [
+          4.013333333333334,
+          1.2109867418303508
+        ],
+        "overall_mean": [
+          3.9233333333333333,
+          0.8967286223948817
+        ]
+      }
+    },
+    {
+      "ours": {
+        "factual_correctness": [
+          4.266666666666667,
+          0.6289320754704403
+        ],
+        "scene_relevance": [
+          4.62,
+          0.5617828762075256
+        ],
+        "informativeness": [
+          3.1666666666666665,
+          0.8198915917499228
+        ],
+        "appropriate_specificity": [
+          4.573333333333333,
+          0.874426796377045
+        ],
+        "overall_mean": [
+          4.156666666666666,
+          0.9392136190570398
+        ]
+      },
+      "vlm_rag": {
+        "factual_correctness": [
+          1.7266666666666666,
+          0.8633011577015803
+        ],
+        "scene_relevance": [
+          1.66,
+          0.885663593019381
+        ],
+        "informativeness": [
+          2.2266666666666666,
+          1.0592240346383552
+        ],
+        "appropriate_specificity": [
+          1.6066666666666667,
+          1.3261305449397591
+        ],
+        "overall_mean": [
+          1.805,
+          1.0787222379587187
+        ]
+      },
+      "ablation_no_threshold": {
+        "factual_correctness": [
+          4.42,
+          0.532541078227774
+        ],
+        "scene_relevance": [
+          4.846666666666667,
+          0.36030850978324425
+        ],
+        "informativeness": [
+          3.953333333333333,
+          0.4055722979801369
+        ],
+        "appropriate_specificity": [
+          4.793333333333333,
+          0.5328748028904684
+        ],
+        "overall_mean": [
+          4.503333333333333,
+          0.5859370462961208
+        ]
+      }
+    }
+  ],
+  "model_tier_scores": {
+    "ours": {
+      "HIGH": {
+        "factual_correctness": [
+          4.45,
+          0.5894913061275799
+        ],
+        "scene_relevance": [
+          4.79,
+          0.4752893855326458
+        ],
+        "informativeness": [
+          3.85,
+          0.40926763859362253
+        ],
+        "appropriate_specificity": [
+          4.88,
+          0.3815756805667783
+        ]
+      },
+      "MEDIUM": {
+        "factual_correctness": [
+          3.99,
+          0.5195190083144215
+        ],
+        "scene_relevance": [
+          4.48,
+          0.5381449618829484
+        ],
+        "informativeness": [
+          2.94,
+          0.596992462263972
+        ],
+        "appropriate_specificity": [
+          4.24,
+          0.749933330370107
+        ]
+      },
+      "LOW": {
+        "factual_correctness": [
+          4.32,
+          0.7194442299441981
+        ],
+        "scene_relevance": [
+          4.46,
+          0.6843975452907469
+        ],
+        "informativeness": [
+          2.75,
+          0.6383572667401852
+        ],
+        "appropriate_specificity": [
+          4.79,
+          0.7522632517942107
+        ]
+      }
+    },
+    "vlm_rag": {
+      "HIGH": {
+        "factual_correctness": [
+          1.33,
+          0.6489221833163049
+        ],
+        "scene_relevance": [
+          1.25,
+          0.698212002188447
+        ],
+        "informativeness": [
+          2.27,
+          0.759670981412348
+        ],
+        "appropriate_specificity": [
+          1.19,
+          0.7575618786607466
+        ]
+      },
+      "MEDIUM": {
+        "factual_correctness": [
+          1.85,
+          1.0136567466356647
+        ],
+        "scene_relevance": [
+          1.69,
+          0.8449260322655471
+        ],
+        "informativeness": [
+          2.5,
+          1.1090536506409416
+        ],
+        "appropriate_specificity": [
+          1.51,
+          1.0148398888494676
+        ]
+      },
+      "LOW": {
+        "factual_correctness": [
+          1.79,
+          0.9087904048789248
+        ],
+        "scene_relevance": [
+          1.51,
+          0.7549172140042907
+        ],
+        "informativeness": [
+          2.61,
+          1.047807234180028
+        ],
+        "appropriate_specificity": [
+          2.35,
+          1.851350858157362
+        ]
+      }
+    },
+    "ablation_no_threshold": {
+      "HIGH": {
+        "factual_correctness": [
+          4.4,
+          0.6782329983125268
+        ],
+        "scene_relevance": [
+          4.84,
+          0.36660605559646725
+        ],
+        "informativeness": [
+          3.88,
+          0.5344155686354956
+        ],
+        "appropriate_specificity": [
+          4.83,
+          0.5666568626602876
+        ]
+      },
+      "MEDIUM": {
+        "factual_correctness": [
+          4.09,
+          0.4264973622427224
+        ],
+        "scene_relevance": [
+          4.35,
+          0.653834841531101
+        ],
+        "informativeness": [
+          3.92,
+          0.44
+        ],
+        "appropriate_specificity": [
+          4.34,
+          0.6359245238233858
+        ]
+      },
+      "LOW": {
+        "factual_correctness": [
+          3.98,
+          0.9693296652842107
+        ],
+        "scene_relevance": [
+          4.21,
+          0.8751571287488894
+        ],
+        "informativeness": [
+          3.68,
+          0.5635601121442149
+        ],
+        "appropriate_specificity": [
+          4.04,
+          1.4277254638059798
+        ]
+      }
+    }
+  },
+  "iaa_results": {
+    "factual_correctness": {
+      "kendalls_w": 0.8596993894620055,
+      "fleiss_kappa": 0.3711970872353336,
+      "cohens_kappa_unweighted": 0.3772658168635247,
+      "cohens_kappa_quadratic": 0.7954811063498247,
+      "spearman_rho": 0.6941961692905808,
+      "spearman_p": 5.762715615478913e-66,
+      "pearson_r": 0.8060317981272815,
+      "pearson_p": 4.23951840367209e-104
+    },
+    "scene_relevance": {
+      "kendalls_w": 0.8850838111134706,
+      "fleiss_kappa": 0.394318421285187,
+      "cohens_kappa_unweighted": 0.40563149152474537,
+      "cohens_kappa_quadratic": 0.8421230258228002,
+      "spearman_rho": 0.7669925324233118,
+      "spearman_p": 2.301520178775295e-88,
+      "pearson_r": 0.8689683824944056,
+      "pearson_p": 5.859046793634413e-139
+    },
+    "informativeness": {
+      "kendalls_w": 0.8628415284355314,
+      "fleiss_kappa": 0.35800097465198566,
+      "cohens_kappa_unweighted": 0.3725408987367985,
+      "cohens_kappa_quadratic": 0.6551984632319618,
+      "spearman_rho": 0.6992081574772984,
+      "spearman_p": 2.7370328993633512e-67,
+      "pearson_r": 0.6813328164836308,
+      "pearson_p": 1.0853844638495125e-62
+    },
+    "appropriate_specificity": {
+      "kendalls_w": 0.8175653213102287,
+      "fleiss_kappa": 0.4909792102396307,
+      "cohens_kappa_unweighted": 0.4967916244511989,
+      "cohens_kappa_quadratic": 0.6633138775708106,
+      "spearman_rho": 0.6034586748252029,
+      "spearman_p": 5.537279798449314e-46,
+      "pearson_r": 0.6668945360195608,
+      "pearson_p": 3.2850189162695814e-59
+    }
+  },
+  "p_values": {
+    "vlm_rag": {
+      "factual_correctness": {
+        "mean_diff": 2.5966666666666667,
+        "t_pval": 7.014922423281285e-72,
+        "wilcoxon_pval": 4.352750080358425e-26
+      },
+      "scene_relevance": {
+        "mean_diff": 3.0933333333333333,
+        "t_pval": 6.829293854441229e-88,
+        "wilcoxon_pval": 1.665351552507738e-26
+      },
+      "informativeness": {
+        "mean_diff": 0.72,
+        "t_pval": 1.2241575805195734e-12,
+        "wilcoxon_pval": 7.130121813577669e-11
+      },
+      "appropriate_specificity": {
+        "mean_diff": 2.953333333333333,
+        "t_pval": 3.2975076999720984e-65,
+        "wilcoxon_pval": 4.84724628201621e-26
+      }
+    },
+    "ablation_no_threshold": {
+      "factual_correctness": {
+        "mean_diff": 0.09666666666666666,
+        "t_pval": 0.048652353526204124,
+        "wilcoxon_pval": 0.07646973794452147
+      },
+      "scene_relevance": {
+        "mean_diff": 0.11,
+        "t_pval": 0.010663529283708712,
+        "wilcoxon_pval": 0.010771115098074635
+      },
+      "informativeness": {
+        "mean_diff": -0.6466666666666666,
+        "t_pval": 6.725663580402017e-20,
+        "wilcoxon_pval": 1.6226620052779104e-15
+      },
+      "appropriate_specificity": {
+        "mean_diff": 0.23333333333333334,
+        "t_pval": 0.0004023804259260215,
+        "wilcoxon_pval": 0.0006701296072819331
+      }
+    }
+  },
+  "tier_p_values": {
+    "HIGH": {
+      "vlm_rag": {
+        "factual_correctness": {
+          "mean_diff": 3.12,
+          "t_pval": 1.5429976883152995e-32,
+          "wilcoxon_pval": 8.268995382564363e-10
+        },
+        "scene_relevance": {
+          "mean_diff": 3.54,
+          "t_pval": 5.494290041368825e-36,
+          "wilcoxon_pval": 4.882176785070718e-10
+        },
+        "informativeness": {
+          "mean_diff": 1.58,
+          "t_pval": 3.5137270356243305e-22,
+          "wilcoxon_pval": 6.381626876339122e-10
+        },
+        "appropriate_specificity": {
+          "mean_diff": 3.69,
+          "t_pval": 1.0465889166033665e-35,
+          "wilcoxon_pval": 9.648341851270714e-11
+        }
+      },
+      "ablation_no_threshold": {
+        "factual_correctness": {
+          "mean_diff": 0.05,
+          "t_pval": 0.5405390456294927,
+          "wilcoxon_pval": 0.6056003218976858
+        },
+        "scene_relevance": {
+          "mean_diff": -0.05,
+          "t_pval": 0.41658928436987047,
+          "wilcoxon_pval": 0.38015201897160733
+        },
+        "informativeness": {
+          "mean_diff": -0.03,
+          "t_pval": 0.7218846720181075,
+          "wilcoxon_pval": 0.7404409304056694
+        },
+        "appropriate_specificity": {
+          "mean_diff": 0.05,
+          "t_pval": 0.47137374038117313,
+          "wilcoxon_pval": 0.6040138290293605
+        }
+      }
+    },
+    "MEDIUM": {
+      "vlm_rag": {
+        "factual_correctness": {
+          "mean_diff": 2.14,
+          "t_pval": 2.9298753682217897e-22,
+          "wilcoxon_pval": 8.681347301552059e-10
+        },
+        "scene_relevance": {
+          "mean_diff": 2.79,
+          "t_pval": 2.5037371314481345e-28,
+          "wilcoxon_pval": 6.166535568437512e-10
+        },
+        "informativeness": {
+          "mean_diff": 0.44,
+          "t_pval": 0.004976079477204753,
+          "wilcoxon_pval": 0.008767374624370718
+        },
+        "appropriate_specificity": {
+          "mean_diff": 2.73,
+          "t_pval": 5.071807244496055e-25,
+          "wilcoxon_pval": 6.44977901281491e-10
+        }
+      },
+      "ablation_no_threshold": {
+        "factual_correctness": {
+          "mean_diff": -0.1,
+          "t_pval": 0.08637845637956254,
+          "wilcoxon_pval": 0.0720239041384655
+        },
+        "scene_relevance": {
+          "mean_diff": 0.13,
+          "t_pval": 0.07380053094062497,
+          "wilcoxon_pval": 0.06291506444639688
+        },
+        "informativeness": {
+          "mean_diff": -0.98,
+          "t_pval": 6.716806431396069e-17,
+          "wilcoxon_pval": 2.0873623107993285e-09
+        },
+        "appropriate_specificity": {
+          "mean_diff": -0.1,
+          "t_pval": 0.24243255320812632,
+          "wilcoxon_pval": 0.3080351477422172
+        }
+      }
+    },
+    "LOW": {
+      "vlm_rag": {
+        "factual_correctness": {
+          "mean_diff": 2.53,
+          "t_pval": 5.588859758500603e-25,
+          "wilcoxon_pval": 8.88686793129637e-10
+        },
+        "scene_relevance": {
+          "mean_diff": 2.95,
+          "t_pval": 3.829712977405511e-30,
+          "wilcoxon_pval": 5.830601796164299e-10
+        },
+        "informativeness": {
+          "mean_diff": 0.14,
+          "t_pval": 0.36944526539760003,
+          "wilcoxon_pval": 0.287216608257852
+        },
+        "appropriate_specificity": {
+          "mean_diff": 2.44,
+          "t_pval": 1.4656797989924462e-16,
+          "wilcoxon_pval": 2.9426539994792766e-09
+        }
+      },
+      "ablation_no_threshold": {
+        "factual_correctness": {
+          "mean_diff": 0.34,
+          "t_pval": 0.0011437836103833216,
+          "wilcoxon_pval": 0.0015176126896811273
+        },
+        "scene_relevance": {
+          "mean_diff": 0.25,
+          "t_pval": 0.0038449929538818942,
+          "wilcoxon_pval": 0.005059011986359232
+        },
+        "informativeness": {
+          "mean_diff": -0.93,
+          "t_pval": 5.41586530610465e-13,
+          "wilcoxon_pval": 1.4124134661168145e-08
+        },
+        "appropriate_specificity": {
+          "mean_diff": 0.75,
+          "t_pval": 7.977709384082566e-07,
+          "wilcoxon_pval": 2.0487816136131318e-05
+        }
+      }
+    }
+  },
+  "latex_code": "\\begin{table*}[t]\n\\centering\n\\small\n\\caption{Human/LLM-as-a-Judge evaluation results across 150 test videos (50 Affirm, 50 Cautious, 50 Silent) evaluated by two independent state-of-the-art LLM judges from distinct model families (Alibaba Qwen2.5-14B-Instruct and Meta Llama-3-8B-Instruct) on a 1--5 Likert scale (total 300 evaluations per model). Inter-annotator agreement is quantified by Kendall's $W$ and quadratic-weighted Cohen's $\\kappa_w$. Paired statistical significance against baselines is denoted with $^\\dagger p < 0.001$.}\n\\label{tab:human_evaluation_results}\n\\begin{tabular}{lccccc}\n\\toprule\n\\textbf{Evaluation Criterion} & \\textbf{TransMTL-OntoKG (Ours)} & \\textbf{SigLIP2-RAG Baseline} & \\textbf{Un-gated Ablation} & \\textbf{Kendall's $W$} & \\textbf{Cohen's $\\kappa_w$} \\\\\n\\midrule\nFactual Correctness & \\textbf{4.25} $\\pm$ 0.64^\\dagger & 1.66 $\\pm$ 0.90 & 4.16 $\\pm$ 0.75 & 0.860 & 0.795 \\\\\nScene Relevance & \\textbf{4.58} $\\pm$ 0.59^\\dagger & 1.48 $\\pm$ 0.79 & 4.47 $\\pm$ 0.72 & 0.885 & 0.842 \\\\\nInformativeness & \\textbf{3.18} $\\pm$ 0.74^\\dagger & 2.46 $\\pm$ 0.99 & 3.83 $\\pm$ 0.53 & 0.863 & 0.655 \\\\\nAppropriate Specificity & \\textbf{4.64} $\\pm$ 0.71^\\dagger & 1.68 $\\pm$ 1.38 & 4.40 $\\pm$ 1.01 & 0.818 & 0.663 \\\\\n\\midrule\n\\textbf{Overall Average} & \\textbf{4.16} $\\pm$ 0.89$^\\dagger$ & 1.82 $\\pm$ 1.11 & 4.21 $\\pm$ 0.81 & 0.856 & 0.739 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table*}\n"
+}

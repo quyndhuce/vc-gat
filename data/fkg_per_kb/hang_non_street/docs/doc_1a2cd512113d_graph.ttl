@@ -1,0 +1,247 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/49ae96c2> onto:on <http://transmtl.vn/kb/hang_non_street> .
+
+<http://transmtl.vn/ent/d2fc17cc> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/f27f0b62> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/hang_non_street#chao_hat> onto:used_by <http://transmtl.vn/ent/f12c043a> .
+
+<http://transmtl.vn/kb/hang_non_street#mushroom_cap> onto:with <http://transmtl.vn/ent/7464b3f8>,
+        <http://transmtl.vn/ent/e1260894> .
+
+<http://transmtl.vn/ent/8267a0e0> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/hang_non_street#thung_quai_thao_hat> onto:used_by <http://transmtl.vn/ent/4c3e8a75>,
+        <http://transmtl.vn/ent/8267a0e0>,
+        <http://transmtl.vn/ent/c8c64220>,
+        <http://transmtl.vn/ent/f12c043a> .
+
+<http://transmtl.vn/kb/hang_non_street#conical_hats> onto:in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:used_by <http://transmtl.vn/ent/8267a0e0>,
+        <http://transmtl.vn/ent/d2fc17cc> ;
+    onto:with <http://transmtl.vn/ent/97f01451>,
+        <http://transmtl.vn/ent/d4c5e561> .
+
+<http://transmtl.vn/kb/hang_non_street> onto:former_name_of <http://transmtl.vn/ent/f27f0b62> ;
+    onto:has_part <http://transmtl.vn/ent/e5423976>,
+        <http://transmtl.vn/ent/f12e1789>,
+        <http://transmtl.vn/kb/hang_non_street#chao_hat>,
+        <http://transmtl.vn/kb/hang_non_street#conical_hats>,
+        <http://transmtl.vn/kb/hang_non_street#mushroom_cap>,
+        <http://transmtl.vn/kb/hang_non_street#thung_quai_thao_hat> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7882 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/8267a0e0> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#conical_hats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2598 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/49ae96c2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3396 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f27f0b62> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#thung_quai_thao_hat> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6251 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#conical_hats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2945 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/4c3e8a75> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#thung_quai_thao_hat> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6762 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/8267a0e0> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#thung_quai_thao_hat> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3101 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/e5423976> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3771 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8267a0e0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#chao_hat> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3582 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3816 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/c8c64220> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#thung_quai_thao_hat> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3194 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/f12c043a> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#chao_hat> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#mushroom_cap> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7049 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/f12c043a> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#thung_quai_thao_hat> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3038 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/7464b3f8> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#mushroom_cap> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7445 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/d2fc17cc> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#conical_hats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3357 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/e1260894> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#mushroom_cap> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3602 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/d4c5e561> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#conical_hats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2835 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/f27f0b62> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#conical_hats> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#conical_hats> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3186 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#conical_hats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4256 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/97f01451> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#conical_hats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3744 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/f12e1789> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.454 ;
+    fkg:docId "doc_1a2cd512113d" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d2fc17cc> .
+

@@ -1,0 +1,61 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  2 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hoan Kiem Lake)  --[demolished_in]-->  ?
+  Head URI  : http://www.wikidata.org/entity/Q1151254
+  Conflict K: 0.5106
+  Candidates:
+    • 1888                            Bel=0.4673  Pl=0.6321  (2 evidence)
+    • late 19th century               Bel=0.3679  Pl=0.5327  (2 evidence)
+
+  (Hoa Phong Tower)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/hoa_phong_tower
+  Conflict K: 0.5042
+  Candidates:
+    • Ha Noi                          Bel=0.4092  Pl=0.6366  (1 evidence)
+    • Hanoi                           Bel=0.2412  Pl=0.4686  (2 evidence)
+    • Hoan Kiem Lake                  Bel=0.1222  Pl=0.3496  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [built_in] (Hoa Phong Tower) → http://transmtl.vn/ent/eceafd21  Bel=0.6530  K=0.1907
+  [built_in] (tower) → http://transmtl.vn/ent/5b54e104  Bel=0.6426  K=0.0000
+  [demolished_in] (Hoan Kiem Lake) → http://transmtl.vn/ent/2d1b2a5f  Bel=0.4673  K=0.5106 ⚠ REVIEW
+  [built_in] (this tower) → http://transmtl.vn/ent/5b54e104  Bel=0.2349  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.9953  K=0.0000
+  [symbol_of] (Hoa Phong Tower) → http://www.wikidata.org/entity/Q1858  Bel=0.4092  K=0.5042 ⚠ REVIEW
+  [capital_of] ('s) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2498  K=0.0000
+  [capital_of] (capital city) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2709  K=0.0000
+  [capital_of] (.) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2592  K=0.0000
+  [capital_of] (city) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2399  K=0.0000
+  [built_in] (Hoan Kiem Lake) → http://transmtl.vn/ent/57c0531e  Bel=0.4583  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Hoa Phong Tower) → (tower)  μ_F=1.0000  (25 evidence)
+  [has_part] (Hoa Phong Tower) → (the tower)  μ_F=1.0000  (5 evidence)
+  [has_part] (Hoa Phong Tower) → (three tiers)  μ_F=0.9991  (3 evidence)
+  [has_part] (Hoa Phong Tower) → (four arched entrances)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hoa Phong Tower) → (spherical apex)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hoa Phong Tower) → (base)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hoa Phong Tower) → (second tier)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hoa Phong Tower) → (topmost tier)  μ_F=0.9905  (2 evidence)
+  [located_in] (Hoa Phong Tower) → (Hanoi)  μ_F=0.9887  (9 evidence)
+  [demolished_by] (Hoan Kiem Lake) → (French colonial authorities)  μ_F=0.9248  (4 evidence)
+  [has_part] (Hoa Phong Tower) → (this tower)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (arched doorways)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (sun)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (entrances)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (inscriptions)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (square base)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (first floor)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (gates)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (passageways)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hoa Phong Tower) → (roofs)  μ_F=0.9025  (1 evidence)
+
+========================================================================

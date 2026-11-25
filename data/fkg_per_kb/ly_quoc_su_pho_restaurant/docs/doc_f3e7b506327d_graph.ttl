@@ -1,0 +1,80 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/ly_quoc_su_pho_restaurant#preparation_counter> onto:part_of <http://transmtl.vn/ent/6d4b6296> .
+
+<http://transmtl.vn/kb/ly_quoc_su_pho_restaurant#signboard> onto:part_of <http://transmtl.vn/ent/6d4b6296> .
+
+<http://transmtl.vn/kb/ly_quoc_su_pho_restaurant> onto:has_part <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant#preparation_counter>,
+        <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant#signboard> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4608 ;
+    fkg:docId "doc_f3e7b506327d" ;
+    fkg:kbId "ly_quoc_su_pho_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/6d4b6296> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant#signboard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3919 ;
+    fkg:docId "doc_f3e7b506327d" ;
+    fkg:kbId "ly_quoc_su_pho_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/6d4b6296> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant#preparation_counter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2969 ;
+    fkg:docId "doc_f3e7b506327d" ;
+    fkg:kbId "ly_quoc_su_pho_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f3e7b506327d" ;
+    fkg:kbId "ly_quoc_su_pho_restaurant" ;
+    rdf:object <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant#preparation_counter> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f3e7b506327d" ;
+    fkg:kbId "ly_quoc_su_pho_restaurant" ;
+    rdf:object <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant#signboard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3615 ;
+    fkg:docId "doc_f3e7b506327d" ;
+    fkg:kbId "ly_quoc_su_pho_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3402 ;
+    fkg:docId "doc_f3e7b506327d" ;
+    fkg:kbId "ly_quoc_su_pho_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5423 ;
+    fkg:docId "doc_f3e7b506327d" ;
+    fkg:kbId "ly_quoc_su_pho_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_quoc_su_pho_restaurant> .
+

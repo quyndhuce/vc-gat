@@ -1,0 +1,58 @@
+{
+  "title": "Fuzzy T-Norm Operators Benchmark Report",
+  "dataset_size": 149,
+  "results": [
+    {
+      "operator": "Gödel (Min) T-norm",
+      "formula": "T(a,b) = min(a, b)",
+      "claim_precision": 100.0,
+      "k_recall": 64.3,
+      "e2e_f1": 68.3,
+      "vsp": 82.9,
+      "true_vcr": 0.0,
+      "vur": 17.1,
+      "oar": 2.0,
+      "policy_compliance": 83.9,
+      "gen_time_sec": 46.3
+    },
+    {
+      "operator": "Hamacher Product",
+      "formula": "T(a,b) = ab/(a+b-ab)",
+      "claim_precision": 100.0,
+      "k_recall": 64.3,
+      "e2e_f1": 68.3,
+      "vsp": 82.9,
+      "true_vcr": 0.0,
+      "vur": 17.1,
+      "oar": 2.0,
+      "policy_compliance": 83.9,
+      "gen_time_sec": 46.2
+    },
+    {
+      "operator": "Algebraic Product (Ours)",
+      "formula": "T(a,b) = a * b",
+      "claim_precision": 100.0,
+      "k_recall": 64.3,
+      "e2e_f1": 68.3,
+      "vsp": 82.9,
+      "true_vcr": 0.0,
+      "vur": 17.1,
+      "oar": 2.0,
+      "policy_compliance": 83.9,
+      "gen_time_sec": 46.2
+    },
+    {
+      "operator": "Łukasiewicz T-norm",
+      "formula": "T(a,b) = max(0, a+b-1)",
+      "claim_precision": 100.0,
+      "k_recall": 63.7,
+      "e2e_f1": 67.6,
+      "vsp": 83.1,
+      "true_vcr": 0.0,
+      "vur": 16.9,
+      "oar": 2.0,
+      "policy_compliance": 83.2,
+      "gen_time_sec": 46.2
+    }
+  ]
+}

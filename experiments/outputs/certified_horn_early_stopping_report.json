@@ -1,0 +1,182 @@
+{
+  "protocol": "Certified Bounded Truncation for Stratified Fuzzy Horn Inference",
+  "oracle_full_closure_time_ms": 28.03,
+  "total_facts": 16347,
+  "total_derivations": 16788,
+  "results_by_tolerance": {
+    "eps_1e-02": {
+      "eps": 0.01,
+      "wall_clock_ms": 59.51,
+      "total_facts": 16347,
+      "facts_with_derivs": 9769,
+      "multi_deriv_facts": 3221,
+      "early_stopped_facts": 3245,
+      "early_stop_rate_on_multi": 100.75,
+      "total_derivs_in_graph": 16788,
+      "derivs_evaluated": 10060,
+      "derivs_skipped": 6728,
+      "eval_reduction_pct": 40.08,
+      "bound_coverage_violations": 0,
+      "bound_coverage_compliance_pct": 100.0,
+      "stopping_guarantee_violations": 0,
+      "stopping_guarantee_compliance_pct": 100.0,
+      "max_observed_error": 0.00999995,
+      "mean_observed_error": 0.00062127,
+      "max_observed_gap": 0.01,
+      "stress_results": {
+        "shared_premises": {
+          "count": 0,
+          "violations": 0,
+          "early_stopped": 0,
+          "avg_saved_pct": 0.0
+        },
+        "overlapping_base_inferred": {
+          "count": 6949,
+          "violations": 0,
+          "early_stopped": 3061,
+          "avg_saved_pct": 0.0
+        },
+        "boundary_certainty": {
+          "count": 8734,
+          "violations": 0,
+          "early_stopped": 3203,
+          "avg_saved_pct": 0.0
+        },
+        "cohort_m_ge_5": {
+          "count": 473,
+          "violations": 0,
+          "early_stopped": 472,
+          "avg_saved_pct": 80.74
+        },
+        "cohort_m_ge_10": {
+          "count": 59,
+          "violations": 0,
+          "early_stopped": 59,
+          "avg_saved_pct": 91.83
+        },
+        "cohort_m_ge_20": {
+          "count": 17,
+          "violations": 0,
+          "early_stopped": 17,
+          "avg_saved_pct": 92.36
+        }
+      }
+    },
+    "eps_1e-03": {
+      "eps": 0.001,
+      "wall_clock_ms": 59.57,
+      "total_facts": 16347,
+      "facts_with_derivs": 9769,
+      "multi_deriv_facts": 3221,
+      "early_stopped_facts": 1600,
+      "early_stop_rate_on_multi": 49.67,
+      "total_derivs_in_graph": 16788,
+      "derivs_evaluated": 12818,
+      "derivs_skipped": 3970,
+      "eval_reduction_pct": 23.65,
+      "bound_coverage_violations": 0,
+      "bound_coverage_compliance_pct": 100.0,
+      "stopping_guarantee_violations": 0,
+      "stopping_guarantee_compliance_pct": 100.0,
+      "max_observed_error": 0.00099994,
+      "mean_observed_error": 3.826e-05,
+      "max_observed_gap": 0.001,
+      "stress_results": {
+        "shared_premises": {
+          "count": 0,
+          "violations": 0,
+          "early_stopped": 0,
+          "avg_saved_pct": 0.0
+        },
+        "overlapping_base_inferred": {
+          "count": 6949,
+          "violations": 0,
+          "early_stopped": 1506,
+          "avg_saved_pct": 0.0
+        },
+        "boundary_certainty": {
+          "count": 8734,
+          "violations": 0,
+          "early_stopped": 1598,
+          "avg_saved_pct": 0.0
+        },
+        "cohort_m_ge_5": {
+          "count": 473,
+          "violations": 0,
+          "early_stopped": 461,
+          "avg_saved_pct": 65.25
+        },
+        "cohort_m_ge_10": {
+          "count": 59,
+          "violations": 0,
+          "early_stopped": 59,
+          "avg_saved_pct": 85.22
+        },
+        "cohort_m_ge_20": {
+          "count": 17,
+          "violations": 0,
+          "early_stopped": 17,
+          "avg_saved_pct": 88.33
+        }
+      }
+    },
+    "eps_1e-04": {
+      "eps": 0.0001,
+      "wall_clock_ms": 53.82,
+      "total_facts": 16347,
+      "facts_with_derivs": 9769,
+      "multi_deriv_facts": 3221,
+      "early_stopped_facts": 816,
+      "early_stop_rate_on_multi": 25.33,
+      "total_derivs_in_graph": 16788,
+      "derivs_evaluated": 14376,
+      "derivs_skipped": 2412,
+      "eval_reduction_pct": 14.37,
+      "bound_coverage_violations": 0,
+      "bound_coverage_compliance_pct": 100.0,
+      "stopping_guarantee_violations": 0,
+      "stopping_guarantee_compliance_pct": 100.0,
+      "max_observed_error": 9.951e-05,
+      "mean_observed_error": 1.74e-06,
+      "max_observed_gap": 9.971e-05,
+      "stress_results": {
+        "shared_premises": {
+          "count": 0,
+          "violations": 0,
+          "early_stopped": 0,
+          "avg_saved_pct": 0.0
+        },
+        "overlapping_base_inferred": {
+          "count": 6949,
+          "violations": 0,
+          "early_stopped": 775,
+          "avg_saved_pct": 0.0
+        },
+        "boundary_certainty": {
+          "count": 8734,
+          "violations": 0,
+          "early_stopped": 815,
+          "avg_saved_pct": 0.0
+        },
+        "cohort_m_ge_5": {
+          "count": 473,
+          "violations": 0,
+          "early_stopped": 413,
+          "avg_saved_pct": 48.43
+        },
+        "cohort_m_ge_10": {
+          "count": 59,
+          "violations": 0,
+          "early_stopped": 59,
+          "avg_saved_pct": 77.77
+        },
+        "cohort_m_ge_20": {
+          "count": 17,
+          "violations": 0,
+          "early_stopped": 17,
+          "avg_saved_pct": 84.62
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/a643f0c6> onto:associated_with <http://transmtl.vn/kb/hanoi_cathedral> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/2c2bf458>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3861 ;
+    fkg:docId "doc_10d45bccf653" ;
+    fkg:kbId "maria_lady_statue" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5172 ;
+    fkg:docId "doc_10d45bccf653" ;
+    fkg:kbId "maria_lady_statue" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2882 ;
+    fkg:docId "doc_10d45bccf653" ;
+    fkg:kbId "maria_lady_statue" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2728 ;
+    fkg:docId "doc_10d45bccf653" ;
+    fkg:kbId "maria_lady_statue" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4155 ;
+    fkg:docId "doc_10d45bccf653" ;
+    fkg:kbId "maria_lady_statue" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3867 ;
+    fkg:docId "doc_10d45bccf653" ;
+    fkg:kbId "maria_lady_statue" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.281 ;
+    fkg:docId "doc_10d45bccf653" ;
+    fkg:kbId "maria_lady_statue" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+

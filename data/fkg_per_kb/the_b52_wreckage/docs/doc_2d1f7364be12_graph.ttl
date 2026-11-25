@@ -1,0 +1,318 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/76715fd0> onto:located_in <http://transmtl.vn/ent/1b40ea67> .
+
+<http://transmtl.vn/kb/the_b52_wreckage#3_meters> onto:above <http://transmtl.vn/ent/32dfb596> .
+
+<http://transmtl.vn/kb/the_b52_wreckage#dual_wheels> onto:part_of <http://transmtl.vn/ent/f6215a0d> .
+
+<http://transmtl.vn/kb/the_b52_wreckage#fuselage> onto:above <http://transmtl.vn/ent/9460370b> .
+
+<http://transmtl.vn/kb/the_b52_wreckage#wreckage> onto:commemorates <http://transmtl.vn/ent/a439df91> .
+
+<http://transmtl.vn/ent/0120b53e> onto:located_in <http://transmtl.vn/ent/1b40ea67>,
+        <http://transmtl.vn/ent/27e2c33e>,
+        <http://transmtl.vn/ent/6734a66a>,
+        <http://transmtl.vn/kb/huu_tiep_lake>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/the_b52_wreckage> onto:has_part <http://transmtl.vn/kb/the_b52_wreckage#3_meters>,
+        <http://transmtl.vn/kb/the_b52_wreckage#b52_lake>,
+        <http://transmtl.vn/kb/the_b52_wreckage#dual_wheels>,
+        <http://transmtl.vn/kb/the_b52_wreckage#fuselage>,
+        <http://transmtl.vn/kb/the_b52_wreckage#wreckage> .
+
+<http://transmtl.vn/ent/27e2c33e> onto:has_part <http://transmtl.vn/kb/huu_tiep_lake> ;
+    onto:part_of <http://transmtl.vn/kb/huu_tiep_lake> .
+
+<http://transmtl.vn/kb/the_b52_wreckage#b52_lake> onto:in <http://transmtl.vn/ent/1b40ea67> ;
+    onto:located_in <http://transmtl.vn/ent/1b40ea67>,
+        <http://transmtl.vn/ent/6734a66a>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/1b40ea67> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/huu_tiep_lake> onto:has_part <http://transmtl.vn/ent/27e2c33e> ;
+    onto:hosts_event <http://transmtl.vn/ent/400b0263>,
+        <http://transmtl.vn/ent/69d883c8>,
+        <http://transmtl.vn/ent/b4408d2a> ;
+    onto:recognized_in <http://transmtl.vn/ent/d5c18698> ;
+    onto:surrounded_by <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/fcd167f1>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4206 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/1b40ea67> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#b52_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/the_b52_wreckage#fuselage> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/the_b52_wreckage#b52_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6723 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/27e2c33e> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3601 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/d5c18698> ;
+    rdf:predicate onto:recognized_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3332 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/27e2c33e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3008 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/fcd167f1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2912 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0120b53e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7573 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.388 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/27e2c33e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5611 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/69d883c8> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3118 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1b40ea67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4393 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/6734a66a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0120b53e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2596 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/1b40ea67> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#b52_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4748 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/the_b52_wreckage#dual_wheels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2729 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/a439df91> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4555 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#b52_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4762 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/1b40ea67> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#b52_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5104 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/400b0263> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7576 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/27e2c33e> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0120b53e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4159 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#fuselage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5261 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0120b53e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/the_b52_wreckage#wreckage> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/the_b52_wreckage#b52_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2702 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/1b40ea67> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/76715fd0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/the_b52_wreckage#3_meters> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2893 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/1b40ea67> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0120b53e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2616 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/f6215a0d> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#dual_wheels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7287 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/27e2c33e> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0120b53e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.407 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/6734a66a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#b52_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2893 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/b4408d2a> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3491 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2531 ;
+    fkg:docId "doc_2d1f7364be12" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/32dfb596> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#3_meters> .
+

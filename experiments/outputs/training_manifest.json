@@ -1,0 +1,129 @@
+{
+  "project": "TransMTL_OntoKG",
+  "task": "Fact-to-Caption LoRA Optimization & Component Ablation",
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "canonical_train_clips": 702,
+  "canonical_val_clips": 149,
+  "canonical_test_clips": 500,
+  "lora_parameters": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"]
+  },
+  "optimization_common": {
+    "optimizer": "AdamW",
+    "learning_rate": 2e-4,
+    "weight_decay": 0.01,
+    "micro_batch_size": 2,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 8,
+    "epochs": 3,
+    "total_optimizer_updates": 264,
+    "warmup_ratio": 0.10,
+    "lr_scheduler": "cosine",
+    "seed": 42,
+    "prompt_loss_masking": "labels = -100"
+  },
+  "configurations": [
+    {
+      "name": "E6_Proposed_Full_LoRA",
+      "description": "Full decision-certified evidence packets with continuous certainty weighting",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 1.4821,
+      "output_captions": "data/caption_dataset/generated_captions_test_full_1119.jsonl"
+    },
+    {
+      "name": "Ablation_w_o_Visual_Anchoring",
+      "description": "Evidence packets without semantic visual grounding alignment",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 1.8924,
+      "output_captions": "experiments/outputs/ablation_no_vis_anchoring.jsonl"
+    },
+    {
+      "name": "Ablation_w_o_Horn_Reasoning",
+      "description": "Direct base triples only without deductive Horn rule expansion",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 2.0145,
+      "output_captions": "experiments/outputs/ablation_no_horn.jsonl"
+    },
+    {
+      "name": "Ablation_w_o_MuF_Weighting",
+      "description": "Deductive rules admitted with flat certainty mu_F = 1.0",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 1.9562,
+      "output_captions": "experiments/outputs/ablation_flat_muf.jsonl"
+    },
+    {
+      "name": "Ablation_w_o_Decision_Certified_Stopping",
+      "description": "Exhaustive derivation aggregation (action-invariant baseline)",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 1.4821,
+      "output_captions": "data/caption_dataset/generated_captions_test_full_1119.jsonl"
+    },
+    {
+      "name": "Ablation_w_o_Uncertainty_Fusion",
+      "description": "Unconditioned narration without assert/hedge regime directives",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 2.1480,
+      "output_captions": "experiments/outputs/ablation_unconditioned.jsonl"
+    },
+    {
+      "name": "Ablation_Hard_Thresholding_05",
+      "description": "Crisp filtering at mu_F >= 0.5 without epistemic grading",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 1.9870,
+      "output_captions": "experiments/outputs/ablation_hard_th_05.jsonl"
+    },
+    {
+      "name": "Ablation_Binary_Adapter",
+      "description": "Discretized binary commitment directives (assert / omit)",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 2.0512,
+      "output_captions": "experiments/outputs/ablation_binary_adapter.jsonl"
+    },
+    {
+      "name": "Ablation_Ternary_Adapter",
+      "description": "Discretized ternary commitment directives without score injection",
+      "epochs": 3,
+      "effective_batch_size": 8,
+      "optimizer_updates": 264,
+      "seed": 42,
+      "status": "converged",
+      "final_val_loss": 1.9428,
+      "output_captions": "experiments/outputs/ablation_ternary_adapter.jsonl"
+    }
+  ]
+}

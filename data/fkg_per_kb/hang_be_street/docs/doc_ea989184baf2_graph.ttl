@@ -1,0 +1,113 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_be_street#glass_display_cabinets> onto:on <http://transmtl.vn/ent/b788ae8f> .
+
+<http://transmtl.vn/kb/hang_be_street#nhà_ống> onto:part_of <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_be_street> onto:has_part <http://transmtl.vn/kb/hang_be_street#glass_display_cabinets>,
+        <http://transmtl.vn/kb/hang_be_street#nhà_ống> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:near <http://transmtl.vn/ent/c2c83a30> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street#nhà_ống> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2924 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street#nhà_ống> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2753 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/b788ae8f> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street#glass_display_cabinets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4061 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5136 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4567 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4196 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street#glass_display_cabinets> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3057 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4812 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/c2c83a30> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4307 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4047 ;
+    fkg:docId "doc_ea989184baf2" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+

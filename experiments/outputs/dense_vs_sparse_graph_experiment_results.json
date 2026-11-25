@@ -1,0 +1,40 @@
+{
+  "sparse_baseline": {
+    "label": "Sparse Baseline (tau=0.35, 1-hop)",
+    "base_facts": 5863,
+    "validated_rules": 10,
+    "total_conclusions": 332,
+    "raw_precision": 95.18,
+    "single_path_count": 309,
+    "multi_path_count": 23,
+    "redundant_count": 18,
+    "disjoint_count": 5,
+    "mean_support_max": 0.1376,
+    "mean_support_ldfi": 0.1386,
+    "mean_support_naive": 0.1443,
+    "dup_inflation_naive": 0.0929,
+    "corrob_gain_ldfi": 0.0657,
+    "admitted_tau_max": 193,
+    "admitted_tau_ldfi": 193,
+    "admitted_tau_naive": 195
+  },
+  "dense_enhanced": {
+    "label": "Dense Enhanced (tau=0.25, 2-hop)",
+    "base_facts": 14341,
+    "validated_rules": 31,
+    "total_conclusions": 1473,
+    "raw_precision": 96.4,
+    "single_path_count": 1040,
+    "multi_path_count": 433,
+    "redundant_count": 408,
+    "disjoint_count": 25,
+    "mean_support_max": 0.1531,
+    "mean_support_ldfi": 0.1543,
+    "mean_support_naive": 0.1959,
+    "dup_inflation_naive": 0.1429,
+    "corrob_gain_ldfi": 0.073,
+    "admitted_tau_max": 844,
+    "admitted_tau_ldfi": 844,
+    "admitted_tau_naive": 864
+  }
+}

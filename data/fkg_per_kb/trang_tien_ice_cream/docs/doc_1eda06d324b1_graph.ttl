@@ -1,0 +1,172 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/131e8410> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/trang_tien_ice_cream#> onto:architectural_style <http://transmtl.vn/ent/3f51440a> .
+
+<http://transmtl.vn/kb/trang_tien_ice_cream#hồ_gươm_lake> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/trang_tien_ice_cream#the_shop> onto:architectural_style <http://transmtl.vn/ent/3f51440a> .
+
+<http://transmtl.vn/kb/trang_tien_ice_cream#logo> onto:associated_with <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/trang_tien_ice_cream> onto:has_part <http://transmtl.vn/kb/trang_tien_ice_cream#>,
+        <http://transmtl.vn/kb/trang_tien_ice_cream#hồ_gươm_lake>,
+        <http://transmtl.vn/kb/trang_tien_ice_cream#logo>,
+        <http://transmtl.vn/kb/trang_tien_ice_cream#shop>,
+        <http://transmtl.vn/kb/trang_tien_ice_cream#the_shop> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/trang_tien_ice_cream#shop> onto:architectural_style <http://transmtl.vn/ent/3f51440a> ;
+    onto:associated_with <http://transmtl.vn/ent/207462d2> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/a1b0311b>,
+        <http://transmtl.vn/ent/be5d5d37> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3368 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/a1b0311b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3221 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#logo> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4949 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/131e8410> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/kb/trang_tien_ice_cream#the_shop> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/kb/trang_tien_ice_cream#hồ_gươm_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2848 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/3f51440a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#the_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3496 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/kb/trang_tien_ice_cream#shop> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/kb/trang_tien_ice_cream#logo> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2864 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#logo> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3948 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/3f51440a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/kb/trang_tien_ice_cream#logo> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3029 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/3f51440a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2764 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/kb/trang_tien_ice_cream#> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2805 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2649 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2902 ;
+    fkg:docId "doc_1eda06d324b1" ;
+    fkg:kbId "trang_tien_ice_cream" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/trang_tien_ice_cream#hồ_gươm_lake> .
+

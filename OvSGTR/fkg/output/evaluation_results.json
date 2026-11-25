@@ -1,0 +1,621 @@
+{
+  "overall_accuracy": 0.6,
+  "total_test_videos": 20,
+  "total_correct": 12,
+  "per_landmark_accuracy": {
+    "Hoan Kiem Lake": 0.5,
+    "Van Mieu Quoc Tu Giam": 0.0,
+    "HoangThanhThangLong": 0.0,
+    "West Lake": 1.0,
+    "One Pillar Pagoda": 1.0,
+    "Ho Chi Minh's Mausoleum": 1.0,
+    "The Old Quarter": 1.0,
+    "Vietnam National Museum of History": 0.5,
+    "Bat Trang Pottery Village": 1.0,
+    "Van Phuc Silk Village": 0.0
+  },
+  "confusion_matrix": [
+    [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "mean_margin_correct": 0.0073,
+  "mean_margin_incorrect": 0.0015,
+  "top5_contributing_concepts": {
+    "Hoan Kiem Lake": [
+      {
+        "id": "lake",
+        "label_en": "lake",
+        "score": 0.2603
+      },
+      {
+        "id": "bell_tower_asian",
+        "label_en": "temple bell tower",
+        "score": 0.116
+      },
+      {
+        "id": "colonial_building",
+        "label_en": "French colonial building",
+        "score": 0.1152
+      },
+      {
+        "id": "river",
+        "label_en": "river",
+        "score": 0.1057
+      },
+      {
+        "id": "apartment_block_old",
+        "label_en": "old apartment block",
+        "score": 0.0998
+      }
+    ],
+    "Van Mieu Quoc Tu Giam": [
+      {
+        "id": "stele_house",
+        "label_en": "stele pavilion",
+        "score": 0.3402
+      },
+      {
+        "id": "stone_pillar",
+        "label_en": "stone pillar",
+        "score": 0.2328
+      },
+      {
+        "id": "bell_tower_asian",
+        "label_en": "temple bell tower",
+        "score": 0.2122
+      },
+      {
+        "id": "pagoda",
+        "label_en": "Buddhist pagoda",
+        "score": 0.185
+      },
+      {
+        "id": "roof_dragon_ornament",
+        "label_en": "dragon roof ornament",
+        "score": 0.1782
+      }
+    ],
+    "HoangThanhThangLong": [
+      {
+        "id": "village_gate",
+        "label_en": "village gate",
+        "score": 0.1249
+      },
+      {
+        "id": "bg_other",
+        "label_en": "something else",
+        "score": 0.1134
+      },
+      {
+        "id": "three_entrance_gate",
+        "label_en": "triple gate",
+        "score": 0.0766
+      },
+      {
+        "id": "shoulder_pole_vendor",
+        "label_en": "street vendor with shoulder pole",
+        "score": 0.0699
+      },
+      {
+        "id": "bell_tower_asian",
+        "label_en": "temple bell tower",
+        "score": 0.0696
+      }
+    ],
+    "West Lake": [
+      {
+        "id": "temple_den",
+        "label_en": "Vietnamese temple",
+        "score": 0.5919
+      },
+      {
+        "id": "parallel_sentence_board",
+        "label_en": "vertical calligraphy board",
+        "score": 0.5662
+      },
+      {
+        "id": "roof_dragon_ornament",
+        "label_en": "dragon roof ornament",
+        "score": 0.5163
+      },
+      {
+        "id": "curved_tiled_roof",
+        "label_en": "curved tiled roof",
+        "score": 0.2848
+      },
+      {
+        "id": "pagoda",
+        "label_en": "Buddhist pagoda",
+        "score": 0.2208
+      }
+    ],
+    "One Pillar Pagoda": [
+      {
+        "id": "lotus_pond",
+        "label_en": "lotus pond",
+        "score": 1.2958
+      },
+      {
+        "id": "pagoda",
+        "label_en": "Buddhist pagoda",
+        "score": 0.5715
+      },
+      {
+        "id": "prayer_flag_banner",
+        "label_en": "temple banner",
+        "score": 0.2653
+      },
+      {
+        "id": "water_puppet_stage",
+        "label_en": "puppet stage over water",
+        "score": 0.1671
+      },
+      {
+        "id": "lotus_motif",
+        "label_en": "lotus carving",
+        "score": 0.1495
+      }
+    ],
+    "Ho Chi Minh's Mausoleum": [
+      {
+        "id": "war_memorial",
+        "label_en": "memorial monument",
+        "score": 0.6162
+      },
+      {
+        "id": "fog_landscape",
+        "label_en": "misty landscape",
+        "score": 0.2559
+      },
+      {
+        "id": "stele_house",
+        "label_en": "stele pavilion",
+        "score": 0.2432
+      },
+      {
+        "id": "skyscraper",
+        "label_en": "modern skyscraper",
+        "score": 0.1815
+      },
+      {
+        "id": "rice_paddy",
+        "label_en": "flat rice paddy",
+        "score": 0.1794
+      }
+    ],
+    "The Old Quarter": [
+      {
+        "id": "night_market",
+        "label_en": "night market street",
+        "score": 0.4673
+      },
+      {
+        "id": "tube_house",
+        "label_en": "narrow shophouse",
+        "score": 0.3446
+      },
+      {
+        "id": "motorbike",
+        "label_en": "motorbike",
+        "score": 0.305
+      },
+      {
+        "id": "street_food_cart",
+        "label_en": "street food cart",
+        "score": 0.2592
+      },
+      {
+        "id": "bg_other",
+        "label_en": "something else",
+        "score": 0.2328
+      }
+    ],
+    "Vietnam National Museum of History": [
+      {
+        "id": "shuttered_window",
+        "label_en": "wooden shuttered window",
+        "score": 0.3388
+      },
+      {
+        "id": "bg_other",
+        "label_en": "something else",
+        "score": 0.1913
+      },
+      {
+        "id": "colonial_building",
+        "label_en": "French colonial building",
+        "score": 0.1896
+      },
+      {
+        "id": "kumquat_tree",
+        "label_en": "potted kumquat tree",
+        "score": 0.148
+      },
+      {
+        "id": "museum_interior",
+        "label_en": "museum exhibition room",
+        "score": 0.1117
+      }
+    ],
+    "Bat Trang Pottery Village": [
+      {
+        "id": "pottery_wheel",
+        "label_en": "potter shaping clay",
+        "score": 1.0742
+      },
+      {
+        "id": "ceramic_vase",
+        "label_en": "painted ceramic vase",
+        "score": 0.1885
+      },
+      {
+        "id": "dipping_sauce_bowl",
+        "label_en": "small dipping sauce bowl",
+        "score": 0.1695
+      },
+      {
+        "id": "bg_other",
+        "label_en": "something else",
+        "score": 0.1099
+      },
+      {
+        "id": "fish_sauce_barrel",
+        "label_en": "wooden fish sauce barrel",
+        "score": 0.0736
+      }
+    ],
+    "Van Phuc Silk Village": [
+      {
+        "id": "weaving_loom",
+        "label_en": "wooden weaving loom",
+        "score": 0.3239
+      },
+      {
+        "id": "bg_other",
+        "label_en": "something else",
+        "score": 0.1526
+      },
+      {
+        "id": "bg_text",
+        "label_en": "text or signage",
+        "score": 0.096
+      },
+      {
+        "id": "incense_coil",
+        "label_en": "hanging incense coils",
+        "score": 0.068
+      },
+      {
+        "id": "shoulder_pole_vendor",
+        "label_en": "street vendor with shoulder pole",
+        "score": 0.0467
+      }
+    ]
+  },
+  "early_recognition_curve": {
+    "first_1_segs": 0.6,
+    "first_3_segs": 0.6,
+    "first_5_segs": 0.6,
+    "all_segs": 0.6
+  },
+  "predictions": [
+    {
+      "video_id": "69c54bb60a741c71017315d6",
+      "ground_truth": "Hoan Kiem Lake",
+      "predicted": "Vietnam National Museum of History",
+      "is_correct": false,
+      "top1_score": 0.0129,
+      "top2_score": 0.0087,
+      "margin": 0.0042,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69bdd7f0e157dec41ed92f60",
+      "ground_truth": "Hoan Kiem Lake",
+      "predicted": "Hoan Kiem Lake",
+      "is_correct": true,
+      "top1_score": 0.0163,
+      "top2_score": 0.0079,
+      "margin": 0.0084,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69c715430a741c7101731633",
+      "ground_truth": "Van Mieu Quoc Tu Giam",
+      "predicted": "Ho Chi Minh's Mausoleum",
+      "is_correct": false,
+      "top1_score": 0.019,
+      "top2_score": 0.0189,
+      "margin": 0.0001,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69c7156a0a741c7101731634",
+      "ground_truth": "Van Mieu Quoc Tu Giam",
+      "predicted": "Ho Chi Minh's Mausoleum",
+      "is_correct": false,
+      "top1_score": 0.0337,
+      "top2_score": 0.0288,
+      "margin": 0.0049,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69c0c1d5a5e55ff6ad938ffc",
+      "ground_truth": "HoangThanhThangLong",
+      "predicted": "Hoan Kiem Lake",
+      "is_correct": false,
+      "top1_score": 0.0123,
+      "top2_score": 0.0113,
+      "margin": 0.001,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69c0ae6ba5e55ff6ad938fe6",
+      "ground_truth": "HoangThanhThangLong",
+      "predicted": "Van Mieu Quoc Tu Giam",
+      "is_correct": false,
+      "top1_score": 0.0181,
+      "top2_score": 0.0177,
+      "margin": 0.0004,
+      "num_segments": 16
+    },
+    {
+      "video_id": "6a09609754cac746d34c204e",
+      "ground_truth": "West Lake",
+      "predicted": "West Lake",
+      "is_correct": true,
+      "top1_score": 0.0265,
+      "top2_score": 0.02,
+      "margin": 0.0064,
+      "num_segments": 16
+    },
+    {
+      "video_id": "6a09609754cac746d34c204d",
+      "ground_truth": "West Lake",
+      "predicted": "West Lake",
+      "is_correct": true,
+      "top1_score": 0.0235,
+      "top2_score": 0.0166,
+      "margin": 0.0069,
+      "num_segments": 16
+    },
+    {
+      "video_id": "6a27861fa0f5665d94c5aff3",
+      "ground_truth": "One Pillar Pagoda",
+      "predicted": "One Pillar Pagoda",
+      "is_correct": true,
+      "top1_score": 0.017,
+      "top2_score": 0.0086,
+      "margin": 0.0084,
+      "num_segments": 16
+    },
+    {
+      "video_id": "6a278613a0f5665d94c5aff0",
+      "ground_truth": "One Pillar Pagoda",
+      "predicted": "One Pillar Pagoda",
+      "is_correct": true,
+      "top1_score": 0.0167,
+      "top2_score": 0.0102,
+      "margin": 0.0066,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69ea3aacdcb04ab40f2a108b",
+      "ground_truth": "Ho Chi Minh's Mausoleum",
+      "predicted": "Ho Chi Minh's Mausoleum",
+      "is_correct": true,
+      "top1_score": 0.0175,
+      "top2_score": 0.0128,
+      "margin": 0.0047,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69ea3aabdcb04ab40f2a108a",
+      "ground_truth": "Ho Chi Minh's Mausoleum",
+      "predicted": "Ho Chi Minh's Mausoleum",
+      "is_correct": true,
+      "top1_score": 0.016,
+      "top2_score": 0.0052,
+      "margin": 0.0108,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69cff36b0a741c71017317bc",
+      "ground_truth": "The Old Quarter",
+      "predicted": "The Old Quarter",
+      "is_correct": true,
+      "top1_score": 0.0266,
+      "top2_score": 0.0183,
+      "margin": 0.0083,
+      "num_segments": 3
+    },
+    {
+      "video_id": "69cff3420a741c710173179b",
+      "ground_truth": "The Old Quarter",
+      "predicted": "The Old Quarter",
+      "is_correct": true,
+      "top1_score": 0.023,
+      "top2_score": 0.0133,
+      "margin": 0.0097,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69e9ff18dcb04ab40f2a104d",
+      "ground_truth": "Vietnam National Museum of History",
+      "predicted": "Vietnam National Museum of History",
+      "is_correct": true,
+      "top1_score": 0.0327,
+      "top2_score": 0.0199,
+      "margin": 0.0128,
+      "num_segments": 3
+    },
+    {
+      "video_id": "69e9ff17dcb04ab40f2a104b",
+      "ground_truth": "Vietnam National Museum of History",
+      "predicted": "The Old Quarter",
+      "is_correct": false,
+      "top1_score": 0.0074,
+      "top2_score": 0.0072,
+      "margin": 0.0002,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69f75726dcb04ab40f2a111b",
+      "ground_truth": "Bat Trang Pottery Village",
+      "predicted": "Bat Trang Pottery Village",
+      "is_correct": true,
+      "top1_score": 0.0035,
+      "top2_score": 0.0016,
+      "margin": 0.0019,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69f75726dcb04ab40f2a111a",
+      "ground_truth": "Bat Trang Pottery Village",
+      "predicted": "Bat Trang Pottery Village",
+      "is_correct": true,
+      "top1_score": 0.0031,
+      "top2_score": 0.0011,
+      "margin": 0.002,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69fb4028dcb04ab40f2a1149",
+      "ground_truth": "Van Phuc Silk Village",
+      "predicted": "The Old Quarter",
+      "is_correct": false,
+      "top1_score": 0.0036,
+      "top2_score": 0.0032,
+      "margin": 0.0004,
+      "num_segments": 16
+    },
+    {
+      "video_id": "69fb4012dcb04ab40f2a1137",
+      "ground_truth": "Van Phuc Silk Village",
+      "predicted": "West Lake",
+      "is_correct": false,
+      "top1_score": 0.0224,
+      "top2_score": 0.0214,
+      "margin": 0.001,
+      "num_segments": 16
+    }
+  ]
+}

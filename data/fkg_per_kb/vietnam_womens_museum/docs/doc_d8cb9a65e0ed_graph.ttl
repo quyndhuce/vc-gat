@@ -1,0 +1,104 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#geometric_blocks> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum> onto:has_part <http://transmtl.vn/kb/vietnam_womens_museum#façade>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#geometric_blocks>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#glass_panels> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#glass_panels> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#façade> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> ;
+    onto:with <http://transmtl.vn/ent/cf364b83> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#glass_panels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2907 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#geometric_blocks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#façade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5577 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3478 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#glass_panels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4223 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#geometric_blocks> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2587 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/cf364b83> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#glass_panels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#façade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2931 ;
+    fkg:docId "doc_d8cb9a65e0ed" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#glass_panels> .
+

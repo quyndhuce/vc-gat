@@ -1,0 +1,50 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_hom_street> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:part_of <http://transmtl.vn/ent/213e7064>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.294 ;
+    fkg:docId "doc_b162b52b31e9" ;
+    fkg:kbId "hang_hom_street" ;
+    rdf:object <http://transmtl.vn/ent/213e7064> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_hom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2563 ;
+    fkg:docId "doc_b162b52b31e9" ;
+    fkg:kbId "hang_hom_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_hom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.566 ;
+    fkg:docId "doc_b162b52b31e9" ;
+    fkg:kbId "hang_hom_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_hom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.376 ;
+    fkg:docId "doc_b162b52b31e9" ;
+    fkg:kbId "hang_hom_street" ;
+    rdf:object <http://transmtl.vn/ent/213e7064> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_hom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2534 ;
+    fkg:docId "doc_b162b52b31e9" ;
+    fkg:kbId "hang_hom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_hom_street> .
+

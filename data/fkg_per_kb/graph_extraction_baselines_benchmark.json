@@ -1,0 +1,50 @@
+{
+  "1. Rule / OpenIE Baseline": {
+    "Entity F1": 43.56435643564356,
+    "Relation F1": 47.52475247524752,
+    "Triple Precision": 68.0,
+    "Triple Recall": 22.36842105263158,
+    "Triple F1": 33.663366336633665,
+    "ECE": 21.60000000000001,
+    "Brier Score": 0.2516,
+    "Total Pred": 25,
+    "Total Gold": 76,
+    "TP Count": 17
+  },
+  "2. LLM Extraction (Qwen2.5-7B)": {
+    "Entity F1": 69.53125000000001,
+    "Relation F1": 64.0625,
+    "Triple Precision": 65.38461538461539,
+    "Triple Recall": 44.73684210526316,
+    "Triple F1": 53.125,
+    "ECE": 24.615384615384606,
+    "Brier Score": 0.28692307692307695,
+    "Total Pred": 52,
+    "Total Gold": 76,
+    "TP Count": 34
+  },
+  "3. LLM + Entity Resolution": {
+    "Entity F1": 69.53125000000001,
+    "Relation F1": 64.0625,
+    "Triple Precision": 65.38461538461539,
+    "Triple Recall": 44.73684210526316,
+    "Triple F1": 53.125,
+    "ECE": 24.615384615384606,
+    "Brier Score": 0.28692307692307695,
+    "Total Pred": 52,
+    "Total Gold": 76,
+    "TP Count": 34
+  },
+  "4. Ours: FKG Extraction + Fusion": {
+    "Entity F1": 97.89473684210527,
+    "Relation F1": 53.68421052631579,
+    "Triple Precision": 33.33333333333333,
+    "Triple Recall": 50.0,
+    "Triple F1": 40.0,
+    "ECE": 26.25555578423173,
+    "Brier Score": 0.24920003621591463,
+    "Total Pred": 114,
+    "Total Gold": 76,
+    "TP Count": 38
+  }
+}

@@ -1,0 +1,1172 @@
+[
+  {
+    "sample_id": "cmc_seg00",
+    "landmark": "One Pillar Pagoda",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "lotus_pond": 1.0,
+      "pagoda": 0.99,
+      "three_entrance_gate": 0.86,
+      "stone_pillar": 0.75
+    },
+    "spatial_cues": [
+      [
+        "pagoda",
+        "next_to",
+        "lotus_pond"
+      ],
+      [
+        "stone_pillar",
+        "inside",
+        "lotus_pond"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "has_part",
+        "tail": "column",
+        "mu": 0.95
+      },
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "has_part",
+        "tail": "Linh Chiểu Lake",
+        "mu": 0.92
+      },
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "near",
+        "tail": "Ho Chi Minh Mausoleum",
+        "mu": 0.85
+      }
+    ],
+    "groundtruth_caption": "Chào mừng quý khách đến với Chùa Một Cột, hay Diên Hựu Tự, nằm ngay cạnh quần thể Lăng Chủ tịch Hồ Chí Minh. Ngay từ những góc nhìn đầu tiên, ngôi chùa hiện lên thanh tịnh giữa lòng hồ sen Linh Chiểu, nâng đỡ bởi một cột đá độc nhất vô nhị vươn mình như đóa sen tinh khiết."
+  },
+  {
+    "sample_id": "cmc_seg04",
+    "landmark": "One Pillar Pagoda",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "pagoda": 1.0,
+      "stone_pillar": 0.98,
+      "curved_tiled_roof": 0.85,
+      "dragon_carved_stairs": 0.92
+    },
+    "spatial_cues": [
+      [
+        "curved_tiled_roof",
+        "on_top_of",
+        "pagoda"
+      ],
+      [
+        "stone_pillar",
+        "next_to",
+        "dragon_carved_stairs"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "has_part",
+        "tail": "roof",
+        "mu": 0.9
+      },
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "architectural_style",
+        "tail": "traditional Vietnamese",
+        "mu": 0.88
+      },
+      {
+        "head": "main hall",
+        "rel": "inspired_by",
+        "tail": "One Pillar Pagoda",
+        "mu": 0.82
+      }
+    ],
+    "groundtruth_caption": "Tiến lại gần chân công trình, quý khách có thể chiêm ngưỡng đài Liên Hoa với phần mái ngói cong cổ kính và các bậc thang chạm rồng uy nghi. Toàn bộ kiến trúc gỗ tinh xảo được đặt cân bằng tuyệt đối trên trụ đá vững chãi, thể hiện đỉnh cao nghệ thuật tạo hình dân gian Việt Nam."
+  },
+  {
+    "sample_id": "cmc_seg12",
+    "landmark": "One Pillar Pagoda",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "pagoda": 0.98,
+      "lotus_pond": 0.99,
+      "stone_pillar": 0.92
+    },
+    "spatial_cues": [
+      [
+        "pagoda",
+        "inside",
+        "lotus_pond"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "built_in",
+        "tail": "1049",
+        "mu": 0.98
+      },
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "belongs_to_dynasty",
+        "tail": "Lý dynasty",
+        "mu": 0.95
+      },
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "built_by",
+        "tail": "Emperor Ly Thai Tong",
+        "mu": 0.9
+      },
+      {
+        "head": "One Pillar Pagoda",
+        "rel": "recognized_in",
+        "tail": "2012",
+        "mu": 0.85
+      }
+    ],
+    "groundtruth_caption": "Khởi dựng từ năm 1049 dưới triều vua Lý Thái Tông xuất phát từ giấc mơ Phật Bà Quan Âm ban đài sen, Chùa Một Cột đã trải qua gần một thiên niên kỷ lịch sử. Năm 2012, công trình tự hào được Tổ chức Kỷ lục Châu Á xác lập là ngôi chùa có kiến trúc độc đáo nhất châu lục, trở thành biểu tượng trường tồn của thủ đô."
+  },
+  {
+    "sample_id": "hkl_seg00",
+    "landmark": "Hoan Kiem Lake",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "lake": 1.0,
+      "colonial_building": 0.99,
+      "banyan_tree": 0.88
+    },
+    "spatial_cues": [
+      [
+        "colonial_building",
+        "next_to",
+        "lake"
+      ],
+      [
+        "banyan_tree",
+        "surrounded_by",
+        "lake"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Hoan Kiem Lake",
+        "rel": "located_in",
+        "tail": "Hanoi",
+        "mu": 1.0
+      },
+      {
+        "head": "Hoan Kiem Lake",
+        "rel": "has_part",
+        "tail": "Sword Lake",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Chào mừng quý khách đến với Hồ Hoàn Kiếm, trái tim văn hóa ngàn năm của thủ đô Hà Nội. Mặt nước hồ xanh biếc phẳng lặng như tấm gương lớn soi bóng những rặng bàng cổ thụ và các công trình mang đậm dấu ấn kiến trúc thời gian."
+  },
+  {
+    "sample_id": "hkl_seg05",
+    "landmark": "Hoan Kiem Lake",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "lake": 0.99,
+      "bell_tower_asian": 0.96,
+      "banyan_tree": 0.92
+    },
+    "spatial_cues": [
+      [
+        "bell_tower_asian",
+        "inside",
+        "lake"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Thap rua",
+        "rel": "located_in",
+        "tail": "Hoan Kiem Lake",
+        "mu": 0.98
+      },
+      {
+        "head": "Thap rua",
+        "rel": "architectural_style",
+        "tail": "traditional Vietnamese and Gothic",
+        "mu": 0.8
+      }
+    ],
+    "groundtruth_caption": "Nhìn ra giữa gợn sóng biếc, Tháp Rùa cổ kính hiện lên rêu phong trên gò đất nổi giữa hồ. Ngọn tháp nhỏ nhắn mang sự kết hợp hài hòa giữa nét vòm châu Âu và phong cách mái đao truyền thống, sừng sững qua bao thăng trầm của lịch sử kinh thành."
+  },
+  {
+    "sample_id": "hkl_seg14",
+    "landmark": "Hoan Kiem Lake",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "lake": 0.98,
+      "colonial_building": 0.95
+    },
+    "spatial_cues": [
+      [
+        "lake",
+        "next_to",
+        "colonial_building"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Hoan Kiem Lake",
+        "rel": "associated_with",
+        "tail": "Emperor Le Loi",
+        "mu": 0.99
+      },
+      {
+        "head": "Hoan Kiem Lake",
+        "rel": "symbol_of",
+        "tail": "Hanoi",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Gắn liền với truyền thuyết vua Lê Lợi hoàn trả gươm thần cho Rùa Vàng sau ngày đại thắng giặc Minh vào thế kỷ 15, Hồ Gươm không chỉ là cảnh quan thiên nhiên mà còn là biểu tượng bất diệt cho tinh thần yêu chuộng hòa bình của dân tộc Việt Nam."
+  },
+  {
+    "sample_id": "cth_seg01",
+    "landmark": "The Huc Bridge",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "red_wooden_bridge": 0.96,
+      "lake": 0.92,
+      "arched_bridge": 0.9
+    },
+    "spatial_cues": [
+      [
+        "red_wooden_bridge",
+        "spanning_across",
+        "lake"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "The Huc bridge",
+        "rel": "over",
+        "tail": "Hoan Kiem Lake",
+        "mu": 0.95
+      },
+      {
+        "head": "The Huc bridge",
+        "rel": "has_part",
+        "tail": "red painted wood",
+        "mu": 0.9
+      }
+    ],
+    "groundtruth_caption": "Bắc qua làn nước xanh màu ngọc bích, Cầu Thê Húc uốn cong mềm mại như một dải lụa đỏ thắm rực rỡ, dẫn lối du khách từ bờ hồ vào đảo Ngọc linh thiêng."
+  },
+  {
+    "sample_id": "cth_seg06",
+    "landmark": "The Huc Bridge",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "red_wooden_bridge": 0.94,
+      "temple_den": 0.88,
+      "wooden_pillar": 0.8
+    },
+    "spatial_cues": [
+      [
+        "red_wooden_bridge",
+        "connects",
+        "temple_den"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "The Huc bridge",
+        "rel": "leading_to",
+        "tail": "Ngoc Son Temple",
+        "mu": 0.95
+      },
+      {
+        "head": "Ngoc Son Temple",
+        "rel": "dedicated_to",
+        "tail": "Tran Hung Dao",
+        "mu": 0.9
+      }
+    ],
+    "groundtruth_caption": "Cây cầu gỗ sơn son 32 chân trụ dẫn thẳng vào Đền Ngọc Sơn – nơi thờ vị tướng tài ba Quốc công Tiết chế Trần Hưng Đạo cùng Văn Xương Đế Quân, chủ quản văn chương khoa cử thời phong kiến."
+  },
+  {
+    "sample_id": "cth_seg15",
+    "landmark": "The Huc Bridge",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "red_wooden_bridge": 0.9,
+      "lake": 0.95
+    },
+    "spatial_cues": [
+      [
+        "red_wooden_bridge",
+        "spanning_across",
+        "lake"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "The Huc bridge",
+        "rel": "built_in",
+        "tail": "1865",
+        "mu": 0.92
+      },
+      {
+        "head": "The Huc bridge",
+        "rel": "built_by",
+        "tail": "Nguyen Van Sieu",
+        "mu": 0.9
+      }
+    ],
+    "groundtruth_caption": "Tên gọi 'Thê Húc' mang ý nghĩa thi vị là 'nơi lưu giữ ánh sáng ban mai', do danh sĩ Nguyễn Văn Siêu cho xây dựng vào năm 1865. Cùng với Tháp Bút và Đài Nghiên, cây cầu tạo nên một quần thể danh thắng văn hóa đặc sắc không thể tách rời của thủ đô."
+  },
+  {
+    "sample_id": "vm_seg00",
+    "landmark": "Van Mieu Quoc Tu Giam",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "three_entrance_gate": 0.95,
+      "curved_tiled_roof": 0.9,
+      "brick_wall": 0.85
+    },
+    "spatial_cues": [
+      [
+        "three_entrance_gate",
+        "inside",
+        "courtyard"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Temple of Literature",
+        "rel": "located_in",
+        "tail": "Hanoi",
+        "mu": 1.0
+      },
+      {
+        "head": "Temple of Literature",
+        "rel": "has_part",
+        "tail": "Dai Trung gate",
+        "mu": 0.92
+      }
+    ],
+    "groundtruth_caption": "Bước qua cổng Tam Quan cổ kính rợp bóng cây xanh, quý khách đang có mặt tại Văn Miếu – Quốc Tử Giám, quần thể di tích mang đậm truyền thống hiếu học và tôn sư trọng đạo của dân tộc Việt."
+  },
+  {
+    "sample_id": "vm_seg05",
+    "landmark": "Van Mieu Quoc Tu Giam",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "stone_stele": 0.98,
+      "stele_on_turtle": 0.95,
+      "turtle_statue": 0.92,
+      "lotus_pond": 0.8
+    },
+    "spatial_cues": [
+      [
+        "stone_stele",
+        "on_top_of",
+        "turtle_statue"
+      ],
+      [
+        "stele_on_turtle",
+        "next_to",
+        "lotus_pond"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "stelae_of_the_doctors",
+        "rel": "has_part",
+        "tail": "turtle statue",
+        "mu": 0.98
+      },
+      {
+        "head": "stelae_of_the_doctors",
+        "rel": "made_of",
+        "tail": "stone",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Bên cạnh giếng Thiên Quang trong trẻo là 82 tấm bia tiến sĩ bằng đá xanh được đặt trang trọng trên lưng rùa đá. Mỗi tấm bia là một tác phẩm điêu khắc vô giá khắc ghi tên tuổi của các bậc hiền tài đỗ đạt qua các kỳ thi đại khoa xưa."
+  },
+  {
+    "sample_id": "vm_seg14",
+    "landmark": "Van Mieu Quoc Tu Giam",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "curved_tiled_roof": 0.92,
+      "wooden_pillar": 0.88
+    },
+    "spatial_cues": [
+      [
+        "wooden_pillar",
+        "on_top_of",
+        "courtyard"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Temple of Literature",
+        "rel": "founded_in",
+        "tail": "1070",
+        "mu": 0.99
+      },
+      {
+        "head": "Temple of Literature",
+        "rel": "dedicated_to",
+        "tail": "Confucius",
+        "mu": 0.98
+      },
+      {
+        "head": "stelae_of_the_doctors",
+        "rel": "recognized_as",
+        "tail": "UNESCO World Documentary Heritage",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Được vua Lý Thánh Tông sáng lập vào năm 1070 để thờ Khổng Tử và sau đó là nơi ra đời trường đại học đầu tiên của Việt Nam năm 1076, Văn Miếu ngày nay lưu giữ hệ thống Bia Tiến sĩ đã được UNESCO vinh danh là Di sản tư liệu thế giới."
+  },
+  {
+    "sample_id": "bt_seg01",
+    "landmark": "Bat Trang Pottery Village",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "pottery_wheel": 1.0,
+      "plastic_stool": 0.97,
+      "lacquered_column": 0.88
+    },
+    "spatial_cues": [
+      [
+        "plastic_stool",
+        "next_to",
+        "pottery_wheel"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Bat Trang Pottery Village",
+        "rel": "located_in",
+        "tail": "Gia Lam District",
+        "mu": 1.0
+      },
+      {
+        "head": "Bat Trang Pottery Village",
+        "rel": "craft_of",
+        "tail": "ceramic pottery",
+        "mu": 0.98
+      }
+    ],
+    "groundtruth_caption": "Chào mừng quý khách đến với làng gốm Bát Tràng, ngôi làng nghề trứ danh ven bờ tả ngạn sông Hồng. Ngay tại các phân xưởng thủ công, tiếng bàn xoay lách cách cùng đôi bàn tay khéo léo của người thợ đang tạo tác nên những mẻ đất sét mịn màng."
+  },
+  {
+    "sample_id": "bt_seg08",
+    "landmark": "Bat Trang Pottery Village",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "ceramic_vase": 0.95,
+      "pottery_wheel": 0.92,
+      "charcoal_grill": 0.7
+    },
+    "spatial_cues": [
+      [
+        "ceramic_vase",
+        "next_to",
+        "pottery_wheel"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Bat Trang Pottery Village",
+        "rel": "famous_dish_of",
+        "tail": "rice wine",
+        "mu": 0.6
+      },
+      {
+        "head": "Bat Trang Pottery Village",
+        "rel": "made_of",
+        "tail": "white clay",
+        "mu": 0.92
+      }
+    ],
+    "groundtruth_caption": "Những chiếc bình gốm và bát đĩa hoa văn lam đặc trưng được phủ lớp men tro truyền thống trước khi đưa vào lò nung nhiệt độ cao, minh chứng cho kỹ nghệ tinh xảo được gìn giữ qua nhiều thế hệ dòng họ thợ gốm."
+  },
+  {
+    "sample_id": "bt_seg15",
+    "landmark": "Bat Trang Pottery Village",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "ceramic_vase": 0.96,
+      "pottery_wheel": 0.85
+    },
+    "spatial_cues": [
+      [
+        "ceramic_vase",
+        "inside",
+        "courtyard"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Bat Trang Pottery Village",
+        "rel": "founded_in",
+        "tail": "14th century",
+        "mu": 0.95
+      },
+      {
+        "head": "Bat Trang Pottery Village",
+        "rel": "belongs_to_dynasty",
+        "tail": "Tran dynasty",
+        "mu": 0.9
+      }
+    ],
+    "groundtruth_caption": "Hình thành từ thời nhà Lý – Trần vào thế kỷ 14 bên dòng phù sa sông Hồng, Bát Tràng đã có hơn 500 năm lịch sử vang danh khắp trong và ngoài nước, trở thành biểu tượng tinh hoa làng nghề gốm sứ Việt Nam."
+  },
+  {
+    "sample_id": "ht_seg00",
+    "landmark": "HoangThanhThangLong",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "citadel_wall": 0.92,
+      "city_gate": 0.9,
+      "brick_wall": 0.85
+    },
+    "spatial_cues": [
+      [
+        "city_gate",
+        "inside",
+        "citadel_wall"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Imperial Citadel of Thang Long",
+        "rel": "located_in",
+        "tail": "Hanoi",
+        "mu": 1.0
+      },
+      {
+        "head": "Doan Mon Gate",
+        "rel": "part_of",
+        "tail": "Imperial Citadel of Thang Long",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Trước mắt quý khách là cổng Đoan Môn sừng sững – cổng vòm thành cổ uy nghiêm dẫn vào trung tâm cấm thành của Hoàng thành Thăng Long, kinh đô hoa lệ của đất nước qua nhiều triều đại phong kiến."
+  },
+  {
+    "sample_id": "ht_seg07",
+    "landmark": "HoangThanhThangLong",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "city_gate": 0.95,
+      "brick_wall": 0.9,
+      "flag_tower": 0.75
+    },
+    "spatial_cues": [
+      [
+        "flag_tower",
+        "next_to",
+        "citadel_wall"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Doan Mon Gate",
+        "rel": "made_of",
+        "tail": "brick",
+        "mu": 0.96
+      },
+      {
+        "head": "Doan Mon Gate",
+        "rel": "has_part",
+        "tail": "arch gates",
+        "mu": 0.92
+      }
+    ],
+    "groundtruth_caption": "Công trình được xây dựng bằng gạch vồ xám với năm cửa vòm cuốn kiên cố, trong đó vòm giữa lớn nhất xưa kia là lối đi riêng dành cho bậc hoàng đế xuất nhập cung cấm."
+  },
+  {
+    "sample_id": "ht_seg14",
+    "landmark": "HoangThanhThangLong",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "citadel_wall": 0.9,
+      "city_gate": 0.88
+    },
+    "spatial_cues": [
+      [
+        "city_gate",
+        "inside",
+        "citadel_wall"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Imperial Citadel of Thang Long",
+        "rel": "founded_in",
+        "tail": "1010",
+        "mu": 0.99
+      },
+      {
+        "head": "Imperial Citadel of Thang Long",
+        "rel": "built_by",
+        "tail": "Emperor Ly Thai To",
+        "mu": 0.98
+      },
+      {
+        "head": "Imperial Citadel of Thang Long",
+        "rel": "recognized_as",
+        "tail": "UNESCO World Heritage Site",
+        "mu": 0.98
+      }
+    ],
+    "groundtruth_caption": "Được vua Lý Thái Tổ khởi dựng năm 1010 khi dời đô về Thăng Long, trung tâm hoàng thành là nơi hội tụ các tầng văn hóa nối tiếp suốt 13 thế kỷ, được UNESCO công nhận là Di sản Văn hóa Thế giới vào năm 2010."
+  },
+  {
+    "sample_id": "lbc_seg00",
+    "landmark": "Ho Chi Minh's Mausoleum",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "royal_tomb": 0.96,
+      "stone_pillar": 0.92,
+      "courtyard": 0.88
+    },
+    "spatial_cues": [
+      [
+        "royal_tomb",
+        "next_to",
+        "courtyard"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Ho Chi Minh Mausoleum",
+        "rel": "located_in",
+        "tail": "Ba Dinh Square",
+        "mu": 1.0
+      },
+      {
+        "head": "Ba Dinh Square",
+        "rel": "located_in",
+        "tail": "Hanoi",
+        "mu": 1.0
+      }
+    ],
+    "groundtruth_caption": "Trải rộng trước Quảng trường Ba Đình lộng gió là Lăng Chủ tịch Hồ Chí Minh – công trình uy nghi, trang trọng, nơi an nghỉ vĩnh hằng của vị lãnh tụ kính yêu của dân tộc Việt Nam."
+  },
+  {
+    "sample_id": "lbc_seg08",
+    "landmark": "Ho Chi Minh's Mausoleum",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "royal_tomb": 0.98,
+      "stone_pillar": 0.95,
+      "curved_tiled_roof": 0.4
+    },
+    "spatial_cues": [
+      [
+        "stone_pillar",
+        "inside",
+        "royal_tomb"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Ho Chi Minh Mausoleum",
+        "rel": "made_of",
+        "tail": "granite and marble",
+        "mu": 0.95
+      },
+      {
+        "head": "Ho Chi Minh Mausoleum",
+        "rel": "architectural_style",
+        "tail": "monumental modernist design",
+        "mu": 0.9
+      }
+    ],
+    "groundtruth_caption": "Công trình được ốp bằng đá hoa cương xám vững chắc với hàng cột đá vuông vức vươn cao, gợi nhắc đến hình dáng mái nhà rông Tây Nguyên và đóa sen cách điệu trang nghiêm."
+  },
+  {
+    "sample_id": "lbc_seg15",
+    "landmark": "Ho Chi Minh's Mausoleum",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "royal_tomb": 0.95,
+      "courtyard": 0.92
+    },
+    "spatial_cues": [
+      [
+        "royal_tomb",
+        "next_to",
+        "courtyard"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Ho Chi Minh Mausoleum",
+        "rel": "inaugurated_in",
+        "tail": "1975",
+        "mu": 0.98
+      },
+      {
+        "head": "Ho Chi Minh Mausoleum",
+        "rel": "resting_place_of",
+        "tail": "President Ho Chi Minh",
+        "mu": 0.99
+      }
+    ],
+    "groundtruth_caption": "Khánh thành vào ngày 29 tháng 8 năm 1975 sau ngày đất nước thống nhất, Lăng Bác là điểm hành hương thiêng liêng thu hút hàng triệu đồng bào và bạn bè quốc tế về thăm viếng mỗi năm."
+  },
+  {
+    "sample_id": "oq_seg01",
+    "landmark": "The Old Quarter",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "lantern_street": 0.95,
+      "cyclo": 0.9,
+      "french_colonial_building": 0.85
+    },
+    "spatial_cues": [
+      [
+        "cyclo",
+        "next_to",
+        "lantern_street"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Hanoi Old Quarter",
+        "rel": "located_in",
+        "tail": "Hoan Kiem District",
+        "mu": 1.0
+      },
+      {
+        "head": "Hanoi Old Quarter",
+        "rel": "has_part",
+        "tail": "Hang Bac Street",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Hòa mình vào không gian 36 phố phường Hà Nội, quý khách sẽ cảm nhận ngay nhịp sống tấp nập đặc trưng với những chiếc xích lô thong dong luồn lách qua từng dãy phố cổ rực rỡ sắc đèn lồng."
+  },
+  {
+    "sample_id": "oq_seg07",
+    "landmark": "The Old Quarter",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "french_colonial_building": 0.92,
+      "curved_tiled_roof": 0.85,
+      "shuttered_window": 0.9
+    },
+    "spatial_cues": [
+      [
+        "curved_tiled_roof",
+        "on_top_of",
+        "french_colonial_building"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Hanoi Old Quarter",
+        "rel": "architectural_style",
+        "tail": "tube houses and French colonial",
+        "mu": 0.92
+      },
+      {
+        "head": "Hanoi Old Quarter",
+        "rel": "has_part",
+        "tail": "ancient houses",
+        "mu": 0.9
+      }
+    ],
+    "groundtruth_caption": "Kiến trúc nhà ống hình ống dài sâu hun hút với mái ngói xám nghiêng nghiêng đan xen các ban công kiểu Pháp tạo nên diện mạo độc nhất vô nhị chỉ có ở phố cổ đất kinh kỳ."
+  },
+  {
+    "sample_id": "oq_seg15",
+    "landmark": "The Old Quarter",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "lantern_street": 0.9,
+      "french_colonial_building": 0.88
+    },
+    "spatial_cues": [
+      [
+        "lantern_street",
+        "next_to",
+        "french_colonial_building"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Hanoi Old Quarter",
+        "rel": "founded_in",
+        "tail": "11th century",
+        "mu": 0.96
+      },
+      {
+        "head": "Hanoi Old Quarter",
+        "rel": "known_for",
+        "tail": "craft guilds",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Hình thành từ thời Lý – Trần thế kỷ 11 quanh chợ Đông và bến sông Hồng, khu phố cổ với các tên phố bắt đầu bằng chữ 'Hàng' vẫn lưu giữ tinh hoa ẩm thực và các phường nghề truyền thống sống động đến tận ngày nay."
+  },
+  {
+    "sample_id": "mnh_seg02",
+    "landmark": "Vietnam National Museum of History",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "museum_building": 0.96,
+      "french_colonial_building": 0.94,
+      "courtyard": 0.85
+    },
+    "spatial_cues": [
+      [
+        "museum_building",
+        "inside",
+        "courtyard"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Vietnam National Museum of History",
+        "rel": "located_in",
+        "tail": "Hanoi",
+        "mu": 1.0
+      },
+      {
+        "head": "Vietnam National Museum of History",
+        "rel": "has_part",
+        "tail": "main hall",
+        "mu": 0.92
+      }
+    ],
+    "groundtruth_caption": "Tọa lạc tại khu trung tâm quận Hoàn Kiếm, Bảo tàng Lịch sử Quốc gia hiện lên nổi bật với công trình kiến trúc Đông Dương bề thế, lưu giữ hàng trăm ngàn hiện vật quý giá của dòng chảy lịch sử Việt Nam."
+  },
+  {
+    "sample_id": "mnh_seg09",
+    "landmark": "Vietnam National Museum of History",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "bronze_gong": 0.92,
+      "ceramic_vase": 0.9,
+      "museum_building": 0.88
+    },
+    "spatial_cues": [
+      [
+        "bronze_gong",
+        "inside",
+        "museum_building"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Vietnam National Museum of History",
+        "rel": "houses",
+        "tail": "Dong Son bronze drums",
+        "mu": 0.98
+      },
+      {
+        "head": "Dong Son bronze drums",
+        "rel": "made_of",
+        "tail": "bronze",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Trong các gian trưng bày trang nghiêm, tiêu biểu nhất là bộ sưu tập Trống đồng Đông Sơn niên đại hàng ngàn năm với những họa tiết chim Lạc và thuyền chiến phản ánh đời sống tâm linh rực rỡ của thời đại Hùng Vương."
+  },
+  {
+    "sample_id": "mnh_seg15",
+    "landmark": "Vietnam National Museum of History",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "museum_building": 0.95,
+      "french_colonial_building": 0.92
+    },
+    "spatial_cues": [
+      [
+        "museum_building",
+        "next_to",
+        "courtyard"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Vietnam National Museum of History",
+        "rel": "designed_by",
+        "tail": "Ernest Hebrard",
+        "mu": 0.92
+      },
+      {
+        "head": "Vietnam National Museum of History",
+        "rel": "inaugurated_in",
+        "tail": "1932",
+        "mu": 0.9
+      }
+    ],
+    "groundtruth_caption": "Được kiến trúc sư người Pháp Ernest Hébrard thiết kế hoàn thành vào năm 1932 theo phong cách kết hợp Á – Âu hoàn mỹ, tòa nhà bảo tàng chính là một kiệt tác kiến trúc di sản vô giá giữa lòng thủ đô."
+  },
+  {
+    "sample_id": "tq_seg00",
+    "landmark": "West Lake",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "pagoda": 0.98,
+      "lake": 0.95,
+      "banyan_tree": 0.88
+    },
+    "spatial_cues": [
+      [
+        "pagoda",
+        "inside",
+        "lake"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Tran Quoc Pagoda",
+        "rel": "located_in",
+        "tail": "West Lake",
+        "mu": 1.0
+      },
+      {
+        "head": "Tran Quoc Pagoda",
+        "rel": "has_part",
+        "tail": "stupa",
+        "mu": 0.94
+      }
+    ],
+    "groundtruth_caption": "Tọa lạc trên một bán đảo nhỏ xanh mát phía đông Hồ Tây, Chùa Trấn Quốc nổi bật với tòa bảo tháp lục độ đài sen cao vút in bóng xuống làn nước mênh mang của hồ lớn nhất Hà Nội."
+  },
+  {
+    "sample_id": "tq_seg08",
+    "landmark": "West Lake",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "stupa": 0.96,
+      "pagoda": 0.92,
+      "banyan_tree": 0.9
+    },
+    "spatial_cues": [
+      [
+        "banyan_tree",
+        "next_to",
+        "pagoda"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Tran Quoc Pagoda",
+        "rel": "has_part",
+        "tail": "Bodhi tree",
+        "mu": 0.95
+      },
+      {
+        "head": "Bodhi tree",
+        "rel": "gifted_by",
+        "tail": "Indian President",
+        "mu": 0.9
+      }
+    ],
+    "groundtruth_caption": "Trong sân chùa rợp bóng mát có cây Bồ Đề xanh tốt được chiết từ cây Bồ Đề Đạo Tràng do Tổng thống Ấn Độ Prasat trao tặng vào năm 1959, biểu tượng cho sự gắn kết tâm linh và hữu nghị bền vững."
+  },
+  {
+    "sample_id": "tq_seg15",
+    "landmark": "West Lake",
+    "temporal_phase": "FINAL_SYNTHESIS",
+    "visual_evidence": {
+      "pagoda": 0.95,
+      "lake": 0.96
+    },
+    "spatial_cues": [
+      [
+        "pagoda",
+        "inside",
+        "lake"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Tran Quoc Pagoda",
+        "rel": "founded_in",
+        "tail": "6th century",
+        "mu": 0.99
+      },
+      {
+        "head": "Tran Quoc Pagoda",
+        "rel": "belongs_to_dynasty",
+        "tail": "Tien Ly dynasty",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Với lịch sử khởi dựng từ thế kỷ thứ 6 thời Tiền Lý mang tên Khai Quốc, Trấn Quốc là ngôi chùa cổ kính nhất đất Thăng Long với hơn 1.500 năm tuổi, từng được bình chọn là một trong những ngôi chùa đẹp nhất thế giới."
+  },
+  {
+    "sample_id": "hkl_lythaito",
+    "landmark": "Hoan Kiem Lake",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "standing_deity_statue": 0.98,
+      "colonial_building": 0.95,
+      "banyan_tree": 0.85
+    },
+    "spatial_cues": [
+      [
+        "standing_deity_statue",
+        "next_to",
+        "colonial_building"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Ly Thai To statue",
+        "rel": "located_in",
+        "tail": "Ly Thai To Garden",
+        "mu": 0.98
+      },
+      {
+        "head": "Ly Thai To statue",
+        "rel": "made_of",
+        "tail": "bronze",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Ngay sát bờ hồ Hoàn Kiếm là tượng đài vua Lý Thái Tổ đúc bằng đồng nguyên chất nặng hơn 32 tấn, tay cầm Chiếu Dời Đô uy phong hướng về kinh thành Thăng Long nghìn năm văn hiến."
+  },
+  {
+    "sample_id": "vm_khuevancac",
+    "landmark": "Van Mieu Quoc Tu Giam",
+    "temporal_phase": "EARLY_HOOK",
+    "visual_evidence": {
+      "curved_tiled_roof": 0.95,
+      "wooden_pillar": 0.9,
+      "lotus_pond": 0.85
+    },
+    "spatial_cues": [
+      [
+        "curved_tiled_roof",
+        "on_top_of",
+        "wooden_pillar"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Khue Van Cac",
+        "rel": "part_of",
+        "tail": "Temple of Literature",
+        "mu": 0.98
+      },
+      {
+        "head": "Khue Van Cac",
+        "rel": "built_in",
+        "tail": "1805",
+        "mu": 0.92
+      }
+    ],
+    "groundtruth_caption": "Hiện ra nổi bật giữa hai hàng cây xanh là Khuê Văn Các – gác sao Khuê với kiến trúc hai tầng tám mái độc đáo được dựng vào năm 1805, biểu trưng rực rỡ cho nền văn hiến và tinh hoa trí tuệ đất kinh kỳ."
+  },
+  {
+    "sample_id": "ht_ky_dai",
+    "landmark": "HoangThanhThangLong",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "flag_tower": 0.98,
+      "brick_wall": 0.95,
+      "citadel_wall": 0.88
+    },
+    "spatial_cues": [
+      [
+        "flag_tower",
+        "on_top_of",
+        "citadel_wall"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Flag Tower of Hanoi",
+        "rel": "built_in",
+        "tail": "1812",
+        "mu": 0.96
+      },
+      {
+        "head": "Flag Tower of Hanoi",
+        "rel": "part_of",
+        "tail": "Imperial Citadel of Thang Long",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Cột cờ Hà Nội, hay Kỳ Đài, cao hơn 33 mét được xây dựng từ thời Nguyễn năm 1812 với cấu trúc ba tầng đế vuông giật cấp bằng gạch nung, kiên cường đứng vững qua các cuộc chiến tranh bảo vệ thủ đô."
+  },
+  {
+    "sample_id": "bt_cho_gom",
+    "landmark": "Bat Trang Pottery Village",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "ceramic_vase": 0.98,
+      "market_stall": 0.92,
+      "lantern_street": 0.8
+    },
+    "spatial_cues": [
+      [
+        "ceramic_vase",
+        "inside",
+        "market_stall"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Bat Trang Market",
+        "rel": "located_in",
+        "tail": "Bat Trang Pottery Village",
+        "mu": 0.98
+      },
+      {
+        "head": "Bat Trang Market",
+        "rel": "houses",
+        "tail": "ceramic products",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Khu chợ gốm Bát Tràng sầm uất với hàng trăm gian hàng trưng bày phong phú từ đồ gốm gia dụng, tranh gốm phong cảnh cho đến những tác phẩm men rạn, men ngọc độc bản thu hút đông đảo du khách trong và ngoài nước."
+  },
+  {
+    "sample_id": "oq_hang_ma",
+    "landmark": "The Old Quarter",
+    "temporal_phase": "MID_DEEPENING",
+    "visual_evidence": {
+      "silk_lantern": 0.98,
+      "paper_votive": 0.9,
+      "lantern_street": 0.95
+    },
+    "spatial_cues": [
+      [
+        "silk_lantern",
+        "hanging_from",
+        "lantern_street"
+      ]
+    ],
+    "grounded_facts": [
+      {
+        "head": "Hang Ma street",
+        "rel": "part_of",
+        "tail": "Hanoi Old Quarter",
+        "mu": 0.98
+      },
+      {
+        "head": "Hang Ma street",
+        "rel": "known_for",
+        "tail": "lanterns and paper decorations",
+        "mu": 0.95
+      }
+    ],
+    "groundtruth_caption": "Phố Hàng Mã rực rỡ sắc màu của muôn vàn lồng đèn giấy, đồ chơi dân gian và đồ trang trí truyền thống, luôn là con phố nhộn nhịp, lung linh nhất khu phố cổ mỗi dịp lễ hội Trung Thu hay Tết cổ truyền."
+  }
+]

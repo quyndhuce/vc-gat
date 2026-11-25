@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-10-27 21:43:50",
+  "total_test_clips": 1119,
+  "eval_seconds": 19.19,
+  "ms_per_clip": 17.15,
+  "best_val_hit_rate": 0.0,
+  "summary": {
+    "baseline_pointwise": {
+      "subgraph_coherence_scr": {
+        "mean": 43.87,
+        "std": 15.87
+      },
+      "giant_component_gcr": {
+        "mean": 83.45,
+        "std": 16.95
+      },
+      "gold_fact_hit_rate": {
+        "mean": 14.25,
+        "std": 11.78
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.1237,
+        "std": 0.0148
+      }
+    },
+    "topology_diffusion": {
+      "subgraph_coherence_scr": {
+        "mean": 89.63,
+        "std": 7.92
+      },
+      "giant_component_gcr": {
+        "mean": 99.48,
+        "std": 2.11
+      },
+      "gold_fact_hit_rate": {
+        "mean": 43.52,
+        "std": 20.07
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.0877,
+        "std": 0.0135
+      }
+    },
+    "trained_deep_vc_gat": {
+      "subgraph_coherence_scr": {
+        "mean": 92.76,
+        "std": 22.69
+      },
+      "giant_component_gcr": {
+        "mean": 94.75,
+        "std": 17.24
+      },
+      "gold_fact_hit_rate": {
+        "mean": 58.07,
+        "std": 23.07
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.0898,
+        "std": 0.0143
+      }
+    }
+  }
+}

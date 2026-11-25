@@ -1,0 +1,551 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/6734a66a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/one_pillar_pagoda#bích_trì_lake> onto:surrounded_by <http://transmtl.vn/ent/b254e0ae> .
+
+<http://transmtl.vn/kb/one_pillar_pagoda#hexagonal_structure> onto:part_of <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+<http://transmtl.vn/ent/e6647820> onto:held_position <http://transmtl.vn/ent/f860e266> .
+
+<http://transmtl.vn/kb/one_pillar_pagoda#linh_chiểu_lake> onto:surrounded_by <http://transmtl.vn/ent/0ab82e51>,
+        <http://transmtl.vn/ent/b254e0ae> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> onto:located_in <http://transmtl.vn/ent/f9ce1812> ;
+    onto:part_of <http://transmtl.vn/ent/0dc66ec9>,
+        <http://transmtl.vn/ent/f9ce1812> .
+
+<http://transmtl.vn/kb/one_pillar_pagoda> onto:architectural_style <http://transmtl.vn/ent/85e50e18> ;
+    onto:belongs_to_dynasty <http://transmtl.vn/ent/5a2e3157> ;
+    onto:has_part <http://transmtl.vn/kb/one_pillar_pagoda#bích_trì_lake>,
+        <http://transmtl.vn/kb/one_pillar_pagoda#hexagonal_structure>,
+        <http://transmtl.vn/kb/one_pillar_pagoda#linh_chiểu_lake>,
+        <http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/6734a66a>,
+        <http://transmtl.vn/ent/6b77ef4b> ;
+    onto:near <http://transmtl.vn/ent/202ef6fa> ;
+    onto:reconstructed_by <http://transmtl.vn/ent/1ca30206>,
+        <http://transmtl.vn/ent/a8d6d1db>,
+        <http://transmtl.vn/ent/f6384f90>,
+        <http://transmtl.vn/ent/f894427c> ;
+    onto:reconstructed_in <http://transmtl.vn/ent/7b7a53e2> .
+
+<http://www.wikidata.org/entity/Q1858> onto:architectural_style <http://transmtl.vn/ent/85e50e18> ;
+    onto:built_by <http://transmtl.vn/ent/0dcac045>,
+        <http://transmtl.vn/ent/8fc42c6d>,
+        <http://transmtl.vn/ent/e6647820>,
+        <http://transmtl.vn/ent/f860e266> ;
+    onto:built_in <http://transmtl.vn/ent/58c54802> ;
+    onto:demolished_by <http://transmtl.vn/ent/582b795a>,
+        <http://transmtl.vn/ent/5f7f2531>,
+        <http://transmtl.vn/ent/64e12ab6>,
+        <http://transmtl.vn/ent/d1972005> ;
+    onto:demolished_in <http://transmtl.vn/ent/5a7f963e> ;
+    onto:destroyed_in <http://transmtl.vn/ent/5a7f963e> ;
+    onto:hosts_event <http://transmtl.vn/ent/4824773f> ;
+    onto:part_of <http://transmtl.vn/ent/b01b1c09> ;
+    onto:reconstructed_by <http://transmtl.vn/ent/072306ee>,
+        <http://transmtl.vn/ent/0ef32511> ;
+    onto:reconstructed_in <http://transmtl.vn/ent/378a063b>,
+        <http://transmtl.vn/ent/7b7a53e2> ;
+    onto:renovated_in <http://transmtl.vn/ent/378a063b>,
+        <http://transmtl.vn/ent/af21d0c9>,
+        <http://transmtl.vn/ent/cdb4c049> ;
+    onto:surrounded_by <http://transmtl.vn/ent/0ab82e51>,
+        <http://transmtl.vn/ent/b254e0ae> ;
+    onto:used_as <http://transmtl.vn/ent/43340281> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2625 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b01b1c09> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4007 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/43340281> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2739 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f9ce1812> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4119 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/378a063b> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6513 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5a7f963e> ;
+    rdf:predicate onto:demolished_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2802 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/8fc42c6d> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4032 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2575 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f9ce1812> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3113 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/6b77ef4b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6485 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5a2e3157> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2909 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/e6647820> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6876 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/202ef6fa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3378 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5a7f963e> ;
+    rdf:predicate onto:demolished_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6679 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/af21d0c9> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3574 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f6384f90> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4225 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/4824773f> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3145 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f9ce1812> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3883 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5a7f963e> ;
+    rdf:predicate onto:destroyed_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3433 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:demolished_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5929 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/58c54802> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2655 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/0dcac045> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3597 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b254e0ae> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3474 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/7b7a53e2> ;
+    rdf:predicate onto:reconstructed_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6025 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5a7f963e> ;
+    rdf:predicate onto:destroyed_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4877 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6528 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f860e266> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4785 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6045 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/6734a66a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.589 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/378a063b> ;
+    rdf:predicate onto:reconstructed_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8568 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/0ef32511> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3488 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f894427c> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2996 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:demolished_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.729 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/58c54802> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/one_pillar_pagoda#bích_trì_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2527 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/0ab82e51> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#linh_chiểu_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2904 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/0dc66ec9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8521 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/58c54802> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4134 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b254e0ae> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#linh_chiểu_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2928 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/0dc66ec9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#tây_cấm_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9264 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2807 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/one_pillar_pagoda> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#hexagonal_structure> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6874 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/d1972005> ;
+    rdf:predicate onto:demolished_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3663 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/a8d6d1db> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/one_pillar_pagoda#hexagonal_structure> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4195 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/e6647820> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2692 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b254e0ae> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda#bích_trì_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7212 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f860e266> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7082 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f7f2531> ;
+    rdf:predicate onto:demolished_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3725 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/1ca30206> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3334 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/0ab82e51> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2635 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/cdb4c049> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4978 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/7b7a53e2> ;
+    rdf:predicate onto:reconstructed_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/one_pillar_pagoda#linh_chiểu_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5204 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/4824773f> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5422 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/af21d0c9> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4067 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f860e266> ;
+    rdf:predicate onto:held_position ;
+    rdf:subject <http://transmtl.vn/ent/e6647820> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4596 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/6734a66a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8291 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/58c54802> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4843 ;
+    fkg:docId "doc_e9e091aaab77" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+

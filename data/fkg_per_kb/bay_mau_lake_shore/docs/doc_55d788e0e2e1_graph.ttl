@@ -1,0 +1,480 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/019b0b27> onto:near <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/ent/13872c01> onto:near <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/ent/30b2baa3> onto:near <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/ent/3b2230c6> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/6990a543> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/98ac6b4b> onto:connects <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/ent/c7cae06f> onto:part_of <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/ent/fbd75194> onto:connects <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/ent/67f59dbd> onto:near <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/ent/7fdadeab> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/26c51b47> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/bay_mau_lake_shore> onto:in <http://transmtl.vn/ent/207462d2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/c0cb5f0f> .
+
+<http://transmtl.vn/ent/e8cba931> onto:part_of <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/26c51b47> .
+
+<http://transmtl.vn/ent/1a898751> onto:part_of <http://transmtl.vn/kb/bay_mau_lake> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/582b795a> .
+
+<http://transmtl.vn/kb/bay_mau_lake> onto:has_part <http://transmtl.vn/ent/13f7a2a0>,
+        <http://transmtl.vn/ent/1a898751>,
+        <http://transmtl.vn/ent/22bde2f3>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/e8cba931> ;
+    onto:located_in <http://transmtl.vn/ent/07f9315c>,
+        <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:part_of <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/46d5c58a>,
+        <http://transmtl.vn/ent/831740e4>,
+        <http://transmtl.vn/ent/9460370b>,
+        <http://transmtl.vn/ent/cf1ee137> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5757 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/cf1ee137> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2759 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c7cae06f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3546 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/019b0b27> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6793 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake_shore> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.308 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/26c51b47> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3076 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/e8cba931> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4788 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/ent/fbd75194> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4164 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/67f59dbd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3087 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/13f7a2a0> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.546 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8922 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake_shore> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7038 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4434 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/e8cba931> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.422 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3b2230c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6041 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1a898751> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2503 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/6990a543> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.557 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/831740e4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3725 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/07f9315c> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.342 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7fdadeab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3102 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1a898751> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3632 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake_shore> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2805 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/26c51b47> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6381 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4675 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/e8cba931> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2548 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7013 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/67f59dbd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3255 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4522 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/1a898751> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3207 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2666 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4877 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1a898751> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4025 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7fdadeab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4184 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/07f9315c> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4274 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1a898751> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2542 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6253 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1a898751> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2867 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/e8cba931> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4403 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/30b2baa3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2941 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/26c51b47> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3761 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7fdadeab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3048 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/22bde2f3> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3432 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/ent/98ac6b4b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6676 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6041 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake_shore> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.588 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5499 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/46d5c58a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2679 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/13872c01> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2945 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1a898751> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.251 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake_shore> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7293 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/1a898751> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6662 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6045 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/ent/e8cba931> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5687 ;
+    fkg:docId "doc_55d788e0e2e1" ;
+    fkg:kbId "bay_mau_lake_shore" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/e8cba931> .
+

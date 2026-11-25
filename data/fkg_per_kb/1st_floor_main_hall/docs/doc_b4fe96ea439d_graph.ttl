@@ -1,0 +1,557 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall#shell_patterned_wall> onto:part_of <http://transmtl.vn/ent/8f1c5099> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall#square_room> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall#three_concentric_walls> onto:part_of <http://transmtl.vn/ent/e0e7ceaa> .
+
+<http://transmtl.vn/kb/hanoi_museum> onto:founded_in <http://transmtl.vn/ent/fb875828> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall#charming_corners> onto:part_of <http://transmtl.vn/ent/8f1c5099> ;
+    onto:used_as <http://transmtl.vn/ent/0fbcd032> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall#meeting_rooms> onto:in <http://transmtl.vn/ent/330c498d> ;
+    onto:located_in <http://transmtl.vn/ent/330c498d> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall#round_meeting_room> onto:part_of <http://transmtl.vn/ent/8f1c5099>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall#areas> onto:used_by <http://transmtl.vn/ent/113cc31d> .
+
+<http://transmtl.vn/ent/eb0ea0bc> onto:located_in <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall> onto:has_part <http://transmtl.vn/kb/1st_floor_main_hall#areas>,
+        <http://transmtl.vn/kb/1st_floor_main_hall#charming_corners>,
+        <http://transmtl.vn/kb/1st_floor_main_hall#main_hall>,
+        <http://transmtl.vn/kb/1st_floor_main_hall#meeting_rooms>,
+        <http://transmtl.vn/kb/1st_floor_main_hall#round_meeting_room>,
+        <http://transmtl.vn/kb/1st_floor_main_hall#shell_patterned_wall>,
+        <http://transmtl.vn/kb/1st_floor_main_hall#square_room>,
+        <http://transmtl.vn/kb/1st_floor_main_hall#three_concentric_walls> .
+
+<http://transmtl.vn/kb/1st_floor_main_hall#main_hall> onto:architectural_style <http://transmtl.vn/ent/0f276b8e>,
+        <http://transmtl.vn/ent/860540e2> ;
+    onto:faces <http://transmtl.vn/ent/d75d3c6f> ;
+    onto:inspired_by <http://transmtl.vn/kb/one_pillar_pagoda> ;
+    onto:part_of <http://transmtl.vn/ent/1b20e902>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/bd1d8cef>,
+        <http://transmtl.vn/ent/eb0ea0bc>,
+        <http://transmtl.vn/kb/hanoi_museum> ;
+    onto:surrounded_by <http://transmtl.vn/ent/3c06b3c1>,
+        <http://transmtl.vn/ent/59c409ee>,
+        <http://transmtl.vn/ent/732336d6>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/d7bc306d> ;
+    onto:used_as <http://transmtl.vn/ent/78ddfab3>,
+        <http://transmtl.vn/ent/c083abf7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3429 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#charming_corners> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7599 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/732336d6> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2956 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2989 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4964 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8206 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/fb875828> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4031 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/330c498d> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#meeting_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#round_meeting_room> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.271 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4813 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/one_pillar_pagoda> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3787 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.273 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/113cc31d> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#areas> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3034 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/bd1d8cef> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3021 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/113cc31d> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#areas> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8832 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/one_pillar_pagoda> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#areas> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3345 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#areas> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4188 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/860540e2> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5654 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/330c498d> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#meeting_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#shell_patterned_wall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2796 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/bd1d8cef> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3081 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3359 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#shell_patterned_wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3132 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#square_room> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2517 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2568 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/59c409ee> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2901 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/78ddfab3> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4599 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#meeting_rooms> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2676 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#round_meeting_room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6349 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/3c06b3c1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4664 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/d75d3c6f> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3337 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/0fbcd032> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#charming_corners> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#three_concentric_walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.298 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4124 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2851 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#square_room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3932 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#round_meeting_room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4698 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/e0e7ceaa> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#three_concentric_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8442 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/3c06b3c1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4123 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/0f276b8e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6005 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/d7bc306d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#charming_corners> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2943 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2905 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/c083abf7> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3133 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/ent/bd1d8cef> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b4fe96ea439d" ;
+    fkg:kbId "1st_floor_main_hall" ;
+    rdf:object <http://transmtl.vn/kb/1st_floor_main_hall#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/1st_floor_main_hall> .
+

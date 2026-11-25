@@ -1,0 +1,59 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  2 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Opera House)  --[built_in]-->  ?
+  Head URI  : http://transmtl.vn/kb/opera_house
+  Conflict K: 0.5459
+  Candidates:
+    • early 20th century              Bel=0.7086  Pl=0.8379  (2 evidence)
+    • 1911                            Bel=0.0984  Pl=0.2277  (1 evidence)
+    • 1901                            Bel=0.0637  Pl=0.1930  (1 evidence)
+
+  (Opera House)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/opera_house
+  Conflict K: 0.7804
+  Candidates:
+    • city                            Bel=0.2166  Pl=0.3938  (2 evidence)
+    • cultural spirit                 Bel=0.2153  Pl=0.3924  (1 evidence)
+    • Hanoi                           Bel=0.1423  Pl=0.3195  (1 evidence)
+    • creativity                      Bel=0.1288  Pl=0.3059  (1 evidence)
+    • resilience                      Bel=0.1198  Pl=0.2970  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [built_in] (Opera House) → http://transmtl.vn/ent/7010726e  Bel=0.7086  K=0.5459 ⚠ REVIEW
+  [symbol_of] (Opera House) → http://transmtl.vn/ent/4ed5d2ea  Bel=0.2166  K=0.7804 ⚠ REVIEW
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.5609  K=0.0000
+  [renovated_in] (Opera House) → http://transmtl.vn/ent/3f088ebe  Bel=0.4576  K=0.4988
+  [built_in] (Hoan Kiem Lake) → http://transmtl.vn/ent/7010726e  Bel=0.5933  K=0.0000
+  [symbol_of] (Hoan Kiem Lake) → http://transmtl.vn/ent/207462d2  Bel=0.4375  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Opera House) → (windows)  μ_F=0.9999  (4 evidence)
+  [has_part] (Opera House) → (railings)  μ_F=0.9999  (4 evidence)
+  [has_part] (Opera House) → (exterior)  μ_F=0.9905  (2 evidence)
+  [has_part] (Opera House) → (main hall)  μ_F=0.9905  (2 evidence)
+  [located_in] (Opera House) → (Hanoi)  μ_F=0.9882  (11 evidence)
+  [located_in] (Opéra Garnier) → (Paris)  μ_F=0.9356  (4 evidence)
+  [has_part] (Opera House) → (classical beauty)  μ_F=0.9025  (1 evidence)
+  [has_part] (Opera House) → (bridge)  μ_F=0.9025  (1 evidence)
+  [has_part] (Opera House) → (West Long Gate)  μ_F=0.9025  (1 evidence)
+  [has_part] (Opera House) → (dome)  μ_F=0.9025  (1 evidence)
+  [has_part] (Opera House) → (Corinthian columns)  μ_F=0.9025  (1 evidence)
+  [architectural_style] (Opera House) → (neoclassical)  μ_F=0.9008  (3 evidence)
+  [architectural_style] (Opera House) → (neoclassical French)  μ_F=0.6389  (1 evidence)
+  [on] (Opera House) → (August Revolution Square)  μ_F=0.6371  (2 evidence)
+  [inspired_by] (Opera House) → (Opéra Garnier)  μ_F=0.6358  (2 evidence)
+  [part_of] (windows) → (Opera House)  μ_F=0.6081  (3 evidence)
+  [architectural_style] (Opera House) → (eclectic)  μ_F=0.5975  (2 evidence)
+  [overlooks] (Opera House) → (August 19th Garden)  μ_F=0.5873  (2 evidence)
+  [inspired_by] (Hoan Kiem Lake) → (Opéra Garnier)  μ_F=0.5818  (1 evidence)
+  [part_of] (railings) → (Opera House)  μ_F=0.5816  (3 evidence)
+
+========================================================================

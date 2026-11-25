@@ -1,0 +1,108 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/27f08504> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/performance> onto:on <http://transmtl.vn/ent/0e6ff17c> .
+
+<http://transmtl.vn/kb/four_sacred_beasts_dance#otherworldly_aura> onto:connects <http://transmtl.vn/ent/852488dd> .
+
+<http://transmtl.vn/kb/four_sacred_beasts_dance> onto:has_part <http://transmtl.vn/kb/four_sacred_beasts_dance#otherworldly_aura> ;
+    onto:part_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:symbol_of <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/9d7a2af1>,
+        <http://transmtl.vn/ent/c3262ebf>,
+        <http://transmtl.vn/ent/cd4b9df3> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:ruled_by <http://transmtl.vn/ent/452b6980> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2652 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/cd4b9df3> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/four_sacred_beasts_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2705 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/9d7a2af1> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/four_sacred_beasts_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2581 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/c3262ebf> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/four_sacred_beasts_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3949 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/452b6980> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9094 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/0e6ff17c> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2597 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/852488dd> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/four_sacred_beasts_dance#otherworldly_aura> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7719 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/27f08504> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2601 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/four_sacred_beasts_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.464 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/four_sacred_beasts_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4381 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/ent/0e6ff17c> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_76c9bb8fb431" ;
+    fkg:kbId "four_sacred_beasts_dance" ;
+    rdf:object <http://transmtl.vn/kb/four_sacred_beasts_dance#otherworldly_aura> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/four_sacred_beasts_dance> .
+

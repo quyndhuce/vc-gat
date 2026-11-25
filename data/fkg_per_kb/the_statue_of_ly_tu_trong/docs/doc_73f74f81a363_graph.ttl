@@ -1,0 +1,154 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/c72b8a5c> onto:near <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/ent/e8a07f11> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:surrounded_by <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/the_statue_of_ly_tu_trong> onto:has_part <http://transmtl.vn/kb/the_statue_of_ly_tu_trong#gentle_glow> .
+
+<http://transmtl.vn/kb/the_statue_of_ly_tu_trong#gentle_glow> onto:over <http://transmtl.vn/ent/9460370b> .
+
+<http://transmtl.vn/ent/a643f0c6> onto:faces <http://transmtl.vn/kb/west_lake> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:surrounded_by <http://transmtl.vn/kb/the_statue_of_ly_tu_trong>,
+        <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/west_lake> onto:in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6529 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4359 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5799 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3245 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.516 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/kb/the_statue_of_ly_tu_trong#gentle_glow> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_statue_of_ly_tu_trong> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4922 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/kb/the_statue_of_ly_tu_trong> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5639 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3195 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2749 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2763 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/ent/e8a07f11> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6586 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.488 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/the_statue_of_ly_tu_trong#gentle_glow> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5382 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8a07f11> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4856 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/c72b8a5c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3912 ;
+    fkg:docId "doc_73f74f81a363" ;
+    fkg:kbId "the_statue_of_ly_tu_trong" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+

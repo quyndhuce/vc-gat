@@ -1,0 +1,239 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/100b21f3> onto:walking_on <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/65004f81> onto:walking_on <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/68533a1a> onto:walking_on <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/west_lake> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:near <http://transmtl.vn/kb/lake_thien_quang> .
+
+<http://www.wikidata.org/entity/Q1858> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:surrounded_by <http://transmtl.vn/ent/94a55a83>,
+        <http://transmtl.vn/ent/b20dcf4e>,
+        <http://transmtl.vn/ent/b96b32aa> .
+
+<http://transmtl.vn/kb/lake_thien_quang> onto:located_in <http://transmtl.vn/ent/133b931a>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/9cefa9a8> ;
+    onto:near <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:part_of <http://transmtl.vn/ent/12bd8216> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/94a55a83>,
+        <http://transmtl.vn/ent/b20dcf4e>,
+        <http://transmtl.vn/ent/b96b32aa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4399 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3007 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/65004f81> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7053 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4367 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5323 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3252 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/133b931a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4457 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/100b21f3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5977 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4253 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2789 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4447 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/68533a1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4326 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/b96b32aa> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2704 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/kb/lake_thien_quang> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.54 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/9cefa9a8> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3982 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2754 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4509 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/b20dcf4e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5223 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/b20dcf4e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2534 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/12bd8216> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5266 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5315 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8429 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/b96b32aa> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.769 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7189 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/b96b32aa> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3435 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3902 ;
+    fkg:docId "doc_af05b2b76d2d" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+

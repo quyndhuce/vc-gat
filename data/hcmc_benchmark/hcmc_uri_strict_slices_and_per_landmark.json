@@ -1,0 +1,1948 @@
+{
+  "strict_clean_balanced_slices": {
+    "Clean_Full_180_0.60_0.40": {
+      "n": 180,
+      "high_med_n": 100,
+      "z3_5way_r1": 73.89,
+      "z3_35way_r1": 37.78,
+      "z4_5way_r1": 81.67,
+      "z4_35way_r1": 43.33,
+      "certs_5way": {
+        "MEDIUM": 91,
+        "LOW": 80,
+        "HIGH": 9
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 91.67,
+          "true_fact_p": 95.0,
+          "k_recall": 11.41,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 8.33,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 9.44,
+          "rougel": 15.66,
+          "word_count": 74.8,
+          "k_recall_high_med": 10.0
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 58.33,
+          "true_fact_p": 81.11,
+          "k_recall": 61.47,
+          "vsp": 64.25,
+          "vsp_vlm": 90.05,
+          "oar_fact": 41.67,
+          "wrong_lm_assert": 17.78,
+          "policy_target": 7.22,
+          "rougel": 25.15,
+          "word_count": 76.5,
+          "k_recall_high_med": 65.81,
+          "input_retention_high_med": 86.37
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 71.67,
+          "true_fact_p": 92.22,
+          "k_recall": 19.19,
+          "vsp": 99.48,
+          "vsp_vlm": 99.44,
+          "oar_fact": 28.33,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 95.56,
+          "rougel": 16.52,
+          "word_count": 69.9,
+          "k_recall_high_med": 23.71,
+          "input_retention_high_med": 80.74
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 91.67,
+          "true_fact_p": 94.44,
+          "k_recall": 28.0,
+          "vsp": 78.87,
+          "vsp_vlm": 92.28,
+          "oar_fact": 8.33,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 83.89,
+          "rougel": 18.27,
+          "word_count": 51.7,
+          "k_recall_high_med": 39.73,
+          "input_retention_high_med": 61.33
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 80.56,
+          "true_fact_p": 94.44,
+          "k_recall": 14.93,
+          "vsp": 99.7,
+          "vsp_vlm": 99.44,
+          "oar_fact": 19.44,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 82.22,
+          "rougel": 16.78,
+          "word_count": 50.0,
+          "k_recall_high_med": 16.12,
+          "input_retention_high_med": 51.85
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 75.0,
+          "true_fact_p": 96.11,
+          "k_recall": 11.31,
+          "vsp": 99.95,
+          "vsp_vlm": 100.0,
+          "oar_fact": 25.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 57.22,
+          "rougel": 13.89,
+          "word_count": 47.8,
+          "k_recall_high_med": 9.7,
+          "input_retention_high_med": 68.57
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 60.56,
+            "B2_Crisp_KG_RAG_5way": 39.44,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 21.11,
+            "B2_Crisp_KG_RAG_5way": 65.0,
+            "Tie": 13.89
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 50.0,
+            "B3_Prompt_Only_Certainty_5way": 41.67,
+            "Tie": 8.33
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 34.44,
+            "B3_Prompt_Only_Certainty_5way": 58.33,
+            "Tie": 7.22
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 33.33,
+            "B4_Ours_No_VCGAT_5way": 30.0,
+            "Tie": 36.67
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 47.78,
+            "B4_Ours_No_VCGAT_5way": 45.0,
+            "Tie": 7.22
+          }
+        }
+      },
+      "per_landmark_k": 36,
+      "unbalanced_pool_counts": {
+        "Saigon Central Post Office": 36,
+        "Independence Palace": 36,
+        "Ben Thanh Market": 36,
+        "Saigon Opera House": 36,
+        "Ba Thien Hau Temple": 36
+      }
+    },
+    "StrictClean_Bal_0.80_0.20": {
+      "n": 115,
+      "high_med_n": 70,
+      "z3_5way_r1": 82.61,
+      "z3_35way_r1": 45.22,
+      "z4_5way_r1": 86.09,
+      "z4_35way_r1": 48.7,
+      "certs_5way": {
+        "MEDIUM": 64,
+        "LOW": 45,
+        "HIGH": 6
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 95.65,
+          "true_fact_p": 97.39,
+          "k_recall": 11.54,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 4.35,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 12.17,
+          "rougel": 15.82,
+          "word_count": 75.7,
+          "k_recall_high_med": 10.25
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 65.22,
+          "true_fact_p": 86.09,
+          "k_recall": 60.22,
+          "vsp": 65.43,
+          "vsp_vlm": 91.13,
+          "oar_fact": 34.78,
+          "wrong_lm_assert": 13.91,
+          "policy_target": 6.96,
+          "rougel": 25.7,
+          "word_count": 75.6,
+          "k_recall_high_med": 62.26,
+          "input_retention_high_med": 84.36
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 70.43,
+          "true_fact_p": 93.91,
+          "k_recall": 20.29,
+          "vsp": 99.47,
+          "vsp_vlm": 99.13,
+          "oar_fact": 29.57,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.78,
+          "rougel": 16.75,
+          "word_count": 70.0,
+          "k_recall_high_med": 24.82,
+          "input_retention_high_med": 82.51
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 92.17,
+          "true_fact_p": 94.78,
+          "k_recall": 29.49,
+          "vsp": 76.53,
+          "vsp_vlm": 94.71,
+          "oar_fact": 7.83,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 84.35,
+          "rougel": 18.81,
+          "word_count": 51.9,
+          "k_recall_high_med": 39.77,
+          "input_retention_high_med": 63.17
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 80.0,
+          "true_fact_p": 95.65,
+          "k_recall": 15.74,
+          "vsp": 99.76,
+          "vsp_vlm": 99.13,
+          "oar_fact": 20.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 82.61,
+          "rougel": 17.18,
+          "word_count": 50.4,
+          "k_recall_high_med": 17.17,
+          "input_retention_high_med": 53.09
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 77.39,
+          "true_fact_p": 97.39,
+          "k_recall": 11.75,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 22.61,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 60.0,
+          "rougel": 13.96,
+          "word_count": 47.5,
+          "k_recall_high_med": 10.61,
+          "input_retention_high_med": 70.37
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 56.52,
+            "B2_Crisp_KG_RAG_5way": 43.48,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 22.61,
+            "B2_Crisp_KG_RAG_5way": 64.35,
+            "Tie": 13.04
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 51.3,
+            "B3_Prompt_Only_Certainty_5way": 38.26,
+            "Tie": 10.43
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 33.91,
+            "B3_Prompt_Only_Certainty_5way": 60.87,
+            "Tie": 5.22
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 33.04,
+            "B4_Ours_No_VCGAT_5way": 33.91,
+            "Tie": 33.04
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 53.04,
+            "B4_Ours_No_VCGAT_5way": 40.87,
+            "Tie": 6.09
+          }
+        }
+      },
+      "per_landmark_k": 23,
+      "unbalanced_pool_counts": {
+        "Saigon Central Post Office": 30,
+        "Independence Palace": 33,
+        "Ben Thanh Market": 23,
+        "Saigon Opera House": 33,
+        "Ba Thien Hau Temple": 36
+      }
+    },
+    "StrictClean_Bal_0.85_0.15": {
+      "n": 100,
+      "high_med_n": 63,
+      "z3_5way_r1": 86.0,
+      "z3_35way_r1": 48.0,
+      "z4_5way_r1": 88.0,
+      "z4_35way_r1": 51.0,
+      "certs_5way": {
+        "MEDIUM": 57,
+        "LOW": 37,
+        "HIGH": 6
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 96.0,
+          "true_fact_p": 97.0,
+          "k_recall": 11.62,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 4.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 14.0,
+          "rougel": 15.93,
+          "word_count": 77.9,
+          "k_recall_high_med": 10.23
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 66.0,
+          "true_fact_p": 88.0,
+          "k_recall": 60.87,
+          "vsp": 65.31,
+          "vsp_vlm": 92.0,
+          "oar_fact": 34.0,
+          "wrong_lm_assert": 12.0,
+          "policy_target": 8.0,
+          "rougel": 25.98,
+          "word_count": 77.7,
+          "k_recall_high_med": 62.91,
+          "input_retention_high_med": 83.7
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 69.0,
+          "true_fact_p": 95.0,
+          "k_recall": 21.47,
+          "vsp": 99.38,
+          "vsp_vlm": 99.0,
+          "oar_fact": 31.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 95.0,
+          "rougel": 17.01,
+          "word_count": 71.8,
+          "k_recall_high_med": 25.88,
+          "input_retention_high_med": 82.82
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 91.0,
+          "true_fact_p": 96.0,
+          "k_recall": 30.6,
+          "vsp": 75.41,
+          "vsp_vlm": 94.83,
+          "oar_fact": 9.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 85.0,
+          "rougel": 19.27,
+          "word_count": 53.3,
+          "k_recall_high_med": 40.38,
+          "input_retention_high_med": 63.44
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 79.0,
+          "true_fact_p": 97.0,
+          "k_recall": 16.85,
+          "vsp": 99.73,
+          "vsp_vlm": 99.0,
+          "oar_fact": 21.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 84.0,
+          "rougel": 17.41,
+          "word_count": 51.7,
+          "k_recall_high_med": 18.55,
+          "input_retention_high_med": 54.19
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 76.0,
+          "true_fact_p": 98.0,
+          "k_recall": 12.19,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 24.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 63.0,
+          "rougel": 13.92,
+          "word_count": 48.3,
+          "k_recall_high_med": 11.15,
+          "input_retention_high_med": 70.37
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 55.0,
+            "B2_Crisp_KG_RAG_5way": 45.0,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 20.0,
+            "B2_Crisp_KG_RAG_5way": 66.0,
+            "Tie": 14.0
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 51.0,
+            "B3_Prompt_Only_Certainty_5way": 37.0,
+            "Tie": 12.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 33.0,
+            "B3_Prompt_Only_Certainty_5way": 62.0,
+            "Tie": 5.0
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 34.0,
+            "B4_Ours_No_VCGAT_5way": 36.0,
+            "Tie": 30.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 51.0,
+            "B4_Ours_No_VCGAT_5way": 42.0,
+            "Tie": 7.0
+          }
+        }
+      },
+      "per_landmark_k": 20,
+      "unbalanced_pool_counts": {
+        "Saigon Central Post Office": 28,
+        "Independence Palace": 32,
+        "Ben Thanh Market": 20,
+        "Saigon Opera House": 31,
+        "Ba Thien Hau Temple": 36
+      }
+    },
+    "HighPurity_Bal_0.90_0.10": {
+      "n": 85,
+      "high_med_n": 54,
+      "z3_5way_r1": 87.06,
+      "z3_35way_r1": 50.59,
+      "z4_5way_r1": 89.41,
+      "z4_35way_r1": 54.12,
+      "certs_5way": {
+        "MEDIUM": 48,
+        "LOW": 31,
+        "HIGH": 6
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 95.29,
+          "true_fact_p": 96.47,
+          "k_recall": 11.38,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 4.71,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 16.47,
+          "rougel": 16.07,
+          "word_count": 77.6,
+          "k_recall_high_med": 10.25
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 67.06,
+          "true_fact_p": 89.41,
+          "k_recall": 59.97,
+          "vsp": 65.73,
+          "vsp_vlm": 91.96,
+          "oar_fact": 32.94,
+          "wrong_lm_assert": 10.59,
+          "policy_target": 9.41,
+          "rougel": 25.79,
+          "word_count": 76.5,
+          "k_recall_high_med": 61.48,
+          "input_retention_high_med": 82.82
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 69.41,
+          "true_fact_p": 94.12,
+          "k_recall": 22.01,
+          "vsp": 99.41,
+          "vsp_vlm": 98.82,
+          "oar_fact": 30.59,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.12,
+          "rougel": 16.97,
+          "word_count": 71.7,
+          "k_recall_high_med": 27.0,
+          "input_retention_high_med": 81.54
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 90.59,
+          "true_fact_p": 95.29,
+          "k_recall": 29.56,
+          "vsp": 75.27,
+          "vsp_vlm": 94.71,
+          "oar_fact": 9.41,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 84.71,
+          "rougel": 19.23,
+          "word_count": 53.2,
+          "k_recall_high_med": 38.89,
+          "input_retention_high_med": 62.31
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 76.47,
+          "true_fact_p": 96.47,
+          "k_recall": 16.73,
+          "vsp": 99.76,
+          "vsp_vlm": 98.82,
+          "oar_fact": 23.53,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 83.53,
+          "rougel": 17.32,
+          "word_count": 51.5,
+          "k_recall_high_med": 18.7,
+          "input_retention_high_med": 56.67
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 75.29,
+          "true_fact_p": 98.82,
+          "k_recall": 11.81,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 24.71,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 63.53,
+          "rougel": 13.92,
+          "word_count": 48.0,
+          "k_recall_high_med": 10.96,
+          "input_retention_high_med": 63.16
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 55.29,
+            "B2_Crisp_KG_RAG_5way": 44.71,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 22.35,
+            "B2_Crisp_KG_RAG_5way": 63.53,
+            "Tie": 14.12
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 54.12,
+            "B3_Prompt_Only_Certainty_5way": 34.12,
+            "Tie": 11.76
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 30.59,
+            "B3_Prompt_Only_Certainty_5way": 63.53,
+            "Tie": 5.88
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 34.12,
+            "B4_Ours_No_VCGAT_5way": 37.65,
+            "Tie": 28.24
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 49.41,
+            "B4_Ours_No_VCGAT_5way": 42.35,
+            "Tie": 8.24
+          }
+        }
+      },
+      "per_landmark_k": 17,
+      "unbalanced_pool_counts": {
+        "Saigon Central Post Office": 27,
+        "Independence Palace": 29,
+        "Ben Thanh Market": 17,
+        "Saigon Opera House": 31,
+        "Ba Thien Hau Temple": 36
+      }
+    },
+    "UltraPure_Bal_0.95_0.05": {
+      "n": 75,
+      "high_med_n": 50,
+      "z3_5way_r1": 88.0,
+      "z3_35way_r1": 50.67,
+      "z4_5way_r1": 93.33,
+      "z4_35way_r1": 54.67,
+      "certs_5way": {
+        "MEDIUM": 45,
+        "LOW": 25,
+        "HIGH": 5
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 94.67,
+          "true_fact_p": 97.33,
+          "k_recall": 11.52,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 5.33,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 16.0,
+          "rougel": 16.17,
+          "word_count": 78.4,
+          "k_recall_high_med": 10.67
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 69.33,
+          "true_fact_p": 93.33,
+          "k_recall": 60.77,
+          "vsp": 66.58,
+          "vsp_vlm": 90.89,
+          "oar_fact": 30.67,
+          "wrong_lm_assert": 6.67,
+          "policy_target": 9.33,
+          "rougel": 26.18,
+          "word_count": 77.5,
+          "k_recall_high_med": 61.59,
+          "input_retention_high_med": 82.22
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 69.33,
+          "true_fact_p": 94.67,
+          "k_recall": 22.5,
+          "vsp": 99.33,
+          "vsp_vlm": 98.67,
+          "oar_fact": 30.67,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.67,
+          "rougel": 17.21,
+          "word_count": 72.6,
+          "k_recall_high_med": 27.17,
+          "input_retention_high_med": 80.83
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 92.0,
+          "true_fact_p": 94.67,
+          "k_recall": 29.85,
+          "vsp": 75.34,
+          "vsp_vlm": 94.0,
+          "oar_fact": 8.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 85.33,
+          "rougel": 19.31,
+          "word_count": 54.5,
+          "k_recall_high_med": 38.2,
+          "input_retention_high_med": 61.94
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 76.0,
+          "true_fact_p": 96.0,
+          "k_recall": 16.92,
+          "vsp": 99.73,
+          "vsp_vlm": 98.67,
+          "oar_fact": 24.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 85.33,
+          "rougel": 17.44,
+          "word_count": 52.9,
+          "k_recall_high_med": 18.8,
+          "input_retention_high_med": 56.94
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 76.0,
+          "true_fact_p": 98.67,
+          "k_recall": 11.75,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 24.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 65.33,
+          "rougel": 13.82,
+          "word_count": 48.7,
+          "k_recall_high_med": 11.04,
+          "input_retention_high_med": 50.0
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 56.0,
+            "B2_Crisp_KG_RAG_5way": 44.0,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 21.33,
+            "B2_Crisp_KG_RAG_5way": 64.0,
+            "Tie": 14.67
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 52.0,
+            "B3_Prompt_Only_Certainty_5way": 34.67,
+            "Tie": 13.33
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 30.67,
+            "B3_Prompt_Only_Certainty_5way": 62.67,
+            "Tie": 6.67
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 33.33,
+            "B4_Ours_No_VCGAT_5way": 40.0,
+            "Tie": 26.67
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 49.33,
+            "B4_Ours_No_VCGAT_5way": 41.33,
+            "Tie": 9.33
+          }
+        }
+      },
+      "per_landmark_k": 15,
+      "unbalanced_pool_counts": {
+        "Saigon Central Post Office": 24,
+        "Independence Palace": 21,
+        "Ben Thanh Market": 15,
+        "Saigon Opera House": 30,
+        "Ba Thien Hau Temple": 36
+      }
+    }
+  },
+  "blind_scene_type_slices": {
+    "exterior_architectural": {
+      "n": 89,
+      "high_med_n": 48,
+      "z3_5way_r1": 78.65,
+      "z3_35way_r1": 40.45,
+      "z4_5way_r1": 85.39,
+      "z4_35way_r1": 46.07,
+      "certs_5way": {
+        "MEDIUM": 43,
+        "LOW": 41,
+        "HIGH": 5
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 92.13,
+          "true_fact_p": 100.0,
+          "k_recall": 15.87,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 7.87,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 12.36,
+          "rougel": 15.99,
+          "word_count": 77.1,
+          "k_recall_high_med": 12.94
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 67.42,
+          "true_fact_p": 85.39,
+          "k_recall": 63.83,
+          "vsp": 66.68,
+          "vsp_vlm": 91.84,
+          "oar_fact": 32.58,
+          "wrong_lm_assert": 14.61,
+          "policy_target": 8.99,
+          "rougel": 26.44,
+          "word_count": 76.1,
+          "k_recall_high_med": 62.98,
+          "input_retention_high_med": 80.28
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 79.78,
+          "true_fact_p": 97.75,
+          "k_recall": 23.53,
+          "vsp": 99.12,
+          "vsp_vlm": 98.88,
+          "oar_fact": 20.22,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 95.51,
+          "rougel": 16.51,
+          "word_count": 71.2,
+          "k_recall_high_med": 27.16,
+          "input_retention_high_med": 81.11
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 88.76,
+          "true_fact_p": 97.75,
+          "k_recall": 31.22,
+          "vsp": 79.79,
+          "vsp_vlm": 93.63,
+          "oar_fact": 11.24,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 82.02,
+          "rougel": 18.05,
+          "word_count": 53.8,
+          "k_recall_high_med": 42.02,
+          "input_retention_high_med": 64.17
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 75.28,
+          "true_fact_p": 97.75,
+          "k_recall": 19.82,
+          "vsp": 99.48,
+          "vsp_vlm": 98.88,
+          "oar_fact": 24.72,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 80.9,
+          "rougel": 16.67,
+          "word_count": 52.0,
+          "k_recall_high_med": 20.68,
+          "input_retention_high_med": 56.39
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 74.16,
+          "true_fact_p": 100.0,
+          "k_recall": 15.21,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 25.84,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 61.8,
+          "rougel": 13.53,
+          "word_count": 48.4,
+          "k_recall_high_med": 12.33,
+          "input_retention_high_med": null
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 56.18,
+            "B2_Crisp_KG_RAG_5way": 43.82,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 22.47,
+            "B2_Crisp_KG_RAG_5way": 69.66,
+            "Tie": 7.87
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 44.94,
+            "B3_Prompt_Only_Certainty_5way": 42.7,
+            "Tie": 12.36
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 33.71,
+            "B3_Prompt_Only_Certainty_5way": 62.92,
+            "Tie": 3.37
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 23.6,
+            "B4_Ours_No_VCGAT_5way": 35.96,
+            "Tie": 40.45
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 44.94,
+            "B4_Ours_No_VCGAT_5way": 49.44,
+            "Tie": 5.62
+          }
+        }
+      }
+    },
+    "interior_or_market": {
+      "n": 52,
+      "high_med_n": 32,
+      "z3_5way_r1": 67.31,
+      "z3_35way_r1": 40.38,
+      "z4_5way_r1": 78.85,
+      "z4_35way_r1": 50.0,
+      "certs_5way": {
+        "LOW": 20,
+        "MEDIUM": 30,
+        "HIGH": 2
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 88.46,
+          "true_fact_p": 88.46,
+          "k_recall": 7.42,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 11.54,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 5.77,
+          "rougel": 14.97,
+          "word_count": 68.6,
+          "k_recall_high_med": 10.13
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 53.85,
+          "true_fact_p": 78.85,
+          "k_recall": 57.22,
+          "vsp": 60.9,
+          "vsp_vlm": 89.66,
+          "oar_fact": 46.15,
+          "wrong_lm_assert": 21.15,
+          "policy_target": 3.85,
+          "rougel": 23.04,
+          "word_count": 72.4,
+          "k_recall_high_med": 66.15,
+          "input_retention_high_med": 91.58
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 61.54,
+          "true_fact_p": 82.69,
+          "k_recall": 14.12,
+          "vsp": 99.85,
+          "vsp_vlm": 100.0,
+          "oar_fact": 38.46,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.23,
+          "rougel": 16.21,
+          "word_count": 68.8,
+          "k_recall_high_med": 20.7,
+          "input_retention_high_med": 82.11
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 94.23,
+          "true_fact_p": 88.46,
+          "k_recall": 23.67,
+          "vsp": 73.5,
+          "vsp_vlm": 91.15,
+          "oar_fact": 5.77,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 82.69,
+          "rougel": 19.09,
+          "word_count": 48.7,
+          "k_recall_high_med": 36.22,
+          "input_retention_high_med": 59.47
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 84.62,
+          "true_fact_p": 88.46,
+          "k_recall": 9.52,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 15.38,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 78.85,
+          "rougel": 16.88,
+          "word_count": 45.8,
+          "k_recall_high_med": 13.23,
+          "input_retention_high_med": 47.89
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 73.08,
+          "true_fact_p": 92.31,
+          "k_recall": 7.21,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 26.92,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 46.15,
+          "rougel": 14.4,
+          "word_count": 44.8,
+          "k_recall_high_med": 9.48,
+          "input_retention_high_med": 61.9
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 65.38,
+            "B2_Crisp_KG_RAG_5way": 34.62,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 21.15,
+            "B2_Crisp_KG_RAG_5way": 53.85,
+            "Tie": 25.0
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 50.0,
+            "B3_Prompt_Only_Certainty_5way": 46.15,
+            "Tie": 3.85
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 25.0,
+            "B3_Prompt_Only_Certainty_5way": 61.54,
+            "Tie": 13.46
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 44.23,
+            "B4_Ours_No_VCGAT_5way": 28.85,
+            "Tie": 26.92
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 51.92,
+            "B4_Ours_No_VCGAT_5way": 38.46,
+            "Tie": 9.62
+          }
+        }
+      }
+    },
+    "mixed_ext_int": {
+      "n": 21,
+      "high_med_n": 15,
+      "z3_5way_r1": 90.48,
+      "z3_35way_r1": 28.57,
+      "z4_5way_r1": 90.48,
+      "z4_35way_r1": 28.57,
+      "certs_5way": {
+        "LOW": 6,
+        "MEDIUM": 15
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 95.24,
+          "true_fact_p": 90.48,
+          "k_recall": 3.1,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 4.76,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 9.52,
+          "rougel": 15.15,
+          "word_count": 70.6,
+          "k_recall_high_med": 1.33
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 57.14,
+          "true_fact_p": 85.71,
+          "k_recall": 67.82,
+          "vsp": 67.23,
+          "vsp_vlm": 78.53,
+          "oar_fact": 42.86,
+          "wrong_lm_assert": 9.52,
+          "policy_target": 0.0,
+          "rougel": 24.71,
+          "word_count": 80.5,
+          "k_recall_high_med": 73.78,
+          "input_retention_high_med": 95.56
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 52.38,
+          "true_fact_p": 90.48,
+          "k_recall": 16.79,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 47.62,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 100.0,
+          "rougel": 18.07,
+          "word_count": 69.1,
+          "k_recall_high_med": 19.67,
+          "input_retention_high_med": 73.33
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 95.24,
+          "true_fact_p": 90.48,
+          "k_recall": 31.23,
+          "vsp": 79.38,
+          "vsp_vlm": 82.7,
+          "oar_fact": 4.76,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 95.24,
+          "rougel": 18.0,
+          "word_count": 49.0,
+          "k_recall_high_med": 39.89,
+          "input_retention_high_med": 54.44
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 80.95,
+          "true_fact_p": 90.48,
+          "k_recall": 7.66,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 19.05,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 90.48,
+          "rougel": 17.94,
+          "word_count": 50.4,
+          "k_recall_high_med": 6.89,
+          "input_retention_high_med": 37.78
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 66.67,
+          "true_fact_p": 85.71,
+          "k_recall": 3.69,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 33.33,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 38.1,
+          "rougel": 13.69,
+          "word_count": 47.6,
+          "k_recall_high_med": 1.33,
+          "input_retention_high_med": 100.0
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 52.38,
+            "B2_Crisp_KG_RAG_5way": 47.62,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 23.81,
+            "B2_Crisp_KG_RAG_5way": 57.14,
+            "Tie": 19.05
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 61.9,
+            "B3_Prompt_Only_Certainty_5way": 33.33,
+            "Tie": 4.76
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 42.86,
+            "B3_Prompt_Only_Certainty_5way": 47.62,
+            "Tie": 9.52
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 61.9,
+            "B4_Ours_No_VCGAT_5way": 14.29,
+            "Tie": 23.81
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 52.38,
+            "B4_Ours_No_VCGAT_5way": 38.1,
+            "Tie": 9.52
+          }
+        }
+      }
+    },
+    "other_scene": {
+      "n": 18,
+      "high_med_n": 5,
+      "z3_5way_r1": 50.0,
+      "z3_35way_r1": 27.78,
+      "z4_5way_r1": 61.11,
+      "z4_35way_r1": 27.78,
+      "certs_5way": {
+        "LOW": 13,
+        "MEDIUM": 3,
+        "HIGH": 2
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 94.44,
+          "true_fact_p": 94.44,
+          "k_recall": 10.6,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 5.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 5.56,
+          "rougel": 16.6,
+          "word_count": 86.1,
+          "k_recall_high_med": 7.0
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 27.78,
+          "true_fact_p": 61.11,
+          "k_recall": 54.68,
+          "vsp": 58.45,
+          "vsp_vlm": 95.83,
+          "oar_fact": 72.22,
+          "wrong_lm_assert": 33.33,
+          "policy_target": 16.67,
+          "rougel": 25.42,
+          "word_count": 85.3,
+          "k_recall_high_med": 66.83,
+          "input_retention_high_med": 97.14
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 83.33,
+          "true_fact_p": 94.44,
+          "k_recall": 15.19,
+          "vsp": 99.54,
+          "vsp_vlm": 100.0,
+          "oar_fact": 16.67,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.44,
+          "rougel": 15.61,
+          "word_count": 67.3,
+          "k_recall_high_med": 22.0,
+          "input_retention_high_med": 88.57
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 94.44,
+          "true_fact_p": 100.0,
+          "k_recall": 20.79,
+          "vsp": 89.23,
+          "vsp_vlm": 100.0,
+          "oar_fact": 5.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 83.33,
+          "rougel": 17.32,
+          "word_count": 52.9,
+          "k_recall_high_med": 39.67,
+          "input_retention_high_med": 60.0
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 94.44,
+          "true_fact_p": 100.0,
+          "k_recall": 14.91,
+          "vsp": 99.54,
+          "vsp_vlm": 100.0,
+          "oar_fact": 5.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 88.89,
+          "rougel": 15.69,
+          "word_count": 52.1,
+          "k_recall_high_med": 18.5,
+          "input_retention_high_med": 62.86
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 94.44,
+          "true_fact_p": 100.0,
+          "k_recall": 12.82,
+          "vsp": 99.54,
+          "vsp_vlm": 100.0,
+          "oar_fact": 5.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 88.89,
+          "rougel": 14.39,
+          "word_count": 53.6,
+          "k_recall_high_med": 11.0,
+          "input_retention_high_med": 72.73
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 77.78,
+            "B2_Crisp_KG_RAG_5way": 22.22,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 11.11,
+            "B2_Crisp_KG_RAG_5way": 83.33,
+            "Tie": 5.56
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 61.11,
+            "B3_Prompt_Only_Certainty_5way": 33.33,
+            "Tie": 5.56
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 55.56,
+            "B3_Prompt_Only_Certainty_5way": 38.89,
+            "Tie": 5.56
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 16.67,
+            "B4_Ours_No_VCGAT_5way": 22.22,
+            "Tie": 61.11
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 44.44,
+            "B4_Ours_No_VCGAT_5way": 50.0,
+            "Tie": 5.56
+          }
+        }
+      }
+    }
+  },
+  "per_landmark_breakdown": {
+    "Saigon Central Post Office": {
+      "n": 36,
+      "high_med_n": 25,
+      "z3_5way_r1": 83.33,
+      "z3_35way_r1": 50.0,
+      "z4_5way_r1": 100.0,
+      "z4_35way_r1": 63.89,
+      "certs_5way": {
+        "MEDIUM": 21,
+        "LOW": 11,
+        "HIGH": 4
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 94.44,
+          "true_fact_p": 100.0,
+          "k_recall": 11.76,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 5.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 11.11,
+          "rougel": 15.52,
+          "word_count": 83.4,
+          "k_recall_high_med": 12.93
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 41.67,
+          "true_fact_p": 100.0,
+          "k_recall": 60.53,
+          "vsp": 62.64,
+          "vsp_vlm": 96.99,
+          "oar_fact": 58.33,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 8.33,
+          "rougel": 28.88,
+          "word_count": 81.1,
+          "k_recall_high_med": 62.1,
+          "input_retention_high_med": 96.83
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 72.22,
+          "true_fact_p": 100.0,
+          "k_recall": 23.24,
+          "vsp": 99.31,
+          "vsp_vlm": 100.0,
+          "oar_fact": 27.78,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.44,
+          "rougel": 17.37,
+          "word_count": 75.1,
+          "k_recall_high_med": 27.03,
+          "input_retention_high_med": 85.71
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 94.44,
+          "true_fact_p": 100.0,
+          "k_recall": 27.96,
+          "vsp": 68.88,
+          "vsp_vlm": 98.61,
+          "oar_fact": 5.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.44,
+          "rougel": 21.64,
+          "word_count": 59.2,
+          "k_recall_high_med": 33.33,
+          "input_retention_high_med": 56.61
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 91.67,
+          "true_fact_p": 100.0,
+          "k_recall": 18.08,
+          "vsp": 99.52,
+          "vsp_vlm": 100.0,
+          "oar_fact": 8.33,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.44,
+          "rougel": 18.1,
+          "word_count": 55.7,
+          "k_recall_high_med": 19.1,
+          "input_retention_high_med": 55.56
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 77.78,
+          "true_fact_p": 100.0,
+          "k_recall": 14.91,
+          "vsp": 99.77,
+          "vsp_vlm": 100.0,
+          "oar_fact": 22.22,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 63.89,
+          "rougel": 14.5,
+          "word_count": 50.1,
+          "k_recall_high_med": 14.53,
+          "input_retention_high_med": 65.62
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 52.78,
+            "B2_Crisp_KG_RAG_5way": 47.22,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 19.44,
+            "B2_Crisp_KG_RAG_5way": 69.44,
+            "Tie": 11.11
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 61.11,
+            "B3_Prompt_Only_Certainty_5way": 33.33,
+            "Tie": 5.56
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 19.44,
+            "B3_Prompt_Only_Certainty_5way": 72.22,
+            "Tie": 8.33
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 27.78,
+            "B4_Ours_No_VCGAT_5way": 38.89,
+            "Tie": 33.33
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 50.0,
+            "B4_Ours_No_VCGAT_5way": 38.89,
+            "Tie": 11.11
+          }
+        }
+      }
+    },
+    "Independence Palace": {
+      "n": 36,
+      "high_med_n": 18,
+      "z3_5way_r1": 41.67,
+      "z3_35way_r1": 5.56,
+      "z4_5way_r1": 63.89,
+      "z4_35way_r1": 13.89,
+      "certs_5way": {
+        "MEDIUM": 13,
+        "LOW": 18,
+        "HIGH": 5
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 80.56,
+          "true_fact_p": 75.0,
+          "k_recall": 3.01,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 19.44,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 5.56,
+          "rougel": 15.15,
+          "word_count": 79.1,
+          "k_recall_high_med": 4.63
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 50.0,
+          "true_fact_p": 61.11,
+          "k_recall": 37.5,
+          "vsp": 56.52,
+          "vsp_vlm": 93.52,
+          "oar_fact": 50.0,
+          "wrong_lm_assert": 36.11,
+          "policy_target": 13.89,
+          "rougel": 19.47,
+          "word_count": 80.7,
+          "k_recall_high_med": 38.43,
+          "input_retention_high_med": 73.19
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 88.89,
+          "true_fact_p": 63.89,
+          "k_recall": 12.04,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 11.11,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.44,
+          "rougel": 15.71,
+          "word_count": 74.7,
+          "k_recall_high_med": 21.99,
+          "input_retention_high_med": 78.99
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 86.11,
+          "true_fact_p": 75.0,
+          "k_recall": 17.48,
+          "vsp": 74.78,
+          "vsp_vlm": 87.04,
+          "oar_fact": 13.89,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 69.44,
+          "rougel": 17.2,
+          "word_count": 54.5,
+          "k_recall_high_med": 32.87,
+          "input_retention_high_med": 68.12
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 80.56,
+          "true_fact_p": 75.0,
+          "k_recall": 8.91,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 19.44,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 66.67,
+          "rougel": 16.06,
+          "word_count": 51.9,
+          "k_recall_high_med": 15.74,
+          "input_retention_high_med": 54.35
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 72.22,
+          "true_fact_p": 83.33,
+          "k_recall": 2.2,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 27.78,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 52.78,
+          "rougel": 12.61,
+          "word_count": 51.1,
+          "k_recall_high_med": 2.31,
+          "input_retention_high_med": null
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 75.0,
+            "B2_Crisp_KG_RAG_5way": 25.0,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 25.0,
+            "B2_Crisp_KG_RAG_5way": 66.67,
+            "Tie": 8.33
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 52.78,
+            "B3_Prompt_Only_Certainty_5way": 47.22,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 50.0,
+            "B3_Prompt_Only_Certainty_5way": 44.44,
+            "Tie": 5.56
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 22.22,
+            "B4_Ours_No_VCGAT_5way": 41.67,
+            "Tie": 36.11
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 50.0,
+            "B4_Ours_No_VCGAT_5way": 44.44,
+            "Tie": 5.56
+          }
+        }
+      }
+    },
+    "Ben Thanh Market": {
+      "n": 36,
+      "high_med_n": 26,
+      "z3_5way_r1": 100.0,
+      "z3_35way_r1": 25.0,
+      "z4_5way_r1": 88.89,
+      "z4_35way_r1": 11.11,
+      "certs_5way": {
+        "MEDIUM": 26,
+        "LOW": 10
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 100.0,
+          "true_fact_p": 100.0,
+          "k_recall": 2.78,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 0.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 11.11,
+          "rougel": 15.03,
+          "word_count": 64.5,
+          "k_recall_high_med": 0.0
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 75.0,
+          "true_fact_p": 88.89,
+          "k_recall": 65.86,
+          "vsp": 67.76,
+          "vsp_vlm": 64.86,
+          "oar_fact": 25.0,
+          "wrong_lm_assert": 11.11,
+          "policy_target": 2.78,
+          "rougel": 23.96,
+          "word_count": 71.7,
+          "k_recall_high_med": 72.6,
+          "input_retention_high_med": 93.29
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 33.33,
+          "true_fact_p": 97.22,
+          "k_recall": 12.73,
+          "vsp": 99.57,
+          "vsp_vlm": 100.0,
+          "oar_fact": 66.67,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.44,
+          "rougel": 17.42,
+          "word_count": 65.4,
+          "k_recall_high_med": 13.78,
+          "input_retention_high_med": 77.85
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 94.44,
+          "true_fact_p": 97.22,
+          "k_recall": 31.25,
+          "vsp": 77.48,
+          "vsp_vlm": 78.52,
+          "oar_fact": 5.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 86.11,
+          "rougel": 17.59,
+          "word_count": 47.1,
+          "k_recall_high_med": 39.42,
+          "input_retention_high_med": 57.05
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 83.33,
+          "true_fact_p": 97.22,
+          "k_recall": 5.09,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 16.67,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 88.89,
+          "rougel": 16.84,
+          "word_count": 47.3,
+          "k_recall_high_med": 3.21,
+          "input_retention_high_med": 32.89
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 69.44,
+          "true_fact_p": 97.22,
+          "k_recall": 2.78,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 30.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 36.11,
+          "rougel": 13.99,
+          "word_count": 43.8,
+          "k_recall_high_med": 0.0,
+          "input_retention_high_med": 100.0
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 61.11,
+            "B2_Crisp_KG_RAG_5way": 38.89,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 19.44,
+            "B2_Crisp_KG_RAG_5way": 52.78,
+            "Tie": 27.78
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 52.78,
+            "B3_Prompt_Only_Certainty_5way": 41.67,
+            "Tie": 5.56
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 30.56,
+            "B3_Prompt_Only_Certainty_5way": 58.33,
+            "Tie": 11.11
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 63.89,
+            "B4_Ours_No_VCGAT_5way": 13.89,
+            "Tie": 22.22
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 63.89,
+            "B4_Ours_No_VCGAT_5way": 27.78,
+            "Tie": 8.33
+          }
+        }
+      }
+    },
+    "Saigon Opera House": {
+      "n": 36,
+      "high_med_n": 10,
+      "z3_5way_r1": 47.22,
+      "z3_35way_r1": 25.0,
+      "z4_5way_r1": 58.33,
+      "z4_35way_r1": 41.67,
+      "certs_5way": {
+        "LOW": 26,
+        "MEDIUM": 10
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 94.44,
+          "true_fact_p": 100.0,
+          "k_recall": 24.42,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 5.56,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 8.33,
+          "rougel": 16.21,
+          "word_count": 72.0,
+          "k_recall_high_med": 26.25
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 52.78,
+          "true_fact_p": 58.33,
+          "k_recall": 70.37,
+          "vsp": 63.94,
+          "vsp_vlm": 100.0,
+          "oar_fact": 47.22,
+          "wrong_lm_assert": 38.89,
+          "policy_target": 5.56,
+          "rougel": 24.65,
+          "word_count": 73.4,
+          "k_recall_high_med": 87.5,
+          "input_retention_high_med": 84.62
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 100.0,
+          "true_fact_p": 100.0,
+          "k_recall": 26.16,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 0.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 94.44,
+          "rougel": 15.11,
+          "word_count": 63.2,
+          "k_recall_high_med": 32.5,
+          "input_retention_high_med": 57.69
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 86.11,
+          "true_fact_p": 100.0,
+          "k_recall": 28.59,
+          "vsp": 94.51,
+          "vsp_vlm": 100.0,
+          "oar_fact": 13.89,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 80.56,
+          "rougel": 15.55,
+          "word_count": 47.9,
+          "k_recall_high_med": 41.25,
+          "input_retention_high_med": 53.85
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 80.56,
+          "true_fact_p": 100.0,
+          "k_recall": 22.69,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 19.44,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 77.78,
+          "rougel": 15.32,
+          "word_count": 46.6,
+          "k_recall_high_med": 20.0,
+          "input_retention_high_med": 40.38
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 75.0,
+          "true_fact_p": 100.0,
+          "k_recall": 25.12,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 25.0,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 63.89,
+          "rougel": 14.18,
+          "word_count": 46.4,
+          "k_recall_high_med": 28.75,
+          "input_retention_high_med": null
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 66.67,
+            "B2_Crisp_KG_RAG_5way": 33.33,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 11.11,
+            "B2_Crisp_KG_RAG_5way": 77.78,
+            "Tie": 11.11
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 47.22,
+            "B3_Prompt_Only_Certainty_5way": 38.89,
+            "Tie": 13.89
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 38.89,
+            "B3_Prompt_Only_Certainty_5way": 55.56,
+            "Tie": 5.56
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 8.33,
+            "B4_Ours_No_VCGAT_5way": 27.78,
+            "Tie": 63.89
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 41.67,
+            "B4_Ours_No_VCGAT_5way": 47.22,
+            "Tie": 11.11
+          }
+        }
+      }
+    },
+    "Ba Thien Hau Temple": {
+      "n": 36,
+      "high_med_n": 21,
+      "z3_5way_r1": 97.22,
+      "z3_35way_r1": 83.33,
+      "z4_5way_r1": 97.22,
+      "z4_35way_r1": 86.11,
+      "certs_5way": {
+        "MEDIUM": 21,
+        "LOW": 15
+      },
+      "systems_indep_gt": {
+        "B1_Visual_Only": {
+          "fact_p": 88.89,
+          "true_fact_p": 100.0,
+          "k_recall": 15.09,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 11.11,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 11.11,
+          "rougel": 16.36,
+          "word_count": 74.9,
+          "k_recall_high_med": 15.76
+        },
+        "B2_Crisp_KG_RAG_5way": {
+          "fact_p": 72.22,
+          "true_fact_p": 97.22,
+          "k_recall": 73.09,
+          "vsp": 70.41,
+          "vsp_vlm": 94.91,
+          "oar_fact": 27.78,
+          "wrong_lm_assert": 2.78,
+          "policy_target": 5.56,
+          "rougel": 28.8,
+          "word_count": 75.5,
+          "k_recall_high_med": 74.95,
+          "input_retention_high_med": 78.91
+        },
+        "B3_Prompt_Only_Certainty_5way": {
+          "fact_p": 63.89,
+          "true_fact_p": 100.0,
+          "k_recall": 21.79,
+          "vsp": 98.51,
+          "vsp_vlm": 97.22,
+          "oar_fact": 36.11,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 100.0,
+          "rougel": 16.96,
+          "word_count": 70.8,
+          "k_recall_high_med": 29.35,
+          "input_retention_high_med": 87.07
+        },
+        "B4_Ours_No_VCGAT_5way": {
+          "fact_p": 97.22,
+          "true_fact_p": 100.0,
+          "k_recall": 34.7,
+          "vsp": 78.69,
+          "vsp_vlm": 97.22,
+          "oar_fact": 2.78,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 88.89,
+          "rougel": 19.36,
+          "word_count": 49.6,
+          "k_recall_high_med": 52.87,
+          "input_retention_high_med": 68.03
+        },
+        "Proposed_VCGAT_E2E_5way": {
+          "fact_p": 66.67,
+          "true_fact_p": 100.0,
+          "k_recall": 19.89,
+          "vsp": 98.97,
+          "vsp_vlm": 97.22,
+          "oar_fact": 33.33,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 83.33,
+          "rougel": 17.58,
+          "word_count": 48.4,
+          "k_recall_high_med": 27.04,
+          "input_retention_high_med": 68.03
+        },
+        "Proposed_VCGAT_E2E_35way": {
+          "fact_p": 80.56,
+          "true_fact_p": 100.0,
+          "k_recall": 11.57,
+          "vsp": 100.0,
+          "vsp_vlm": 100.0,
+          "oar_fact": 19.44,
+          "wrong_lm_assert": 0.0,
+          "policy_target": 69.44,
+          "rougel": 14.17,
+          "word_count": 47.6,
+          "k_recall_high_med": 13.22,
+          "input_retention_high_med": null
+        }
+      },
+      "dual_judge_overall": {
+        "Proposed_vs_B2_Crisp": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 47.22,
+            "B2_Crisp_KG_RAG_5way": 52.78,
+            "Tie": 0.0
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 30.56,
+            "B2_Crisp_KG_RAG_5way": 58.33,
+            "Tie": 11.11
+          }
+        },
+        "Proposed_vs_B3_PromptOnly": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 36.11,
+            "B3_Prompt_Only_Certainty_5way": 47.22,
+            "Tie": 16.67
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 33.33,
+            "B3_Prompt_Only_Certainty_5way": 61.11,
+            "Tie": 5.56
+          }
+        },
+        "Proposed_vs_B4_NoVCGAT": {
+          "qwen25_14b_overall": {
+            "Proposed_VCGAT_E2E_5way": 44.44,
+            "B4_Ours_No_VCGAT_5way": 27.78,
+            "Tie": 27.78
+          },
+          "llama2_7b_overall": {
+            "Proposed_VCGAT_E2E_5way": 33.33,
+            "B4_Ours_No_VCGAT_5way": 66.67,
+            "Tie": 0.0
+          }
+        }
+      }
+    }
+  }
+}

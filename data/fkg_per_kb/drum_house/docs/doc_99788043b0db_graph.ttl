@@ -1,0 +1,142 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/2b2fa9d7> onto:over <http://transmtl.vn/kb/drum_house> .
+
+<http://transmtl.vn/kb/drum_house#columns> onto:part_of <http://transmtl.vn/kb/drum_house> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/drum_house> onto:architectural_style <http://transmtl.vn/ent/582b795a>,
+        <http://transmtl.vn/ent/85e50e18>,
+        <http://transmtl.vn/ent/9b732bf8>,
+        <http://transmtl.vn/ent/9c7fbae9>,
+        <http://transmtl.vn/ent/babd2925> ;
+    onto:has_part <http://transmtl.vn/kb/drum_house#columns> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:made_of <http://transmtl.vn/ent/b4f10ffc> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/9f864082> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2783 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4983 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5123 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3029 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3191 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5312 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4061 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2669 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/b4f10ffc> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4874 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6126 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/babd2925> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5353 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4676 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/9c7fbae9> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3051 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/babd2925> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2815 ;
+    fkg:docId "doc_99788043b0db" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/ent/2b2fa9d7> .
+

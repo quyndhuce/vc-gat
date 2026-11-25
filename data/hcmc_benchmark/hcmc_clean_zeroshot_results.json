@@ -1,0 +1,1821 @@
+{
+  "curation_rule": "p_onsite >= 0.6 and p_street_noise <= 0.4",
+  "raw_total": 1161,
+  "clean_total": 481,
+  "clean_balanced_total": 180,
+  "raw_counts_by_landmark": {
+    "Ba Thien Hau Temple": 293,
+    "Ben Thanh Market": 243,
+    "Independence Palace": 398,
+    "Saigon Central Post Office": 156,
+    "Saigon Opera House": 71
+  },
+  "clean_counts_by_landmark": {
+    "Ba Thien Hau Temple": 261,
+    "Ben Thanh Market": 60,
+    "Independence Palace": 81,
+    "Saigon Central Post Office": 36,
+    "Saigon Opera House": 43
+  },
+  "clean_balanced_counts_by_landmark": {
+    "Ba Thien Hau Temple": 36,
+    "Ben Thanh Market": 36,
+    "Independence Palace": 36,
+    "Saigon Central Post Office": 36,
+    "Saigon Opera House": 36
+  },
+  "raw_all_1161": {
+    "hcmc_5way": {
+      "Z1_Naive_SigLIP2": {
+        "n": 1161,
+        "num_classes": 5,
+        "micro_top1": 10.42,
+        "macro_top1": 10.22,
+        "top2": 31.61,
+        "top3": 43.24,
+        "top5": 100.0,
+        "mrr": 0.3709,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "acc_pct": 5.13
+          },
+          "Independence Palace": {
+            "n": 398,
+            "acc_pct": 4.52
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "acc_pct": 9.05
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "acc_pct": 9.86
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "acc_pct": 22.53
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1236,
+        "mean_mu_L": 0.2279,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "LOW": {
+            "n": 1161,
+            "pct": 100.0,
+            "acc_pct": 10.42
+          }
+        },
+        "macro_rec": 10.22,
+        "macro_prec": 17.78,
+        "macro_f1": 10.19,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "pred_cnt": 286,
+            "rec": 5.13,
+            "prec": 2.8,
+            "f1": 3.62
+          },
+          "Independence Palace": {
+            "n": 398,
+            "pred_cnt": 152,
+            "rec": 4.52,
+            "prec": 11.84,
+            "f1": 6.55
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "pred_cnt": 43,
+            "rec": 9.05,
+            "prec": 51.16,
+            "f1": 15.38
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "pred_cnt": 56,
+            "rec": 9.86,
+            "prec": 12.5,
+            "f1": 11.02
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "pred_cnt": 624,
+            "rec": 22.53,
+            "prec": 10.58,
+            "f1": 14.39
+          }
+        }
+      },
+      "Z2_Descriptive_SigLIP2": {
+        "n": 1161,
+        "num_classes": 5,
+        "micro_top1": 51.16,
+        "macro_top1": 49.31,
+        "top2": 65.98,
+        "top3": 76.31,
+        "top5": 100.0,
+        "mrr": 0.6713,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "acc_pct": 37.18
+          },
+          "Independence Palace": {
+            "n": 398,
+            "acc_pct": 9.55
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "acc_pct": 100.0
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "acc_pct": 16.9
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "acc_pct": 82.94
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1252,
+        "mean_mu_L": 0.5368,
+        "regime_stats": {
+          "HIGH": {
+            "n": 20,
+            "pct": 1.72,
+            "acc_pct": 95.0
+          },
+          "MEDIUM": {
+            "n": 650,
+            "pct": 55.99,
+            "acc_pct": 70.62
+          },
+          "LOW": {
+            "n": 491,
+            "pct": 42.29,
+            "acc_pct": 23.63
+          }
+        },
+        "macro_rec": 49.31,
+        "macro_prec": 71.43,
+        "macro_f1": 44.52,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "pred_cnt": 180,
+            "rec": 37.18,
+            "prec": 32.22,
+            "f1": 34.52
+          },
+          "Independence Palace": {
+            "n": 398,
+            "pred_cnt": 38,
+            "rec": 9.55,
+            "prec": 100.0,
+            "f1": 17.43
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "pred_cnt": 679,
+            "rec": 100.0,
+            "prec": 35.79,
+            "f1": 52.71
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "pred_cnt": 13,
+            "rec": 16.9,
+            "prec": 92.31,
+            "f1": 28.57
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "pred_cnt": 251,
+            "rec": 82.94,
+            "prec": 96.81,
+            "f1": 89.34
+          }
+        }
+      },
+      "Z3_Proposed_Desc_FKG": {
+        "n": 1161,
+        "num_classes": 5,
+        "micro_top1": 51.42,
+        "macro_top1": 50.34,
+        "top2": 66.32,
+        "top3": 77.17,
+        "top5": 100.0,
+        "mrr": 0.6745,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "acc_pct": 35.26
+          },
+          "Independence Palace": {
+            "n": 398,
+            "acc_pct": 10.3
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "acc_pct": 99.59
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "acc_pct": 23.94
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "acc_pct": 82.59
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1267,
+        "mean_mu_L": 0.5438,
+        "regime_stats": {
+          "HIGH": {
+            "n": 52,
+            "pct": 4.48,
+            "acc_pct": 98.08
+          },
+          "MEDIUM": {
+            "n": 625,
+            "pct": 53.83,
+            "acc_pct": 68.96
+          },
+          "LOW": {
+            "n": 484,
+            "pct": 41.69,
+            "acc_pct": 23.76
+          }
+        },
+        "macro_rec": 50.34,
+        "macro_prec": 68.83,
+        "macro_f1": 46.09,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "pred_cnt": 183,
+            "rec": 35.26,
+            "prec": 30.05,
+            "f1": 32.45
+          },
+          "Independence Palace": {
+            "n": 398,
+            "pred_cnt": 41,
+            "rec": 10.3,
+            "prec": 100.0,
+            "f1": 18.68
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "pred_cnt": 666,
+            "rec": 99.59,
+            "prec": 36.34,
+            "f1": 53.25
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "pred_cnt": 21,
+            "rec": 23.94,
+            "prec": 80.95,
+            "f1": 36.96
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "pred_cnt": 250,
+            "rec": 82.59,
+            "prec": 96.8,
+            "f1": 89.13
+          }
+        }
+      },
+      "Z4_Proposed_FKG_OOD_Centered": {
+        "n": 1161,
+        "num_classes": 5,
+        "micro_top1": 61.33,
+        "macro_top1": 59.55,
+        "top2": 77.61,
+        "top3": 88.8,
+        "top5": 100.0,
+        "mrr": 0.7588,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "acc_pct": 64.74
+          },
+          "Independence Palace": {
+            "n": 398,
+            "acc_pct": 36.18
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "acc_pct": 81.89
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "acc_pct": 30.99
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "acc_pct": 83.96
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1275,
+        "mean_mu_L": 0.4858,
+        "regime_stats": {
+          "HIGH": {
+            "n": 19,
+            "pct": 1.64,
+            "acc_pct": 100.0
+          },
+          "MEDIUM": {
+            "n": 483,
+            "pct": 41.6,
+            "acc_pct": 87.58
+          },
+          "LOW": {
+            "n": 659,
+            "pct": 56.76,
+            "acc_pct": 40.97
+          }
+        },
+        "macro_rec": 59.55,
+        "macro_prec": 63.41,
+        "macro_f1": 57.55,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "pred_cnt": 366,
+            "rec": 64.74,
+            "prec": 27.6,
+            "f1": 38.7
+          },
+          "Independence Palace": {
+            "n": 398,
+            "pred_cnt": 180,
+            "rec": 36.18,
+            "prec": 80.0,
+            "f1": 49.83
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "pred_cnt": 316,
+            "rec": 81.89,
+            "prec": 62.97,
+            "f1": 71.2
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "pred_cnt": 44,
+            "rec": 30.99,
+            "prec": 50.0,
+            "f1": 38.26
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "pred_cnt": 255,
+            "rec": 83.96,
+            "prec": 96.47,
+            "f1": 89.78
+          }
+        }
+      }
+    },
+    "openworld_35way": {
+      "Z1_Naive_SigLIP2": {
+        "n": 1161,
+        "num_classes": 35,
+        "micro_top1": 0.0,
+        "macro_top1": 0.0,
+        "top2": 0.09,
+        "top3": 0.26,
+        "top5": 1.55,
+        "mrr": 0.0561,
+        "confused_as_other_city_count": 1160,
+        "confused_as_other_city_pct": 99.91,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "acc_pct": 0.0
+          },
+          "Independence Palace": {
+            "n": 398,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "acc_pct": 0.0
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "acc_pct": 0.0
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "acc_pct": 0.0
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.0536,
+        "mean_mu_L": 0.0536,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "LOW": {
+            "n": 1161,
+            "pct": 100.0,
+            "acc_pct": 0.0
+          }
+        }
+      },
+      "Z2_Descriptive_SigLIP2": {
+        "n": 1161,
+        "num_classes": 35,
+        "micro_top1": 17.66,
+        "macro_top1": 16.71,
+        "top2": 29.46,
+        "top3": 38.85,
+        "top5": 48.32,
+        "mrr": 0.3166,
+        "confused_as_other_city_count": 943,
+        "confused_as_other_city_pct": 81.22,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "acc_pct": 16.03
+          },
+          "Independence Palace": {
+            "n": 398,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "acc_pct": 4.53
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "acc_pct": 7.04
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "acc_pct": 55.97
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.0943,
+        "mean_mu_L": 0.214,
+        "regime_stats": {
+          "HIGH": {
+            "n": 1,
+            "pct": 0.09,
+            "acc_pct": 0.0
+          },
+          "MEDIUM": {
+            "n": 51,
+            "pct": 4.39,
+            "acc_pct": 0.0
+          },
+          "LOW": {
+            "n": 1109,
+            "pct": 95.52,
+            "acc_pct": 18.49
+          }
+        }
+      },
+      "Z3_Proposed_Desc_FKG": {
+        "n": 1161,
+        "num_classes": 35,
+        "micro_top1": 18.17,
+        "macro_top1": 17.47,
+        "top2": 30.58,
+        "top3": 40.14,
+        "top5": 48.92,
+        "mrr": 0.3247,
+        "confused_as_other_city_count": 923,
+        "confused_as_other_city_pct": 79.5,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "acc_pct": 17.31
+          },
+          "Independence Palace": {
+            "n": 398,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "acc_pct": 4.94
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "acc_pct": 8.45
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "acc_pct": 56.66
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.1032,
+        "mean_mu_L": 0.2335,
+        "regime_stats": {
+          "HIGH": {
+            "n": 2,
+            "pct": 0.17,
+            "acc_pct": 0.0
+          },
+          "MEDIUM": {
+            "n": 85,
+            "pct": 7.32,
+            "acc_pct": 0.0
+          },
+          "LOW": {
+            "n": 1074,
+            "pct": 92.51,
+            "acc_pct": 19.65
+          }
+        }
+      },
+      "Z4_Proposed_FKG_OOD_Centered": {
+        "n": 1161,
+        "num_classes": 35,
+        "micro_top1": 22.74,
+        "macro_top1": 23.94,
+        "top2": 36.43,
+        "top3": 47.11,
+        "top5": 57.54,
+        "mrr": 0.3876,
+        "confused_as_other_city_count": 763,
+        "confused_as_other_city_pct": 65.72,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 156,
+            "acc_pct": 35.26
+          },
+          "Independence Palace": {
+            "n": 398,
+            "acc_pct": 6.03
+          },
+          "Ben Thanh Market": {
+            "n": 243,
+            "acc_pct": 2.06
+          },
+          "Saigon Opera House": {
+            "n": 71,
+            "acc_pct": 19.72
+          },
+          "Ba Thien Hau Temple": {
+            "n": 293,
+            "acc_pct": 56.66
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.0899,
+        "mean_mu_L": 0.2194,
+        "regime_stats": {
+          "HIGH": {
+            "n": 2,
+            "pct": 0.17,
+            "acc_pct": 0.0
+          },
+          "MEDIUM": {
+            "n": 48,
+            "pct": 4.13,
+            "acc_pct": 14.58
+          },
+          "LOW": {
+            "n": 1111,
+            "pct": 95.69,
+            "acc_pct": 23.13
+          }
+        }
+      }
+    }
+  },
+  "clean_all": {
+    "hcmc_5way": {
+      "Z1_Naive_SigLIP2": {
+        "n": 481,
+        "num_classes": 5,
+        "micro_top1": 16.42,
+        "macro_top1": 9.96,
+        "top2": 35.97,
+        "top3": 49.48,
+        "top5": 100.0,
+        "mrr": 0.4195,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Independence Palace": {
+            "n": 81,
+            "acc_pct": 8.64
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "acc_pct": 5.0
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "acc_pct": 11.63
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "acc_pct": 24.52
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.0617,
+        "mean_mu_L": 0.226,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "LOW": {
+            "n": 481,
+            "pct": 100.0,
+            "acc_pct": 16.42
+          }
+        },
+        "macro_rec": 9.96,
+        "macro_prec": 22.58,
+        "macro_f1": 11.53,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "pred_cnt": 156,
+            "rec": 0.0,
+            "prec": 0.0,
+            "f1": 0.0
+          },
+          "Independence Palace": {
+            "n": 81,
+            "pred_cnt": 75,
+            "rec": 8.64,
+            "prec": 9.33,
+            "f1": 8.97
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "pred_cnt": 5,
+            "rec": 5.0,
+            "prec": 60.0,
+            "f1": 9.23
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "pred_cnt": 41,
+            "rec": 11.63,
+            "prec": 12.2,
+            "f1": 11.9
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "pred_cnt": 204,
+            "rec": 24.52,
+            "prec": 31.37,
+            "f1": 27.53
+          }
+        }
+      },
+      "Z2_Descriptive_SigLIP2": {
+        "n": 481,
+        "num_classes": 5,
+        "micro_top1": 72.56,
+        "macro_top1": 63.76,
+        "top2": 85.03,
+        "top3": 91.27,
+        "top5": 100.0,
+        "mrr": 0.8277,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 80.56
+          },
+          "Independence Palace": {
+            "n": 81,
+            "acc_pct": 22.22
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "acc_pct": 100.0
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "acc_pct": 27.91
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "acc_pct": 88.12
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1887,
+        "mean_mu_L": 0.5463,
+        "regime_stats": {
+          "HIGH": {
+            "n": 6,
+            "pct": 1.25,
+            "acc_pct": 100.0
+          },
+          "MEDIUM": {
+            "n": 300,
+            "pct": 62.37,
+            "acc_pct": 89.67
+          },
+          "LOW": {
+            "n": 175,
+            "pct": 36.38,
+            "acc_pct": 42.29
+          }
+        },
+        "macro_rec": 63.76,
+        "macro_prec": 75.96,
+        "macro_f1": 57.05,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "pred_cnt": 72,
+            "rec": 80.56,
+            "prec": 40.28,
+            "f1": 53.7
+          },
+          "Independence Palace": {
+            "n": 81,
+            "pred_cnt": 18,
+            "rec": 22.22,
+            "prec": 100.0,
+            "f1": 36.36
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "pred_cnt": 144,
+            "rec": 100.0,
+            "prec": 41.67,
+            "f1": 58.82
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "pred_cnt": 12,
+            "rec": 27.91,
+            "prec": 100.0,
+            "f1": 43.64
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "pred_cnt": 235,
+            "rec": 88.12,
+            "prec": 97.87,
+            "f1": 92.74
+          }
+        }
+      },
+      "Z3_Proposed_Desc_FKG": {
+        "n": 481,
+        "num_classes": 5,
+        "micro_top1": 73.8,
+        "macro_top1": 66.5,
+        "top2": 85.65,
+        "top3": 92.1,
+        "top5": 100.0,
+        "mrr": 0.8359,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 80.56
+          },
+          "Independence Palace": {
+            "n": 81,
+            "acc_pct": 24.69
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "acc_pct": 100.0
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "acc_pct": 39.53
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "acc_pct": 87.74
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1807,
+        "mean_mu_L": 0.5573,
+        "regime_stats": {
+          "HIGH": {
+            "n": 14,
+            "pct": 2.91,
+            "acc_pct": 100.0
+          },
+          "MEDIUM": {
+            "n": 299,
+            "pct": 62.16,
+            "acc_pct": 89.63
+          },
+          "LOW": {
+            "n": 168,
+            "pct": 34.93,
+            "acc_pct": 43.45
+          }
+        },
+        "macro_rec": 66.5,
+        "macro_prec": 74.35,
+        "macro_f1": 60.38,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "pred_cnt": 72,
+            "rec": 80.56,
+            "prec": 40.28,
+            "f1": 53.7
+          },
+          "Independence Palace": {
+            "n": 81,
+            "pred_cnt": 20,
+            "rec": 24.69,
+            "prec": 100.0,
+            "f1": 39.6
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "pred_cnt": 136,
+            "rec": 100.0,
+            "prec": 44.12,
+            "f1": 61.22
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "pred_cnt": 19,
+            "rec": 39.53,
+            "prec": 89.47,
+            "f1": 54.84
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "pred_cnt": 234,
+            "rec": 87.74,
+            "prec": 97.86,
+            "f1": 92.53
+          }
+        }
+      },
+      "Z4_Proposed_FKG_OOD_Centered": {
+        "n": 481,
+        "num_classes": 5,
+        "micro_top1": 81.29,
+        "macro_top1": 77.48,
+        "top2": 93.76,
+        "top3": 97.71,
+        "top5": 100.0,
+        "mrr": 0.894,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 100.0
+          },
+          "Independence Palace": {
+            "n": 81,
+            "acc_pct": 58.02
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "acc_pct": 91.67
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "acc_pct": 48.84
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "acc_pct": 88.89
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.2864,
+        "mean_mu_L": 0.5265,
+        "regime_stats": {
+          "HIGH": {
+            "n": 12,
+            "pct": 2.49,
+            "acc_pct": 100.0
+          },
+          "MEDIUM": {
+            "n": 270,
+            "pct": 56.13,
+            "acc_pct": 94.81
+          },
+          "LOW": {
+            "n": 199,
+            "pct": 41.37,
+            "acc_pct": 61.81
+          }
+        },
+        "macro_rec": 77.48,
+        "macro_prec": 74.72,
+        "macro_f1": 72.28,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "pred_cnt": 92,
+            "rec": 100.0,
+            "prec": 39.13,
+            "f1": 56.25
+          },
+          "Independence Palace": {
+            "n": 81,
+            "pred_cnt": 55,
+            "rec": 58.02,
+            "prec": 85.45,
+            "f1": 69.12
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "pred_cnt": 71,
+            "rec": 91.67,
+            "prec": 77.46,
+            "f1": 83.97
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "pred_cnt": 29,
+            "rec": 48.84,
+            "prec": 72.41,
+            "f1": 58.33
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "pred_cnt": 234,
+            "rec": 88.89,
+            "prec": 99.15,
+            "f1": 93.74
+          }
+        }
+      }
+    },
+    "openworld_35way": {
+      "Z1_Naive_SigLIP2": {
+        "n": 481,
+        "num_classes": 35,
+        "micro_top1": 0.0,
+        "macro_top1": 0.0,
+        "top2": 0.0,
+        "top3": 0.42,
+        "top5": 2.7,
+        "mrr": 0.0641,
+        "confused_as_other_city_count": 481,
+        "confused_as_other_city_pct": 100.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Independence Palace": {
+            "n": 81,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "acc_pct": 0.0
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "acc_pct": 0.0
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "acc_pct": 0.0
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.0588,
+        "mean_mu_L": 0.0588,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "LOW": {
+            "n": 481,
+            "pct": 100.0,
+            "acc_pct": 0.0
+          }
+        }
+      },
+      "Z2_Descriptive_SigLIP2": {
+        "n": 481,
+        "num_classes": 35,
+        "micro_top1": 40.33,
+        "macro_top1": 27.52,
+        "top2": 54.05,
+        "top3": 59.25,
+        "top5": 70.69,
+        "mrr": 0.5365,
+        "confused_as_other_city_count": 283,
+        "confused_as_other_city_pct": 58.84,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 47.22
+          },
+          "Independence Palace": {
+            "n": 81,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "acc_pct": 16.67
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "acc_pct": 11.63
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "acc_pct": 62.07
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.2722,
+        "mean_mu_L": 0.2038,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 12,
+            "pct": 2.49,
+            "acc_pct": 0.0
+          },
+          "LOW": {
+            "n": 469,
+            "pct": 97.51,
+            "acc_pct": 41.36
+          }
+        }
+      },
+      "Z3_Proposed_Desc_FKG": {
+        "n": 481,
+        "num_classes": 35,
+        "micro_top1": 41.16,
+        "macro_top1": 29.2,
+        "top2": 56.76,
+        "top3": 62.79,
+        "top5": 72.14,
+        "mrr": 0.552,
+        "confused_as_other_city_count": 273,
+        "confused_as_other_city_pct": 56.76,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 50.0
+          },
+          "Independence Palace": {
+            "n": 81,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "acc_pct": 20.0
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "acc_pct": 13.95
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "acc_pct": 62.07
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.265,
+        "mean_mu_L": 0.2205,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 23,
+            "pct": 4.78,
+            "acc_pct": 0.0
+          },
+          "LOW": {
+            "n": 458,
+            "pct": 95.22,
+            "acc_pct": 43.23
+          }
+        }
+      },
+      "Z4_Proposed_FKG_OOD_Centered": {
+        "n": 481,
+        "num_classes": 35,
+        "micro_top1": 44.7,
+        "macro_top1": 36.43,
+        "top2": 64.03,
+        "top3": 72.77,
+        "top5": 83.58,
+        "mrr": 0.6137,
+        "confused_as_other_city_count": 228,
+        "confused_as_other_city_pct": 47.4,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 63.89
+          },
+          "Independence Palace": {
+            "n": 81,
+            "acc_pct": 16.05
+          },
+          "Ben Thanh Market": {
+            "n": 60,
+            "acc_pct": 8.33
+          },
+          "Saigon Opera House": {
+            "n": 43,
+            "acc_pct": 32.56
+          },
+          "Ba Thien Hau Temple": {
+            "n": 261,
+            "acc_pct": 61.3
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.2305,
+        "mean_mu_L": 0.2333,
+        "regime_stats": {
+          "HIGH": {
+            "n": 1,
+            "pct": 0.21,
+            "acc_pct": 0.0
+          },
+          "MEDIUM": {
+            "n": 16,
+            "pct": 3.33,
+            "acc_pct": 37.5
+          },
+          "LOW": {
+            "n": 464,
+            "pct": 96.47,
+            "acc_pct": 45.04
+          }
+        }
+      }
+    }
+  },
+  "clean_balanced": {
+    "hcmc_5way": {
+      "Z1_Naive_SigLIP2": {
+        "n": 180,
+        "num_classes": 5,
+        "micro_top1": 8.89,
+        "macro_top1": 8.89,
+        "top2": 32.22,
+        "top3": 56.11,
+        "top5": 100.0,
+        "mrr": 0.3799,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Independence Palace": {
+            "n": 36,
+            "acc_pct": 5.56
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "acc_pct": 5.56
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "acc_pct": 13.89
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "acc_pct": 19.44
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1388,
+        "mean_mu_L": 0.2277,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "LOW": {
+            "n": 180,
+            "pct": 100.0,
+            "acc_pct": 8.89
+          }
+        },
+        "macro_rec": 8.89,
+        "macro_prec": 21.96,
+        "macro_f1": 9.1,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "pred_cnt": 31,
+            "rec": 0.0,
+            "prec": 0.0,
+            "f1": 0.0
+          },
+          "Independence Palace": {
+            "n": 36,
+            "pred_cnt": 23,
+            "rec": 5.56,
+            "prec": 8.7,
+            "f1": 6.78
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "pred_cnt": 3,
+            "rec": 5.56,
+            "prec": 66.67,
+            "f1": 10.26
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "pred_cnt": 18,
+            "rec": 13.89,
+            "prec": 27.78,
+            "f1": 18.52
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "pred_cnt": 105,
+            "rec": 19.44,
+            "prec": 6.67,
+            "f1": 9.93
+          }
+        }
+      },
+      "Z2_Descriptive_SigLIP2": {
+        "n": 180,
+        "num_classes": 5,
+        "micro_top1": 68.33,
+        "macro_top1": 68.33,
+        "top2": 80.0,
+        "top3": 90.56,
+        "top5": 100.0,
+        "mrr": 0.798,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 80.56
+          },
+          "Independence Palace": {
+            "n": 36,
+            "acc_pct": 30.56
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "acc_pct": 100.0
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "acc_pct": 33.33
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "acc_pct": 97.22
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1932,
+        "mean_mu_L": 0.5314,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 100,
+            "pct": 55.56,
+            "acc_pct": 93.0
+          },
+          "LOW": {
+            "n": 80,
+            "pct": 44.44,
+            "acc_pct": 37.5
+          }
+        },
+        "macro_rec": 68.33,
+        "macro_prec": 81.04,
+        "macro_f1": 65.69,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "pred_cnt": 45,
+            "rec": 80.56,
+            "prec": 64.44,
+            "f1": 71.6
+          },
+          "Independence Palace": {
+            "n": 36,
+            "pred_cnt": 11,
+            "rec": 30.56,
+            "prec": 100.0,
+            "f1": 46.81
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "pred_cnt": 74,
+            "rec": 100.0,
+            "prec": 48.65,
+            "f1": 65.45
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "pred_cnt": 12,
+            "rec": 33.33,
+            "prec": 100.0,
+            "f1": 50.0
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "pred_cnt": 38,
+            "rec": 97.22,
+            "prec": 92.11,
+            "f1": 94.59
+          }
+        }
+      },
+      "Z3_Proposed_Desc_FKG": {
+        "n": 180,
+        "num_classes": 5,
+        "micro_top1": 72.22,
+        "macro_top1": 72.22,
+        "top2": 81.11,
+        "top3": 91.67,
+        "top5": 100.0,
+        "mrr": 0.8205,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 80.56
+          },
+          "Independence Palace": {
+            "n": 36,
+            "acc_pct": 36.11
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "acc_pct": 100.0
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "acc_pct": 47.22
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "acc_pct": 97.22
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.1772,
+        "mean_mu_L": 0.545,
+        "regime_stats": {
+          "HIGH": {
+            "n": 6,
+            "pct": 3.33,
+            "acc_pct": 100.0
+          },
+          "MEDIUM": {
+            "n": 102,
+            "pct": 56.67,
+            "acc_pct": 91.18
+          },
+          "LOW": {
+            "n": 72,
+            "pct": 40.0,
+            "acc_pct": 43.06
+          }
+        },
+        "macro_rec": 72.22,
+        "macro_prec": 82.06,
+        "macro_f1": 70.66,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "pred_cnt": 45,
+            "rec": 80.56,
+            "prec": 64.44,
+            "f1": 71.6
+          },
+          "Independence Palace": {
+            "n": 36,
+            "pred_cnt": 13,
+            "rec": 36.11,
+            "prec": 100.0,
+            "f1": 53.06
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "pred_cnt": 67,
+            "rec": 100.0,
+            "prec": 53.73,
+            "f1": 69.9
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "pred_cnt": 17,
+            "rec": 47.22,
+            "prec": 100.0,
+            "f1": 64.15
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "pred_cnt": 38,
+            "rec": 97.22,
+            "prec": 92.11,
+            "f1": 94.59
+          }
+        }
+      },
+      "Z4_Proposed_FKG_OOD_Centered": {
+        "n": 180,
+        "num_classes": 5,
+        "micro_top1": 80.56,
+        "macro_top1": 80.56,
+        "top2": 91.67,
+        "top3": 95.0,
+        "top5": 100.0,
+        "mrr": 0.8847,
+        "confused_as_other_city_count": 0,
+        "confused_as_other_city_pct": 0.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 100.0
+          },
+          "Independence Palace": {
+            "n": 36,
+            "acc_pct": 61.11
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "acc_pct": 88.89
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "acc_pct": 55.56
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "acc_pct": 97.22
+          }
+        },
+        "tau": 0.023078,
+        "ece": 0.2768,
+        "mean_mu_L": 0.5302,
+        "regime_stats": {
+          "HIGH": {
+            "n": 10,
+            "pct": 5.56,
+            "acc_pct": 100.0
+          },
+          "MEDIUM": {
+            "n": 95,
+            "pct": 52.78,
+            "acc_pct": 95.79
+          },
+          "LOW": {
+            "n": 75,
+            "pct": 41.67,
+            "acc_pct": 58.67
+          }
+        },
+        "macro_rec": 80.56,
+        "macro_prec": 84.49,
+        "macro_f1": 80.26,
+        "per_class_prf": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "pred_cnt": 60,
+            "rec": 100.0,
+            "prec": 60.0,
+            "f1": 75.0
+          },
+          "Independence Palace": {
+            "n": 36,
+            "pred_cnt": 28,
+            "rec": 61.11,
+            "prec": 78.57,
+            "f1": 68.75
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "pred_cnt": 35,
+            "rec": 88.89,
+            "prec": 91.43,
+            "f1": 90.14
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "pred_cnt": 21,
+            "rec": 55.56,
+            "prec": 95.24,
+            "f1": 70.18
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "pred_cnt": 36,
+            "rec": 97.22,
+            "prec": 97.22,
+            "f1": 97.22
+          }
+        }
+      }
+    },
+    "openworld_35way": {
+      "Z1_Naive_SigLIP2": {
+        "n": 180,
+        "num_classes": 35,
+        "micro_top1": 0.0,
+        "macro_top1": 0.0,
+        "top2": 0.0,
+        "top3": 0.0,
+        "top5": 0.56,
+        "mrr": 0.0533,
+        "confused_as_other_city_count": 180,
+        "confused_as_other_city_pct": 100.0,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Independence Palace": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "acc_pct": 0.0
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.054,
+        "mean_mu_L": 0.054,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "LOW": {
+            "n": 180,
+            "pct": 100.0,
+            "acc_pct": 0.0
+          }
+        }
+      },
+      "Z2_Descriptive_SigLIP2": {
+        "n": 180,
+        "num_classes": 35,
+        "micro_top1": 32.22,
+        "macro_top1": 32.22,
+        "top2": 51.67,
+        "top3": 57.78,
+        "top5": 66.11,
+        "mrr": 0.483,
+        "confused_as_other_city_count": 120,
+        "confused_as_other_city_pct": 66.67,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 47.22
+          },
+          "Independence Palace": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "acc_pct": 22.22
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "acc_pct": 13.89
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "acc_pct": 77.78
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.223,
+        "mean_mu_L": 0.2249,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 9,
+            "pct": 5.0,
+            "acc_pct": 0.0
+          },
+          "LOW": {
+            "n": 171,
+            "pct": 95.0,
+            "acc_pct": 33.92
+          }
+        }
+      },
+      "Z3_Proposed_Desc_FKG": {
+        "n": 180,
+        "num_classes": 35,
+        "micro_top1": 35.56,
+        "macro_top1": 35.56,
+        "top2": 55.56,
+        "top3": 63.89,
+        "top5": 69.44,
+        "mrr": 0.5173,
+        "confused_as_other_city_count": 112,
+        "confused_as_other_city_pct": 62.22,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 50.0
+          },
+          "Independence Palace": {
+            "n": 36,
+            "acc_pct": 0.0
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "acc_pct": 27.78
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "acc_pct": 16.67
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "acc_pct": 83.33
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.2347,
+        "mean_mu_L": 0.2465,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 17,
+            "pct": 9.44,
+            "acc_pct": 0.0
+          },
+          "LOW": {
+            "n": 163,
+            "pct": 90.56,
+            "acc_pct": 39.26
+          }
+        }
+      },
+      "Z4_Proposed_FKG_OOD_Centered": {
+        "n": 180,
+        "num_classes": 35,
+        "micro_top1": 42.78,
+        "macro_top1": 42.78,
+        "top2": 65.0,
+        "top3": 76.67,
+        "top5": 85.0,
+        "mrr": 0.6117,
+        "confused_as_other_city_count": 88,
+        "confused_as_other_city_pct": 48.89,
+        "per_class": {
+          "Saigon Central Post Office": {
+            "n": 36,
+            "acc_pct": 63.89
+          },
+          "Independence Palace": {
+            "n": 36,
+            "acc_pct": 13.89
+          },
+          "Ben Thanh Market": {
+            "n": 36,
+            "acc_pct": 11.11
+          },
+          "Saigon Opera House": {
+            "n": 36,
+            "acc_pct": 38.89
+          },
+          "Ba Thien Hau Temple": {
+            "n": 36,
+            "acc_pct": 86.11
+          }
+        },
+        "tau": 0.02199,
+        "ece": 0.1921,
+        "mean_mu_L": 0.2462,
+        "regime_stats": {
+          "HIGH": {
+            "n": 0,
+            "pct": 0.0,
+            "acc_pct": null
+          },
+          "MEDIUM": {
+            "n": 9,
+            "pct": 5.0,
+            "acc_pct": 66.67
+          },
+          "LOW": {
+            "n": 171,
+            "pct": 95.0,
+            "acc_pct": 41.52
+          }
+        }
+      }
+    }
+  }
+}

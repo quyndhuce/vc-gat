@@ -1,0 +1,218 @@
+{
+  "timestamp": "2026-10-27 21:22:05",
+  "total_test_clips": 1119,
+  "evaluated_clips": 1119,
+  "summary": {
+    "baseline_pointwise": {
+      "subgraph_coherence_scr": {
+        "mean": 43.87,
+        "std": 15.87
+      },
+      "giant_component_gcr": {
+        "mean": 83.45,
+        "std": 16.95
+      },
+      "gold_fact_hit_rate": {
+        "mean": 14.25,
+        "std": 11.78
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.1237,
+        "std": 0.0148
+      },
+      "num_evaluated_clips": 1119
+    },
+    "video_cross_attention": {
+      "subgraph_coherence_scr": {
+        "mean": 39.91,
+        "std": 15.96
+      },
+      "giant_component_gcr": {
+        "mean": 76.22,
+        "std": 17.36
+      },
+      "gold_fact_hit_rate": {
+        "mean": 32.02,
+        "std": 23.35
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.0887,
+        "std": 0.0151
+      },
+      "num_evaluated_clips": 1119
+    },
+    "graph_localized_attention": {
+      "subgraph_coherence_scr": {
+        "mean": 82.75,
+        "std": 11.98
+      },
+      "giant_component_gcr": {
+        "mean": 97.82,
+        "std": 4.5
+      },
+      "gold_fact_hit_rate": {
+        "mean": 45.33,
+        "std": 16.87
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.0877,
+        "std": 0.0136
+      },
+      "num_evaluated_clips": 1119
+    }
+  },
+  "case_studies": [
+    {
+      "video_id": 321,
+      "file_name": "videos/test/Chùa Một Cột Hà Nội #travel [oOPXyW_ht_Y].mp4",
+      "duration": 14.567,
+      "landmark": "One Pillar Pagoda",
+      "quota_k": 5,
+      "candidate_pool_size": 127,
+      "baseline_pointwise_selection": [
+        {
+          "triple": "(One Pillar Pagoda, has_part, blooming lotus flower)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, lotus flower)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(Ba Dinh Square, has_part, flower garden)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, surrounded_by, lush greenery)",
+          "mu_F": 0.20904
+        },
+        {
+          "triple": "(One Pillar Pagoda, surrounded_by, tranquil surroundings)",
+          "mu_F": 0.21416
+        }
+      ],
+      "graph_localized_selection": [
+        {
+          "triple": "(One Pillar Pagoda, located_in, Hanoi)",
+          "mu_F": 0.99736
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, roof)",
+          "mu_F": 0.99991
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, altar)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, walls)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, main hall)",
+          "mu_F": 0.9025
+        }
+      ]
+    },
+    {
+      "video_id": 322,
+      "file_name": "videos/test/Chùa Một Cột - Biểu tượng văn hóa, kiến trúc độc đáo của Hà Nội #amazingvietnam #travel #yt #fyp #vn [-fQAKkj_2Ho].mp4",
+      "duration": 34.166,
+      "landmark": "One Pillar Pagoda",
+      "quota_k": 11,
+      "candidate_pool_size": 127,
+      "baseline_pointwise_selection": [
+        {
+          "triple": "(One Pillar Pagoda, has_part, lotus flower)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, blooming lotus flower)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, surrounded_by, lush greenery)",
+          "mu_F": 0.20904
+        },
+        {
+          "triple": "(altar, dedicated_to, Huyền Thiên Hắc Đế)",
+          "mu_F": 0.84565
+        },
+        {
+          "triple": "(Ba Dinh Square, has_part, flower garden)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(Hanoi, ruled_by, Lý Thái Tổ)",
+          "mu_F": 0.9879
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, Tây Cấm Garden)",
+          "mu_F": 0.99049
+        },
+        {
+          "triple": "(lotus flower, part_of, stupa)",
+          "mu_F": 0.23392
+        },
+        {
+          "triple": "(One Pillar Pagoda, surrounded_by, tranquil surroundings)",
+          "mu_F": 0.21416
+        },
+        {
+          "triple": "(lotus flower, over, water)",
+          "mu_F": 0.24864
+        },
+        {
+          "triple": "(lush greenery, part_of, Ha Noi)",
+          "mu_F": 0.23888
+        }
+      ],
+      "graph_localized_selection": [
+        {
+          "triple": "(One Pillar Pagoda, located_in, Hanoi)",
+          "mu_F": 0.99736
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, roof)",
+          "mu_F": 0.99991
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, altar)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, walls)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, main hall)",
+          "mu_F": 0.9025
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, column)",
+          "mu_F": 0.99999
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, plaque)",
+          "mu_F": 0.99049
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, roof tiles)",
+          "mu_F": 0.99049
+        },
+        {
+          "triple": "(One Pillar Pagoda, located_in, Vietnam)",
+          "mu_F": 0.78031
+        },
+        {
+          "triple": "(One Pillar Pagoda, has_part, Tây Cấm Garden)",
+          "mu_F": 0.99049
+        },
+        {
+          "triple": "(West Lake, located_in, Hanoi)",
+          "mu_F": 1.0
+        }
+      ]
+    }
+  ]
+}

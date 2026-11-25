@@ -1,0 +1,3526 @@
+{
+  "metadata": {
+    "model_id": "Qwen/Qwen3-VL-8B-Instruct",
+    "frame_size": 768,
+    "num_frames": 6,
+    "total_videos": 6,
+    "total_facts": 36,
+    "date": "2026-11-15"
+  },
+  "summary": {
+    "Prompt_A_Standard": {
+      "total_facts": 36,
+      "accuracy_percent": 77.78,
+      "correct_count": 28,
+      "hallucinated_seen_count": 0,
+      "false_not_visual_count": 2,
+      "parse_errors": 0,
+      "avg_latency_sec": 1.07
+    },
+    "Prompt_B_Heritage_Grounded": {
+      "total_facts": 36,
+      "accuracy_percent": 97.22,
+      "correct_count": 35,
+      "hallucinated_seen_count": 0,
+      "false_not_visual_count": 1,
+      "parse_errors": 0,
+      "avg_latency_sec": 1.11
+    },
+    "Prompt_C_Bilingual_FewShot": {
+      "total_facts": 36,
+      "accuracy_percent": 97.22,
+      "correct_count": 35,
+      "hallucinated_seen_count": 0,
+      "false_not_visual_count": 0,
+      "parse_errors": 0,
+      "avg_latency_sec": 1.12
+    },
+    "Prompt_D_Two_Stage_Decoupled": {
+      "total_facts": 36,
+      "accuracy_percent": 77.78,
+      "correct_count": 28,
+      "hallucinated_seen_count": 0,
+      "false_not_visual_count": 8,
+      "parse_errors": 0,
+      "avg_latency_sec": 1.77
+    }
+  },
+  "detailed_results": [
+    {
+      "landmark": "One Pillar Pagoda",
+      "category": "Religious Landmark",
+      "clip_id": "test_0321_one_pillar",
+      "video_file": "videos/test/Chùa Một Cột Hà Nội #travel [oOPXyW_ht_Y].mp4",
+      "facts_audit": [
+        {
+          "fact": "(One Pillar Pagoda, has_part, stone pillar)",
+          "head": "One Pillar Pagoda",
+          "relation": "has_part",
+          "tail": "stone pillar",
+          "expected": "SEEN",
+          "expected_frames": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Single central stone pillar supporting the wooden shrine.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(One Pillar Pagoda, has_part, stone pillar)",
+              "expected": "SEEN",
+              "expected_frames": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.363,
+              "token_count": 2572,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Stone pillar supporting pagoda clearly visible in multiple frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Stone pillar supporting pagoda clearly visible in multiple frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(One Pillar Pagoda, has_part, stone pillar)",
+              "expected": "SEEN",
+              "expected_frames": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.177,
+              "token_count": 2521,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "White stone pillar supporting the pagoda is clearly visible in frames 2-5."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"White stone pillar supporting the pagoda is clearly visible in frames 2-5.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(One Pillar Pagoda, has_part, stone pillar)",
+              "expected": "SEEN",
+              "expected_frames": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.21,
+              "token_count": 2557,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "A large white stone pillar supporting the pagoda is clearly visible in frames 2-5."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"A large white stone pillar supporting the pagoda is clearly visible in frames 2-5.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(One Pillar Pagoda, has_part, stone pillar)",
+              "expected": "SEEN",
+              "expected_frames": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.929,
+              "token_count": 2432,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Stone pillar supporting the pagoda visible in frames 2-6, below the wooden structure.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Stone pillar clearly visible supporting the pagoda structure in multiple frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Stone pillar supporting the pagoda visible in frames 2-6, below the wooden structure.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [2, 3, 4, 5, 6],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Stone pillar clearly visible supporting the pagoda structure in multiple frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(One Pillar Pagoda, has_part, curved tile roof)",
+          "head": "One Pillar Pagoda",
+          "relation": "has_part",
+          "tail": "curved tile roof",
+          "expected": "SEEN",
+          "expected_frames": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Traditional curved roof with tile ornaments.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(One Pillar Pagoda, has_part, curved tile roof)",
+              "expected": "SEEN",
+              "expected_frames": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.128,
+              "token_count": 2573,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Curved tile roof clearly visible on pagoda in multiple frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Curved tile roof clearly visible on pagoda in multiple frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(One Pillar Pagoda, has_part, curved tile roof)",
+              "expected": "SEEN",
+              "expected_frames": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.162,
+              "token_count": 2522,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Curved tile roof clearly visible on pagoda in frames 2-5."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Curved tile roof clearly visible on pagoda in frames 2-5.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(One Pillar Pagoda, has_part, curved tile roof)",
+              "expected": "SEEN",
+              "expected_frames": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.209,
+              "token_count": 2558,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Curved tile roof of the pagoda is clearly visible in frames 2 through 6."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Curved tile roof of the pagoda is clearly visible in frames 2 through 6.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(One Pillar Pagoda, has_part, curved tile roof)",
+              "expected": "SEEN",
+              "expected_frames": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.981,
+              "token_count": 2433,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Frames 2-5 clearly show the pagoda's roof with curved tiles and upturned eaves.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Curved tile roof of One Pillar Pagoda is clearly visible in multiple frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Frames 2-5 clearly show the pagoda's roof with curved tiles and upturned eaves.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Curved tile roof of One Pillar Pagoda is clearly visible in multiple frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(One Pillar Pagoda, has_part, pond)",
+          "head": "One Pillar Pagoda",
+          "relation": "has_part",
+          "tail": "pond",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Linh Chieu lotus/water lily pond surrounding the pagoda.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(One Pillar Pagoda, has_part, pond)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.258,
+              "token_count": 2571,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Pond with lily pads directly surrounds the pagoda in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Pond with lily pads directly surrounds the pagoda in all frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(One Pillar Pagoda, has_part, pond)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.26,
+              "token_count": 2520,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Pond with lily pads clearly visible around the pagoda in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Pond with lily pads clearly visible around the pagoda in all frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(One Pillar Pagoda, has_part, pond)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.275,
+              "token_count": 2556,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "A pond with lily pads is clearly visible in all frames surrounding the pagoda."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"A pond with lily pads is clearly visible in all frames surrounding the pagoda.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(One Pillar Pagoda, has_part, pond)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 2.028,
+              "token_count": 2431,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Pagoda structure is visible in frames 2-6; pond with lily pads is visible in all frames.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Pagoda and pond are clearly visible together in all frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Pagoda structure is visible in frames 2-6; pond with lily pads is visible in all frames.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Pagoda and pond are clearly visible together in all frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(One Pillar Pagoda, has_part, incense burner)",
+          "head": "One Pillar Pagoda",
+          "relation": "has_part",
+          "tail": "incense burner",
+          "expected": "UNSEEN",
+          "expected_frames": [],
+          "note": "Bronze/stone incense burner - not visible in these camera angles.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(One Pillar Pagoda, has_part, incense burner)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.905,
+              "token_count": 2573,
+              "parsed": {
+                "visual_grounding": "UNCERTAIN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "No incense burner visible in any frame."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNCERTAIN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"No incense burner visible in any frame.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(One Pillar Pagoda, has_part, incense burner)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.889,
+              "token_count": 2522,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "No incense burner visible in any frame."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"No incense burner visible in any frame.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(One Pillar Pagoda, has_part, incense burner)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.971,
+              "token_count": 2558,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "Incense burner is a small object, not visible in any frame."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"Incense burner is a small object, not visible in any frame.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(One Pillar Pagoda, has_part, incense burner)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.709,
+              "token_count": 2433,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No incense burner visible in any frame; pagoda structure shown without such artifact.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Incense burner is abstract object, not visually present in any frame."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No incense burner visible in any frame; pagoda structure shown without such artifact.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Incense burner is abstract object, not visually present in any frame.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+          "head": "One Pillar Pagoda",
+          "relation": "located_in",
+          "tail": "Ba Dinh District",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Abstract administrative boundary.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.905,
+              "token_count": 2574,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "District name not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"District name not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.939,
+              "token_count": 2523,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "District location is administrative, not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"District location is administrative, not visually verifiable from frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.906,
+              "token_count": 2559,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Administrative district boundary cannot be photographed directly."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Administrative district boundary cannot be photographed directly.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.482,
+              "token_count": 2434,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "None",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Ba Dinh District is an administrative area, not visually observable in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"None\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Ba Dinh District is an administrative area, not visually observable in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(One Pillar Pagoda, founded_by, Lý Thái Tông)",
+          "head": "One Pillar Pagoda",
+          "relation": "founded_by",
+          "tail": "Lý Thái Tông",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Historical founder emperor (1049).",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(One Pillar Pagoda, founded_by, Lý Thái Tông)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.923,
+              "token_count": 2574,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founder information not visually verifiable from video frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Founder information not visually verifiable from video frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(One Pillar Pagoda, founded_by, Lý Thái Tông)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.973,
+              "token_count": 2523,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founder information is historical/administrative, not visually observable in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Founder information is historical/administrative, not visually observable in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(One Pillar Pagoda, founded_by, Lý Thái Tông)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.005,
+              "token_count": 2559,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Founder's name is historical attribution, not visually verifiable in any frame."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Founder's name is historical attribution, not visually verifiable in any frame.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(One Pillar Pagoda, founded_by, Lý Thái Tông)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.711,
+              "token_count": 2434,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No visual evidence of 'founded_by' relationship or Lý Thái Tông as a person.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founder is abstract historical entity, not visually observable in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No visual evidence of 'founded_by' relationship or Lý Thái Tông as a person.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Founder is abstract historical entity, not visually observable in frames.\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "landmark": "Temple of Literature",
+      "category": "Confucian Architecture",
+      "clip_id": "test_0951_van_mieu",
+      "video_file": "videos/test/Khu Văn miếu Quốc Tử Giám - Hà Nội quá cổ kính ! [ILyQ2uMCb28].mp4",
+      "facts_audit": [
+        {
+          "fact": "(Temple of Literature, has_part, brick pathway)",
+          "head": "Temple of Literature",
+          "relation": "has_part",
+          "tail": "brick pathway",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Ancient red brick walkway through courtyard.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Temple of Literature, has_part, brick pathway)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.082,
+              "token_count": 2569,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red brick pathway clearly visible leading to temple entrance."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Red brick pathway clearly visible leading to temple entrance.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Temple of Literature, has_part, brick pathway)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.196,
+              "token_count": 2518,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red brick pathway clearly visible in frames 2-5, leading toward the temple gate."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Red brick pathway clearly visible in frames 2-5, leading toward the temple gate.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Temple of Literature, has_part, brick pathway)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.277,
+              "token_count": 2554,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red brick pathways are clearly visible throughout all frames, guiding visitors through the temple grounds."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Red brick pathways are clearly visible throughout all frames, guiding visitors through the temple grounds.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Temple of Literature, has_part, brick pathway)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.969,
+              "token_count": 2429,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Red brick pathways clearly visible in all frames, especially in frames 2-5 leading toward the temple gate.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Brick pathways are consistently visible and central to the temple's garden layout."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Red brick pathways clearly visible in all frames, especially in frames 2-5 leading toward the temple gate.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Brick pathways are consistently visible and central to the temple's garden layout.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Temple of Literature, has_part, ancient trees)",
+          "head": "Temple of Literature",
+          "relation": "has_part",
+          "tail": "ancient trees",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Lush heritage shade trees lining pathways.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Temple of Literature, has_part, ancient trees)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.227,
+              "token_count": 2569,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Ancient trees clearly visible throughout all frames, central to scene."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Ancient trees clearly visible throughout all frames, central to scene.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Temple of Literature, has_part, ancient trees)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.309,
+              "token_count": 2518,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Multiple large, mature trees with thick trunks and dense foliage are clearly visible in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Multiple large, mature trees with thick trunks and dense foliage are clearly visible in all frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Temple of Literature, has_part, ancient trees)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.213,
+              "token_count": 2554,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Mature, ancient-looking trees are prominently visible throughout all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Mature, ancient-looking trees are prominently visible throughout all frames.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Temple of Literature, has_part, ancient trees)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.998,
+              "token_count": 2429,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Multiple large, mature trees with thick trunks and dense canopies visible in all frames.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Ancient trees clearly visible as part of the Temple of Literature's landscape."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Multiple large, mature trees with thick trunks and dense canopies visible in all frames.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Ancient trees clearly visible as part of the Temple of Literature's landscape.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Temple of Literature, has_part, Doctor stone steles)",
+          "head": "Temple of Literature",
+          "relation": "has_part",
+          "tail": "Doctor stone steles",
+          "expected": "UNSEEN",
+          "expected_frames": [],
+          "note": "Doctor stone steles on turtles - absent from these frames.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Temple of Literature, has_part, Doctor stone steles)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.921,
+              "token_count": 2571,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Doctor stone steles not visible in any frame."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Doctor stone steles not visible in any frame.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Temple of Literature, has_part, Doctor stone steles)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.971,
+              "token_count": 2520,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Doctor stone steles not visible in any of the 6 frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Doctor stone steles not visible in any of the 6 frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Temple of Literature, has_part, Doctor stone steles)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.956,
+              "token_count": 2556,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "Doctor stone steles are concrete objects absent from all frames shown."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"Doctor stone steles are concrete objects absent from all frames shown.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Temple of Literature, has_part, Doctor stone steles)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.74,
+              "token_count": 2431,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No stone steles visible in any frame; only trees, paths, and visitors shown.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Doctor stone steles are abstract cultural artifacts, not visually present in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No stone steles visible in any frame; only trees, paths, and visitors shown.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Doctor stone steles are abstract cultural artifacts, not visually present in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Temple of Literature, has_part, bronze bell)",
+          "head": "Temple of Literature",
+          "relation": "has_part",
+          "tail": "bronze bell",
+          "expected": "UNSEEN",
+          "expected_frames": [],
+          "note": "Đại hồng chung bronze bell inside bell tower - out of view.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Temple of Literature, has_part, bronze bell)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.006,
+              "token_count": 2569,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Bronze bell is abstract historical fact, not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Bronze bell is abstract historical fact, not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Temple of Literature, has_part, bronze bell)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.971,
+              "token_count": 2518,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "No bronze bell visible in any frame; not part of observable content."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"No bronze bell visible in any frame; not part of observable content.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Temple of Literature, has_part, bronze bell)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.005,
+              "token_count": 2554,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "Bronze bell is a specific artifact not visible in any of the provided frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"Bronze bell is a specific artifact not visible in any of the provided frames.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Temple of Literature, has_part, bronze bell)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.71,
+              "token_count": 2429,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No bronze bell visible in any frame; only architectural structures and greenery shown.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Bronze bell is abstract/non-visual; not depicted in any frame."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No bronze bell visible in any frame; only architectural structures and greenery shown.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Bronze bell is abstract/non-visual; not depicted in any frame.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Temple of Literature, located_in, Hanoi)",
+          "head": "Temple of Literature",
+          "relation": "located_in",
+          "tail": "Hanoi",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Administrative city location.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Temple of Literature, located_in, Hanoi)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.954,
+              "token_count": 2569,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Location 'Hanoi' not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Location 'Hanoi' not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Temple of Literature, located_in, Hanoi)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.02,
+              "token_count": 2518,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Location 'Hanoi' is abstract administrative info, not visually verifiable in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Location 'Hanoi' is abstract administrative info, not visually verifiable in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Temple of Literature, located_in, Hanoi)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.957,
+              "token_count": 2554,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Administrative location cannot be visually confirmed from the frames shown."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Administrative location cannot be visually confirmed from the frames shown.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Temple of Literature, located_in, Hanoi)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.452,
+              "token_count": 2429,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Hanoi is an administrative city, not a physical object visible in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Hanoi is an administrative city, not a physical object visible in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Temple of Literature, founded_in, 1070)",
+          "head": "Temple of Literature",
+          "relation": "founded_in",
+          "tail": "1070",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Historical founding year.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Temple of Literature, founded_in, 1070)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.003,
+              "token_count": 2572,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founded year is historical/administrative, not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Founded year is historical/administrative, not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Temple of Literature, founded_in, 1070)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.987,
+              "token_count": 2521,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founding year is historical/administrative, not visually observable in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Founding year is historical/administrative, not visually observable in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Temple of Literature, founded_in, 1070)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.005,
+              "token_count": 2557,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Founding year is historical metadata, not visually representable in any frame."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Founding year is historical metadata, not visually representable in any frame.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Temple of Literature, founded_in, 1070)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.45,
+              "token_count": 2432,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founding year is abstract historical data, not visually observable in any frame."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Founding year is abstract historical data, not visually observable in any frame.\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "landmark": "Imperial Citadel of Thang Long",
+      "category": "Imperial Archaeological Site",
+      "clip_id": "test_0658_kinh_thien",
+      "video_file": "videos/test/Đôi rồng đá trước thềm điện Kính Thiên(cũ), Hoàng thành Thăng Long - Tháng 2⧸2018 [CwUECIc2Dnw].mp4",
+      "facts_audit": [
+        {
+          "fact": "(Imperial Citadel of Thang Long, has_part, stone dragons)",
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "has_part",
+          "tail": "stone dragons",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "15th-century carved stone dragon balustrades (central subject).",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, stone dragons)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.101,
+              "token_count": 2575,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  1,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Stone dragon sculptures clearly visible along staircase in multiple frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [1, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Stone dragon sculptures clearly visible along staircase in multiple frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, stone dragons)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.232,
+              "token_count": 2524,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Multiple detailed stone dragon carvings are clearly visible along the staircase in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Multiple detailed stone dragon carvings are clearly visible along the staircase in all frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, stone dragons)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.329,
+              "token_count": 2560,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Frames 0-5 show detailed stone dragon carvings along the staircase of the citadel."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Frames 0-5 show detailed stone dragon carvings along the staircase of the citadel.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, stone dragons)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 2.226,
+              "token_count": 2435,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Frames 0, 1, 2, 3, 4, 5 show carved stone dragon heads and bodies along the staircase railing.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Stone dragons clearly visible as part of the citadel's staircase railing in all frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Frames 0, 1, 2, 3, 4, 5 show carved stone dragon heads and bodies along the staircase railing.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Stone dragons clearly visible as part of the citadel's staircase railing in all frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Imperial Citadel of Thang Long, has_part, stone staircase)",
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "has_part",
+          "tail": "stone staircase",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Elevated royal ceremonial stone steps.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, stone staircase)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.246,
+              "token_count": 2575,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Stone staircase clearly visible in all frames as part of the citadel."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Stone staircase clearly visible in all frames as part of the citadel.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, stone staircase)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.264,
+              "token_count": 2524,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Stone staircase clearly visible in all frames, forming part of the landmark's structure."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Stone staircase clearly visible in all frames, forming part of the landmark's structure.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, stone staircase)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.246,
+              "token_count": 2560,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Stone staircase is clearly visible in all frames, forming the central architectural feature."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Stone staircase is clearly visible in all frames, forming the central architectural feature.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, stone staircase)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 2.048,
+              "token_count": 2435,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Frames 0, 2, 3, 4, 5 show a long stone staircase with carved dragon railings.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Stone staircase clearly visible in all frames as part of the landmark."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Frames 0, 2, 3, 4, 5 show a long stone staircase with carved dragon railings.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Stone staircase clearly visible in all frames as part of the landmark.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "has_part",
+          "tail": "Princess Tower",
+          "expected": "UNSEEN",
+          "expected_frames": [],
+          "note": "Hậu Lâu / Princess Tower - separate building behind, absent here.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.004,
+              "token_count": 2575,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Princess Tower not visible in any frame; unrelated to clip's focus."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Princess Tower not visible in any frame; unrelated to clip's focus.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.038,
+              "token_count": 2524,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Princess Tower not visible in any frame; only stone dragon railings and stairs shown."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Princess Tower not visible in any frame; only stone dragon railings and stairs shown.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.006,
+              "token_count": 2560,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "Princess Tower is a distinct structure not visible in any of the provided frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"Princess Tower is a distinct structure not visible in any of the provided frames.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.84,
+              "token_count": 2435,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No visual evidence of 'Princess Tower' as it is an administrative or historical designation, not a physical object.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Princess Tower is an abstract designation, not a physical object visible in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No visual evidence of 'Princess Tower' as it is an administrative or historical designation, not a physical object.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Princess Tower is an abstract designation, not a physical object visible in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Imperial Citadel of Thang Long, has_part, Đoan Môn Gate)",
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "has_part",
+          "tail": "Đoan Môn Gate",
+          "expected": "UNSEEN",
+          "expected_frames": [],
+          "note": "Main southern gate - distinct monument, not in frame.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, Đoan Môn Gate)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.037,
+              "token_count": 2578,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Đoan Môn Gate not visible in any frame, irrelevant to clip focus."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Đoan Môn Gate not visible in any frame, irrelevant to clip focus.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, Đoan Môn Gate)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.087,
+              "token_count": 2527,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Đoan Môn Gate not visible in any frame; only stone dragon railings and stairs shown."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Đoan Môn Gate not visible in any frame; only stone dragon railings and stairs shown.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, Đoan Môn Gate)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.134,
+              "token_count": 2563,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "Đoan Môn Gate is not visible in any frame; only stone dragon railings and stairs are shown."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"Đoan Môn Gate is not visible in any frame; only stone dragon railings and stairs are shown.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Imperial Citadel of Thang Long, has_part, Đoan Môn Gate)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.55,
+              "token_count": 2438,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "None",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Đoan Môn Gate is an administrative structure, not a physical object visible in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"None\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Đoan Môn Gate is an administrative structure, not a physical object visible in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "located_in",
+          "tail": "Ba Dinh District",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Abstract district boundary.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.908,
+              "token_count": 2577,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "District name not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"District name not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.022,
+              "token_count": 2526,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Location 'Ba Dinh District' is administrative, not visually verifiable in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Location 'Ba Dinh District' is administrative, not visually verifiable in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.924,
+              "token_count": 2562,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Administrative district boundary cannot be photographed directly."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Administrative district boundary cannot be photographed directly.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.489,
+              "token_count": 2437,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Ba Dinh District is an administrative area, not a physical object visible in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Ba Dinh District is an administrative area, not a physical object visible in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Imperial Citadel of Thang Long, associated_with, Lý dynasty)",
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "associated_with",
+          "tail": "Lý dynasty",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Historical imperial dynasty.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Imperial Citadel of Thang Long, associated_with, Lý dynasty)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.973,
+              "token_count": 2575,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Dynasty association is historical, not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Dynasty association is historical, not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Imperial Citadel of Thang Long, associated_with, Lý dynasty)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.004,
+              "token_count": 2524,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Dynasty association is historical/administrative, not visually verifiable in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Dynasty association is historical/administrative, not visually verifiable in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Imperial Citadel of Thang Long, associated_with, Lý dynasty)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.022,
+              "token_count": 2560,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Dynasty affiliation is historical context, not visually verifiable from architectural elements shown."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Dynasty affiliation is historical context, not visually verifiable from architectural elements shown.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Imperial Citadel of Thang Long, associated_with, Lý dynasty)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.471,
+              "token_count": 2435,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Lý dynasty is a historical dynasty, not a physical object visible in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Lý dynasty is a historical dynasty, not a physical object visible in frames.\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "landmark": "Hoan Kiem Lake",
+      "category": "Historical Landscape & Bridge",
+      "clip_id": "test_0300_the_huc",
+      "video_file": "videos/test/Cầu Thê Húc [VY-6oGYkpHk].mp4",
+      "facts_audit": [
+        {
+          "fact": "(Hoan Kiem Lake, has_part, Thê Húc Bridge)",
+          "head": "Hoan Kiem Lake",
+          "relation": "has_part",
+          "tail": "Thê Húc Bridge",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Iconic wooden bridge leading to Jade Island.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hoan Kiem Lake, has_part, Thê Húc Bridge)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.197,
+              "token_count": 2575,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red arched bridge visible across lake in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Red arched bridge visible across lake in all frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hoan Kiem Lake, has_part, Thê Húc Bridge)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.423,
+              "token_count": 2524,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red arched bridge with lights and reflections visible in all frames, matching Thê Húc Bridge at Hoan Kiem Lake."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Red arched bridge with lights and reflections visible in all frames, matching Thê Húc Bridge at Hoan Kiem Lake.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hoan Kiem Lake, has_part, Thê Húc Bridge)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.391,
+              "token_count": 2560,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "The red arched bridge, identified as Thê Húc Bridge, is clearly visible spanning the lake in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"The red arched bridge, identified as Thê Húc Bridge, is clearly visible spanning the lake in all frames.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hoan Kiem Lake, has_part, Thê Húc Bridge)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.904,
+              "token_count": 2435,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Red arched bridge with lights, spanning water, visible in all frames.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red arched bridge clearly visible across lake in all frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Red arched bridge with lights, spanning water, visible in all frames.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Red arched bridge clearly visible across lake in all frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Thê Húc Bridge, color, red)",
+          "head": "Thê Húc Bridge",
+          "relation": "color",
+          "tail": "red",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Vibrant classical vermilion red paint.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Thê Húc Bridge, color, red)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.18,
+              "token_count": 2570,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red color of bridge clearly visible in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Red color of bridge clearly visible in all frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Thê Húc Bridge, color, red)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.229,
+              "token_count": 2519,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Thê Húc Bridge is clearly illuminated in red across all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Thê Húc Bridge is clearly illuminated in red across all frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Thê Húc Bridge, color, red)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.278,
+              "token_count": 2555,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "The bridge is vividly illuminated in red across all frames, clearly visible and consistent."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"The bridge is vividly illuminated in red across all frames, clearly visible and consistent.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Thê Húc Bridge, color, red)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.807,
+              "token_count": 2430,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Bridge structure is illuminated with red lights across all frames.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red illumination clearly visible on bridge in all frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Bridge structure is illuminated with red lights across all frames.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Red illumination clearly visible on bridge in all frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Hoan Kiem Lake, has_part, lake water)",
+          "head": "Hoan Kiem Lake",
+          "relation": "has_part",
+          "tail": "lake water",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Surrounding dark lake water reflecting bridge lights.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hoan Kiem Lake, has_part, lake water)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.212,
+              "token_count": 2572,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Red bridge spans reflective water surface, confirming lake water presence."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Red bridge spans reflective water surface, confirming lake water presence.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hoan Kiem Lake, has_part, lake water)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.23,
+              "token_count": 2521,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Dark water surface with red bridge and boat reflections visible in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Dark water surface with red bridge and boat reflections visible in all frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hoan Kiem Lake, has_part, lake water)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.279,
+              "token_count": 2557,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Dark water surface with light reflections is clearly visible in all frames, forming the lake."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Dark water surface with light reflections is clearly visible in all frames, forming the lake.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hoan Kiem Lake, has_part, lake water)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.918,
+              "token_count": 2432,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Dark water surface reflecting red bridge lights and surrounding illumination across all frames.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Lake water clearly visible and reflected in all frames, confirming the triple."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Dark water surface reflecting red bridge lights and surrounding illumination across all frames.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Lake water clearly visible and reflected in all frames, confirming the triple.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Hoan Kiem Lake, has_part, Turtle Tower)",
+          "head": "Hoan Kiem Lake",
+          "relation": "has_part",
+          "tail": "Turtle Tower",
+          "expected": "UNSEEN",
+          "expected_frames": [],
+          "note": "Tháp Rùa is in middle of lake, absent from this bridge view.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hoan Kiem Lake, has_part, Turtle Tower)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.974,
+              "token_count": 2572,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Turtle Tower not visible in any of the 6 frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Turtle Tower not visible in any of the 6 frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hoan Kiem Lake, has_part, Turtle Tower)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.085,
+              "token_count": 2521,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "Turtle Tower not visible in any of the 6 frames showing Hoan Kiem Lake at night."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"Turtle Tower not visible in any of the 6 frames showing Hoan Kiem Lake at night.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hoan Kiem Lake, has_part, Turtle Tower)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.042,
+              "token_count": 2557,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "Turtle Tower is a distinct structure, but not visible in any of the provided frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"Turtle Tower is a distinct structure, but not visible in any of the provided frames.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hoan Kiem Lake, has_part, Turtle Tower)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.758,
+              "token_count": 2432,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "Turtle Tower is not visible in any frame; only the red bridge and surrounding water are shown.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Turtle Tower is not visually present in any of the provided frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Turtle Tower is not visible in any frame; only the red bridge and surrounding water are shown.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Turtle Tower is not visually present in any of the provided frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Hoan Kiem Lake, located_in, Hanoi)",
+          "head": "Hoan Kiem Lake",
+          "relation": "located_in",
+          "tail": "Hanoi",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Administrative city.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hoan Kiem Lake, located_in, Hanoi)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.938,
+              "token_count": 2572,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Location in Hanoi not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Location in Hanoi not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hoan Kiem Lake, located_in, Hanoi)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.989,
+              "token_count": 2521,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Hanoi is an administrative location, not a physical object visible in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Hanoi is an administrative location, not a physical object visible in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hoan Kiem Lake, located_in, Hanoi)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.941,
+              "token_count": 2557,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Administrative location cannot be visually confirmed from the frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Administrative location cannot be visually confirmed from the frames.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hoan Kiem Lake, located_in, Hanoi)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.451,
+              "token_count": 2432,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Hanoi is an administrative city, not a physical object visible in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Hanoi is an administrative city, not a physical object visible in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Thê Húc Bridge, built_by, Nguyễn Văn Siêu)",
+          "head": "Thê Húc Bridge",
+          "relation": "built_by",
+          "tail": "Nguyễn Văn Siêu",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Historical 19th-century builder.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Thê Húc Bridge, built_by, Nguyễn Văn Siêu)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.94,
+              "token_count": 2574,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Builder's name not visually verifiable from video frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Builder's name not visually verifiable from video frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Thê Húc Bridge, built_by, Nguyễn Văn Siêu)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.989,
+              "token_count": 2523,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Built_by is historical/administrative claim, not visual evidence in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Built_by is historical/administrative claim, not visual evidence in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Thê Húc Bridge, built_by, Nguyễn Văn Siêu)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.942,
+              "token_count": 2559,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Builder's name is not visually verifiable from any frame."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Builder's name is not visually verifiable from any frame.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Thê Húc Bridge, built_by, Nguyễn Văn Siêu)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.632,
+              "token_count": 2434,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No visual evidence of 'built_by' relationship or person.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Relationship 'built_by' involves abstract attribution, not visually verifiable."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No visual evidence of 'built_by' relationship or person.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Relationship 'built_by' involves abstract attribution, not visually verifiable.\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "landmark": "Bat Trang Pottery Village",
+      "category": "Traditional Craft Village",
+      "clip_id": "test_0512_bat_trang",
+      "video_file": "videos/test/Tập làm nghệ nhân nặn gốm tại làng gốm Bát Tràng ｜ Learn to make pottery by hand [dOaibdwhOiw].mp4",
+      "facts_audit": [
+        {
+          "fact": "(Bat Trang Pottery Village, has_part, pottery wheel)",
+          "head": "Bat Trang Pottery Village",
+          "relation": "has_part",
+          "tail": "pottery wheel",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Rotating manual/electric pottery wheel.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Bat Trang Pottery Village, has_part, pottery wheel)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.216,
+              "token_count": 2574,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Pottery wheels clearly visible in all frames as central activity."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Pottery wheels clearly visible in all frames as central activity.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Bat Trang Pottery Village, has_part, pottery wheel)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.184,
+              "token_count": 2523,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Multiple frames show hands shaping clay on rotating pottery wheels."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Multiple frames show hands shaping clay on rotating pottery wheels.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Bat Trang Pottery Village, has_part, pottery wheel)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.202,
+              "token_count": 2559,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Multiple frames show people actively using pottery wheels for ceramic shaping."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Multiple frames show people actively using pottery wheels for ceramic shaping.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Bat Trang Pottery Village, has_part, pottery wheel)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.893,
+              "token_count": 2434,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Multiple pottery wheels visible in frames, used by people for shaping clay.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Pottery wheels clearly visible and in use across all frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Multiple pottery wheels visible in frames, used by people for shaping clay.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Pottery wheels clearly visible and in use across all frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Bat Trang Pottery Village, has_part, clay)",
+          "head": "Bat Trang Pottery Village",
+          "relation": "has_part",
+          "tail": "clay",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Wet malleable pottery clay being shaped.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Bat Trang Pottery Village, has_part, clay)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.233,
+              "token_count": 2573,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Clay is visibly being shaped on pottery wheels in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Clay is visibly being shaped on pottery wheels in all frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Bat Trang Pottery Village, has_part, clay)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.315,
+              "token_count": 2522,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Clay is visibly present on pottery wheels and in hands of people shaping pottery in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Clay is visibly present on pottery wheels and in hands of people shaping pottery in all frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Bat Trang Pottery Village, has_part, clay)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.282,
+              "token_count": 2558,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Clay is visibly present as raw material on wheels and in bowls across all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Clay is visibly present as raw material on wheels and in bowls across all frames.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Bat Trang Pottery Village, has_part, clay)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 2.053,
+              "token_count": 2433,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Clay is visibly present as wet, malleable material on pottery wheels and in hands of artisans.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Clay is physically present and actively used in pottery-making across all frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Clay is visibly present as wet, malleable material on pottery wheels and in hands of artisans.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Clay is physically present and actively used in pottery-making across all frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Bat Trang Pottery Village, has_part, unfinished ceramics)",
+          "head": "Bat Trang Pottery Village",
+          "relation": "has_part",
+          "tail": "unfinished ceramics",
+          "expected": "SEEN",
+          "expected_frames": [
+            1,
+            2,
+            5
+          ],
+          "note": "Hand-molded ceramic cups/pots in workshop.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Bat Trang Pottery Village, has_part, unfinished ceramics)",
+              "expected": "SEEN",
+              "expected_frames": [
+                1,
+                2,
+                5
+              ],
+              "latency_sec": 1.265,
+              "token_count": 2574,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Multiple frames show hands shaping wet clay on pottery wheels, forming unfinished ceramics."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Multiple frames show hands shaping wet clay on pottery wheels, forming unfinished ceramics.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Bat Trang Pottery Village, has_part, unfinished ceramics)",
+              "expected": "SEEN",
+              "expected_frames": [
+                1,
+                2,
+                5
+              ],
+              "latency_sec": 1.265,
+              "token_count": 2523,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Multiple frames show hands shaping wet clay on pottery wheels, forming unfinished ceramic pieces."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Multiple frames show hands shaping wet clay on pottery wheels, forming unfinished ceramic pieces.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Bat Trang Pottery Village, has_part, unfinished ceramics)",
+              "expected": "SEEN",
+              "expected_frames": [
+                1,
+                2,
+                5
+              ],
+              "latency_sec": 1.25,
+              "token_count": 2559,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Multiple frames show hands shaping wet clay into unfinished ceramic forms on pottery wheels."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Multiple frames show hands shaping wet clay into unfinished ceramic forms on pottery wheels.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Bat Trang Pottery Village, has_part, unfinished ceramics)",
+              "expected": "SEEN",
+              "expected_frames": [
+                1,
+                2,
+                5
+              ],
+              "latency_sec": 1.924,
+              "token_count": 2434,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Multiple frames show hands shaping wet clay on pottery wheels, forming incomplete ceramic vessels.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Frames clearly show unfinished ceramic pieces being shaped on pottery wheels."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Multiple frames show hands shaping wet clay on pottery wheels, forming incomplete ceramic vessels.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Frames clearly show unfinished ceramic pieces being shaped on pottery wheels.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Bat Trang Pottery Village, has_part, wood-fired kiln)",
+          "head": "Bat Trang Pottery Village",
+          "relation": "has_part",
+          "tail": "wood-fired kiln",
+          "expected": "UNSEEN",
+          "expected_frames": [],
+          "note": "Traditional large brick baking kiln - absent from workshop floor.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Bat Trang Pottery Village, has_part, wood-fired kiln)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.941,
+              "token_count": 2576,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Wood-fired kiln not visible in any sampled frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Wood-fired kiln not visible in any sampled frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Bat Trang Pottery Village, has_part, wood-fired kiln)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.039,
+              "token_count": 2525,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "No wood-fired kiln visible in any frame; pottery wheels and clay are shown only."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"No wood-fired kiln visible in any frame; pottery wheels and clay are shown only.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Bat Trang Pottery Village, has_part, wood-fired kiln)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.038,
+              "token_count": 2561,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "Wood-fired kilns are not visible in any of the frames showing pottery wheel workshops."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"Wood-fired kilns are not visible in any of the frames showing pottery wheel workshops.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Bat Trang Pottery Village, has_part, wood-fired kiln)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.73,
+              "token_count": 2436,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No wood-fired kiln visible in any frame; only pottery wheels and clay are shown.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Wood-fired kiln is abstract infrastructure, not visually present in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No wood-fired kiln visible in any frame; only pottery wheels and clay are shown.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Wood-fired kiln is abstract infrastructure, not visually present in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Bat Trang Pottery Village, located_in, Gia Lam District)",
+          "head": "Bat Trang Pottery Village",
+          "relation": "located_in",
+          "tail": "Gia Lam District",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Administrative suburban district.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Bat Trang Pottery Village, located_in, Gia Lam District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.909,
+              "token_count": 2576,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "District name not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"District name not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Bat Trang Pottery Village, located_in, Gia Lam District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.024,
+              "token_count": 2525,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Location 'Gia Lam District' is administrative, not visually verifiable in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Location 'Gia Lam District' is administrative, not visually verifiable in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Bat Trang Pottery Village, located_in, Gia Lam District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.925,
+              "token_count": 2561,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Administrative district boundary cannot be photographed directly."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Administrative district boundary cannot be photographed directly.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Bat Trang Pottery Village, located_in, Gia Lam District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.587,
+              "token_count": 2436,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No visual evidence of administrative boundaries or district labels.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Administrative district is abstract, not visually verifiable in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No visual evidence of administrative boundaries or district labels.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Administrative district is abstract, not visually verifiable in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Bat Trang Pottery Village, founded_in, 14th century)",
+          "head": "Bat Trang Pottery Village",
+          "relation": "founded_in",
+          "tail": "14th century",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Historical founding century.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Bat Trang Pottery Village, founded_in, 14th century)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.022,
+              "token_count": 2577,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founding date is historical/administrative, not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Founding date is historical/administrative, not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Bat Trang Pottery Village, founded_in, 14th century)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.007,
+              "token_count": 2526,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founding date is historical/administrative, not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Founding date is historical/administrative, not visually verifiable from frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Bat Trang Pottery Village, founded_in, 14th century)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.022,
+              "token_count": 2562,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Founding date is historical metadata, not visually verifiable from the frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Founding date is historical metadata, not visually verifiable from the frames.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Bat Trang Pottery Village, founded_in, 14th century)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.473,
+              "token_count": 2437,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "None",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Founding date is abstract; not visually verifiable in any frame."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"None\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Founding date is abstract; not visually verifiable in any frame.\"\n}"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "landmark": "Hanoi Old Quarter",
+      "category": "Historic Urban Living Quarter",
+      "clip_id": "test_0879_old_quarter",
+      "video_file": "videos/test/Phố cổ Hà Nội [YmRooNVNcY4].mp4",
+      "facts_audit": [
+        {
+          "fact": "(Hanoi Old Quarter, has_part, narrow cobblestone street)",
+          "head": "Hanoi Old Quarter",
+          "relation": "has_part",
+          "tail": "narrow cobblestone street",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Dense ancient alleyways paved with stones.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hanoi Old Quarter, has_part, narrow cobblestone street)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.216,
+              "token_count": 2573,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Narrow cobblestone street clearly visible throughout all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Narrow cobblestone street clearly visible throughout all frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hanoi Old Quarter, has_part, narrow cobblestone street)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.295,
+              "token_count": 2522,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "All frames show narrow street paved with cobblestones, consistent with Hanoi Old Quarter."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"All frames show narrow street paved with cobblestones, consistent with Hanoi Old Quarter.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hanoi Old Quarter, has_part, narrow cobblestone street)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.313,
+              "token_count": 2558,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "All frames show a narrow street paved with cobblestones, characteristic of Hanoi Old Quarter."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"All frames show a narrow street paved with cobblestones, characteristic of Hanoi Old Quarter.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hanoi Old Quarter, has_part, narrow cobblestone street)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.956,
+              "token_count": 2433,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "All frames show a narrow street paved with grey cobblestones.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Cobblestone street clearly visible in all frames as part of Hanoi Old Quarter."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"All frames show a narrow street paved with grey cobblestones.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Cobblestone street clearly visible in all frames as part of Hanoi Old Quarter.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Hanoi Old Quarter, has_part, yellow colonial buildings)",
+          "head": "Hanoi Old Quarter",
+          "relation": "has_part",
+          "tail": "yellow colonial buildings",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "note": "Ochre-yellow French-colonial and traditional tube facades.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hanoi Old Quarter, has_part, yellow colonial buildings)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.183,
+              "token_count": 2571,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Yellow colonial buildings are clearly visible throughout all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Yellow colonial buildings are clearly visible throughout all frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hanoi Old Quarter, has_part, yellow colonial buildings)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.231,
+              "token_count": 2520,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Yellow colonial-style buildings are clearly visible lining the street in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Yellow colonial-style buildings are clearly visible lining the street in all frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hanoi Old Quarter, has_part, yellow colonial buildings)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.247,
+              "token_count": 2556,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Yellow colonial-style buildings line the street in all frames, confirming the triple."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Yellow colonial-style buildings line the street in all frames, confirming the triple.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hanoi Old Quarter, has_part, yellow colonial buildings)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "latency_sec": 1.939,
+              "token_count": 2431,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Frames show yellow-painted colonial-style buildings lining the street.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Yellow colonial buildings are clearly visible in all frames as part of Hanoi Old Quarter."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Frames show yellow-painted colonial-style buildings lining the street.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Yellow colonial buildings are clearly visible in all frames as part of Hanoi Old Quarter.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Hanoi Old Quarter, has_part, street cafe tables)",
+          "head": "Hanoi Old Quarter",
+          "relation": "has_part",
+          "tail": "street cafe tables",
+          "expected": "SEEN",
+          "expected_frames": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "note": "Sidewalk dining plastic tables and chairs.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hanoi Old Quarter, has_part, street cafe tables)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                4
+              ],
+              "latency_sec": 1.165,
+              "token_count": 2571,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Street cafe tables clearly visible throughout all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Street cafe tables clearly visible throughout all frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hanoi Old Quarter, has_part, street cafe tables)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                4
+              ],
+              "latency_sec": 1.248,
+              "token_count": 2520,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Yellow plastic tables and chairs are clearly visible along the street in all frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Yellow plastic tables and chairs are clearly visible along the street in all frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hanoi Old Quarter, has_part, street cafe tables)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                4
+              ],
+              "latency_sec": 1.298,
+              "token_count": 2556,
+              "parsed": {
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Yellow plastic tables and chairs are visible along the street in all frames, indicating street cafes."
+              },
+              "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Yellow plastic tables and chairs are visible along the street in all frames, indicating street cafes.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hanoi Old Quarter, has_part, street cafe tables)",
+              "expected": "SEEN",
+              "expected_frames": [
+                0,
+                1,
+                2,
+                4
+              ],
+              "latency_sec": 2.054,
+              "token_count": 2431,
+              "parsed": {
+                "stage1_claim_type": "PHYSICAL_OBSERVABLE",
+                "stage2_visual_evidence": "Yellow plastic chairs and small tables visible in frames 0, 1, 2, 4, 5, used by patrons.",
+                "visual_grounding": "SEEN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  4,
+                  5
+                ],
+                "caption_relevance": "HIGH",
+                "reason": "Street cafe tables and chairs clearly visible in multiple frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"PHYSICAL_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"Yellow plastic chairs and small tables visible in frames 0, 1, 2, 4, 5, used by patrons.\",\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 4, 5],\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Street cafe tables and chairs clearly visible in multiple frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Hanoi Old Quarter, has_part, West Lake)",
+          "head": "Hanoi Old Quarter",
+          "relation": "has_part",
+          "tail": "West Lake",
+          "expected": "UNSEEN",
+          "expected_frames": [],
+          "note": "Hồ Tây is separate large lake miles away, completely absent.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hanoi Old Quarter, has_part, West Lake)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 0.972,
+              "token_count": 2570,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "West Lake not visually verifiable; unrelated to street scene shown."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"West Lake not visually verifiable; unrelated to street scene shown.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hanoi Old Quarter, has_part, West Lake)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.058,
+              "token_count": 2519,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "West Lake is not a physical part of Hanoi Old Quarter; it's a separate landmark."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"West Lake is not a physical part of Hanoi Old Quarter; it's a separate landmark.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hanoi Old Quarter, has_part, West Lake)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.075,
+              "token_count": 2555,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "HIGH",
+                "reason": "West Lake is a distinct geographical feature not visible in any of the frames showing the Old Quarter streets."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"HIGH\", \"reason\": \"West Lake is a distinct geographical feature not visible in any of the frames showing the Old Quarter streets.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hanoi Old Quarter, has_part, West Lake)",
+              "expected": "UNSEEN",
+              "expected_frames": [],
+              "latency_sec": 1.55,
+              "token_count": 2430,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "None",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "West Lake is not a physical part of Hanoi Old Quarter; it's a separate landmark."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"None\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"West Lake is not a physical part of Hanoi Old Quarter; it's a separate landmark.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Hanoi Old Quarter, located_in, Hoan Kiem District)",
+          "head": "Hanoi Old Quarter",
+          "relation": "located_in",
+          "tail": "Hoan Kiem District",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Administrative municipal district.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hanoi Old Quarter, located_in, Hoan Kiem District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.907,
+              "token_count": 2573,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "District name not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"District name not visually verifiable from frames.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hanoi Old Quarter, located_in, Hoan Kiem District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.924,
+              "token_count": 2522,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Administrative district location not visually verifiable from frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Administrative district location not visually verifiable from frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hanoi Old Quarter, located_in, Hoan Kiem District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.91,
+              "token_count": 2558,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "MEDIUM",
+                "reason": "Administrative district boundary cannot be photographed directly."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"MEDIUM\", \"reason\": \"Administrative district boundary cannot be photographed directly.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hanoi Old Quarter, located_in, Hoan Kiem District)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.423,
+              "token_count": 2433,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "District names are abstract administrative entities, not visually observable in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"District names are abstract administrative entities, not visually observable in frames.\"\n}"
+            }
+          }
+        },
+        {
+          "fact": "(Hanoi Old Quarter, has_part, 36 ancient guild streets)",
+          "head": "Hanoi Old Quarter",
+          "relation": "has_part",
+          "tail": "36 ancient guild streets",
+          "expected": "NOT_VISUAL",
+          "expected_frames": [],
+          "note": "Abstract traditional guild categorization.",
+          "evaluations": {
+            "Prompt_A_Standard": {
+              "fact": "(Hanoi Old Quarter, has_part, 36 ancient guild streets)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 0.94,
+              "token_count": 2574,
+              "parsed": {
+                "visual_grounding": "UNSEEN",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Number of streets not visually verifiable from frames shown."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Number of streets not visually verifiable from frames shown.\"}"
+            },
+            "Prompt_B_Heritage_Grounded": {
+              "fact": "(Hanoi Old Quarter, has_part, 36 ancient guild streets)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.041,
+              "token_count": 2523,
+              "parsed": {
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Number of streets or 'guild streets' is abstract, not visually verifiable in frames."
+              },
+              "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Number of streets or 'guild streets' is abstract, not visually verifiable in frames.\"}"
+            },
+            "Prompt_C_Bilingual_FewShot": {
+              "fact": "(Hanoi Old Quarter, has_part, 36 ancient guild streets)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.329,
+              "token_count": 2559,
+              "parsed": {
+                "visual_grounding": "UNCERTAIN",
+                "frame_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "caption_relevance": "LOW",
+                "reason": "Frames show narrow streets with shops, but cannot visually confirm 36 specific ancient guild streets."
+              },
+              "raw_response": "{\"visual_grounding\": \"UNCERTAIN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"LOW\", \"reason\": \"Frames show narrow streets with shops, but cannot visually confirm 36 specific ancient guild streets.\"}"
+            },
+            "Prompt_D_Two_Stage_Decoupled": {
+              "fact": "(Hanoi Old Quarter, has_part, 36 ancient guild streets)",
+              "expected": "NOT_VISUAL",
+              "expected_frames": [],
+              "latency_sec": 1.73,
+              "token_count": 2434,
+              "parsed": {
+                "stage1_claim_type": "ABSTRACT_NON_OBSERVABLE",
+                "stage2_visual_evidence": "No visual evidence of '36 ancient guild streets' as a countable, physical entity.",
+                "visual_grounding": "NOT_VISUAL",
+                "frame_indices": [],
+                "caption_relevance": "LOW",
+                "reason": "Number of streets is abstract; not visually verifiable in frames."
+              },
+              "raw_response": "{\n  \"stage1_claim_type\": \"ABSTRACT_NON_OBSERVABLE\",\n  \"stage2_visual_evidence\": \"No visual evidence of '36 ancient guild streets' as a countable, physical entity.\",\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Number of streets is abstract; not visually verifiable in frames.\"\n}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

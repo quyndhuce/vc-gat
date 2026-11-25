@@ -1,0 +1,52 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f293121c> onto:on <http://www.wikidata.org/entity/Q10796192> .
+
+<http://www.wikidata.org/entity/Q10796192#street> onto:connects <http://transmtl.vn/kb/hang_bo_street> .
+
+<http://www.wikidata.org/entity/Q10796192> onto:has_part <http://www.wikidata.org/entity/Q10796192#street> ;
+    onto:near <http://transmtl.vn/ent/a5b03048> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_059bd7ff3ab1" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4295 ;
+    fkg:docId "doc_059bd7ff3ab1" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_bo_street> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5244 ;
+    fkg:docId "doc_059bd7ff3ab1" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/f293121c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3208 ;
+    fkg:docId "doc_059bd7ff3ab1" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/a5b03048> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3746 ;
+    fkg:docId "doc_059bd7ff3ab1" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/f293121c> .
+

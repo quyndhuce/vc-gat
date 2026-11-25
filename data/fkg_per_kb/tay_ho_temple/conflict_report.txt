@@ -1,0 +1,51 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hanoi)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/207462d2
+  Conflict K: 0.6741
+  Candidates:
+    • Vietnam                         Bel=0.7852  Pl=0.8443  (4 evidence)
+    • .                               Bel=0.1557  Pl=0.2148  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.7852  K=0.6741 ⚠ REVIEW
+  [built_in] (Tay Ho Temple) → http://transmtl.vn/ent/08915416  Bel=0.4556  K=0.0000
+  [built_in] (West Lake) → http://transmtl.vn/ent/08915416  Bel=0.4332  K=0.0000
+  [dated_to] (West Lake) → http://transmtl.vn/ent/08915416  Bel=0.2305  K=0.0000
+  [recognized_in] (Tay Ho Temple) → http://transmtl.vn/ent/6351bf9d  Bel=0.5569  K=0.0000
+  [founded_in] (Tay Ho Temple) → http://transmtl.vn/ent/08915416  Bel=0.3403  K=0.0000
+  [founded_in] (West Lake) → http://transmtl.vn/ent/08915416  Bel=0.4122  K=0.0000
+  [symbol_of] (Tay Ho Temple) → http://transmtl.vn/ent/207462d2  Bel=0.9895  K=0.0000
+  [dated_to] (Tay Ho Temple) → http://transmtl.vn/ent/08915416  Bel=0.3715  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Tay Ho Temple) → (main hall)  μ_F=0.9999  (4 evidence)
+  [has_part] (Tay Ho Temple) → (shrine)  μ_F=0.9991  (3 evidence)
+  [has_part] (Tay Ho Temple) → (roof)  μ_F=0.9991  (3 evidence)
+  [has_part] (Tay Ho Temple) → (bức đại tự)  μ_F=0.9991  (3 evidence)
+  [located_in] (Tay Ho Temple) → (Hanoi)  μ_F=0.9912  (9 evidence)
+  [has_part] (Tay Ho Temple) → (courtyard)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (Kim Ngưu Shrine)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (three-arched gate)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (Boys Tower)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (gate)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (upper level)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (hall)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (ceiling)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (Shrine of the Gods)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (upper floor)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (three-entrance gate)  μ_F=0.9905  (2 evidence)
+  [has_part] (Tay Ho Temple) → (canopies)  μ_F=0.9905  (2 evidence)
+  [dedicated_to] (upper level) → (Guanyin)  μ_F=0.9222  (2 evidence)
+  [has_part] (Tay Ho Temple) → (eaves)  μ_F=0.9025  (1 evidence)
+  [has_part] (Tay Ho Temple) → (Girls Tower)  μ_F=0.9025  (1 evidence)
+
+========================================================================

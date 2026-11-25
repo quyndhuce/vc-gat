@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-10-27 21:35:42",
+  "total_test_clips": 1119,
+  "elapsed_seconds": 14.99,
+  "ms_per_clip": 13.39,
+  "mean_video_attention_sensitivity": 0.003,
+  "summary": {
+    "baseline_pointwise": {
+      "subgraph_coherence_scr": {
+        "mean": 43.87,
+        "std": 15.87
+      },
+      "giant_component_gcr": {
+        "mean": 83.45,
+        "std": 16.95
+      },
+      "gold_fact_hit_rate": {
+        "mean": 14.25,
+        "std": 11.78
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.1237,
+        "std": 0.0148
+      }
+    },
+    "unconditioned_gat": {
+      "subgraph_coherence_scr": {
+        "mean": 30.03,
+        "std": 19.73
+      },
+      "giant_component_gcr": {
+        "mean": 60.12,
+        "std": 20.26
+      },
+      "gold_fact_hit_rate": {
+        "mean": 2.72,
+        "std": 9.59
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.0724,
+        "std": 0.0235
+      }
+    },
+    "vc_gat_proposed": {
+      "subgraph_coherence_scr": {
+        "mean": 28.55,
+        "std": 13.59
+      },
+      "giant_component_gcr": {
+        "mean": 60.7,
+        "std": 20.24
+      },
+      "gold_fact_hit_rate": {
+        "mean": 3.21,
+        "std": 9.96
+      },
+      "visual_semantic_alignment_vsa": {
+        "mean": 0.0767,
+        "std": 0.0189
+      }
+    }
+  }
+}

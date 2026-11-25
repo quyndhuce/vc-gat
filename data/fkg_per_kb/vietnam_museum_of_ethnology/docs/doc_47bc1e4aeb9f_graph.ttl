@@ -1,0 +1,54 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q1858> onto:made_of <http://transmtl.vn/ent/68a5adc5> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology> onto:has_part <http://transmtl.vn/kb/vietnam_museum_of_ethnology#intricate_designs>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#relief_patterns> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#intricate_designs> onto:used_as <http://transmtl.vn/ent/37ad6998> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#relief_patterns> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_47bc1e4aeb9f" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#intricate_designs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2534 ;
+    fkg:docId "doc_47bc1e4aeb9f" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/37ad6998> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#intricate_designs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.422 ;
+    fkg:docId "doc_47bc1e4aeb9f" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#relief_patterns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_47bc1e4aeb9f" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#relief_patterns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6694 ;
+    fkg:docId "doc_47bc1e4aeb9f" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/68a5adc5> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

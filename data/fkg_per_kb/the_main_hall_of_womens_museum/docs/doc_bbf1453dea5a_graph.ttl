@@ -1,0 +1,195 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/the_main_hall_of_womens_museum#flooring> onto:part_of <http://transmtl.vn/ent/5ab06702> .
+
+<http://transmtl.vn/kb/the_main_hall_of_womens_museum#hall> onto:part_of <http://transmtl.vn/ent/e5fe76bb> .
+
+<http://transmtl.vn/kb/the_main_hall_of_womens_museum#high_ceilings> onto:part_of <http://transmtl.vn/ent/5ab06702> .
+
+<http://transmtl.vn/kb/the_main_hall_of_womens_museum#information_desk> onto:part_of <http://transmtl.vn/ent/5ab06702> .
+
+<http://transmtl.vn/ent/e5fe76bb> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/the_main_hall_of_womens_museum> onto:has_part <http://transmtl.vn/kb/the_main_hall_of_womens_museum#flooring>,
+        <http://transmtl.vn/kb/the_main_hall_of_womens_museum#hall>,
+        <http://transmtl.vn/kb/the_main_hall_of_womens_museum#high_ceilings>,
+        <http://transmtl.vn/kb/the_main_hall_of_womens_museum#information_desk>,
+        <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> .
+
+<http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> onto:connects <http://transmtl.vn/ent/3cdee953> ;
+    onto:part_of <http://transmtl.vn/ent/5ab06702>,
+        <http://transmtl.vn/ent/955bfff7>,
+        <http://transmtl.vn/ent/e5fe76bb>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#high_ceilings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3791 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3766 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2871 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#flooring> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2993 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#information_desk> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#information_desk> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4017 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/955bfff7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3769 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e5fe76bb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2894 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3175 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#high_ceilings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2807 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3029 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/the_main_hall_of_womens_museum#flooring> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6593 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2764 ;
+    fkg:docId "doc_bbf1453dea5a" ;
+    fkg:kbId "the_main_hall_of_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/3cdee953> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/the_main_hall_of_womens_museum#main_hall> .
+

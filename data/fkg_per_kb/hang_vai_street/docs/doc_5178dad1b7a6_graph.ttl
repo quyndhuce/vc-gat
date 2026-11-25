@@ -1,0 +1,247 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/94a55a83> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+<http://www.wikidata.org/entity/Q10770764#smooth_nodes> onto:made_of <http://transmtl.vn/ent/82960335> .
+
+<http://www.wikidata.org/entity/Q10770764#điếu_cày> onto:made_of <http://transmtl.vn/ent/82960335> .
+
+<http://www.wikidata.org/entity/Q10770764#bamboo_ladders> onto:made_of <http://transmtl.vn/ent/82960335>,
+        <http://transmtl.vn/ent/fd7255a0> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q10770764> onto:has_part <http://www.wikidata.org/entity/Q10770764#bamboo_ladders>,
+        <http://www.wikidata.org/entity/Q10770764#smooth_nodes>,
+        <http://www.wikidata.org/entity/Q10770764#điếu_cày> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/6c6d4dfa>,
+        <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:surrounded_by <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/ent/746a744a>,
+        <http://transmtl.vn/ent/795f3202>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/da2600eb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5688 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5354 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3053 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3151 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/82960335> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764#bamboo_ladders> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2948 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/746a744a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770764#điếu_cày> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2873 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6003 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2709 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3082 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4439 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770764#bamboo_ladders> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2934 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/82960335> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764#smooth_nodes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4729 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7073 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.301 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/94a55a83> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3731 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/94a55a83> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2654 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/82960335> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764#điếu_cày> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6143 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2564 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/fd7255a0> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764#bamboo_ladders> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3296 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3996 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/da2600eb> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770764#smooth_nodes> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2757 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2832 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/795f3202> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2989 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2537 ;
+    fkg:docId "doc_5178dad1b7a6" ;
+    fkg:kbId "hang_vai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770764> .
+

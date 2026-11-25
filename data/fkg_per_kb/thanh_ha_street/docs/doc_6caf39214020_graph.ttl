@@ -1,0 +1,161 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/cabb7e70> onto:located_in <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/kb/thanh_ha_street#above> onto:above <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/thanh_ha_street#cửa_ô_archway> onto:part_of <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/thanh_ha_street#electrical_wires> onto:above <http://transmtl.vn/ent/1f4a9685>,
+        <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    onto:over <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/thanh_ha_street#street> onto:located_in <http://transmtl.vn/ent/606dcc1a> ;
+    onto:part_of <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+<http://transmtl.vn/kb/thanh_ha_street> onto:has_part <http://transmtl.vn/kb/thanh_ha_street#above>,
+        <http://transmtl.vn/kb/thanh_ha_street#cửa_ô_archway>,
+        <http://transmtl.vn/kb/thanh_ha_street#electrical_wires>,
+        <http://transmtl.vn/kb/thanh_ha_street#street> ;
+    onto:located_in <http://transmtl.vn/ent/606dcc1a> ;
+    onto:part_of <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2873 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#above> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4991 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3571 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4547 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3083 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#above> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3273 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#cửa_ô_archway> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5037 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4889 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2977 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#cửa_ô_archway> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#electrical_wires> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4277 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.542 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.328 ;
+    fkg:docId "doc_6caf39214020" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cabb7e70> .
+

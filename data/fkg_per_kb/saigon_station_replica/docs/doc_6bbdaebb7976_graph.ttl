@@ -1,0 +1,73 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0262fb99> onto:located_in <http://transmtl.vn/ent/fb7a06dc>,
+        <http://transmtl.vn/kb/thong_nhat_park> .
+
+<http://transmtl.vn/kb/saigon_station_replica> onto:has_part <http://transmtl.vn/kb/saigon_station_replica#sign>,
+        <http://transmtl.vn/kb/saigon_station_replica#walls> .
+
+<http://transmtl.vn/kb/saigon_station_replica#sign> onto:above <http://transmtl.vn/ent/2a20afe0> .
+
+<http://transmtl.vn/kb/saigon_station_replica#walls> onto:part_of <http://transmtl.vn/ent/e8ed3f28> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:located_in <http://transmtl.vn/ent/fb7a06dc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2635 ;
+    fkg:docId "doc_6bbdaebb7976" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/fb7a06dc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0262fb99> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2876 ;
+    fkg:docId "doc_6bbdaebb7976" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/e8ed3f28> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6bbdaebb7976" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/saigon_station_replica#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.573 ;
+    fkg:docId "doc_6bbdaebb7976" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0262fb99> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3368 ;
+    fkg:docId "doc_6bbdaebb7976" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica#sign> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4475 ;
+    fkg:docId "doc_6bbdaebb7976" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/fb7a06dc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6bbdaebb7976" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/saigon_station_replica#sign> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica> .
+

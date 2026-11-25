@@ -1,0 +1,182 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/2ca63cdd> onto:surrounded_by <http://transmtl.vn/kb/building_d67> .
+
+<http://transmtl.vn/ent/fc86f79e> onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+<http://transmtl.vn/kb/building_d67#ceilings> onto:part_of <http://transmtl.vn/ent/cc9831b8> .
+
+<http://transmtl.vn/kb/building_d67#narrow_corridors> onto:leading_to <http://transmtl.vn/ent/335cf450> .
+
+<http://transmtl.vn/kb/building_d67#sunlight> onto:on <http://transmtl.vn/ent/00ecf6d0> .
+
+<http://transmtl.vn/kb/building_d67#underground_bunker> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/building_d67#walls> onto:part_of <http://transmtl.vn/ent/cc9831b8> .
+
+<http://transmtl.vn/kb/building_d67#corridors> onto:connects <http://transmtl.vn/ent/34191487> ;
+    onto:leading_to <http://transmtl.vn/ent/34191487> .
+
+<http://transmtl.vn/kb/building_d67> onto:has_part <http://transmtl.vn/kb/building_d67#ceilings>,
+        <http://transmtl.vn/kb/building_d67#corridors>,
+        <http://transmtl.vn/kb/building_d67#narrow_corridors>,
+        <http://transmtl.vn/kb/building_d67#sunlight>,
+        <http://transmtl.vn/kb/building_d67#underground_bunker>,
+        <http://transmtl.vn/kb/building_d67#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4209 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#narrow_corridors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4438 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/cc9831b8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7881 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/fc86f79e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#sunlight> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#ceilings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4237 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/fc86f79e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#narrow_corridors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3808 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/34191487> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#corridors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#underground_bunker> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3291 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/00ecf6d0> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#sunlight> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5317 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/cc9831b8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#ceilings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2579 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/34191487> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#corridors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6347 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/34191487> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#corridors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4447 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/fc86f79e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#corridors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2875 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#underground_bunker> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3156 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/ent/2ca63cdd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f20d5e7b806b" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#corridors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+

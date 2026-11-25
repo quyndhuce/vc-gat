@@ -1,0 +1,25 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/floor_3_women_with_history> onto:has_part <http://transmtl.vn/kb/floor_3_women_with_history#3rd_floor> .
+
+<http://transmtl.vn/kb/floor_3_women_with_history#3rd_floor> onto:part_of <http://transmtl.vn/ent/e5fe76bb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8bde3888a636" ;
+    fkg:kbId "floor_3_women_with_history" ;
+    rdf:object <http://transmtl.vn/kb/floor_3_women_with_history#3rd_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_3_women_with_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.257 ;
+    fkg:docId "doc_8bde3888a636" ;
+    fkg:kbId "floor_3_women_with_history" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_3_women_with_history#3rd_floor> .
+

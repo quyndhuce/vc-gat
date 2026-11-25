@@ -1,0 +1,148 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/tam_quan_gate> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/kb/kim_truc_tu_pagoda> onto:has_part <http://transmtl.vn/kb/kim_truc_tu_pagoda#relief_details> ;
+    onto:located_in <http://transmtl.vn/ent/0cc175b9>,
+        <http://transmtl.vn/ent/80313a9d> ;
+    onto:on <http://transmtl.vn/kb/red_river> .
+
+<http://transmtl.vn/kb/kim_truc_tu_pagoda#relief_details> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:architectural_style <http://transmtl.vn/ent/5ee2c42b>,
+        <http://transmtl.vn/ent/673eb027>,
+        <http://transmtl.vn/ent/85e50e18> ;
+    onto:has_part <http://transmtl.vn/kb/tam_quan_gate> ;
+    onto:on <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2887 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2708 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/0cc175b9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4764 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5023 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/kim_truc_tu_pagoda#relief_details> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4289 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2922 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda#relief_details> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4079 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4722 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/673eb027> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2828 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5ee2c42b> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5316 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/80313a9d> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4629 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3726 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/673eb027> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3797 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda#relief_details> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/kim_truc_tu_pagoda#relief_details> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6564 ;
+    fkg:docId "doc_dd93f4575228" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+

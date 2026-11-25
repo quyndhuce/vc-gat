@@ -1,0 +1,66 @@
+{
+  "title": "Real GPU Full Pipeline End-to-End Benchmark",
+  "dataset_size": 149,
+  "results": [
+    {
+      "method": "Visual-only VLM",
+      "landmark_acc": 6.0,
+      "claim_precision": 100.0,
+      "claim_recall": 53.6,
+      "claim_f1": 54.9,
+      "oar": 12.1,
+      "policy_compliance": 20.8,
+      "bleu4": 9.43,
+      "rouge_l": 26.19,
+      "sample_caption": "The pottery wheel stands prominently inside the pottery wheel clay sculpting area, with a piece of wet pottery clay spinning gently on its surface. Nearby hangs a collection of hand-painted blue-white ceramic plates, hinting at the diverse crafts practiced within this space. Historically, such workshops were common in ancient civilizations where artisans honed their skills through repetitive tasks like spinning clay on wheels."
+    },
+    {
+      "method": "Visual + Text RAG",
+      "landmark_acc": 75.2,
+      "claim_precision": 77.3,
+      "claim_recall": 38.4,
+      "claim_f1": 40.2,
+      "oar": 35.6,
+      "policy_compliance": 7.4,
+      "bleu4": 8.64,
+      "rouge_l": 24.02,
+      "sample_caption": "In the heart of Bat Trang Pottery Village, artisans work side by side at two adjacent pottery wheels, where they skillfully shape wet pottery clay into intricate designs before transferring it to another wheel for further refinement. Hand-painted blue-and-white ceramic plates line the walls, showcasing the village's centuries-old tradition of craftsmanship alongside modern creations."
+    },
+    {
+      "method": "Visual + Crisp KG",
+      "landmark_acc": 75.2,
+      "claim_precision": 75.2,
+      "claim_recall": 59.0,
+      "claim_f1": 63.3,
+      "oar": 47.0,
+      "policy_compliance": 17.4,
+      "bleu4": 12.2,
+      "rouge_l": 28.86,
+      "sample_caption": "In Bát Tràng, a district of Gia Lâm, Vietnam, traditional pottery making has been practiced for generations by local potters. The scene showcases two pottery wheels side by side, with one wheel busy spinning wet pottery clay while another artist meticulously carves intricate designs into the clay. Hand-painted blue-and-white ceramic plates line the walls, preserving this centuries-old craft."
+    },
+    {
+      "method": "Hard-threshold KG Captioning",
+      "landmark_acc": 75.2,
+      "claim_precision": 99.3,
+      "claim_recall": 87.8,
+      "claim_f1": 91.3,
+      "oar": 17.4,
+      "policy_compliance": 18.1,
+      "bleu4": 12.22,
+      "rouge_l": 31.87,
+      "sample_caption": "The Pottery making is situated in Bát Tràng, a district within Gia Lâm, Vietnam. Founded by local potters, it features traditional pottery wheels alongside areas for clay sculpting, with hand-painted blue-and-white ceramic plates adorning many of its products. The site includes both the pottery wheel itself and the area where clay is sculpted into form, showcasing the craftsmanship behind each piece."
+    },
+    {
+      "method": "Ours: Full Fuzzy Certainty-aware Pipeline",
+      "landmark_acc": 75.2,
+      "claim_precision": 100.0,
+      "claim_recall": 83.2,
+      "claim_f1": 87.0,
+      "oar": 1.3,
+      "policy_compliance": 87.2,
+      "bleu4": 31.33,
+      "rouge_l": 48.11,
+      "sample_caption": "In Bat Trang Pottery Village, located within Gia Lâm District, potters work diligently at their craft. A pottery wheel stands prominently alongside another for clay sculpting, both positioned closely together. Nearby, hand-painted blue and white ceramic plates line the walls, showcasing various designs created using traditional techniques."
+    }
+  ]
+}

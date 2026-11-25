@@ -1,0 +1,748 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q2227270#and> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q2227270#architectural_details> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q2227270#central_hall> onto:part_of <http://www.wikidata.org/entity/Q2227270> .
+
+<http://www.wikidata.org/entity/Q2227270#clock> onto:part_of <http://transmtl.vn/ent/00c169d5> .
+
+<http://www.wikidata.org/entity/Q2227270#clock_facade> onto:part_of <http://www.wikidata.org/entity/Q2227270> .
+
+<http://www.wikidata.org/entity/Q2227270#decorative_ironwork> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q2227270#historic_maps> onto:part_of <http://www.wikidata.org/entity/Q2227270> .
+
+<http://www.wikidata.org/entity/Q2227270#ornamental> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q2227270#vaulted_ceiling> onto:part_of <http://www.wikidata.org/entity/Q2227270> .
+
+<http://transmtl.vn/ent/02a3f0a5> onto:located_in <http://transmtl.vn/ent/b79de4fb>,
+        <http://transmtl.vn/ent/ed0aa594> .
+
+<http://www.wikidata.org/entity/Q2227270#design> onto:designed_by <http://transmtl.vn/ent/dc844f59> ;
+    onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q2227270#large_central_hall> onto:located_behind <http://transmtl.vn/ent/1240d03b>,
+        <http://transmtl.vn/ent/9da3be8f> .
+
+<http://www.wikidata.org/entity/Q2227270#building> onto:has_component <http://transmtl.vn/ent/6c337334> ;
+    onto:has_part <http://transmtl.vn/ent/6c337334>,
+        <http://transmtl.vn/ent/b2187c19> .
+
+<http://www.wikidata.org/entity/Q2227270#entrance> onto:part_of <http://transmtl.vn/ent/00c169d5>,
+        <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q2227270#square> onto:adjacent_to <http://transmtl.vn/ent/85fd796d> ;
+    onto:located_in_front_of <http://transmtl.vn/ent/85fd796d> ;
+    onto:near <http://transmtl.vn/ent/85fd796d> .
+
+<http://www.wikidata.org/entity/Q2227270#large_hall> onto:below <http://transmtl.vn/ent/7fa5def4> ;
+    onto:located_in <http://transmtl.vn/ent/b79de4fb> ;
+    onto:located_inside <http://transmtl.vn/ent/b79de4fb> ;
+    onto:part_of <http://transmtl.vn/ent/b79de4fb> .
+
+<http://www.wikidata.org/entity/Q2227270#large_public_hall> onto:below <http://transmtl.vn/ent/7fa5def4> ;
+    onto:located_in <http://transmtl.vn/ent/b79de4fb> ;
+    onto:located_inside <http://transmtl.vn/ent/b79de4fb> ;
+    onto:part_of <http://transmtl.vn/ent/b79de4fb> .
+
+<http://www.wikidata.org/entity/Q2227270#main_facade> onto:faces <http://transmtl.vn/ent/2fc01ec7>,
+        <http://transmtl.vn/ent/dc787198> ;
+    onto:overlooks <http://transmtl.vn/ent/2fc01ec7>,
+        <http://transmtl.vn/ent/85fd796d> .
+
+<http://www.wikidata.org/entity/Q2227270#facade> onto:faces <http://transmtl.vn/ent/1b20e902> ;
+    onto:has_entrance <http://transmtl.vn/ent/2a20afe0> ;
+    onto:located_in_front_of <http://transmtl.vn/ent/1b20e902> ;
+    onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q2227270#service_counters> onto:located_in <http://transmtl.vn/ent/60df9e64>,
+        <http://transmtl.vn/ent/98297400>,
+        <http://transmtl.vn/ent/b79de4fb> ;
+    onto:located_inside <http://transmtl.vn/ent/60df9e64>,
+        <http://transmtl.vn/ent/98297400>,
+        <http://transmtl.vn/ent/b79de4fb> ;
+    onto:part_of <http://transmtl.vn/ent/98297400>,
+        <http://transmtl.vn/ent/b79de4fb>,
+        <http://www.wikidata.org/entity/Q2227270> .
+
+<http://www.wikidata.org/entity/Q2227270> onto:has_component <http://www.wikidata.org/entity/Q2227270#and>,
+        <http://www.wikidata.org/entity/Q2227270#architectural_details>,
+        <http://www.wikidata.org/entity/Q2227270#building>,
+        <http://www.wikidata.org/entity/Q2227270#central_hall>,
+        <http://www.wikidata.org/entity/Q2227270#clock>,
+        <http://www.wikidata.org/entity/Q2227270#clock_facade>,
+        <http://www.wikidata.org/entity/Q2227270#decorative_ironwork>,
+        <http://www.wikidata.org/entity/Q2227270#design>,
+        <http://www.wikidata.org/entity/Q2227270#entrance>,
+        <http://www.wikidata.org/entity/Q2227270#facade>,
+        <http://www.wikidata.org/entity/Q2227270#historic_maps>,
+        <http://www.wikidata.org/entity/Q2227270#large_central_hall>,
+        <http://www.wikidata.org/entity/Q2227270#large_hall>,
+        <http://www.wikidata.org/entity/Q2227270#large_public_hall>,
+        <http://www.wikidata.org/entity/Q2227270#main_facade>,
+        <http://www.wikidata.org/entity/Q2227270#ornamental>,
+        <http://www.wikidata.org/entity/Q2227270#service_counters>,
+        <http://www.wikidata.org/entity/Q2227270#square>,
+        <http://www.wikidata.org/entity/Q2227270#vaulted_ceiling> ;
+    onto:has_part <http://transmtl.vn/ent/02a3f0a5>,
+        <http://transmtl.vn/ent/42fe4c73>,
+        <http://transmtl.vn/ent/63191cac>,
+        <http://transmtl.vn/ent/997a175c>,
+        <http://transmtl.vn/ent/d75b1bd9> ;
+    onto:located_in <http://transmtl.vn/ent/1675f1c5>,
+        <http://transmtl.vn/ent/a3861640> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5469 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.522 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/6c337334> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#building> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3476 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#ornamental> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4842 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#architectural_details> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4101 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/d75b1bd9> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#large_public_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5393 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/7fa5def4> ;
+    rdf:predicate onto:below ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4029 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4898 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/98297400> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.892 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/85fd796d> ;
+    rdf:predicate onto:located_in_front_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#square> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3126 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#and> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#clock_facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3702 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/85fd796d> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#square> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2992 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/9da3be8f> ;
+    rdf:predicate onto:located_behind ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4907 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/00c169d5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.339 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/dc844f59> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#design> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7798 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3099 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_public_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3722 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1675f1c5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#vaulted_ceiling> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.272 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/60df9e64> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#historic_maps> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5814 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/7fa5def4> ;
+    rdf:predicate onto:below ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_public_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3324 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/00c169d5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#clock> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9312 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/a3861640> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.497 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#decorative_ironwork> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2723 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/60df9e64> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#decorative_ironwork> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.47 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1240d03b> ;
+    rdf:predicate onto:located_behind ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9776 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1675f1c5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3385 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:has_entrance ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5243 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/98297400> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#service_counters> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5467 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3069 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:located_in_front_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4621 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#design> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#building> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#service_counters> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7872 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/98297400> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2652 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/85fd796d> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#main_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.626 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#historic_maps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#service_counters> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3827 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7797 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#vaulted_ceiling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3666 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/42fe4c73> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#clock> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2884 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/02a3f0a5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6622 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/85fd796d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#square> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5885 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3338 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3468 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_public_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9535 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/2fc01ec7> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#main_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7907 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#large_public_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2522 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/dc787198> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#main_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7653 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3053 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/2fc01ec7> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#main_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#main_facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#and> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2739 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#square> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#design> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3588 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/6c337334> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#building> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2948 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/ed0aa594> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/02a3f0a5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2808 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/02a3f0a5> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7453 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#clock_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3319 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b2187c19> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#building> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#ornamental> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#large_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6799 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4555 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/997a175c> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.707 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4384 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#service_counters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#architectural_details> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#central_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#large_central_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.698 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/63191cac> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+

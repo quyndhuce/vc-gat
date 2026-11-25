@@ -1,0 +1,269 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/903182b6> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/dc322ccd> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/e06f9e77> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/a643f0c6> onto:located_in <http://transmtl.vn/ent/1e6e49d7> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/ff9a1322> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#quan_than_shrine> onto:part_of <http://transmtl.vn/ent/da5d377e> .
+
+<http://transmtl.vn/kb/quan_thanh_temple> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/7b1d49b1> .
+
+<http://www.wikidata.org/entity/Q1858> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/7b1d49b1> ;
+    onto:on <http://transmtl.vn/kb/quan_thanh_temple> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#mandala_tower> onto:in <http://transmtl.vn/ent/43c725dd> ;
+    onto:located_in <http://transmtl.vn/ent/43c725dd> .
+
+<http://transmtl.vn/ent/7b1d49b1> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> onto:founded_in <http://transmtl.vn/ent/08915416> ;
+    onto:has_part <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#mandala_tower>,
+        <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#quan_than_shrine> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3996 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3698 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/dc322ccd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7395 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4128 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7b1d49b1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2697 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3987 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8485 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#quan_than_shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3737 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/43c725dd> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#mandala_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.46 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/43c725dd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#mandala_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2783 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5295 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9209 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/ff9a1322> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.304 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/903182b6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2907 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/da5d377e> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#quan_than_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2569 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.533 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/7b1d49b1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#mandala_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.274 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/7b1d49b1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4304 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/7b1d49b1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3933 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2898 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/1e6e49d7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3735 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e06f9e77> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2722 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7b1d49b1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2624 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/43c725dd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#mandala_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#mandala_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.446 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/quan_thanh_temple> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2694 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ff9a1322> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2919 ;
+    fkg:docId "doc_9e65bfba2365" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+

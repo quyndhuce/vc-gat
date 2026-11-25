@@ -1,0 +1,459 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/product_finishing#complexity> onto:used_by <http://transmtl.vn/ent/2bb3d86d> .
+
+<http://transmtl.vn/kb/product_finishing#designs> onto:used_by <http://transmtl.vn/ent/2bb3d86d> .
+
+<http://transmtl.vn/kb/product_finishing#phoenixes> onto:part_of <http://transmtl.vn/ent/52ea84c6> .
+
+<http://transmtl.vn/kb/product_finishing#shells> onto:part_of <http://transmtl.vn/ent/35a56872> .
+
+<http://transmtl.vn/kb/product_finishing#simplicity> onto:used_by <http://transmtl.vn/ent/2bb3d86d> .
+
+<http://transmtl.vn/kb/product_finishing#turtles> onto:with <http://transmtl.vn/ent/6cada1b5> .
+
+<http://transmtl.vn/kb/product_finishing#animals> onto:associated_with <http://transmtl.vn/ent/de2efabd> ;
+    onto:part_of <http://transmtl.vn/ent/de2efabd> .
+
+<http://transmtl.vn/kb/product_finishing#clouds> onto:associated_with <http://transmtl.vn/ent/de2efabd> ;
+    onto:part_of <http://transmtl.vn/ent/de2efabd> .
+
+<http://transmtl.vn/kb/product_finishing#mythical_creatures> onto:part_of <http://transmtl.vn/ent/52ea84c6> ;
+    onto:used_by <http://transmtl.vn/ent/52ea84c6> .
+
+<http://transmtl.vn/kb/product_finishing#sun> onto:associated_with <http://transmtl.vn/ent/de2efabd> ;
+    onto:part_of <http://transmtl.vn/ent/de2efabd> .
+
+<http://transmtl.vn/kb/product_finishing#lotus> onto:in <http://transmtl.vn/ent/ac68b62a> ;
+    onto:with <http://transmtl.vn/ent/45060a07> .
+
+<http://transmtl.vn/kb/product_finishing#decorative_motifs> onto:inspired_by <http://transmtl.vn/ent/073caed7>,
+        <http://transmtl.vn/ent/3f7d45e8>,
+        <http://transmtl.vn/ent/659b1db8>,
+        <http://transmtl.vn/ent/6d4db5ff>,
+        <http://transmtl.vn/ent/9460370b>,
+        <http://transmtl.vn/ent/a723e3df>,
+        <http://transmtl.vn/ent/ebd556e6> .
+
+<http://transmtl.vn/kb/product_finishing#motifs> onto:inspired_by <http://transmtl.vn/ent/073caed7>,
+        <http://transmtl.vn/ent/1bbae551>,
+        <http://transmtl.vn/ent/3f7d45e8>,
+        <http://transmtl.vn/ent/659b1db8>,
+        <http://transmtl.vn/ent/6d4db5ff>,
+        <http://transmtl.vn/ent/9460370b>,
+        <http://transmtl.vn/ent/9ecc19bb>,
+        <http://transmtl.vn/ent/a723e3df>,
+        <http://transmtl.vn/ent/de2efabd>,
+        <http://transmtl.vn/ent/ebd556e6> .
+
+<http://transmtl.vn/kb/product_finishing> onto:has_part <http://transmtl.vn/kb/product_finishing#animals>,
+        <http://transmtl.vn/kb/product_finishing#clouds>,
+        <http://transmtl.vn/kb/product_finishing#complexity>,
+        <http://transmtl.vn/kb/product_finishing#decorative_motifs>,
+        <http://transmtl.vn/kb/product_finishing#designs>,
+        <http://transmtl.vn/kb/product_finishing#lotus>,
+        <http://transmtl.vn/kb/product_finishing#motifs>,
+        <http://transmtl.vn/kb/product_finishing#mythical_creatures>,
+        <http://transmtl.vn/kb/product_finishing#phoenixes>,
+        <http://transmtl.vn/kb/product_finishing#shells>,
+        <http://transmtl.vn/kb/product_finishing#simplicity>,
+        <http://transmtl.vn/kb/product_finishing#sun>,
+        <http://transmtl.vn/kb/product_finishing#turtles> ;
+    onto:in <http://transmtl.vn/ent/52ea84c6> ;
+    onto:located_in <http://transmtl.vn/ent/52ea84c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2708 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/de2efabd> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#sun> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.26 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/de2efabd> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#animals> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3665 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/073caed7> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2642 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/de2efabd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#clouds> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2814 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/2bb3d86d> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#designs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3813 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/a723e3df> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.252 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#mythical_creatures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2716 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6077 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/9ecc19bb> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8811 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/3f7d45e8> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4635 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/6d4db5ff> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#decorative_motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#mythical_creatures> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#clouds> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5549 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/1bbae551> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7271 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/de2efabd> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.28 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#mythical_creatures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4913 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/ac68b62a> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#lotus> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3396 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/659b1db8> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#motifs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3321 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/6cada1b5> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#turtles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2669 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#phoenixes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#decorative_motifs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#phoenixes> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#designs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4545 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/ebd556e6> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#decorative_motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3971 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/ebd556e6> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#turtles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4668 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/073caed7> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#decorative_motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4779 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/a723e3df> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#decorative_motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#shells> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.261 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/de2efabd> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#clouds> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#lotus> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2558 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/35a56872> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#shells> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4139 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2788 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/2bb3d86d> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#complexity> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4904 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/659b1db8> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#decorative_motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2663 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/de2efabd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#animals> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2514 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/2bb3d86d> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#simplicity> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.288 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#complexity> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#lotus> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6599 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/3f7d45e8> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#decorative_motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#simplicity> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#animals> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.275 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/de2efabd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#sun> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4257 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/45060a07> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#lotus> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.382 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/6d4db5ff> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#motifs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/kb/product_finishing#sun> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4685 ;
+    fkg:docId "doc_73dc9abba159" ;
+    fkg:kbId "product_finishing" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/product_finishing#decorative_motifs> .
+

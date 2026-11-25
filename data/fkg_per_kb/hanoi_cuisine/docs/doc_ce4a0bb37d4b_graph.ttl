@@ -1,0 +1,35 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/32a6922f> onto:near <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/hanoi_cuisine> onto:has_part <http://transmtl.vn/kb/hanoi_cuisine#cast_iron_pans> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#cast_iron_pans> onto:used_by <http://transmtl.vn/ent/abef3d7f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2574 ;
+    fkg:docId "doc_ce4a0bb37d4b" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/abef3d7f> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#cast_iron_pans> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ce4a0bb37d4b" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#cast_iron_pans> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4097 ;
+    fkg:docId "doc_ce4a0bb37d4b" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/32a6922f> .
+

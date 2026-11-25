@@ -1,0 +1,440 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/bell_house> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/drum_house> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion> onto:architectural_style <http://transmtl.vn/ent/54b83c91> ;
+    onto:designed_by <http://transmtl.vn/ent/e03f1934> ;
+    onto:part_of <http://transmtl.vn/ent/f5355504>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thai_hoc_buildings#rear_hall> onto:architectural_style <http://transmtl.vn/ent/54b83c91> ;
+    onto:designed_by <http://transmtl.vn/ent/e03f1934> ;
+    onto:part_of <http://transmtl.vn/ent/f5355504>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion> onto:architectural_style <http://transmtl.vn/ent/54b83c91> ;
+    onto:designed_by <http://transmtl.vn/ent/e03f1934> ;
+    onto:part_of <http://transmtl.vn/ent/f5355504>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thai_hoc_buildings#shrine> onto:dedicated_to <http://transmtl.vn/ent/36073db0>,
+        <http://transmtl.vn/ent/639efd65>,
+        <http://transmtl.vn/ent/65418f5e>,
+        <http://transmtl.vn/ent/867456f9> .
+
+<http://transmtl.vn/kb/thai_hoc_buildings#front_hall> onto:architectural_style <http://transmtl.vn/ent/54b83c91> ;
+    onto:designed_by <http://transmtl.vn/ent/e03f1934> ;
+    onto:hosts_event <http://transmtl.vn/ent/0dbc93bb>,
+        <http://transmtl.vn/ent/80c83028>,
+        <http://transmtl.vn/ent/ecac2309> ;
+    onto:part_of <http://transmtl.vn/ent/f5355504>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:architectural_style <http://transmtl.vn/ent/54b83c91> ;
+    onto:former_name_of <http://transmtl.vn/kb/thai_hoc_gate> .
+
+<http://transmtl.vn/kb/thai_hoc_buildings> onto:commemorates <http://transmtl.vn/ent/8bbbb6b9> ;
+    onto:has_part <http://transmtl.vn/kb/thai_hoc_buildings#front_hall>,
+        <http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion>,
+        <http://transmtl.vn/kb/thai_hoc_buildings#rear_hall>,
+        <http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion>,
+        <http://transmtl.vn/kb/thai_hoc_buildings#shrine> ;
+    onto:reconstructed_in <http://transmtl.vn/ent/5ec829de> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4465 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/8bbbb6b9> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.563 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9191 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#rear_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4786 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/e03f1934> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6068 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#rear_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.608 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/80c83028> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3009 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/e03f1934> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5022 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/639efd65> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5345 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/0dbc93bb> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2717 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4709 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5587 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5955 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/f5355504> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#rear_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3053 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4921 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/867456f9> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4327 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/65418f5e> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#rear_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4836 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/65418f5e> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.329 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3853 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/5ec829de> ;
+    rdf:predicate onto:reconstructed_in ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3853 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/e03f1934> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#rear_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7896 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2802 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/36073db0> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.657 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/ecac2309> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5548 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/f5355504> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.585 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/f5355504> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5858 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.401 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/639efd65> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2901 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/e03f1934> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#rear_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8328 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#right_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5504 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/f5355504> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3956 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4718 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/867456f9> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2606 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_buildings#front_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8516 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#left_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4995 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4547 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/5ec829de> ;
+    rdf:predicate onto:reconstructed_in ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4029 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/36073db0> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.389 ;
+    fkg:docId "doc_ab8a751d993f" ;
+    fkg:kbId "thai_hoc_buildings" ;
+    rdf:object <http://transmtl.vn/ent/54b83c91> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings#rear_hall> .
+

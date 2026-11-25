@@ -1,0 +1,261 @@
+{
+  "A0_current_m2": {
+    "n": 7088,
+    "n_pos": 5444,
+    "n_neg": 1644,
+    "auroc": 0.4623,
+    "auprc": 0.7522,
+    "brier": 0.3912,
+    "ece": 0.3701,
+    "sweep": {
+      "tau_0.5": {
+        "ret": 4497,
+        "prec": 75.52,
+        "rec": 62.38
+      },
+      "tau_0.7": {
+        "ret": 4101,
+        "prec": 75.25,
+        "rec": 56.69
+      },
+      "tau_0.8": {
+        "ret": 3710,
+        "prec": 75.18,
+        "rec": 51.23
+      },
+      "tau_0.9": {
+        "ret": 2902,
+        "prec": 73.5,
+        "rec": 39.18
+      },
+      "tau_1.0": {
+        "ret": 0,
+        "prec": 0.0,
+        "rec": 0.0
+      }
+    },
+    "name": "A0: Current M2 (Hard Zero-Kill on Bel(F) >= Bel(T))"
+  },
+  "A1_bel_t_only": {
+    "n": 7088,
+    "n_pos": 5444,
+    "n_neg": 1644,
+    "auroc": 0.4341,
+    "auprc": 0.7296,
+    "brier": 0.3684,
+    "ece": 0.3507,
+    "sweep": {
+      "tau_0.5": {
+        "ret": 4942,
+        "prec": 74.89,
+        "rec": 67.98
+      },
+      "tau_0.7": {
+        "ret": 4618,
+        "prec": 74.79,
+        "rec": 63.45
+      },
+      "tau_0.8": {
+        "ret": 4273,
+        "prec": 74.61,
+        "rec": 58.56
+      },
+      "tau_0.9": {
+        "ret": 3501,
+        "prec": 72.86,
+        "rec": 46.86
+      },
+      "tau_1.0": {
+        "ret": 0,
+        "prec": 0.0,
+        "rec": 0.0
+      }
+    },
+    "name": "A1: A0 + w_base = Bel(T) (No Hard Zero-Kill)"
+  },
+  "A2_relevance_gate": {
+    "n": 7088,
+    "n_pos": 5444,
+    "n_neg": 1644,
+    "auroc": 0.4273,
+    "auprc": 0.7166,
+    "brier": 0.3872,
+    "ece": 0.3687,
+    "sweep": {
+      "tau_0.5": {
+        "ret": 4748,
+        "prec": 74.71,
+        "rec": 65.15
+      },
+      "tau_0.7": {
+        "ret": 4457,
+        "prec": 74.62,
+        "rec": 61.09
+      },
+      "tau_0.8": {
+        "ret": 4104,
+        "prec": 74.17,
+        "rec": 55.91
+      },
+      "tau_0.9": {
+        "ret": 3166,
+        "prec": 71.76,
+        "rec": 41.73
+      },
+      "tau_1.0": {
+        "ret": 0,
+        "prec": 0.0,
+        "rec": 0.0
+      }
+    },
+    "name": "A2: A1 + Evidence Relevance Gate (Lexical Filter)"
+  },
+  "A3_spatial_hierarchy": {
+    "n": 7088,
+    "n_pos": 5444,
+    "n_neg": 1644,
+    "auroc": 0.4273,
+    "auprc": 0.7166,
+    "brier": 0.3871,
+    "ece": 0.3686,
+    "sweep": {
+      "tau_0.5": {
+        "ret": 4749,
+        "prec": 74.71,
+        "rec": 65.17
+      },
+      "tau_0.7": {
+        "ret": 4457,
+        "prec": 74.62,
+        "rec": 61.09
+      },
+      "tau_0.8": {
+        "ret": 4105,
+        "prec": 74.18,
+        "rec": 55.93
+      },
+      "tau_0.9": {
+        "ret": 3168,
+        "prec": 71.78,
+        "rec": 41.77
+      },
+      "tau_1.0": {
+        "ret": 0,
+        "prec": 0.0,
+        "rec": 0.0
+      }
+    },
+    "name": "A3: A2 + Spatial Hierarchy Conflict Dampening"
+  },
+  "A4_yager_fusion": {
+    "n": 7088,
+    "n_pos": 5444,
+    "n_neg": 1644,
+    "auroc": 0.4352,
+    "auprc": 0.7212,
+    "brier": 0.3914,
+    "ece": 0.3758,
+    "sweep": {
+      "tau_0.5": {
+        "ret": 4580,
+        "prec": 74.93,
+        "rec": 63.04
+      },
+      "tau_0.7": {
+        "ret": 4263,
+        "prec": 74.71,
+        "rec": 58.5
+      },
+      "tau_0.8": {
+        "ret": 3859,
+        "prec": 74.06,
+        "rec": 52.5
+      },
+      "tau_0.9": {
+        "ret": 2952,
+        "prec": 71.34,
+        "rec": 38.68
+      },
+      "tau_1.0": {
+        "ret": 0,
+        "prec": 0.0,
+        "rec": 0.0
+      }
+    },
+    "name": "A4: A3 + Yager / Dubois-Prade Conflict Redistribution"
+  },
+  "A5_ontology_schema_gate": {
+    "n": 6470,
+    "n_pos": 5378,
+    "n_neg": 1092,
+    "auroc": 0.4843,
+    "auprc": 0.8204,
+    "brier": 0.3621,
+    "ece": 0.3592,
+    "sweep": {
+      "tau_0.5": {
+        "ret": 4110,
+        "prec": 82.87,
+        "rec": 63.33
+      },
+      "tau_0.7": {
+        "ret": 3817,
+        "prec": 82.87,
+        "rec": 58.81
+      },
+      "tau_0.8": {
+        "ret": 3435,
+        "prec": 82.62,
+        "rec": 52.77
+      },
+      "tau_0.9": {
+        "ret": 2586,
+        "prec": 80.86,
+        "rec": 38.88
+      },
+      "tau_1.0": {
+        "ret": 0,
+        "prec": 0.0,
+        "rec": 0.0
+      }
+    },
+    "name": "A5: A4 + Ontology Schema Gate (N=6,470)"
+  },
+  "A6_strict_triple_correctness": {
+    "n": 6470,
+    "n_pos": 5354,
+    "n_neg": 1116,
+    "auroc": 0.4819,
+    "auprc": 0.8156,
+    "brier": 0.3637,
+    "ece": 0.3596,
+    "sweep": {
+      "tau_0.5": {
+        "ret": 4110,
+        "prec": 82.46,
+        "rec": 63.3
+      },
+      "tau_0.7": {
+        "ret": 3817,
+        "prec": 82.45,
+        "rec": 58.78
+      },
+      "tau_0.8": {
+        "ret": 3435,
+        "prec": 82.15,
+        "rec": 52.71
+      },
+      "tau_0.9": {
+        "ret": 2586,
+        "prec": 80.36,
+        "rec": 38.81
+      },
+      "tau_1.0": {
+        "ret": 0,
+        "prec": 0.0,
+        "rec": 0.0
+      }
+    },
+    "name": "A6: A5 + Strict Triple Correctness (No Lenient Ground Truth)"
+  }
+}

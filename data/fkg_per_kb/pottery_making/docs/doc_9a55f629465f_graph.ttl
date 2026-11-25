@@ -1,0 +1,234 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/16115e85> onto:located_in <http://transmtl.vn/kb/bat_trang_gate> .
+
+<http://transmtl.vn/ent/afbccbc4> onto:symbol_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/ent/fc1b9f6e> onto:located_in <http://transmtl.vn/kb/bat_trang_gate> .
+
+<http://www.wikidata.org/entity/Q10840569> onto:located_in <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/ent/557326ff> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1319921#buildings> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q1319921#huts> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q1319921#traditional_houses> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:across <http://transmtl.vn/ent/658f8198>,
+        <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:has_part <http://www.wikidata.org/entity/Q1319921#buildings>,
+        <http://www.wikidata.org/entity/Q1319921#huts>,
+        <http://www.wikidata.org/entity/Q1319921#traditional_houses> ;
+    onto:located_in <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:near <http://transmtl.vn/ent/557326ff> .
+
+<http://transmtl.vn/kb/bat_trang_gate> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/c0cb5f0f> ;
+    onto:ruled_by <http://transmtl.vn/ent/c1e59024> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4133 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921#huts> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4188 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4365 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7557 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921#buildings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3512 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7659 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4216 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.296 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/ent/afbccbc4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3181 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921#buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3227 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.89 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/557326ff> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3215 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/fc1b9f6e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921#traditional_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3122 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3378 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/658f8198> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3865 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3475 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2799 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3952 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921#traditional_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2547 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921#huts> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3109 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/557326ff> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3852 ;
+    fkg:docId "doc_9a55f629465f" ;
+    fkg:kbId "pottery_making" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/16115e85> .
+

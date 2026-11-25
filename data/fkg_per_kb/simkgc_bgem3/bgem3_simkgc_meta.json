@@ -1,0 +1,33 @@
+{
+  "backbone": "BAAI/bge-m3",
+  "in_dim": 1024,
+  "proj_dim": 512,
+  "params_m": 567.8,
+  "link_prediction": {
+    "Hits@1": 7.043694286131813,
+    "Hits@3": 17.08315066491305,
+    "Hits@10": 32.76340786204881,
+    "MRR": 0.15702716937944033
+  },
+  "video_benchmark": {
+    "pure_bgem3": {
+      "TypeValid": 100.0,
+      "GeoConsist": 96.24000000000001,
+      "VisAligned": 30.48,
+      "FactualPrec": 86.88
+    },
+    "hybrid_bgem3": {
+      "TypeValid": 100.0,
+      "GeoConsist": 97.6,
+      "VisAligned": 28.720000000000002,
+      "FactualPrec": 88.16000000000001
+    },
+    "multi_tier_visual_anchored": {
+      "TypeValid": 100.0,
+      "GeoConsist": 89.2,
+      "VisAligned": 73.0,
+      "FactualPrec": 73.0,
+      "DirectVisHit": 84.9
+    }
+  }
+}

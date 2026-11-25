@@ -1,0 +1,116 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f0598264> onto:leading_to <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/tam_quan_gate> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_pagoda#roof> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_pagoda> onto:has_part <http://transmtl.vn/kb/van_phuc_pagoda#bell_tower>,
+        <http://transmtl.vn/kb/van_phuc_pagoda#roof> ;
+    onto:part_of <http://transmtl.vn/ent/6791d446> .
+
+<http://transmtl.vn/kb/van_phuc_pagoda#bell_tower> onto:located_in <http://transmtl.vn/ent/f1c0a23b> ;
+    onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village> onto:architectural_style <http://transmtl.vn/ent/fe9e025d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2514 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/f0598264> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4043 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/fe9e025d> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda#bell_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda#bell_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2723 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f1c0a23b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3032 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5177 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/6791d446> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3901 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3026 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3212 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3363 ;
+    fkg:docId "doc_1e2d4f85a688" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/fe9e025d> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+

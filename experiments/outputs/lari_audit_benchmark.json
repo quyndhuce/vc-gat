@@ -1,0 +1,80 @@
+{
+  "metrics": [
+    {
+      "name": "Raw PCA (AMIE Baseline)",
+      "p5": 0.4,
+      "p10": 0.2,
+      "p15": 0.2667,
+      "p20": 0.3,
+      "ndcg10": 0.2048,
+      "ndcg20": 0.4013,
+      "mrr": 0.3333
+    },
+    {
+      "name": "Shrunk PCA",
+      "p5": 0.4,
+      "p10": 0.3,
+      "p15": 0.4,
+      "p20": 0.35,
+      "ndcg10": 0.3811,
+      "ndcg20": 0.574,
+      "mrr": 1.0
+    },
+    {
+      "name": "Lineage Corroboration C_lin",
+      "p5": 0.0,
+      "p10": 0.0,
+      "p15": 0.0667,
+      "p20": 0.1,
+      "ndcg10": 0.0,
+      "ndcg20": 0.1026,
+      "mrr": 0.0667
+    },
+    {
+      "name": "LARI (Unfiltered)",
+      "p5": 0.2,
+      "p10": 0.3,
+      "p15": 0.2667,
+      "p20": 0.25,
+      "ndcg10": 0.3647,
+      "ndcg20": 0.4503,
+      "mrr": 1.0
+    },
+    {
+      "name": "LARI + Ontology Axioms (Full)",
+      "p5": 0.8,
+      "p10": 0.7,
+      "p15": 0.6667,
+      "p20": 0.55,
+      "ndcg10": 0.7752,
+      "ndcg20": 0.9416,
+      "mrr": 1.0
+    }
+  ],
+  "top10_pca": [
+    "border_with o located_in => located_in",
+    "in o capital_of => located_in",
+    "part_of o in => located_in",
+    "renamed_to o located_in => located_in",
+    "surrounded_by o located_in => located_in",
+    "renamed_to o symbol_of => located_in",
+    "has_part o overlooks => overlooks",
+    "has_part o near => connects",
+    "near o dedicated_to => dedicated_to",
+    "part_of o built_in => built_in"
+  ],
+  "top10_lari": [
+    "renamed_to o located_in => located_in",
+    "part_of o in => located_in",
+    "on o part_of => part_of",
+    "renamed_to o part_of => located_in",
+    "part_of o located_in => in",
+    "part_of o located_in => located_in",
+    "renamed_to o located_in => in",
+    "part_of o part_of => located_in",
+    "located_in o located_in => in",
+    "on o located_in => located_in"
+  ],
+  "total_rules": 70,
+  "total_valid_rules": 11
+}

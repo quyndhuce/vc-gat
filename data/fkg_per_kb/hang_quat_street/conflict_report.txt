@@ -1,0 +1,50 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hang Quat Street)  --[former_name_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/hang_quat_street
+  Conflict K: 0.6068
+  Candidates:
+    • Hang Dan                        Bel=0.2908  Pl=0.5247  (2 evidence)
+    • Ma Vi Street                    Bel=0.2338  Pl=0.4677  (2 evidence)
+    • Thuong My                       Bel=0.0950  Pl=0.3289  (1 evidence)
+    • Hang Quat                       Bel=0.0810  Pl=0.3148  (1 evidence)
+    • Toc Tich                        Bel=0.0655  Pl=0.2994  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [former_name_of] (Hang Quat Street) → http://transmtl.vn/ent/92c17408  Bel=0.2908  K=0.6068 ⚠ REVIEW
+  [former_name_of] (Hang Dan) → http://transmtl.vn/kb/hang_quat_street  Bel=0.5739  K=0.0000
+  [former_name_of] (Ma Vi Street) → http://transmtl.vn/kb/hang_quat_street  Bel=0.3821  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.6454  K=0.0000
+  [former_name_of] (Hang Quat) → http://transmtl.vn/kb/hang_quat_street  Bel=0.2041  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Hang Quat Street) → (Ma Vi)  μ_F=0.9905  (2 evidence)
+  [located_in] (Hang Quat Street) → (Hanoi)  μ_F=0.9731  (7 evidence)
+  [has_part] (Hang Quat Street) → (fan-making)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Quat Street) → (shrine)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Quat Street) → (Lu fans)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Quat Street) → (Hang Quat)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Quat Street) → (Hang Dan)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Quat Street) → (eastern half)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Quat Street) → (Hang Dan Street)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Quat Street) → (street)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Quat Street) → (rue des Eventails)  μ_F=0.9025  (1 evidence)
+  [located_in] (Hang Quat Street) → (Hoan Kiem District)  μ_F=0.8511  (2 evidence)
+  [located_in] (Thanh Tri district) → (Hanoi)  μ_F=0.8244  (2 evidence)
+  [part_of] (Hang Quat Street) → (Hanoi)  μ_F=0.7540  (4 evidence)
+  [located_in] (Kim Lu village) → (Hanoi)  μ_F=0.5435  (2 evidence)
+  [made_of] (Lu fans) → (paper)  μ_F=0.5258  (1 evidence)
+  [located_in] (Hoan Kiem District) → (Hanoi)  μ_F=0.5169  (2 evidence)
+  [located_in] (rue des Eventails) → (Hanoi)  μ_F=0.5168  (1 evidence)
+  [made_of] (Lu fans) → (bone)  μ_F=0.5158  (1 evidence)
+  [located_in] (Spring Fair Temple) → (Hang Quat Street)  μ_F=0.5097  (2 evidence)
+
+========================================================================

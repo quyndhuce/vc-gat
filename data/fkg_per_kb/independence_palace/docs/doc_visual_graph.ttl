@@ -1,0 +1,385 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q933384#central_flagpole> onto:part_of <http://transmtl.vn/ent/6612bcd1> .
+
+<http://www.wikidata.org/entity/Q933384#circular_fountain> onto:located_in_front_of <http://transmtl.vn/ent/0d149b90> .
+
+<http://www.wikidata.org/entity/Q933384#helipad> onto:part_of <http://www.wikidata.org/entity/Q933384> .
+
+<http://www.wikidata.org/entity/Q933384#pavilion> onto:part_of <http://transmtl.vn/ent/6612bcd1> .
+
+<http://www.wikidata.org/entity/Q933384#facade> onto:made_of <http://transmtl.vn/ent/00ecf6d0> ;
+    onto:part_of <http://www.wikidata.org/entity/Q933384> .
+
+<http://transmtl.vn/ent/b7144c1c> onto:located_in <http://transmtl.vn/ent/1675f1c5> .
+
+<http://www.wikidata.org/entity/Q933384#presidential_reception_halls> onto:located_in <http://transmtl.vn/ent/335cf450> ;
+    onto:located_inside <http://transmtl.vn/ent/335cf450> ;
+    onto:part_of <http://transmtl.vn/ent/335cf450> .
+
+<http://www.wikidata.org/entity/Q933384#state_banquet> onto:located_in <http://transmtl.vn/ent/335cf450> ;
+    onto:located_inside <http://transmtl.vn/ent/335cf450> ;
+    onto:part_of <http://transmtl.vn/ent/335cf450> .
+
+<http://www.wikidata.org/entity/Q933384#sun_shading_louvers> onto:made_of <http://transmtl.vn/ent/00ecf6d0> ;
+    onto:part_of <http://transmtl.vn/ent/00c169d5>,
+        <http://www.wikidata.org/entity/Q933384> .
+
+<http://www.wikidata.org/entity/Q933384#underground_war_command_rooms> onto:located_in <http://transmtl.vn/ent/335cf450> ;
+    onto:located_inside <http://transmtl.vn/ent/335cf450> ;
+    onto:part_of <http://transmtl.vn/ent/335cf450> .
+
+<http://www.wikidata.org/entity/Q933384#rooftop> onto:has_component <http://transmtl.vn/ent/227dd828> ;
+    onto:has_part <http://transmtl.vn/ent/227dd828> ;
+    onto:part_of <http://www.wikidata.org/entity/Q933384> .
+
+<http://www.wikidata.org/entity/Q933384> onto:has_component <http://transmtl.vn/ent/00c169d5>,
+        <http://transmtl.vn/ent/f4a303c5>,
+        <http://www.wikidata.org/entity/Q933384#central_flagpole>,
+        <http://www.wikidata.org/entity/Q933384#circular_fountain>,
+        <http://www.wikidata.org/entity/Q933384#facade>,
+        <http://www.wikidata.org/entity/Q933384#helipad>,
+        <http://www.wikidata.org/entity/Q933384#pavilion>,
+        <http://www.wikidata.org/entity/Q933384#presidential_reception_halls>,
+        <http://www.wikidata.org/entity/Q933384#rooftop>,
+        <http://www.wikidata.org/entity/Q933384#state_banquet>,
+        <http://www.wikidata.org/entity/Q933384#sun_shading_louvers>,
+        <http://www.wikidata.org/entity/Q933384#underground_war_command_rooms> ;
+    onto:has_part <http://transmtl.vn/ent/00c169d5>,
+        <http://transmtl.vn/ent/6612bcd1>,
+        <http://transmtl.vn/ent/f4a303c5> ;
+    onto:located_in <http://transmtl.vn/ent/1675f1c5>,
+        <http://transmtl.vn/ent/b7144c1c> ;
+    onto:near <http://transmtl.vn/ent/b7144c1c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7749 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#underground_war_command_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3757 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#presidential_reception_halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.663 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/00ecf6d0> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8359 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/00c169d5> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3376 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/f4a303c5> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#underground_war_command_rooms> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4826 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/b7144c1c> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8825 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#state_banquet> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5165 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/6612bcd1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#central_flagpole> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3243 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#presidential_reception_halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3624 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#rooftop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6167 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7675 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#helipad> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3777 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/1675f1c5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b7144c1c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#sun_shading_louvers> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#pavilion> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3446 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#underground_war_command_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3187 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#underground_war_command_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#central_flagpole> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3461 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#state_banquet> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4674 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/00ecf6d0> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#sun_shading_louvers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.565 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#sun_shading_louvers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#presidential_reception_halls> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6805 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/b7144c1c> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5212 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/00c169d5> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#circular_fountain> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9037 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#presidential_reception_halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#helipad> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.741 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/1675f1c5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4744 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/6612bcd1> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4541 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#rooftop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5148 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/0d149b90> ;
+    rdf:predicate onto:located_in_front_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#circular_fountain> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#rooftop> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2806 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#state_banquet> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#rooftop> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2997 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#rooftop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5456 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/6612bcd1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3379 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/f4a303c5> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#state_banquet> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.412 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/00c169d5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#sun_shading_louvers> .
+

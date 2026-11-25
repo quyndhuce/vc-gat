@@ -1,0 +1,127 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/17a69bdd> onto:leading_to <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/9e925e93> onto:on <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/the_huc_bridge> onto:has_part <http://transmtl.vn/kb/the_huc_bridge#pathway> .
+
+<http://transmtl.vn/ent/b7b9da9f> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/7377e13a> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/the_huc_bridge#pathway> onto:connects <http://transmtl.vn/ent/cc571067> .
+
+<http://transmtl.vn/ent/98ac6b4b> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://www.wikidata.org/entity/Q1151254> ;
+    onto:overlooks <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6913 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7377e13a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3234 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/b7b9da9f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5055 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/98ac6b4b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4004 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b7b9da9f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2632 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/ent/98ac6b4b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2781 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://transmtl.vn/ent/cc571067> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/the_huc_bridge#pathway> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5397 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/98ac6b4b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2824 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/17a69bdd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2929 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/9e925e93> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3238 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/7377e13a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3076 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/98ac6b4b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3271 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7377e13a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_33c51a0213d6" ;
+    fkg:kbId "the_huc_bridge" ;
+    rdf:object <http://transmtl.vn/kb/the_huc_bridge#pathway> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_huc_bridge> .
+

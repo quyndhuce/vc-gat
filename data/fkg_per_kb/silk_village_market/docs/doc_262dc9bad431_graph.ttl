@@ -1,0 +1,127 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f4f1765b> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/silk_village_market#green_canopies> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/silk_village_market#houses> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/silk_village_market> onto:has_part <http://transmtl.vn/kb/silk_village_market#green_canopies>,
+        <http://transmtl.vn/kb/silk_village_market#houses> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/e82002cb> ;
+    onto:near <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village> onto:across <http://transmtl.vn/ent/8d3e54a8> ;
+    onto:architectural_style <http://transmtl.vn/ent/9b732bf8>,
+        <http://transmtl.vn/ent/ae74ea4e> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:surrounded_by <http://transmtl.vn/ent/ad1588d7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6898 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.258 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/ent/ad1588d7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3046 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/silk_village_market#houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3002 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/silk_village_market#green_canopies> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/kb/silk_village_market#green_canopies> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/silk_village_market> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7254 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/ent/ae74ea4e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2929 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4141 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/silk_village_market> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5798 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/silk_village_market> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/kb/silk_village_market#houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/silk_village_market> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2787 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/ent/8d3e54a8> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2894 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/f4f1765b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2884 ;
+    fkg:docId "doc_262dc9bad431" ;
+    fkg:kbId "silk_village_market" ;
+    rdf:object <http://transmtl.vn/ent/e82002cb> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/silk_village_market> .
+

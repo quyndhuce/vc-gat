@@ -1,0 +1,222 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/eb0ea0bc> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hanoi_museum#exterior> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/hanoi_museum#floor> onto:symbol_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hanoi_museum#central_atrium> onto:surrounded_by <http://transmtl.vn/ent/7401b46f>,
+        <http://transmtl.vn/ent/8e573c13>,
+        <http://transmtl.vn/ent/92b32908>,
+        <http://transmtl.vn/ent/e595be74> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:ruled_by <http://transmtl.vn/ent/5e232f5c> .
+
+<http://transmtl.vn/kb/hanoi_museum> onto:commemorates <http://transmtl.vn/ent/623f3e36> ;
+    onto:has_part <http://transmtl.vn/ent/75158758>,
+        <http://transmtl.vn/kb/hanoi_museum#central_atrium>,
+        <http://transmtl.vn/kb/hanoi_museum#exterior>,
+        <http://transmtl.vn/kb/hanoi_museum#floor> ;
+    onto:inaugurated_in <http://transmtl.vn/ent/d7a84628> ;
+    onto:located_in <http://transmtl.vn/ent/1e9a2f67>,
+        <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/40d99125> ;
+    onto:on <http://transmtl.vn/ent/c1a28fc9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2584 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2987 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/e595be74> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#central_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9695 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.527 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/d7a84628> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum#exterior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum#central_atrium> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5508 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/1e9a2f67> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4494 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/c1a28fc9> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.79 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5878 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/5e232f5c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4151 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/7401b46f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#central_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3072 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/92b32908> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#central_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2599 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/75158758> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3131 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/e595be74> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#central_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3568 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/7401b46f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#central_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum#floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4578 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2574 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3603 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2604 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#exterior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum#central_atrium> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3574 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/40d99125> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3981 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/623f3e36> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2742 ;
+    fkg:docId "doc_441689bee108" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/8e573c13> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#central_atrium> .
+

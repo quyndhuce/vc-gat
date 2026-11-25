@@ -1,0 +1,1667 @@
+{
+  "summary": {
+    "total_base_facts": 5863,
+    "total_inferred_conclusions": 1565,
+    "conclusions_with_multiple_paths": 71,
+    "conclusions_with_true_copy_group_disjoint_corroboration": 8,
+    "conclusions_with_shared_copy_group_redundancy": 63,
+    "fraction_of_multi_path_being_redundant": 0.8873,
+    "average_confidence_inflation_in_naive": 0.1085,
+    "maximum_confidence_inflation_in_naive": 0.4058
+  },
+  "experiment_e1_duplicate_injection": {
+    "description": "Experiment E1: Confidence inflation under duplicate structural paths with shared evidential copy-group origin.",
+    "base_support": 0.8,
+    "results": [
+      {
+        "num_paths": 1,
+        "mu_naive": 0.8,
+        "mu_ldfi": 0.8,
+        "confidence_inflation": 0.0
+      },
+      {
+        "num_paths": 2,
+        "mu_naive": 0.96,
+        "mu_ldfi": 0.8,
+        "confidence_inflation": 0.16
+      },
+      {
+        "num_paths": 5,
+        "mu_naive": 0.9997,
+        "mu_ldfi": 0.8,
+        "confidence_inflation": 0.1997
+      },
+      {
+        "num_paths": 10,
+        "mu_naive": 1.0,
+        "mu_ldfi": 0.8,
+        "confidence_inflation": 0.2
+      },
+      {
+        "num_paths": 20,
+        "mu_naive": 1.0,
+        "mu_ldfi": 0.8,
+        "confidence_inflation": 0.2
+      }
+    ]
+  },
+  "experiment_e2_corroboration_injection": {
+    "description": "Experiment E2: Discrimination between redundancy and genuine corroboration.",
+    "path_supports": [
+      0.8,
+      0.7
+    ],
+    "shared_lineage": {
+      "mu_naive": 0.94,
+      "mu_ldfi": 0.8,
+      "interpretation": "LDFI refuses to inflate confidence when paths reuse the same source copy groups."
+    },
+    "disjoint_lineage": {
+      "mu_naive": 0.94,
+      "mu_ldfi": 0.94,
+      "interpretation": "LDFI rewards genuine corroboration from independent source lineages."
+    },
+    "corroboration_gain": 0.14
+  },
+  "rule_precision_audit": {
+    "rule_breakdown": {
+      "R1_LOC": {
+        "total_conclusions_generated": 1462,
+        "sampled_audited": 150,
+        "valid": 88,
+        "ambiguous": 62,
+        "invalid": 0,
+        "estimated_precision": 0.5867
+      },
+      "R2_MAT": {
+        "total_conclusions_generated": 103,
+        "sampled_audited": 103,
+        "valid": 73,
+        "ambiguous": 30,
+        "invalid": 0,
+        "estimated_precision": 0.7087
+      }
+    },
+    "sample_cases": [
+      {
+        "rule_id": "R1_LOC",
+        "head": "Bảo Tháp",
+        "relation": "located_in",
+        "tail": "Hanoi",
+        "mu_ldfi": 0.250804,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "jars",
+        "relation": "located_in",
+        "tail": "Hanoi",
+        "mu_ldfi": 0.148053,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "courtyards",
+        "relation": "located_in",
+        "tail": "commune",
+        "mu_ldfi": 0.0880869999999998,
+        "status": "Ambiguous"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "incense",
+        "relation": "located_in",
+        "tail": "Chaozhou",
+        "mu_ldfi": 0.05619800000000019,
+        "status": "Ambiguous"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "windows",
+        "relation": "located_in",
+        "tail": "Vietnam",
+        "mu_ldfi": 0.08963400000000021,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Inkstone Pavilion",
+        "relation": "located_in",
+        "tail": "Old Quarter",
+        "mu_ldfi": 5.8000000000113516e-05,
+        "status": "Ambiguous"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Hàng Mã Street",
+        "relation": "located_in",
+        "tail": "Vietnam",
+        "mu_ldfi": 0.14683599999999997,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Hang Be Street",
+        "relation": "located_in",
+        "tail": "Hanoi",
+        "mu_ldfi": 0.4060809999999999,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Van Phuc Pagoda",
+        "relation": "located_in",
+        "tail": "Hanoi",
+        "mu_ldfi": 0.16835099999999992,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "plaza",
+        "relation": "located_in",
+        "tail": "Da Nang",
+        "mu_ldfi": 0.07763000000000009,
+        "status": "Ambiguous"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Bell Tower",
+        "relation": "located_in",
+        "tail": "Vietnam",
+        "mu_ldfi": 0.26620299999999997,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Bell Tower",
+        "relation": "located_in",
+        "tail": "Japan",
+        "mu_ldfi": 0.3201149999999999,
+        "status": "Ambiguous"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "main entrance",
+        "relation": "located_in",
+        "tail": "Huizhou",
+        "mu_ldfi": 0.02722800000000003,
+        "status": "Ambiguous"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Thong Nhat Island",
+        "relation": "located_in",
+        "tail": "Da Nang",
+        "mu_ldfi": 0.22905299999999995,
+        "status": "Ambiguous"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Thong Nhat Island",
+        "relation": "located_in",
+        "tail": "Hanoi",
+        "mu_ldfi": 0.7449219999999999,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Flag Tower of Hanoi",
+        "relation": "located_in",
+        "tail": "Vietnam",
+        "mu_ldfi": 0.06531399999999987,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Thap But",
+        "relation": "located_in",
+        "tail": "Hoan Kiem Lake",
+        "mu_ldfi": 0.2506330000000001,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "interior",
+        "relation": "located_in",
+        "tail": "Hanoi",
+        "mu_ldfi": 0.348449,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "chambers",
+        "relation": "located_in",
+        "tail": "Hanoi",
+        "mu_ldfi": 0.24168199999999995,
+        "status": "Valid"
+      },
+      {
+        "rule_id": "R1_LOC",
+        "head": "Bell Tower",
+        "relation": "located_in",
+        "tail": "Nanchang city",
+        "mu_ldfi": 0.022876999999999814,
+        "status": "Valid"
+      }
+    ]
+  },
+  "real_world_case_studies": [
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/doan_mon_gate",
+        "incorporates_material",
+        "http://transmtl.vn/ent/0a840ef4"
+      ],
+      "conclusion_surface": [
+        "Doan Mon Gate",
+        "incorporates_material",
+        "stone"
+      ],
+      "total_derivations": 5,
+      "mu_max_C1": 0.7849,
+      "mu_naive_all_path": 0.9104,
+      "mu_ldfi_C2": 0.7849,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate",
+            "has_part",
+            "http://transmtl.vn/kb/doan_mon_gate#arches"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate#arches",
+            "made_of",
+            "http://transmtl.vn/ent/0a840ef4"
+          ],
+          "intermediate_surface": "arches",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9905,
+          "mu2": 0.8744,
+          "w_rho": 0.92,
+          "s_P": 0.7849,
+          "lineage": [
+            "doan_mon_gate::cg_0",
+            "doan_mon_gate::cg_1"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate",
+            "has_part",
+            "http://transmtl.vn/kb/doan_mon_gate#plaque"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate#plaque",
+            "made_of",
+            "http://transmtl.vn/ent/0a840ef4"
+          ],
+          "intermediate_surface": "plaque",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9905,
+          "mu2": 0.3452,
+          "w_rho": 0.92,
+          "s_P": 0.2557,
+          "lineage": [
+            "doan_mon_gate::cg_0",
+            "doan_mon_gate::cg_1"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate",
+            "has_part",
+            "http://transmtl.vn/kb/doan_mon_gate#combination"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate#combination",
+            "made_of",
+            "http://transmtl.vn/ent/0a840ef4"
+          ],
+          "intermediate_surface": "combination",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.4025,
+          "w_rho": 0.92,
+          "s_P": 0.225,
+          "lineage": [
+            "doan_mon_gate::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate",
+            "has_part",
+            "http://transmtl.vn/kb/doan_mon_gate#this"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate#this",
+            "made_of",
+            "http://transmtl.vn/ent/0a840ef4"
+          ],
+          "intermediate_surface": "This",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.3711,
+          "w_rho": 0.92,
+          "s_P": 0.1936,
+          "lineage": [
+            "doan_mon_gate::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate",
+            "has_part",
+            "http://transmtl.vn/kb/doan_mon_gate#pavilion"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/doan_mon_gate#pavilion",
+            "made_of",
+            "http://transmtl.vn/ent/0a840ef4"
+          ],
+          "intermediate_surface": "pavilion",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.2817,
+          "w_rho": 0.92,
+          "s_P": 0.1042,
+          "lineage": [
+            "doan_mon_gate::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/hang_bac_street",
+        "incorporates_material",
+        "http://transmtl.vn/ent/97f01451"
+      ],
+      "conclusion_surface": [
+        "Hang Bac Street",
+        "incorporates_material",
+        "silver"
+      ],
+      "total_derivations": 4,
+      "mu_max_C1": 0.3319,
+      "mu_naive_all_path": 0.7377,
+      "mu_ldfi_C2": 0.3319,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_bac_street",
+            "has_part",
+            "http://transmtl.vn/kb/hang_bac_street#incense_burners"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hang_bac_street#incense_burners",
+            "made_of",
+            "http://transmtl.vn/ent/97f01451"
+          ],
+          "intermediate_surface": "incense burners",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.5094,
+          "w_rho": 0.92,
+          "s_P": 0.3319,
+          "lineage": [
+            "hang_bac_street::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_bac_street",
+            "has_part",
+            "http://transmtl.vn/kb/hang_bac_street#boxes"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hang_bac_street#boxes",
+            "made_of",
+            "http://transmtl.vn/ent/97f01451"
+          ],
+          "intermediate_surface": "boxes",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.4794,
+          "w_rho": 0.92,
+          "s_P": 0.3019,
+          "lineage": [
+            "hang_bac_street::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_bac_street",
+            "has_part",
+            "http://transmtl.vn/kb/hang_bac_street#trays"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hang_bac_street#trays",
+            "made_of",
+            "http://transmtl.vn/ent/97f01451"
+          ],
+          "intermediate_surface": "trays",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.4519,
+          "w_rho": 0.92,
+          "s_P": 0.2744,
+          "lineage": [
+            "hang_bac_street::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_bac_street",
+            "has_part",
+            "http://transmtl.vn/kb/hang_bac_street#bowls"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hang_bac_street#bowls",
+            "made_of",
+            "http://transmtl.vn/ent/97f01451"
+          ],
+          "intermediate_surface": "bowls",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.4025,
+          "w_rho": 0.92,
+          "s_P": 0.225,
+          "lineage": [
+            "hang_bac_street::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/hang_can_street",
+        "incorporates_material",
+        "http://transmtl.vn/ent/068daf58"
+      ],
+      "conclusion_surface": [
+        "Hang Can Street",
+        "incorporates_material",
+        "lim wood"
+      ],
+      "total_derivations": 3,
+      "mu_max_C1": 0.796,
+      "mu_naive_all_path": 0.9909,
+      "mu_ldfi_C2": 0.796,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_can_street",
+            "has_part",
+            "http://transmtl.vn/kb/hang_can_street#doors"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hang_can_street#doors",
+            "made_of",
+            "http://transmtl.vn/ent/068daf58"
+          ],
+          "intermediate_surface": "doors",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9991,
+          "mu2": 0.877,
+          "w_rho": 0.92,
+          "s_P": 0.796,
+          "lineage": [
+            "hang_can_street::cg_0",
+            "hang_can_street::cg_1",
+            "hang_can_street::cg_2"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_can_street",
+            "has_part",
+            "http://transmtl.vn/kb/hang_can_street#windows"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hang_can_street#windows",
+            "made_of",
+            "http://transmtl.vn/ent/068daf58"
+          ],
+          "intermediate_surface": "windows",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9999,
+          "mu2": 0.8721,
+          "w_rho": 0.92,
+          "s_P": 0.792,
+          "lineage": [
+            "hang_can_street::cg_0",
+            "hang_can_street::cg_1",
+            "hang_can_street::cg_2",
+            "hang_can_street::cg_3"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_can_street",
+            "has_part",
+            "http://transmtl.vn/kb/hang_can_street#ceiling"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hang_can_street#ceiling",
+            "made_of",
+            "http://transmtl.vn/ent/068daf58"
+          ],
+          "intermediate_surface": "ceiling",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9905,
+          "mu2": 0.876,
+          "w_rho": 0.92,
+          "s_P": 0.7864,
+          "lineage": [
+            "hang_can_street::cg_0",
+            "hang_can_street::cg_1"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/hang_chieu_street",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "Hang Chieu Street",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 3,
+      "mu_max_C1": 0.58,
+      "mu_naive_all_path": 0.7184,
+      "mu_ldfi_C2": 0.58,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_chieu_street",
+            "part_of",
+            "http://transmtl.vn/ent/606dcc1a"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/ent/606dcc1a",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Old Quarter",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.7307,
+          "mu2": 0.8993,
+          "w_rho": 0.95,
+          "s_P": 0.58,
+          "lineage": [
+            "hang_chieu_street::cg_0",
+            "hang_chieu_street::cg_1",
+            "hang_chieu_street::cg_2",
+            "hang_thiec_street::cg_0",
+            "hang_thiec_street::cg_1",
+            "hang_thiec_street::cg_2",
+            "hanoi_old_quarter::cg_0",
+            "le_nin_park::cg_0",
+            "ma_may_street::cg_0",
+            "ma_may_street::cg_1",
+            "ma_may_street::cg_2",
+            "phung_hung_street::cg_0",
+            "ta_hien_street::cg_0",
+            "tran_ba_communal_house::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_chieu_street",
+            "part_of",
+            "http://transmtl.vn/kb/imperial_citadel_of_thang_long"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/imperial_citadel_of_thang_long",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Imperial Citadel of Thang Long",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.2958,
+          "mu2": 0.9419,
+          "w_rho": 0.95,
+          "s_P": 0.1876,
+          "lineage": [
+            "hang_chieu_street::cg_0",
+            "imperial_citadel_of_thang_long::cg_0",
+            "imperial_citadel_of_thang_long::cg_1",
+            "imperial_citadel_of_thang_long::cg_2",
+            "imperial_citadel_of_thang_long::cg_3",
+            "kinh_thien_palace::cg_0",
+            "kinh_thien_palace::cg_1",
+            "kinh_thien_palace::cg_2",
+            "princess_palace::cg_0",
+            "princess_palace::cg_1",
+            "stone_dragon_dien_kinh_thien::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/hang_chieu_street",
+            "part_of",
+            "http://transmtl.vn/ent/1f4a9685"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/ent/1f4a9685",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "street",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.3235,
+          "mu2": 0.9013,
+          "w_rho": 0.95,
+          "s_P": 0.1748,
+          "lineage": [
+            "hang_chieu_street::cg_0",
+            "hang_giay_street::cg_0",
+            "hang_giay_street::cg_1",
+            "hang_giay_street::cg_2",
+            "hang_giay_street::cg_3",
+            "hang_giay_street::cg_4",
+            "hang_hom_street::cg_0",
+            "hang_khoai_street::cg_0",
+            "hang_khoai_street::cg_1",
+            "hang_khoai_street::cg_2",
+            "hang_khoai_street::cg_3",
+            "hang_luoc_street::cg_0",
+            "hang_luoc_street::cg_1",
+            "hang_luoc_street::cg_2",
+            "hang_ma_street::cg_0",
+            "hang_ma_street::cg_1",
+            "hang_ma_street::cg_2",
+            "hang_muoi_street::cg_0",
+            "hang_muoi_street::cg_1",
+            "hang_muoi_street::cg_2",
+            "hang_non_street::cg_0",
+            "hang_non_street::cg_1",
+            "hang_non_street::cg_2",
+            "hang_ruoi_street::cg_0",
+            "hang_ruoi_street::cg_1",
+            "hang_ruoi_street::cg_2",
+            "hang_thung_street::cg_0",
+            "hang_tre_street::cg_0",
+            "hang_tre_street::cg_1",
+            "hang_trong_street::cg_0",
+            "phung_hung_street::cg_0",
+            "ta_hien_street::cg_0",
+            "to_tich_street::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/tran_ba_communal_house",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "Tran Ba Communal House",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 3,
+      "mu_max_C1": 0.4224,
+      "mu_naive_all_path": 0.6274,
+      "mu_ldfi_C2": 0.4224,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/tran_ba_communal_house",
+            "part_of",
+            "http://www.wikidata.org/entity/Q1151254"
+          ],
+          "premise2_uri": [
+            "http://www.wikidata.org/entity/Q1151254",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Hoan Kiem Lake",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.4734,
+          "mu2": 0.999,
+          "w_rho": 0.95,
+          "s_P": 0.4224,
+          "lineage": [
+            "hoan_kiem_lake::cg_0",
+            "hoan_kiem_lake::cg_1",
+            "hoan_kiem_lake::cg_2",
+            "hoan_kiem_lake::cg_3",
+            "hoan_kiem_lake::cg_4",
+            "hoan_kiem_lake::cg_5",
+            "hoan_kiem_lake::cg_6",
+            "hoan_kiem_lake::cg_7",
+            "hoan_kiem_lake::cg_8",
+            "hoan_kiem_lake::cg_9",
+            "le_nin_park::cg_0",
+            "ly_thai_to_park::cg_0",
+            "ngoc_son_temple::cg_0",
+            "portrait_painting::cg_0",
+            "thang_long_water_puppetry_theatre::cg_0",
+            "the_ready_to_die_for_the_fatherland_to_live_monument::cg_0",
+            "tran_ba_communal_house::cg_0",
+            "walking_street::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/tran_ba_communal_house",
+            "part_of",
+            "http://transmtl.vn/kb/ngoc_son_temple"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/ngoc_son_temple",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Ngoc Son Temple",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.3201,
+          "mu2": 0.9798,
+          "w_rho": 0.95,
+          "s_P": 0.2499,
+          "lineage": [
+            "ngoc_son_temple::cg_0",
+            "softshell_turtle::cg_0",
+            "softshell_turtle::cg_1",
+            "softshell_turtle::cg_2",
+            "softshell_turtle::cg_3",
+            "tran_ba_communal_house::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/tran_ba_communal_house",
+            "part_of",
+            "http://transmtl.vn/ent/606dcc1a"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/ent/606dcc1a",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Old Quarter",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.2907,
+          "mu2": 0.8993,
+          "w_rho": 0.95,
+          "s_P": 0.14,
+          "lineage": [
+            "hang_thiec_street::cg_0",
+            "hang_thiec_street::cg_1",
+            "hang_thiec_street::cg_2",
+            "hanoi_old_quarter::cg_0",
+            "le_nin_park::cg_0",
+            "ma_may_street::cg_0",
+            "ma_may_street::cg_1",
+            "ma_may_street::cg_2",
+            "phung_hung_street::cg_0",
+            "ta_hien_street::cg_0",
+            "tran_ba_communal_house::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/to_tich_street",
+        "incorporates_material",
+        "http://transmtl.vn/ent/7ceffe3b"
+      ],
+      "conclusion_surface": [
+        "To Tich Street",
+        "incorporates_material",
+        "brick"
+      ],
+      "total_derivations": 3,
+      "mu_max_C1": 0.4486,
+      "mu_naive_all_path": 0.6112,
+      "mu_ldfi_C2": 0.4486,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/to_tich_street",
+            "has_part",
+            "http://transmtl.vn/kb/to_tich_street#structures"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/to_tich_street#structures",
+            "made_of",
+            "http://transmtl.vn/ent/7ceffe3b"
+          ],
+          "intermediate_surface": "structures",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.6261,
+          "w_rho": 0.92,
+          "s_P": 0.4486,
+          "lineage": [
+            "to_tich_street::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/to_tich_street",
+            "has_part",
+            "http://transmtl.vn/kb/to_tich_street#tube_houses"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/to_tich_street#tube_houses",
+            "made_of",
+            "http://transmtl.vn/ent/7ceffe3b"
+          ],
+          "intermediate_surface": "tube houses",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.3838,
+          "w_rho": 0.92,
+          "s_P": 0.2063,
+          "lineage": [
+            "to_tich_street::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/to_tich_street",
+            "has_part",
+            "http://transmtl.vn/kb/to_tich_street#house"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/to_tich_street#house",
+            "made_of",
+            "http://transmtl.vn/ent/7ceffe3b"
+          ],
+          "intermediate_surface": "house",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.2891,
+          "w_rho": 0.92,
+          "s_P": 0.1116,
+          "lineage": [
+            "to_tich_street::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/1st_floor_main_hall#main_hall",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "main hall",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.8536,
+      "mu_naive_all_path": 0.9006,
+      "mu_ldfi_C2": 0.8536,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/1st_floor_main_hall#main_hall",
+            "part_of",
+            "http://transmtl.vn/ent/eb0ea0bc"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/ent/eb0ea0bc",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "museum",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.9928,
+          "mu2": 0.9108,
+          "w_rho": 0.95,
+          "s_P": 0.8536,
+          "lineage": [
+            "1st_floor_main_hall::cg_0",
+            "1st_floor_main_hall::cg_1",
+            "1st_floor_main_hall::cg_2",
+            "1st_floor_main_hall::cg_3",
+            "1st_floor_main_hall::cg_4",
+            "1st_floor_main_hall::cg_5",
+            "1st_floor_main_hall::cg_6",
+            "hanoi_museum::cg_0",
+            "hanoi_museum::cg_1",
+            "hanoi_museum::cg_2",
+            "museum_of_fine_arts_vietnam::cg_0",
+            "museum_of_fine_arts_vietnam::cg_1",
+            "vietnam_womens_museum::cg_0",
+            "vietnam_womens_museum::cg_1",
+            "vietnam_womens_museum::cg_2"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/1st_floor_main_hall#main_hall",
+            "part_of",
+            "http://transmtl.vn/kb/hanoi_museum"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hanoi_museum",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Hanoi Museum",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.5441,
+          "mu2": 0.8269,
+          "w_rho": 0.95,
+          "s_P": 0.321,
+          "lineage": [
+            "1st_floor_main_hall::cg_0",
+            "1st_floor_main_hall::cg_1",
+            "hanoi_museum::cg_0",
+            "hanoi_museum::cg_1",
+            "hanoi_museum::cg_2",
+            "hanoi_museum::cg_3"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/main_lobby",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "Main lobby",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.1863,
+      "mu_naive_all_path": 0.3015,
+      "mu_ldfi_C2": 0.3015,
+      "is_disjoint_corroboration": true,
+      "selected_pair_indices": [
+        0,
+        1
+      ],
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/main_lobby",
+            "part_of",
+            "http://transmtl.vn/kb/thang_long_water_puppetry_theatre"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/thang_long_water_puppetry_theatre",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Thang Long Water Puppetry Theatre",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.4737,
+          "mu2": 0.7626,
+          "w_rho": 0.95,
+          "s_P": 0.1863,
+          "lineage": [
+            "main_lobby::cg_0",
+            "thang_long_water_puppetry_theatre::cg_0",
+            "thang_long_water_puppetry_theatre::cg_1"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/main_lobby",
+            "part_of",
+            "http://transmtl.vn/kb/hanoi_museum"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/hanoi_museum",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Hanoi Museum",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.3646,
+          "mu2": 0.8269,
+          "w_rho": 0.95,
+          "s_P": 0.1415,
+          "lineage": [
+            "1st_floor_main_hall::cg_0",
+            "hanoi_museum::cg_0",
+            "hanoi_museum::cg_1",
+            "hanoi_museum::cg_2",
+            "hanoi_museum::cg_3"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/ent/1a898751",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "Thong Nhat Island",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.7449,
+      "mu_naive_all_path": 0.9133,
+      "mu_ldfi_C2": 0.7449,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/1a898751",
+            "part_of",
+            "http://transmtl.vn/kb/bay_mau_lake"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/bay_mau_lake",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Bay Mau Lake",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.8964,
+          "mu2": 0.8986,
+          "w_rho": 0.95,
+          "s_P": 0.7449,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "bay_mau_lake::cg_1",
+            "bay_mau_lake::cg_2",
+            "bay_mau_lake::cg_3",
+            "bay_mau_lake::cg_4",
+            "bay_mau_lake_shore::cg_0",
+            "bay_mau_lake_shore::cg_1",
+            "bay_mau_lake_shore::cg_2",
+            "bay_mau_lake_shore::cg_3",
+            "thong_nhat_park::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/1a898751",
+            "part_of",
+            "http://transmtl.vn/kb/thong_nhat_park"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/thong_nhat_park",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Thong Nhat park",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.7103,
+          "mu2": 0.9999,
+          "w_rho": 0.95,
+          "s_P": 0.6602,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "bay_mau_lake::cg_1",
+            "thong_nhat_park::cg_0",
+            "thong_nhat_park::cg_1",
+            "thong_nhat_park::cg_10",
+            "thong_nhat_park::cg_11",
+            "thong_nhat_park::cg_12",
+            "thong_nhat_park::cg_2",
+            "thong_nhat_park::cg_3",
+            "thong_nhat_park::cg_4",
+            "thong_nhat_park::cg_5",
+            "thong_nhat_park::cg_6",
+            "thong_nhat_park::cg_7",
+            "thong_nhat_park::cg_8",
+            "thong_nhat_park::cg_9",
+            "thong_nhat_park_entrance::cg_0",
+            "thong_nhat_park_entrance::cg_1",
+            "thong_nhat_park_entrance::cg_2",
+            "thong_nhat_park_entrance::cg_3",
+            "thong_nhat_park_entrance::cg_4",
+            "thong_nhat_park_entrance::cg_5"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/ent/1a898751",
+        "located_in",
+        "http://transmtl.vn/ent/26c51b47"
+      ],
+      "conclusion_surface": [
+        "Thong Nhat Island",
+        "located_in",
+        "Hai Ba Trung"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.232,
+      "mu_naive_all_path": 0.2349,
+      "mu_ldfi_C2": 0.232,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/1a898751",
+            "part_of",
+            "http://transmtl.vn/kb/bay_mau_lake"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/bay_mau_lake",
+            "located_in",
+            "http://transmtl.vn/ent/26c51b47"
+          ],
+          "intermediate_surface": "Bay Mau Lake",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.8964,
+          "mu2": 0.3857,
+          "w_rho": 0.95,
+          "s_P": 0.232,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "bay_mau_lake_shore::cg_0",
+            "bay_mau_lake_shore::cg_1",
+            "bay_mau_lake_shore::cg_2",
+            "bay_mau_lake_shore::cg_3"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/1a898751",
+            "part_of",
+            "http://transmtl.vn/kb/thong_nhat_park"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/thong_nhat_park",
+            "located_in",
+            "http://transmtl.vn/ent/26c51b47"
+          ],
+          "intermediate_surface": "Thong Nhat park",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.7103,
+          "mu2": 0.3435,
+          "w_rho": 0.95,
+          "s_P": 0.0038,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "bay_mau_lake::cg_1",
+            "thong_nhat_park::cg_0",
+            "thong_nhat_park_entrance::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/ent/e8cba931",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "Hoa Binh Island",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.4969,
+      "mu_naive_all_path": 0.6862,
+      "mu_ldfi_C2": 0.4969,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/e8cba931",
+            "part_of",
+            "http://transmtl.vn/kb/bay_mau_lake"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/bay_mau_lake",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Bay Mau Lake",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.6483,
+          "mu2": 0.8986,
+          "w_rho": 0.95,
+          "s_P": 0.4969,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "bay_mau_lake::cg_1",
+            "bay_mau_lake::cg_2",
+            "bay_mau_lake::cg_3",
+            "bay_mau_lake::cg_4",
+            "bay_mau_lake_shore::cg_0",
+            "bay_mau_lake_shore::cg_1",
+            "thong_nhat_park::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/e8cba931",
+            "part_of",
+            "http://transmtl.vn/kb/thong_nhat_park"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/thong_nhat_park",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Thong Nhat park",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.4265,
+          "mu2": 0.9999,
+          "w_rho": 0.95,
+          "s_P": 0.3764,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "thong_nhat_park::cg_0",
+            "thong_nhat_park::cg_1",
+            "thong_nhat_park::cg_10",
+            "thong_nhat_park::cg_11",
+            "thong_nhat_park::cg_12",
+            "thong_nhat_park::cg_2",
+            "thong_nhat_park::cg_3",
+            "thong_nhat_park::cg_4",
+            "thong_nhat_park::cg_5",
+            "thong_nhat_park::cg_6",
+            "thong_nhat_park::cg_7",
+            "thong_nhat_park::cg_8",
+            "thong_nhat_park::cg_9",
+            "thong_nhat_park_entrance::cg_0",
+            "thong_nhat_park_entrance::cg_1",
+            "thong_nhat_park_entrance::cg_2",
+            "thong_nhat_park_entrance::cg_3",
+            "thong_nhat_park_entrance::cg_4",
+            "thong_nhat_park_entrance::cg_5"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/ent/99d29b80",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "Thống Nhất",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.2602,
+      "mu_naive_all_path": 0.3814,
+      "mu_ldfi_C2": 0.2602,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/99d29b80",
+            "part_of",
+            "http://transmtl.vn/kb/thong_nhat_park"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/thong_nhat_park",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Thong Nhat park",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.3103,
+          "mu2": 0.9999,
+          "w_rho": 0.95,
+          "s_P": 0.2602,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "thong_nhat_park::cg_0",
+            "thong_nhat_park::cg_1",
+            "thong_nhat_park::cg_10",
+            "thong_nhat_park::cg_11",
+            "thong_nhat_park::cg_12",
+            "thong_nhat_park::cg_2",
+            "thong_nhat_park::cg_3",
+            "thong_nhat_park::cg_4",
+            "thong_nhat_park::cg_5",
+            "thong_nhat_park::cg_6",
+            "thong_nhat_park::cg_7",
+            "thong_nhat_park::cg_8",
+            "thong_nhat_park::cg_9",
+            "thong_nhat_park_entrance::cg_0",
+            "thong_nhat_park_entrance::cg_1",
+            "thong_nhat_park_entrance::cg_2",
+            "thong_nhat_park_entrance::cg_3",
+            "thong_nhat_park_entrance::cg_4",
+            "thong_nhat_park_entrance::cg_5"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/99d29b80",
+            "part_of",
+            "http://transmtl.vn/kb/bay_mau_lake"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/bay_mau_lake",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Bay Mau Lake",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.3152,
+          "mu2": 0.8986,
+          "w_rho": 0.95,
+          "s_P": 0.1638,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "bay_mau_lake::cg_1",
+            "bay_mau_lake::cg_2",
+            "bay_mau_lake::cg_3",
+            "bay_mau_lake::cg_4",
+            "bay_mau_lake_shore::cg_0",
+            "bay_mau_lake_shore::cg_1",
+            "thong_nhat_park::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/ent/f48e4a9f",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "Hòa Bình",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.2641,
+      "mu_naive_all_path": 0.4123,
+      "mu_ldfi_C2": 0.2641,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/f48e4a9f",
+            "part_of",
+            "http://transmtl.vn/kb/thong_nhat_park"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/thong_nhat_park",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Thong Nhat park",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.3142,
+          "mu2": 0.9999,
+          "w_rho": 0.95,
+          "s_P": 0.2641,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "thong_nhat_park::cg_0",
+            "thong_nhat_park::cg_1",
+            "thong_nhat_park::cg_10",
+            "thong_nhat_park::cg_11",
+            "thong_nhat_park::cg_12",
+            "thong_nhat_park::cg_2",
+            "thong_nhat_park::cg_3",
+            "thong_nhat_park::cg_4",
+            "thong_nhat_park::cg_5",
+            "thong_nhat_park::cg_6",
+            "thong_nhat_park::cg_7",
+            "thong_nhat_park::cg_8",
+            "thong_nhat_park::cg_9",
+            "thong_nhat_park_entrance::cg_0",
+            "thong_nhat_park_entrance::cg_1",
+            "thong_nhat_park_entrance::cg_2",
+            "thong_nhat_park_entrance::cg_3",
+            "thong_nhat_park_entrance::cg_4",
+            "thong_nhat_park_entrance::cg_5"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/ent/f48e4a9f",
+            "part_of",
+            "http://transmtl.vn/kb/bay_mau_lake"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/bay_mau_lake",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Bay Mau Lake",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.3528,
+          "mu2": 0.8986,
+          "w_rho": 0.95,
+          "s_P": 0.2014,
+          "lineage": [
+            "bay_mau_lake::cg_0",
+            "bay_mau_lake::cg_1",
+            "bay_mau_lake::cg_2",
+            "bay_mau_lake::cg_3",
+            "bay_mau_lake::cg_4",
+            "bay_mau_lake_shore::cg_0",
+            "bay_mau_lake_shore::cg_1",
+            "thong_nhat_park::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/ngoc_son_temple",
+        "located_in",
+        "http://transmtl.vn/ent/207462d2"
+      ],
+      "conclusion_surface": [
+        "Ngoc Son Temple",
+        "located_in",
+        "Hanoi"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.3022,
+      "mu_naive_all_path": 0.3242,
+      "mu_ldfi_C2": 0.3022,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/ngoc_son_temple",
+            "part_of",
+            "http://www.wikidata.org/entity/Q1151254"
+          ],
+          "premise2_uri": [
+            "http://www.wikidata.org/entity/Q1151254",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Hoan Kiem Lake",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.3532,
+          "mu2": 0.999,
+          "w_rho": 0.95,
+          "s_P": 0.3022,
+          "lineage": [
+            "hoan_kiem_lake::cg_0",
+            "hoan_kiem_lake::cg_1",
+            "hoan_kiem_lake::cg_2",
+            "hoan_kiem_lake::cg_3",
+            "hoan_kiem_lake::cg_4",
+            "hoan_kiem_lake::cg_5",
+            "hoan_kiem_lake::cg_6",
+            "hoan_kiem_lake::cg_7",
+            "hoan_kiem_lake::cg_8",
+            "hoan_kiem_lake::cg_9",
+            "le_nin_park::cg_0",
+            "ly_thai_to_park::cg_0",
+            "ngoc_son_temple::cg_0",
+            "portrait_painting::cg_0",
+            "thang_long_water_puppetry_theatre::cg_0",
+            "the_ready_to_die_for_the_fatherland_to_live_monument::cg_0",
+            "walking_street::cg_0"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/ngoc_son_temple",
+            "part_of",
+            "http://transmtl.vn/ent/63be8e4a"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/ent/63be8e4a",
+            "located_in",
+            "http://transmtl.vn/ent/207462d2"
+          ],
+          "intermediate_surface": "Hoan Kiem District",
+          "rule_id": "R1_LOC",
+          "rule": "part_of o located_in => located_in",
+          "mu1": 0.2855,
+          "mu2": 0.796,
+          "w_rho": 0.95,
+          "s_P": 0.0315,
+          "lineage": [
+            "calligraphy::cg_0",
+            "hang_trong_street::cg_0",
+            "hang_trong_street::cg_1",
+            "hoan_kiem_lake::cg_0",
+            "lo_ren_street::cg_0"
+          ]
+        }
+      ]
+    },
+    {
+      "conclusion_uri": [
+        "http://transmtl.vn/kb/dai_thanh_gate",
+        "incorporates_material",
+        "http://transmtl.vn/ent/068daf58"
+      ],
+      "conclusion_surface": [
+        "Dai Thanh gate",
+        "incorporates_material",
+        "lim wood"
+      ],
+      "total_derivations": 2,
+      "mu_max_C1": 0.5219,
+      "mu_naive_all_path": 0.5785,
+      "mu_ldfi_C2": 0.5219,
+      "is_disjoint_corroboration": false,
+      "selected_pair_indices": null,
+      "derivations": [
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/dai_thanh_gate",
+            "has_part",
+            "http://transmtl.vn/kb/dai_thanh_gate#doors"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/dai_thanh_gate#doors",
+            "made_of",
+            "http://transmtl.vn/ent/068daf58"
+          ],
+          "intermediate_surface": "doors",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9991,
+          "mu2": 0.6028,
+          "w_rho": 0.92,
+          "s_P": 0.5219,
+          "lineage": [
+            "dai_thanh_gate::cg_0",
+            "dai_thanh_gate::cg_1",
+            "dai_thanh_gate::cg_2"
+          ]
+        },
+        {
+          "premise1_uri": [
+            "http://transmtl.vn/kb/dai_thanh_gate",
+            "has_part",
+            "http://transmtl.vn/kb/dai_thanh_gate#column_system"
+          ],
+          "premise2_uri": [
+            "http://transmtl.vn/kb/dai_thanh_gate#column_system",
+            "made_of",
+            "http://transmtl.vn/ent/068daf58"
+          ],
+          "intermediate_surface": "column system",
+          "rule_id": "R2_MAT",
+          "rule": "has_part o made_of => incorporates_material",
+          "mu1": 0.9025,
+          "mu2": 0.296,
+          "w_rho": 0.92,
+          "s_P": 0.1185,
+          "lineage": [
+            "dai_thanh_gate::cg_0"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/ebd556e6> onto:over <http://transmtl.vn/kb/huu_tiep_lake> .
+
+<http://transmtl.vn/kb/the_b52_wreckage> onto:has_part <http://transmtl.vn/kb/the_b52_wreckage#metal_mass> .
+
+<http://transmtl.vn/kb/the_b52_wreckage#metal_mass> onto:above <http://transmtl.vn/kb/huu_tiep_lake> .
+
+<http://transmtl.vn/kb/huu_tiep_lake> onto:renamed_to <http://transmtl.vn/ent/3bdf1f21> ;
+    onto:surrounded_by <http://transmtl.vn/ent/0533e7f0>,
+        <http://transmtl.vn/ent/cb897c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5775 ;
+    fkg:docId "doc_4825250dff67" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/ent/ebd556e6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2895 ;
+    fkg:docId "doc_4825250dff67" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage#metal_mass> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4825250dff67" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/kb/the_b52_wreckage#metal_mass> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_b52_wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4047 ;
+    fkg:docId "doc_4825250dff67" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/3bdf1f21> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3499 ;
+    fkg:docId "doc_4825250dff67" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/cb897c2c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2776 ;
+    fkg:docId "doc_4825250dff67" ;
+    fkg:kbId "the_b52_wreckage" ;
+    rdf:object <http://transmtl.vn/ent/0533e7f0> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+

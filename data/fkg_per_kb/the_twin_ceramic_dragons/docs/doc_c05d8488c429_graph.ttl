@@ -1,0 +1,344 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/58b3221f> onto:on <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/the_twin_ceramic_dragons> onto:has_part <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> .
+
+<http://transmtl.vn/ent/75cdc764> onto:located_in <http://transmtl.vn/ent/120c79e8> .
+
+<http://transmtl.vn/ent/225ca969> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/e58be935>,
+        <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> onto:made_of <http://transmtl.vn/ent/00ecf6d0>,
+        <http://transmtl.vn/ent/24af4485>,
+        <http://transmtl.vn/ent/3c428b40>,
+        <http://transmtl.vn/ent/50461c33>,
+        <http://transmtl.vn/ent/df89cfa3>,
+        <http://transmtl.vn/ent/f778e6c7>,
+        <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/west_lake> onto:in <http://transmtl.vn/ent/207462d2> ;
+    onto:located_in <http://transmtl.vn/ent/120c79e8>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5058f1af> ;
+    onto:near <http://transmtl.vn/ent/5aaa1d85> ;
+    onto:on <http://transmtl.vn/ent/75cdc764> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2e927c18>,
+        <http://transmtl.vn/ent/405aaff6>,
+        <http://transmtl.vn/ent/5fadcf41>,
+        <http://transmtl.vn/ent/608da36f>,
+        <http://transmtl.vn/ent/9ec5e3e7>,
+        <http://transmtl.vn/ent/e900e40b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3936 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/f778e6c7> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6732 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/9ec5e3e7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4419 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6895 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/120c79e8> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/75cdc764> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2803 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/5fadcf41> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2718 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/5aaa1d85> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.337 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/3c428b40> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8287 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4783 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/405aaff6> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4513 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6655 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.493 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/2e927c18> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6265 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/225ca969> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6882 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/225ca969> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3941 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/120c79e8> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9139 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6702 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/e900e40b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6214 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/608da36f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9705 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6883 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/75cdc764> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.679 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/225ca969> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7448 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7002 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4973 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/00ecf6d0> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5824 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/e58be935> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/225ca969> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8705 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8699 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/24af4485> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3093 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/e900e40b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3214 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/225ca969> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.303 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/225ca969> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4596 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/58b3221f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2617 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2875 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/50461c33> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3967 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/df89cfa3> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/kb/the_twin_ceramic_dragons#dragon> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_twin_ceramic_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3605 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2678 ;
+    fkg:docId "doc_c05d8488c429" ;
+    fkg:kbId "the_twin_ceramic_dragons" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/225ca969> .
+

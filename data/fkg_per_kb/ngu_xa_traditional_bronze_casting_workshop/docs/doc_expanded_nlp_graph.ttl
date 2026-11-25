@@ -1,0 +1,258 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/16115e85> onto:located_in <http://transmtl.vn/ent/717e5e67> .
+
+<http://transmtl.vn/ent/59734295> onto:located_in <http://transmtl.vn/ent/717e5e67> .
+
+<http://transmtl.vn/ent/80dafa8a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/8d361d0e> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#cast> onto:part_of <http://transmtl.vn/ent/0ad9f975> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#surface> onto:part_of <http://transmtl.vn/ent/a8cfde63> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#residential_streets> onto:located_in <http://transmtl.vn/ent/717e5e67> ;
+    onto:part_of <http://transmtl.vn/ent/717e5e67> ;
+    onto:surrounded_by <http://transmtl.vn/ent/717e5e67> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#craft> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/2aa35737>,
+        <http://transmtl.vn/ent/3cd15f8f>,
+        <http://transmtl.vn/ent/8d361d0e> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#metal> onto:located_in <http://transmtl.vn/ent/335cf450> ;
+    onto:located_inside <http://transmtl.vn/ent/0ad9f975>,
+        <http://transmtl.vn/ent/335cf450> ;
+    onto:part_of <http://transmtl.vn/ent/0ad9f975> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#object> onto:has_component <http://transmtl.vn/ent/d302e976> ;
+    onto:has_part <http://transmtl.vn/ent/d302e976> ;
+    onto:part_of <http://transmtl.vn/ent/0ad9f975> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> onto:has_component <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#cast>,
+        <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#craft>,
+        <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#metal>,
+        <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#object>,
+        <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#residential_streets>,
+        <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#surface> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4052 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/8d361d0e> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#craft> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2527 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/717e5e67> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#residential_streets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2645 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/2aa35737> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#craft> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2528 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/0ad9f975> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#cast> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2638 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8d361d0e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2828 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/717e5e67> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#residential_streets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6178 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#craft> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4232 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/717e5e67> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/59734295> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2767 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#metal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3692 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/0ad9f975> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#metal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5957 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/0ad9f975> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#metal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4608 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#metal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#object> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#residential_streets> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9555 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/80dafa8a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3647 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/0ad9f975> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#object> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#metal> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3926 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/717e5e67> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/16115e85> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6978 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/a8cfde63> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#surface> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.419 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/d302e976> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#object> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#surface> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#cast> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.347 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/d302e976> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#object> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#craft> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5632 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/3cd15f8f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#craft> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3664 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/ent/717e5e67> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#residential_streets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_workshop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop#object> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_workshop> .
+

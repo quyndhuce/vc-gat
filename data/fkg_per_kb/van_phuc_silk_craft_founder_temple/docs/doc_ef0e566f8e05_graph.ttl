@@ -1,0 +1,24 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village> onto:dedicated_to <http://transmtl.vn/ent/0bcd6bff> ;
+    onto:named_after <http://transmtl.vn/ent/08d6f40a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2672 ;
+    fkg:docId "doc_ef0e566f8e05" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/0bcd6bff> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2939 ;
+    fkg:docId "doc_ef0e566f8e05" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/08d6f40a> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+

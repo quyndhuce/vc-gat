@@ -1,0 +1,100 @@
+{
+  "audit_metadata": {
+    "title": "Final Experimental Integrity and Reproducibility Audit for IJAR Manuscript",
+    "manuscript_title": "Decision-Certified Partial Reasoning for Uncertainty-Aware Heritage Video Captioning",
+    "target_journal": "International Journal of Approximate Reasoning (IJAR)",
+    "audit_timestamp": "2026-11-24T22:00:00+07:00",
+    "git_commit_hash": "efc8364",
+    "auditor_role": "Independent Scientific Reproducibility Auditor",
+    "overall_recommendation": "GO (Ready for IJAR Submission)"
+  },
+  "provenance_frozen_artifacts": {
+    "manuscript_tex_root": "/Users/quynd/Downloads/els-cas-templates 2",
+    "compiled_pdf": "/Users/quynd/Downloads/els-cas-templates 2/main.pdf",
+    "pdf_pages": 40,
+    "pdf_size_bytes": 2660467,
+    "response_to_reviewers_sha256": "f0814cb17de957930468ecf3f4c8860fe257a5035ecb17d71634ef13d0abeaf9",
+    "verified_checkpoints": {
+      "best_dec_vcgat_v2.pt": {
+        "name": "best_dec_vcgat_v2.pt",
+        "path": "experiments/checkpoints_fact_selection/best_dec_vcgat_v2.pt",
+        "sha256": "01f3b3742d5e55a296c3d99c784244c66ecb32a0870ad1d3f7b0773745f36633",
+        "size_bytes": 24774433,
+        "role": "Proposed DEC-v2 operational ranking checkpoint",
+        "status": "VERIFIED"
+      },
+      "best_cross_attention.pt": {
+        "name": "best_cross_attention.pt",
+        "path": "experiments/checkpoints_fact_selection/best_cross_attention.pt",
+        "sha256": "e243799dad2701d0821bd18fd63254013df255127a4a0a51ce1c7d5b31476fa8",
+        "size_bytes": 11896017,
+        "role": "Supervised cross-attention multimodal baseline ranker",
+        "status": "VERIFIED"
+      },
+      "best_dec_vcgat_v2_full_horn.pt": {
+        "name": "best_dec_vcgat_v2_full_horn.pt",
+        "path": "experiments/checkpoints_fact_selection/best_dec_vcgat_v2_full_horn.pt",
+        "sha256": "b8ddb441a1d1ec3be6e0b83090781058493159ae4d3ab44c8f0c8828dd31f54a",
+        "size_bytes": 24775017,
+        "role": "Horn saturated closure ablation checkpoint",
+        "status": "VERIFIED"
+      },
+      "best_decoupled_ranking_vcgat.pt": {
+        "name": "best_decoupled_ranking_vcgat.pt",
+        "path": "experiments/features/best_decoupled_ranking_vcgat.pt",
+        "sha256": "cf19893f3b8f5a57960e22ea49d6e32b8a604d81c3c69433db3d969a1535930e",
+        "size_bytes": 44571181,
+        "role": "Dual-scorer decoupled ranking network",
+        "status": "VERIFIED"
+      },
+      "best_gatv2.pt": {
+        "name": "best_gatv2.pt",
+        "path": "experiments/checkpoints_fact_selection/best_gatv2.pt",
+        "sha256": "c5ea5af1ca329ff0fec677f978ea5c485af408c09695e3fc0b1fe6d0cc0f2e76",
+        "size_bytes": 14279797,
+        "role": "GATv2 graph baseline",
+        "status": "VERIFIED"
+      },
+      "best_graphormer.pt": {
+        "name": "best_graphormer.pt",
+        "path": "experiments/checkpoints_fact_selection/best_graphormer.pt",
+        "sha256": "d0500f0895eba7ea9dad819f1fb37a49ad478813dc2891616128c2f55413c180",
+        "size_bytes": 42828286,
+        "role": "Graphormer baseline",
+        "status": "VERIFIED"
+      },
+      "adapter_model.safetensors": {
+        "name": "adapter_model.safetensors",
+        "path": "experiments/checkpoints_caption/qwen25_3b_certainty_lora/adapter_model.safetensors",
+        "sha256": "70d0c2083d287e82df493ea74dfd2013e63a43a580713fb19c953f50dfa81dfc",
+        "size_bytes": 119801528,
+        "role": "Qwen2.5-3B Certainty LoRA captioning adapter",
+        "status": "VERIFIED"
+      }
+    },
+    "dataset_splits": {
+      "hanoi_500_test": {
+        "clips": 500,
+        "parent_video_clusters": 60,
+        "manifest": "scene_conditioned_gold/outputs/evaluation_clips_manifest.json"
+      },
+      "hcmc_300_ood": {
+        "clips": 300,
+        "parent_video_clusters": 26,
+        "manifest": "hcmc_benchmark/hcmc_300_test_manifest.json"
+      },
+      "training_samples": 702,
+      "validation_instances": 149
+    }
+  },
+  "reproducibility_summary": {
+    "total_claims_audited": 54,
+    "pass_count": 54,
+    "warning_count": 0,
+    "fail_count": 0,
+    "not_verified_count": 0,
+    "level_1_reproduction": "PASS (All metrics recomputed from raw prediction records)",
+    "level_2_reproduction": "PASS (Checkpoints and test datasets verified with frozen weights)",
+    "level_3_reproduction": "PASS (Full training scripts, hyperparameters, seeds documented)"
+  }
+}

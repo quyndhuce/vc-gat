@@ -1,0 +1,484 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:located_in <http://transmtl.vn/ent/d6bae066> .
+
+<http://transmtl.vn/ent/b01b1c09> onto:ruled_by <http://transmtl.vn/ent/1a3a7775> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:ruled_by <http://transmtl.vn/ent/1a3a7775> .
+
+<http://transmtl.vn/kb/monument_bac_ho_bac_ton> onto:commemorates <http://transmtl.vn/ent/41c509ff> ;
+    onto:gifted_by <http://transmtl.vn/ent/0f75307f>,
+        <http://transmtl.vn/ent/12a032ce>,
+        <http://transmtl.vn/ent/30618461> ;
+    onto:inaugurated_in <http://transmtl.vn/ent/0587a5ce> ;
+    onto:located_in <http://transmtl.vn/ent/d6bae066> .
+
+<http://transmtl.vn/ent/d6bae066> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:architectural_style <http://transmtl.vn/ent/437645a9>,
+        <http://transmtl.vn/ent/cda59589> ;
+    onto:built_by <http://transmtl.vn/ent/95cf0949>,
+        <http://transmtl.vn/ent/af426dde> ;
+    onto:commemorates <http://transmtl.vn/ent/1a3a7775>,
+        <http://transmtl.vn/ent/4e7754d7> ;
+    onto:dedicated_to <http://transmtl.vn/ent/1a3a7775>,
+        <http://transmtl.vn/ent/4e7754d7> ;
+    onto:in <http://transmtl.vn/ent/d6bae066> ;
+    onto:located_in <http://transmtl.vn/ent/63dbffbf>,
+        <http://transmtl.vn/ent/d6bae066> ;
+    onto:made_of <http://transmtl.vn/ent/894cc321>,
+        <http://transmtl.vn/ent/90048b5e> ;
+    onto:on <http://transmtl.vn/ent/2cc296f8> ;
+    onto:part_of <http://transmtl.vn/ent/63dbffbf> ;
+    onto:surrounded_by <http://transmtl.vn/ent/25d5749e>,
+        <http://transmtl.vn/ent/9ec5e3e7>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/cc9361a0>,
+        <http://transmtl.vn/ent/fd50eb8d> ;
+    onto:symbol_of <http://transmtl.vn/ent/12a032ce>,
+        <http://transmtl.vn/ent/3c4c1141>,
+        <http://transmtl.vn/ent/40b03ccf>,
+        <http://transmtl.vn/ent/439b3a25>,
+        <http://transmtl.vn/ent/582b795a>,
+        <http://transmtl.vn/ent/66685481>,
+        <http://transmtl.vn/ent/6e759eac>,
+        <http://transmtl.vn/ent/73e0c1e6>,
+        <http://transmtl.vn/ent/78b6367a>,
+        <http://transmtl.vn/ent/a60ebedc>,
+        <http://transmtl.vn/ent/c23f4747> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3364 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/63dbffbf> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3676 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/12a032ce> ;
+    rdf:predicate onto:gifted_by ;
+    rdf:subject <http://transmtl.vn/kb/monument_bac_ho_bac_ton> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7268 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/d6bae066> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4492 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/30618461> ;
+    rdf:predicate onto:gifted_by ;
+    rdf:subject <http://transmtl.vn/kb/monument_bac_ho_bac_ton> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4121 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/4e7754d7> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4817 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/40b03ccf> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3642 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/2cc296f8> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3085 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/63dbffbf> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4594 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/63dbffbf> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4352 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/cda59589> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6411 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/d6bae066> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2965 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/d6bae066> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4489 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/c23f4747> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.493 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/3c4c1141> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.365 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/894cc321> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4681 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3193 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/fd50eb8d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5634 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/0f75307f> ;
+    rdf:predicate onto:gifted_by ;
+    rdf:subject <http://transmtl.vn/kb/monument_bac_ho_bac_ton> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7331 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/894cc321> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2786 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/d6bae066> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/monument_bac_ho_bac_ton> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2683 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/1a3a7775> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2577 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/1a3a7775> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4218 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.251 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/63dbffbf> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2612 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/6e759eac> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8587 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/cc9361a0> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4396 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/a60ebedc> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4745 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/af426dde> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8911 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/0587a5ce> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/monument_bac_ho_bac_ton> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2626 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3874 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/1a3a7775> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4942 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/1a3a7775> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4904 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/90048b5e> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3562 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/d6bae066> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.291 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/63dbffbf> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3729 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/12a032ce> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6139 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/4e7754d7> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4216 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/2cc296f8> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3082 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/437645a9> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3668 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/d6bae066> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6663 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d6bae066> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3128 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/95cf0949> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3561 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/4e7754d7> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2982 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/4e7754d7> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3288 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/1a3a7775> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/b01b1c09> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4242 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/78b6367a> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2528 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/73e0c1e6> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3751 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/41c509ff> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/monument_bac_ho_bac_ton> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8848 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/9ec5e3e7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.517 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/90048b5e> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6416 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/439b3a25> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.646 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/66685481> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.603 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/1a3a7775> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7367 ;
+    fkg:docId "doc_cb6f84fffe66" ;
+    fkg:kbId "monument_bac_ho_bac_ton" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d6bae066> .
+

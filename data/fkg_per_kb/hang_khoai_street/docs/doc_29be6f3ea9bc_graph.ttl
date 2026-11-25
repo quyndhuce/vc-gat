@@ -1,0 +1,61 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_khoai_street> onto:has_part <http://transmtl.vn/kb/hang_khoai_street#electrical_wires> ;
+    onto:part_of <http://transmtl.vn/ent/1f4a9685>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/7c90b8bf> .
+
+<http://transmtl.vn/kb/hang_khoai_street#electrical_wires> onto:near <http://transmtl.vn/ent/1f4a9685>,
+        <http://transmtl.vn/ent/56bb5580> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3409 ;
+    fkg:docId "doc_29be6f3ea9bc" ;
+    fkg:kbId "hang_khoai_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_khoai_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2987 ;
+    fkg:docId "doc_29be6f3ea9bc" ;
+    fkg:kbId "hang_khoai_street" ;
+    rdf:object <http://transmtl.vn/ent/56bb5580> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_khoai_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_29be6f3ea9bc" ;
+    fkg:kbId "hang_khoai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_khoai_street#electrical_wires> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_khoai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2643 ;
+    fkg:docId "doc_29be6f3ea9bc" ;
+    fkg:kbId "hang_khoai_street" ;
+    rdf:object <http://transmtl.vn/ent/7c90b8bf> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_khoai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2895 ;
+    fkg:docId "doc_29be6f3ea9bc" ;
+    fkg:kbId "hang_khoai_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_khoai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2629 ;
+    fkg:docId "doc_29be6f3ea9bc" ;
+    fkg:kbId "hang_khoai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_khoai_street> .
+

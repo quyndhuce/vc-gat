@@ -1,0 +1,71 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/631142b2> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/f97c5d29> onto:walking_on <http://transmtl.vn/kb/hang_muoi_street> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_muoi_street> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5596 ;
+    fkg:docId "doc_2f3fa58190e6" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/631142b2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2993 ;
+    fkg:docId "doc_2f3fa58190e6" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.323 ;
+    fkg:docId "doc_2f3fa58190e6" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/f97c5d29> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6376 ;
+    fkg:docId "doc_2f3fa58190e6" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4951 ;
+    fkg:docId "doc_2f3fa58190e6" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3289 ;
+    fkg:docId "doc_2f3fa58190e6" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4782 ;
+    fkg:docId "doc_2f3fa58190e6" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+

@@ -1,0 +1,173 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/e05eebf4> onto:ruled_by <http://transmtl.vn/ent/e1534f80> .
+
+<http://transmtl.vn/kb/stage#buồng_trò> onto:part_of <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+<http://transmtl.vn/kb/stage#pavilion> onto:part_of <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+<http://transmtl.vn/kb/stage#puppet_stage> onto:part_of <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+<http://transmtl.vn/kb/stage#thủy_đình> onto:part_of <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+<http://transmtl.vn/kb/stage> onto:has_part <http://transmtl.vn/kb/stage#buồng_trò>,
+        <http://transmtl.vn/kb/stage#pavilion>,
+        <http://transmtl.vn/kb/stage#puppet_stage>,
+        <http://transmtl.vn/kb/stage#rustic_bamboo_screen>,
+        <http://transmtl.vn/kb/stage#thủy_đình> .
+
+<http://transmtl.vn/kb/stage#rustic_bamboo_screen> onto:over <http://transmtl.vn/ent/abaa71b8> ;
+    onto:part_of <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre> onto:commemorates <http://transmtl.vn/ent/e1534f80> ;
+    onto:inaugurated_in <http://transmtl.vn/ent/4d855669> ;
+    onto:used_as <http://transmtl.vn/ent/1e68710e> ;
+    onto:used_by <http://transmtl.vn/ent/65004f81> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/stage#rustic_bamboo_screen> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3551 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stage#rustic_bamboo_screen> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2969 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stage#puppet_stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/stage#thủy_đình> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2512 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stage#buồng_trò> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/stage#rustic_bamboo_screen> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6474 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/ent/4d855669> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/stage#puppet_stage> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4882 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/ent/abaa71b8> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/stage#rustic_bamboo_screen> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/stage#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3653 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/ent/1e68710e> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/stage#buồng_trò> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.264 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stage#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3095 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/ent/e1534f80> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2923 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stage#thủy_đình> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2552 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/ent/65004f81> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3199 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/ent/e1534f80> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/e05eebf4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2903 ;
+    fkg:docId "doc_3c96ee3b8be6" ;
+    fkg:kbId "stage" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stage#rustic_bamboo_screen> .
+

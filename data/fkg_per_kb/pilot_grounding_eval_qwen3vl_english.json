@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "vision_model": "Qwen/Qwen3-VL-8B-Instruct",
+    "evaluator_model": "Qwen/Qwen2.5-14B-Instruct",
+    "language": "English",
+    "evaluated_at": "2026-10-04 22:26:27",
+    "total_videos_evaluated": 2,
+    "total_facts_evaluated": 14,
+    "total_suitable_facts": 8,
+    "overall_grounding_precision": 0.5714,
+    "instructions": "You can directly inspect and edit 'is_suitable' (true/false) or 'reason' in this JSON file to refine evaluations."
+  },
+  "video_evaluations": [
+    {
+      "video_id": 321,
+      "file_name": "videos/test/Chùa Một Cột Hà Nội #travel [oOPXyW_ht_Y].mp4",
+      "parent_landmark": "One Pillar Pagoda",
+      "sub_landmark": "One Pillar Pagoda",
+      "qwen3vl_visual_description": "The video showcases the One Pillar Pagoda in Hanoi, featuring its iconic single stone pillar supporting a traditional wooden pavilion with a tiered, dark-tiled roof adorned with ornate eaves. Colorful Buddhist flags flutter along a string stretching across the pond, which is densely covered with green lily pads. Lush green foliage frames the scene, with trees partially obscuring the view at the start, while the surrounding courtyard includes stone pathways and decorative planters. The sky is overcast, casting soft, diffused light, and the absence of visible statues or dragons keeps the focus on the pagoda’s serene architecture and tranquil water setting.",
+      "total_visual_facts": 7,
+      "suitable_count": 3,
+      "unsuitable_count": 4,
+      "grounding_accuracy": 0.4286,
+      "evaluated_facts": [
+        {
+          "fact_id": 1,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "column",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.99991,
+          "is_suitable": true,
+          "verdict": "suitable",
+          "reason": "Pagoda is supported by a single stone pillar.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 2,
+          "head": "Dien Huu Pagoda complex",
+          "rel": "has_part",
+          "tail": "One Pillar Pagoda",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9998,
+          "is_suitable": false,
+          "verdict": "not_suitable",
+          "reason": "One Pillar Pagoda is standalone, not part of Dien Huu complex.",
+          "source_section": "surroundings"
+        },
+        {
+          "fact_id": 3,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.99907,
+          "is_suitable": true,
+          "verdict": "suitable",
+          "reason": "Pagoda features a tiered, dark-tiled roof.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 4,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "dragon motif",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.99049,
+          "is_suitable": false,
+          "verdict": "not_suitable",
+          "reason": "No dragon motifs present in the pagoda.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 5,
+          "head": "One Pillar Pagoda",
+          "rel": "near",
+          "tail": "Ho Chi Minh Mausoleum",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.964,
+          "is_suitable": false,
+          "verdict": "not_suitable",
+          "reason": "Ho Chi Minh Mausoleum is not shown nearby.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 6,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "pillar",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9025,
+          "is_suitable": true,
+          "verdict": "suitable",
+          "reason": "Single stone pillar supports the pagoda.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 7,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "lotus flower",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9025,
+          "is_suitable": false,
+          "verdict": "not_suitable",
+          "reason": "Lotus flowers are not mentioned in the description.",
+          "source_section": ""
+        }
+      ]
+    },
+    {
+      "video_id": 299,
+      "file_name": "videos/test/Đền Ngọc Sơn #hanoi #vietnam [B9EoyChchJY].mp4",
+      "parent_landmark": "Hoan Kiem Lake",
+      "sub_landmark": "The Huc bridge",
+      "qwen3vl_visual_description": "The video captures the Huc Bridge (also known as the Huc Bridge or Thanh Nien Bridge) spanning Hoan Kiem Lake in Hanoi, characterized by its distinctive red-painted wooden structure with ornate railings and traditional Vietnamese architectural elements. Prominently visible are the bridge’s sturdy wooden pillars and a small pavilion-like structure at its entrance, both reflecting in the calm, clear waters below. Lush green trees frame the scene, and the sky above is bright blue with scattered clouds, enhancing the tranquil atmosphere. A few pedestrians are visible on the bridge and along the paved lakeside path, while no major statues, dragons, or flags are clearly discernible. The surrounding environment is serene, with the lake’s surface mirroring the bridge and foliage, and the absence of crowds or modern structures emphasizes the historic and peaceful ambiance.",
+      "total_visual_facts": 7,
+      "suitable_count": 5,
+      "unsuitable_count": 2,
+      "grounding_accuracy": 0.7143,
+      "evaluated_facts": [
+        {
+          "fact_id": 1,
+          "head": "The Huc Bridge",
+          "rel": "has_color",
+          "tail": "red",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 1.0,
+          "is_suitable": true,
+          "verdict": "suitable",
+          "reason": "Bridge is described as having a distinctive red-painted wooden structure.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 2,
+          "head": "The Huc Bridge",
+          "rel": "connects",
+          "tail": "eastern shore",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 1.0,
+          "is_suitable": false,
+          "verdict": "not_suitable",
+          "reason": "Specific connection to eastern shore not mentioned in description.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 3,
+          "head": "The Huc Bridge",
+          "rel": "connected_to",
+          "tail": "eastern shore",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 1.0,
+          "is_suitable": false,
+          "verdict": "not_suitable",
+          "reason": "Specific connection to eastern shore not mentioned in description.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 4,
+          "head": "The Huc Bridge",
+          "rel": "connected_to",
+          "tail": "Ngoc Son Temple",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9874,
+          "is_suitable": true,
+          "verdict": "suitable",
+          "reason": "Temple is visible near the bridge in the description.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 5,
+          "head": "The Huc Bridge",
+          "rel": "leads_to",
+          "tail": "Ngoc Son Temple",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9874,
+          "is_suitable": true,
+          "verdict": "suitable",
+          "reason": "Temple is visible near the bridge in the description.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 6,
+          "head": "The Huc bridge",
+          "rel": "over",
+          "tail": "Hoan Kiem Lake",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.7624,
+          "is_suitable": true,
+          "verdict": "suitable",
+          "reason": "Bridge spans Hoan Kiem Lake as described.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 7,
+          "head": "Huc Bridge",
+          "rel": "has_color",
+          "tail": "red",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 1.0,
+          "is_suitable": true,
+          "verdict": "suitable",
+          "reason": "Bridge is described as having a distinctive red-painted wooden structure.",
+          "source_section": "architecture"
+        }
+      ]
+    }
+  ]
+}

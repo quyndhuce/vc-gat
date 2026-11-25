@@ -1,0 +1,455 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#central_seven_chambers> onto:surrounded_by <http://transmtl.vn/ent/bab48664> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#courtyard> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#pavilion> onto:connects <http://transmtl.vn/kb/dai_thanh_gate> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#walls> onto:on <http://transmtl.vn/ent/d37654a9> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#small_pavilion> onto:connects <http://transmtl.vn/kb/dai_thanh_gate>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#mythical_dragons> onto:with <http://transmtl.vn/ent/073caed7>,
+        <http://transmtl.vn/ent/3a885426>,
+        <http://transmtl.vn/ent/3aa7c02e> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#solemn_ceremonies> onto:dedicated_to <http://transmtl.vn/ent/f607a351> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#two_end_chambers> onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:with <http://transmtl.vn/ent/b72a2ce7> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#columns> onto:made_of <http://transmtl.vn/ent/43bda96b> ;
+    onto:part_of <http://transmtl.vn/ent/5ab06702>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#nine_chambers> onto:part_of <http://transmtl.vn/ent/5ab06702>,
+        <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/ed0aa594> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#steps> onto:leading_to <http://transmtl.vn/ent/2a20afe0> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard#roof> onto:made_of <http://transmtl.vn/ent/24af4485> ;
+    onto:part_of <http://transmtl.vn/ent/70194b40>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:has_part <http://transmtl.vn/ent/ad52d213> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard> onto:has_part <http://transmtl.vn/kb/dai_thanh_courtyard#central_seven_chambers>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#columns>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#courtyard>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#mythical_dragons>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#nine_chambers>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#pavilion>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#roof>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#small_pavilion>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#solemn_ceremonies>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#steps>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#two_end_chambers>,
+        <http://transmtl.vn/kb/dai_thanh_courtyard#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.426 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2538 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/3aa7c02e> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#mythical_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#central_seven_chambers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2838 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/b72a2ce7> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#two_end_chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#two_end_chambers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.641 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2632 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4448 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/d37654a9> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4809 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/24af4485> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8093 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#small_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2776 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/ad52d213> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#solemn_ceremonies> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#small_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3291 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/3a885426> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#mythical_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2509 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3229 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5736 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/bab48664> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#central_seven_chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#nine_chambers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.325 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.507 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3456 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#nine_chambers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6344 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/43bda96b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4262 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/24af4485> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#two_end_chambers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2646 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#nine_chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#mythical_dragons> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3775 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#nine_chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#solemn_ceremonies> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4041 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2949 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#two_end_chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2526 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/70194b40> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3548 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/f607a351> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#solemn_ceremonies> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4758 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/073caed7> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#mythical_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2909 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#small_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4658 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/ed0aa594> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#nine_chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7526 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/f607a351> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#solemn_ceremonies> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3287 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.743 ;
+    fkg:docId "doc_b1be15196e50" ;
+    fkg:kbId "dai_thanh_courtyard" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard#steps> .
+

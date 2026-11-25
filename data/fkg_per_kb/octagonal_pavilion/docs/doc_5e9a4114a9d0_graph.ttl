@@ -1,0 +1,270 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/octagonal_pavilion#base> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/kb/octagonal_pavilion#main_body> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/kb/octagonal_pavilion#roof> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/kb/octagonal_pavilion#pavilion> onto:built_in <http://transmtl.vn/ent/15231a7c> ;
+    onto:has_part <http://transmtl.vn/ent/3a393f7a>,
+        <http://transmtl.vn/ent/593616de>,
+        <http://transmtl.vn/ent/81bf8289>,
+        <http://transmtl.vn/ent/8a0e2b54> .
+
+<http://transmtl.vn/kb/octagonal_pavilion> onto:built_in <http://transmtl.vn/ent/15231a7c> ;
+    onto:has_part <http://transmtl.vn/kb/octagonal_pavilion#base>,
+        <http://transmtl.vn/kb/octagonal_pavilion#main_body>,
+        <http://transmtl.vn/kb/octagonal_pavilion#pavilion>,
+        <http://transmtl.vn/kb/octagonal_pavilion#roof> ;
+    onto:located_in <http://transmtl.vn/ent/2df1572b>,
+        <http://transmtl.vn/ent/bfc5bd41>,
+        <http://transmtl.vn/ent/d0a1c363> ;
+    onto:recognized_in <http://transmtl.vn/ent/9d7311ba> ;
+    onto:reconstructed_by <http://transmtl.vn/ent/82bc4739> ;
+    onto:reconstructed_in <http://transmtl.vn/ent/405e2890> ;
+    onto:renovated_in <http://transmtl.vn/ent/405e2890> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3683 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#main_body> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3784 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4539 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3706 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/593616de> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4443 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#main_body> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8795 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/15231a7c> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2667 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/8a0e2b54> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2603 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/82bc4739> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2515 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/d0a1c363> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.451 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/3a393f7a> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4102 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3733 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/81bf8289> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4445 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/3a393f7a> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4735 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/593616de> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4548 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/81bf8289> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4375 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4212 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/405e2890> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion#main_body> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.306 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/9d7311ba> ;
+    rdf:predicate onto:recognized_in ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3375 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/405e2890> ;
+    rdf:predicate onto:reconstructed_in ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion#main_body> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3934 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/bfc5bd41> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4571 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/15231a7c> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4282 ;
+    fkg:docId "doc_5e9a4114a9d0" ;
+    fkg:kbId "octagonal_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/2df1572b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/octagonal_pavilion> .
+

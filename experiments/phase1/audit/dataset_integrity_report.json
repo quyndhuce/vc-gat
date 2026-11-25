@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "hanoi_test_clips": 500,
+    "hcmc_ood_test_clips": 300,
+    "train_val_clips": 851,
+    "discrepancy_explanation": "The 800 evaluation clips in evaluation_clips_manifest.json partition exactly into 500 Hanoi In-Domain Test clips and 300 HCMC Out-of-Domain Test clips (500 + 300 = 800). The paper reported Hanoi Test as 500 clips and HCMC OOD Test as 300 clips separately.",
+    "source_video_level_split": true,
+    "zero_data_leakage_verified": true
+  },
+  "clip_id_overlaps": {
+    "train_val_vs_hanoi_test": 0,
+    "train_val_vs_hcmc_test": 0,
+    "hanoi_test_vs_hcmc_test": 0
+  },
+  "source_video_overlaps": {
+    "train_val_sources": 249,
+    "hanoi_test_sources": 60,
+    "hcmc_test_sources": 26,
+    "train_val_vs_hanoi_test_overlap": 0,
+    "train_val_vs_hcmc_test_overlap": 0,
+    "hanoi_test_vs_hcmc_test_overlap": 0
+  },
+  "hanoi_landmark_distribution": {
+    "Vietnam National Museum of History": 46,
+    "Vietnam Women's Museum": 46,
+    "Hoan Kiem Lake": 46,
+    "One Pillar Pagoda": 6,
+    "West Lake": 9,
+    "Thu Le Park": 46,
+    "Bat Trang Pottery Village": 46,
+    "Imperial Citadel of Thang Long": 46,
+    "Ba Dinh Square": 29,
+    "Van Phuc Silk Village": 46,
+    "Thang Long Water Puppetry Theatre": 46,
+    "Hanoi Old Quarter": 46,
+    "Temple of Literature": 42
+  },
+  "hcmc_landmark_distribution": {
+    "Ba Thien Hau Temple": 60,
+    "Ben Thanh Market": 60,
+    "Independence Palace": 60,
+    "Saigon Central Post Office": 60,
+    "Saigon Opera House": 60
+  },
+  "gold_reference_metadata": {
+    "fgold_file": "scene_conditioned_gold/outputs/fgold_test_800_clips.json",
+    "review_integration": {
+      "review_file": "fact_review_results_binary.json",
+      "review_mode": "binary",
+      "timestamp": "2026-11-19T16:43:43.102012",
+      "test_gold_counts": {
+        "đúng": 25936,
+        "sai": 7217
+      }
+    },
+    "gold_construction_independent": true,
+    "model_predictions_used_for_gold": false
+  }
+}

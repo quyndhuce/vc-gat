@@ -1,0 +1,46 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Botanical Garden)  --[founded_in]-->  ?
+  Head URI  : http://www.wikidata.org/entity/Q167346
+  Conflict K: 0.5036
+  Candidates:
+    • 1890                            Bel=0.8277  Pl=0.9149  (2 evidence)
+    • late 19th century               Bel=0.0521  Pl=0.1393  (1 evidence)
+    • 20th century                    Bel=0.0330  Pl=0.1202  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [founded_in] (Botanical Garden) → http://transmtl.vn/ent/865dfbde  Bel=0.8277  K=0.5036 ⚠ REVIEW
+  [founded_in] (historic garden) → http://transmtl.vn/ent/865dfbde  Bel=0.2259  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.9445  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Botanical Garden) → (garden)  μ_F=1.0000  (7 evidence)
+  [has_component] (Botanical Garden) → (garden)  μ_F=1.0000  (5 evidence)
+  [located_in] (Botanical Garden) → (Hanoi)  μ_F=1.0000  (12 evidence)
+  [has_part] (Botanical Garden) → (Lake Vị Danh)  μ_F=0.9905  (2 evidence)
+  [has_part] (Botanical Garden) → (main gate)  μ_F=0.9905  (2 evidence)
+  [has_component] (Botanical Garden) → (lawns)  μ_F=0.9905  (2 evidence)
+  [has_component] (Botanical Garden) → (small lake)  μ_F=0.9905  (2 evidence)
+  [has_part] (Botanical Garden) → (greenery)  μ_F=0.9025  (1 evidence)
+  [has_part] (Botanical Garden) → (historic garden)  μ_F=0.9025  (1 evidence)
+  [has_part] (Botanical Garden) → (Lake Vien Danh)  μ_F=0.9025  (1 evidence)
+  [has_part] (Botanical Garden) → (mountains)  μ_F=0.9025  (1 evidence)
+  [has_part] (Botanical Garden) → (curved roofs)  μ_F=0.9025  (1 evidence)
+  [has_component] (Botanical Garden) → (Winding paths)  μ_F=0.9025  (1 evidence)
+  [has_component] (Botanical Garden) → (Characteristic physical features)  μ_F=0.9025  (1 evidence)
+  [has_component] (Botanical Garden) → (mature shade trees)  μ_F=0.9025  (1 evidence)
+  [has_component] (Botanical Garden) → (paths)  μ_F=0.9025  (1 evidence)
+  [has_component] (Botanical Garden) → (ponds)  μ_F=0.9025  (1 evidence)
+  [has_component] (Botanical Garden) → (dense foliage)  μ_F=0.9025  (1 evidence)
+  [has_component] (Botanical Garden) → (garden paths)  μ_F=0.9025  (1 evidence)
+  [has_component] (Botanical Garden) → (mature trees)  μ_F=0.9025  (1 evidence)
+
+========================================================================

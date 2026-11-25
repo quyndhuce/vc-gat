@@ -1,0 +1,81 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/d3b17c9f> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/lake_thien_quang> onto:has_part <http://transmtl.vn/kb/lake_thien_quang#hồ_thiền_quang> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/lake_thien_quang#hồ_thiền_quang> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/64e12ab6> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.926 ;
+    fkg:docId "doc_74da3f578480" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3131 ;
+    fkg:docId "doc_74da3f578480" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang#hồ_thiền_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_74da3f578480" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/kb/lake_thien_quang#hồ_thiền_quang> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8725 ;
+    fkg:docId "doc_74da3f578480" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2855 ;
+    fkg:docId "doc_74da3f578480" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5228 ;
+    fkg:docId "doc_74da3f578480" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2915 ;
+    fkg:docId "doc_74da3f578480" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d3b17c9f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3101 ;
+    fkg:docId "doc_74da3f578480" ;
+    fkg:kbId "lake_thien_quang" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_thien_quang> .
+

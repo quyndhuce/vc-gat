@@ -1,0 +1,324 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/4d0d8638> onto:on <http://transmtl.vn/kb/dai_trung_gate> .
+
+<http://transmtl.vn/ent/67ae4b39> onto:on <http://transmtl.vn/kb/dai_trung_gate> .
+
+<http://transmtl.vn/kb/dai_trung_gate#constructed> onto:made_of <http://transmtl.vn/ent/22811dd9> .
+
+<http://transmtl.vn/kb/dai_trung_gate#gate> onto:surrounded_by <http://transmtl.vn/ent/66e2be5d> .
+
+<http://transmtl.vn/kb/dai_trung_gate#path> onto:used_as <http://transmtl.vn/ent/ca582103> .
+
+<http://transmtl.vn/kb/dai_trung_gate#sections> onto:made_of <http://transmtl.vn/ent/22811dd9> .
+
+<http://transmtl.vn/kb/dai_trung_gate#columns> onto:made_of <http://transmtl.vn/ent/22811dd9> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/dai_trung_gate#pathway> onto:leading_to <http://transmtl.vn/kb/dai_trung_gate> .
+
+<http://transmtl.vn/kb/dai_trung_gate#platform> onto:made_of <http://transmtl.vn/ent/ecfd485b> .
+
+<http://transmtl.vn/kb/dai_trung_gate#roof> onto:part_of <http://transmtl.vn/kb/dai_trung_gate>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:made_of <http://transmtl.vn/ent/22811dd9> ;
+    onto:surrounded_by <http://transmtl.vn/ent/59c8f2d1>,
+        <http://transmtl.vn/ent/d7bc306d> .
+
+<http://transmtl.vn/kb/dai_trung_gate> onto:architectural_style <http://transmtl.vn/ent/85e50e18> ;
+    onto:has_part <http://transmtl.vn/kb/dai_trung_gate#columns>,
+        <http://transmtl.vn/kb/dai_trung_gate#constructed>,
+        <http://transmtl.vn/kb/dai_trung_gate#gate>,
+        <http://transmtl.vn/kb/dai_trung_gate#path>,
+        <http://transmtl.vn/kb/dai_trung_gate#pathway>,
+        <http://transmtl.vn/kb/dai_trung_gate#platform>,
+        <http://transmtl.vn/kb/dai_trung_gate#roof>,
+        <http://transmtl.vn/kb/dai_trung_gate#sections> ;
+    onto:made_of <http://transmtl.vn/ent/22811dd9> ;
+    onto:surrounded_by <http://transmtl.vn/ent/59c8f2d1>,
+        <http://transmtl.vn/ent/d7bc306d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3784 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/22811dd9> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#sections> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#platform> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4013 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/22811dd9> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3282 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6672 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#pathway> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2558 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2916 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/22811dd9> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3178 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/67ae4b39> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2722 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/4d0d8638> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3253 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#pathway> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3807 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/22811dd9> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#constructed> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4043 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/d7bc306d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#constructed> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.334 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/ca582103> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#path> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8915 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/ecfd485b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#platform> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2542 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/59c8f2d1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#sections> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2733 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/66e2be5d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#platform> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4051 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/59c8f2d1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3497 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9407 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#pathway> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#pathway> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3684 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/22811dd9> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate#path> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4663 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9309 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/ecfd485b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate#platform> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2692 ;
+    fkg:docId "doc_522dbe0995f8" ;
+    fkg:kbId "dai_trung_gate" ;
+    rdf:object <http://transmtl.vn/ent/d7bc306d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+

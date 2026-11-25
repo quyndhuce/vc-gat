@@ -1,0 +1,723 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:located_in <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/thap_rua#curved_roof> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/thap_rua#gothic_arches> onto:architectural_style <http://transmtl.vn/ent/f1a5aa70> .
+
+<http://transmtl.vn/kb/thap_rua#lower_two_floors> onto:architectural_style <http://transmtl.vn/ent/f1a5aa70> .
+
+<http://transmtl.vn/kb/thap_rua#single_circular_door> onto:on <http://transmtl.vn/ent/0d88cf9d> .
+
+<http://transmtl.vn/kb/thap_rua#topmost_floor> onto:used_as <http://transmtl.vn/ent/958aa476> .
+
+<http://transmtl.vn/kb/thap_rua#watchtower> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/thap_rua#four_tiers> onto:part_of <http://transmtl.vn/ent/79835ea3>,
+        <http://transmtl.vn/kb/thap_rua> .
+
+<http://transmtl.vn/kb/thap_rua#lowest_floor> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/thap_rua#square_base> onto:part_of <http://transmtl.vn/ent/79835ea3>,
+        <http://transmtl.vn/kb/thap_rua> .
+
+<http://transmtl.vn/kb/thap_rua#third_floor> onto:has_part <http://transmtl.vn/ent/75158758> ;
+    onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/thap_rua#three_story_tower> onto:built_by <http://transmtl.vn/ent/fb1eaf2b> ;
+    onto:built_in <http://transmtl.vn/ent/c366c2c9> ;
+    onto:on <http://transmtl.vn/ent/4bc42fc4> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:has_part <http://transmtl.vn/ent/07f9315c>,
+        <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/thap_rua#tower> onto:architectural_style <http://transmtl.vn/ent/1f725469> ;
+    onto:built_by <http://transmtl.vn/ent/c57e2dc1>,
+        <http://transmtl.vn/ent/fb1eaf2b> ;
+    onto:built_in <http://transmtl.vn/ent/5b54e104>,
+        <http://transmtl.vn/ent/c366c2c9>,
+        <http://transmtl.vn/ent/e5fe3c72> ;
+    onto:has_part <http://transmtl.vn/ent/84b835b4>,
+        <http://transmtl.vn/ent/dc2bfea8>,
+        <http://transmtl.vn/ent/df1ecb12> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://www.wikidata.org/entity/Q1151254> ;
+    onto:on <http://transmtl.vn/ent/4bc42fc4> ;
+    onto:overlooks <http://www.wikidata.org/entity/Q1151254> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> ;
+    onto:surrounded_by <http://transmtl.vn/ent/7a9d58bd>,
+        <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/thap_rua> onto:architectural_style <http://transmtl.vn/ent/437645a9>,
+        <http://transmtl.vn/ent/7c51b534> ;
+    onto:associated_with <http://transmtl.vn/ent/13c6b9a5> ;
+    onto:built_in <http://transmtl.vn/ent/e5fe3c72> ;
+    onto:has_part <http://transmtl.vn/kb/thap_rua#curved_roof>,
+        <http://transmtl.vn/kb/thap_rua#four_tiers>,
+        <http://transmtl.vn/kb/thap_rua#gothic_arches>,
+        <http://transmtl.vn/kb/thap_rua#lower_two_floors>,
+        <http://transmtl.vn/kb/thap_rua#lowest_floor>,
+        <http://transmtl.vn/kb/thap_rua#single_circular_door>,
+        <http://transmtl.vn/kb/thap_rua#square_base>,
+        <http://transmtl.vn/kb/thap_rua#third_floor>,
+        <http://transmtl.vn/kb/thap_rua#three_story_tower>,
+        <http://transmtl.vn/kb/thap_rua#topmost_floor>,
+        <http://transmtl.vn/kb/thap_rua#tower>,
+        <http://transmtl.vn/kb/thap_rua#watchtower> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3336 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/c366c2c9> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3059 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/f1a5aa70> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#lower_two_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5138 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5552 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/5b54e104> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7537 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3464 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/958aa476> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#topmost_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#four_tiers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3638 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/e5fe3c72> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2513 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3258 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/fb1eaf2b> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3042 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#lower_two_floors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2742 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#curved_roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3974 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#third_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#third_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3285 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3397 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/c57e2dc1> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#single_circular_door> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3694 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#lowest_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3256 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5666 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/df1ecb12> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3253 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#watchtower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2707 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/75158758> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#third_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#lowest_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#three_story_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5519 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/dc2bfea8> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.422 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4628 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#lowest_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2667 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/fb1eaf2b> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3868 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/7a9d58bd> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.283 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#square_base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#four_tiers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3722 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#curved_roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3045 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/4bc42fc4> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#three_story_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.397 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/437645a9> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5932 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/df1ecb12> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5254 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3133 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/07f9315c> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#watchtower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3754 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/1f725469> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6228 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/fb1eaf2b> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#three_story_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#square_base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.293 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2813 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/84b835b4> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4014 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/7c51b534> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#square_base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4288 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/f1a5aa70> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#gothic_arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3155 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#four_tiers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3498 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#square_base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4156 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/4bc42fc4> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2555 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#four_tiers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4123 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3608 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/13c6b9a5> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2665 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/0d88cf9d> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#single_circular_door> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#topmost_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7504 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/e5fe3c72> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5749 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5384 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4424 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/c366c2c9> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#three_story_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#gothic_arches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5245 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/4bc42fc4> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5801 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#lowest_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#third_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_919ff7392274" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+

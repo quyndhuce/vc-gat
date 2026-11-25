@@ -1,0 +1,206 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/tam_quan_gate> onto:part_of <http://transmtl.vn/kb/quan_thanh_temple> .
+
+<http://transmtl.vn/ent/d5ca2b8a> onto:has_part <http://transmtl.vn/kb/quan_thanh_temple> .
+
+<http://transmtl.vn/ent/de5f4e1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/quan_thanh_temple#arches> onto:made_of <http://transmtl.vn/ent/c070ed93> .
+
+<http://transmtl.vn/kb/quan_thanh_temple#three_entrance_gate> onto:part_of <http://transmtl.vn/kb/quan_thanh_temple> .
+
+<http://transmtl.vn/kb/west_lake> onto:architectural_style <http://transmtl.vn/ent/951bc3bb> .
+
+<http://transmtl.vn/kb/quan_thanh_temple#roof> onto:architectural_style <http://transmtl.vn/ent/951bc3bb> ;
+    onto:part_of <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/quan_thanh_temple> onto:has_part <http://transmtl.vn/kb/quan_thanh_temple#arches>,
+        <http://transmtl.vn/kb/quan_thanh_temple#roof>,
+        <http://transmtl.vn/kb/quan_thanh_temple#three_entrance_gate> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:named_after <http://transmtl.vn/ent/95a95a00> ;
+    onto:part_of <http://transmtl.vn/ent/d5ca2b8a> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.343 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/de5f4e1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6081 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/quan_thanh_temple#arches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4496 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/quan_thanh_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple#three_entrance_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5347 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/951bc3bb> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6679 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2903 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/quan_thanh_temple> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/d5ca2b8a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.255 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/95a95a00> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.398 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/quan_thanh_temple#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8847 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/quan_thanh_temple#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3735 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/951bc3bb> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6652 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5397 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4192 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5107 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/d5ca2b8a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2567 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/quan_thanh_temple#three_entrance_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2535 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4444 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/ent/c070ed93> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2788 ;
+    fkg:docId "doc_0d2b1b3b5761" ;
+    fkg:kbId "quan_thanh_temple" ;
+    rdf:object <http://transmtl.vn/kb/quan_thanh_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+

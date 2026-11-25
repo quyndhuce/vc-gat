@@ -1,0 +1,392 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1c380a21> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/c7cae06f> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/le_nin_park#chi_lăng_flower_garden> onto:former_name_of <http://transmtl.vn/kb/le_nin_park> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:ruled_by <http://transmtl.vn/ent/ab648703> .
+
+<http://transmtl.vn/kb/le_nin_park#robin_flower_garden> onto:renamed_to <http://transmtl.vn/ent/3cf03ee1>,
+        <http://transmtl.vn/ent/e892651b> .
+
+<http://transmtl.vn/ent/207462d2> onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:ruled_by <http://transmtl.vn/ent/6fb98b85>,
+        <http://transmtl.vn/ent/9c4a916e>,
+        <http://transmtl.vn/ent/ab648703>,
+        <http://transmtl.vn/ent/ab8a5c95> .
+
+<http://www.wikidata.org/entity/Q1858> onto:border_with <http://transmtl.vn/ent/090e28c6>,
+        <http://transmtl.vn/ent/44894235>,
+        <http://transmtl.vn/ent/aedd0ab1>,
+        <http://transmtl.vn/ent/c0cb5f0f> ;
+    onto:built_by <http://transmtl.vn/ent/ab648703> ;
+    onto:dedicated_to <http://transmtl.vn/ent/1d0f20d9> ;
+    onto:former_name_of <http://transmtl.vn/ent/c8ecbdff>,
+        <http://transmtl.vn/kb/le_nin_park> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/32476318> ;
+    onto:renamed_to <http://transmtl.vn/ent/3cf03ee1>,
+        <http://transmtl.vn/kb/le_nin_park>,
+        <http://transmtl.vn/kb/thong_nhat_park> .
+
+<http://transmtl.vn/kb/le_nin_park> onto:border_with <http://transmtl.vn/ent/090e28c6>,
+        <http://transmtl.vn/ent/44894235>,
+        <http://transmtl.vn/ent/aedd0ab1> ;
+    onto:former_name_of <http://www.wikidata.org/entity/Q1858> ;
+    onto:has_part <http://transmtl.vn/kb/le_nin_park#chi_lăng_flower_garden>,
+        <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:near <http://transmtl.vn/ent/32476318> ;
+    onto:renamed_to <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5113 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/3cf03ee1> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6825 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/aedd0ab1> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6685 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/32476318> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5065 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/6fb98b85> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3903 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3198 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6496 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/090e28c6> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.399 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/3cf03ee1> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2969 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/aedd0ab1> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#chi_lăng_flower_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5985 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/32476318> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3217 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/44894235> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.263 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7137 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2578 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4152 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/ab648703> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8973 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.318 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3589 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/c8ecbdff> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2822 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/ab648703> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5414 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3353 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.33 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/ab8a5c95> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.475 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/1d0f20d9> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.367 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/e892651b> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4465 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#chi_lăng_flower_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3175 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/090e28c6> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3038 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/9c4a916e> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2827 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/e892651b> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#robin_flower_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3502 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3931 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/3cf03ee1> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3371 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#chi_lăng_flower_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3902 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/ab648703> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7254 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/44894235> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6357 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1c380a21> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3066 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/3cf03ee1> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2884 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c7cae06f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.656 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3149 ;
+    fkg:docId "doc_29bba534795b" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

@@ -1,0 +1,188 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/ebd556e6> onto:above <http://transmtl.vn/kb/ngoc_son_temple> ;
+    onto:over <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/calligraphy#sun> onto:over <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/calligraphy#ripples> onto:on <http://transmtl.vn/ent/d302e976>,
+        <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/calligraphy> onto:dated_to <http://transmtl.vn/ent/0ca9a195> ;
+    onto:has_part <http://transmtl.vn/kb/calligraphy#courtyard>,
+        <http://transmtl.vn/kb/calligraphy#ripples>,
+        <http://transmtl.vn/kb/calligraphy#sun> ;
+    onto:part_of <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/calligraphy#courtyard> onto:part_of <http://transmtl.vn/kb/ngoc_son_temple> ;
+    onto:surrounded_by <http://transmtl.vn/ent/25d5749e>,
+        <http://transmtl.vn/ent/f3301f2a>,
+        <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/ngoc_son_temple> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:near <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4235 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#ripples> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3095 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/ent/ebd556e6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3048 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4538 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#sun> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#ripples> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6689 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#sun> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9436 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/ent/ebd556e6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2559 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4792 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4837 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4835 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3221 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/f3301f2a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6354 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4311 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2844 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/0ca9a195> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3048 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/d302e976> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#ripples> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4764 ;
+    fkg:docId "doc_2661dd4622b7" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+

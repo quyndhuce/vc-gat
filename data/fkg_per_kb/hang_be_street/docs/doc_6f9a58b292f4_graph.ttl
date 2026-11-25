@@ -1,0 +1,220 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/49ddafa9> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/6b77ef4b> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/7d646f24> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/8e950ac9> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/08911fd9> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/8ef2f646> onto:near <http://transmtl.vn/kb/hang_be_street> ;
+    onto:on <http://transmtl.vn/kb/hang_be_street> .
+
+<http://transmtl.vn/kb/hang_be_street#dike> onto:has_part <http://transmtl.vn/ent/71e5144d> .
+
+<http://transmtl.vn/ent/9404d1a5> onto:former_name_of <http://transmtl.vn/kb/hang_be_street> .
+
+<http://transmtl.vn/kb/hang_be_street#hang_be> onto:part_of <http://transmtl.vn/ent/95734197> .
+
+<http://www.wikidata.org/entity/Q109435311> onto:former_name_of <http://transmtl.vn/kb/hang_be_street> ;
+    onto:part_of <http://transmtl.vn/kb/hang_be_street> ;
+    onto:renamed_to <http://transmtl.vn/kb/hang_be_street> .
+
+<http://transmtl.vn/kb/hang_be_street> onto:former_name_of <http://transmtl.vn/ent/9404d1a5>,
+        <http://www.wikidata.org/entity/Q109435311> ;
+    onto:has_part <http://transmtl.vn/kb/hang_be_street#dike>,
+        <http://transmtl.vn/kb/hang_be_street#hang_be> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://transmtl.vn/ent/273301a8> ;
+    onto:renamed_to <http://transmtl.vn/ent/9404d1a5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street#dike> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street#hang_be> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4034 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/273301a8> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.604 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/95734197> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street#hang_be> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3444 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/95734197> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street#hang_be> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3192 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/9404d1a5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2663 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q109435311> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2962 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q109435311> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3936 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/8ef2f646> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4467 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/6b77ef4b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3214 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7d646f24> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.422 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q109435311> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.297 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q109435311> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3156 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/49ddafa9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3934 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/08911fd9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4462 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8e950ac9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.291 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/71e5144d> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street#dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3251 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/9404d1a5> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7081 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street#hang_be> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3327 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/8ef2f646> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4303 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/08911fd9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.266 ;
+    fkg:docId "doc_6f9a58b292f4" ;
+    fkg:kbId "hang_be_street" ;
+    rdf:object <http://transmtl.vn/ent/9404d1a5> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_be_street> .
+

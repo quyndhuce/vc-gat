@@ -1,0 +1,656 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/9d4b8a4c> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/df18b256> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/c7c22313> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/water_pavilion#dragon_heads> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/kb/water_pavilion#finials> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/ent/2c2099fc> onto:belongs_to_dynasty <http://transmtl.vn/ent/7010e65e> .
+
+<http://transmtl.vn/kb/water_pavilion#foundation> onto:made_of <http://transmtl.vn/ent/fa65bdca> .
+
+<http://transmtl.vn/kb/water_pavilion#nanh> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/kb/water_pavilion#roof> onto:part_of <http://transmtl.vn/ent/227dd828> ;
+    onto:with <http://transmtl.vn/ent/023e2c8d> .
+
+<http://transmtl.vn/kb/water_pavilion#side_houses> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/kb/water_pavilion#side_rooms> onto:part_of <http://transmtl.vn/ent/227dd828>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/water_pavilion#central_hall> onto:part_of <http://transmtl.vn/ent/0d149b90>,
+        <http://transmtl.vn/ent/227dd828>,
+        <http://transmtl.vn/ent/be5d5d37> .
+
+<http://transmtl.vn/kb/water_pavilion#music_room> onto:dedicated_to <http://transmtl.vn/ent/8f163b47> ;
+    onto:part_of <http://transmtl.vn/ent/227dd828>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/water_pavilion#pavilion> onto:architectural_style <http://transmtl.vn/ent/d3d2ed6a> ;
+    onto:faces <http://transmtl.vn/ent/da4f0053> ;
+    onto:has_part <http://transmtl.vn/ent/127c6c11>,
+        <http://transmtl.vn/ent/192ed336>,
+        <http://transmtl.vn/ent/63191cac> ;
+    onto:inspired_by <http://transmtl.vn/ent/1a3ec289> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/9c2f7969> ;
+    onto:part_of <http://transmtl.vn/ent/9c2f7969> .
+
+<http://transmtl.vn/kb/water_pavilion> onto:architectural_style <http://transmtl.vn/ent/7c1ed06b>,
+        <http://transmtl.vn/ent/d3d2ed6a>,
+        <http://transmtl.vn/ent/dff1dc0a> ;
+    onto:built_by <http://transmtl.vn/ent/eb0ea0bc> ;
+    onto:built_in <http://transmtl.vn/ent/a4e3c587> ;
+    onto:has_part <http://transmtl.vn/kb/water_pavilion#central_hall>,
+        <http://transmtl.vn/kb/water_pavilion#dragon_heads>,
+        <http://transmtl.vn/kb/water_pavilion#finials>,
+        <http://transmtl.vn/kb/water_pavilion#foundation>,
+        <http://transmtl.vn/kb/water_pavilion#music_room>,
+        <http://transmtl.vn/kb/water_pavilion#nanh>,
+        <http://transmtl.vn/kb/water_pavilion#pavilion>,
+        <http://transmtl.vn/kb/water_pavilion#roof>,
+        <http://transmtl.vn/kb/water_pavilion#side_houses>,
+        <http://transmtl.vn/kb/water_pavilion#side_rooms> ;
+    onto:inspired_by <http://transmtl.vn/ent/1a3ec289> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/c7c22313> ;
+    onto:made_of <http://transmtl.vn/ent/068daf58> ;
+    onto:part_of <http://transmtl.vn/ent/2c2099fc>,
+        <http://transmtl.vn/ent/8a90c547>,
+        <http://transmtl.vn/ent/9c2f7969>,
+        <http://transmtl.vn/ent/eb0ea0bc> ;
+    onto:used_as <http://transmtl.vn/ent/a634922d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#foundation> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5667 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#music_room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3628 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c7c22313> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3918 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/7c1ed06b> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#nanh> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3739 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#side_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2619 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#central_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5387 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/0d149b90> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2839 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/a634922d> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.33 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/7010e65e> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/2c2099fc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.374 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/da4f0053> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#music_room> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#side_rooms> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#nanh> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2973 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#dragon_heads> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3927 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/1a3ec289> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#foundation> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3491 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3594 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5536 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/d3d2ed6a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3835 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/a4e3c587> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2626 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#side_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3896 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/7010e65e> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/2c2099fc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/8a90c547> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2635 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/9c2f7969> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4743 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/127c6c11> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#finials> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4594 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#nanh> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#side_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6191 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/df18b256> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.287 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#dragon_heads> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3965 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#music_room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7237 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9d4b8a4c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#central_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#music_room> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3122 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/9c2f7969> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4677 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/023e2c8d> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3435 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#nanh> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3696 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/c7c22313> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3979 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#music_room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3339 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6408 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9d4b8a4c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2952 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4756 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/d3d2ed6a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4619 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/df18b256> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3283 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/fa65bdca> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#foundation> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3546 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#finials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8945 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/fa65bdca> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#foundation> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#music_room> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4093 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/192ed336> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5391 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3234 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/2c2099fc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5373 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/a4e3c587> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3659 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/8f163b47> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#music_room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3676 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/2c2099fc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4335 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/9c2f7969> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#side_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#side_rooms> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4345 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#side_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4822 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4108 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#side_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4175 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/dff1dc0a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4793 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/1a3ec289> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4623 ;
+    fkg:docId "doc_0d2c80a34b62" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/63191cac> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#pavilion> .
+

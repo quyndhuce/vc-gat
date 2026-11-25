@@ -1,0 +1,289 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/07117fe4> onto:part_of <http://www.wikidata.org/entity/Q137258731> .
+
+<http://transmtl.vn/ent/18fa029f> onto:part_of <http://www.wikidata.org/entity/Q137258731> .
+
+<http://transmtl.vn/ent/18fb8d06> onto:part_of <http://www.wikidata.org/entity/Q137258731> .
+
+<http://transmtl.vn/ent/1af6314d> onto:part_of <http://www.wikidata.org/entity/Q137258731> .
+
+<http://transmtl.vn/ent/6d4b6296> onto:part_of <http://www.wikidata.org/entity/Q137258731> .
+
+<http://transmtl.vn/ent/abe0b0bd> onto:part_of <http://www.wikidata.org/entity/Q137258731> .
+
+<http://transmtl.vn/ent/c0cb5f0f> onto:part_of <http://www.wikidata.org/entity/Q137258731> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://www.wikidata.org/entity/Q137258731#architectural_design> onto:inspired_by <http://transmtl.vn/ent/8e2b43e1> .
+
+<http://www.wikidata.org/entity/Q137258731#block> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://www.wikidata.org/entity/Q137258731#exterior> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://www.wikidata.org/entity/Q137258731#interior> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://www.wikidata.org/entity/Q137258731#rooftop_garden> onto:part_of <http://www.wikidata.org/entity/Q137258731> .
+
+<http://transmtl.vn/ent/207462d2> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q137258731#spiral_blocks> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/ent/eb0ea0bc> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q137258731> onto:built_in <http://transmtl.vn/ent/84ddfb34> ;
+    onto:designed_by <http://transmtl.vn/ent/eed09abd> ;
+    onto:has_part <http://www.wikidata.org/entity/Q137258731#architectural_design>,
+        <http://www.wikidata.org/entity/Q137258731#block>,
+        <http://www.wikidata.org/entity/Q137258731#exterior>,
+        <http://www.wikidata.org/entity/Q137258731#interior>,
+        <http://www.wikidata.org/entity/Q137258731#rooftop_garden>,
+        <http://www.wikidata.org/entity/Q137258731#spiral_blocks> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4667 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/6d4b6296> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2679 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#spiral_blocks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4281 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/07117fe4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.264 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c0cb5f0f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#interior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2521 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#rooftop_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#exterior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.84 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3512 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4619 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/18fb8d06> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3142 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3936 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/18fa029f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#block> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2579 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eed09abd> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2916 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/8e2b43e1> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#architectural_design> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4448 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1af6314d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3246 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eed09abd> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#architectural_design> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4665 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2996 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/84ddfb34> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3943 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#block> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7698 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3929 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#spiral_blocks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#spiral_blocks> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#spiral_blocks> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2792 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#exterior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#rooftop_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3216 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#interior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.366 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/abe0b0bd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4744 ;
+    fkg:docId "doc_9a148775e91f" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+

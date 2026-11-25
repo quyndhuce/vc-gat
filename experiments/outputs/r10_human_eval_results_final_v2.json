@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "benchmark": "R10 Human Evaluation (Dual LLM Judges)",
+    "judge_1": "Qwen2.5-7B-Instruct (4-bit NF4)",
+    "judge_2": "NousResearch/Llama-2-7b-chat-hf (4-bit NF4)",
+    "evaluation_samples": 100,
+    "scale": "1-5 integer Likert scale",
+    "protocol": "Double-blind evaluation with random permutation per sample"
+  },
+  "table_r10": {
+    "factual_correctness": {
+      "vlm_rag": {
+        "mean": 3.12,
+        "std": 0.61
+      },
+      "naive": {
+        "mean": 3.77,
+        "std": 0.38
+      },
+      "ldfi_v2": {
+        "mean": 3.77,
+        "std": 0.31
+      },
+      "kendall_w": 0.309,
+      "p_raw_vs_naive": 0.7894360562901643,
+      "p_raw_vs_rag": 3.919549962764287e-13,
+      "p_holm_vs_naive": 1.0,
+      "p_holm_vs_rag": 8.022525848675502e-13
+    },
+    "scene_relevance": {
+      "vlm_rag": {
+        "mean": 3.08,
+        "std": 0.68
+      },
+      "naive": {
+        "mean": 4.04,
+        "std": 0.41
+      },
+      "ldfi_v2": {
+        "mean": 4.01,
+        "std": 0.38
+      },
+      "kendall_w": 0.274,
+      "p_raw_vs_naive": 0.5825229987581354,
+      "p_raw_vs_rag": 5.599549066743505e-15,
+      "p_holm_vs_naive": 1.0,
+      "p_holm_vs_rag": 3.3597294400461034e-14
+    },
+    "informativeness": {
+      "vlm_rag": {
+        "mean": 3.0,
+        "std": 0.59
+      },
+      "naive": {
+        "mean": 3.73,
+        "std": 0.38
+      },
+      "ldfi_v2": {
+        "mean": 3.72,
+        "std": 0.29
+      },
+      "kendall_w": 0.339,
+      "p_raw_vs_naive": 0.7756486023405831,
+      "p_raw_vs_rag": 8.556622701574338e-14,
+      "p_holm_vs_naive": 1.0,
+      "p_holm_vs_rag": 4.278311350787169e-13
+    },
+    "appropriate_specificity": {
+      "vlm_rag": {
+        "mean": 2.97,
+        "std": 0.62
+      },
+      "naive": {
+        "mean": 3.75,
+        "std": 0.37
+      },
+      "ldfi_v2": {
+        "mean": 3.75,
+        "std": 0.3
+      },
+      "kendall_w": 0.314,
+      "p_raw_vs_naive": 0.9184039165885169,
+      "p_raw_vs_rag": 9.06576285046128e-14,
+      "p_holm_vs_naive": 1.0,
+      "p_holm_vs_rag": 4.278311350787169e-13
+    },
+    "non_redundancy": {
+      "vlm_rag": {
+        "mean": 3.17,
+        "std": 0.57
+      },
+      "naive": {
+        "mean": 3.76,
+        "std": 0.38
+      },
+      "ldfi_v2": {
+        "mean": 3.76,
+        "std": 0.3
+      },
+      "kendall_w": 0.307,
+      "p_raw_vs_naive": 0.9372126439676451,
+      "p_raw_vs_rag": 1.3351696491504432e-11,
+      "p_holm_vs_naive": 1.0,
+      "p_holm_vs_rag": 1.3351696491504432e-11
+    },
+    "overall_usefulness": {
+      "vlm_rag": {
+        "mean": 2.96,
+        "std": 0.62
+      },
+      "naive": {
+        "mean": 3.73,
+        "std": 0.41
+      },
+      "ldfi_v2": {
+        "mean": 3.73,
+        "std": 0.33
+      },
+      "kendall_w": 0.334,
+      "p_raw_vs_naive": 0.9586744114825219,
+      "p_raw_vs_rag": 2.674175282891834e-13,
+      "p_holm_vs_naive": 1.0,
+      "p_holm_vs_rag": 8.022525848675502e-13
+    }
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "table_rows": [
+    {
+      "label": "Strongest path $\\mu_{\\max}$",
+      "conclusions": 332,
+      "raw_precision": 0.9518072289156626,
+      "prec_at_tau_0_1": 0.9637305699481865,
+      "admitted_concl_tau_0_1": 193,
+      "mean_support": 0.13759331927710844,
+      "dup_inflation": 0.0,
+      "runtime_ms": 0.05322163924574852
+    },
+    {
+      "label": "LDFI, $C=2$",
+      "conclusions": 332,
+      "raw_precision": 0.9518072289156626,
+      "prec_at_tau_0_1": 0.9637305699481865,
+      "admitted_concl_tau_0_1": 193,
+      "mean_support": 0.13858286749674698,
+      "dup_inflation": 0.0,
+      "runtime_ms": 0.10781795717775822
+    },
+    {
+      "label": "LDFI, $C=3$",
+      "conclusions": 332,
+      "raw_precision": 0.9518072289156626,
+      "prec_at_tau_0_1": 0.9637305699481865,
+      "admitted_concl_tau_0_1": 193,
+      "mean_support": 0.1386445699916352,
+      "dup_inflation": 0.0,
+      "runtime_ms": 0.1248754095286131
+    },
+    {
+      "label": "Unbounded lineage-disjoint",
+      "conclusions": 332,
+      "raw_precision": 0.9518072289156626,
+      "prec_at_tau_0_1": 0.9637305699481865,
+      "admitted_concl_tau_0_1": 193,
+      "mean_support": 0.1386445699916352,
+      "dup_inflation": 0.0,
+      "runtime_ms": 0.10425262153148651
+    },
+    {
+      "label": "Unrestricted $\\mu_{\\mathrm{all}}$",
+      "conclusions": 332,
+      "raw_precision": 0.9518072289156626,
+      "prec_at_tau_0_1": 0.9641025641025641,
+      "admitted_concl_tau_0_1": 195,
+      "mean_support": 0.14433862567763087,
+      "dup_inflation": 0.09294997436209063,
+      "runtime_ms": 0.07022740319371223
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "tau": 0.0,
+      "mu_max": {
+        "admitted": 332,
+        "precision": 0.9518072289156626
+      },
+      "ldfi_c2": {
+        "admitted": 332,
+        "precision": 0.9518072289156626
+      },
+      "naive": {
+        "admitted": 332,
+        "precision": 0.9518072289156626
+      }
+    },
+    {
+      "tau": 0.05,
+      "mu_max": {
+        "admitted": 249,
+        "precision": 0.9477911646586346
+      },
+      "ldfi_c2": {
+        "admitted": 249,
+        "precision": 0.9477911646586346
+      },
+      "naive": {
+        "admitted": 249,
+        "precision": 0.9477911646586346
+      }
+    },
+    {
+      "tau": 0.08,
+      "mu_max": {
+        "admitted": 206,
+        "precision": 0.9611650485436893
+      },
+      "ldfi_c2": {
+        "admitted": 206,
+        "precision": 0.9611650485436893
+      },
+      "naive": {
+        "admitted": 208,
+        "precision": 0.9615384615384616
+      }
+    },
+    {
+      "tau": 0.1,
+      "mu_max": {
+        "admitted": 193,
+        "precision": 0.9637305699481865
+      },
+      "ldfi_c2": {
+        "admitted": 193,
+        "precision": 0.9637305699481865
+      },
+      "naive": {
+        "admitted": 195,
+        "precision": 0.9641025641025641
+      }
+    },
+    {
+      "tau": 0.12,
+      "mu_max": {
+        "admitted": 167,
+        "precision": 0.9700598802395209
+      },
+      "ldfi_c2": {
+        "admitted": 168,
+        "precision": 0.9642857142857143
+      },
+      "naive": {
+        "admitted": 170,
+        "precision": 0.9647058823529412
+      }
+    },
+    {
+      "tau": 0.15,
+      "mu_max": {
+        "admitted": 139,
+        "precision": 0.9712230215827338
+      },
+      "ldfi_c2": {
+        "admitted": 139,
+        "precision": 0.9712230215827338
+      },
+      "naive": {
+        "admitted": 140,
+        "precision": 0.9714285714285714
+      }
+    },
+    {
+      "tau": 0.2,
+      "mu_max": {
+        "admitted": 90,
+        "precision": 0.9888888888888889
+      },
+      "ldfi_c2": {
+        "admitted": 90,
+        "precision": 0.9888888888888889
+      },
+      "naive": {
+        "admitted": 96,
+        "precision": 0.9895833333333334
+      }
+    }
+  ],
+  "per_rule_precision": [
+    {
+      "rule": "part_of o located_in => located_in",
+      "total": 157,
+      "valid": 148,
+      "precision": 0.9426751592356688
+    },
+    {
+      "rule": "located_in o located_in => located_in",
+      "total": 133,
+      "valid": 133,
+      "precision": 1.0
+    },
+    {
+      "rule": "renamed_to o located_in => located_in",
+      "total": 46,
+      "valid": 44,
+      "precision": 0.9565217391304348
+    },
+    {
+      "rule": "part_of o part_of => located_in",
+      "total": 9,
+      "valid": 5,
+      "precision": 0.5555555555555556
+    },
+    {
+      "rule": "on o located_in => located_in",
+      "total": 7,
+      "valid": 6,
+      "precision": 0.8571428571428571
+    },
+    {
+      "rule": "has_part o located_in => located_in",
+      "total": 5,
+      "valid": 4,
+      "precision": 0.8
+    },
+    {
+      "rule": "part_of o in => located_in",
+      "total": 3,
+      "valid": 3,
+      "precision": 1.0
+    },
+    {
+      "rule": "on o part_of => located_in",
+      "total": 2,
+      "valid": 2,
+      "precision": 1.0
+    },
+    {
+      "rule": "renamed_to o part_of => located_in",
+      "total": 2,
+      "valid": 2,
+      "precision": 1.0
+    }
+  ],
+  "audit_summary": {
+    "total_conclusions": 332,
+    "valid_conclusions": 316,
+    "overall_precision": 0.9518072289156626,
+    "multi_path_total": 23,
+    "redundant_echo_count": 18,
+    "disjoint_corroborated_count": 5
+  }
+}

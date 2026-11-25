@@ -1,0 +1,194 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/red_river#café_garden> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/red_river#first_two_levels> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/red_river#floors> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/red_river#fourth_floor> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://www.wikidata.org/entity/Q1858> onto:built_by <http://transmtl.vn/ent/355d9059>,
+        <http://transmtl.vn/ent/582b795a>,
+        <http://transmtl.vn/ent/a274398a> ;
+    onto:part_of <http://transmtl.vn/ent/a7525547> ;
+    onto:surrounded_by <http://transmtl.vn/ent/49526272> .
+
+<http://transmtl.vn/kb/red_river> onto:has_part <http://transmtl.vn/kb/red_river#café_garden>,
+        <http://transmtl.vn/kb/red_river#first_two_levels>,
+        <http://transmtl.vn/kb/red_river#floors>,
+        <http://transmtl.vn/kb/red_river#fourth_floor> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4203 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river#floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4404 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3923 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/a7525547> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2629 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/a274398a> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2852 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river#first_two_levels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5601 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/49526272> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3103 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river#café_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river#first_two_levels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4114 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3561 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.444 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/355d9059> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2903 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river#fourth_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4384 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river#café_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5214 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river#floors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2524 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river#fourth_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6201 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4001 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4213 ;
+    fkg:docId "doc_21999c5fbf5f" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

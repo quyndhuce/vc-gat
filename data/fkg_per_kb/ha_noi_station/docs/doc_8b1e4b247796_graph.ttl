@@ -1,0 +1,161 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/4c4976f8> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/c8544237> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/e8ed3f28> onto:located_in <http://transmtl.vn/ent/4f7c2964> .
+
+<http://transmtl.vn/kb/ha_noi_station#central_hall> onto:destroyed_in <http://transmtl.vn/ent/dd055f53>,
+        <http://transmtl.vn/ent/f5bab19a> ;
+    onto:part_of <http://transmtl.vn/ent/e8ed3f28> ;
+    onto:renovated_in <http://transmtl.vn/ent/dd055f53> .
+
+<http://transmtl.vn/kb/ha_noi_station> onto:built_by <http://transmtl.vn/ent/30618461> ;
+    onto:dated_to <http://transmtl.vn/ent/059fdcd9> ;
+    onto:has_part <http://transmtl.vn/kb/ha_noi_station#central_hall> ;
+    onto:leading_to <http://transmtl.vn/ent/5722b474>,
+        <http://transmtl.vn/ent/8a7d7ba2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/fa0ad1fe> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3881 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/dd055f53> ;
+    rdf:predicate onto:destroyed_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3165 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c8544237> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3625 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/f5bab19a> ;
+    rdf:predicate onto:destroyed_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#central_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2587 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4133 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/059fdcd9> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#central_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6332 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/4f7c2964> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8ed3f28> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7927 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3528 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/8a7d7ba2> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3996 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/e8ed3f28> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3075 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/30618461> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2733 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/fa0ad1fe> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4612 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/e8ed3f28> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3462 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5722b474> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2747 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/4c4976f8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3661 ;
+    fkg:docId "doc_8b1e4b247796" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/dd055f53> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#central_hall> .
+

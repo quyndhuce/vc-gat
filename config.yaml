@@ -1,0 +1,17 @@
+# Configuration for 05_theory experiments
+L: 3
+gamma_r: 0.90
+theta_M: 0.50
+theta_H: 0.80
+g: identity
+K: 5
+seed: 42
+bootstrap_resamples: 10000
+git_hash: unversioned_master_20261029
+data:
+  base_fkg: data/fkg_per_kb/fkg_global_merged.json
+  test_1119: data/caption_dataset/generated_captions_test_full_1119.jsonl
+  val_149: data/caption_dataset/generated_captions_val.jsonl
+  annotations: data/unified_coco_dataset/annotations/test_coco.json
+results_dir: results
+tables_dir: tables

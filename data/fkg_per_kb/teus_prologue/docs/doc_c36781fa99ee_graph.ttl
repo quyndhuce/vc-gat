@@ -1,0 +1,33 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/performance> onto:located_in <http://transmtl.vn/ent/fe4a271a> .
+
+<http://transmtl.vn/ent/1dfe19d0> onto:located_in <http://transmtl.vn/ent/fe4a271a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.253 ;
+    fkg:docId "doc_c36781fa99ee" ;
+    fkg:kbId "teus_prologue" ;
+    rdf:object <http://transmtl.vn/ent/fe4a271a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5797 ;
+    fkg:docId "doc_c36781fa99ee" ;
+    fkg:kbId "teus_prologue" ;
+    rdf:object <http://transmtl.vn/ent/fe4a271a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1dfe19d0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3525 ;
+    fkg:docId "doc_c36781fa99ee" ;
+    fkg:kbId "teus_prologue" ;
+    rdf:object <http://transmtl.vn/ent/fe4a271a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1dfe19d0> .
+

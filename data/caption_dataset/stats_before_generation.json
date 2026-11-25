@@ -1,0 +1,78 @@
+{
+  "total": {
+    "label": "ALL",
+    "n_samples": 1000,
+    "certainty_dist": {
+      "HIGH": 250,
+      "MEDIUM": 250,
+      "LOW": 500
+    },
+    "scenario_dist": {
+      "A_high": 250,
+      "B_medium": 250,
+      "C_ambiguous": 250,
+      "D_wrong": 250
+    },
+    "c_f_mean": 0.6115,
+    "c_f_std": 0.227,
+    "mu_L_mean": 0.6192,
+    "avg_eligible_facts": 2.39
+  },
+  "train": {
+    "label": "TRAIN",
+    "n_samples": 702,
+    "certainty_dist": {
+      "MEDIUM": 176,
+      "LOW": 350,
+      "HIGH": 176
+    },
+    "scenario_dist": {
+      "B_medium": 176,
+      "C_ambiguous": 174,
+      "A_high": 176,
+      "D_wrong": 176
+    },
+    "c_f_mean": 0.6118,
+    "c_f_std": 0.2265,
+    "mu_L_mean": 0.6212,
+    "avg_eligible_facts": 2.4
+  },
+  "val": {
+    "label": "VAL",
+    "n_samples": 149,
+    "certainty_dist": {
+      "HIGH": 37,
+      "MEDIUM": 37,
+      "LOW": 75
+    },
+    "scenario_dist": {
+      "A_high": 37,
+      "B_medium": 37,
+      "D_wrong": 37,
+      "C_ambiguous": 38
+    },
+    "c_f_mean": 0.606,
+    "c_f_std": 0.2229,
+    "mu_L_mean": 0.6149,
+    "avg_eligible_facts": 2.32
+  },
+  "test": {
+    "label": "TEST",
+    "n_samples": 149,
+    "certainty_dist": {
+      "HIGH": 37,
+      "LOW": 75,
+      "MEDIUM": 37
+    },
+    "scenario_dist": {
+      "A_high": 37,
+      "D_wrong": 37,
+      "B_medium": 37,
+      "C_ambiguous": 38
+    },
+    "c_f_mean": 0.615,
+    "c_f_std": 0.2336,
+    "mu_L_mean": 0.6139,
+    "avg_eligible_facts": 2.42
+  }
+}

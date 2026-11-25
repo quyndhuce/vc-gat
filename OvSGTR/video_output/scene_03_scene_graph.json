@@ -1,0 +1,4967 @@
+{
+  "scene_metadata": {
+    "scene_id": "scene_03",
+    "scene_index": 3,
+    "video_path": "/home/nguyendinhquy/OvSGTR/videos/cau_the_huc_full.mp4",
+    "start_frame": 237,
+    "end_frame": 422,
+    "start_seconds": 9.48,
+    "end_seconds": 16.88,
+    "duration_seconds": 7.4,
+    "num_keyframes": 3,
+    "fps": 25.0
+  },
+  "tracked_entities": [
+    {
+      "track_id": "T01",
+      "detector_label": "tree",
+      "detector_score": 0.3964,
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        283,
+        329
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            686.84,
+            15.21,
+            1390.85,
+            643.27
+          ],
+          "score": 0.3964
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            1345.74,
+            0.29,
+            1918.96,
+            669.02
+          ],
+          "score": 0.2732
+        }
+      ]
+    },
+    {
+      "track_id": "T02",
+      "detector_label": "lake",
+      "detector_score": 0.3385,
+      "siglip2_label": "lake",
+      "siglip2_concept_id": "lake",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        283,
+        329
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            943.94,
+            511.36,
+            1918.97,
+            1074.09
+          ],
+          "score": 0.3385
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            681.29,
+            474.61,
+            1918.88,
+            1075.68
+          ],
+          "score": 0.2111
+        }
+      ]
+    },
+    {
+      "track_id": "T03",
+      "detector_label": "water",
+      "detector_score": 0.3352,
+      "siglip2_label": "water",
+      "siglip2_concept_id": "water",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        283,
+        329,
+        375
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            943.94,
+            511.36,
+            1918.97,
+            1074.09
+          ],
+          "score": 0.3352
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            1.89,
+            603.13,
+            1136.53,
+            1076.15
+          ],
+          "score": 0.3037
+        },
+        {
+          "frame_idx": 375,
+          "box_2d": [
+            2.44,
+            510.83,
+            1528.29,
+            1074.48
+          ],
+          "score": 0.308
+        }
+      ]
+    },
+    {
+      "track_id": "T04",
+      "detector_label": "railing",
+      "detector_score": 0.3251,
+      "siglip2_label": "red painted wooden bridge",
+      "siglip2_concept_id": "red_wooden_bridge",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "wood",
+          "label_en": "wood",
+          "confidence": 0.448
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.9226
+        }
+      },
+      "frames_observed": [
+        283,
+        329,
+        375
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            1.53,
+            476.81,
+            1321.03,
+            1075.72
+          ],
+          "score": 0.3031
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            681.29,
+            474.61,
+            1918.88,
+            1075.68
+          ],
+          "score": 0.3251
+        },
+        {
+          "frame_idx": 375,
+          "box_2d": [
+            1078.25,
+            472.77,
+            1754.76,
+            1076.15
+          ],
+          "score": 0.2952
+        }
+      ]
+    },
+    {
+      "track_id": "T05",
+      "detector_label": "tree",
+      "detector_score": 0.2958,
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        283,
+        329
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            2.52,
+            11.04,
+            1918.77,
+            662.88
+          ],
+          "score": 0.2958
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            2.86,
+            -0.24,
+            1918.05,
+            969.89
+          ],
+          "score": 0.2505
+        }
+      ]
+    },
+    {
+      "track_id": "T06",
+      "detector_label": "bridge",
+      "detector_score": 0.2869,
+      "siglip2_label": "red painted wooden bridge",
+      "siglip2_concept_id": "red_wooden_bridge",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "wood",
+          "label_en": "wood",
+          "confidence": 0.3432
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.9065
+        }
+      },
+      "frames_observed": [
+        283,
+        329,
+        375
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            1.53,
+            476.81,
+            1321.03,
+            1075.72
+          ],
+          "score": 0.2869
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            681.29,
+            474.61,
+            1918.88,
+            1075.68
+          ],
+          "score": 0.2605
+        },
+        {
+          "frame_idx": 375,
+          "box_2d": [
+            1077.25,
+            470.87,
+            1918.84,
+            1075.39
+          ],
+          "score": 0.2385
+        }
+      ]
+    },
+    {
+      "track_id": "T07",
+      "detector_label": "railing",
+      "detector_score": 0.2771,
+      "siglip2_label": "red painted wooden bridge",
+      "siglip2_concept_id": "red_wooden_bridge",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "wood",
+          "label_en": "wood",
+          "confidence": 0.3647
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.9343
+        }
+      },
+      "frames_observed": [
+        283,
+        329
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            791.21,
+            478.88,
+            1319.63,
+            1076.02
+          ],
+          "score": 0.2771
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            1441.04,
+            477.03,
+            1919.59,
+            1074.33
+          ],
+          "score": 0.2686
+        }
+      ]
+    },
+    {
+      "track_id": "T08",
+      "detector_label": "person",
+      "detector_score": 0.2707,
+      "siglip2_label": "person",
+      "siglip2_concept_id": "person",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        283,
+        329
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            667.51,
+            464.08,
+            803.07,
+            555.9
+          ],
+          "score": 0.2707
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            1320.26,
+            464.56,
+            1462.26,
+            557.91
+          ],
+          "score": 0.2463
+        }
+      ]
+    },
+    {
+      "track_id": "T09",
+      "detector_label": "building",
+      "detector_score": 0.2614,
+      "siglip2_label": "French colonial building",
+      "siglip2_concept_id": "colonial_building",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "glass_steel",
+          "label_en": "glass and steel",
+          "confidence": 0.3521
+        },
+        "dominant_colour": {
+          "id": "white",
+          "label_en": "white",
+          "confidence": 0.6206
+        }
+      },
+      "frames_observed": [
+        283
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            1442.84,
+            318.89,
+            1717.82,
+            408.31
+          ],
+          "score": 0.2614
+        }
+      ]
+    },
+    {
+      "track_id": "T10",
+      "detector_label": "building",
+      "detector_score": 0.2463,
+      "siglip2_label": "French colonial building",
+      "siglip2_concept_id": "colonial_building",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "concrete",
+          "label_en": "concrete",
+          "confidence": 0.3239
+        },
+        "dominant_colour": {
+          "id": "white",
+          "label_en": "white",
+          "confidence": 0.7434
+        }
+      },
+      "frames_observed": [
+        283,
+        375
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            1317.07,
+            318.01,
+            1738.24,
+            454.0
+          ],
+          "score": 0.2463
+        },
+        {
+          "frame_idx": 375,
+          "box_2d": [
+            1305.94,
+            335.91,
+            1741.18,
+            544.95
+          ],
+          "score": 0.2344
+        }
+      ]
+    },
+    {
+      "track_id": "T11",
+      "detector_label": "tree",
+      "detector_score": 0.3411,
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        283,
+        329,
+        375
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            1743.09,
+            327.37,
+            1860.4,
+            522.19
+          ],
+          "score": 0.2348
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            1.4,
+            0.34,
+            624.37,
+            976.59
+          ],
+          "score": 0.2795
+        },
+        {
+          "frame_idx": 375,
+          "box_2d": [
+            1.73,
+            -0.64,
+            1020.12,
+            941.02
+          ],
+          "score": 0.3411
+        }
+      ]
+    },
+    {
+      "track_id": "T12",
+      "detector_label": "roof",
+      "detector_score": 0.228,
+      "siglip2_label": "something else",
+      "siglip2_concept_id": "bg_other",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "concrete",
+          "label_en": "concrete",
+          "confidence": 0.4564
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.3442
+        }
+      },
+      "frames_observed": [
+        283
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            461.29,
+            386.89,
+            692.3,
+            496.26
+          ],
+          "score": 0.228
+        }
+      ]
+    },
+    {
+      "track_id": "T13",
+      "detector_label": "building",
+      "detector_score": 0.2481,
+      "siglip2_label": "Vietnamese temple",
+      "siglip2_concept_id": "temple_den",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "concrete",
+          "label_en": "concrete",
+          "confidence": 0.6187
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.4547
+        }
+      },
+      "frames_observed": [
+        283,
+        329,
+        375
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            282.92,
+            344.09,
+            689.68,
+            551.22
+          ],
+          "score": 0.2156
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            961.68,
+            350.86,
+            1331.45,
+            546.0
+          ],
+          "score": 0.2481
+        },
+        {
+          "frame_idx": 375,
+          "box_2d": [
+            1708.1,
+            281.48,
+            1919.57,
+            557.05
+          ],
+          "score": 0.2479
+        }
+      ]
+    },
+    {
+      "track_id": "T14",
+      "detector_label": "lake",
+      "detector_score": 0.3251,
+      "siglip2_label": "lake",
+      "siglip2_concept_id": "lake",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        283,
+        329,
+        375
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 283,
+          "box_2d": [
+            0.49,
+            598.33,
+            443.17,
+            989.96
+          ],
+          "score": 0.202
+        },
+        {
+          "frame_idx": 329,
+          "box_2d": [
+            1.89,
+            603.13,
+            1136.53,
+            1076.15
+          ],
+          "score": 0.2962
+        },
+        {
+          "frame_idx": 375,
+          "box_2d": [
+            2.44,
+            510.83,
+            1528.29,
+            1074.48
+          ],
+          "score": 0.3251
+        }
+      ]
+    },
+    {
+      "track_id": "T15",
+      "detector_label": "gate",
+      "detector_score": 0.2011,
+      "siglip2_label": "red painted wooden bridge",
+      "siglip2_concept_id": "red_wooden_bridge",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "wood",
+          "label_en": "wood",
+          "confidence": 0.4277
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.9413
+        }
+      },
+      "frames_observed": [
+        375
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 375,
+          "box_2d": [
+            1078.25,
+            472.77,
+            1754.76,
+            1076.15
+          ],
+          "score": 0.2011
+        }
+      ]
+    }
+  ],
+  "scene_level_relations": [
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T08 (person) -> on -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.1205,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T08 (person) -> on -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.1173,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T02 (lake) -> near -> T03 (water)",
+      "max_confidence": 0.1053,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T02",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T03 (water) -> near -> T02 (lake)",
+      "max_confidence": 0.1053,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T04 (red painted wooden bridge) -> on -> T14 (lake)",
+      "max_confidence": 0.1009,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T07",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T08 (person) -> on -> T07 (red painted wooden bridge)",
+      "max_confidence": 0.1001,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T04 (red painted wooden bridge) -> on -> T03 (water)",
+      "max_confidence": 0.0982,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T02",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T08 (person) -> on -> T02 (lake)",
+      "max_confidence": 0.0942,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T02",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T07 (red painted wooden bridge) -> on -> T02 (lake)",
+      "max_confidence": 0.0935,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T07 (red painted wooden bridge) -> on -> T03 (water)",
+      "max_confidence": 0.093,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T03 (water) -> near -> T14 (lake)",
+      "max_confidence": 0.0889,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T14 (lake) -> near -> T03 (water)",
+      "max_confidence": 0.0889,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T04 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0884,
+      "frames_observed": [
+        283,
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T06 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0884,
+      "frames_observed": [
+        283,
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T11",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T11 (tree) -> above -> T14 (lake)",
+      "max_confidence": 0.0877,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T11",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T11 (tree) -> above -> T03 (water)",
+      "max_confidence": 0.0854,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T06 (red painted wooden bridge) -> on -> T14 (lake)",
+      "max_confidence": 0.0837,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T15",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T15 (red painted wooden bridge) -> on -> T14 (lake)",
+      "max_confidence": 0.0832,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T06 (red painted wooden bridge) -> on -> T03 (water)",
+      "max_confidence": 0.0815,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T15",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T15 (red painted wooden bridge) -> on -> T03 (water)",
+      "max_confidence": 0.081,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T07",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T04 (red painted wooden bridge) -> on -> T07 (red painted wooden bridge)",
+      "max_confidence": 0.08,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T02",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T04 (red painted wooden bridge) -> on -> T02 (red painted wooden bridge)",
+      "max_confidence": 0.079,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T02 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.079,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "tree",
+      "predicate": "near",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T01 (tree) -> near -> T05 (tree)",
+      "max_confidence": 0.0773,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T07 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0764,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T07",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T06 (red painted wooden bridge) -> on -> T07 (red painted wooden bridge)",
+      "max_confidence": 0.0758,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T02",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T01 (tree) -> above -> T02 (lake)",
+      "max_confidence": 0.075,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T01 (tree) -> above -> T03 (water)",
+      "max_confidence": 0.0747,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T07 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0743,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T02",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T05 (tree) -> above -> T02 (lake)",
+      "max_confidence": 0.0742,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T05 (tree) -> above -> T03 (water)",
+      "max_confidence": 0.0738,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T03 (water) -> near -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0738,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T14 (lake) -> near -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0729,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T01 (tree) -> above -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0721,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T02",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T04 (red painted wooden bridge) -> near -> T02 (lake)",
+      "max_confidence": 0.0715,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T04 (red painted wooden bridge) -> near -> T03 (water)",
+      "max_confidence": 0.0711,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T02 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0707,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T02",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T06 (red painted wooden bridge) -> on -> T02 (red painted wooden bridge)",
+      "max_confidence": 0.0707,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T02 (lake) -> near -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0702,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T01 (tree) -> above -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0701,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T07",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T02 (lake) -> near -> T07 (red painted wooden bridge)",
+      "max_confidence": 0.0697,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T02",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T06 (red painted wooden bridge) -> near -> T02 (lake)",
+      "max_confidence": 0.0695,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T07",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T03 (water) -> near -> T07 (red painted wooden bridge)",
+      "max_confidence": 0.0694,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T06 (red painted wooden bridge) -> near -> T03 (water)",
+      "max_confidence": 0.0692,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T01",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T05 (tree) -> above -> T01 (tree)",
+      "max_confidence": 0.0689,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T11",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T14 (lake) -> near -> T11 (tree)",
+      "max_confidence": 0.0684,
+      "frames_observed": [
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T02 (lake) -> near -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0683,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T03 (water) -> near -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.068,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T02 (red painted wooden bridge) -> on -> T03 (water)",
+      "max_confidence": 0.0674,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T15",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T15 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0672,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T15",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T04 (red painted wooden bridge) -> on -> T15 (red painted wooden bridge)",
+      "max_confidence": 0.0672,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T15",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T15 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0672,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T11",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T03 (water) -> near -> T11 (tree)",
+      "max_confidence": 0.0666,
+      "frames_observed": [
+        283,
+        329,
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T02 (red painted wooden bridge) -> on -> T14 (lake)",
+      "max_confidence": 0.0666,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T14 (lake) -> near -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0659,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T05 (tree) -> above -> T14 (lake)",
+      "max_confidence": 0.0654,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T05 (tree) -> above -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0652,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T04 (red painted wooden bridge) -> near -> T01 (tree)",
+      "max_confidence": 0.0651,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T02 (lake) -> near -> T01 (tree)",
+      "max_confidence": 0.0649,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T03 (water) -> near -> T01 (tree)",
+      "max_confidence": 0.0646,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T11",
+      "subject_siglip2_label": "tree",
+      "predicate": "on",
+      "object_track_id": "T02",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T11 (tree) -> on -> T02 (lake)",
+      "max_confidence": 0.0646,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T07",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T02 (red painted wooden bridge) -> on -> T07 (red painted wooden bridge)",
+      "max_confidence": 0.0644,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T11",
+      "subject_siglip2_label": "tree",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T11 (tree) -> on -> T03 (water)",
+      "max_confidence": 0.0643,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T06 (red painted wooden bridge) -> near -> T01 (tree)",
+      "max_confidence": 0.0634,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T05 (tree) -> above -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0634,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T09",
+      "subject_siglip2_label": "French colonial building",
+      "predicate": "above",
+      "object_track_id": "T10",
+      "object_siglip2_label": "French colonial building",
+      "refined_triple": "T09 (French colonial building) -> above -> T10 (French colonial building)",
+      "max_confidence": 0.0629,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T02 (lake) -> near -> T05 (tree)",
+      "max_confidence": 0.0614,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T08",
+      "object_siglip2_label": "person",
+      "refined_triple": "T04 (red painted wooden bridge) -> on -> T08 (person)",
+      "max_confidence": 0.0614,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "on",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T14 (lake) -> on -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0613,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T03 (water) -> near -> T05 (tree)",
+      "max_confidence": 0.0611,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T10",
+      "object_siglip2_label": "French colonial building",
+      "refined_triple": "T05 (tree) -> above -> T10 (French colonial building)",
+      "max_confidence": 0.0608,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T08 (person) -> on -> T03 (water)",
+      "max_confidence": 0.0606,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T08",
+      "object_siglip2_label": "person",
+      "refined_triple": "T06 (red painted wooden bridge) -> on -> T08 (person)",
+      "max_confidence": 0.0597,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "on",
+      "object_track_id": "T04",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T03 (water) -> on -> T04 (red painted wooden bridge)",
+      "max_confidence": 0.0596,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T02",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T14 (lake) -> near -> T02 (red painted wooden bridge)",
+      "max_confidence": 0.0588,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T03",
+      "object_siglip2_label": "water",
+      "refined_triple": "T07 (red painted wooden bridge) -> near -> T03 (water)",
+      "max_confidence": 0.0583,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T09",
+      "object_siglip2_label": "French colonial building",
+      "refined_triple": "T05 (tree) -> above -> T09 (French colonial building)",
+      "max_confidence": 0.0582,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T07 (red painted wooden bridge) -> near -> T14 (lake)",
+      "max_confidence": 0.0575,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T15",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T06 (red painted wooden bridge) -> on -> T15 (red painted wooden bridge)",
+      "max_confidence": 0.0573,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "on",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T14 (lake) -> on -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0566,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T04 (red painted wooden bridge) -> near -> T14 (lake)",
+      "max_confidence": 0.0563,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T10",
+      "object_siglip2_label": "French colonial building",
+      "refined_triple": "T01 (tree) -> above -> T10 (French colonial building)",
+      "max_confidence": 0.0562,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T11",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T02 (lake) -> near -> T11 (tree)",
+      "max_confidence": 0.0553,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "on",
+      "object_track_id": "T06",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T03 (water) -> on -> T06 (red painted wooden bridge)",
+      "max_confidence": 0.0551,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T06 (red painted wooden bridge) -> near -> T14 (lake)",
+      "max_confidence": 0.0548,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T11",
+      "subject_siglip2_label": "tree",
+      "predicate": "near",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T11 (tree) -> near -> T05 (tree)",
+      "max_confidence": 0.0545,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T10",
+      "subject_siglip2_label": "French colonial building",
+      "predicate": "above",
+      "object_track_id": "T09",
+      "object_siglip2_label": "French colonial building",
+      "refined_triple": "T10 (French colonial building) -> above -> T09 (French colonial building)",
+      "max_confidence": 0.0543,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T13",
+      "object_siglip2_label": "Vietnamese temple",
+      "refined_triple": "T05 (tree) -> above -> T13 (Vietnamese temple)",
+      "max_confidence": 0.0543,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "tree",
+      "predicate": "above",
+      "object_track_id": "T07",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T01 (tree) -> above -> T07 (red painted wooden bridge)",
+      "max_confidence": 0.0541,
+      "frames_observed": [
+        283,
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T04 (red painted wooden bridge) -> on -> T05 (tree)",
+      "max_confidence": 0.0538,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T08 (person) -> on -> T01 (tree)",
+      "max_confidence": 0.0529,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T10",
+      "object_siglip2_label": "French colonial building",
+      "refined_triple": "T02 (lake) -> near -> T10 (French colonial building)",
+      "max_confidence": 0.0525,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "water",
+      "predicate": "near",
+      "object_track_id": "T10",
+      "object_siglip2_label": "French colonial building",
+      "refined_triple": "T03 (water) -> near -> T10 (French colonial building)",
+      "max_confidence": 0.0522,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T04 (red painted wooden bridge) -> near -> T05 (tree)",
+      "max_confidence": 0.0519,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "on",
+      "object_track_id": "T15",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T14 (lake) -> on -> T15 (red painted wooden bridge)",
+      "max_confidence": 0.0506,
+      "frames_observed": [
+        375
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "near",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T06 (red painted wooden bridge) -> near -> T05 (tree)",
+      "max_confidence": 0.0505,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T11",
+      "subject_siglip2_label": "tree",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T11 (tree) -> on -> T01 (tree)",
+      "max_confidence": 0.0503,
+      "frames_observed": [
+        283
+      ]
+    },
+    {
+      "subject_track_id": "T08",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T14",
+      "object_siglip2_label": "lake",
+      "refined_triple": "T08 (person) -> on -> T14 (lake)",
+      "max_confidence": 0.0503,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "near",
+      "object_track_id": "T01",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T05 (tree) -> near -> T01 (tree)",
+      "max_confidence": 0.0501,
+      "frames_observed": [
+        329
+      ]
+    },
+    {
+      "subject_track_id": "T14",
+      "subject_siglip2_label": "lake",
+      "predicate": "near",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T14 (lake) -> near -> T05 (tree)",
+      "max_confidence": 0.05,
+      "frames_observed": [
+        329
+      ]
+    }
+  ],
+  "keyframes": [
+    {
+      "frame_idx": 283,
+      "timestamp_sec": 11.32,
+      "image_path": "video_output/scene_03/frame_000283.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            686.84,
+            15.21,
+            1390.85,
+            643.27
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.3964,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            943.94,
+            511.36,
+            1918.97,
+            1074.09
+          ],
+          "detector_label": "lake",
+          "detector_score": 0.3385,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "lake",
+          "siglip2_concept_id": "lake",
+          "refined_concept": {
+            "id": "lake",
+            "label_en": "lake",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            943.94,
+            511.36,
+            1918.97,
+            1074.09
+          ],
+          "detector_label": "water",
+          "detector_score": 0.3352,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "water",
+          "siglip2_concept_id": "water",
+          "refined_concept": {
+            "id": "water",
+            "label_en": "water",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            1.53,
+            476.81,
+            1321.03,
+            1075.72
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.3031,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9168,
+            "runner_up": {
+              "id": "covered_bridge",
+              "label_en": "covered wooden bridge",
+              "siglip2_confidence": 0.042
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.3432
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9065
+            }
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            2.52,
+            11.04,
+            1918.77,
+            662.88
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2958,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T05"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            1.53,
+            476.81,
+            1321.03,
+            1075.72
+          ],
+          "detector_label": "bridge",
+          "detector_score": 0.2869,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9168,
+            "runner_up": {
+              "id": "covered_bridge",
+              "label_en": "covered wooden bridge",
+              "siglip2_confidence": 0.042
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.3432
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9065
+            }
+          },
+          "track_id": "T06"
+        },
+        {
+          "node_idx": 6,
+          "orig_idx": 6,
+          "box_2d": [
+            791.21,
+            478.88,
+            1319.63,
+            1076.02
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2771,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9641,
+            "runner_up": {
+              "id": "monkey_bridge",
+              "label_en": "single-plank footbridge",
+              "siglip2_confidence": 0.0246
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.3647
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9343
+            }
+          },
+          "track_id": "T07"
+        },
+        {
+          "node_idx": 7,
+          "orig_idx": 7,
+          "box_2d": [
+            667.51,
+            464.08,
+            803.07,
+            555.9
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2707,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T08"
+        },
+        {
+          "node_idx": 8,
+          "orig_idx": 8,
+          "box_2d": [
+            1442.84,
+            318.89,
+            1717.82,
+            408.31
+          ],
+          "detector_label": "building",
+          "detector_score": 0.2614,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "French colonial building",
+          "siglip2_concept_id": "colonial_building",
+          "refined_concept": {
+            "id": "colonial_building",
+            "label_en": "French colonial building",
+            "description": "a yellow colonial building with shutters and balconies",
+            "group": "imperial_and_civic_architecture",
+            "siglip2_confidence": 0.7811,
+            "runner_up": {
+              "id": "opera_house_facade",
+              "label_en": "neoclassical opera house facade",
+              "siglip2_confidence": 0.0454
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "glass_steel",
+              "label_en": "glass and steel",
+              "confidence": 0.3521
+            },
+            "dominant_colour": {
+              "id": "white",
+              "label_en": "white",
+              "confidence": 0.6206
+            }
+          },
+          "track_id": "T09"
+        },
+        {
+          "node_idx": 9,
+          "orig_idx": 9,
+          "box_2d": [
+            1317.07,
+            318.01,
+            1738.24,
+            454.0
+          ],
+          "detector_label": "building",
+          "detector_score": 0.2463,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "French colonial building",
+          "siglip2_concept_id": "colonial_building",
+          "refined_concept": {
+            "id": "colonial_building",
+            "label_en": "French colonial building",
+            "description": "a yellow colonial building with shutters and balconies",
+            "group": "imperial_and_civic_architecture",
+            "siglip2_confidence": 0.5649,
+            "runner_up": {
+              "id": "apartment_block_old",
+              "label_en": "old apartment block",
+              "siglip2_confidence": 0.1622
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.3239
+            },
+            "dominant_colour": {
+              "id": "white",
+              "label_en": "white",
+              "confidence": 0.7434
+            }
+          },
+          "track_id": "T10"
+        },
+        {
+          "node_idx": 10,
+          "orig_idx": 10,
+          "box_2d": [
+            1743.09,
+            327.37,
+            1860.4,
+            522.19
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2348,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T11"
+        },
+        {
+          "node_idx": 11,
+          "orig_idx": 11,
+          "box_2d": [
+            461.29,
+            386.89,
+            692.3,
+            496.26
+          ],
+          "detector_label": "roof",
+          "detector_score": 0.228,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "something else",
+          "siglip2_concept_id": "bg_other",
+          "refined_concept": {
+            "id": "bg_other",
+            "label_en": "something else",
+            "description": "an unrelated object",
+            "group": "background",
+            "siglip2_confidence": 0.0795,
+            "runner_up": {
+              "id": "water_puppet_stage",
+              "label_en": "puppet stage over water",
+              "siglip2_confidence": 0.0775
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.4564
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.3442
+            }
+          },
+          "track_id": "T12"
+        },
+        {
+          "node_idx": 12,
+          "orig_idx": 12,
+          "box_2d": [
+            282.92,
+            344.09,
+            689.68,
+            551.22
+          ],
+          "detector_label": "building",
+          "detector_score": 0.2156,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.5455,
+            "runner_up": {
+              "id": "pagoda",
+              "label_en": "Buddhist pagoda",
+              "siglip2_confidence": 0.2461
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.6375
+            },
+            "dominant_colour": {
+              "id": "white",
+              "label_en": "white",
+              "confidence": 0.4233
+            }
+          },
+          "track_id": "T13"
+        },
+        {
+          "node_idx": 13,
+          "orig_idx": 13,
+          "box_2d": [
+            0.49,
+            598.33,
+            443.17,
+            989.96
+          ],
+          "detector_label": "lake",
+          "detector_score": 0.202,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "lake",
+          "siglip2_concept_id": "lake",
+          "refined_concept": {
+            "id": "lake",
+            "label_en": "lake",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T14"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.1205,
+          "rel_score": 0.4208,
+          "detector_triple": "T08 (person) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.1173,
+          "rel_score": 0.4208,
+          "detector_triple": "T08 (person) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.1053,
+          "rel_score": 0.3125,
+          "detector_triple": "T02 (lake) -> near -> T03 (water)",
+          "siglip2_refined_triple": "T02 (lake) -> near -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T02",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.1053,
+          "rel_score": 0.3125,
+          "detector_triple": "T03 (water) -> near -> T02 (lake)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T02 (lake)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0935,
+          "rel_score": 0.3052,
+          "detector_triple": "T07 (railing) -> on -> T02 (lake)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T02 (lake)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.093,
+          "rel_score": 0.3052,
+          "detector_triple": "T07 (railing) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0884,
+          "rel_score": 0.2998,
+          "detector_triple": "T04 (railing) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0884,
+          "rel_score": 0.2998,
+          "detector_triple": "T06 (bridge) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0848,
+          "rel_score": 0.3097,
+          "detector_triple": "T08 (person) -> on -> T07 (railing)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0779,
+          "rel_score": 0.2688,
+          "detector_triple": "T04 (railing) -> on -> T07 (railing)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0773,
+          "rel_score": 0.2256,
+          "detector_triple": "T01 (tree) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T01 (tree) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0764,
+          "rel_score": 0.2636,
+          "detector_triple": "T07 (railing) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0758,
+          "rel_score": 0.2688,
+          "detector_triple": "T06 (bridge) -> on -> T07 (railing)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T02",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.075,
+          "rel_score": 0.2048,
+          "detector_triple": "T01 (tree) -> above -> T02 (lake)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T02 (lake)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0747,
+          "rel_score": 0.2048,
+          "detector_triple": "T01 (tree) -> above -> T03 (water)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0743,
+          "rel_score": 0.2636,
+          "detector_triple": "T07 (railing) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T02",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0742,
+          "rel_score": 0.2344,
+          "detector_triple": "T05 (tree) -> above -> T02 (lake)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T02 (lake)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0738,
+          "rel_score": 0.2344,
+          "detector_triple": "T05 (tree) -> above -> T03 (water)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0721,
+          "rel_score": 0.2079,
+          "detector_triple": "T01 (tree) -> above -> T04 (railing)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T02",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0715,
+          "rel_score": 0.2232,
+          "detector_triple": "T04 (railing) -> near -> T02 (lake)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> near -> T02 (lake)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0711,
+          "rel_score": 0.2232,
+          "detector_triple": "T04 (railing) -> near -> T03 (water)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> near -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0702,
+          "rel_score": 0.2192,
+          "detector_triple": "T02 (lake) -> near -> T04 (railing)",
+          "siglip2_refined_triple": "T02 (lake) -> near -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0701,
+          "rel_score": 0.2079,
+          "detector_triple": "T01 (tree) -> above -> T06 (bridge)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0699,
+          "rel_score": 0.2192,
+          "detector_triple": "T03 (water) -> near -> T04 (railing)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0697,
+          "rel_score": 0.2276,
+          "detector_triple": "T02 (lake) -> near -> T07 (railing)",
+          "siglip2_refined_triple": "T02 (lake) -> near -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T02",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0695,
+          "rel_score": 0.2232,
+          "detector_triple": "T06 (bridge) -> near -> T02 (lake)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> near -> T02 (lake)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0694,
+          "rel_score": 0.2276,
+          "detector_triple": "T03 (water) -> near -> T07 (railing)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0692,
+          "rel_score": 0.2232,
+          "detector_triple": "T06 (bridge) -> near -> T03 (water)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> near -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0689,
+          "rel_score": 0.2013,
+          "detector_triple": "T05 (tree) -> above -> T01 (tree)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T01 (tree)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0683,
+          "rel_score": 0.2192,
+          "detector_triple": "T02 (lake) -> near -> T06 (bridge)",
+          "siglip2_refined_triple": "T02 (lake) -> near -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.068,
+          "rel_score": 0.2192,
+          "detector_triple": "T03 (water) -> near -> T06 (bridge)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0677,
+          "rel_score": 0.2736,
+          "detector_triple": "T14 (lake) -> near -> T04 (railing)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0659,
+          "rel_score": 0.2736,
+          "detector_triple": "T14 (lake) -> near -> T06 (bridge)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0652,
+          "rel_score": 0.2176,
+          "detector_triple": "T05 (tree) -> above -> T04 (railing)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0651,
+          "rel_score": 0.188,
+          "detector_triple": "T04 (railing) -> near -> T01 (tree)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> near -> T01 (tree)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0649,
+          "rel_score": 0.1771,
+          "detector_triple": "T02 (lake) -> near -> T01 (tree)",
+          "siglip2_refined_triple": "T02 (lake) -> near -> T01 (tree)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0646,
+          "rel_score": 0.1771,
+          "detector_triple": "T03 (water) -> near -> T01 (tree)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T01 (tree)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0646,
+          "rel_score": 0.2293,
+          "detector_triple": "T11 (tree) -> on -> T02 (lake)",
+          "siglip2_refined_triple": "T11 (tree) -> on -> T02 (lake)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0643,
+          "rel_score": 0.2293,
+          "detector_triple": "T11 (tree) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T11 (tree) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0634,
+          "rel_score": 0.188,
+          "detector_triple": "T06 (bridge) -> near -> T01 (tree)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> near -> T01 (tree)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0634,
+          "rel_score": 0.2176,
+          "detector_triple": "T05 (tree) -> above -> T06 (bridge)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T09",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "French colonial building",
+          "predicate": "above",
+          "object_track_id": "T10",
+          "object_detector_label": "building",
+          "object_siglip2_label": "French colonial building",
+          "confidence": 0.0629,
+          "rel_score": 0.2479,
+          "detector_triple": "T09 (building) -> above -> T10 (building)",
+          "siglip2_refined_triple": "T09 (French colonial building) -> above -> T10 (French colonial building)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0614,
+          "rel_score": 0.1941,
+          "detector_triple": "T02 (lake) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T02 (lake) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T08",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0614,
+          "rel_score": 0.2142,
+          "detector_triple": "T04 (railing) -> on -> T08 (person)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T08 (person)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0611,
+          "rel_score": 0.1941,
+          "detector_triple": "T03 (water) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0609,
+          "rel_score": 0.201,
+          "detector_triple": "T08 (person) -> on -> T02 (lake)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T02 (lake)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T10",
+          "object_detector_label": "building",
+          "object_siglip2_label": "French colonial building",
+          "confidence": 0.0608,
+          "rel_score": 0.2253,
+          "detector_triple": "T05 (tree) -> above -> T10 (building)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T10 (French colonial building)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0606,
+          "rel_score": 0.201,
+          "detector_triple": "T08 (person) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T08",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0597,
+          "rel_score": 0.2142,
+          "detector_triple": "T06 (bridge) -> on -> T08 (person)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T08 (person)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T09",
+          "object_detector_label": "building",
+          "object_siglip2_label": "French colonial building",
+          "confidence": 0.0582,
+          "rel_score": 0.2094,
+          "detector_triple": "T05 (tree) -> above -> T09 (building)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T09 (French colonial building)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0563,
+          "rel_score": 0.2276,
+          "detector_triple": "T04 (railing) -> near -> T14 (lake)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> near -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T10",
+          "object_detector_label": "building",
+          "object_siglip2_label": "French colonial building",
+          "confidence": 0.0562,
+          "rel_score": 0.1799,
+          "detector_triple": "T01 (tree) -> above -> T10 (building)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T10 (French colonial building)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T11",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0553,
+          "rel_score": 0.1963,
+          "detector_triple": "T02 (lake) -> near -> T11 (tree)",
+          "siglip2_refined_triple": "T02 (lake) -> near -> T11 (tree)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T11",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0551,
+          "rel_score": 0.1963,
+          "detector_triple": "T03 (water) -> near -> T11 (tree)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T11 (tree)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0548,
+          "rel_score": 0.2276,
+          "detector_triple": "T06 (bridge) -> near -> T14 (lake)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> near -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0545,
+          "rel_score": 0.2069,
+          "detector_triple": "T11 (tree) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T11 (tree) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T10",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "French colonial building",
+          "predicate": "above",
+          "object_track_id": "T09",
+          "object_detector_label": "building",
+          "object_siglip2_label": "French colonial building",
+          "confidence": 0.0543,
+          "rel_score": 0.2141,
+          "detector_triple": "T10 (building) -> above -> T09 (building)",
+          "siglip2_refined_triple": "T10 (French colonial building) -> above -> T09 (French colonial building)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T13",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.0543,
+          "rel_score": 0.2149,
+          "detector_triple": "T05 (tree) -> above -> T13 (building)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T13 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0541,
+          "rel_score": 0.1631,
+          "detector_triple": "T01 (tree) -> above -> T07 (railing)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0529,
+          "rel_score": 0.1616,
+          "detector_triple": "T08 (person) -> on -> T01 (tree)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T01 (tree)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T10",
+          "object_detector_label": "building",
+          "object_siglip2_label": "French colonial building",
+          "confidence": 0.0525,
+          "rel_score": 0.1816,
+          "detector_triple": "T02 (lake) -> near -> T10 (building)",
+          "siglip2_refined_triple": "T02 (lake) -> near -> T10 (French colonial building)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T10",
+          "object_detector_label": "building",
+          "object_siglip2_label": "French colonial building",
+          "confidence": 0.0522,
+          "rel_score": 0.1816,
+          "detector_triple": "T03 (water) -> near -> T10 (building)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T10 (French colonial building)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0519,
+          "rel_score": 0.1732,
+          "detector_triple": "T04 (railing) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0505,
+          "rel_score": 0.1732,
+          "detector_triple": "T06 (bridge) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0503,
+          "rel_score": 0.1647,
+          "detector_triple": "T11 (tree) -> on -> T01 (tree)",
+          "siglip2_refined_triple": "T11 (tree) -> on -> T01 (tree)"
+        }
+      ]
+    },
+    {
+      "frame_idx": 329,
+      "timestamp_sec": 13.16,
+      "image_path": "video_output/scene_03/frame_000329.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            681.29,
+            474.61,
+            1918.88,
+            1075.68
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.3251,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9371,
+            "runner_up": {
+              "id": "covered_bridge",
+              "label_en": "covered wooden bridge",
+              "siglip2_confidence": 0.0339
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.448
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9226
+            }
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            1.89,
+            603.13,
+            1136.53,
+            1076.15
+          ],
+          "detector_label": "water",
+          "detector_score": 0.3037,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "water",
+          "siglip2_concept_id": "water",
+          "refined_concept": {
+            "id": "water",
+            "label_en": "water",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            1.89,
+            603.13,
+            1136.53,
+            1076.15
+          ],
+          "detector_label": "lake",
+          "detector_score": 0.2962,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "lake",
+          "siglip2_concept_id": "lake",
+          "refined_concept": {
+            "id": "lake",
+            "label_en": "lake",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T14"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            1.4,
+            0.34,
+            624.37,
+            976.59
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2795,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T11"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1345.74,
+            0.29,
+            1918.96,
+            669.02
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2732,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            1441.04,
+            477.03,
+            1919.59,
+            1074.33
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2686,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9813,
+            "runner_up": {
+              "id": "monkey_bridge",
+              "label_en": "single-plank footbridge",
+              "siglip2_confidence": 0.0106
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.3358
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9553
+            }
+          },
+          "track_id": "T07"
+        },
+        {
+          "node_idx": 6,
+          "orig_idx": 6,
+          "box_2d": [
+            681.29,
+            474.61,
+            1918.88,
+            1075.68
+          ],
+          "detector_label": "bridge",
+          "detector_score": 0.2605,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9371,
+            "runner_up": {
+              "id": "covered_bridge",
+              "label_en": "covered wooden bridge",
+              "siglip2_confidence": 0.0339
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.448
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9226
+            }
+          },
+          "track_id": "T06"
+        },
+        {
+          "node_idx": 7,
+          "orig_idx": 7,
+          "box_2d": [
+            2.86,
+            -0.24,
+            1918.05,
+            969.89
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2505,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T05"
+        },
+        {
+          "node_idx": 8,
+          "orig_idx": 8,
+          "box_2d": [
+            961.68,
+            350.86,
+            1331.45,
+            546.0
+          ],
+          "detector_label": "building",
+          "detector_score": 0.2481,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.5299,
+            "runner_up": {
+              "id": "pagoda",
+              "label_en": "Buddhist pagoda",
+              "siglip2_confidence": 0.2293
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.6187
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.4547
+            }
+          },
+          "track_id": "T13"
+        },
+        {
+          "node_idx": 9,
+          "orig_idx": 9,
+          "box_2d": [
+            1320.26,
+            464.56,
+            1462.26,
+            557.91
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2463,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T08"
+        },
+        {
+          "node_idx": 10,
+          "orig_idx": 10,
+          "box_2d": [
+            681.29,
+            474.61,
+            1918.88,
+            1075.68
+          ],
+          "detector_label": "gate",
+          "detector_score": 0.2111,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9371,
+            "runner_up": {
+              "id": "covered_bridge",
+              "label_en": "covered wooden bridge",
+              "siglip2_confidence": 0.0339
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.448
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9226
+            }
+          },
+          "track_id": "T02"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.1169,
+          "rel_score": 0.413,
+          "detector_triple": "T08 (person) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.1046,
+          "rel_score": 0.413,
+          "detector_triple": "T08 (person) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.1001,
+          "rel_score": 0.3893,
+          "detector_triple": "T08 (person) -> on -> T07 (railing)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0942,
+          "rel_score": 0.413,
+          "detector_triple": "T08 (person) -> on -> T02 (gate)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T02 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0877,
+          "rel_score": 0.3014,
+          "detector_triple": "T04 (railing) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0877,
+          "rel_score": 0.3014,
+          "detector_triple": "T06 (bridge) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0836,
+          "rel_score": 0.2662,
+          "detector_triple": "T04 (railing) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0826,
+          "rel_score": 0.2662,
+          "detector_triple": "T04 (railing) -> on -> T14 (lake)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0821,
+          "rel_score": 0.2737,
+          "detector_triple": "T03 (water) -> near -> T14 (lake)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0821,
+          "rel_score": 0.2737,
+          "detector_triple": "T14 (lake) -> near -> T03 (water)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.08,
+          "rel_score": 0.2706,
+          "detector_triple": "T04 (railing) -> on -> T07 (railing)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.079,
+          "rel_score": 0.3014,
+          "detector_triple": "T04 (railing) -> on -> T02 (gate)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T02 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.079,
+          "rel_score": 0.3014,
+          "detector_triple": "T02 (gate) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T02 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0751,
+          "rel_score": 0.2542,
+          "detector_triple": "T07 (railing) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0749,
+          "rel_score": 0.2662,
+          "detector_triple": "T06 (bridge) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.074,
+          "rel_score": 0.2662,
+          "detector_triple": "T06 (bridge) -> on -> T14 (lake)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0738,
+          "rel_score": 0.235,
+          "detector_triple": "T03 (water) -> near -> T04 (railing)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0729,
+          "rel_score": 0.235,
+          "detector_triple": "T14 (lake) -> near -> T04 (railing)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0716,
+          "rel_score": 0.2706,
+          "detector_triple": "T06 (bridge) -> on -> T07 (railing)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0707,
+          "rel_score": 0.3014,
+          "detector_triple": "T02 (gate) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T02 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0707,
+          "rel_score": 0.3014,
+          "detector_triple": "T06 (bridge) -> on -> T02 (gate)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T02 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0684,
+          "rel_score": 0.2348,
+          "detector_triple": "T11 (tree) -> above -> T03 (water)",
+          "siglip2_refined_triple": "T11 (tree) -> above -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0676,
+          "rel_score": 0.2348,
+          "detector_triple": "T11 (tree) -> above -> T14 (lake)",
+          "siglip2_refined_triple": "T11 (tree) -> above -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0674,
+          "rel_score": 0.2662,
+          "detector_triple": "T02 (gate) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T02 (red painted wooden bridge) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0672,
+          "rel_score": 0.2542,
+          "detector_triple": "T07 (railing) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0666,
+          "rel_score": 0.2662,
+          "detector_triple": "T02 (gate) -> on -> T14 (lake)",
+          "siglip2_refined_triple": "T02 (red painted wooden bridge) -> on -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0662,
+          "rel_score": 0.2401,
+          "detector_triple": "T05 (tree) -> above -> T03 (water)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0661,
+          "rel_score": 0.235,
+          "detector_triple": "T03 (water) -> near -> T06 (bridge)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0654,
+          "rel_score": 0.2401,
+          "detector_triple": "T05 (tree) -> above -> T14 (lake)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0653,
+          "rel_score": 0.235,
+          "detector_triple": "T14 (lake) -> near -> T06 (bridge)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0644,
+          "rel_score": 0.2706,
+          "detector_triple": "T02 (gate) -> on -> T07 (railing)",
+          "siglip2_refined_triple": "T02 (red painted wooden bridge) -> on -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0616,
+          "rel_score": 0.2158,
+          "detector_triple": "T05 (tree) -> above -> T04 (railing)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T11",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0614,
+          "rel_score": 0.2107,
+          "detector_triple": "T03 (water) -> near -> T11 (tree)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T11 (tree)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T11",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0606,
+          "rel_score": 0.2107,
+          "detector_triple": "T14 (lake) -> near -> T11 (tree)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T11 (tree)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0605,
+          "rel_score": 0.2542,
+          "detector_triple": "T07 (railing) -> on -> T02 (gate)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T02 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0597,
+          "rel_score": 0.2003,
+          "detector_triple": "T01 (tree) -> above -> T04 (railing)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T02",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0595,
+          "rel_score": 0.235,
+          "detector_triple": "T03 (water) -> near -> T02 (gate)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T02 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T02",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0588,
+          "rel_score": 0.235,
+          "detector_triple": "T14 (lake) -> near -> T02 (gate)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T02 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0583,
+          "rel_score": 0.204,
+          "detector_triple": "T07 (railing) -> near -> T03 (water)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> near -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T08",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0579,
+          "rel_score": 0.2045,
+          "detector_triple": "T04 (railing) -> on -> T08 (person)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T08 (person)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0575,
+          "rel_score": 0.204,
+          "detector_triple": "T07 (railing) -> near -> T14 (lake)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> near -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0575,
+          "rel_score": 0.2198,
+          "detector_triple": "T01 (tree) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T01 (tree) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0551,
+          "rel_score": 0.2158,
+          "detector_triple": "T05 (tree) -> above -> T06 (bridge)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0543,
+          "rel_score": 0.1823,
+          "detector_triple": "T04 (railing) -> near -> T01 (tree)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> near -> T01 (tree)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0539,
+          "rel_score": 0.2038,
+          "detector_triple": "T11 (tree) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T11 (tree) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0538,
+          "rel_score": 0.1885,
+          "detector_triple": "T04 (railing) -> on -> T05 (tree)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0534,
+          "rel_score": 0.2003,
+          "detector_triple": "T01 (tree) -> above -> T06 (bridge)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0527,
+          "rel_score": 0.1945,
+          "detector_triple": "T01 (tree) -> above -> T07 (railing)",
+          "siglip2_refined_triple": "T01 (tree) -> above -> T07 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T08",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0518,
+          "rel_score": 0.2045,
+          "detector_triple": "T06 (bridge) -> on -> T08 (person)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T08 (person)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.051,
+          "rel_score": 0.1863,
+          "detector_triple": "T08 (person) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0506,
+          "rel_score": 0.1834,
+          "detector_triple": "T03 (water) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T08",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0503,
+          "rel_score": 0.1863,
+          "detector_triple": "T08 (person) -> on -> T14 (lake)",
+          "siglip2_refined_triple": "T08 (person) -> on -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T13",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.0502,
+          "rel_score": 0.2012,
+          "detector_triple": "T05 (tree) -> above -> T13 (building)",
+          "siglip2_refined_triple": "T05 (tree) -> above -> T13 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "near",
+          "object_track_id": "T01",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0501,
+          "rel_score": 0.1913,
+          "detector_triple": "T05 (tree) -> near -> T01 (tree)",
+          "siglip2_refined_triple": "T05 (tree) -> near -> T01 (tree)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.05,
+          "rel_score": 0.1834,
+          "detector_triple": "T14 (lake) -> near -> T05 (tree)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T05 (tree)"
+        }
+      ]
+    },
+    {
+      "frame_idx": 375,
+      "timestamp_sec": 15.0,
+      "image_path": "video_output/scene_03/frame_000375.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            1.73,
+            -0.64,
+            1020.12,
+            941.02
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.3411,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T11"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            2.44,
+            510.83,
+            1528.29,
+            1074.48
+          ],
+          "detector_label": "lake",
+          "detector_score": 0.3251,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "lake",
+          "siglip2_concept_id": "lake",
+          "refined_concept": {
+            "id": "lake",
+            "label_en": "lake",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T14"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            2.44,
+            510.83,
+            1528.29,
+            1074.48
+          ],
+          "detector_label": "water",
+          "detector_score": 0.308,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "water",
+          "siglip2_concept_id": "water",
+          "refined_concept": {
+            "id": "water",
+            "label_en": "water",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            1078.25,
+            472.77,
+            1754.76,
+            1076.15
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2952,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9797,
+            "runner_up": {
+              "id": "monkey_bridge",
+              "label_en": "single-plank footbridge",
+              "siglip2_confidence": 0.0119
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.4277
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9413
+            }
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1708.1,
+            281.48,
+            1919.57,
+            557.05
+          ],
+          "detector_label": "building",
+          "detector_score": 0.2479,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.4518,
+            "runner_up": {
+              "id": "pagoda",
+              "label_en": "Buddhist pagoda",
+              "siglip2_confidence": 0.097
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.3112
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.5743
+            }
+          },
+          "track_id": "T13"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            1077.25,
+            470.87,
+            1918.84,
+            1075.39
+          ],
+          "detector_label": "bridge",
+          "detector_score": 0.2385,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9735,
+            "runner_up": {
+              "id": "monkey_bridge",
+              "label_en": "single-plank footbridge",
+              "siglip2_confidence": 0.0118
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.4584
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9444
+            }
+          },
+          "track_id": "T06"
+        },
+        {
+          "node_idx": 6,
+          "orig_idx": 6,
+          "box_2d": [
+            1305.94,
+            335.91,
+            1741.18,
+            544.95
+          ],
+          "detector_label": "building",
+          "detector_score": 0.2344,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.4524,
+            "runner_up": {
+              "id": "pagoda",
+              "label_en": "Buddhist pagoda",
+              "siglip2_confidence": 0.3614
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.5666
+            },
+            "dominant_colour": {
+              "id": "white",
+              "label_en": "white",
+              "confidence": 0.5867
+            }
+          },
+          "track_id": "T10"
+        },
+        {
+          "node_idx": 7,
+          "orig_idx": 7,
+          "box_2d": [
+            1078.25,
+            472.77,
+            1754.76,
+            1076.15
+          ],
+          "detector_label": "gate",
+          "detector_score": 0.2011,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.9797,
+            "runner_up": {
+              "id": "monkey_bridge",
+              "label_en": "single-plank footbridge",
+              "siglip2_confidence": 0.0119
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.4277
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9413
+            }
+          },
+          "track_id": "T15"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.1009,
+          "rel_score": 0.3255,
+          "detector_triple": "T04 (railing) -> on -> T14 (lake)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0982,
+          "rel_score": 0.3255,
+          "detector_triple": "T04 (railing) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0889,
+          "rel_score": 0.2811,
+          "detector_triple": "T14 (lake) -> near -> T03 (water)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0889,
+          "rel_score": 0.2811,
+          "detector_triple": "T03 (water) -> near -> T14 (lake)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0877,
+          "rel_score": 0.2634,
+          "detector_triple": "T11 (tree) -> above -> T14 (lake)",
+          "siglip2_refined_triple": "T11 (tree) -> above -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T11",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "above",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0854,
+          "rel_score": 0.2634,
+          "detector_triple": "T11 (tree) -> above -> T03 (water)",
+          "siglip2_refined_triple": "T11 (tree) -> above -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0837,
+          "rel_score": 0.3007,
+          "detector_triple": "T06 (bridge) -> on -> T14 (lake)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T15",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T14",
+          "object_detector_label": "lake",
+          "object_siglip2_label": "lake",
+          "confidence": 0.0832,
+          "rel_score": 0.3255,
+          "detector_triple": "T15 (gate) -> on -> T14 (lake)",
+          "siglip2_refined_triple": "T15 (red painted wooden bridge) -> on -> T14 (lake)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.0815,
+          "rel_score": 0.3007,
+          "detector_triple": "T06 (bridge) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0815,
+          "rel_score": 0.307,
+          "detector_triple": "T04 (railing) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T15",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "water",
+          "object_siglip2_label": "water",
+          "confidence": 0.081,
+          "rel_score": 0.3255,
+          "detector_triple": "T15 (gate) -> on -> T03 (water)",
+          "siglip2_refined_triple": "T15 (red painted wooden bridge) -> on -> T03 (water)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0694,
+          "rel_score": 0.2616,
+          "detector_triple": "T06 (bridge) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "near",
+          "object_track_id": "T11",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0684,
+          "rel_score": 0.2054,
+          "detector_triple": "T14 (lake) -> near -> T11 (tree)",
+          "siglip2_refined_triple": "T14 (lake) -> near -> T11 (tree)"
+        },
+        {
+          "subject_track_id": "T15",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0672,
+          "rel_score": 0.2758,
+          "detector_triple": "T15 (gate) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T15 (red painted wooden bridge) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T15",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0672,
+          "rel_score": 0.2758,
+          "detector_triple": "T04 (railing) -> on -> T15 (gate)",
+          "siglip2_refined_triple": "T04 (red painted wooden bridge) -> on -> T15 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T15",
+          "subject_detector_label": "gate",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0672,
+          "rel_score": 0.307,
+          "detector_triple": "T15 (gate) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T15 (red painted wooden bridge) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "near",
+          "object_track_id": "T11",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0666,
+          "rel_score": 0.2054,
+          "detector_triple": "T03 (water) -> near -> T11 (tree)",
+          "siglip2_refined_triple": "T03 (water) -> near -> T11 (tree)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0613,
+          "rel_score": 0.1977,
+          "detector_triple": "T14 (lake) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T14 (lake) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0596,
+          "rel_score": 0.1977,
+          "detector_triple": "T03 (water) -> on -> T04 (railing)",
+          "siglip2_refined_triple": "T03 (water) -> on -> T04 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "bridge",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T15",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0573,
+          "rel_score": 0.2616,
+          "detector_triple": "T06 (bridge) -> on -> T15 (gate)",
+          "siglip2_refined_triple": "T06 (red painted wooden bridge) -> on -> T15 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0566,
+          "rel_score": 0.2032,
+          "detector_triple": "T14 (lake) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T14 (lake) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "water",
+          "subject_siglip2_label": "water",
+          "predicate": "on",
+          "object_track_id": "T06",
+          "object_detector_label": "bridge",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0551,
+          "rel_score": 0.2032,
+          "detector_triple": "T03 (water) -> on -> T06 (bridge)",
+          "siglip2_refined_triple": "T03 (water) -> on -> T06 (red painted wooden bridge)"
+        },
+        {
+          "subject_track_id": "T14",
+          "subject_detector_label": "lake",
+          "subject_siglip2_label": "lake",
+          "predicate": "on",
+          "object_track_id": "T15",
+          "object_detector_label": "gate",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0506,
+          "rel_score": 0.1977,
+          "detector_triple": "T14 (lake) -> on -> T15 (gate)",
+          "siglip2_refined_triple": "T14 (lake) -> on -> T15 (red painted wooden bridge)"
+        }
+      ]
+    }
+  ]
+}

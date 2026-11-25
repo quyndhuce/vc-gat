@@ -1,0 +1,425 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/cb0ace1d> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/e2655180> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/736737b3> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/the_government_guest_house#administrative_complex> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/the_government_guest_house#central_entrance> onto:part_of <http://transmtl.vn/ent/1a4443a3> .
+
+<http://transmtl.vn/kb/the_government_guest_house#forecourt> onto:part_of <http://transmtl.vn/ent/1a4443a3> .
+
+<http://transmtl.vn/kb/the_government_guest_house#main_facade> onto:part_of <http://transmtl.vn/ent/1a4443a3> .
+
+<http://transmtl.vn/kb/the_government_guest_house#principal> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/the_government_guest_house#roofline> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/the_government_guest_house#storeys> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/the_government_guest_house#windows> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/the_government_guest_house#entrance> onto:adjacent_to <http://transmtl.vn/ent/c63686c3> ;
+    onto:near <http://transmtl.vn/ent/c63686c3> .
+
+<http://transmtl.vn/kb/the_government_guest_house#characteristic_physical_features> onto:has_entrance <http://transmtl.vn/ent/cb0bd2b5> ;
+    onto:has_part <http://transmtl.vn/ent/00c169d5> ;
+    onto:surrounded_by <http://transmtl.vn/ent/eb9058e8> .
+
+<http://transmtl.vn/kb/the_government_guest_house#facade> onto:has_entrance <http://transmtl.vn/ent/cb0bd2b5> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/the_government_guest_house#formal_entrance> onto:faces <http://transmtl.vn/ent/1f4a9685> ;
+    onto:overlooks <http://transmtl.vn/ent/1f4a9685> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/ent/1b20e902> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/518f9f18>,
+        <http://transmtl.vn/ent/736737b3> .
+
+<http://transmtl.vn/ent/1a4443a3> onto:located_in <http://transmtl.vn/ent/13b5bfe9>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/2208a71f> .
+
+<http://transmtl.vn/kb/the_government_guest_house> onto:has_component <http://transmtl.vn/kb/the_government_guest_house#administrative_complex>,
+        <http://transmtl.vn/kb/the_government_guest_house#central_entrance>,
+        <http://transmtl.vn/kb/the_government_guest_house#characteristic_physical_features>,
+        <http://transmtl.vn/kb/the_government_guest_house#entrance>,
+        <http://transmtl.vn/kb/the_government_guest_house#facade>,
+        <http://transmtl.vn/kb/the_government_guest_house#forecourt>,
+        <http://transmtl.vn/kb/the_government_guest_house#formal_entrance>,
+        <http://transmtl.vn/kb/the_government_guest_house#main_facade>,
+        <http://transmtl.vn/kb/the_government_guest_house#principal>,
+        <http://transmtl.vn/kb/the_government_guest_house#roofline>,
+        <http://transmtl.vn/kb/the_government_guest_house#storeys>,
+        <http://transmtl.vn/kb/the_government_guest_house#windows> ;
+    onto:located_in <http://transmtl.vn/ent/2208a71f> ;
+    onto:near <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7802 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1b20e902> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6986 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1a4443a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3787 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/00c169d5> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3563 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/cb0bd2b5> ;
+    rdf:predicate onto:has_entrance ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.584 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/1a4443a3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#central_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.286 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/736737b3> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1b20e902> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#characteristic_physical_features> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6412 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/1a4443a3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#main_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3131 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/736737b3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4638 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#roofline> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#formal_entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5116 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#formal_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4685 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#forecourt> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.898 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1a4443a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#storeys> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3753 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#windows> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6422 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#storeys> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6561 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/2208a71f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3135 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#central_entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4678 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/1a4443a3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#forecourt> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6399 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7415 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/518f9f18> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1b20e902> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#roofline> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2974 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/c63686c3> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#formal_entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#principal> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9375 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/2208a71f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1a4443a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#main_facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2706 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/eb9058e8> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4363 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/13b5bfe9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1a4443a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/kb/the_government_guest_house#administrative_complex> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.383 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/c63686c3> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6103 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/cb0bd2b5> ;
+    rdf:predicate onto:has_entrance ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3976 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e2655180> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4217 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb0ace1d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4372 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#administrative_complex> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2649 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#principal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.59 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#formal_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4902 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "the_government_guest_house" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/the_government_guest_house#formal_entrance> .
+

@@ -1,0 +1,24 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/dong_da_mound> onto:commemorates <http://transmtl.vn/ent/af6f10d3> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3404 ;
+    fkg:docId "doc_70b9d7a48c70" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/af6f10d3> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6379 ;
+    fkg:docId "doc_70b9d7a48c70" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+

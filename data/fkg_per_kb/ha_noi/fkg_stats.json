@@ -1,0 +1,82 @@
+{
+  "n_entities": 263,
+  "n_single_valued_groups": 8,
+  "n_multi_valued_facts": 74,
+  "n_metadata_facts": 0,
+  "n_evidence_single_valued": 32,
+  "n_evidence_multi_valued": 113,
+  "n_conflicts_flagged": 1,
+  "n_uri_merges": 0,
+  "n_ambiguous_pairs": 0,
+  "relation_summary": {
+    "capital_of": {
+      "type": "single_valued",
+      "n_groups": 6,
+      "mean_K": 0.1666,
+      "max_K": 0.9995,
+      "n_flagged": 1
+    },
+    "former_name_of": {
+      "type": "single_valued",
+      "n_groups": 1,
+      "mean_K": 0.0495,
+      "max_K": 0.0495,
+      "n_flagged": 0
+    },
+    "founded_in": {
+      "type": "single_valued",
+      "n_groups": 1,
+      "mean_K": 0.0,
+      "max_K": 0.0,
+      "n_flagged": 0
+    },
+    "renamed_to": {
+      "type": "multi_valued",
+      "n_facts": 6,
+      "mean_mu": 0.3785,
+      "max_mu": 0.6089
+    },
+    "part_of": {
+      "type": "multi_valued",
+      "n_facts": 19,
+      "mean_mu": 0.4152,
+      "max_mu": 0.8282
+    },
+    "located_in": {
+      "type": "multi_valued",
+      "n_facts": 17,
+      "mean_mu": 0.4071,
+      "max_mu": 0.8825
+    },
+    "has_part": {
+      "type": "multi_valued",
+      "n_facts": 4,
+      "mean_mu": 0.4638,
+      "max_mu": 0.9999
+    },
+    "ruled_by": {
+      "type": "multi_valued",
+      "n_facts": 16,
+      "mean_mu": 0.429,
+      "max_mu": 0.9086
+    },
+    "near": {
+      "type": "multi_valued",
+      "n_facts": 8,
+      "mean_mu": 0.5087,
+      "max_mu": 0.8045
+    },
+    "founded_by": {
+      "type": "multi_valued",
+      "n_facts": 1,
+      "mean_mu": 0.8297,
+      "max_mu": 0.8297
+    },
+    "belongs_to_dynasty": {
+      "type": "multi_valued",
+      "n_facts": 3,
+      "mean_mu": 0.5681,
+      "max_mu": 0.9232
+    }
+  }
+}

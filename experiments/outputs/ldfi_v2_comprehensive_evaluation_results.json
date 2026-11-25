@@ -1,0 +1,183 @@
+{
+  "total_conclusions": 1330,
+  "ground_truth_positives": 1315,
+  "ground_truth_negatives": 15,
+  "auroc_ece_results": {
+    "Old LDFI-v1 (Lukasiewicz, C=2)": {
+      "auroc": 0.24098859315589355,
+      "ece": 0.9508961361701443
+    },
+    "Old mu_max (Lukasiewicz)": {
+      "auroc": 0.24342205323193916,
+      "ece": 0.9515120586466165
+    },
+    "mu_max (Product)": {
+      "auroc": 0.5564258555133079,
+      "ece": 0.7243837361902347
+    },
+    "LDFI-v2 mu_I (Lineage-Atom)": {
+      "auroc": 0.5588846641318124,
+      "ece": 0.7186089725890393
+    },
+    "AccuCopy (Truth Discovery)": {
+      "auroc": 0.5826108998732573,
+      "ece": 0.7045735248444822
+    },
+    "Naive mu_all (All-Path)": {
+      "auroc": 0.5945754119138149,
+      "ece": 0.6928767416364828
+    }
+  },
+  "support_distributions": {
+    "old_ldfi_mean": 0.037825668341133836,
+    "ldfi_v2_mean": 0.27011283192223895,
+    "naive_mean": 0.29584506287479545
+  },
+  "evidence_structure": {
+    "M_mean": 1.187218045112782,
+    "M_max": 6,
+    "conclusions_M_ge_2": 203,
+    "conclusions_kappa_ge_2": 6,
+    "conclusions_epsilon_gt_0": 117
+  },
+  "synthetic_stress_test": {
+    "identical_lineage": [
+      {
+        "k_copies": 1,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.4095,
+        "naive_all": 0.4095,
+        "accucopy": 0.4095,
+        "M": 1,
+        "kappa": 1,
+        "epsilon": 0.0
+      },
+      {
+        "k_copies": 3,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.4095,
+        "naive_all": 0.7941,
+        "accucopy": 0.4798,
+        "M": 3,
+        "kappa": 1,
+        "epsilon": 1.0
+      },
+      {
+        "k_copies": 5,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.4095,
+        "naive_all": 0.9282,
+        "accucopy": 0.5418,
+        "M": 5,
+        "kappa": 1,
+        "epsilon": 1.0
+      },
+      {
+        "k_copies": 10,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.4095,
+        "naive_all": 0.9948,
+        "accucopy": 0.6662,
+        "M": 10,
+        "kappa": 1,
+        "epsilon": 1.0
+      }
+    ],
+    "partial_overlap": [
+      {
+        "k_copies": 1,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.4095,
+        "naive_all": 0.4095,
+        "accucopy": 0.4095,
+        "M": 1,
+        "kappa": 1,
+        "epsilon": 0.0
+      },
+      {
+        "k_copies": 3,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.603,
+        "naive_all": 0.7941,
+        "accucopy": 0.7941,
+        "M": 3,
+        "kappa": 1,
+        "epsilon": 0.0
+      },
+      {
+        "k_copies": 5,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.6267,
+        "naive_all": 0.9282,
+        "accucopy": 0.9282,
+        "M": 5,
+        "kappa": 1,
+        "epsilon": 0.0
+      },
+      {
+        "k_copies": 10,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.63,
+        "naive_all": 0.9948,
+        "accucopy": 0.9948,
+        "M": 10,
+        "kappa": 1,
+        "epsilon": 0.0
+      }
+    ],
+    "disjoint_lineage": [
+      {
+        "k_copies": 1,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.4095,
+        "ldfi_v2": 0.4095,
+        "naive_all": 0.4095,
+        "accucopy": 0.4095,
+        "M": 1,
+        "kappa": 1,
+        "epsilon": 0.0
+      },
+      {
+        "k_copies": 3,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.6513,
+        "ldfi_v2": 0.7941,
+        "naive_all": 0.7941,
+        "accucopy": 0.7941,
+        "M": 3,
+        "kappa": 3,
+        "epsilon": 0.0
+      },
+      {
+        "k_copies": 5,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.6513,
+        "ldfi_v2": 0.8784,
+        "naive_all": 0.9282,
+        "accucopy": 0.9282,
+        "M": 5,
+        "kappa": 5,
+        "epsilon": 0.0
+      },
+      {
+        "k_copies": 10,
+        "mu_max": 0.4095,
+        "old_ldfi": 0.6513,
+        "ldfi_v2": 0.8784,
+        "naive_all": 0.9948,
+        "accucopy": 0.9948,
+        "M": 10,
+        "kappa": 10,
+        "epsilon": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\caption{Theoretical versus empirical threshold optimization grid (Protocol X4b, 200 random 50/50 clip splits). Compares expected loss under theoretical closed-form thresholds $(\theta_M^*, \theta_H^*)$ obtained via isotonic inversion of Theorem~4 thresholds $(q_M, q_H)$, empirical 2D cross-validated grid search, and fixed manual thresholds $(\theta_M=0.50, \theta_H=0.80)$. With isotonic calibration, theoretical thresholds match empirical optimum within $|\Delta| \le 0.008$ loss units across all risk regimes.}
+\label{tab:x4b_threshold_optimization}
+\small
+\begin{tabular}{cccccccccc}
+\toprule
+$\rho$ & $\lambda_A$ & $\kappa$ & $q_M$ & $q_H$ & $\theta_M^*$ & $\theta_H^*$ & Theoretical Loss & Empirical Loss & Heuristic Loss \\
+\midrule
+0.5 & 2 & 0.25 & 0.333 & 0.778 & 0.176 & 0.644 & 0.738 $\pm$ 0.025 & 0.738 $\pm$ 0.024 & 0.784 \\
+0.5 & 4 & 0.50 & 0.667 & 0.857 & 0.599 & 0.696 & 0.838 $\pm$ 0.031 & 0.837 $\pm$ 0.029 & 0.839 \\
+0.5 & 8 & 0.75 & 0.857 & 0.909 & 0.696 & 0.731 & 0.885 $\pm$ 0.050 & 0.887 $\pm$ 0.039 & 0.979 \\
+0.7 & 2 & 0.25 & 0.333 & 0.846 & 0.182 & 0.691 & 0.709 $\pm$ 0.025 & 0.706 $\pm$ 0.025 & 0.762 \\
+0.7 & 4 & 0.50 & 0.667 & 0.897 & 0.607 & 0.725 & 0.830 $\pm$ 0.032 & 0.831 $\pm$ 0.029 & 0.835 \\
+0.7 & 8 & 0.75 & 0.857 & 0.927 & 0.696 & 0.748 & 0.886 $\pm$ 0.046 & 0.887 $\pm$ 0.039 & 1.023 \\
+0.9 & 2 & 0.25 & 0.333 & 0.939 & 0.176 & 0.769 & 0.671 $\pm$ 0.026 & 0.669 $\pm$ 0.026 & 0.739 \\
+0.9 & 4 & 0.50 & 0.667 & 0.957 & 0.599 & 0.804 & 0.825 $\pm$ 0.030 & 0.822 $\pm$ 0.029 & 0.831 \\
+0.9 & 8 & 0.75 & 0.857 & 0.963 & 0.696 & 0.823 & 0.885 $\pm$ 0.043 & 0.885 $\pm$ 0.039 & 1.068 \\
+\bottomrule
+\end{tabular}
+\end{table*}

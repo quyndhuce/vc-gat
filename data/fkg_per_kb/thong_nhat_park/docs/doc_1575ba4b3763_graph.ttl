@@ -1,0 +1,691 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/4223d25a> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/48f73d33> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/907f02b9> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/992763c3> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/acad4a3e> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/ece66551> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/30266128> onto:located_in <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:part_of <http://transmtl.vn/kb/thong_nhat_park> .
+
+<http://transmtl.vn/ent/a483f8ff> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/49cfbe25> onto:near <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/74424100> onto:near <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/8089ee15> onto:located_in <http://transmtl.vn/kb/thong_nhat_park>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://transmtl.vn/kb/thong_nhat_park>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thong_nhat_park#central_lake> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/1c380a21> onto:former_name_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:has_part <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/98eec8f0> onto:former_name_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:founded_in <http://transmtl.vn/ent/d77f0076> ;
+    onto:has_part <http://transmtl.vn/kb/thong_nhat_park#central_lake> ;
+    onto:in <http://transmtl.vn/ent/207462d2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/70979314>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/f6fbb633> ;
+    onto:near <http://transmtl.vn/ent/2189625d>,
+        <http://transmtl.vn/ent/53271be5>,
+        <http://transmtl.vn/ent/9cefa9a8>,
+        <http://transmtl.vn/ent/af1fb370> ;
+    onto:on <http://transmtl.vn/ent/1f4a9685> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1858> onto:former_name_of <http://transmtl.vn/ent/1c380a21>,
+        <http://transmtl.vn/ent/98eec8f0>,
+        <http://transmtl.vn/ent/c0cb5f0f> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:near <http://transmtl.vn/ent/2189625d>,
+        <http://transmtl.vn/ent/49cfbe25>,
+        <http://transmtl.vn/ent/53271be5>,
+        <http://transmtl.vn/ent/74424100>,
+        <http://transmtl.vn/ent/9cefa9a8>,
+        <http://transmtl.vn/ent/af1fb370> ;
+    onto:over <http://transmtl.vn/ent/96ae5d50> ;
+    onto:renamed_to <http://transmtl.vn/ent/1c380a21>,
+        <http://transmtl.vn/ent/98eec8f0>,
+        <http://transmtl.vn/ent/c0cb5f0f> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2aa35737>,
+        <http://transmtl.vn/ent/defce450> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3138 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/1c380a21> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4371 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/9cefa9a8> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3828 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/af1fb370> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3177 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3864 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5599 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/30266128> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4752 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/2189625d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6104 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ece66551> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3196 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park#central_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2889 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5504 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8089ee15> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3579 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/49cfbe25> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3331 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/53271be5> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3377 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/907f02b9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5561 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3203 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/1c380a21> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5047 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/2189625d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.315 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4408 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/9cefa9a8> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4621 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6035 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4472 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5073 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/1c380a21> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5718 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.426 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/2189625d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3653 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/af1fb370> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2778 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/49cfbe25> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3135 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/98eec8f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3653 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/1c380a21> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2796 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/af1fb370> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7217 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2514 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/70979314> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.28 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/96ae5d50> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3859 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/98eec8f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.285 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/74424100> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2789 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/30266128> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6259 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3152 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park#central_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3251 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park#central_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8814 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3331 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/992763c3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4079 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/48f73d33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2625 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/1c380a21> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2912 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/98eec8f0> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park#central_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5432 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3117 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a483f8ff> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3191 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2656 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3414 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8089ee15> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3359 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/98eec8f0> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5138 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a483f8ff> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2987 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3138 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/9cefa9a8> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2547 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a483f8ff> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2898 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/53271be5> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5073 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/53271be5> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6562 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/2aa35737> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3749 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/8089ee15> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7012 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/98eec8f0> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2755 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/70979314> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.427 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4068 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/74424100> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3159 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/74424100> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4263 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/8089ee15> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2906 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3388 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/4223d25a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3653 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/acad4a3e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5331 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/98eec8f0> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6765 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3398 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8616 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/defce450> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3111 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2827 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://transmtl.vn/ent/d77f0076> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3156 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/49cfbe25> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2923 ;
+    fkg:docId "doc_1575ba4b3763" ;
+    fkg:kbId "thong_nhat_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+

@@ -1,0 +1,44 @@
+{
+  "1. Vanilla FTransE (Shallow Unconstrained)": {
+    "TypeValid": 57.6,
+    "GeoConsist": 80.7,
+    "VisAligned": 5.4,
+    "FactualPrec": 0.7
+  },
+  "2. Enhanced FTransE (Type-Constrained)": {
+    "TypeValid": 100.0,
+    "GeoConsist": 96.2,
+    "VisAligned": 28.3,
+    "FactualPrec": 58.8
+  },
+  "3. Sparse SimKGC (ACL 2022 Base - MiniLM)": {
+    "TypeValid": 100.0,
+    "GeoConsist": 96.2,
+    "VisAligned": 28.5,
+    "FactualPrec": 35.2
+  },
+  "4. Qwen2.5-7B SimKGC (Old Narrow Check)": {
+    "TypeValid": 100.0,
+    "GeoConsist": 96.1,
+    "VisAligned": 34.9,
+    "FactualPrec": 96.2
+  },
+  "5. Qwen2.5-7B + Multi-Tier Visual Anchoring (Ours)": {
+    "TypeValid": 100.0,
+    "GeoConsist": 95.0,
+    "VisAligned": 72.5,
+    "FactualPrec": 72.5
+  },
+  "6. Qwen2.5-7B + Neuro-Symbolic Cascade + Anchoring (Ours)": {
+    "TypeValid": 100.0,
+    "GeoConsist": 95.0,
+    "VisAligned": 72.5,
+    "FactualPrec": 72.5
+  },
+  "7. Reference: Pure Symbolic LARI + LDFI-v2": {
+    "TypeValid": 100.0,
+    "GeoConsist": 100.0,
+    "VisAligned": 84.8,
+    "FactualPrec": 97.4
+  }
+}

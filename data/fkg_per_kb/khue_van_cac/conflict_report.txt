@@ -1,0 +1,48 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Khue Van Cac)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/khue_van_cac
+  Conflict K: 0.7104
+  Candidates:
+    • Hanoi                           Bel=0.9763  Pl=0.9847  (7 evidence)
+    • Vietnam                         Bel=0.0108  Pl=0.0192  (2 evidence)
+    • capital city                    Bel=0.0045  Pl=0.0129  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [built_in] (pavilion) → http://transmtl.vn/ent/3dfc9ef1  Bel=0.4382  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.6819  K=0.0000
+  [symbol_of] (Khue Van Cac) → http://transmtl.vn/ent/207462d2  Bel=0.9763  K=0.7104 ⚠ REVIEW
+  [built_in] (Khue Van Cac) → http://transmtl.vn/ent/7ffd85d9  Bel=0.9844  K=0.0000
+  [recognized_in] (Khue Van Cac) → http://transmtl.vn/ent/06964dce  Bel=0.8566  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Khue Van Cac) → (pavilion)  μ_F=0.9991  (3 evidence)
+  [has_part] (Khue Van Cac) → (roof)  μ_F=0.9991  (3 evidence)
+  [located_in] (Khue Van Cac) → (Hanoi)  μ_F=0.9906  (9 evidence)
+  [has_part] (Khue Van Cac) → (round windows)  μ_F=0.9905  (2 evidence)
+  [has_part] (Khue Van Cac) → (courtyard)  μ_F=0.9905  (2 evidence)
+  [has_part] (Khue Van Cac) → (top floor)  μ_F=0.9905  (2 evidence)
+  [has_part] (Khue Van Cac) → (circular windows)  μ_F=0.9905  (2 evidence)
+  [has_part] (Khue Van Cac) → (eight roofs)  μ_F=0.9905  (2 evidence)
+  [has_part] (Khue Van Cac) → (four)  μ_F=0.9905  (2 evidence)
+  [has_part] (Khue Van Cac) → (lower level)  μ_F=0.9905  (2 evidence)
+  [has_part] (Khue Van Cac) → (upper level)  μ_F=0.9905  (2 evidence)
+  [has_part] (Khue Van Cac) → (walls)  μ_F=0.9905  (2 evidence)
+  [built_by] (Khue Van Cac) → (Nguyen Van Than)  μ_F=0.9221  (3 evidence)
+  [belongs_to_dynasty] (King Gia Long) → (Nguyen Dynasty)  μ_F=0.9138  (2 evidence)
+  [has_part] (Khue Van Cac) → (two tiers)  μ_F=0.9025  (1 evidence)
+  [has_part] (Khue Van Cac) → (entire structure)  μ_F=0.9025  (1 evidence)
+  [has_part] (Khue Van Cac) → (four sides)  μ_F=0.9025  (1 evidence)
+  [has_part] (Khue Van Cac) → (ornately carved couplets)  μ_F=0.9025  (1 evidence)
+  [has_part] (Khue Van Cac) → (nine tiles)  μ_F=0.9025  (1 evidence)
+  [has_part] (Khue Van Cac) → (uppermost roof)  μ_F=0.9025  (1 evidence)
+
+========================================================================

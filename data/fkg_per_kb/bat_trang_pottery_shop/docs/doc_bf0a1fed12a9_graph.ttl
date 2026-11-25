@@ -1,0 +1,54 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/bat_trang_pottery_shop> onto:has_part <http://transmtl.vn/kb/bat_trang_pottery_shop#courtyards> .
+
+<http://transmtl.vn/ent/54299698> onto:located_in <http://transmtl.vn/ent/045ea704>,
+        <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/kb/bat_trang_pottery_shop#courtyards> onto:part_of <http://transmtl.vn/ent/fb54f3c5> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:located_in <http://transmtl.vn/ent/045ea704> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_bf0a1fed12a9" ;
+    fkg:kbId "bat_trang_pottery_shop" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_pottery_shop#courtyards> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_pottery_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2871 ;
+    fkg:docId "doc_bf0a1fed12a9" ;
+    fkg:kbId "bat_trang_pottery_shop" ;
+    rdf:object <http://transmtl.vn/ent/fb54f3c5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_pottery_shop#courtyards> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2511 ;
+    fkg:docId "doc_bf0a1fed12a9" ;
+    fkg:kbId "bat_trang_pottery_shop" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/54299698> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3684 ;
+    fkg:docId "doc_bf0a1fed12a9" ;
+    fkg:kbId "bat_trang_pottery_shop" ;
+    rdf:object <http://transmtl.vn/ent/045ea704> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/54299698> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.354 ;
+    fkg:docId "doc_bf0a1fed12a9" ;
+    fkg:kbId "bat_trang_pottery_shop" ;
+    rdf:object <http://transmtl.vn/ent/045ea704> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+

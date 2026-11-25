@@ -1,0 +1,110 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/artifact> onto:has_part <http://transmtl.vn/kb/artifact#display_cabinets>,
+        <http://transmtl.vn/kb/artifact#each_item> .
+
+<http://transmtl.vn/ent/207462d2> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/artifact#display_cabinets> onto:surrounded_by <http://transmtl.vn/ent/2a6828c7> .
+
+<http://transmtl.vn/kb/artifact#each_item> onto:with <http://transmtl.vn/ent/9dea51b4>,
+        <http://transmtl.vn/ent/c5e62798> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology> onto:has_part <http://transmtl.vn/ent/1044a4e5> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/1044a4e5> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6498 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1044a4e5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/kb/artifact#each_item> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5217 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1044a4e5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5038 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1044a4e5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3108 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/ent/2a6828c7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/artifact#display_cabinets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4957 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/ent/9dea51b4> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/artifact#each_item> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/kb/artifact#display_cabinets> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2549 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/ent/1044a4e5> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4264 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/ent/c5e62798> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/artifact#each_item> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5061 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4427 ;
+    fkg:docId "doc_46587f3f69ec" ;
+    fkg:kbId "artifact" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+

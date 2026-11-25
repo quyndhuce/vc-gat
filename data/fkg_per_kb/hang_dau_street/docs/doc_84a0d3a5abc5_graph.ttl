@@ -1,0 +1,193 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_dau_street#bàng_trees> onto:near <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_dau_street#glass_aquariums> onto:part_of <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_dau_street#narrow_tube_houses> onto:architectural_style <http://transmtl.vn/ent/951bc3bb> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/hang_dau_street> onto:has_part <http://transmtl.vn/kb/hang_dau_street#bàng_trees>,
+        <http://transmtl.vn/kb/hang_dau_street#glass_aquariums>,
+        <http://transmtl.vn/kb/hang_dau_street#narrow_tube_houses> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/ent/c0cb5f0f> ;
+    onto:used_as <http://transmtl.vn/ent/05debdb8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7219 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.734 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3898 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2857 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3898 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street#bàng_trees> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7304 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4637 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3205 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/05debdb8> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2698 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_street#glass_aquariums> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.905 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_street#narrow_tube_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_street#bàng_trees> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4508 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3578 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2736 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/951bc3bb> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street#narrow_tube_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3306 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2529 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street#glass_aquariums> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6318 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2505 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.372 ;
+    fkg:docId "doc_84a0d3a5abc5" ;
+    fkg:kbId "hang_dau_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+

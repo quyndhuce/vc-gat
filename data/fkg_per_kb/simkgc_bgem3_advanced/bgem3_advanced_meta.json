@@ -1,0 +1,26 @@
+{
+  "enhancements": [
+    "Unified Multimodal Confidence (mu_multimodal = mu_rule x mu_vis)",
+    "Learnable Rule Attenuation Scale",
+    "Spatial-Aware Hard Negative Sampling",
+    "Fuzzy False-Negative Masking"
+  ],
+  "learned_rule_scales": [
+    0.8575999140739441,
+    0.8928432464599609,
+    0.9169681072235107,
+    0.7014251947402954
+  ],
+  "link_prediction": {
+    "Hits@1": 34.61931901212918,
+    "Hits@3": 53.54376735349993,
+    "Hits@10": 69.66242875931609,
+    "MRR": 0.46121577497738514
+  },
+  "video_benchmark": {
+    "TypeValid": 100.0,
+    "GeoConsist": 98.8,
+    "VisAligned": 26.8,
+    "FactualPrec": 84.39999999999999
+  }
+}

@@ -1,0 +1,78 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/engraving_and_chasing_bronze_ware> onto:has_part <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#blocks>,
+        <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#surface> .
+
+<http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#blocks> onto:made_of <http://transmtl.vn/ent/cab7e764>,
+        <http://transmtl.vn/ent/e7e94d9e> .
+
+<http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#surface> onto:made_of <http://transmtl.vn/ent/cab7e764>,
+        <http://transmtl.vn/ent/e7e94d9e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3573 ;
+    fkg:docId "doc_4a5260059d5a" ;
+    fkg:kbId "engraving_and_chasing_bronze_ware" ;
+    rdf:object <http://transmtl.vn/ent/cab7e764> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#blocks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3716 ;
+    fkg:docId "doc_4a5260059d5a" ;
+    fkg:kbId "engraving_and_chasing_bronze_ware" ;
+    rdf:object <http://transmtl.vn/ent/e7e94d9e> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#blocks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4a5260059d5a" ;
+    fkg:kbId "engraving_and_chasing_bronze_ware" ;
+    rdf:object <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#surface> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2563 ;
+    fkg:docId "doc_4a5260059d5a" ;
+    fkg:kbId "engraving_and_chasing_bronze_ware" ;
+    rdf:object <http://transmtl.vn/ent/cab7e764> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#surface> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4821 ;
+    fkg:docId "doc_4a5260059d5a" ;
+    fkg:kbId "engraving_and_chasing_bronze_ware" ;
+    rdf:object <http://transmtl.vn/ent/cab7e764> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#surface> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4a5260059d5a" ;
+    fkg:kbId "engraving_and_chasing_bronze_ware" ;
+    rdf:object <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#blocks> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4a5260059d5a" ;
+    fkg:kbId "engraving_and_chasing_bronze_ware" ;
+    rdf:object <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#surface> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5104 ;
+    fkg:docId "doc_4a5260059d5a" ;
+    fkg:kbId "engraving_and_chasing_bronze_ware" ;
+    rdf:object <http://transmtl.vn/ent/e7e94d9e> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/engraving_and_chasing_bronze_ware#surface> .
+

@@ -1,0 +1,170 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/01438a3c> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/65004f81> onto:walking_on <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/f24d2cc0> onto:walking_on <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument> onto:has_part <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument#base> .
+
+<http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument#base> onto:made_of <http://transmtl.vn/ent/8859a5fa>,
+        <http://transmtl.vn/ent/cab7e764> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/207462d2> ;
+    onto:surrounded_by <http://transmtl.vn/ent/12a032ce>,
+        <http://transmtl.vn/ent/29a5417a>,
+        <http://transmtl.vn/ent/553d33ef>,
+        <http://transmtl.vn/ent/7ee39b43>,
+        <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument> ;
+    onto:symbol_of <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4152 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/f24d2cc0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.342 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3245 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/8859a5fa> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4646 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/7ee39b43> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2567 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2779 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5102 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/12a032ce> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4274 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/553d33ef> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4041 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4762 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/29a5417a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3555 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/29a5417a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.29 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/cab7e764> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_ready_to_die_for_the_fatherland_to_live_monument#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3196 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2534 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3673 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/01438a3c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.467 ;
+    fkg:docId "doc_6fb0df4b0a09" ;
+    fkg:kbId "the_ready_to_die_for_the_fatherland_to_live_monument" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/65004f81> .
+

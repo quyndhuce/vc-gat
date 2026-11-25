@@ -1,0 +1,116 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/be5d5d37> onto:located_in <http://transmtl.vn/ent/eebb8fcc> .
+
+<http://transmtl.vn/kb/2nd_floor_revolution> onto:in <http://transmtl.vn/ent/2b47e5d4> .
+
+<http://transmtl.vn/ent/eebb8fcc> onto:located_in <http://transmtl.vn/ent/c2aadac2> .
+
+<http://transmtl.vn/kb/artifact_3> onto:in <http://transmtl.vn/ent/878973f4> ;
+    onto:located_in <http://transmtl.vn/ent/c2aadac2>,
+        <http://transmtl.vn/ent/eebb8fcc> ;
+    onto:part_of <http://transmtl.vn/ent/c89f7ce1>,
+        <http://transmtl.vn/ent/eebb8fcc>,
+        <http://transmtl.vn/ent/ef6ec7d4> ;
+    onto:used_as <http://transmtl.vn/ent/a8cfde63>,
+        <http://transmtl.vn/kb/2nd_floor_revolution> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4342 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/c2aadac2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2876 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/eebb8fcc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/be5d5d37> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3866 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/kb/2nd_floor_revolution> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6491 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/eebb8fcc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5441 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/c2aadac2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eebb8fcc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5005 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/878973f4> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4982 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/ef6ec7d4> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2596 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/a8cfde63> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4342 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/eebb8fcc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2589 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/2b47e5d4> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/2nd_floor_revolution> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3915 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/eebb8fcc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4338 ;
+    fkg:docId "doc_ff24eb65d362" ;
+    fkg:kbId "artifact_3" ;
+    rdf:object <http://transmtl.vn/ent/c89f7ce1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+

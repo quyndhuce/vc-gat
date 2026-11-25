@@ -1,0 +1,48 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Pen Tower)  --[built_in]-->  ?
+  Head URI  : http://transmtl.vn/kb/pen_tower
+  Conflict K: 0.6665
+  Candidates:
+    • 18th year                       Bel=0.6567  Pl=0.7416  (2 evidence)
+    • 1865                            Bel=0.2584  Pl=0.3433  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [built_in] (Pen Tower) → http://transmtl.vn/ent/d28558d1  Bel=0.6567  K=0.6665 ⚠ REVIEW
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.7739  K=0.0000
+  [dated_to] (Pen Tower) → http://transmtl.vn/ent/69d1fc78  Bel=0.3340  K=0.0000
+  [built_in] (tower) → http://transmtl.vn/ent/d28558d1  Bel=0.6423  K=0.0000
+  [dated_to] (tower) → http://transmtl.vn/ent/69d1fc78  Bel=0.2292  K=0.0000
+  [symbol_of] (tower) → http://transmtl.vn/ent/642b0ca2  Bel=0.4236  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Pen Tower) → (tower)  μ_F=1.0000  (9 evidence)
+  [has_part] (Pen Tower) → (pen-shaped tip)  μ_F=0.9991  (3 evidence)
+  [has_part] (Pen Tower) → (pen)  μ_F=0.9905  (2 evidence)
+  [has_part] (Pen Tower) → (stem)  μ_F=0.9905  (2 evidence)
+  [has_part] (Pen Tower) → (nib)  μ_F=0.9905  (2 evidence)
+  [has_part] (Pen Tower) → (first gate)  μ_F=0.9905  (2 evidence)
+  [has_part] (Pen Tower) → (inverted brush pen nib)  μ_F=0.9905  (2 evidence)
+  [near] (Pen Tower) → (Ngoc Son Temple)  μ_F=0.9151  (4 evidence)
+  [has_part] (Pen Tower) → (Three toads)  μ_F=0.9025  (1 evidence)
+  [has_part] (Pen Tower) → (five square tiers)  μ_F=0.9025  (1 evidence)
+  [has_part] (Pen Tower) → (three middle tiers)  μ_F=0.9025  (1 evidence)
+  [has_part] (Pen Tower) → (tiers)  μ_F=0.9025  (1 evidence)
+  [designed_by] (Pen Tower) → (Nguyễn Văn Siêu)  μ_F=0.8977  (3 evidence)
+  [on] (tower) → (mound)  μ_F=0.8224  (3 evidence)
+  [located_in] (Pen Tower) → (Hoan Kiem Lake)  μ_F=0.7524  (1 evidence)
+  [overlooks] (Pen Tower) → (Hoan Kiem Lake)  μ_F=0.6909  (3 evidence)
+  [on] (Pen Tower) → (small mound)  μ_F=0.6586  (2 evidence)
+  [part_of] (Pen Tower) → (architectural complex)  μ_F=0.6391  (2 evidence)
+  [ruled_by] (Hanoi) → (Emperor Tự Đức)  μ_F=0.6247  (1 evidence)
+  [has_part] (pen) → (stem)  μ_F=0.6095  (2 evidence)
+
+========================================================================

@@ -1,0 +1,271 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/23cf14db> onto:located_in <http://transmtl.vn/ent/9ec9b11f> .
+
+<http://transmtl.vn/ent/c45f1d1a> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/ebed715e> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/ngoc_son_temple> onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/portrait_painting#tortoise_tower> onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/portrait_painting> onto:has_part <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake>,
+        <http://transmtl.vn/kb/portrait_painting#tortoise_tower> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/9ec9b11f>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:renamed_to <http://transmtl.vn/ent/6c6d4dfa> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:surrounded_by <http://transmtl.vn/ent/25d5749e>,
+        <http://transmtl.vn/ent/405aaff6>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/c39e0d3a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3857 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3438 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6407 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/c39e0d3a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3216 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3791 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3282 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3985 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3404 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2706 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5293 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2713 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6216 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3963 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/405aaff6> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2854 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/c39e0d3a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.414 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ebed715e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.412 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2622 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c45f1d1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3113 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#tortoise_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2603 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3046 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2863 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#tortoise_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2522 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/405aaff6> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3245 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2525 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/9ec9b11f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2941 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/9ec9b11f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/23cf14db> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_62d79373e4e7" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#hoàn_kiemer_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+

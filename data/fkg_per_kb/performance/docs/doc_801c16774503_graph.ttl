@@ -1,0 +1,53 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/performance> onto:has_part <http://transmtl.vn/kb/performance#interior> .
+
+<http://transmtl.vn/kb/performance#interior> onto:part_of <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre> onto:connects <http://transmtl.vn/ent/47ed4995>,
+        <http://transmtl.vn/ent/68e2d837> ;
+    onto:has_part <http://transmtl.vn/ent/b79de4fb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6628 ;
+    fkg:docId "doc_801c16774503" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/68e2d837> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4162 ;
+    fkg:docId "doc_801c16774503" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/performance#interior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_801c16774503" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/kb/performance#interior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6859 ;
+    fkg:docId "doc_801c16774503" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/47ed4995> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2516 ;
+    fkg:docId "doc_801c16774503" ;
+    fkg:kbId "performance" ;
+    rdf:object <http://transmtl.vn/ent/b79de4fb> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+

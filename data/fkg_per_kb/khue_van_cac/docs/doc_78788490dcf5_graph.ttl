@@ -1,0 +1,380 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/7352c38f> onto:located_in <http://transmtl.vn/ent/f6fbb633> .
+
+<http://transmtl.vn/ent/b538b92e> onto:located_in <http://transmtl.vn/ent/f6fbb633> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:located_in <http://transmtl.vn/ent/f6fbb633> .
+
+<http://transmtl.vn/kb/khue_van_cac#base> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/kb/khue_van_cac#rays_of_light> onto:part_of <http://transmtl.vn/kb/khue_van_cac> .
+
+<http://transmtl.vn/kb/khue_van_cac#roof> onto:part_of <http://transmtl.vn/ent/8fc42c6d> .
+
+<http://transmtl.vn/kb/khue_van_cac#round_windows> onto:part_of <http://transmtl.vn/kb/khue_van_cac> .
+
+<http://transmtl.vn/kb/khue_van_cac#superstructure> onto:part_of <http://transmtl.vn/ent/227dd828> .
+
+<http://transmtl.vn/ent/40ddfc07> onto:belongs_to_dynasty <http://transmtl.vn/ent/072306ee> .
+
+<http://transmtl.vn/kb/khue_van_cac#ancient_trees> onto:with <http://transmtl.vn/ent/0533e7f0>,
+        <http://transmtl.vn/ent/73be252c> .
+
+<http://transmtl.vn/kb/khue_van_cac#pavilion> onto:located_in <http://transmtl.vn/ent/f6fbb633> ;
+    onto:surrounded_by <http://transmtl.vn/ent/1a8e628e>,
+        <http://transmtl.vn/ent/9f864082>,
+        <http://transmtl.vn/ent/be5d5d37> .
+
+<http://transmtl.vn/kb/khue_van_cac> onto:built_by <http://transmtl.vn/ent/40ddfc07> ;
+    onto:built_in <http://transmtl.vn/ent/7ffd85d9> ;
+    onto:has_part <http://transmtl.vn/kb/khue_van_cac#ancient_trees>,
+        <http://transmtl.vn/kb/khue_van_cac#base>,
+        <http://transmtl.vn/kb/khue_van_cac#pavilion>,
+        <http://transmtl.vn/kb/khue_van_cac#rays_of_light>,
+        <http://transmtl.vn/kb/khue_van_cac#roof>,
+        <http://transmtl.vn/kb/khue_van_cac#round_windows>,
+        <http://transmtl.vn/kb/khue_van_cac#superstructure> ;
+    onto:inspired_by <http://transmtl.vn/ent/bc419112> ;
+    onto:located_in <http://transmtl.vn/ent/f6fbb633> ;
+    onto:named_after <http://transmtl.vn/ent/bc419112> ;
+    onto:part_of <http://transmtl.vn/ent/6e52d56c> ;
+    onto:surrounded_by <http://transmtl.vn/ent/1a8e628e>,
+        <http://transmtl.vn/ent/9ad0916c>,
+        <http://transmtl.vn/ent/9f864082>,
+        <http://transmtl.vn/ent/be5d5d37> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/8d3e54a8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4617 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2938 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2954 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3024 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/7ffd85d9> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8017 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac#round_windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5841 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/bc419112> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3943 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2764 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/bc419112> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6481 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3544 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/0533e7f0> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#ancient_trees> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8427 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/bc419112> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3666 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/40ddfc07> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.363 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac#ancient_trees> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4362 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/8d3e54a8> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5119 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3375 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/9ad0916c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2978 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#superstructure> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5205 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b538b92e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.427 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#round_windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2928 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7352c38f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.306 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/73be252c> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#ancient_trees> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac#superstructure> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3154 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/8fc42c6d> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3241 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4963 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4457 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/40ddfc07> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3086 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#rays_of_light> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3512 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3666 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/40ddfc07> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.464 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3724 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac#rays_of_light> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4592 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/6e52d56c> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4344 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4145 ;
+    fkg:docId "doc_78788490dcf5" ;
+    fkg:kbId "khue_van_cac" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac#pavilion> .
+

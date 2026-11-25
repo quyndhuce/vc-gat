@@ -1,0 +1,225 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/van_mieu_gate> onto:located_in <http://transmtl.vn/ent/f6fbb633> .
+
+<http://transmtl.vn/kb/dai_thanh_gate#column_system> onto:made_of <http://transmtl.vn/ent/068daf58> .
+
+<http://transmtl.vn/kb/dai_thanh_gate#courtyard> onto:surrounded_by <http://transmtl.vn/ent/bbdddab4> .
+
+<http://transmtl.vn/kb/dai_thanh_gate#gate> onto:surrounded_by <http://transmtl.vn/ent/05e94e8c>,
+        <http://transmtl.vn/ent/2573bc1b>,
+        <http://transmtl.vn/ent/7d3d42af> .
+
+<http://transmtl.vn/ent/f6fbb633> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/dai_thanh_gate#doors> onto:made_of <http://transmtl.vn/ent/068daf58> ;
+    onto:part_of <http://transmtl.vn/ent/d9630ad2> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/dai_thanh_gate> onto:has_part <http://transmtl.vn/kb/dai_thanh_gate#column_system>,
+        <http://transmtl.vn/kb/dai_thanh_gate#courtyard>,
+        <http://transmtl.vn/kb/dai_thanh_gate#doors>,
+        <http://transmtl.vn/kb/dai_thanh_gate#gate> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/f6fbb633> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:symbol_of <http://transmtl.vn/ent/78b6367a>,
+        <http://transmtl.vn/ent/a541714a>,
+        <http://transmtl.vn/ent/d11b2452> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4622 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2529 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4622 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3152 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/78b6367a> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate#column_system> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5186 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/d9630ad2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4789 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4274 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/7d3d42af> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3264 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/2573bc1b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate#doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3487 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/bbdddab4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3987 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f6fbb633> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3498 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6349 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/05e94e8c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2662 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f6fbb633> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5179 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5295 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.372 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/d11b2452> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate#doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.37 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate#column_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5051 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3022 ;
+    fkg:docId "doc_a53ac409c452" ;
+    fkg:kbId "dai_thanh_gate" ;
+    rdf:object <http://transmtl.vn/ent/a541714a> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+

@@ -1,0 +1,1009 @@
+{
+  "Table_A_latex": "\\begin{table}[t]\n\\centering\n\\caption{Empirical verification of the theoretical properties of LDFI.}\n\\label{tab:ldfi_theorem_verification}\n\\begin{tabular}{lrrr}\n\\toprule\n\\textbf{Property} & \\textbf{Tests} & \\textbf{Violations} & \\textbf{Max numerical error} \\\\\n\\midrule\nSandwich lower bound ($\\mu_{\\max} \\le \\mu_{\\mathrm{LDFI}}$) & 1000 & 0 & <1e-10 \\\\\nSandwich upper bound ($\\mu_{\\mathrm{LDFI}} \\le \\mu_{\\mathrm{all}}$) & 1000 & 0 & <1e-10 \\\\\nEngine vs.\\ exhaustive oracle & 1000 & 0 & <1e-10 \\\\\nExact duplicate invariance ($k \\in \\{1, 2, 4, 8, 16\\}$) & 4330 & 0 & <1e-10 \\\\\nWeaker duplicate invariance ($\\alpha \\le 1$) & 3464 & 0 & <1e-10 \\\\\nDisjoint-corroboration monotonicity & 3464 & 0 & <1e-10 \\\\\nCap monotonicity ($\\mu^{(1)} \\le \\mu^{(2)} \\le \\mu^{(3)} \\le \\mu^{(\\infty)}$) & 1000 & 1 & <1e-10 \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}",
+  "Table_B_latex": "\\begin{table}[t]\n\\centering\n\\caption{Real-data effect of inference aggregators on 225 Landmark KBs.}\n\\label{tab:ldfi_real_data_effect}\n\\begin{tabular}{lcccc}\n\\toprule\n\\textbf{Aggregator} & \\textbf{Mean $\\mu$} & \\textbf{Duplicate inflation $DI_{\\mathrm{all}}$} & \\textbf{$DI_{\\mathrm{affected}}$} & \\textbf{Runtime} \\\\\n\\midrule\nStrongest path $\\mu_{\\max}$ & 0.1566 & 0 & 0 & 0.07 ms \\\\\nLDFI, $C=2$ & 0.1570 & 0 & 0 & 0.13 ms \\\\\nLDFI, $C=3$ & 0.1570 & 0 & 0 & 0.14 ms \\\\\nUnbounded LDFI, $C=\\infty$ & 0.1570 & 0 & 0 & 0.12 ms \\\\\nUnrestricted $\\mu_{\\mathrm{all}}$ & 0.1700 & +0.0130 & +0.0985 & 0.09 ms \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}",
+  "Table_C_latex": "\\begin{table}[t]\n\\centering\n\\caption{Lineage corroboration-cap sensitivity ($C \\in \\{1, 2, 3, \\infty\\}$) on the complete tourism inference set.}\n\\label{tab:ldfi_cap_sensitivity}\n\\begin{tabular}{ccccc}\n\\toprule\n$C$ & \\textbf{Mean $\\mu$} & \\textbf{\\# Changed vs $C=1$} & \\textbf{Max gain} & \\textbf{Runtime} \\\\\n\\midrule\n$1$ & 0.1566 & 0 & 0.0000 & 2.33 ms \\\\\n$2$ & 0.1570 & 5 & 0.1548 & 2.43 ms \\\\\n$3$ & 0.1570 & 5 & 0.1612 & 2.48 ms \\\\\n$\\infty$ & 0.1570 & 5 & 0.1548 & 2.45 ms \\\\\n\\bottomrule\n\\end{tabular}\n\\end{table}",
+  "E1_Sandwich": {
+    "total_conclusions": 1000,
+    "multi_path_conclusions": 134,
+    "lower_bound_violations": 0,
+    "upper_bound_violations": 0,
+    "oracle_violations": 0,
+    "max_error_lower": 0.0,
+    "max_error_upper": 0.0,
+    "max_error_oracle": 0.0,
+    "mean_mu_max": 0.15658038000000005,
+    "mean_mu_ldfi": 0.15699788026237005,
+    "mean_mu_all": 0.16999542491902792,
+    "delta_corr": {
+      "mean": 0.0004175002623699999,
+      "median": 0.0,
+      "max": 0.15481970160000003,
+      "q95": 0.0,
+      "count_positive": 5
+    },
+    "delta_dep": {
+      "mean_di_all": 0.012997544656657882,
+      "median": 0.0,
+      "max": 0.30471336103219926,
+      "q95": 0.11729142819079992,
+      "count_positive": 132,
+      "di_affected": 0.09846624739892336
+    }
+  },
+  "E2_Duplicates": {
+    "total_base_cases": 866,
+    "exact_duplicates": {
+      "violations": 0,
+      "max_deviation": 0.0,
+      "summary_by_k": {
+        "0": {
+          "mean_mu_max": 0.1258686524249423,
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.1258686524249423,
+          "mean_naive_inflation": 0.0,
+          "mean_rel_inflation": 0.0
+        },
+        "1": {
+          "mean_mu_max": 0.1258686524249423,
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.22811527724113514,
+          "mean_naive_inflation": 0.10224662481619286,
+          "mean_rel_inflation": 0.8741313475750574
+        },
+        "2": {
+          "mean_mu_max": 0.1258686524249423,
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.31210073343634154,
+          "mean_naive_inflation": 0.18623208101139924,
+          "mean_rel_inflation": 1.646016070333922
+        },
+        "4": {
+          "mean_mu_max": 0.1258686524249423,
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.44028663077772434,
+          "mean_naive_inflation": 0.314417978352782,
+          "mean_rel_inflation": 2.952093597997505
+        },
+        "8": {
+          "mean_mu_max": 0.1258686524249423,
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.6000695688484564,
+          "mean_naive_inflation": 0.47420091642351414,
+          "mean_rel_inflation": 4.921503735470019
+        },
+        "16": {
+          "mean_mu_max": 0.1258686524249423,
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.7517520908237114,
+          "mean_naive_inflation": 0.6258834383987691,
+          "mean_rel_inflation": 7.5013177996213605
+        }
+      }
+    },
+    "weaker_duplicates": {
+      "violations": 0,
+      "max_deviation": 0.0,
+      "summary_by_alpha": {
+        "0.25": {
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.1514303086289905,
+          "mean_inflation": 0.02556165620404821
+        },
+        "0.5": {
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.17699196483303872,
+          "mean_inflation": 0.051123312408096436
+        },
+        "0.75": {
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.20255362103708696,
+          "mean_inflation": 0.07668496861214466
+        },
+        "1.0": {
+          "mean_mu_ldfi": 0.1258686524249423,
+          "mean_mu_all": 0.22811527724113514,
+          "mean_inflation": 0.10224662481619286
+        }
+      }
+    },
+    "exemplar_trajectory": {
+      "low": {
+        "s_base": 0.027779999999999916,
+        "k_sweep": {
+          "0": {
+            "mu_ldfi": 0.027779999999999916,
+            "mu_all": 0.027779999999999916
+          },
+          "1": {
+            "mu_ldfi": 0.027779999999999916,
+            "mu_all": 0.05478827159999988
+          },
+          "2": {
+            "mu_ldfi": 0.027779999999999916,
+            "mu_all": 0.08104625341495175
+          },
+          "4": {
+            "mu_ldfi": 0.027779999999999916,
+            "mu_all": 0.1313941408706908
+          },
+          "8": {
+            "mu_ldfi": 0.027779999999999916,
+            "mu_all": 0.2239656265929879
+          },
+          "16": {
+            "mu_ldfi": 0.027779999999999916,
+            "mu_all": 0.38056268261379755
+          }
+        }
+      },
+      "med_low": {
+        "s_base": 0.0562330000000002,
+        "k_sweep": {
+          "0": {
+            "mu_ldfi": 0.0562330000000002,
+            "mu_all": 0.0562330000000002
+          },
+          "1": {
+            "mu_ldfi": 0.0562330000000002,
+            "mu_all": 0.10930384971100038
+          },
+          "2": {
+            "mu_ldfi": 0.0562330000000002,
+            "mu_all": 0.15939036633020187
+          },
+          "4": {
+            "mu_ldfi": 0.0562330000000002,
+            "mu_all": 0.2512722353944645
+          },
+          "8": {
+            "mu_ldfi": 0.0562330000000002,
+            "mu_all": 0.4060045906551064
+          },
+          "16": {
+            "mu_ldfi": 0.0562330000000002,
+            "mu_all": 0.6261465527796504
+          }
+        }
+      },
+      "med_high": {
+        "s_base": 0.10806700000000014,
+        "k_sweep": {
+          "0": {
+            "mu_ldfi": 0.10806700000000014,
+            "mu_all": 0.10806700000000014
+          },
+          "1": {
+            "mu_ldfi": 0.10806700000000014,
+            "mu_all": 0.20445552351100027
+          },
+          "2": {
+            "mu_ldfi": 0.10806700000000014,
+            "mu_all": 0.2904276284517371
+          },
+          "4": {
+            "mu_ldfi": 0.10806700000000014,
+            "mu_all": 0.4355036191455791
+          },
+          "8": {
+            "mu_ldfi": 0.10806700000000014,
+            "mu_all": 0.6427353130809832
+          },
+          "16": {
+            "mu_ldfi": 0.10806700000000014,
+            "mu_all": 0.8568972596379514
+          }
+        }
+      },
+      "high": {
+        "s_base": 0.18789800000000012,
+        "k_sweep": {
+          "0": {
+            "mu_ldfi": 0.18789800000000012,
+            "mu_all": 0.18789800000000012
+          },
+          "1": {
+            "mu_ldfi": 0.18789800000000012,
+            "mu_all": 0.3404903415960002
+          },
+          "2": {
+            "mu_ldfi": 0.18789800000000012,
+            "mu_all": 0.46441088739079506
+          },
+          "4": {
+            "mu_ldfi": 0.18789800000000012,
+            "mu_all": 0.6467738072982019
+          },
+          "8": {
+            "mu_ldfi": 0.18789800000000012,
+            "mu_all": 0.8463632115047028
+          },
+          "16": {
+            "mu_ldfi": 0.18789800000000012,
+            "mu_all": 0.970934361965432
+          }
+        }
+      }
+    }
+  },
+  "E3_Corroboration": {
+    "matched_pair_theory_violations": 0,
+    "matched_pair_max_deviation": 8.326672684688674e-17,
+    "grid_evaluations": {
+      "Q25": {
+        "s2_val": 0.06728200000000006,
+        "mean_mu_shared": 0.13634950000000004,
+        "mean_mu_disjoint": 0.18468195775248739,
+        "mean_delta_lineage": 0.04833245775248734,
+        "mean_delta_expected": 0.04833245775248734
+      },
+      "Q50": {
+        "s2_val": 0.1277210000000002,
+        "mean_mu_shared": 0.16306281524249436,
+        "mean_mu_disjoint": 0.23751358226857638,
+        "mean_delta_lineage": 0.07445076702608204,
+        "mean_delta_expected": 0.07445076702608205
+      },
+      "Q75": {
+        "s2_val": 0.23080900000000026,
+        "mean_mu_shared": 0.2383349260969979,
+        "mean_mu_disjoint": 0.32762603462739404,
+        "mean_delta_lineage": 0.08929110853039611,
+        "mean_delta_expected": 0.08929110853039611
+      },
+      "Q90": {
+        "s2_val": 0.29692700000000005,
+        "mean_mu_shared": 0.2978799665127021,
+        "mean_mu_disjoint": 0.3854218510663615,
+        "mean_delta_lineage": 0.08754188455365935,
+        "mean_delta_expected": 0.08754188455365937
+      }
+    },
+    "natural_disjoint_corpus": {
+      "count": 5,
+      "conclusions": [
+        {
+          "id": "c_765",
+          "h": "Thong Nhat park",
+          "r": "located_in",
+          "t": "Hanoi",
+          "mu_max": 0.16749599999999987,
+          "mu_ldfi": 0.17794559020799983,
+          "abs_gain": 0.01044959020799996,
+          "rel_gain": 0.06238710302335559
+        },
+        {
+          "id": "c_880",
+          "h": "West Lake",
+          "r": "located_in",
+          "t": "Hanoi",
+          "mu_max": 0.7143510000000002,
+          "mu_ldfi": 0.7961066002900001,
+          "abs_gain": 0.08175560028999995,
+          "rel_gain": 0.11444737991547563
+        },
+        {
+          "id": "c_978",
+          "h": "Ha Noi",
+          "r": "located_in",
+          "t": "Hanoi",
+          "mu_max": 0.5707240000000002,
+          "mu_ldfi": 0.7114106234800002,
+          "abs_gain": 0.14068662347999994,
+          "rel_gain": 0.24650553241146314
+        },
+        {
+          "id": "c_981",
+          "h": "Ha Noi",
+          "r": "located_in",
+          "t": "Vietnam",
+          "mu_max": 0.2834080000000001,
+          "mu_ldfi": 0.43822770160000013,
+          "abs_gain": 0.15481970160000003,
+          "rel_gain": 0.5462785157793709
+        },
+        {
+          "id": "c_984",
+          "h": "Ha Noi",
+          "r": "located_in",
+          "t": "Ba Dinh District",
+          "mu_max": 0.10934799999999978,
+          "mu_ldfi": 0.13913674679199983,
+          "abs_gain": 0.029788746792000054,
+          "rel_gain": 0.272421505578521
+        }
+      ],
+      "mean_abs_gain": 0.08350005247399998,
+      "mean_rel_gain": 0.24840800734163726
+    },
+    "partial_overlap_control": {
+      "p1_p2_overlap_expected": 0.4,
+      "p1_p2_overlap_observed": 0.4,
+      "p1_p3_disjoint_expected": 0.52,
+      "p1_p3_disjoint_observed": 0.52,
+      "p1_p2_p3_best_pair_expected": 0.52,
+      "p1_p2_p3_best_pair_observed": 0.52
+    }
+  },
+  "E4_Cap": {
+    "monotonicity_violations": 1,
+    "kappa_distribution": {
+      "1": 995,
+      "2": 4,
+      "3": 1
+    },
+    "max_kappa": 3,
+    "cap_table": [
+      {
+        "cap": "1",
+        "mean_support": 0.15658038000000005,
+        "changed_vs_c1": 0,
+        "max_increase": 0.0,
+        "runtime_ms": 2.3265563482709695
+      },
+      {
+        "cap": "2",
+        "mean_support": 0.15699788026237005,
+        "changed_vs_c1": 5,
+        "max_increase": 0.15481970160000003,
+        "runtime_ms": 2.4318680028954986
+      },
+      {
+        "cap": "3",
+        "mean_support": 0.1570183654906729,
+        "changed_vs_c1": 5,
+        "max_increase": 0.16117185178289561,
+        "runtime_ms": 2.4821330996928737
+      },
+      {
+        "cap": "\\infty",
+        "mean_support": 0.15699788026237005,
+        "changed_vs_c1": 5,
+        "max_increase": 0.15481970160000003,
+        "runtime_ms": 2.445900499878917
+      }
+    ],
+    "c2_equals_cinf_count": 1000
+  },
+  "E5_Complexity": {
+    "M_values": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "repetitions": 2000,
+    "regimes": {
+      "all_shared": {
+        "data": [
+          {
+            "M": 2,
+            "n_pairs": 1,
+            "median_runtime_us": 2.009,
+            "p95_runtime_us": 2.101,
+            "ratio_T_over_M2": 0.50225
+          },
+          {
+            "M": 4,
+            "n_pairs": 6,
+            "median_runtime_us": 3.024,
+            "p95_runtime_us": 3.127,
+            "ratio_T_over_M2": 0.189
+          },
+          {
+            "M": 8,
+            "n_pairs": 28,
+            "median_runtime_us": 5.997,
+            "p95_runtime_us": 6.142,
+            "ratio_T_over_M2": 0.093703125
+          },
+          {
+            "M": 16,
+            "n_pairs": 120,
+            "median_runtime_us": 14.583,
+            "p95_runtime_us": 16.181299999999997,
+            "ratio_T_over_M2": 0.05696484375
+          },
+          {
+            "M": 32,
+            "n_pairs": 496,
+            "median_runtime_us": 41.908,
+            "p95_runtime_us": 47.30264999999999,
+            "ratio_T_over_M2": 0.04092578125
+          },
+          {
+            "M": 64,
+            "n_pairs": 2016,
+            "median_runtime_us": 138.95749999999998,
+            "p95_runtime_us": 148.90319999999997,
+            "ratio_T_over_M2": 0.033925170898437496
+          },
+          {
+            "M": 128,
+            "n_pairs": 8128,
+            "median_runtime_us": 502.712,
+            "p95_runtime_us": 605.9415,
+            "ratio_T_over_M2": 0.03068310546875
+          },
+          {
+            "M": 256,
+            "n_pairs": 32640,
+            "median_runtime_us": 1947.8490000000002,
+            "p95_runtime_us": 2188.27225,
+            "ratio_T_over_M2": 0.029721817016601565
+          }
+        ],
+        "empirical_scaling_slope_beta": 1.6791025697756186,
+        "intercept_a": -1.9120488184937539
+      },
+      "all_disjoint": {
+        "data": [
+          {
+            "M": 2,
+            "n_pairs": 1,
+            "median_runtime_us": 1.84,
+            "p95_runtime_us": 1.962,
+            "ratio_T_over_M2": 0.46
+          },
+          {
+            "M": 4,
+            "n_pairs": 6,
+            "median_runtime_us": 3.5025,
+            "p95_runtime_us": 3.61305,
+            "ratio_T_over_M2": 0.21890625
+          },
+          {
+            "M": 8,
+            "n_pairs": 28,
+            "median_runtime_us": 8.403,
+            "p95_runtime_us": 8.575,
+            "ratio_T_over_M2": 0.131296875
+          },
+          {
+            "M": 16,
+            "n_pairs": 120,
+            "median_runtime_us": 24.863,
+            "p95_runtime_us": 25.49025,
+            "ratio_T_over_M2": 0.09712109375
+          },
+          {
+            "M": 32,
+            "n_pairs": 496,
+            "median_runtime_us": 83.4295,
+            "p95_runtime_us": 88.3866,
+            "ratio_T_over_M2": 0.08147412109375
+          },
+          {
+            "M": 64,
+            "n_pairs": 2016,
+            "median_runtime_us": 311.6975,
+            "p95_runtime_us": 386.6783,
+            "ratio_T_over_M2": 0.0760980224609375
+          },
+          {
+            "M": 128,
+            "n_pairs": 8128,
+            "median_runtime_us": 1234.576,
+            "p95_runtime_us": 1508.8303999999998,
+            "ratio_T_over_M2": 0.0753525390625
+          },
+          {
+            "M": 256,
+            "n_pairs": 32640,
+            "median_runtime_us": 5014.075000000001,
+            "p95_runtime_us": 6027.5269,
+            "ratio_T_over_M2": 0.0765087127685547
+          }
+        ],
+        "empirical_scaling_slope_beta": 1.854498523757101,
+        "intercept_a": -1.8788403642566922
+      },
+      "mixed": {
+        "data": [
+          {
+            "M": 2,
+            "n_pairs": 1,
+            "median_runtime_us": 1.83,
+            "p95_runtime_us": 1.9561499999999998,
+            "ratio_T_over_M2": 0.4575
+          },
+          {
+            "M": 4,
+            "n_pairs": 6,
+            "median_runtime_us": 3.435,
+            "p95_runtime_us": 3.581,
+            "ratio_T_over_M2": 0.2146875
+          },
+          {
+            "M": 8,
+            "n_pairs": 28,
+            "median_runtime_us": 7.885,
+            "p95_runtime_us": 8.053,
+            "ratio_T_over_M2": 0.123203125
+          },
+          {
+            "M": 16,
+            "n_pairs": 120,
+            "median_runtime_us": 22.089,
+            "p95_runtime_us": 22.416050000000002,
+            "ratio_T_over_M2": 0.08628515625
+          },
+          {
+            "M": 32,
+            "n_pairs": 496,
+            "median_runtime_us": 74.2575,
+            "p95_runtime_us": 75.86659999999999,
+            "ratio_T_over_M2": 0.07251708984375
+          },
+          {
+            "M": 64,
+            "n_pairs": 2016,
+            "median_runtime_us": 273.4125,
+            "p95_runtime_us": 338.78324999999995,
+            "ratio_T_over_M2": 0.0667510986328125
+          },
+          {
+            "M": 128,
+            "n_pairs": 8128,
+            "median_runtime_us": 1012.6835,
+            "p95_runtime_us": 1236.9737499999999,
+            "ratio_T_over_M2": 0.061809295654296874
+          },
+          {
+            "M": 256,
+            "n_pairs": 32640,
+            "median_runtime_us": 4551.677,
+            "p95_runtime_us": 6775.176549999998,
+            "ratio_T_over_M2": 0.06945307922363281
+          }
+        ],
+        "empirical_scaling_slope_beta": 1.8371989547565253,
+        "intercept_a": -1.9336089448030003
+      }
+    }
+  },
+  "E6_Threshold": {
+    "sweep_table": [
+      {
+        "percentile": 10,
+        "threshold": 0.021767000000000095,
+        "ldfi_admitted_count": 900,
+        "ldfi_precision": 0.98,
+        "naive_admitted_count": 900,
+        "naive_precision": 0.98,
+        "max_admitted_count": 900,
+        "max_precision": 0.98,
+        "dep_crossing_count": 0,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": []
+      },
+      {
+        "percentile": 20,
+        "threshold": 0.053191399999999965,
+        "ldfi_admitted_count": 800,
+        "ldfi_precision": 0.98125,
+        "naive_admitted_count": 800,
+        "naive_precision": 0.98125,
+        "max_admitted_count": 800,
+        "max_precision": 0.98125,
+        "dep_crossing_count": 0,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": []
+      },
+      {
+        "percentile": 30,
+        "threshold": 0.07738430000000025,
+        "ldfi_admitted_count": 700,
+        "ldfi_precision": 0.9857142857142858,
+        "naive_admitted_count": 701,
+        "naive_precision": 0.985734664764622,
+        "max_admitted_count": 700,
+        "max_precision": 0.9857142857142858,
+        "dep_crossing_count": 1,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": [
+          {
+            "h": "Thap rua",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.06870699999999985,
+            "mu_all": 0.13062587769099987
+          }
+        ]
+      },
+      {
+        "percentile": 40,
+        "threshold": 0.10357700000000013,
+        "ldfi_admitted_count": 600,
+        "ldfi_precision": 0.9866666666666667,
+        "naive_admitted_count": 602,
+        "naive_precision": 0.9867109634551495,
+        "max_admitted_count": 600,
+        "max_precision": 0.9866666666666667,
+        "dep_crossing_count": 2,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": [
+          {
+            "h": "Pen Tower",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.07896500000000017,
+            "mu_all": 0.12495411962000025
+          },
+          {
+            "h": "Thap rua",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.06870699999999985,
+            "mu_all": 0.13062587769099987
+          }
+        ]
+      },
+      {
+        "percentile": 50,
+        "threshold": 0.12320799999999998,
+        "ldfi_admitted_count": 500,
+        "ldfi_precision": 0.988,
+        "naive_admitted_count": 503,
+        "naive_precision": 0.9880715705765407,
+        "max_admitted_count": 499,
+        "max_precision": 0.9899799599198397,
+        "dep_crossing_count": 3,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": [
+          {
+            "h": "Pen Tower",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.07896500000000017,
+            "mu_all": 0.12495411962000025
+          },
+          {
+            "h": "Thap rua",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.06870699999999985,
+            "mu_all": 0.13062587769099987
+          },
+          {
+            "h": "Pavilion of Doctors Stelae",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.121305,
+            "mu_all": 0.1602531558750001
+          }
+        ]
+      },
+      {
+        "percentile": 60,
+        "threshold": 0.15222880000000014,
+        "ldfi_admitted_count": 400,
+        "ldfi_precision": 0.9925,
+        "naive_admitted_count": 403,
+        "naive_precision": 0.9925558312655087,
+        "max_admitted_count": 400,
+        "max_precision": 0.9925,
+        "dep_crossing_count": 3,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": [
+          {
+            "h": "Thong Nhat Island",
+            "r": "symbol_of",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.144822,
+            "mu_all": 0.19619168728199998
+          },
+          {
+            "h": "Main atrium",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.12507800000000024,
+            "mu_all": 0.2207664692960002
+          },
+          {
+            "h": "Pavilion of Doctors Stelae",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.121305,
+            "mu_all": 0.1602531558750001
+          }
+        ]
+      },
+      {
+        "percentile": 70,
+        "threshold": 0.21367279999999986,
+        "ldfi_admitted_count": 300,
+        "ldfi_precision": 0.9966666666666667,
+        "naive_admitted_count": 305,
+        "naive_precision": 0.9967213114754099,
+        "max_admitted_count": 300,
+        "max_precision": 0.9966666666666667,
+        "dep_crossing_count": 5,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": [
+          {
+            "h": "Bat Trang Market",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.16042200000000006,
+            "mu_all": 0.24637379775
+          },
+          {
+            "h": "Hang Dau Street",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.16043699999999994,
+            "mu_all": 0.2812031001719997
+          },
+          {
+            "h": "Main atrium",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.12507800000000024,
+            "mu_all": 0.2207664692960002
+          },
+          {
+            "h": "Ta Hien Street",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.20394600000000018,
+            "mu_all": 0.3221273807860001
+          },
+          {
+            "h": "Truc Bach Lake",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.15839599999999976,
+            "mu_all": 0.27745705658124076
+          }
+        ]
+      },
+      {
+        "percentile": 80,
+        "threshold": 0.2620429999999999,
+        "ldfi_admitted_count": 200,
+        "ldfi_precision": 1.0,
+        "naive_admitted_count": 209,
+        "naive_precision": 1.0,
+        "max_admitted_count": 200,
+        "max_precision": 1.0,
+        "dep_crossing_count": 9,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": [
+          {
+            "h": "Government Guest House",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.25533300000000025,
+            "mu_all": 0.28503925596400026
+          },
+          {
+            "h": "Thong Nhat Island",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.261622,
+            "mu_all": 0.392218178482
+          },
+          {
+            "h": "Thống Nhất Park",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.2509459999999999,
+            "mu_all": 0.27754116227000003
+          },
+          {
+            "h": "Dai Thanh courtyard",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.25980300000000023,
+            "mu_all": 0.4291170238031763
+          },
+          {
+            "h": "Hang Dau Street",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.16043699999999994,
+            "mu_all": 0.2812031001719997
+          },
+          {
+            "h": "Hang Hom Street",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.23120899999999978,
+            "mu_all": 0.2824420010309996
+          },
+          {
+            "h": "Ta Hien Street",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.20394600000000018,
+            "mu_all": 0.3221273807860001
+          },
+          {
+            "h": "Thu Le Park",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.24969300000000016,
+            "mu_all": 0.2753925153640001
+          },
+          {
+            "h": "Truc Bach Lake",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.15839599999999976,
+            "mu_all": 0.27745705658124076
+          }
+        ]
+      },
+      {
+        "percentile": 90,
+        "threshold": 0.3277089999999999,
+        "ldfi_admitted_count": 100,
+        "ldfi_precision": 1.0,
+        "naive_admitted_count": 111,
+        "naive_precision": 1.0,
+        "max_admitted_count": 99,
+        "max_precision": 1.0,
+        "dep_crossing_count": 11,
+        "dep_crossing_precision": 1.0,
+        "crossing_details": [
+          {
+            "h": "Thong Nhat Island",
+            "r": "located_in",
+            "t": "Hanoi",
+            "valid": 1,
+            "mu_ldfi": 0.261622,
+            "mu_all": 0.392218178482
+          },
+          {
+            "h": "Dai Thanh courtyard",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.25980300000000023,
+            "mu_all": 0.4291170238031763
+          },
+          {
+            "h": "Flag Tower of Hanoi",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.3276889999999999,
+            "mu_all": 0.40315456512799996
+          },
+          {
+            "h": "Hang Bong Street",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.30018600000000006,
+            "mu_all": 0.35949173742999996
+          },
+          {
+            "h": "Hang Go Street",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.29768700000000026,
+            "mu_all": 0.3554494349980003
+          },
+          {
+            "h": "Pho",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.2933939999999997,
+            "mu_all": 0.49304784009885927
+          },
+          {
+            "h": "Thai Hoc buildings",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.29388700000000023,
+            "mu_all": 0.3492787403980002
+          },
+          {
+            "h": "tower",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.31640500000000005,
+            "mu_all": 0.38542348557999995
+          },
+          {
+            "h": "Trung Liet Temple",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.31049499999999997,
+            "mu_all": 0.37603520827000014
+          },
+          {
+            "h": "West Lake Flower Valley",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.322994,
+            "mu_all": 0.39580802631799983
+          },
+          {
+            "h": "Bat Trang Pottery Museum",
+            "r": "located_in",
+            "t": "Vietnam",
+            "valid": 1,
+            "mu_ldfi": 0.29092600000000024,
+            "mu_all": 0.34445045089000026
+          }
+        ]
+      }
+    ],
+    "false_injection_exemplar": {
+      "triple": "monks’ quarters located_in Hangzhou",
+      "base_support": 0.03639400000000004,
+      "copy_trajectory": [
+        {
+          "copies": 0,
+          "mu_ldfi": 0.03639400000000004,
+          "mu_naive": 0.03639400000000004,
+          "crosses_p70_threshold": false,
+          "crosses_p80_threshold": false
+        },
+        {
+          "copies": 1,
+          "mu_ldfi": 0.03639400000000004,
+          "mu_naive": 0.07146347676400011,
+          "crosses_p70_threshold": false,
+          "crosses_p80_threshold": false
+        },
+        {
+          "copies": 2,
+          "mu_ldfi": 0.03639400000000004,
+          "mu_naive": 0.10525663499065108,
+          "crosses_p70_threshold": false,
+          "crosses_p80_threshold": false
+        },
+        {
+          "copies": 4,
+          "mu_ldfi": 0.03639400000000004,
+          "mu_naive": 0.16919810666573998,
+          "crosses_p70_threshold": false,
+          "crosses_p80_threshold": false
+        },
+        {
+          "copies": 8,
+          "mu_ldfi": 0.03639400000000004,
+          "mu_naive": 0.2836991613088843,
+          "crosses_p70_threshold": true,
+          "crosses_p80_threshold": true
+        }
+      ]
+    }
+  }
+}

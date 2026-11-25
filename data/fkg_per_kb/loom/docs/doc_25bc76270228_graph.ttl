@@ -1,0 +1,90 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0919fe44> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/ent/bf37edde> onto:located_in <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/ent/802b73dd> onto:located_in <http://transmtl.vn/kb/van_phuc_silk_village>,
+        <http://transmtl.vn/kb/van_phuc_silk_village_gate> .
+
+<http://transmtl.vn/kb/loom> onto:has_part <http://transmtl.vn/kb/loom#shuttle> .
+
+<http://transmtl.vn/kb/loom#shuttle> onto:symbol_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village> onto:founded_by <http://transmtl.vn/ent/23ed0062> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/kb/loom#shuttle> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/loom> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4397 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/loom#shuttle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5187 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/loom#shuttle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/kb/loom#shuttle> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/loom> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2795 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/802b73dd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.284 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/bf37edde> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2629 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/0919fe44> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3874 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/ent/23ed0062> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.372 ;
+    fkg:docId "doc_25bc76270228" ;
+    fkg:kbId "loom" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/802b73dd> .
+

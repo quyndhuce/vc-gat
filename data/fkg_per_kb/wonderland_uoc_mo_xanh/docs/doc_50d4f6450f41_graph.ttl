@@ -1,0 +1,53 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/4cecaff2> onto:near <http://transmtl.vn/kb/yen_so_park> .
+
+<http://transmtl.vn/ent/a55ef29a> onto:part_of <http://transmtl.vn/kb/wonderland_uoc_mo_xanh> .
+
+<http://transmtl.vn/kb/yen_so_park> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/kb/wonderland_uoc_mo_xanh> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.397 ;
+    fkg:docId "doc_50d4f6450f41" ;
+    fkg:kbId "wonderland_uoc_mo_xanh" ;
+    rdf:object <http://transmtl.vn/kb/wonderland_uoc_mo_xanh> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a55ef29a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3484 ;
+    fkg:docId "doc_50d4f6450f41" ;
+    fkg:kbId "wonderland_uoc_mo_xanh" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2991 ;
+    fkg:docId "doc_50d4f6450f41" ;
+    fkg:kbId "wonderland_uoc_mo_xanh" ;
+    rdf:object <http://transmtl.vn/kb/wonderland_uoc_mo_xanh> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3979 ;
+    fkg:docId "doc_50d4f6450f41" ;
+    fkg:kbId "wonderland_uoc_mo_xanh" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/4cecaff2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3823 ;
+    fkg:docId "doc_50d4f6450f41" ;
+    fkg:kbId "wonderland_uoc_mo_xanh" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+

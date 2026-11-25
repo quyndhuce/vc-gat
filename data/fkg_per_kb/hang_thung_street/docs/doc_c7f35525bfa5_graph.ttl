@@ -1,0 +1,174 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/08911fd9> onto:located_in <http://transmtl.vn/ent/63be8e4a> .
+
+<http://transmtl.vn/ent/46e658f9> onto:located_in <http://transmtl.vn/ent/63be8e4a> .
+
+<http://transmtl.vn/ent/8129ddd7> onto:has_part <http://transmtl.vn/kb/hanoi_old_quarter>,
+        <http://www.wikidata.org/entity/Q97160324> .
+
+<http://www.wikidata.org/entity/Q97160324#dong_yen_gate> onto:leading_to <http://transmtl.vn/kb/red_river> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter> onto:has_part <http://transmtl.vn/ent/03edadd5> .
+
+<http://transmtl.vn/ent/63be8e4a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q97160324> onto:has_part <http://www.wikidata.org/entity/Q97160324#dong_yen_gate>,
+        <http://www.wikidata.org/entity/Q97160324#street> ;
+    onto:located_in <http://transmtl.vn/ent/08911fd9>,
+        <http://transmtl.vn/ent/46e658f9>,
+        <http://transmtl.vn/ent/63be8e4a> .
+
+<http://www.wikidata.org/entity/Q97160324#street> onto:across <http://transmtl.vn/ent/000e874a>,
+        <http://transmtl.vn/ent/49cb810b> ;
+    onto:connects <http://transmtl.vn/ent/2c26c783>,
+        <http://transmtl.vn/kb/hang_be_street> ;
+    onto:crosses <http://transmtl.vn/ent/49cb810b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2789 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/46e658f9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3023 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/08911fd9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3722 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2626 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324#dong_yen_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q97160324#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3217 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/49cb810b> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5281 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3286 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/03edadd5> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4601 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/49cb810b> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3884 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/08911fd9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3238 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q97160324> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/8129ddd7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6792 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_be_street> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2869 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/8129ddd7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3929 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/8129ddd7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4247 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/000e874a> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5989 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/2c26c783> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q97160324#dong_yen_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2928 ;
+    fkg:docId "doc_c7f35525bfa5" ;
+    fkg:kbId "hang_thung_street" ;
+    rdf:object <http://transmtl.vn/ent/46e658f9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q97160324> .
+

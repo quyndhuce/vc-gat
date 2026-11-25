@@ -1,0 +1,493 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/311bf13d> onto:near <http://transmtl.vn/kb/ta_hien_street> .
+
+<http://transmtl.vn/ent/5a278599> onto:on <http://transmtl.vn/kb/ta_hien_street> .
+
+<http://transmtl.vn/ent/810a3536> onto:near <http://transmtl.vn/kb/ta_hien_street> .
+
+<http://transmtl.vn/ent/afbcc3cd> onto:near <http://transmtl.vn/kb/ta_hien_street> .
+
+<http://transmtl.vn/ent/b424904a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/28a816e0> onto:located_in <http://transmtl.vn/ent/7d3f0f49> ;
+    onto:on <http://transmtl.vn/kb/ta_hien_street> .
+
+<http://transmtl.vn/ent/6b77ef4b> onto:ruled_by <http://transmtl.vn/ent/79bc74e3> .
+
+<http://transmtl.vn/kb/ta_hien_street#upper_level> onto:near <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/ta_hien_street#warm_glow> onto:over <http://transmtl.vn/ent/8e2af740> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter> onto:surrounded_by <http://transmtl.vn/ent/045b571b>,
+        <http://transmtl.vn/ent/74424100> .
+
+<http://transmtl.vn/kb/ta_hien_street#ground_floor> onto:near <http://transmtl.vn/ent/1f4a9685>,
+        <http://transmtl.vn/ent/e9c0ec8c> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/3824332d> onto:ruled_by <http://transmtl.vn/ent/64e12ab6>,
+        <http://transmtl.vn/ent/79bc74e3> .
+
+<http://transmtl.vn/kb/ta_hien_street> onto:architectural_style <http://transmtl.vn/ent/30516712>,
+        <http://transmtl.vn/ent/9ad80839> ;
+    onto:former_name_of <http://transmtl.vn/ent/e68a1a0d> ;
+    onto:has_part <http://transmtl.vn/kb/ta_hien_street#ground_floor>,
+        <http://transmtl.vn/kb/ta_hien_street#upper_level>,
+        <http://transmtl.vn/kb/ta_hien_street#warm_glow> ;
+    onto:leading_to <http://transmtl.vn/ent/3272fed9>,
+        <http://transmtl.vn/ent/468bd38c> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/ent/63be8e4a> ;
+    onto:near <http://transmtl.vn/ent/6c6d4dfa> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/3824332d>,
+        <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/ent/6b77ef4b> ;
+    onto:symbol_of <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3026 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/kb/ta_hien_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/28a816e0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6002 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.762 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/3272fed9> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5626 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3676 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3105 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/7d3f0f49> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/28a816e0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3148 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street#upper_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4329 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/3824332d> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5042 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4863 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/045b571b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2828 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2871 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3569 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5448 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b424904a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4166 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3365 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4754 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/74424100> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2597 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/kb/ta_hien_street> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/311bf13d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5323 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.342 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/kb/ta_hien_street> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/810a3536> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.361 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3821 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/79bc74e3> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/6b77ef4b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.541 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/045b571b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2641 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/kb/ta_hien_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/5a278599> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.442 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/kb/ta_hien_street#ground_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/kb/ta_hien_street#upper_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4797 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2721 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7074 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/79bc74e3> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/3824332d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4015 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3965 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/e68a1a0d> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7948 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/468bd38c> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3178 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/30516712> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3535 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/e9c0ec8c> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5373 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/468bd38c> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4635 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4407 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4203 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5744 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.456 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/kb/ta_hien_street#warm_glow> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4493 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3417 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/kb/ta_hien_street> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/afbcc3cd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4429 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/3272fed9> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5356 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/3824332d> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4198 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/3824332d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3287 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4059 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2764 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/6b77ef4b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3657 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/8e2af740> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street#warm_glow> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3887 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3664 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/9ad80839> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6303 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/74424100> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3197 ;
+    fkg:docId "doc_f9dc7c1d3faf" ;
+    fkg:kbId "ta_hien_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ta_hien_street> .
+

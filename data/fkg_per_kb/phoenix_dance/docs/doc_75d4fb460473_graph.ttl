@@ -1,0 +1,44 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/performance> onto:inaugurated_in <http://transmtl.vn/ent/4d855669> .
+
+<http://transmtl.vn/kb/phoenix_dance> onto:has_part <http://transmtl.vn/kb/phoenix_dance#hồ_gươm> .
+
+<http://transmtl.vn/kb/phoenix_dance#hồ_gươm> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8315 ;
+    fkg:docId "doc_75d4fb460473" ;
+    fkg:kbId "phoenix_dance" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/phoenix_dance#hồ_gươm> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2749 ;
+    fkg:docId "doc_75d4fb460473" ;
+    fkg:kbId "phoenix_dance" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/phoenix_dance#hồ_gươm> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8349 ;
+    fkg:docId "doc_75d4fb460473" ;
+    fkg:kbId "phoenix_dance" ;
+    rdf:object <http://transmtl.vn/ent/4d855669> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75d4fb460473" ;
+    fkg:kbId "phoenix_dance" ;
+    rdf:object <http://transmtl.vn/kb/phoenix_dance#hồ_gươm> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/phoenix_dance> .
+

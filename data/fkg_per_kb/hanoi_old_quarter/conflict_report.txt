@@ -1,0 +1,53 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Turtle Tower)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/hanoi_old_quarter#turtle_tower
+  Conflict K: 0.7403
+  Candidates:
+    • city                            Bel=0.3955  Pl=0.5540  (2 evidence)
+    • cultural heritage               Bel=0.2690  Pl=0.4276  (2 evidence)
+    • the                             Bel=0.0661  Pl=0.2247  (1 evidence)
+    • Hanoi Old Quarter               Bel=0.0634  Pl=0.2219  (1 evidence)
+    • .                               Bel=0.0474  Pl=0.2060  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.8705  K=0.0000
+  [capital_of] ('s) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2354  K=0.0000
+  [capital_of] (capital city) → http://transmtl.vn/ent/5f8f9e33  Bel=0.3321  K=0.0000
+  [capital_of] (.) → http://transmtl.vn/ent/5f8f9e33  Bel=0.7034  K=0.0000
+  [symbol_of] (Turtle Tower) → http://transmtl.vn/ent/4ed5d2ea  Bel=0.3955  K=0.7403 ⚠ REVIEW
+  [symbol_of] (Thap rua) → http://transmtl.vn/kb/hanoi_old_quarter  Bel=0.2268  K=0.0000
+  [founded_in] (Ha Noi) → http://transmtl.vn/ent/90e13578  Bel=0.7838  K=0.0000
+  [former_name_of] (Hanoi Old Quarter) → http://transmtl.vn/ent/207462d2  Bel=0.2193  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Hanoi Old Quarter) → (street)  μ_F=0.9999  (6 evidence)
+  [has_component] (Hanoi Old Quarter) → (shopfronts)  μ_F=0.9991  (3 evidence)
+  [has_part] (Hanoi Old Quarter) → (alleyway)  μ_F=0.9905  (4 evidence)
+  [has_part] (Hanoi Old Quarter) → (Hoàn Kiếm Lake)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hanoi Old Quarter) → (Turtle Tower)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hanoi Old Quarter) → (Thái Cực lake)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Old Quarter) → (structures)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Old Quarter) → (76 streets)  μ_F=0.9025  (2 evidence)
+  [has_part] (Hanoi Old Quarter) → (Paper Goods Street)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Old Quarter) → (tube houses)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Old Quarter) → (streets)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Old Quarter) → (building)  μ_F=0.9025  (1 evidence)
+  [has_component] (Hanoi Old Quarter) → (merchant streets)  μ_F=0.9025  (1 evidence)
+  [has_component] (Hanoi Old Quarter) → (narrow tube houses)  μ_F=0.9025  (1 evidence)
+  [has_component] (Hanoi Old Quarter) → (street signs)  μ_F=0.9025  (1 evidence)
+  [has_component] (Hanoi Old Quarter) → (markets)  μ_F=0.9025  (1 evidence)
+  [has_component] (Hanoi Old Quarter) → (scooters)  μ_F=0.9025  (1 evidence)
+  [has_component] (Hanoi Old Quarter) → (pedestrian lanes)  μ_F=0.9025  (1 evidence)
+  [has_component] (Hanoi Old Quarter) → (old facades)  μ_F=0.9025  (1 evidence)
+  [has_component] (Hanoi Old Quarter) → (narrow streets)  μ_F=0.9025  (1 evidence)
+
+========================================================================

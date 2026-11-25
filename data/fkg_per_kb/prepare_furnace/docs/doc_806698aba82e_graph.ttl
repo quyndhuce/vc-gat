@@ -1,0 +1,69 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/prepare_furnace> onto:has_part <http://transmtl.vn/kb/prepare_furnace#kiln>,
+        <http://transmtl.vn/kb/prepare_furnace#kiln_door> .
+
+<http://transmtl.vn/kb/prepare_furnace#kiln> onto:made_of <http://transmtl.vn/ent/01540f31> .
+
+<http://transmtl.vn/kb/prepare_furnace#kiln_door> onto:part_of <http://transmtl.vn/ent/33f2ee11>,
+        <http://transmtl.vn/ent/9e828743> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4597 ;
+    fkg:docId "doc_806698aba82e" ;
+    fkg:kbId "prepare_furnace" ;
+    rdf:object <http://transmtl.vn/ent/9e828743> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/prepare_furnace#kiln_door> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_806698aba82e" ;
+    fkg:kbId "prepare_furnace" ;
+    rdf:object <http://transmtl.vn/kb/prepare_furnace#kiln> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/prepare_furnace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_806698aba82e" ;
+    fkg:kbId "prepare_furnace" ;
+    rdf:object <http://transmtl.vn/kb/prepare_furnace#kiln_door> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/prepare_furnace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3001 ;
+    fkg:docId "doc_806698aba82e" ;
+    fkg:kbId "prepare_furnace" ;
+    rdf:object <http://transmtl.vn/ent/33f2ee11> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/prepare_furnace#kiln_door> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.279 ;
+    fkg:docId "doc_806698aba82e" ;
+    fkg:kbId "prepare_furnace" ;
+    rdf:object <http://transmtl.vn/ent/9e828743> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/prepare_furnace#kiln_door> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2691 ;
+    fkg:docId "doc_806698aba82e" ;
+    fkg:kbId "prepare_furnace" ;
+    rdf:object <http://transmtl.vn/ent/01540f31> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/prepare_furnace#kiln> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_806698aba82e" ;
+    fkg:kbId "prepare_furnace" ;
+    rdf:object <http://transmtl.vn/kb/prepare_furnace#kiln_door> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/prepare_furnace> .
+

@@ -1,0 +1,308 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/d20dc142> onto:on <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/8c155966> onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/b15265b8> onto:former_name_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/c0cb5f0f> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1151254#sword_lake> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q1151254#tả_vọng_lake> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/west_lake> onto:renamed_to <http://www.wikidata.org/entity/Q1858> .
+
+<http://www.wikidata.org/entity/Q1151254#lục_thủy_lake> onto:former_name_of <http://transmtl.vn/ent/8e950ac9>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:located_in <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:has_part <http://www.wikidata.org/entity/Q1151254#lục_thủy_lake>,
+        <http://www.wikidata.org/entity/Q1151254#sword_lake>,
+        <http://www.wikidata.org/entity/Q1151254#tả_vọng_lake> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/c0cb5f0f> .
+
+<http://www.wikidata.org/entity/Q1858> onto:commemorates <http://transmtl.vn/ent/5541f95b>,
+        <http://transmtl.vn/ent/8ad7868e>,
+        <http://transmtl.vn/ent/9fbfa3f6> ;
+    onto:dedicated_to <http://transmtl.vn/ent/5541f95b>,
+        <http://transmtl.vn/ent/8ad7868e>,
+        <http://transmtl.vn/ent/9fbfa3f6> ;
+    onto:former_name_of <http://transmtl.vn/ent/b15265b8>,
+        <http://transmtl.vn/ent/f92dcc4c> ;
+    onto:founded_in <http://transmtl.vn/ent/192afb19> ;
+    onto:renamed_to <http://transmtl.vn/ent/02f17a0c>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:renovated_in <http://transmtl.vn/ent/d072677d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8472 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/d072677d> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2721 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#tả_vọng_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.89 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/192afb19> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3915 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4676 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/d072677d> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3176 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/8ad7868e> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2918 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#lục_thủy_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4163 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/8ad7868e> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254#lục_thủy_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5576 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/5541f95b> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3267 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/f92dcc4c> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254#sword_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3017 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/b15265b8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3531 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/8c155966> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2854 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#lục_thủy_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3723 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2737 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/02f17a0c> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2783 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254#lục_thủy_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254#tả_vọng_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2705 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/8c155966> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2915 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/b15265b8> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3717 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/192afb19> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2762 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/5541f95b> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8227 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4482 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/9fbfa3f6> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6075 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/c0cb5f0f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3194 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/d20dc142> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2697 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#sword_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8224 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/8ad7868e> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.283 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#lục_thủy_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9892 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2705 ;
+    fkg:docId "doc_35d0bb250e0a" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/9fbfa3f6> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

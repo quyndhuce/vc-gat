@@ -1,0 +1,144 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:surrounded_by <http://transmtl.vn/ent/ed0aa594> .
+
+<http://transmtl.vn/kb/bat_trang_gate#bát_tràng_gate> onto:symbol_of <http://transmtl.vn/ent/82df4163> .
+
+<http://transmtl.vn/kb/bat_trang_gate#name> onto:above <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/bat_trang_gate#weathered_walls> onto:part_of <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/bat_trang_gate> onto:has_part <http://transmtl.vn/kb/bat_trang_gate#bát_tràng_gate>,
+        <http://transmtl.vn/kb/bat_trang_gate#gate>,
+        <http://transmtl.vn/kb/bat_trang_gate#name>,
+        <http://transmtl.vn/kb/bat_trang_gate#weathered_walls> .
+
+<http://transmtl.vn/kb/bat_trang_gate#gate> onto:architectural_style <http://transmtl.vn/ent/951bc3bb>,
+        <http://transmtl.vn/ent/efe79c32> ;
+    onto:leading_to <http://transmtl.vn/ent/7d793037> ;
+    onto:with <http://transmtl.vn/ent/5baa9350>,
+        <http://transmtl.vn/ent/cb16583b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.374 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/ed0aa594> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate#bát_tràng_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5112 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate#weathered_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4971 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/82df4163> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate#bát_tràng_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2539 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/cb16583b> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate#name> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7059 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/951bc3bb> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2717 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/7d793037> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2641 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/5baa9350> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2754 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate#name> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.257 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d9529db6b30d" ;
+    fkg:kbId "bat_trang_gate" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate#weathered_walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+

@@ -1,0 +1,118 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/593616de> onto:part_of <http://transmtl.vn/kb/le_nin_park> .
+
+<http://transmtl.vn/ent/c0c078f6> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/statue_of_lenin#base> onto:part_of <http://transmtl.vn/kb/le_nin_park> .
+
+<http://transmtl.vn/kb/statue_of_lenin#điện_biên_phủ_street> onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/c7cae06f> onto:renamed_to <http://transmtl.vn/kb/le_nin_park> .
+
+<http://transmtl.vn/kb/statue_of_lenin> onto:has_part <http://transmtl.vn/kb/statue_of_lenin#base>,
+        <http://transmtl.vn/kb/statue_of_lenin#chi_lăng_flower_garden>,
+        <http://transmtl.vn/kb/statue_of_lenin#điện_biên_phủ_street> .
+
+<http://transmtl.vn/kb/statue_of_lenin#chi_lăng_flower_garden> onto:former_name_of <http://transmtl.vn/ent/c7cae06f> ;
+    onto:renamed_to <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5608 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/kb/statue_of_lenin#chi_lăng_flower_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/kb/statue_of_lenin#điện_biên_phủ_street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/kb/statue_of_lenin#chi_lăng_flower_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6632 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c0c078f6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3774 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/ent/c7cae06f> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin#chi_lăng_flower_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3946 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/ent/c7cae06f> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin#chi_lăng_flower_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2545 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/593616de> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/kb/statue_of_lenin#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2574 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin#điện_biên_phủ_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3418 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/ent/c7cae06f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4361 ;
+    fkg:docId "doc_af31243ebbe5" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin#chi_lăng_flower_garden> .
+

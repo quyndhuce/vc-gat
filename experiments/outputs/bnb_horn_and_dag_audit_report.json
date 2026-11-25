@@ -1,0 +1,163 @@
+{
+  "part_1_dag_and_self_loops": {
+    "total_nodes": 21406,
+    "total_edges": 39845,
+    "self_loops_count": 0,
+    "level_violations_count": 0,
+    "is_strict_dag": true
+  },
+  "part_2_order_inversion_and_consistency": {
+    "multi_candidate_queries_count": 1217,
+    "natural_inversion_pairs_count": 547,
+    "total_traversal_steps_evaluated": 6044,
+    "naive_uk_violations_count": 268,
+    "naive_uk_violation_rate_pct": 4.43,
+    "max_naive_underestimate": 0.601371,
+    "inversion_steps_count": 669,
+    "inversion_naive_violations_count": 268,
+    "inversion_naive_violation_rate_pct": 40.06,
+    "admissible_uk_violations_count": 0,
+    "admissible_uk_violation_rate_pct": 0.0,
+    "synthetic_suite": {
+      "cases_tested": 1000,
+      "naive_violations": 1000,
+      "admissible_violations": 0
+    },
+    "sample_violations": [
+      {
+        "x": "ba dinh square",
+        "z": "vietnam",
+        "k": 0,
+        "M": 6,
+        "mu_exact": 1.0,
+        "L_k": 0.999729,
+        "v_k": 0.806512,
+        "U_k_naive": 1.0,
+        "q_rem": 0.948955,
+        "U_k_adm": 1.0,
+        "underestimate": 0.0
+      },
+      {
+        "x": "lawns",
+        "z": "ho chi minh city",
+        "k": 3,
+        "M": 18,
+        "mu_exact": 0.983104,
+        "L_k": 0.957736,
+        "v_k": 0.058862,
+        "U_k_naive": 0.981923,
+        "q_rem": 0.632384,
+        "U_k_adm": 1.0,
+        "underestimate": 0.001181
+      },
+      {
+        "x": "lawns",
+        "z": "ho chi minh city",
+        "k": 4,
+        "M": 18,
+        "mu_exact": 0.983104,
+        "L_k": 0.957736,
+        "v_k": 0.058862,
+        "U_k_naive": 0.980793,
+        "q_rem": 0.605322,
+        "U_k_adm": 1.0,
+        "underestimate": 0.002311
+      },
+      {
+        "x": "ho chi minh mausoleum",
+        "z": "vietnam",
+        "k": 1,
+        "M": 5,
+        "mu_exact": 0.999985,
+        "L_k": 0.997708,
+        "v_k": 0.805786,
+        "U_k_naive": 0.999983,
+        "q_rem": 0.870232,
+        "U_k_adm": 0.999995,
+        "underestimate": 2e-06
+      },
+      {
+        "x": "ha noi",
+        "z": "district",
+        "k": 10,
+        "M": 16,
+        "mu_exact": 0.147311,
+        "L_k": 0.022768,
+        "v_k": 0.014887,
+        "U_k_naive": 0.093374,
+        "q_rem": 0.212884,
+        "U_k_adm": 0.704748,
+        "underestimate": 0.053937
+      }
+    ]
+  },
+  "part_3_authentic_multi_stratum_intervals": {
+    "stratum_1_interval_facts_count": 3536,
+    "stratum_2_facts_evaluated": 11052,
+    "containment_violations_count": 0,
+    "containment_violation_pct": 0.0,
+    "mean_propagated_interval_width": 2.9e-05,
+    "max_propagated_interval_width": 0.00793
+  },
+  "part_4_wall_clock_time_benchmark": {
+    "out_edge_sorting_ms": 6.67,
+    "max_in_precalc_ms": 5.85,
+    "total_precalc_ms": 12.52,
+    "query_benchmarks": {
+      "eps_1e-02": {
+        "eps": 0.01,
+        "mean_full_query_ms": 4.12,
+        "mean_bnb_query_ms": 5.23,
+        "total_bnb_with_index_ms": 17.75,
+        "pure_query_speedup": 0.79,
+        "per_query_us_full": 3.39,
+        "per_query_us_bnb": 4.3,
+        "early_stopped_queries": 918,
+        "early_stopped_pct": 75.43
+      },
+      "eps_1e-03": {
+        "eps": 0.001,
+        "mean_full_query_ms": 4.12,
+        "mean_bnb_query_ms": 7.3,
+        "total_bnb_with_index_ms": 19.82,
+        "pure_query_speedup": 0.56,
+        "per_query_us_full": 3.39,
+        "per_query_us_bnb": 6.0,
+        "early_stopped_queries": 616,
+        "early_stopped_pct": 50.62
+      },
+      "eps_1e-04": {
+        "eps": 0.0001,
+        "mean_full_query_ms": 4.12,
+        "mean_bnb_query_ms": 8.02,
+        "total_bnb_with_index_ms": 20.54,
+        "pure_query_speedup": 0.51,
+        "per_query_us_full": 3.39,
+        "per_query_us_bnb": 6.59,
+        "early_stopped_queries": 370,
+        "early_stopped_pct": 30.4
+      }
+    },
+    "crossover_io_latency_us": 0.467,
+    "storage_profiles": {
+      "in_memory_hashmap": {
+        "edge_lookup_latency_us": 0.0,
+        "full_time_ms": 4.12,
+        "bnb_time_ms": 5.23,
+        "speedup": 0.79
+      },
+      "embedded_sqlite_lmdb": {
+        "edge_lookup_latency_us": 10.0,
+        "full_time_ms": 51.38,
+        "bnb_time_ms": 28.71,
+        "speedup": 1.79
+      },
+      "network_neo4j_sparql": {
+        "edge_lookup_latency_us": 200.0,
+        "full_time_ms": 949.32,
+        "bnb_time_ms": 474.83,
+        "speedup": 2.0
+      }
+    }
+  }
+}

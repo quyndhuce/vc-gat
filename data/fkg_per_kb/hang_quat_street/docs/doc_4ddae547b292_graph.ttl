@@ -1,0 +1,199 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_quat_street#eastern_half> onto:part_of <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_quat_street#hang_dan_street> onto:part_of <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_quat_street#rue_des_eventails> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_quat_street#street> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/f12e1789> onto:former_name_of <http://transmtl.vn/kb/hang_quat_street> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/92c17408> onto:former_name_of <http://transmtl.vn/kb/hang_quat_street> .
+
+<http://transmtl.vn/kb/hang_quat_street> onto:former_name_of <http://transmtl.vn/ent/92c17408>,
+        <http://transmtl.vn/ent/f12e1789> ;
+    onto:has_part <http://transmtl.vn/ent/d5659e0d>,
+        <http://transmtl.vn/kb/hang_quat_street#eastern_half>,
+        <http://transmtl.vn/kb/hang_quat_street#hang_dan_street>,
+        <http://transmtl.vn/kb/hang_quat_street#rue_des_eventails>,
+        <http://transmtl.vn/kb/hang_quat_street#street> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/66409e0f> ;
+    onto:renamed_to <http://transmtl.vn/ent/b45c3290> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7501 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4413 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4776 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_quat_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/f12e1789> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3975 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/92c17408> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2752 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2878 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/f12e1789> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_quat_street#rue_des_eventails> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3131 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street#hang_dan_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3581 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/d5659e0d> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4331 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/92c17408> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2723 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/66409e0f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2994 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_quat_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.646 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street#rue_des_eventails> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3904 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_quat_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/92c17408> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3135 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street#eastern_half> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.438 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/f12e1789> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4755 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_quat_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/92c17408> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_quat_street#hang_dan_street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_quat_street#eastern_half> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3041 ;
+    fkg:docId "doc_4ddae547b292" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/b45c3290> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+

@@ -1,0 +1,185 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/3a796b12> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/54f47ca5> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/f47eed95> onto:located_in <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://transmtl.vn/ent/f97c5d29> onto:walking_on <http://www.wikidata.org/entity/Q10796192> .
+
+<http://www.wikidata.org/entity/Q10796192#alleys> onto:located_in <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://www.wikidata.org/entity/Q10796192#street> onto:located_in <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://transmtl.vn/ent/f8b570df> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q10796192> onto:has_part <http://www.wikidata.org/entity/Q10796192#alleys>,
+        <http://www.wikidata.org/entity/Q10796192#street> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/f8b570df> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2663 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192#alleys> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2623 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2674 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/f97c5d29> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4207 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f8b570df> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2594 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3a796b12> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3275 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2743 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/f8b570df> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2873 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.582 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2616 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2531 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3139 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/54f47ca5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.258 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f47eed95> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3708 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4382 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10796192#alleys> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10796192> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2886 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f8b570df> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2928 ;
+    fkg:docId "doc_af86a86ba59a" ;
+    fkg:kbId "ma_may_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+

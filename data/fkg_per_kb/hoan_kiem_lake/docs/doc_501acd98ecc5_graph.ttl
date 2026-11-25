@@ -1,0 +1,160 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/7377e13a> onto:connects <http://transmtl.vn/kb/ngoc_son_temple> ;
+    onto:leading_to <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://www.wikidata.org/entity/Q1151254#tower> onto:built_by <http://transmtl.vn/ent/13c6b9a5> ;
+    onto:commemorates <http://transmtl.vn/ent/e70c4df1> .
+
+<http://www.wikidata.org/entity/Q1858> onto:in <http://transmtl.vn/ent/628b7db0>,
+        <http://transmtl.vn/ent/c7c3169c> .
+
+<http://www.wikidata.org/entity/Q1151254#turtle_tower> onto:built_by <http://transmtl.vn/ent/13c6b9a5> ;
+    onto:on <http://www.wikidata.org/entity/Q1858> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:has_part <http://www.wikidata.org/entity/Q1151254#tower>,
+        <http://www.wikidata.org/entity/Q1151254#turtle_tower> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a> ;
+    onto:part_of <http://transmtl.vn/ent/63be8e4a> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7666 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/7377e13a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.451 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/c7c3169c> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254#turtle_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5064 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5207 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2838 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/13c6b9a5> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2531 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/628b7db0> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2704 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#turtle_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.347 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/ent/7377e13a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4599 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/7377e13a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4713 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/13c6b9a5> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#turtle_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4262 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/e70c4df1> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5003 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254#turtle_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5924 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254#turtle_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3522 ;
+    fkg:docId "doc_501acd98ecc5" ;
+    fkg:kbId "hoan_kiem_lake" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+

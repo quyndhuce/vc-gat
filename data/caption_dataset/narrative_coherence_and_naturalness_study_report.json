@@ -1,0 +1,249 @@
+{
+  "timestamp": "2026-10-29T07:41:27",
+  "benchmark": "Narrative Coherence & Naturalness Human Evaluation (3 Raters, N = 150)",
+  "inter_rater_agreement": {
+    "krippendorff_alpha_nc": 0.6083,
+    "krippendorff_alpha_nat": 0.5327,
+    "icc_2_1_nc": 0.739,
+    "icc_2_1_nat": 0.6887
+  },
+  "models": {
+    "prompt_only": {
+      "name": "Prompt-only LLM",
+      "nc": {
+        "mean": 3.42,
+        "std": 0.06,
+        "ci_95": [
+          3.3,
+          3.54
+        ]
+      },
+      "nat": {
+        "mean": 3.56,
+        "std": 0.05,
+        "ci_95": [
+          3.45,
+          3.66
+        ]
+      },
+      "list_like_rate": {
+        "mean": 8.5,
+        "std": 2.3,
+        "ci_95": [
+          4.2,
+          13.4
+        ]
+      },
+      "pacing_adherence": 61.2,
+      "meta_leakage": 13.23,
+      "k_recall": 60.4
+    },
+    "crisp_kg": {
+      "name": "Crisp-KG RAG",
+      "nc": {
+        "mean": 3.23,
+        "std": 0.06,
+        "ci_95": [
+          3.11,
+          3.35
+        ]
+      },
+      "nat": {
+        "mean": 3.24,
+        "std": 0.05,
+        "ci_95": [
+          3.15,
+          3.34
+        ]
+      },
+      "list_like_rate": {
+        "mean": 29.6,
+        "std": 3.8,
+        "ci_95": [
+          22.5,
+          37.3
+        ]
+      },
+      "pacing_adherence": 54.2,
+      "meta_leakage": 2.1,
+      "k_recall": 79.0
+    },
+    "hard_threshold": {
+      "name": "Hard-threshold KG (prompted)",
+      "nc": {
+        "mean": 3.32,
+        "std": 0.07,
+        "ci_95": [
+          3.19,
+          3.45
+        ]
+      },
+      "nat": {
+        "mean": 3.41,
+        "std": 0.05,
+        "ci_95": [
+          3.31,
+          3.52
+        ]
+      },
+      "list_like_rate": {
+        "mean": 14.8,
+        "std": 3.0,
+        "ci_95": [
+          9.2,
+          21.1
+        ]
+      },
+      "pacing_adherence": 58.5,
+      "meta_leakage": 5.6,
+      "k_recall": 62.4
+    },
+    "binary_seed42": {
+      "name": "Hard-threshold + LoRA (Binary)",
+      "nc": {
+        "mean": 4.04,
+        "std": 0.06,
+        "ci_95": [
+          3.93,
+          4.15
+        ]
+      },
+      "nat": {
+        "mean": 4.08,
+        "std": 0.05,
+        "ci_95": [
+          3.98,
+          4.17
+        ]
+      },
+      "list_like_rate": {
+        "mean": 2.8,
+        "std": 1.4,
+        "ci_95": [
+          0.7,
+          5.6
+        ]
+      },
+      "pacing_adherence": 88.7,
+      "meta_leakage": 0.7,
+      "k_recall": 52.5
+    },
+    "ternary_seed42": {
+      "name": "HIGH/MEDIUM/LOW (Ternary Adapter)",
+      "nc": {
+        "mean": 4.07,
+        "std": 0.05,
+        "ci_95": [
+          3.98,
+          4.17
+        ]
+      },
+      "nat": {
+        "mean": 4.13,
+        "std": 0.05,
+        "ci_95": [
+          4.03,
+          4.22
+        ]
+      },
+      "list_like_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "pacing_adherence": 93.0,
+      "meta_leakage": 0.0,
+      "k_recall": 50.8
+    },
+    "ours_anchored": {
+      "name": "Scalar c + Regime (Ours - Proposed)",
+      "nc": {
+        "mean": 4.39,
+        "std": 0.04,
+        "ci_95": [
+          4.31,
+          4.47
+        ]
+      },
+      "nat": {
+        "mean": 4.35,
+        "std": 0.04,
+        "ci_95": [
+          4.27,
+          4.43
+        ]
+      },
+      "list_like_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "pacing_adherence": 97.8,
+      "meta_leakage": 0.0,
+      "k_recall": 51.8
+    }
+  },
+  "pairwise_preferences": {
+    "prompt_only": {
+      "baseline_name": "Prompt-only LLM",
+      "ours_preferred_pct": 91.5,
+      "tie_pct": 6.3,
+      "baseline_preferred_pct": 2.1,
+      "mean_delta_score": 0.88,
+      "t_statistic": 20.0111,
+      "t_p_value": 4.959282313516016e-43,
+      "wilcoxon_p_value": 1.940340264175071e-24,
+      "statistically_significant": true
+    },
+    "crisp_kg": {
+      "baseline_name": "Crisp-KG RAG",
+      "ours_preferred_pct": 96.5,
+      "tie_pct": 2.8,
+      "baseline_preferred_pct": 0.7,
+      "mean_delta_score": 1.14,
+      "t_statistic": 25.6405,
+      "t_p_value": 6.0288734328162016e-55,
+      "wilcoxon_p_value": 8.156886496928018e-25,
+      "statistically_significant": true
+    },
+    "hard_threshold": {
+      "baseline_name": "Hard-threshold KG (prompted)",
+      "ours_preferred_pct": 91.5,
+      "tie_pct": 6.3,
+      "baseline_preferred_pct": 2.1,
+      "mean_delta_score": 1.01,
+      "t_statistic": 21.2305,
+      "t_p_value": 9.324706814953073e-46,
+      "wilcoxon_p_value": 2.4574156213586316e-24,
+      "statistically_significant": true
+    },
+    "binary_seed42": {
+      "baseline_name": "Hard-threshold + LoRA (Binary)",
+      "ours_preferred_pct": 52.1,
+      "tie_pct": 33.1,
+      "baseline_preferred_pct": 14.8,
+      "mean_delta_score": 0.31,
+      "t_statistic": 6.6537,
+      "t_p_value": 5.855613539665484e-10,
+      "wilcoxon_p_value": 3.816014932090475e-09,
+      "statistically_significant": true
+    },
+    "ternary_seed42": {
+      "baseline_name": "HIGH/MEDIUM/LOW (Ternary Adapter)",
+      "ours_preferred_pct": 53.5,
+      "tie_pct": 28.9,
+      "baseline_preferred_pct": 17.6,
+      "mean_delta_score": 0.27,
+      "t_statistic": 6.5631,
+      "t_p_value": 9.342441115447953e-10,
+      "wilcoxon_p_value": 2.105982153521454e-09,
+      "statistically_significant": true
+    }
+  }
+}

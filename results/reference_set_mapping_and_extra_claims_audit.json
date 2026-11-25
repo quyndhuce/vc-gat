@@ -1,0 +1,769 @@
+{
+  "n_clips": 500,
+  "vlm_consensus_covered_clips": 490,
+  "set_mapping": {
+    "base_triples_total": 10786,
+    "closure_unattenuated_total": 68425,
+    "C_gt_unique_triples_across_500": 1612,
+    "C_gt_mean_per_clip": 144.9,
+    "F_gold_total_instances": 4750,
+    "F_gold_unique_triples": 366,
+    "F_gold_by_category": {
+      "visual": 1746,
+      "direct": 2059,
+      "inferred": 945
+    },
+    "F_gold_by_source": {
+      "('visual', False, 'fkg_base')": 1746,
+      "('direct', False, 'fkg_base')": 2059,
+      "('inferred', True, 'horn_rule')": 86,
+      "('inferred', False, 'fkg_base')": 859
+    },
+    "F_indep_total_instances": 4750,
+    "F_indep_unique_triples": 285,
+    "F_indep_by_category": {
+      "visual": 2059,
+      "direct": 1746,
+      "inferred": 945
+    },
+    "F_indep_by_source": {
+      "('visual', False, 'fkg_base')": 2059,
+      "('direct', False, 'fkg_base')": 1746,
+      "('inferred', False, 'fkg_base')": 811,
+      "('inferred', True, 'horn_rule')": 134
+    },
+    "exact_Fadmit_eq_Fgold_clips": 391,
+    "exact_Fadmit_eq_Findep_clips": 0,
+    "mean_jaccard_Fadmit_vs_Fgold": 0.7826,
+    "mean_jaccard_Fadmit_vs_Findep": 0.1317,
+    "mean_jaccard_Fgold_vs_Findep": 0.165
+  },
+  "model_recall_comparison": {
+    "ours_anchored": {
+      "against_F_gold": {
+        "k_recall": 51.84,
+        "vis_recall": 61.77,
+        "dir_recall": 41.75,
+        "inf_recall": 51.33,
+        "horn_only_recall": 55.36
+      },
+      "against_F_indep": {
+        "k_recall": 20.96,
+        "vis_recall": 14.84,
+        "dir_recall": 25.58,
+        "inf_recall": 28.0,
+        "horn_only_recall": 20.0
+      },
+      "against_C_gt_unique_tails_pct": 15.29
+    },
+    "ours_unanchored": {
+      "against_F_gold": {
+        "k_recall": 19.68,
+        "vis_recall": 19.93,
+        "dir_recall": 17.35,
+        "inf_recall": 23.45,
+        "horn_only_recall": 46.43
+      },
+      "against_F_indep": {
+        "k_recall": 29.21,
+        "vis_recall": 17.2,
+        "dir_recall": 33.62,
+        "inf_recall": 46.43,
+        "horn_only_recall": 56.82
+      },
+      "against_C_gt_unique_tails_pct": 15.84
+    },
+    "prompt_only": {
+      "against_F_gold": {
+        "k_recall": 60.37,
+        "vis_recall": 64.85,
+        "dir_recall": 57.21,
+        "inf_recall": 57.45,
+        "horn_only_recall": 54.76
+      },
+      "against_F_indep": {
+        "k_recall": 24.33,
+        "vis_recall": 14.97,
+        "dir_recall": 33.55,
+        "inf_recall": 30.2,
+        "horn_only_recall": 22.73
+      },
+      "against_C_gt_unique_tails_pct": 17.02
+    },
+    "crisp_kg": {
+      "against_F_gold": {
+        "k_recall": 78.96,
+        "vis_recall": 83.6,
+        "dir_recall": 79.9,
+        "inf_recall": 68.63,
+        "horn_only_recall": 59.52
+      },
+      "against_F_indep": {
+        "k_recall": 29.68,
+        "vis_recall": 17.84,
+        "dir_recall": 43.78,
+        "inf_recall": 33.49,
+        "horn_only_recall": 24.55
+      },
+      "against_C_gt_unique_tails_pct": 19.61
+    },
+    "hard_threshold": {
+      "against_F_gold": {
+        "k_recall": 62.46,
+        "vis_recall": 67.17,
+        "dir_recall": 60.22,
+        "inf_recall": 57.76,
+        "horn_only_recall": 56.55
+      },
+      "against_F_indep": {
+        "k_recall": 25.77,
+        "vis_recall": 16.51,
+        "dir_recall": 35.73,
+        "inf_recall": 31.37,
+        "horn_only_recall": 22.73
+      },
+      "against_C_gt_unique_tails_pct": 18.45
+    },
+    "text_rag": {
+      "against_F_gold": {
+        "k_recall": 19.71,
+        "vis_recall": 18.13,
+        "dir_recall": 26.69,
+        "inf_recall": 4.24,
+        "horn_only_recall": 4.17
+      },
+      "against_F_indep": {
+        "k_recall": 19.21,
+        "vis_recall": 10.04,
+        "dir_recall": 38.57,
+        "inf_recall": 2.16,
+        "horn_only_recall": 0.91
+      },
+      "against_C_gt_unique_tails_pct": 14.0
+    },
+    "visual_only": {
+      "against_F_gold": {
+        "k_recall": 4.55,
+        "vis_recall": 5.85,
+        "dir_recall": 3.63,
+        "inf_recall": 3.18,
+        "horn_only_recall": 14.29
+      },
+      "against_F_indep": {
+        "k_recall": 3.34,
+        "vis_recall": 4.49,
+        "dir_recall": 1.98,
+        "inf_recall": 3.22,
+        "horn_only_recall": 0.0
+      },
+      "against_C_gt_unique_tails_pct": 4.47
+    }
+  },
+  "extra_claims_outside_Fgold": {
+    "ours_anchored": {
+      "clips_with_extra_Cgt_claims": 464,
+      "total_extra_Cgt_claims": 2894,
+      "of_which_in_eligible_admit": 9,
+      "of_which_verified_in_docs": 2031,
+      "extra_years_outside_Fgold": 0,
+      "extra_years_in_Cgt": 0,
+      "extra_years_in_docs": 0
+    },
+    "prompt_only": {
+      "clips_with_extra_Cgt_claims": 460,
+      "total_extra_Cgt_claims": 3199,
+      "of_which_in_eligible_admit": 5,
+      "of_which_verified_in_docs": 2238,
+      "extra_years_outside_Fgold": 0,
+      "extra_years_in_Cgt": 0,
+      "extra_years_in_docs": 0
+    },
+    "crisp_kg": {
+      "clips_with_extra_Cgt_claims": 496,
+      "total_extra_Cgt_claims": 3397,
+      "of_which_in_eligible_admit": 12,
+      "of_which_verified_in_docs": 2434,
+      "extra_years_outside_Fgold": 0,
+      "extra_years_in_Cgt": 0,
+      "extra_years_in_docs": 0
+    },
+    "text_rag": {
+      "clips_with_extra_Cgt_claims": 486,
+      "total_extra_Cgt_claims": 4388,
+      "of_which_in_eligible_admit": 19,
+      "of_which_verified_in_docs": 3311,
+      "extra_years_outside_Fgold": 341,
+      "extra_years_in_Cgt": 0,
+      "extra_years_in_docs": 205
+    }
+  },
+  "manual_inspection_samples": [
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0001",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands within Hanoi, which was under French rule before becoming part of Vietnam. The museum features exhibits and walls constructed from brick, showcasing an Indo-Chinese architectural style. Inside, one can observe various concepts such as 212, 284, and 278, along with texts and other elements contributing to its interior design. A notable feature is a stele dedicated to God Harivamshesvara, adding to the cultural significance of the space.",
+      "extra_kg_claims": [
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0002",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands as an architectural marvel along Tràng Tiền Street in Hanoi, where it blends traditional Indochinese styles with modern elements. The museum's interior showcases various artifacts, including a notable stele dedicated to God Harivamsesvara. Located within this structure, one can observe a monk robe on display, adding to the cultural richness of the space. The museum’s presence near bustling streets highlights its accessibility for both locals and tourists interested in Vietnamese history.",
+      "extra_kg_claims": [
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0003",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History, located in Hanoi, houses various exhibits within its structure. The museum features an interior designed in Indochinese style, showcasing elements like wooden walls and intricate decorations. Inside, one can find artifacts such as a calligraphy-inscribed wooden plaque and a bronze bell. Additionally, there is a stele dedicated to God Harivamsesvara on display.",
+      "extra_kg_claims": [
+        {
+          "tail": "walls",
+          "triple": "Vietnam National Museum of History -- has_part -> walls",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0005",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands within Hanoi, which was under French rule before becoming part of modern-day Vietnam. The museum features an indochinese-style building with symmetrical walls and exhibits showcasing various artifacts. Inside, one can see a bronze gong and an ancestral tablet alongside other displays. The museum also houses a stele dedicated to God Harivamsesvara, adding to its cultural significance.",
+      "extra_kg_claims": [
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0006",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands on Tràng Tiền Street in Hanoi, featuring exhibits within its walls. The museum's interior showcases various artifacts, including a stele dedicated to God Harivamsesvara. The structure adheres to Indochinese architectural styles. A buddha statue can be seen among the displays, adding to the cultural ambiance of the space.",
+      "extra_kg_claims": [
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0008",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History, located in Hanoi, houses various exhibits including a stele dedicated to God Harivamsesvara. The museum features style Indochinese architecture and displays artifacts within its walls. Inside, one can observe a lacquered column as part of the museum's interior design. Hanoi has been under rule by both the Lý dynasty and the French colonial period.",
+      "extra_kg_claims": [
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0009",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "MEDIUM",
+      "caption": "The scene likely shows an area within what appears to be the Vietnam National Museum of History, featuring exhibits and possibly walls constructed from wood. If this is indeed the museum, it seems to have an interior space where artifacts might be displayed, including a stele house containing a stone stele. The presence of an ancestral tablet suggests a focus on traditional elements, aligning with the described style of Indochinese architecture.",
+      "extra_kg_claims": [
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "stone",
+          "triple": "walls -- made_of -> stone",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0010",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "LOW",
+      "caption": "The scene features several structures including what appears to be a pagoda, a colonial-style building, and possibly a temple den. There are also smaller elements like communal houses and a stupa visible within the frame. The exact identities of these landmarks remain uncertain due to limited visual evidence.",
+      "extra_kg_claims": [
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0012",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands as part of a museum complex situated along bustling Tràng Tiền Street in Hanoi. The building exhibits an Indo-Chinese architectural style, featuring elements like a stele dedicated to God Harivamsesvara within its premises. Inside, one can observe various artifacts including a calligraphy-inscribed wooden plaque and ancestral tablets. The museum's interior showcases these cultural treasures alongside other displays, providing insight into Vietnamese history.",
+      "extra_kg_claims": [
+        {
+          "tail": "exhibits",
+          "triple": "Vietnam National Museum of History -- has_part -> exhibits",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "wood",
+          "triple": "walls -- made_of -> wood",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0013",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "LOW",
+      "caption": "The scene appears to be within what might be a museum interior, featuring various artifacts on display. A carved wooden panel adorned with a phoenix motif can be seen prominently displayed alongside other items such as ceramics and possibly some unknown objects labeled as concept 278, 232, 233, and 283. The space seems well-lit, allowing for clear viewing of these exhibits.",
+      "extra_kg_claims": [
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0014",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands within Hanoi, featuring walls constructed primarily from wood. The museum houses various exhibits showcasing its rich history. Traditional artifacts like wooden drums are displayed throughout the space, contributing to the distinctive Indo-Chinese architectural style evident in the building's design. The interior layout allows for an immersive experience into Vietnamese culture and heritage.",
+      "extra_kg_claims": [
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Drum house",
+          "triple": "roof tiles -- part_of -> Drum house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": false
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0015",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "LOW",
+      "caption": "The scene features an ancient structure with several notable elements visible. A stele rests upon a turtle, positioned prominently within the area. Nearby, there is a stone stele standing alone, adorned with intricate designs including a lotus motif. Guardian lions stand guard at various points around the site, adding to its imposing presence. The exact identity of this landmark remains uncertain due to limited visual evidence.",
+      "extra_kg_claims": [
+        {
+          "tail": "stone",
+          "triple": "walls -- made_of -> stone",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0016",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands within its imposing structure, featuring walls adorned with exhibits. The museum's interior showcases various artifacts and displays under an architectural style known as Indochinese. Located in Hanoi, which was once ruled by Lý Thái Tổ and later by the French, this site houses significant collections including a stele dedicated to God Harivamsesvara. The museum’s presence reflects the rich cultural heritage of both past and present Hanoi.",
+      "extra_kg_claims": [
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0017",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "MEDIUM",
+      "caption": "The scene likely shows an interior space within what appears to be the Vietnam National Museum of History, featuring elements of Indochinese architecture. The walls seem to be constructed primarily from wood, which if this is indeed the museum, suggests a traditional design. If this is the case, the space possibly includes exhibits and displays, though specific details about these are not clearly visible. Additionally, there might be a stele present, though its exact location within the room is unclear.",
+      "extra_kg_claims": [
+        {
+          "tail": "walls",
+          "triple": "Vietnam National Museum of History -- has_part -> walls",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0018",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands within its wooden-walled structure, which houses various exhibits. The museum's interior features an array of artifacts and displays, including a stele dedicated to God Harivamsesvara. The building itself showcases Indochinese architectural elements, reflecting its cultural heritage. Located in Hanoi, the city once ruled by Lý Thái Tổ before being under French influence, this museum serves as a significant site for learning about Vietnamese history.",
+      "extra_kg_claims": [
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0020",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands within its brick-walled structure along Tràng Tiền Street in Hanoi, which was under French rule. The museum features an Indochinese architectural style and houses various artifacts including a stele dedicated to God Harivamsesvara. Inside, one can observe a parallel sentence board and a calligraphy-inscribed wooden plaque. An ancestral tablet is also present, adding to the cultural significance of the space. The museum's location near bustling streets highlights its accessibility for visitors interested in Vietnamese history.",
+      "extra_kg_claims": [
+        {
+          "tail": "wood",
+          "triple": "walls -- made_of -> wood",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0022",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands within Hanoi, which was once under the rule of Lý Thái Tổ and later became part of France's colonial period. The museum features an indochinese-style architecture with wooden walls and a symmetrical design. Inside, one can observe various exhibits including a stele dedicated to God Harivamsesvara. The museum’s interior showcases artifacts and displays related to Vietnamese history, contributing to its status as a significant cultural institution in the city.",
+      "extra_kg_claims": [
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0023",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "MEDIUM",
+      "caption": "The scene likely shows an interior space within what appears to be the Vietnam National Museum of History, featuring elements of Indochinese architecture. If this is indeed the museum, it possibly includes exhibits and a symmetrical structure with wooden walls. The presence of a stone stele suggests a significant artifact on display, though its exact purpose remains unclear based solely on visual evidence. An ancestral tablet can also be seen, adding another layer to the exhibit area.",
+      "extra_kg_claims": [
+        {
+          "tail": "walls",
+          "triple": "Vietnam National Museum of History -- has_part -> walls",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "stone",
+          "triple": "walls -- made_of -> stone",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0024",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "MEDIUM",
+      "caption": "The scene likely shows an area within what appears to be the Vietnam National Museum of History, which possibly includes exhibits such as a stele. The museum's interior seems to feature a symmetrical structure, suggesting it follows Indochinese architectural styles. If this is indeed the Vietnam National Museum of History, it may also contain a calligraphy-inscribed wooden plaque and a parallel sentence board. Additionally, there could be an ancestral tablet present, though its exact location is unclear from the current view. The museum’s presence near bustling streets indicates its accessibility to visitors in Hanoi, where it stands alongside other significant landmarks like those under the rule of Lý Thái Tổ.",
+      "extra_kg_claims": [
+        {
+          "tail": "wood",
+          "triple": "walls -- made_of -> wood",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0026",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "LOW",
+      "caption": "The scene appears to be within an indoor space, possibly part of a museum, though its specific location remains unclear due to limited visual evidence. There are several artifacts visible, including what seems like a stone stele placed atop a turtle, along with another smaller stele nearby. Additionally, there appear to be some tablets present, one described as an \"ancestral tablet.\" The exact nature and significance of these objects remain undetermined based solely on this observation.",
+      "extra_kg_claims": [
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "stone",
+          "triple": "walls -- made_of -> stone",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0027",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "LOW",
+      "caption": "The scene features several structures within what appears to be an archaeological site. A stone stele stands prominently, positioned atop a turtle-like base. Nearby, there is also a smaller stone stele and a structure resembling a stele house. Additionally, a war memorial can be seen nearby, though its precise nature remains unclear due to limited visual evidence. The exact identity of these landmarks remains uncertain based on the current observations.",
+      "extra_kg_claims": [
+        {
+          "tail": "stele",
+          "triple": "Vietnam National Museum of History -- has_part -> stele",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "stone",
+          "triple": "walls -- made_of -> stone",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0028",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "MEDIUM",
+      "caption": "The scene likely shows an interior space within what appears to be the Vietnam National Museum of History, featuring elements such as a parallel sentence board and possibly an ancestral tablet. The museum seems to have a symmetrical structure and exhibits, including one that may be a stele dedicated to God Harivamsesvara. If this is indeed the Vietnam National Museum of History, it also showcases style indicative of Indochinese architecture.",
+      "extra_kg_claims": [
+        {
+          "tail": "museum",
+          "triple": "Vietnam National Museum of History -- part_of -> museum",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "Vietnam",
+          "triple": "Hanoi -- located_in -> Vietnam",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0031",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "HIGH",
+      "caption": "The Vietnam National Museum of History stands within Hanoi, which was once under the rule of Lý Thái Tổ and later governed by the French. The museum features an intricate design with a symmetrical structure and exhibits including a stele dedicated to God Harivamsesvara. Inside, one can observe an ancestral tablet alongside other artifacts housed within its walls. The museum's exterior showcases elements of Indochinese architecture, contributing to its distinctive appearance.",
+      "extra_kg_claims": [
+        {
+          "tail": "house",
+          "triple": "roof -- part_of -> house",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0033",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "LOW",
+      "caption": "The scene appears to be within what might be a museum interior, though the specific location remains uncertain due to limited visual evidence. An ancestral tablet and a stone stele can be seen prominently displayed on display cases. The space seems well-lit, allowing for clear viewing of these artifacts. Other concepts like those numbered 233, 278, 235, 238, and 212 are also present but less distinct. The architecture includes walls and possibly a roof structure overhead, though details about its design are unclear.",
+      "extra_kg_claims": [
+        {
+          "tail": "roof",
+          "triple": "Vietnam National Museum of History -- has_part -> roof",
+          "in_eligible_admit": true,
+          "verified_in_clean_doc": true
+        },
+        {
+          "tail": "stone",
+          "triple": "walls -- made_of -> stone",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    },
+    {
+      "model": "ours_anchored",
+      "sample_id": "test_0034",
+      "landmark_gt": "Vietnam National Museum of History",
+      "certainty_level": "MEDIUM",
+      "caption": "The scene likely shows an interior space within what appears to be the Vietnam National Museum of History, possibly featuring exhibits and walls. If this is indeed the museum, it seems to include elements like a stele, which might be dedicated to God Harivamsesvara. The space also appears to have a symmetrical structure and may incorporate styles of Indochinese architecture. Shuttered windows can be seen, adding to the enclosed feel of the area. Calligraphy-inscribed wooden plaques and texts are present, suggesting areas designated for display or information.",
+      "extra_kg_claims": [
+        {
+          "tail": "wood",
+          "triple": "walls -- made_of -> wood",
+          "in_eligible_admit": false,
+          "verified_in_clean_doc": true
+        }
+      ]
+    }
+  ]
+}

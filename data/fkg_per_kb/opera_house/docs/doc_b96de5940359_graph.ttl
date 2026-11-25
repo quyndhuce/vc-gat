@@ -1,0 +1,385 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/opera_house#west_long_gate> onto:part_of <http://transmtl.vn/kb/opera_house> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/opera_house> onto:architectural_style <http://transmtl.vn/ent/00cb7dc5>,
+        <http://transmtl.vn/ent/64e12ab6>,
+        <http://transmtl.vn/ent/6d5d7b7c>,
+        <http://transmtl.vn/ent/85e50e18>,
+        <http://transmtl.vn/ent/df595ce4> ;
+    onto:border_with <http://transmtl.vn/ent/566e1d0d> ;
+    onto:built_by <http://transmtl.vn/ent/64e12ab6> ;
+    onto:built_in <http://transmtl.vn/ent/04df4d43>,
+        <http://transmtl.vn/ent/d54e99a6> ;
+    onto:designed_by <http://transmtl.vn/ent/a248766b>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/c84b0b17>,
+        <http://transmtl.vn/ent/f6384f90> ;
+    onto:has_part <http://transmtl.vn/kb/opera_house#west_long_gate> ;
+    onto:inspired_by <http://transmtl.vn/ent/44047cd0> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/c4b52a8b>,
+        <http://transmtl.vn/ent/fb7a06dc> ;
+    onto:near <http://transmtl.vn/ent/18d86334>,
+        <http://transmtl.vn/ent/f6f50095>,
+        <http://www.wikidata.org/entity/Q1151254> ;
+    onto:on <http://transmtl.vn/ent/226f7adf>,
+        <http://transmtl.vn/ent/3ebb95ab>,
+        <http://transmtl.vn/ent/59a6e028>,
+        <http://transmtl.vn/ent/ada84b65> ;
+    onto:overlooks <http://transmtl.vn/ent/3bee737e> ;
+    onto:renovated_in <http://transmtl.vn/ent/06964dce>,
+        <http://transmtl.vn/ent/3f088ebe> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/kb/opera_house#west_long_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5519 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/00cb7dc5> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3743 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2714 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/566e1d0d> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5868 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/f6f50095> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4899 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/ada84b65> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5518 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/c4b52a8b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7986 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/6d5d7b7c> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3637 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6248 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/c84b0b17> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6376 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/59a6e028> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4126 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/d54e99a6> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4114 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.595 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3bee737e> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3761 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.54 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/04df4d43> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.373 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3f088ebe> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5531 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/df595ce4> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3241 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/59a6e028> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4989 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3492 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/00cb7dc5> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7656 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3f088ebe> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2541 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4698 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4246 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/18d86334> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3032 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/226f7adf> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4358 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7011 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5865 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/44047cd0> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3121 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4037 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3437 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2543 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/kb/opera_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/opera_house#west_long_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3531 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3689 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3ebb95ab> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4025 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/06964dce> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5688 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/a248766b> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2786 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2654 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3bee737e> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.548 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/fb7a06dc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.38 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/f6384f90> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3939 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6693 ;
+    fkg:docId "doc_b96de5940359" ;
+    fkg:kbId "opera_house" ;
+    rdf:object <http://transmtl.vn/ent/06964dce> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/opera_house> .
+

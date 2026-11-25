@@ -1,0 +1,170 @@
+{
+  "Overall nDCG@5": {
+    "slice_name": "Overall nDCG@5",
+    "estimand": "Difference in clip-level nDCG@5 across all Hanoi test clips",
+    "n_clips": 500,
+    "n_parent_video_clusters": 60,
+    "baseline_mean": 0.3038,
+    "vcgat_mean": 0.3899,
+    "point_delta": 0.0861,
+    "clip_bootstrap_ci_95": [
+      0.0679,
+      0.1056
+    ],
+    "clip_bootstrap_ci_str": "[+0.0679, +0.1056]",
+    "cluster_bootstrap_ci_95": [
+      0.0432,
+      0.1335
+    ],
+    "cluster_bootstrap_ci_str": "[+0.0432, +0.1335]",
+    "cohen_d": 0.407,
+    "cohen_d_definition": "mean(paired_diff) / std(paired_diff, ddof=1)",
+    "p_value_t_test": 2.0484703678966203e-18,
+    "p_value_wilcoxon": 3.801501993883745e-17,
+    "p_value_cluster_bootstrap_raw": 0.00029997000299970003,
+    "random_seed": 42,
+    "b_resamples": 10000,
+    "p_value_cluster_bootstrap_holm_adj": 0.0017998200179982003,
+    "significance_label": "**"
+  },
+  "Precision@5": {
+    "slice_name": "Precision@5",
+    "estimand": "Difference in clip-level Precision@5 across all Hanoi test clips",
+    "n_clips": 500,
+    "n_parent_video_clusters": 60,
+    "baseline_mean": 0.246,
+    "vcgat_mean": 0.3196,
+    "point_delta": 0.0736,
+    "clip_bootstrap_ci_95": [
+      0.0572,
+      0.0908
+    ],
+    "clip_bootstrap_ci_str": "[+0.0572, +0.0908]",
+    "cluster_bootstrap_ci_95": [
+      0.0335,
+      0.1179
+    ],
+    "cluster_bootstrap_ci_str": "[+0.0335, +0.1179]",
+    "cohen_d": 0.383,
+    "cohen_d_definition": "mean(paired_diff) / std(paired_diff, ddof=1)",
+    "p_value_t_test": 1.3233820381314864e-16,
+    "p_value_wilcoxon": 5.6898118489166744e-18,
+    "p_value_cluster_bootstrap_raw": 0.0013998600139986002,
+    "random_seed": 42,
+    "b_resamples": 10000,
+    "p_value_cluster_bootstrap_holm_adj": 0.004199580041995801,
+    "significance_label": "**"
+  },
+  "Hard Negative AUC": {
+    "slice_name": "Hard Negative AUC",
+    "estimand": "Difference in Hard-Negative ROC-AUC on clips with >=1 hard negative fact",
+    "n_clips": 391,
+    "n_parent_video_clusters": 60,
+    "baseline_mean": 0.7064,
+    "vcgat_mean": 0.7501,
+    "point_delta": 0.0437,
+    "clip_bootstrap_ci_95": [
+      0.0344,
+      0.0527
+    ],
+    "clip_bootstrap_ci_str": "[+0.0344, +0.0527]",
+    "cluster_bootstrap_ci_95": [
+      0.0234,
+      0.0675
+    ],
+    "cluster_bootstrap_ci_str": "[+0.0234, +0.0675]",
+    "cohen_d": 0.475,
+    "cohen_d_definition": "mean(paired_diff) / std(paired_diff, ddof=1)",
+    "p_value_t_test": 4.925288009663295e-19,
+    "p_value_wilcoxon": 3.2240608625622246e-25,
+    "p_value_cluster_bootstrap_raw": 0.0005999400059994001,
+    "random_seed": 42,
+    "b_resamples": 10000,
+    "p_value_cluster_bootstrap_holm_adj": 0.0029997000299970002,
+    "significance_label": "**"
+  },
+  "Seen Landmarks nDCG@5": {
+    "slice_name": "Seen Landmarks nDCG@5",
+    "estimand": "Difference in nDCG@5 on clips belonging to 7 Seen landmarks",
+    "n_clips": 224,
+    "n_parent_video_clusters": 41,
+    "baseline_mean": 0.3958,
+    "vcgat_mean": 0.5049,
+    "point_delta": 0.109,
+    "clip_bootstrap_ci_95": [
+      0.078,
+      0.1405
+    ],
+    "clip_bootstrap_ci_str": "[+0.0780, +0.1405]",
+    "cluster_bootstrap_ci_95": [
+      0.044,
+      0.1733
+    ],
+    "cluster_bootstrap_ci_str": "[+0.0440, +0.1733]",
+    "cohen_d": 0.462,
+    "cohen_d_definition": "mean(paired_diff) / std(paired_diff, ddof=1)",
+    "p_value_t_test": 4.885656277058458e-11,
+    "p_value_wilcoxon": 1.8212005172133184e-09,
+    "p_value_cluster_bootstrap_raw": 0.0007999200079992001,
+    "random_seed": 42,
+    "b_resamples": 10000,
+    "p_value_cluster_bootstrap_holm_adj": 0.0031996800319968005,
+    "significance_label": "**"
+  },
+  "Unseen Landmarks nDCG@5": {
+    "slice_name": "Unseen Landmarks nDCG@5",
+    "estimand": "Difference in nDCG@5 on clips belonging to Unseen landmarks",
+    "n_clips": 276,
+    "n_parent_video_clusters": 19,
+    "baseline_mean": 0.2291,
+    "vcgat_mean": 0.2966,
+    "point_delta": 0.0675,
+    "clip_bootstrap_ci_95": [
+      0.0457,
+      0.0904
+    ],
+    "clip_bootstrap_ci_str": "[+0.0457, +0.0904]",
+    "cluster_bootstrap_ci_95": [
+      0.0182,
+      0.1335
+    ],
+    "cluster_bootstrap_ci_str": "[+0.0182, +0.1335]",
+    "cohen_d": 0.36,
+    "cohen_d_definition": "mean(paired_diff) / std(paired_diff, ddof=1)",
+    "p_value_t_test": 6.947197072900697e-09,
+    "p_value_wilcoxon": 9.834220233332601e-11,
+    "p_value_cluster_bootstrap_raw": 0.022997700229977002,
+    "random_seed": 42,
+    "b_resamples": 10000,
+    "p_value_cluster_bootstrap_holm_adj": 0.045995400459954004,
+    "significance_label": "*"
+  },
+  "Historical Facts nDCG@5": {
+    "slice_name": "Historical Facts nDCG@5",
+    "estimand": "Difference in nDCG@5 on clips with historical/commemorative non-visual gold facts",
+    "n_clips": 166,
+    "n_parent_video_clusters": 42,
+    "baseline_mean": 0.2545,
+    "vcgat_mean": 0.2911,
+    "point_delta": 0.0367,
+    "clip_bootstrap_ci_95": [
+      0.0105,
+      0.0644
+    ],
+    "clip_bootstrap_ci_str": "[+0.0105, +0.0644]",
+    "cluster_bootstrap_ci_95": [
+      -0.042,
+      0.0977
+    ],
+    "cluster_bootstrap_ci_str": "[-0.0420, +0.0977]",
+    "cohen_d": 0.208,
+    "cohen_d_definition": "mean(paired_diff) / std(paired_diff, ddof=1)",
+    "p_value_t_test": 0.008062389217818215,
+    "p_value_wilcoxon": 0.013357908971092911,
+    "p_value_cluster_bootstrap_raw": 0.3297670232976702,
+    "random_seed": 42,
+    "b_resamples": 10000,
+    "p_value_cluster_bootstrap_holm_adj": 0.3297670232976702,
+    "significance_label": "n.s."
+  }
+}

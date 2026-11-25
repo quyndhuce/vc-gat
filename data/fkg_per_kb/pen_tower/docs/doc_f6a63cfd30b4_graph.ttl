@@ -1,0 +1,338 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f7ce666c> onto:connects <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/pen_tower#pen_shaped_tip> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/pen_tower#tiers> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/pen_tower#tower> onto:built_by <http://transmtl.vn/ent/e0d5f791> ;
+    onto:built_in <http://transmtl.vn/ent/d28558d1> ;
+    onto:commemorates <http://transmtl.vn/ent/4aa7e96d>,
+        <http://transmtl.vn/ent/e4f1ee70> ;
+    onto:dated_to <http://transmtl.vn/ent/69d1fc78> ;
+    onto:designed_by <http://transmtl.vn/ent/9fbfa3f6> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4> ;
+    onto:near <http://transmtl.vn/ent/7377e13a>,
+        <http://transmtl.vn/kb/ngoc_son_temple> ;
+    onto:on <http://transmtl.vn/ent/fa8baf85> ;
+    onto:surrounded_by <http://transmtl.vn/ent/fcd167f1> ;
+    onto:symbol_of <http://transmtl.vn/ent/642b0ca2> .
+
+<http://transmtl.vn/kb/pen_tower> onto:built_by <http://transmtl.vn/ent/9fbfa3f6>,
+        <http://transmtl.vn/ent/e0d5f791> ;
+    onto:built_in <http://transmtl.vn/ent/d28558d1> ;
+    onto:commemorates <http://transmtl.vn/ent/4aa7e96d> ;
+    onto:dated_to <http://transmtl.vn/ent/69d1fc78> ;
+    onto:designed_by <http://transmtl.vn/ent/9fbfa3f6> ;
+    onto:has_part <http://transmtl.vn/kb/pen_tower#pen_shaped_tip>,
+        <http://transmtl.vn/kb/pen_tower#tiers>,
+        <http://transmtl.vn/kb/pen_tower#tower> ;
+    onto:near <http://transmtl.vn/ent/7377e13a>,
+        <http://transmtl.vn/kb/ngoc_son_temple> ;
+    onto:on <http://transmtl.vn/ent/7674e2e5> ;
+    onto:overlooks <http://www.wikidata.org/entity/Q1151254> ;
+    onto:surrounded_by <http://transmtl.vn/ent/335ffbcf>,
+        <http://transmtl.vn/ent/46d5c58a>,
+        <http://transmtl.vn/ent/4e9e9672>,
+        <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4698 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/e0d5f791> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.517 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/7377e13a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6085 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6987 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/9fbfa3f6> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2865 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/69d1fc78> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3161 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/e4f1ee70> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8029 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/d28558d1> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6614 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/7377e13a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3088 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tiers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3336 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/e0d5f791> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/pen_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/pen_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4175 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/69d1fc78> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2709 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/9fbfa3f6> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8485 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/9fbfa3f6> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3905 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3102 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/4aa7e96d> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3173 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/46d5c58a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/pen_tower#pen_shaped_tip> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3231 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5466 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/pen_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5488 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/7674e2e5> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4297 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/fa8baf85> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2649 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/4e9e9672> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3386 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5295 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/642b0ca2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2822 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/fcd167f1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3998 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/335ffbcf> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.333 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/fa8baf85> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/pen_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9195 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/d28558d1> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4581 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/4aa7e96d> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3498 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/ent/f7ce666c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/kb/pen_tower#tiers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.266 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#pen_shaped_tip> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2697 ;
+    fkg:docId "doc_f6a63cfd30b4" ;
+    fkg:kbId "pen_tower" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower#tower> .
+

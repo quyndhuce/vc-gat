@@ -1,0 +1,89 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_stage#courtyard> onto:surrounded_by <http://transmtl.vn/ent/9672412e> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_stage#decorative_panels> onto:part_of <http://transmtl.vn/kb/stage> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_stage> onto:has_part <http://transmtl.vn/kb/van_phuc_silk_village_stage#courtyard>,
+        <http://transmtl.vn/kb/van_phuc_silk_village_stage#decorative_panels>,
+        <http://transmtl.vn/kb/van_phuc_silk_village_stage#open_architectural_cluster> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_stage#open_architectural_cluster> onto:located_in <http://transmtl.vn/ent/aed0c1c8> ;
+    onto:surrounded_by <http://transmtl.vn/ent/4e5868d6>,
+        <http://transmtl.vn/ent/7d37c580> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3563 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/kb/stage> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage#decorative_panels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_stage#open_architectural_cluster> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2737 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/ent/4e5868d6> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage#open_architectural_cluster> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2719 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/ent/7d37c580> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage#open_architectural_cluster> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2793 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/ent/aed0c1c8> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage#open_architectural_cluster> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_stage#decorative_panels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_stage#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2643 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/ent/9672412e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6821dafa7b8a" ;
+    fkg:kbId "van_phuc_silk_village_stage" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_stage#open_architectural_cluster> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_stage> .
+

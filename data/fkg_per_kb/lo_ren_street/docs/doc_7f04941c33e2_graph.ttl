@@ -1,0 +1,145 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/lo_ren_street#mechanical_components> onto:part_of <http://transmtl.vn/ent/fca842a6> .
+
+<http://transmtl.vn/kb/lo_ren_street#metal_pipes> onto:part_of <http://transmtl.vn/ent/fca842a6> .
+
+<http://transmtl.vn/kb/lo_ren_street#protective_embrace> onto:over <http://transmtl.vn/ent/83d085b9> .
+
+<http://transmtl.vn/kb/lo_ren_street#structures> onto:over <http://transmtl.vn/ent/83d085b9> .
+
+<http://transmtl.vn/kb/lo_ren_street#tube_houses> onto:part_of <http://transmtl.vn/kb/lo_ren_street> .
+
+<http://transmtl.vn/kb/lo_ren_street> onto:has_part <http://transmtl.vn/kb/lo_ren_street#mechanical_components>,
+        <http://transmtl.vn/kb/lo_ren_street#metal_pipes>,
+        <http://transmtl.vn/kb/lo_ren_street#protective_embrace>,
+        <http://transmtl.vn/kb/lo_ren_street#structures>,
+        <http://transmtl.vn/kb/lo_ren_street#tube_houses> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2713 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/fca842a6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#mechanical_components> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2904 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/83d085b9> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#protective_embrace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#mechanical_components> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#tube_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#protective_embrace> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3087 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#tube_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2754 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#metal_pipes> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7151 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#structures> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5157 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4337 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3753 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/83d085b9> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#structures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.397 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3029 ;
+    fkg:docId "doc_7f04941c33e2" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/fca842a6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#metal_pipes> .
+

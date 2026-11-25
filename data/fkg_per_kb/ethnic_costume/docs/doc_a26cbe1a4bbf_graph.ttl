@@ -1,0 +1,54 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0076a2a3> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/1044a4e5> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/c2bd7b8f> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2633 ;
+    fkg:docId "doc_a26cbe1a4bbf" ;
+    fkg:kbId "ethnic_costume" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6769 ;
+    fkg:docId "doc_a26cbe1a4bbf" ;
+    fkg:kbId "ethnic_costume" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c2bd7b8f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3107 ;
+    fkg:docId "doc_a26cbe1a4bbf" ;
+    fkg:kbId "ethnic_costume" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1044a4e5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3327 ;
+    fkg:docId "doc_a26cbe1a4bbf" ;
+    fkg:kbId "ethnic_costume" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0076a2a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5624 ;
+    fkg:docId "doc_a26cbe1a4bbf" ;
+    fkg:kbId "ethnic_costume" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+

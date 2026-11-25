@@ -1,0 +1,528 @@
+{
+  "full_kb_base": {
+    "C0_raw": {
+      "n": 7088,
+      "n_pos": 5444,
+      "n_neg": 1644,
+      "base_rate": 76.81,
+      "auroc": 0.6648,
+      "auprc": 0.8372,
+      "brier": 0.3272,
+      "ece": 0.321,
+      "spearman_rho": -0.0086,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 4951,
+          "retained_pct": 69.85,
+          "precision": 83.2,
+          "recall": 75.66,
+          "far": 50.61,
+          "accuracy": 69.57
+        },
+        "tau_0.3": {
+          "retained": 4425,
+          "retained_pct": 62.43,
+          "precision": 83.28,
+          "recall": 67.69,
+          "far": 45.01,
+          "accuracy": 64.74
+        },
+        "tau_0.5": {
+          "retained": 4171,
+          "retained_pct": 58.85,
+          "precision": 83.19,
+          "recall": 63.74,
+          "far": 42.64,
+          "accuracy": 62.26
+        },
+        "tau_0.7": {
+          "retained": 3834,
+          "retained_pct": 54.09,
+          "precision": 83.05,
+          "recall": 58.49,
+          "far": 39.54,
+          "accuracy": 58.94
+        },
+        "tau_0.8": {
+          "retained": 3473,
+          "retained_pct": 49.0,
+          "precision": 83.04,
+          "recall": 52.98,
+          "far": 35.83,
+          "accuracy": 55.57
+        },
+        "tau_0.85": {
+          "retained": 3005,
+          "retained_pct": 42.4,
+          "precision": 83.09,
+          "recall": 45.87,
+          "far": 30.9,
+          "accuracy": 51.26
+        },
+        "tau_0.9": {
+          "retained": 2722,
+          "retained_pct": 38.4,
+          "precision": 82.4,
+          "recall": 41.2,
+          "far": 29.14,
+          "accuracy": 48.08
+        },
+        "tau_0.95": {
+          "retained": 2390,
+          "retained_pct": 33.72,
+          "precision": 82.51,
+          "recall": 36.22,
+          "far": 25.43,
+          "accuracy": 45.12
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 23.19
+        }
+      },
+      "mean_true": 0.6129644930198384,
+      "mean_false": 0.4109892944038929
+    },
+    "C1_doc_grounded": {
+      "n": 7088,
+      "n_pos": 5444,
+      "n_neg": 1644,
+      "base_rate": 76.81,
+      "auroc": 0.671,
+      "auprc": 0.8431,
+      "brier": 0.2951,
+      "ece": 0.2909,
+      "spearman_rho": -0.0085,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5227,
+          "retained_pct": 73.74,
+          "precision": 83.3,
+          "recall": 79.98,
+          "far": 53.1,
+          "accuracy": 72.31
+        },
+        "tau_0.3": {
+          "retained": 4801,
+          "retained_pct": 67.73,
+          "precision": 83.38,
+          "recall": 73.53,
+          "far": 48.54,
+          "accuracy": 68.41
+        },
+        "tau_0.5": {
+          "retained": 4592,
+          "retained_pct": 64.79,
+          "precision": 83.38,
+          "recall": 70.33,
+          "far": 46.41,
+          "accuracy": 66.45
+        },
+        "tau_0.7": {
+          "retained": 4301,
+          "retained_pct": 60.68,
+          "precision": 83.19,
+          "recall": 65.72,
+          "far": 43.98,
+          "accuracy": 63.47
+        },
+        "tau_0.8": {
+          "retained": 4073,
+          "retained_pct": 57.46,
+          "precision": 83.18,
+          "recall": 62.23,
+          "far": 41.67,
+          "accuracy": 61.33
+        },
+        "tau_0.85": {
+          "retained": 3716,
+          "retained_pct": 52.43,
+          "precision": 83.21,
+          "recall": 56.8,
+          "far": 37.96,
+          "accuracy": 58.01
+        },
+        "tau_0.9": {
+          "retained": 3532,
+          "retained_pct": 49.83,
+          "precision": 83.27,
+          "recall": 54.02,
+          "far": 35.95,
+          "accuracy": 56.35
+        },
+        "tau_0.95": {
+          "retained": 3225,
+          "retained_pct": 45.5,
+          "precision": 82.98,
+          "recall": 49.16,
+          "far": 33.39,
+          "accuracy": 53.2
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 23.19
+        }
+      },
+      "mean_true": 0.6839844783247612,
+      "mean_false": 0.45366228710462286
+    },
+    "C2_hypo_subject": {
+      "n": 7088,
+      "n_pos": 5444,
+      "n_neg": 1644,
+      "base_rate": 76.81,
+      "auroc": 0.6834,
+      "auprc": 0.8492,
+      "brier": 0.2693,
+      "ece": 0.2585,
+      "spearman_rho": -0.0086,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5440,
+          "retained_pct": 76.75,
+          "precision": 83.35,
+          "recall": 83.28,
+          "far": 55.11,
+          "accuracy": 74.38
+        },
+        "tau_0.3": {
+          "retained": 5007,
+          "retained_pct": 70.64,
+          "precision": 83.76,
+          "recall": 77.04,
+          "far": 49.45,
+          "accuracy": 70.89
+        },
+        "tau_0.5": {
+          "retained": 4803,
+          "retained_pct": 67.76,
+          "precision": 83.74,
+          "recall": 73.88,
+          "far": 47.51,
+          "accuracy": 68.92
+        },
+        "tau_0.7": {
+          "retained": 4498,
+          "retained_pct": 63.46,
+          "precision": 83.77,
+          "recall": 69.21,
+          "far": 44.4,
+          "accuracy": 66.06
+        },
+        "tau_0.8": {
+          "retained": 4197,
+          "retained_pct": 59.21,
+          "precision": 83.94,
+          "recall": 64.71,
+          "far": 41.0,
+          "accuracy": 63.39
+        },
+        "tau_0.85": {
+          "retained": 3813,
+          "retained_pct": 53.8,
+          "precision": 84.08,
+          "recall": 58.89,
+          "far": 36.92,
+          "accuracy": 59.86
+        },
+        "tau_0.9": {
+          "retained": 3554,
+          "retained_pct": 50.14,
+          "precision": 83.96,
+          "recall": 54.81,
+          "far": 34.67,
+          "accuracy": 57.25
+        },
+        "tau_0.95": {
+          "retained": 3155,
+          "retained_pct": 44.51,
+          "precision": 84.22,
+          "recall": 48.81,
+          "far": 30.29,
+          "accuracy": 53.65
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 23.19
+        }
+      },
+      "mean_true": 0.7123530859662014,
+      "mean_false": 0.45738047445255475
+    }
+  },
+  "admissible_kb_base": {
+    "C0_raw": {
+      "n": 6470,
+      "n_pos": 5378,
+      "n_neg": 1092,
+      "base_rate": 83.12,
+      "auroc": 0.5051,
+      "auprc": 0.8382,
+      "brier": 0.3482,
+      "ece": 0.3415,
+      "spearman_rho": 0.0,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 4951,
+          "retained_pct": 76.52,
+          "precision": 83.2,
+          "recall": 76.59,
+          "far": 76.19,
+          "accuracy": 67.68
+        },
+        "tau_0.3": {
+          "retained": 4425,
+          "retained_pct": 68.39,
+          "precision": 83.28,
+          "recall": 68.52,
+          "far": 67.77,
+          "accuracy": 62.4
+        },
+        "tau_0.5": {
+          "retained": 4171,
+          "retained_pct": 64.47,
+          "precision": 83.19,
+          "recall": 64.52,
+          "far": 64.19,
+          "accuracy": 59.68
+        },
+        "tau_0.7": {
+          "retained": 3834,
+          "retained_pct": 59.26,
+          "precision": 83.05,
+          "recall": 59.2,
+          "far": 59.52,
+          "accuracy": 56.04
+        },
+        "tau_0.8": {
+          "retained": 3473,
+          "retained_pct": 53.68,
+          "precision": 83.04,
+          "recall": 53.63,
+          "far": 53.94,
+          "accuracy": 52.35
+        },
+        "tau_0.85": {
+          "retained": 3005,
+          "retained_pct": 46.45,
+          "precision": 83.09,
+          "recall": 46.43,
+          "far": 46.52,
+          "accuracy": 47.62
+        },
+        "tau_0.9": {
+          "retained": 2722,
+          "retained_pct": 42.07,
+          "precision": 82.4,
+          "recall": 41.71,
+          "far": 43.86,
+          "accuracy": 44.14
+        },
+        "tau_0.95": {
+          "retained": 2390,
+          "retained_pct": 36.94,
+          "precision": 82.51,
+          "recall": 36.67,
+          "far": 38.28,
+          "accuracy": 40.9
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 16.88
+        }
+      },
+      "mean_true": 0.6204869282261064,
+      "mean_false": 0.6187421245421245
+    },
+    "C1_doc_grounded": {
+      "n": 6470,
+      "n_pos": 5378,
+      "n_neg": 1092,
+      "base_rate": 83.12,
+      "auroc": 0.5153,
+      "auprc": 0.8443,
+      "brier": 0.3131,
+      "ece": 0.3085,
+      "spearman_rho": 0.0,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5227,
+          "retained_pct": 80.79,
+          "precision": 83.3,
+          "recall": 80.96,
+          "far": 79.95,
+          "accuracy": 70.68
+        },
+        "tau_0.3": {
+          "retained": 4801,
+          "retained_pct": 74.2,
+          "precision": 83.38,
+          "recall": 74.43,
+          "far": 73.08,
+          "accuracy": 66.41
+        },
+        "tau_0.5": {
+          "retained": 4592,
+          "retained_pct": 70.97,
+          "precision": 83.38,
+          "recall": 71.2,
+          "far": 69.87,
+          "accuracy": 64.27
+        },
+        "tau_0.7": {
+          "retained": 4301,
+          "retained_pct": 66.48,
+          "precision": 83.19,
+          "recall": 66.53,
+          "far": 66.21,
+          "accuracy": 61.0
+        },
+        "tau_0.8": {
+          "retained": 4073,
+          "retained_pct": 62.95,
+          "precision": 83.18,
+          "recall": 63.0,
+          "far": 62.73,
+          "accuracy": 58.66
+        },
+        "tau_0.85": {
+          "retained": 3716,
+          "retained_pct": 57.43,
+          "precision": 83.21,
+          "recall": 57.49,
+          "far": 57.14,
+          "accuracy": 55.02
+        },
+        "tau_0.9": {
+          "retained": 3532,
+          "retained_pct": 54.59,
+          "precision": 83.27,
+          "recall": 54.69,
+          "far": 54.12,
+          "accuracy": 53.2
+        },
+        "tau_0.95": {
+          "retained": 3225,
+          "retained_pct": 49.85,
+          "precision": 82.98,
+          "recall": 49.76,
+          "far": 50.27,
+          "accuracy": 49.75
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 16.88
+        }
+      },
+      "mean_true": 0.6923784864261807,
+      "mean_false": 0.6829860805860806
+    },
+    "C2_hypo_subject": {
+      "n": 6470,
+      "n_pos": 5378,
+      "n_neg": 1092,
+      "base_rate": 83.12,
+      "auroc": 0.5337,
+      "auprc": 0.8504,
+      "brier": 0.2849,
+      "ece": 0.273,
+      "spearman_rho": 0.0001,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5440,
+          "retained_pct": 84.08,
+          "precision": 83.35,
+          "recall": 84.31,
+          "far": 82.97,
+          "accuracy": 72.95
+        },
+        "tau_0.3": {
+          "retained": 5007,
+          "retained_pct": 77.39,
+          "precision": 83.76,
+          "recall": 77.98,
+          "far": 74.45,
+          "accuracy": 69.13
+        },
+        "tau_0.5": {
+          "retained": 4803,
+          "retained_pct": 74.23,
+          "precision": 83.74,
+          "recall": 74.79,
+          "far": 71.52,
+          "accuracy": 66.97
+        },
+        "tau_0.7": {
+          "retained": 4498,
+          "retained_pct": 69.52,
+          "precision": 83.77,
+          "recall": 70.06,
+          "far": 66.85,
+          "accuracy": 63.83
+        },
+        "tau_0.8": {
+          "retained": 4197,
+          "retained_pct": 64.87,
+          "precision": 83.94,
+          "recall": 65.51,
+          "far": 61.72,
+          "accuracy": 60.91
+        },
+        "tau_0.85": {
+          "retained": 3813,
+          "retained_pct": 58.93,
+          "precision": 84.08,
+          "recall": 59.61,
+          "far": 55.59,
+          "accuracy": 57.05
+        },
+        "tau_0.9": {
+          "retained": 3554,
+          "retained_pct": 54.93,
+          "precision": 83.96,
+          "recall": 55.49,
+          "far": 52.2,
+          "accuracy": 54.19
+        },
+        "tau_0.95": {
+          "retained": 3155,
+          "retained_pct": 48.76,
+          "precision": 84.22,
+          "recall": 49.4,
+          "far": 45.6,
+          "accuracy": 50.25
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 16.88
+        }
+      },
+      "mean_true": 0.7210952398661212,
+      "mean_false": 0.6885837912087912
+    }
+  }
+}

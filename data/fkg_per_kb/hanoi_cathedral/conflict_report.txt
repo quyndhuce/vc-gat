@@ -1,0 +1,57 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  2 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hoan Kiem Lake)  --[built_in]-->  ?
+  Head URI  : http://www.wikidata.org/entity/Q1151254
+  Conflict K: 0.7634
+  Candidates:
+    • 1884                            Bel=0.3851  Pl=0.5144  (2 evidence)
+    • 1886                            Bel=0.2764  Pl=0.4057  (2 evidence)
+    • late 19th century               Bel=0.2092  Pl=0.3385  (2 evidence)
+
+  (Hanoi)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/207462d2
+  Conflict K: 0.5402
+  Candidates:
+    • Vietnam                         Bel=0.6643  Pl=0.7855  (2 evidence)
+    • North Vietnam                   Bel=0.2145  Pl=0.3357  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [built_in] (Hoan Kiem Lake) → http://transmtl.vn/ent/f0fcf351  Bel=0.3851  K=0.7634 ⚠ REVIEW
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.6643  K=0.5402 ⚠ REVIEW
+  [renovated_in] (Hoan Kiem Lake) → http://transmtl.vn/ent/bed840df  Bel=0.3536  K=0.4470
+  [capital_of] (capital) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2768  K=0.0000
+  [built_in] (Hanoi Cathedral) → http://transmtl.vn/ent/e5fe3c72  Bel=0.6018  K=0.0000
+  [symbol_of] (Hoan Kiem Lake) → http://transmtl.vn/ent/207462d2  Bel=0.4089  K=0.0000
+  [symbol_of] (Hanoi Cathedral) → http://transmtl.vn/ent/207462d2  Bel=0.5647  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Hanoi Cathedral) → (windows)  μ_F=1.0000  (5 evidence)
+  [has_part] (Hanoi Cathedral) → (bell towers)  μ_F=0.9999  (4 evidence)
+  [has_part] (Hanoi Cathedral) → (exterior)  μ_F=0.9991  (3 evidence)
+  [has_part] (Hanoi Cathedral) → (Tháp Báo Thiên)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hanoi Cathedral) → (cross)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hanoi Cathedral) → (large clock)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hanoi Cathedral) → (exterior walls)  μ_F=0.9905  (2 evidence)
+  [located_in] (Hanoi Cathedral) → (Hanoi)  μ_F=0.9759  (7 evidence)
+  [located_in] (Notre Dame Cathedral) → (Paris)  μ_F=0.9664  (5 evidence)
+  [architectural_style] (Hoan Kiem Lake) → (Gothic)  μ_F=0.9473  (6 evidence)
+  [located_in] (Hoan Kiem Lake) → (Hanoi)  μ_F=0.9435  (7 evidence)
+  [inspired_by] (Hoan Kiem Lake) → (Notre Dame Cathedral)  μ_F=0.9277  (4 evidence)
+  [has_part] (Hanoi Cathedral) → (entrances)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Cathedral) → (stained glass windows)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Cathedral) → (statue)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Cathedral) → (bells)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Cathedral) → (clock)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Cathedral) → (main entrance)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Cathedral) → (side door)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hanoi Cathedral) → (towers)  μ_F=0.9025  (1 evidence)
+
+========================================================================

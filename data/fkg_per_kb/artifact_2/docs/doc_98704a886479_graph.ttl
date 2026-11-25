@@ -1,0 +1,95 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/artifact_2#space> onto:surrounded_by <http://transmtl.vn/ent/895a982b> .
+
+<http://transmtl.vn/kb/artifact_2> onto:has_part <http://transmtl.vn/kb/artifact_2#arched_columns>,
+        <http://transmtl.vn/kb/artifact_2#space>,
+        <http://transmtl.vn/kb/artifact_2#yellow_walls> .
+
+<http://transmtl.vn/kb/artifact_2#arched_columns> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/artifact_2#yellow_walls> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.276 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/895a982b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2664 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#yellow_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3241 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#yellow_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#arched_columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#yellow_walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#arched_columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#yellow_walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.343 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#arched_columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4152 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#arched_columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98704a886479" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#space> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+

@@ -1,0 +1,50 @@
+# =============================================================================
+# .gitignore for VC-GAT: Decision-Certified Partial Reasoning Repository
+# International Journal of Approximate Reasoning (IJAR)
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Operating System and Editor Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+.env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Temporary, scratch, and log files
+*.log
+*.tmp
+*.bak
+
+# Raw video assets (raw video files exceed git limits and are hosted via server storage)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Legacy exploratory archives (kept separate from publication review release)
+legacy_archive/

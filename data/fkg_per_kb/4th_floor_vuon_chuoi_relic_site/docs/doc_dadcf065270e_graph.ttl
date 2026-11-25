@@ -1,0 +1,134 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hanoi_museum> onto:architectural_style <http://transmtl.vn/ent/ae74ea4e> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#inverted_pyramid> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#space> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#vườn_chuối> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site> onto:has_part <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#garden>,
+        <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#inverted_pyramid>,
+        <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#space>,
+        <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#vườn_chuối> .
+
+<http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#garden> onto:surrounded_by <http://transmtl.vn/ent/29525c06>,
+        <http://transmtl.vn/ent/58fc66be> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6394 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/29525c06> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7055 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/29525c06> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2859 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#vườn_chuối> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6345 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/58fc66be> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4806 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/58fc66be> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#vườn_chuối> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#inverted_pyramid> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2601 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/ae74ea4e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2548 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#inverted_pyramid> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2508 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site#space> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_vuon_chuoi_relic_site> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.305 ;
+    fkg:docId "doc_dadcf065270e" ;
+    fkg:kbId "4th_floor_vuon_chuoi_relic_site" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+

@@ -1,0 +1,962 @@
+[
+  {
+    "landmark": "One Pillar Pagoda",
+    "clip_id": "test_0321",
+    "video_file": "videos/test/Chùa Một Cột Hà Nội #travel [oOPXyW_ht_Y].mp4",
+    "facts_audit": [
+      {
+        "fact": "(One Pillar Pagoda, has_part, column)",
+        "expected": "SEEN",
+        "note": "The massive single stone pillar supporting the shrine.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(One Pillar Pagoda, has_part, column)",
+            "expected": "SEEN",
+            "note": "The massive single stone pillar supporting the shrine.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Pagoda's single central column is clearly visible supporting the structure."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Pagoda's single central column is clearly visible supporting the structure.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(One Pillar Pagoda, has_part, column)",
+            "expected": "SEEN",
+            "note": "The massive single stone pillar supporting the shrine.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "A single prominent white column supporting the pagoda is clearly visible in frames 2-5."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"A single prominent white column supporting the pagoda is clearly visible in frames 2-5.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(One Pillar Pagoda, has_part, column)",
+            "expected": "SEEN",
+            "note": "The massive single stone pillar supporting the shrine.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "supporting_details": "Frames 2-5 clearly show the pagoda's single central white column supporting the structure above the pond.",
+              "caption_relevance": "HIGH",
+              "reason": "Pagoda's single white column is visually confirmed in frames 2-5."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [2, 3, 4, 5],\n  \"supporting_details\": \"Frames 2-5 clearly show the pagoda's single central white column supporting the structure above the pond.\",\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Pagoda's single white column is visually confirmed in frames 2-5.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(One Pillar Pagoda, has_part, roof tiles)",
+        "expected": "SEEN",
+        "note": "Curved tile roof on top of pagoda.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(One Pillar Pagoda, has_part, roof tiles)",
+            "expected": "SEEN",
+            "note": "Curved tile roof on top of pagoda.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Roof tiles clearly visible on pagoda structure in multiple frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Roof tiles clearly visible on pagoda structure in multiple frames.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(One Pillar Pagoda, has_part, roof tiles)",
+            "expected": "SEEN",
+            "note": "Curved tile roof on top of pagoda.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Roof tiles clearly visible on pagoda structure in frames 2-5."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Roof tiles clearly visible on pagoda structure in frames 2-5.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(One Pillar Pagoda, has_part, roof tiles)",
+            "expected": "SEEN",
+            "note": "Curved tile roof on top of pagoda.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "supporting_details": "Frames 2-5 clearly show the pagoda's roof with visible red-brown tiles and ornate eaves.",
+              "caption_relevance": "HIGH",
+              "reason": "Roof tiles are clearly visible on the pagoda in multiple frames."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [2, 3, 4, 5],\n  \"supporting_details\": \"Frames 2-5 clearly show the pagoda's roof with visible red-brown tiles and ornate eaves.\",\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Roof tiles are clearly visible on the pagoda in multiple frames.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(One Pillar Pagoda, has_part, pond)",
+        "expected": "SEEN",
+        "note": "Linh Chieu lotus pond surrounding the pillar.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(One Pillar Pagoda, has_part, pond)",
+            "expected": "SEEN",
+            "note": "Linh Chieu lotus pond surrounding the pillar.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Pond directly surrounds the pagoda in multiple frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Pond directly surrounds the pagoda in multiple frames.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(One Pillar Pagoda, has_part, pond)",
+            "expected": "SEEN",
+            "note": "Linh Chieu lotus pond surrounding the pillar.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Pond with lily pads is clearly visible surrounding the pagoda in all frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Pond with lily pads is clearly visible surrounding the pagoda in all frames.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(One Pillar Pagoda, has_part, pond)",
+            "expected": "SEEN",
+            "note": "Linh Chieu lotus pond surrounding the pillar.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "supporting_details": "Frames 2-5 clearly show the pagoda's base surrounded by water with lily pads, confirming the pond is part of its immediate environment.",
+              "caption_relevance": "HIGH",
+              "reason": "Pagoda is visibly situated within a pond filled with lily pads across multiple frames."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [2, 3, 4, 5],\n  \"supporting_details\": \"Frames 2-5 clearly show the pagoda's base surrounded by water with lily pads, confirming the pond is part of its immediate environment.\",\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Pagoda is visibly situated within a pond filled with lily pads across multiple frames.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(One Pillar Pagoda, has_part, incense burner)",
+        "expected": "CHECK_FRAME",
+        "note": "Physical altar/burner in front - is it in view?",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(One Pillar Pagoda, has_part, incense burner)",
+            "expected": "CHECK_FRAME",
+            "note": "Physical altar/burner in front - is it in view?",
+            "parsed": {
+              "visual_grounding": "UNCERTAIN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Incense burner not visible in any frame, irrelevant to clip focus."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNCERTAIN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Incense burner not visible in any frame, irrelevant to clip focus.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(One Pillar Pagoda, has_part, incense burner)",
+            "expected": "CHECK_FRAME",
+            "note": "Physical altar/burner in front - is it in view?",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "No incense burner visible in any frame."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"No incense burner visible in any frame.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(One Pillar Pagoda, has_part, incense burner)",
+            "expected": "CHECK_FRAME",
+            "note": "Physical altar/burner in front - is it in view?",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "supporting_details": "No incense burner is visible in any of the 6 frames. The pagoda and pond are shown, but no burner appears.",
+              "caption_relevance": "LOW",
+              "reason": "Incense burner not visible in any frame; cannot confirm its presence."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"UNSEEN\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"No incense burner is visible in any of the 6 frames. The pagoda and pond are shown, but no burner appears.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Incense burner not visible in any frame; cannot confirm its presence.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+        "expected": "NOT_VISUAL",
+        "note": "Abstract administrative geography.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract administrative geography.",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "District name not visually verifiable from frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"District name not visually verifiable from frames.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract administrative geography.",
+            "parsed": {
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "District location is administrative, not a physical object visible in frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"District location is administrative, not a physical object visible in frames.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(One Pillar Pagoda, located_in, Ba Dinh District)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract administrative geography.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "supporting_details": "Frames 2-5 clearly show the pagoda's distinctive single pillar and wooden structure over water, confirming its physical presence.",
+              "caption_relevance": "HIGH",
+              "reason": "Pagoda is visually present in frames 2-5, matching the factual triple."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [2, 3, 4, 5],\n  \"supporting_details\": \"Frames 2-5 clearly show the pagoda's distinctive single pillar and wooden structure over water, confirming its physical presence.\",\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Pagoda is visually present in frames 2-5, matching the factual triple.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(One Pillar Pagoda, has_part, Tây Cấm Garden)",
+        "expected": "UNSEEN/UNCERTAIN",
+        "note": "Historical garden area - is it identifiable?",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(One Pillar Pagoda, has_part, Tây Cấm Garden)",
+            "expected": "UNSEEN/UNCERTAIN",
+            "note": "Historical garden area - is it identifiable?",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Tây Cấm Garden not visually identifiable in any frame."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Tây Cấm Garden not visually identifiable in any frame.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(One Pillar Pagoda, has_part, Tây Cấm Garden)",
+            "expected": "UNSEEN/UNCERTAIN",
+            "note": "Historical garden area - is it identifiable?",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Tây Cấm Garden not visually identifiable in any frame; only pagoda and pond shown."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Tây Cấm Garden not visually identifiable in any frame; only pagoda and pond shown.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(One Pillar Pagoda, has_part, Tây Cấm Garden)",
+            "expected": "UNSEEN/UNCERTAIN",
+            "note": "Historical garden area - is it identifiable?",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "UNCERTAIN",
+              "frame_indices": [],
+              "supporting_details": "Frames 0-5 show One Pillar Pagoda and surrounding pond, but Tây Cấm Garden is not visually identifiable as a distinct area or structure within these frames.",
+              "caption_relevance": "LOW",
+              "reason": "Tây Cấm Garden not visually confirmed in any frame; only pagoda and pond are clearly seen."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"UNCERTAIN\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"Frames 0-5 show One Pillar Pagoda and surrounding pond, but Tây Cấm Garden is not visually identifiable as a distinct area or structure within these frames.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Tây Cấm Garden not visually confirmed in any frame; only pagoda and pond are clearly seen.\"\n}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "landmark": "Temple of Literature",
+    "clip_id": "test_0951",
+    "video_file": "videos/test/Khu Văn miếu Quốc Tử Giám - Hà Nội quá cổ kính ! [ILyQ2uMCb28].mp4",
+    "facts_audit": [
+      {
+        "fact": "(Temple of Literature, has_part, Khuê Văn pavilion)",
+        "expected": "CHECK_FRAME",
+        "note": "Specific iconic wooden pavilion - is this clip showing it?",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Temple of Literature, has_part, Khuê Văn pavilion)",
+            "expected": "CHECK_FRAME",
+            "note": "Specific iconic wooden pavilion - is this clip showing it?",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Khuê Văn pavilion is clearly visible as central architectural feature in frames 2-5."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Khuê Văn pavilion is clearly visible as central architectural feature in frames 2-5.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Temple of Literature, has_part, Khuê Văn pavilion)",
+            "expected": "CHECK_FRAME",
+            "note": "Specific iconic wooden pavilion - is this clip showing it?",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Khuê Văn pavilion is clearly visible as a traditional wooden structure with roof in frames 2-5."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Khuê Văn pavilion is clearly visible as a traditional wooden structure with roof in frames 2-5.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Temple of Literature, has_part, Khuê Văn pavilion)",
+            "expected": "CHECK_FRAME",
+            "note": "Specific iconic wooden pavilion - is this clip showing it?",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                2,
+                3,
+                4,
+                5
+              ],
+              "supporting_details": "Frames 2-5 clearly show the Khuê Văn pavilion at the end of the pathway, identifiable by its traditional roof and structure.",
+              "caption_relevance": "HIGH",
+              "reason": "Khuê Văn pavilion is visually present in frames 2-5, confirming the triple."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [2, 3, 4, 5],\n  \"supporting_details\": \"Frames 2-5 clearly show the Khuê Văn pavilion at the end of the pathway, identifiable by its traditional roof and structure.\",\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Khuê Văn pavilion is visually present in frames 2-5, confirming the triple.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Temple of Literature, has_part, courtyards)",
+        "expected": "SEEN",
+        "note": "Ancient brick courtyards with trees and walkways.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Temple of Literature, has_part, courtyards)",
+            "expected": "SEEN",
+            "note": "Ancient brick courtyards with trees and walkways.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Courtyards with pathways and trees are clearly visible throughout the frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Courtyards with pathways and trees are clearly visible throughout the frames.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Temple of Literature, has_part, courtyards)",
+            "expected": "SEEN",
+            "note": "Ancient brick courtyards with trees and walkways.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Open grassy areas with pathways and trees visible in all frames, consistent with courtyards."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Open grassy areas with pathways and trees visible in all frames, consistent with courtyards.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Temple of Literature, has_part, courtyards)",
+            "expected": "SEEN",
+            "note": "Ancient brick courtyards with trees and walkways.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "supporting_details": "All frames show open green spaces with pathways, trees, and traditional architecture consistent with courtyards of the Temple of Literature.",
+              "caption_relevance": "HIGH",
+              "reason": "Courtyards visually present in all frames as landscaped garden areas with pathways and trees."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"supporting_details\": \"All frames show open green spaces with pathways, trees, and traditional architecture consistent with courtyards of the Temple of Literature.\",\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Courtyards visually present in all frames as landscaped garden areas with pathways and trees.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Temple of Literature, has_part, khu bia tiến sĩ)",
+        "expected": "CHECK_FRAME",
+        "note": "Doctor stone steles on turtles - shown or not?",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Temple of Literature, has_part, khu bia tiến sĩ)",
+            "expected": "CHECK_FRAME",
+            "note": "Doctor stone steles on turtles - shown or not?",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Khu bia tiến sĩ not visible in any frame, irrelevant to clip focus."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Khu bia tiến sĩ not visible in any frame, irrelevant to clip focus.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Temple of Literature, has_part, khu bia tiến sĩ)",
+            "expected": "CHECK_FRAME",
+            "note": "Doctor stone steles on turtles - shown or not?",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Stone steles (khu bia tiến sĩ) not visible in any frame."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Stone steles (khu bia tiến sĩ) not visible in any frame.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Temple of Literature, has_part, khu bia tiến sĩ)",
+            "expected": "CHECK_FRAME",
+            "note": "Doctor stone steles on turtles - shown or not?",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "supporting_details": "Frames 0-5 show garden paths, trees, and a pavilion, but no visible 'khu bia tiến sĩ' (Doctoral Stele Courtyard) or steles.",
+              "caption_relevance": "LOW",
+              "reason": "Stele courtyard not visible in any of the 6 frames; only garden and pavilion shown."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"UNSEEN\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"Frames 0-5 show garden paths, trees, and a pavilion, but no visible 'khu bia tiến sĩ' (Doctoral Stele Courtyard) or steles.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Stele courtyard not visible in any of the 6 frames; only garden and pavilion shown.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Temple of Literature, has_part, bell)",
+        "expected": "UNSEEN",
+        "note": "Great bronze bell (Đại hồng chung) - usually inside bell tower.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Temple of Literature, has_part, bell)",
+            "expected": "UNSEEN",
+            "note": "Great bronze bell (Đại hồng chung) - usually inside bell tower.",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Bell not visible in any frame, irrelevant to clip's garden/path focus."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Bell not visible in any frame, irrelevant to clip's garden/path focus.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Temple of Literature, has_part, bell)",
+            "expected": "UNSEEN",
+            "note": "Great bronze bell (Đại hồng chung) - usually inside bell tower.",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "No bell visible in any frame; bell not part of shown visual content."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"No bell visible in any frame; bell not part of shown visual content.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Temple of Literature, has_part, bell)",
+            "expected": "UNSEEN",
+            "note": "Great bronze bell (Đại hồng chung) - usually inside bell tower.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "supporting_details": "No bell is visible in any of the 6 frames. Only trees, pathways, visitors, and a pavilion are shown.",
+              "caption_relevance": "LOW",
+              "reason": "Bells not visible in any frame; no evidence of bell structure or sound."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"UNSEEN\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"No bell is visible in any of the 6 frames. Only trees, pathways, visitors, and a pavilion are shown.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Bells not visible in any frame; no evidence of bell structure or sound.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Temple of Literature, located_in, Hanoi)",
+        "expected": "NOT_VISUAL",
+        "note": "Abstract city location.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Temple of Literature, located_in, Hanoi)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract city location.",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Hanoi not visually verifiable from frames; location fact irrelevant to clip's visual focus."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Hanoi not visually verifiable from frames; location fact irrelevant to clip's visual focus.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Temple of Literature, located_in, Hanoi)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract city location.",
+            "parsed": {
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Location 'Hanoi' is administrative, not a physical object visible in frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Location 'Hanoi' is administrative, not a physical object visible in frames.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Temple of Literature, located_in, Hanoi)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract city location.",
+            "parsed": {
+              "is_physical_object": false,
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "supporting_details": "Hanoi is a city; no visual evidence of it in frames. Only temple grounds are visible.",
+              "caption_relevance": "LOW",
+              "reason": "Hanoi is an abstract location, not visually depicted in any frame."
+            },
+            "raw_response": "{\n  \"is_physical_object\": false,\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"Hanoi is a city; no visual evidence of it in frames. Only temple grounds are visible.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Hanoi is an abstract location, not visually depicted in any frame.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Temple of Literature, founded_by, Lý Thánh Tông)",
+        "expected": "NOT_VISUAL",
+        "note": "Historical emperor founder.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Temple of Literature, founded_by, Lý Thánh Tông)",
+            "expected": "NOT_VISUAL",
+            "note": "Historical emperor founder.",
+            "parsed": {
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Founder not visually verifiable from video frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Founder not visually verifiable from video frames.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Temple of Literature, founded_by, Lý Thánh Tông)",
+            "expected": "NOT_VISUAL",
+            "note": "Historical emperor founder.",
+            "parsed": {
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Founder Lý Thánh Tông is historical/administrative, not visually observable in frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Founder Lý Thánh Tông is historical/administrative, not visually observable in frames.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Temple of Literature, founded_by, Lý Thánh Tông)",
+            "expected": "NOT_VISUAL",
+            "note": "Historical emperor founder.",
+            "parsed": {
+              "is_physical_object": false,
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "supporting_details": "Lý Thánh Tông is a person (founder), not a physical object visible in any frame.",
+              "caption_relevance": "LOW",
+              "reason": "Founder is abstract concept, not visually representable in frames."
+            },
+            "raw_response": "{\n  \"is_physical_object\": false,\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"Lý Thánh Tông is a person (founder), not a physical object visible in any frame.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Founder is abstract concept, not visually representable in frames.\"\n}"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "landmark": "Imperial Citadel of Thang Long",
+    "clip_id": "test_0658",
+    "video_file": "videos/test/Đôi rồng đá trước thềm điện Kính Thiên(cũ), Hoàng thành Thăng Long - Tháng 2⧸2018 [CwUECIc2Dnw].mp4",
+    "facts_audit": [
+      {
+        "fact": "(Imperial Citadel of Thang Long, has_part, dragon carvings)",
+        "expected": "SEEN",
+        "note": "15th-century stone dragons of Kính Thiên palace steps (central focus).",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, dragon carvings)",
+            "expected": "SEEN",
+            "note": "15th-century stone dragons of Kính Thiên palace steps (central focus).",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Dragon carvings are clearly visible along staircase in all frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Dragon carvings are clearly visible along staircase in all frames.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, dragon carvings)",
+            "expected": "SEEN",
+            "note": "15th-century stone dragons of Kính Thiên palace steps (central focus).",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Frames 1-5 clearly show detailed stone dragon carvings along the staircase."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Frames 1-5 clearly show detailed stone dragon carvings along the staircase.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, dragon carvings)",
+            "expected": "SEEN",
+            "note": "15th-century stone dragons of Kính Thiên palace steps (central focus).",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "supporting_details": "All frames show detailed stone dragon carvings along the staircase of the Imperial Citadel of Thang Long.",
+              "caption_relevance": "HIGH",
+              "reason": "Dragon carvings are clearly visible as part of the citadel's staircase in all sampled frames."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"supporting_details\": \"All frames show detailed stone dragon carvings along the staircase of the Imperial Citadel of Thang Long.\",\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Dragon carvings are clearly visible as part of the citadel's staircase in all sampled frames.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Imperial Citadel of Thang Long, has_part, elevated platform)",
+        "expected": "SEEN",
+        "note": "The stone platform and steps of Kính Thiên palace.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, elevated platform)",
+            "expected": "SEEN",
+            "note": "The stone platform and steps of Kính Thiên palace.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Staircase with carved dragon railings is a key architectural feature of the citadel."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Staircase with carved dragon railings is a key architectural feature of the citadel.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, elevated platform)",
+            "expected": "SEEN",
+            "note": "The stone platform and steps of Kính Thiên palace.",
+            "parsed": {
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "caption_relevance": "HIGH",
+              "reason": "Stone staircase with ornate dragon carvings clearly visible as elevated platform in all frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"SEEN\", \"frame_indices\": [0, 1, 2, 3, 4, 5], \"caption_relevance\": \"HIGH\", \"reason\": \"Stone staircase with ornate dragon carvings clearly visible as elevated platform in all frames.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, elevated platform)",
+            "expected": "SEEN",
+            "note": "The stone platform and steps of Kính Thiên palace.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "SEEN",
+              "frame_indices": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "supporting_details": "All frames show stone steps with carved dragon motifs, forming an elevated platform structure at the Imperial Citadel of Thang Long.",
+              "caption_relevance": "HIGH",
+              "reason": "Frames 0-5 visually confirm stone steps as part of the citadel's elevated platform structure."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"SEEN\",\n  \"frame_indices\": [0, 1, 2, 3, 4, 5],\n  \"supporting_details\": \"All frames show stone steps with carved dragon motifs, forming an elevated platform structure at the Imperial Citadel of Thang Long.\",\n  \"caption_relevance\": \"HIGH\",\n  \"reason\": \"Frames 0-5 visually confirm stone steps as part of the citadel's elevated platform structure.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+        "expected": "UNSEEN",
+        "note": "Hậu Lâu / Princess Tower - separate building behind, should NOT be seen.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+            "expected": "UNSEEN",
+            "note": "Hậu Lâu / Princess Tower - separate building behind, should NOT be seen.",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Princess Tower not visible in any frame; irrelevant to clip's focus on dragon-carved steps."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Princess Tower not visible in any frame; irrelevant to clip's focus on dragon-carved steps.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+            "expected": "UNSEEN",
+            "note": "Hậu Lâu / Princess Tower - separate building behind, should NOT be seen.",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Princess Tower not visible in any frame; only stone dragon railings and steps shown."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Princess Tower not visible in any frame; only stone dragon railings and steps shown.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, Princess Tower)",
+            "expected": "UNSEEN",
+            "note": "Hậu Lâu / Princess Tower - separate building behind, should NOT be seen.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "supporting_details": "Princess Tower is not visible in any of the 6 frames. Only stone steps and dragon carvings are shown.",
+              "caption_relevance": "LOW",
+              "reason": "Princess Tower not visually present in any frame; only steps and dragon carvings are shown."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"UNSEEN\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"Princess Tower is not visible in any of the 6 frames. Only stone steps and dragon carvings are shown.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Princess Tower not visually present in any frame; only steps and dragon carvings are shown.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Imperial Citadel of Thang Long, has_part, Gate)",
+        "expected": "UNSEEN",
+        "note": "Đoan Môn / North Gate - separate structure.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, Gate)",
+            "expected": "UNSEEN",
+            "note": "Đoan Môn / North Gate - separate structure.",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Gate not visible in any frame; irrelevant to clip's focus on dragon-carved steps."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Gate not visible in any frame; irrelevant to clip's focus on dragon-carved steps.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, Gate)",
+            "expected": "UNSEEN",
+            "note": "Đoan Môn / North Gate - separate structure.",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "No gate visible in any frame; only stone steps and dragon carvings shown."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"No gate visible in any frame; only stone steps and dragon carvings shown.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, Gate)",
+            "expected": "UNSEEN",
+            "note": "Đoan Môn / North Gate - separate structure.",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "supporting_details": "Frames 0-5 show stone steps and dragon carvings, but no gate is visible in any frame.",
+              "caption_relevance": "LOW",
+              "reason": "No gate visible in any of the 6 frames; dragon carvings and steps are shown instead."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"UNSEEN\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"Frames 0-5 show stone steps and dragon carvings, but no gate is visible in any frame.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"No gate visible in any of the 6 frames; dragon carvings and steps are shown instead.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Imperial Citadel of Thang Long, has_part, shrine)",
+        "expected": "CHECK_FRAME",
+        "note": "Is there a shrine altar on the platform?",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, shrine)",
+            "expected": "CHECK_FRAME",
+            "note": "Is there a shrine altar on the platform?",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Shrine not visible or implied in any frame; unrelated to clip's focus on dragon-carved steps."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Shrine not visible or implied in any frame; unrelated to clip's focus on dragon-carved steps.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, shrine)",
+            "expected": "CHECK_FRAME",
+            "note": "Is there a shrine altar on the platform?",
+            "parsed": {
+              "visual_grounding": "UNSEEN",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "No shrine structure visible in any frame; only stone steps and dragon carvings shown."
+            },
+            "raw_response": "{\"visual_grounding\": \"UNSEEN\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"No shrine structure visible in any frame; only stone steps and dragon carvings shown.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Imperial Citadel of Thang Long, has_part, shrine)",
+            "expected": "CHECK_FRAME",
+            "note": "Is there a shrine altar on the platform?",
+            "parsed": {
+              "is_physical_object": true,
+              "visual_grounding": "UNCERTAIN",
+              "frame_indices": [],
+              "supporting_details": "Frames show stone steps and dragon carvings, but no shrine structure is visible.",
+              "caption_relevance": "LOW",
+              "reason": "Shrine not visually identifiable in any of the 6 frames provided."
+            },
+            "raw_response": "{\n  \"is_physical_object\": true,\n  \"visual_grounding\": \"UNCERTAIN\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"Frames show stone steps and dragon carvings, but no shrine structure is visible.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Shrine not visually identifiable in any of the 6 frames provided.\"\n}"
+          }
+        }
+      },
+      {
+        "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+        "expected": "NOT_VISUAL",
+        "note": "Abstract district.",
+        "prompt_evaluations": {
+          "Prompt_1_Original": {
+            "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract district.",
+            "parsed": {
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "District name not visually verifiable from frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"District name not visually verifiable from frames.\"}"
+          },
+          "Prompt_2_Heritage_Grounded": {
+            "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract district.",
+            "parsed": {
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "caption_relevance": "LOW",
+              "reason": "Location 'Ba Dinh District' is administrative, not visually verifiable in frames."
+            },
+            "raw_response": "{\"visual_grounding\": \"NOT_VISUAL\", \"frame_indices\": [], \"caption_relevance\": \"LOW\", \"reason\": \"Location 'Ba Dinh District' is administrative, not visually verifiable in frames.\"}"
+          },
+          "Prompt_3_CoT_Structured": {
+            "fact": "(Imperial Citadel of Thang Long, located_in, Ba Dinh District)",
+            "expected": "NOT_VISUAL",
+            "note": "Abstract district.",
+            "parsed": {
+              "is_physical_object": false,
+              "visual_grounding": "NOT_VISUAL",
+              "frame_indices": [],
+              "supporting_details": "Ba Dinh District is an administrative area, not a physical object visible in any frame.",
+              "caption_relevance": "LOW",
+              "reason": "Ba Dinh District is a location, not a visual element in the frames."
+            },
+            "raw_response": "{\n  \"is_physical_object\": false,\n  \"visual_grounding\": \"NOT_VISUAL\",\n  \"frame_indices\": [],\n  \"supporting_details\": \"Ba Dinh District is an administrative area, not a physical object visible in any frame.\",\n  \"caption_relevance\": \"LOW\",\n  \"reason\": \"Ba Dinh District is a location, not a visual element in the frames.\"\n}"
+          }
+        }
+      }
+    ]
+  }
+]

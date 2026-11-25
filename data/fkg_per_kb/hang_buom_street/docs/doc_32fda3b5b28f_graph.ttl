@@ -1,0 +1,88 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_buom_street#quang_dong_assembly_hall> onto:with <http://transmtl.vn/ent/d3e03422> .
+
+<http://transmtl.vn/kb/hang_buom_street#street> onto:located_in <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://transmtl.vn/kb/hang_buom_street> onto:has_part <http://transmtl.vn/kb/hang_buom_street#quang_dong_assembly_hall>,
+        <http://transmtl.vn/kb/hang_buom_street#street> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3529 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3622 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#quang_dong_assembly_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.274 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3833 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3147 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/d3e03422> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#quang_dong_assembly_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3574 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2937 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_32fda3b5b28f" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+

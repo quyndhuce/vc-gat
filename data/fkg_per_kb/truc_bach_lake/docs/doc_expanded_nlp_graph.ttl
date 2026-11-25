@@ -1,0 +1,520 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/4c664c59> onto:adjacent_to <http://www.wikidata.org/entity/Q1858> ;
+    onto:near <http://www.wikidata.org/entity/Q1858> ;
+    onto:overlooks <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/5ccf641f> onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/ent/f4c9385f> onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/kb/truc_bach_lake#cafes> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/truc_bach_lake#lake_shore> onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/kb/truc_bach_lake#lakeside_buildings> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/truc_bach_lake#pedestrian_access> onto:part_of <http://transmtl.vn/ent/1e989bb5> .
+
+<http://transmtl.vn/kb/truc_bach_lake#planted_sections> onto:part_of <http://transmtl.vn/ent/1e989bb5> .
+
+<http://transmtl.vn/kb/truc_bach_lake#small_religious_sites> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/truc_bach_lake#tree_lined_embankments> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/ent/2e07008c> onto:located_in <http://transmtl.vn/ent/d569e149>,
+        <http://transmtl.vn/kb/truc_bach_lake> ;
+    onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/ent/eb2d794a> onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/kb/thanh_nien_road> onto:adjacent_to <http://transmtl.vn/kb/truc_bach_lake> ;
+    onto:connected_to <http://transmtl.vn/kb/truc_bach_lake> ;
+    onto:faces <http://transmtl.vn/kb/truc_bach_lake> ;
+    onto:overlooks <http://transmtl.vn/kb/truc_bach_lake> ;
+    onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://www.wikidata.org/entity/Q1858> onto:adjacent_to <http://transmtl.vn/ent/3e956fde>,
+        <http://transmtl.vn/ent/49cfbe25> ;
+    onto:border_with <http://transmtl.vn/ent/3e956fde>,
+        <http://transmtl.vn/ent/49cfbe25> ;
+    onto:has_part <http://transmtl.vn/ent/d302e976> ;
+    onto:surrounded_by <http://transmtl.vn/ent/3e956fde>,
+        <http://transmtl.vn/ent/6ad1586d> .
+
+<http://transmtl.vn/kb/truc_bach_lake> onto:adjacent_to <http://transmtl.vn/ent/313ca66d>,
+        <http://transmtl.vn/ent/eb2d794a>,
+        <http://transmtl.vn/kb/thanh_nien_road>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:connected_to <http://transmtl.vn/kb/west_lake> ;
+    onto:has_component <http://transmtl.vn/kb/truc_bach_lake#cafes>,
+        <http://transmtl.vn/kb/truc_bach_lake#lake_shore>,
+        <http://transmtl.vn/kb/truc_bach_lake#lakeside_buildings>,
+        <http://transmtl.vn/kb/truc_bach_lake#pedestrian_access>,
+        <http://transmtl.vn/kb/truc_bach_lake#planted_sections>,
+        <http://transmtl.vn/kb/truc_bach_lake#small_religious_sites>,
+        <http://transmtl.vn/kb/truc_bach_lake#tree_lined_embankments> ;
+    onto:has_part <http://transmtl.vn/ent/2cc6b3e6>,
+        <http://transmtl.vn/ent/2e07008c>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/5ccf641f>,
+        <http://transmtl.vn/ent/8fc42c6d>,
+        <http://transmtl.vn/ent/f4c9385f> ;
+    onto:located_in <http://transmtl.vn/ent/dc322ccd> ;
+    onto:near <http://transmtl.vn/ent/02af2daa>,
+        <http://transmtl.vn/ent/eb2d794a>,
+        <http://transmtl.vn/kb/thanh_nien_road>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:part_of <http://transmtl.vn/ent/dc322ccd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2896 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/8fc42c6d> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5865 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/49cfbe25> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3705 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4706 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#small_religious_sites> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4378 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/eb2d794a> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4857 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/1e989bb5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#pedestrian_access> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5588 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/f4c9385f> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6735 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/02af2daa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3659 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/2cc6b3e6> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3739 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.517 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/6ad1586d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4968 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#cafes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5656 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/3e956fde> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4318 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#lake_shore> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2553 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2e07008c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#tree_lined_embankments> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5066 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5952 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#tree_lined_embankments> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3216 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/3e956fde> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2827 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/dc322ccd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2919 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/eb2d794a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6417 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5719 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/313ca66d> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3897 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/49cfbe25> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#small_religious_sites> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4772 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5599 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#lake_shore> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2807 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/d302e976> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4843 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#lakeside_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5643 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/5ccf641f> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3977 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4134 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.56 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/2e07008c> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5328 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3665 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/eb2d794a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7752 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/dc322ccd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#cafes> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.458 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/ent/4c664c59> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6803 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.262 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2815 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2726 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/2e07008c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.39 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5239 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/d569e149> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2e07008c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#lakeside_buildings> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.66 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/3e956fde> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4529 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/5ccf641f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#pedestrian_access> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5933 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5285 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/1e989bb5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#planted_sections> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3404 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/ent/4c664c59> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4147 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#planted_sections> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7121 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/4c664c59> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2552 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/f4c9385f> .
+

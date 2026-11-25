@@ -1,0 +1,213 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/drum_house#thai_hoa_courtyard> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/drum_house#tower> onto:surrounded_by <http://transmtl.vn/ent/32a6922f> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:has_part <http://transmtl.vn/kb/drum_house> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/drum_house#thunder_drum> onto:made_of <http://transmtl.vn/ent/91234711> ;
+    onto:part_of <http://transmtl.vn/kb/drum_house> .
+
+<http://transmtl.vn/kb/drum_house#drumbeats> onto:connects <http://transmtl.vn/ent/78e72fc8>,
+        <http://transmtl.vn/ent/852488dd>,
+        <http://transmtl.vn/ent/c0cb5f0f> .
+
+<http://transmtl.vn/kb/drum_house> onto:has_part <http://transmtl.vn/kb/drum_house#drumbeats>,
+        <http://transmtl.vn/kb/drum_house#thai_hoa_courtyard>,
+        <http://transmtl.vn/kb/drum_house#thunder_drum>,
+        <http://transmtl.vn/kb/drum_house#tower> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:made_of <http://transmtl.vn/ent/b4f10ffc> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/9f864082> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5788 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6818 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/852488dd> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#drumbeats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house#thunder_drum> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2651 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/91234711> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#thunder_drum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7926 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/852488dd> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#drumbeats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7532 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/78e72fc8> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#drumbeats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5877 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house#drumbeats> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4473 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#thai_hoa_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4502 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5284 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/b4f10ffc> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2594 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#thunder_drum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3218 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3078 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/32a6922f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4152 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/91234711> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#thunder_drum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.706 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/78e72fc8> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#drumbeats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6813 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house#drumbeats> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house#thunder_drum> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5798 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house#thai_hoa_courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.336 ;
+    fkg:docId "doc_72312e5b76a8" ;
+    fkg:kbId "drum_house" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/drum_house#drumbeats> .
+

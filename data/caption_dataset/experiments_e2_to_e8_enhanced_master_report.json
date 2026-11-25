@@ -1,0 +1,4230 @@
+{
+  "metadata": {
+    "title": "Enhanced Theoretical & Algorithmic Validation Suite (E2-E8 + 3-Way Ablation)",
+    "timestamp": "2026-10-29 15:42:09",
+    "graph_summary": {
+      "entities": 2334,
+      "Delta": 361,
+      "mean_b": 4.51,
+      "canonical_queries_tested": 95
+    }
+  },
+  "E2_search_space_growth_with_s": {
+    "s_anchors": 5,
+    "rows": [
+      {
+        "depth": 1,
+        "s_anchors": 5,
+        "expanded_states": 355,
+        "complete_paths": 350,
+        "b_L_estimate": 22.6,
+        "worst_case_bound": 1805,
+        "effective_branching": 70.0,
+        "runtime_ms": 0.26,
+        "peak_ram_mb": 0.01
+      },
+      {
+        "depth": 2,
+        "s_anchors": 5,
+        "expanded_states": 5225,
+        "complete_paths": 4870,
+        "b_L_estimate": 124.3,
+        "worst_case_bound": 653410,
+        "effective_branching": 31.21,
+        "runtime_ms": 4.04,
+        "peak_ram_mb": 0.06
+      },
+      {
+        "depth": 3,
+        "s_anchors": 5,
+        "expanded_states": 112790,
+        "complete_paths": 107565,
+        "b_L_estimate": 583.0,
+        "worst_case_bound": 235882815,
+        "effective_branching": 27.81,
+        "runtime_ms": 86.53,
+        "peak_ram_mb": 0.07
+      },
+      {
+        "depth": 4,
+        "s_anchors": 5,
+        "expanded_states": 1562331,
+        "complete_paths": 1449541,
+        "b_L_estimate": 2652.1,
+        "worst_case_bound": 85153698020,
+        "effective_branching": 23.2,
+        "runtime_ms": 1205.72,
+        "peak_ram_mb": 0.08
+      }
+    ],
+    "fig_states": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8_enhanced/fig_e2_depth_vs_states.svg",
+    "fig_time": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8_enhanced/fig_e2_depth_vs_runtime.svg",
+    "allowed_claim": "The measured search space grows rapidly with reasoning depth and follows the qualitative trend predicted by the branching-factor analysis."
+  },
+  "E3_safe_branch_and_bound": {
+    "table_rows": [
+      {
+        "method": "Exhaustive",
+        "top1_agreement": 100.0,
+        "top5_exact_set": 100.0,
+        "states": 818984,
+        "pruned": 0,
+        "runtime_ms": 479.01
+      },
+      {
+        "method": "Branch-and-Bound (B&B)",
+        "top1_agreement": 100.0,
+        "top5_exact_set": 100.0,
+        "states": 21141,
+        "pruned": 173706,
+        "runtime_ms": 18.16
+      }
+    ],
+    "false_safe_pruning_violations": 0,
+    "prune_ratio_pct": 89.15,
+    "speedup_factor": 26.38,
+    "ex_results": {
+      "hanoi old quarter": [
+        [
+          1.0,
+          [
+            "hanoi old quarter",
+            "street"
+          ]
+        ],
+        [
+          1.0,
+          [
+            "hanoi old quarter",
+            "street",
+            "hanoi"
+          ]
+        ],
+        [
+          1.0,
+          [
+            "hanoi old quarter",
+            "street",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "hanoi old quarter",
+            "alleyway"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "hanoi old quarter",
+            "turtle tower"
+          ]
+        ]
+      ],
+      "city": [
+        [
+          0.63968,
+          [
+            "city",
+            "hoan kiem lake"
+          ]
+        ],
+        [
+          0.63968,
+          [
+            "city",
+            "hoan kiem lake",
+            "hanoi"
+          ]
+        ],
+        [
+          0.63968,
+          [
+            "city",
+            "hoan kiem lake",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.6390850976,
+          [
+            "city",
+            "hoan kiem lake",
+            "sword lake"
+          ]
+        ],
+        [
+          0.6390850976,
+          [
+            "city",
+            "hoan kiem lake",
+            "turtle tower"
+          ]
+        ]
+      ],
+      "double octagonal roof": [
+        [
+          0.43832,
+          [
+            "double octagonal roof",
+            "main hall"
+          ]
+        ],
+        [
+          0.4372943312,
+          [
+            "double octagonal roof",
+            "main hall",
+            "museum"
+          ]
+        ],
+        [
+          0.437281212370064,
+          [
+            "double octagonal roof",
+            "main hall",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.43568,
+          [
+            "double octagonal roof",
+            "main hall"
+          ]
+        ],
+        [
+          0.4346605088,
+          [
+            "double octagonal roof",
+            "main hall",
+            "museum"
+          ]
+        ]
+      ],
+      "hoan kiem lake": [
+        [
+          1.0,
+          [
+            "hoan kiem lake",
+            "hanoi"
+          ]
+        ],
+        [
+          1.0,
+          [
+            "hoan kiem lake",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.99907,
+          [
+            "hoan kiem lake",
+            "sword lake"
+          ]
+        ],
+        [
+          0.99907,
+          [
+            "hoan kiem lake",
+            "turtle tower"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "hoan kiem lake",
+            "lục thủy lake"
+          ]
+        ]
+      ],
+      "pathways": [
+        [
+          0.61162,
+          [
+            "pathways",
+            "thong nhat park"
+          ]
+        ],
+        [
+          0.61162,
+          [
+            "pathways",
+            "thong nhat park",
+            "hanoi"
+          ]
+        ],
+        [
+          0.61162,
+          [
+            "pathways",
+            "thong nhat park",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.6058034938000001,
+          [
+            "pathways",
+            "thong nhat park",
+            "central lake"
+          ]
+        ],
+        [
+          0.604219398,
+          [
+            "pathways",
+            "thong nhat park",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "dragon carvings": [
+        [
+          0.51945,
+          [
+            "dragon carvings",
+            "le dynasty"
+          ]
+        ],
+        [
+          0.23304,
+          [
+            "dragon carvings",
+            "steps"
+          ]
+        ],
+        [
+          0.2005029552,
+          [
+            "dragon carvings",
+            "steps",
+            "hall"
+          ]
+        ],
+        [
+          0.1869889656,
+          [
+            "dragon carvings",
+            "steps",
+            "stone"
+          ]
+        ],
+        [
+          0.17718730319999998,
+          [
+            "dragon carvings",
+            "steps",
+            "main hall"
+          ]
+        ]
+      ],
+      "khuê văn pavilion": [
+        [
+          0.70375,
+          [
+            "khuê văn pavilion",
+            "1805"
+          ]
+        ],
+        [
+          0.66357,
+          [
+            "khuê văn pavilion",
+            "hanoi"
+          ]
+        ],
+        [
+          0.66357,
+          [
+            "khuê văn pavilion",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.655540803,
+          [
+            "khuê văn pavilion",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.6401618157616199,
+          [
+            "khuê văn pavilion",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ]
+      ],
+      "jade lake": [
+        [
+          0.78051,
+          [
+            "jade lake",
+            "hoan kiem lake"
+          ]
+        ],
+        [
+          0.78051,
+          [
+            "jade lake",
+            "hoan kiem lake",
+            "hanoi"
+          ]
+        ],
+        [
+          0.78051,
+          [
+            "jade lake",
+            "hoan kiem lake",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.7797841257,
+          [
+            "jade lake",
+            "hoan kiem lake",
+            "sword lake"
+          ]
+        ],
+        [
+          0.7797841257,
+          [
+            "jade lake",
+            "hoan kiem lake",
+            "turtle tower"
+          ]
+        ]
+      ],
+      "three-gate entrance": [
+        [
+          0.58812,
+          [
+            "three-gate entrance",
+            "quan thanh temple"
+          ]
+        ],
+        [
+          0.5879023956,
+          [
+            "three-gate entrance",
+            "quan thanh temple",
+            "hanoi"
+          ]
+        ],
+        [
+          0.5879023956,
+          [
+            "three-gate entrance",
+            "quan thanh temple",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.5875730484,
+          [
+            "three-gate entrance",
+            "quan thanh temple",
+            "shrine"
+          ]
+        ],
+        [
+          0.5875730484,
+          [
+            "three-gate entrance",
+            "quan thanh temple",
+            "stele"
+          ]
+        ]
+      ],
+      "imperial citadel of thang long": [
+        [
+          0.99998,
+          [
+            "imperial citadel of thang long",
+            "hanoi"
+          ]
+        ],
+        [
+          0.99998,
+          [
+            "imperial citadel of thang long",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "imperial citadel of thang long",
+            "gate"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "imperial citadel of thang long",
+            "layers"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "imperial citadel of thang long",
+            "elevated platform"
+          ]
+        ]
+      ],
+      "vietnam women's museum": [
+        [
+          0.99907,
+          [
+            "vietnam women's museum",
+            "fourth"
+          ]
+        ],
+        [
+          0.99907,
+          [
+            "vietnam women's museum",
+            "third"
+          ]
+        ],
+        [
+          0.99907,
+          [
+            "vietnam women's museum",
+            "geometric blocks"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "vietnam women's museum",
+            "glass panels"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "vietnam women's museum",
+            "façade"
+          ]
+        ]
+      ],
+      "west lake": [
+        [
+          1.0,
+          [
+            "west lake",
+            "hanoi"
+          ]
+        ],
+        [
+          1.0,
+          [
+            "west lake",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "west lake",
+            "shrine"
+          ]
+        ],
+        [
+          0.9879,
+          [
+            "west lake",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.97595,
+          [
+            "west lake",
+            "tran quoc pagoda"
+          ]
+        ]
+      ],
+      "gate": [
+        [
+          0.83623,
+          [
+            "gate",
+            "west lake"
+          ]
+        ],
+        [
+          0.83623,
+          [
+            "gate",
+            "west lake",
+            "hanoi"
+          ]
+        ],
+        [
+          0.83623,
+          [
+            "gate",
+            "west lake",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.8282774527,
+          [
+            "gate",
+            "west lake",
+            "shrine"
+          ]
+        ],
+        [
+          0.826111617,
+          [
+            "gate",
+            "west lake",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "phoenix": [
+        [
+          0.24064,
+          [
+            "phoenix",
+            "vietnamese"
+          ]
+        ],
+        [
+          0.23688,
+          [
+            "phoenix",
+            "folklore"
+          ]
+        ],
+        [
+          0.17024,
+          [
+            "phoenix",
+            "marital fidelity"
+          ]
+        ],
+        [
+          0.1275849216,
+          [
+            "phoenix",
+            "vietnamese",
+            "king le thai to"
+          ]
+        ]
+      ],
+      "courtyard": [
+        [
+          0.92047,
+          [
+            "courtyard",
+            "ancient trees"
+          ]
+        ],
+        [
+          0.83417,
+          [
+            "courtyard",
+            "small waterfall"
+          ]
+        ],
+        [
+          0.8283,
+          [
+            "courtyard",
+            "well"
+          ]
+        ],
+        [
+          0.81129,
+          [
+            "courtyard",
+            "west lake"
+          ]
+        ],
+        [
+          0.81129,
+          [
+            "courtyard",
+            "west lake",
+            "hanoi"
+          ]
+        ]
+      ],
+      "ha noi": [
+        [
+          1.0,
+          [
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          1.0,
+          [
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.99967,
+          [
+            "ha noi",
+            "greenery"
+          ]
+        ],
+        [
+          0.99922,
+          [
+            "ha noi",
+            "vietnam"
+          ]
+        ]
+      ],
+      "symmetrical structure": [
+        [
+          0.33312,
+          [
+            "symmetrical structure",
+            "central block"
+          ]
+        ],
+        [
+          0.23928,
+          [
+            "symmetrical structure",
+            "museum"
+          ]
+        ],
+        [
+          0.2392728216,
+          [
+            "symmetrical structure",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.2392728216,
+          [
+            "symmetrical structure",
+            "museum",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.23637762045864,
+          [
+            "symmetrical structure",
+            "museum",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "permanent exhibition space": [
+        [
+          0.36464,
+          [
+            "permanent exhibition space",
+            "museum"
+          ]
+        ],
+        [
+          0.3646290608,
+          [
+            "permanent exhibition space",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.3646290608,
+          [
+            "permanent exhibition space",
+            "museum",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.36021704916432,
+          [
+            "permanent exhibition space",
+            "museum",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.32890635171342403,
+          [
+            "permanent exhibition space",
+            "museum",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "van phuc silk village": [
+        [
+          1.0,
+          [
+            "van phuc silk village",
+            "gate"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "van phuc silk village",
+            "courtyard"
+          ]
+        ],
+        [
+          0.99907,
+          [
+            "van phuc silk village",
+            "umbrellas"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "van phuc silk village",
+            "village well"
+          ]
+        ],
+        [
+          0.9203871577,
+          [
+            "van phuc silk village",
+            "courtyard",
+            "ancient trees"
+          ]
+        ]
+      ],
+      "dragon": [
+        [
+          0.69592,
+          [
+            "dragon",
+            "ceramic tiles"
+          ]
+        ],
+        [
+          0.68433,
+          [
+            "dragon",
+            "ears"
+          ]
+        ],
+        [
+          0.66296,
+          [
+            "dragon",
+            "bat trang pottery village"
+          ]
+        ],
+        [
+          0.6566552504,
+          [
+            "dragon",
+            "bat trang pottery village",
+            "shops"
+          ]
+        ],
+        [
+          0.645855632,
+          [
+            "dragon",
+            "bat trang pottery village",
+            "vietnam"
+          ]
+        ]
+      ],
+      "one pillar pagoda": [
+        [
+          0.99999,
+          [
+            "one pillar pagoda",
+            "column"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "one pillar pagoda",
+            "roof"
+          ]
+        ],
+        [
+          0.99736,
+          [
+            "one pillar pagoda",
+            "hanoi"
+          ]
+        ],
+        [
+          0.99736,
+          [
+            "one pillar pagoda",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "one pillar pagoda",
+            "tây cấm garden"
+          ]
+        ]
+      ],
+      "trees": [
+        [
+          0.34664,
+          [
+            "trees",
+            "branches"
+          ]
+        ],
+        [
+          0.30624,
+          [
+            "trees",
+            "deep green leaves"
+          ]
+        ],
+        [
+          0.27792,
+          [
+            "trees",
+            "canopies"
+          ]
+        ],
+        [
+          0.27664,
+          [
+            "trees",
+            "landscape"
+          ]
+        ],
+        [
+          0.22643218080000002,
+          [
+            "trees",
+            "branches",
+            "water"
+          ]
+        ]
+      ],
+      "tran quoc pagoda": [
+        [
+          1.0,
+          [
+            "tran quoc pagoda",
+            "bell tower"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "tran quoc pagoda",
+            "drum tower"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "tran quoc pagoda",
+            "front hall"
+          ]
+        ],
+        [
+          0.99313,
+          [
+            "tran quoc pagoda",
+            "hanoi"
+          ]
+        ],
+        [
+          0.99313,
+          [
+            "tran quoc pagoda",
+            "hanoi",
+            "vietnam"
+          ]
+        ]
+      ],
+      "souvenir shop": [
+        [
+          0.3312,
+          [
+            "souvenir shop",
+            "museum"
+          ]
+        ],
+        [
+          0.331190064,
+          [
+            "souvenir shop",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.331190064,
+          [
+            "souvenir shop",
+            "museum",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.3271826642256,
+          [
+            "souvenir shop",
+            "museum",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.29874337342992,
+          [
+            "souvenir shop",
+            "museum",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "special exhibition space": [
+        [
+          0.36776,
+          [
+            "special exhibition space",
+            "museum"
+          ]
+        ],
+        [
+          0.3677489672,
+          [
+            "special exhibition space",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.3677489672,
+          [
+            "special exhibition space",
+            "museum",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.36329920469688,
+          [
+            "special exhibition space",
+            "museum",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.331720600883416,
+          [
+            "special exhibition space",
+            "museum",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "walls": [
+        [
+          0.89348,
+          [
+            "walls",
+            "wood"
+          ]
+        ],
+        [
+          0.88798,
+          [
+            "walls",
+            "brick"
+          ]
+        ],
+        [
+          0.87206,
+          [
+            "walls",
+            "stone"
+          ]
+        ],
+        [
+          0.86761,
+          [
+            "walls",
+            "dong da mound"
+          ]
+        ],
+        [
+          0.8662652045,
+          [
+            "walls",
+            "dong da mound",
+            "hanoi"
+          ]
+        ]
+      ],
+      "and": [
+        [
+          0.24312,
+          [
+            "and",
+            "hang non street"
+          ]
+        ],
+        [
+          0.2415859128,
+          [
+            "and",
+            "hang non street",
+            "hanoi"
+          ]
+        ],
+        [
+          0.2415859128,
+          [
+            "and",
+            "hang non street",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.24096,
+          [
+            "and",
+            "lo ren street"
+          ]
+        ],
+        [
+          0.2408079288,
+          [
+            "and",
+            "hang non street",
+            "conical hats"
+          ]
+        ]
+      ],
+      "bat trang pottery village": [
+        [
+          0.99049,
+          [
+            "bat trang pottery village",
+            "shops"
+          ]
+        ],
+        [
+          0.9742,
+          [
+            "bat trang pottery village",
+            "vietnam"
+          ]
+        ],
+        [
+          0.95565,
+          [
+            "bat trang pottery village",
+            "bát tràng"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "bat trang pottery village",
+            "buildings"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "bat trang pottery village",
+            "huts"
+          ]
+        ]
+      ],
+      "walking paths": [
+        [
+          0.51568,
+          [
+            "walking paths",
+            "ha noi"
+          ]
+        ],
+        [
+          0.51568,
+          [
+            "walking paths",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.51568,
+          [
+            "walking paths",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.5156335888,
+          [
+            "walking paths",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.5155098256,
+          [
+            "walking paths",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "turtle tower": [
+        [
+          0.6952,
+          [
+            "turtle tower",
+            "ha noi"
+          ]
+        ],
+        [
+          0.6952,
+          [
+            "turtle tower",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.6952,
+          [
+            "turtle tower",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.695137432,
+          [
+            "turtle tower",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.694970584,
+          [
+            "turtle tower",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "pavilion": [
+        [
+          0.92301,
+          [
+            "pavilion",
+            "garden"
+          ]
+        ],
+        [
+          0.79431,
+          [
+            "pavilion",
+            "traditional vietnamese imperial design"
+          ]
+        ],
+        [
+          0.7852692177,
+          [
+            "pavilion",
+            "garden",
+            "ba dinh district"
+          ]
+        ],
+        [
+          0.773003312519526,
+          [
+            "pavilion",
+            "garden",
+            "ba dinh district",
+            "hanoi"
+          ]
+        ],
+        [
+          0.73466,
+          [
+            "pavilion",
+            "full sail"
+          ]
+        ]
+      ],
+      "traditional houses": [
+        [
+          0.63976,
+          [
+            "traditional houses",
+            "hang khoai street"
+          ]
+        ],
+        [
+          0.6336758824,
+          [
+            "traditional houses",
+            "hang khoai street",
+            "huyen thien shrine"
+          ]
+        ],
+        [
+          0.6336758824,
+          [
+            "traditional houses",
+            "hang khoai street",
+            "structures"
+          ]
+        ],
+        [
+          0.6336758824,
+          [
+            "traditional houses",
+            "hang khoai street",
+            "electrical wires"
+          ]
+        ],
+        [
+          0.6135746232,
+          [
+            "traditional houses",
+            "hang khoai street",
+            "hanoi"
+          ]
+        ]
+      ],
+      "vietnam": [
+        [
+          0.86348,
+          [
+            "vietnam",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.83381,
+          [
+            "vietnam",
+            "trinh"
+          ]
+        ],
+        [
+          0.82568,
+          [
+            "vietnam",
+            "nguyen"
+          ]
+        ],
+        [
+          0.77714,
+          [
+            "vietnam",
+            "dynasty"
+          ]
+        ],
+        [
+          0.71268,
+          [
+            "vietnam",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "architectural block": [
+        [
+          0.28456,
+          [
+            "architectural block",
+            "artisans"
+          ]
+        ],
+        [
+          0.26888,
+          [
+            "architectural block",
+            "xà cừ trees"
+          ]
+        ],
+        [
+          0.24952,
+          [
+            "architectural block",
+            "bustling streets"
+          ]
+        ],
+        [
+          0.21648,
+          [
+            "architectural block",
+            "courtyard"
+          ]
+        ],
+        [
+          0.1992633456,
+          [
+            "architectural block",
+            "courtyard",
+            "ancient trees"
+          ]
+        ]
+      ],
+      "glass panels": [
+        [
+          0.44748,
+          [
+            "glass panels",
+            "museum"
+          ]
+        ],
+        [
+          0.4474665756,
+          [
+            "glass panels",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.4474665756,
+          [
+            "glass panels",
+            "museum",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.44205223003524,
+          [
+            "glass panels",
+            "museum",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.403628275188468,
+          [
+            "glass panels",
+            "museum",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "stele": [
+        [
+          0.6594,
+          [
+            "stele",
+            "stone"
+          ]
+        ],
+        [
+          0.6544,
+          [
+            "stele",
+            "god harivamsesvara"
+          ]
+        ],
+        [
+          0.60593,
+          [
+            "stele",
+            "trang yuan"
+          ]
+        ],
+        [
+          0.58771,
+          [
+            "stele",
+            "than hau"
+          ]
+        ],
+        [
+          0.56317,
+          [
+            "stele",
+            "dai nghien"
+          ]
+        ]
+      ],
+      "street": [
+        [
+          1.0,
+          [
+            "street",
+            "hanoi"
+          ]
+        ],
+        [
+          1.0,
+          [
+            "street",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.9879,
+          [
+            "street",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.9647238659999999,
+          [
+            "street",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.90203,
+          [
+            "street",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "roof tiles": [
+        [
+          0.52193,
+          [
+            "roof tiles",
+            "museum"
+          ]
+        ],
+        [
+          0.5219143421,
+          [
+            "roof tiles",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.5219143421,
+          [
+            "roof tiles",
+            "museum",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.51559917856059,
+          [
+            "roof tiles",
+            "museum",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.5057,
+          [
+            "roof tiles",
+            "drum house"
+          ]
+        ]
+      ],
+      "façade": [
+        [
+          0.63327,
+          [
+            "façade",
+            "museum"
+          ]
+        ],
+        [
+          0.6332510019,
+          [
+            "façade",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.6332510019,
+          [
+            "façade",
+            "museum",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.62558866477701,
+          [
+            "façade",
+            "museum",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.60326,
+          [
+            "façade",
+            "mirror maze"
+          ]
+        ]
+      ],
+      "thu le park": [
+        [
+          0.99049,
+          [
+            "thu le park",
+            "lawns"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "thu le park",
+            "trees"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "thu le park",
+            "central lake"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "thu le park",
+            "pathways"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "thu le park",
+            "walking paths"
+          ]
+        ]
+      ],
+      "pavilion of the constellation of literary stars": [
+        [
+          0.54303,
+          [
+            "pavilion of the constellation of literary stars",
+            "inner sanctuary"
+          ]
+        ],
+        [
+          0.4269464769,
+          [
+            "pavilion of the constellation of literary stars",
+            "inner sanctuary",
+            "ha noi"
+          ]
+        ],
+        [
+          0.4269464769,
+          [
+            "pavilion of the constellation of literary stars",
+            "inner sanctuary",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.42690805171707896,
+          [
+            "pavilion of the constellation of literary stars",
+            "inner sanctuary",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.42680558456262296,
+          [
+            "pavilion of the constellation of literary stars",
+            "inner sanctuary",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "dong da district": [
+        [
+          0.91657,
+          [
+            "dong da district",
+            "hanoi"
+          ]
+        ],
+        [
+          0.91657,
+          [
+            "dong da district",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.905479503,
+          [
+            "dong da district",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.88423695385962,
+          [
+            "dong da district",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.8267736371,
+          [
+            "dong da district",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "lotus flower": [
+        [
+          0.3808,
+          [
+            "lotus flower",
+            "water"
+          ]
+        ],
+        [
+          0.24864,
+          [
+            "lotus flower",
+            "water"
+          ]
+        ],
+        [
+          0.23392,
+          [
+            "lotus flower",
+            "stupa"
+          ]
+        ],
+        [
+          0.056327935999999995,
+          [
+            "lotus flower",
+            "stupa",
+            "west lake"
+          ]
+        ],
+        [
+          0.056327935999999995,
+          [
+            "lotus flower",
+            "stupa",
+            "west lake",
+            "hanoi"
+          ]
+        ]
+      ],
+      "54 ethnic groups": [
+        [
+          0.59822,
+          [
+            "54 ethnic groups",
+            "vietnam"
+          ]
+        ],
+        [
+          0.5165510056,
+          [
+            "54 ethnic groups",
+            "vietnam",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.4988018182,
+          [
+            "54 ethnic groups",
+            "vietnam",
+            "trinh"
+          ]
+        ],
+        [
+          0.49393828959999997,
+          [
+            "54 ethnic groups",
+            "vietnam",
+            "nguyen"
+          ]
+        ],
+        [
+          0.4649006908,
+          [
+            "54 ethnic groups",
+            "vietnam",
+            "dynasty"
+          ]
+        ]
+      ],
+      "hoàn kiếm lake": [
+        [
+          0.79848,
+          [
+            "hoàn kiếm lake",
+            "surrounding areas"
+          ]
+        ],
+        [
+          0.67376,
+          [
+            "hoàn kiếm lake",
+            "cultural events"
+          ]
+        ],
+        [
+          0.61472,
+          [
+            "hoàn kiếm lake",
+            "ha noi"
+          ]
+        ],
+        [
+          0.61472,
+          [
+            "hoàn kiếm lake",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.61472,
+          [
+            "hoàn kiếm lake",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ]
+      ],
+      "alleyway": [
+        [
+          0.81733,
+          [
+            "alleyway",
+            "old quarter"
+          ]
+        ],
+        [
+          0.81733,
+          [
+            "alleyway",
+            "old quarter",
+            "hanoi"
+          ]
+        ],
+        [
+          0.81733,
+          [
+            "alleyway",
+            "old quarter",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.807440307,
+          [
+            "alleyway",
+            "old quarter",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.7372561799,
+          [
+            "alleyway",
+            "old quarter",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "puppetry": [
+        [
+          0.2204,
+          [
+            "puppetry",
+            "vietnam"
+          ]
+        ],
+        [
+          0.2068,
+          [
+            "puppetry",
+            "ha noi"
+          ]
+        ],
+        [
+          0.2068,
+          [
+            "puppetry",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.2068,
+          [
+            "puppetry",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.206781388,
+          [
+            "puppetry",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ]
+      ],
+      "architecture": [
+        [
+          0.80647,
+          [
+            "architecture",
+            "traditional vietnamese design"
+          ]
+        ],
+        [
+          0.39752,
+          [
+            "architecture",
+            "modern"
+          ]
+        ],
+        [
+          0.3316,
+          [
+            "architecture",
+            "traditional"
+          ]
+        ],
+        [
+          0.31824,
+          [
+            "architecture",
+            "french"
+          ]
+        ],
+        [
+          0.29104,
+          [
+            "architecture",
+            "vietnamese"
+          ]
+        ]
+      ],
+      "shops": [
+        [
+          0.33056,
+          [
+            "shops",
+            "hang ngang"
+          ]
+        ],
+        [
+          0.29472,
+          [
+            "shops",
+            "bát tràng"
+          ]
+        ],
+        [
+          0.25296,
+          [
+            "shops",
+            "people"
+          ]
+        ],
+        [
+          0.23328,
+          [
+            "shops",
+            "hang trong street"
+          ]
+        ],
+        [
+          0.23297207039999998,
+          [
+            "shops",
+            "hang trong street",
+            "hanoi"
+          ]
+        ]
+      ],
+      "roof": [
+        [
+          0.87238,
+          [
+            "roof",
+            "ha noi"
+          ]
+        ],
+        [
+          0.87238,
+          [
+            "roof",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.87238,
+          [
+            "roof",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.8723014858,
+          [
+            "roof",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.8720921146,
+          [
+            "roof",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "inner sanctuary": [
+        [
+          0.78623,
+          [
+            "inner sanctuary",
+            "ha noi"
+          ]
+        ],
+        [
+          0.78623,
+          [
+            "inner sanctuary",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.78623,
+          [
+            "inner sanctuary",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.7861592393,
+          [
+            "inner sanctuary",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.7859705440999999,
+          [
+            "inner sanctuary",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "buildings": [
+        [
+          0.38944,
+          [
+            "buildings",
+            "brick"
+          ]
+        ],
+        [
+          0.37744,
+          [
+            "buildings",
+            "hanoi"
+          ]
+        ],
+        [
+          0.37744,
+          [
+            "buildings",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.372872976,
+          [
+            "buildings",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.36412537598304,
+          [
+            "buildings",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ]
+      ],
+      "bát tràng": [
+        [
+          0.46336,
+          [
+            "bát tràng",
+            "vietnam"
+          ]
+        ],
+        [
+          0.40010209280000003,
+          [
+            "bát tràng",
+            "vietnam",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.3863542016,
+          [
+            "bát tràng",
+            "vietnam",
+            "trinh"
+          ]
+        ],
+        [
+          0.3825870848,
+          [
+            "bát tràng",
+            "vietnam",
+            "nguyen"
+          ]
+        ],
+        [
+          0.3600955904,
+          [
+            "bát tràng",
+            "vietnam",
+            "dynasty"
+          ]
+        ]
+      ],
+      "puppets": [
+        [
+          0.48528,
+          [
+            "puppets",
+            "water"
+          ]
+        ],
+        [
+          0.3464,
+          [
+            "puppets",
+            "puppeteers"
+          ]
+        ],
+        [
+          0.26888,
+          [
+            "puppets",
+            "water"
+          ]
+        ],
+        [
+          0.20192,
+          [
+            "puppets",
+            "orchestra"
+          ]
+        ],
+        [
+          0.090950784,
+          [
+            "puppets",
+            "puppeteers",
+            "performance"
+          ]
+        ]
+      ],
+      "square tower": [
+        [
+          0.42801,
+          [
+            "square tower",
+            "pavilion"
+          ]
+        ],
+        [
+          0.3950575101,
+          [
+            "square tower",
+            "pavilion",
+            "garden"
+          ]
+        ],
+        [
+          0.3399726231,
+          [
+            "square tower",
+            "pavilion",
+            "traditional vietnamese imperial design"
+          ]
+        ],
+        [
+          0.33610307786777704,
+          [
+            "square tower",
+            "pavilion",
+            "garden",
+            "ba dinh district"
+          ]
+        ],
+        [
+          0.3144418266,
+          [
+            "square tower",
+            "pavilion",
+            "full sail"
+          ]
+        ]
+      ],
+      "confucius": [
+        [
+          0.8071,
+          [
+            "confucius",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.306,
+          [
+            "confucius",
+            "ly dynasty"
+          ]
+        ]
+      ],
+      "exploration room": [
+        [
+          0.32152,
+          [
+            "exploration room",
+            "museum"
+          ]
+        ],
+        [
+          0.3215103544,
+          [
+            "exploration room",
+            "museum",
+            "hanoi"
+          ]
+        ],
+        [
+          0.3215103544,
+          [
+            "exploration room",
+            "museum",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.31762007911176,
+          [
+            "exploration room",
+            "museum",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.290011984979432,
+          [
+            "exploration room",
+            "museum",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "upper floor": [
+        [
+          0.72964,
+          [
+            "upper floor",
+            "god of wealth"
+          ]
+        ],
+        [
+          0.39282,
+          [
+            "upper floor",
+            "pavilion"
+          ]
+        ],
+        [
+          0.3625767882,
+          [
+            "upper floor",
+            "pavilion",
+            "garden"
+          ]
+        ],
+        [
+          0.3120208542,
+          [
+            "upper floor",
+            "pavilion",
+            "traditional vietnamese imperial design"
+          ]
+        ],
+        [
+          0.308469454096914,
+          [
+            "upper floor",
+            "pavilion",
+            "garden",
+            "ba dinh district"
+          ]
+        ]
+      ],
+      "hanoi": [
+        [
+          1.0,
+          [
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.9879,
+          [
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.9647238659999999,
+          [
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.90203,
+          [
+            "hanoi",
+            "french"
+          ]
+        ],
+        [
+          0.87155,
+          [
+            "hanoi",
+            "le thanh tong"
+          ]
+        ]
+      ],
+      "bell": [
+        [
+          0.69256,
+          [
+            "bell",
+            "auditory markers"
+          ]
+        ],
+        [
+          0.40283,
+          [
+            "bell",
+            "ha noi"
+          ]
+        ],
+        [
+          0.40283,
+          [
+            "bell",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.40283,
+          [
+            "bell",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.4027937453,
+          [
+            "bell",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ]
+      ],
+      "spiral cone blocks": [
+        [
+          0.34168,
+          [
+            "spiral cone blocks",
+            "main road"
+          ]
+        ],
+        [
+          0.256,
+          [
+            "spiral cone blocks",
+            "gaps"
+          ]
+        ],
+        [
+          0.17690140319999997,
+          [
+            "spiral cone blocks",
+            "main road",
+            "red river"
+          ]
+        ],
+        [
+          0.17669619757228797,
+          [
+            "spiral cone blocks",
+            "main road",
+            "red river",
+            "vietnam"
+          ]
+        ],
+        [
+          0.17653167926731198,
+          [
+            "spiral cone blocks",
+            "main road",
+            "red river",
+            "vietnam"
+          ]
+        ]
+      ],
+      "streetlights": [
+        [
+          0.2644,
+          [
+            "streetlights",
+            "water"
+          ]
+        ],
+        [
+          0.23584,
+          [
+            "streetlights",
+            "water"
+          ]
+        ]
+      ],
+      "central lake": [
+        [
+          0.56824,
+          [
+            "central lake",
+            "lush greenery"
+          ]
+        ],
+        [
+          0.44337,
+          [
+            "central lake",
+            "ha noi"
+          ]
+        ],
+        [
+          0.44337,
+          [
+            "central lake",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.44337,
+          [
+            "central lake",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.44333009669999995,
+          [
+            "central lake",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ]
+      ],
+      "doors": [
+        [
+          0.87697,
+          [
+            "doors",
+            "lim wood"
+          ]
+        ],
+        [
+          0.51485,
+          [
+            "doors",
+            "house"
+          ]
+        ],
+        [
+          0.48079,
+          [
+            "doors",
+            "gate"
+          ]
+        ],
+        [
+          0.43691200700000005,
+          [
+            "doors",
+            "house",
+            "hanoi"
+          ]
+        ],
+        [
+          0.43691200700000005,
+          [
+            "doors",
+            "house",
+            "hanoi",
+            "vietnam"
+          ]
+        ]
+      ],
+      ",": [
+        [
+          0.86455,
+          [
+            ",",
+            "vietnam"
+          ]
+        ],
+        [
+          0.746521634,
+          [
+            ",",
+            "vietnam",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.7208704355000001,
+          [
+            ",",
+            "vietnam",
+            "trinh"
+          ]
+        ],
+        [
+          0.713841644,
+          [
+            ",",
+            "vietnam",
+            "nguyen"
+          ]
+        ],
+        [
+          0.6718763870000001,
+          [
+            ",",
+            "vietnam",
+            "dynasty"
+          ]
+        ]
+      ],
+      "animal enclosures": [
+        [
+          0.30824,
+          [
+            "animal enclosures",
+            "ha noi"
+          ]
+        ],
+        [
+          0.30824,
+          [
+            "animal enclosures",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.30824,
+          [
+            "animal enclosures",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.3082122584,
+          [
+            "animal enclosures",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.3081382808,
+          [
+            "animal enclosures",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "streets": [
+        [
+          0.68214,
+          [
+            "streets",
+            "hanoi"
+          ]
+        ],
+        [
+          0.68214,
+          [
+            "streets",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.673886106,
+          [
+            "streets",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.65807673795324,
+          [
+            "streets",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.6153107442,
+          [
+            "streets",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "column": [
+        [
+          0.78366,
+          [
+            "column",
+            "part"
+          ]
+        ],
+        [
+          0.7537,
+          [
+            "column",
+            "of it"
+          ]
+        ],
+        [
+          0.53281,
+          [
+            "column",
+            "rest"
+          ]
+        ],
+        [
+          0.46548,
+          [
+            "column",
+            "one pillar pagoda"
+          ]
+        ],
+        [
+          0.4654381068,
+          [
+            "column",
+            "one pillar pagoda",
+            "roof"
+          ]
+        ]
+      ],
+      "red river": [
+        [
+          0.99884,
+          [
+            "red river",
+            "vietnam"
+          ]
+        ],
+        [
+          0.99791,
+          [
+            "red river",
+            "vietnam"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "red river",
+            "café garden"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "red river",
+            "fourth floor"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "red river",
+            "first two levels"
+          ]
+        ]
+      ],
+      "vietnam national museum of history": [
+        [
+          0.99991,
+          [
+            "vietnam national museum of history",
+            "walls"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "vietnam national museum of history",
+            "doors"
+          ]
+        ],
+        [
+          0.99049,
+          [
+            "vietnam national museum of history",
+            "roof"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "vietnam national museum of history",
+            "stele"
+          ]
+        ],
+        [
+          0.9025,
+          [
+            "vietnam national museum of history",
+            "exhibits"
+          ]
+        ]
+      ],
+      "elevated platform": [
+        [
+          0.3684,
+          [
+            "elevated platform",
+            "kinh thien palace"
+          ]
+        ],
+        [
+          0.3684,
+          [
+            "elevated platform",
+            "kinh thien palace",
+            "foundation"
+          ]
+        ],
+        [
+          0.368057388,
+          [
+            "elevated platform",
+            "kinh thien palace",
+            "dragon threshold"
+          ]
+        ],
+        [
+          0.368057388,
+          [
+            "elevated platform",
+            "kinh thien palace",
+            "platform"
+          ]
+        ],
+        [
+          0.36545648399999997,
+          [
+            "elevated platform",
+            "kinh thien palace",
+            "imperial citadel of thang long"
+          ]
+        ]
+      ],
+      "music": [
+        [
+          0.2764,
+          [
+            "music",
+            "young visitors"
+          ]
+        ],
+        [
+          0.20784,
+          [
+            "music",
+            "ha noi"
+          ]
+        ],
+        [
+          0.20784,
+          [
+            "music",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.20784,
+          [
+            "music",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.2078212944,
+          [
+            "music",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ]
+      ],
+      "lục thủy lake": [
+        [
+          0.2264,
+          [
+            "lục thủy lake",
+            "city"
+          ]
+        ],
+        [
+          0.221,
+          [
+            "lục thủy lake",
+            "hoan kiem"
+          ]
+        ],
+        [
+          0.20646483000000002,
+          [
+            "lục thủy lake",
+            "hoan kiem",
+            "hanoi"
+          ]
+        ],
+        [
+          0.20646483000000002,
+          [
+            "lục thủy lake",
+            "hoan kiem",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.20396660555700002,
+          [
+            "lục thủy lake",
+            "hoan kiem",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "sword lake": [
+        [
+          0.326,
+          [
+            "sword lake",
+            "hoan kiem lake"
+          ]
+        ],
+        [
+          0.326,
+          [
+            "sword lake",
+            "hoan kiem lake",
+            "hanoi"
+          ]
+        ],
+        [
+          0.326,
+          [
+            "sword lake",
+            "hoan kiem lake",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.32569682,
+          [
+            "sword lake",
+            "hoan kiem lake",
+            "turtle tower"
+          ]
+        ],
+        [
+          0.32289974,
+          [
+            "sword lake",
+            "hoan kiem lake",
+            "lục thủy lake"
+          ]
+        ]
+      ],
+      "bai duong hall": [
+        [
+          0.63168,
+          [
+            "bai duong hall",
+            "ha noi"
+          ]
+        ],
+        [
+          0.63168,
+          [
+            "bai duong hall",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.63168,
+          [
+            "bai duong hall",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.6316231488,
+          [
+            "bai duong hall",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.6314715456,
+          [
+            "bai duong hall",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "exhibits": [
+        [
+          0.26544,
+          [
+            "exhibits",
+            "hanoi"
+          ]
+        ],
+        [
+          0.26544,
+          [
+            "exhibits",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.26222817600000004,
+          [
+            "exhibits",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.25607630299104,
+          [
+            "exhibits",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.2394348432,
+          [
+            "exhibits",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "tây cấm garden": [
+        [
+          0.41559,
+          [
+            "tây cấm garden",
+            "thạch bảo"
+          ]
+        ],
+        [
+          0.41214,
+          [
+            "tây cấm garden",
+            "vĩnh thuận"
+          ]
+        ],
+        [
+          0.206,
+          [
+            "tây cấm garden",
+            "thạch bảo"
+          ]
+        ],
+        [
+          0.10095781440000001,
+          [
+            "tây cấm garden",
+            "vĩnh thuận",
+            "west lake"
+          ]
+        ],
+        [
+          0.10095781440000001,
+          [
+            "tây cấm garden",
+            "vĩnh thuận",
+            "west lake",
+            "hanoi"
+          ]
+        ]
+      ],
+      "alleys": [
+        [
+          0.58064,
+          [
+            "alleys",
+            "workshops"
+          ]
+        ],
+        [
+          0.48888,
+          [
+            "alleys",
+            "small shops"
+          ]
+        ],
+        [
+          0.43096,
+          [
+            "alleys",
+            "van phuc silk village"
+          ]
+        ],
+        [
+          0.43096,
+          [
+            "alleys",
+            "van phuc silk village",
+            "gate"
+          ]
+        ],
+        [
+          0.4309212136,
+          [
+            "alleys",
+            "van phuc silk village",
+            "courtyard"
+          ]
+        ]
+      ],
+      "bat trang gate": [
+        [
+          1.0,
+          [
+            "bat trang gate",
+            "gate"
+          ]
+        ],
+        [
+          0.97967,
+          [
+            "bat trang gate",
+            "vietnam"
+          ]
+        ],
+        [
+          0.96667,
+          [
+            "bat trang gate",
+            "hanoi"
+          ]
+        ],
+        [
+          0.96667,
+          [
+            "bat trang gate",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.954973293,
+          [
+            "bat trang gate",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "thang long water puppetry theatre": [
+        [
+          0.99049,
+          [
+            "thang long water puppetry theatre",
+            "façade"
+          ]
+        ],
+        [
+          0.94917,
+          [
+            "thang long water puppetry theatre",
+            "hanoi"
+          ]
+        ],
+        [
+          0.94917,
+          [
+            "thang long water puppetry theatre",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.9485,
+          [
+            "thang long water puppetry theatre",
+            "vietnam"
+          ]
+        ],
+        [
+          0.937685043,
+          [
+            "thang long water puppetry theatre",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "grand middle gate": [
+        [
+          0.55688,
+          [
+            "grand middle gate",
+            "temple of literature"
+          ]
+        ],
+        [
+          0.55688,
+          [
+            "grand middle gate",
+            "temple of literature",
+            "courtyards"
+          ]
+        ],
+        [
+          0.55688,
+          [
+            "grand middle gate",
+            "temple of literature",
+            "hanoi"
+          ]
+        ],
+        [
+          0.55688,
+          [
+            "grand middle gate",
+            "temple of literature",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.5568298808000001,
+          [
+            "grand middle gate",
+            "temple of literature",
+            "inner sanctuary"
+          ]
+        ]
+      ],
+      "tower": [
+        [
+          0.93517,
+          [
+            "tower",
+            "tropical almond trees"
+          ]
+        ],
+        [
+          0.92023,
+          [
+            "tower",
+            "hanoi"
+          ]
+        ],
+        [
+          0.92023,
+          [
+            "tower",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.909095217,
+          [
+            "tower",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.8877678432091799,
+          [
+            "tower",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ]
+      ],
+      "courtyards": [
+        [
+          0.72474,
+          [
+            "courtyards",
+            "ha noi"
+          ]
+        ],
+        [
+          0.72474,
+          [
+            "courtyards",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.72474,
+          [
+            "courtyards",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.7246747734,
+          [
+            "courtyards",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.7245008358,
+          [
+            "courtyards",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "ornate gates": [
+        [
+          0.57215,
+          [
+            "ornate gates",
+            "ngu xa island"
+          ]
+        ],
+        [
+          0.5716179005,
+          [
+            "ornate gates",
+            "ngu xa island",
+            "streets"
+          ]
+        ],
+        [
+          0.565913565,
+          [
+            "ornate gates",
+            "ngu xa island",
+            "hanoi"
+          ]
+        ],
+        [
+          0.565913565,
+          [
+            "ornate gates",
+            "ngu xa island",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.5590660108635,
+          [
+            "ornate gates",
+            "ngu xa island",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "ba dinh district": [
+        [
+          0.98438,
+          [
+            "ba dinh district",
+            "hanoi"
+          ]
+        ],
+        [
+          0.98438,
+          [
+            "ba dinh district",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.9724690020000001,
+          [
+            "ba dinh district",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.94965487921308,
+          [
+            "ba dinh district",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.8879402914000001,
+          [
+            "ba dinh district",
+            "hanoi",
+            "french"
+          ]
+        ]
+      ],
+      "ethnic groups": [
+        [
+          0.5048,
+          [
+            "ethnic groups",
+            "vietnam"
+          ]
+        ],
+        [
+          0.435884704,
+          [
+            "ethnic groups",
+            "vietnam",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.42090728800000005,
+          [
+            "ethnic groups",
+            "vietnam",
+            "trinh"
+          ]
+        ],
+        [
+          0.416803264,
+          [
+            "ethnic groups",
+            "vietnam",
+            "nguyen"
+          ]
+        ],
+        [
+          0.39230027200000006,
+          [
+            "ethnic groups",
+            "vietnam",
+            "dynasty"
+          ]
+        ]
+      ],
+      "play areas": [
+        [
+          0.35424,
+          [
+            "play areas",
+            "children"
+          ]
+        ],
+        [
+          0.34208,
+          [
+            "play areas",
+            "them"
+          ]
+        ],
+        [
+          0.29312,
+          [
+            "play areas",
+            "ha noi"
+          ]
+        ],
+        [
+          0.29312,
+          [
+            "play areas",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.29312,
+          [
+            "play areas",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ]
+      ],
+      "village well": [
+        [
+          0.3764,
+          [
+            "village well",
+            "van phuc silk village gate"
+          ]
+        ],
+        [
+          0.37639623600000005,
+          [
+            "village well",
+            "van phuc silk village gate",
+            "gate"
+          ]
+        ],
+        [
+          0.362439324,
+          [
+            "village well",
+            "van phuc silk village gate",
+            "hanoi"
+          ]
+        ],
+        [
+          0.362439324,
+          [
+            "village well",
+            "van phuc silk village gate",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.35805380817960003,
+          [
+            "village well",
+            "van phuc silk village gate",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ]
+      ],
+      "umbrellas": [
+        [
+          0.39135,
+          [
+            "umbrellas",
+            "picturesque backdrop"
+          ]
+        ],
+        [
+          0.35528,
+          [
+            "umbrellas",
+            "ha noi"
+          ]
+        ],
+        [
+          0.35528,
+          [
+            "umbrellas",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.35528,
+          [
+            "umbrellas",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.35524802479999995,
+          [
+            "umbrellas",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ]
+      ],
+      "lawns": [
+        [
+          0.3576,
+          [
+            "lawns",
+            "ha noi"
+          ]
+        ],
+        [
+          0.3576,
+          [
+            "lawns",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.3576,
+          [
+            "lawns",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.357567816,
+          [
+            "lawns",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.35748199199999997,
+          [
+            "lawns",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "temple of literature": [
+        [
+          1.0,
+          [
+            "temple of literature",
+            "courtyards"
+          ]
+        ],
+        [
+          1.0,
+          [
+            "temple of literature",
+            "hanoi"
+          ]
+        ],
+        [
+          1.0,
+          [
+            "temple of literature",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "temple of literature",
+            "inner sanctuary"
+          ]
+        ],
+        [
+          0.99991,
+          [
+            "temple of literature",
+            "khuê văn pavilion"
+          ]
+        ]
+      ],
+      "thang cung hall": [
+        [
+          0.73946,
+          [
+            "thang cung hall",
+            "ha noi"
+          ]
+        ],
+        [
+          0.73946,
+          [
+            "thang cung hall",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.73946,
+          [
+            "thang cung hall",
+            "ha noi",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.7393934486,
+          [
+            "thang cung hall",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.7392159782,
+          [
+            "thang cung hall",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "dragon motif": [
+        [
+          0.79258,
+          [
+            "dragon motif",
+            "roof"
+          ]
+        ],
+        [
+          0.6914309404,
+          [
+            "dragon motif",
+            "roof",
+            "ha noi"
+          ]
+        ],
+        [
+          0.6914309404,
+          [
+            "dragon motif",
+            "roof",
+            "ha noi",
+            "hanoi"
+          ]
+        ],
+        [
+          0.691368711615364,
+          [
+            "dragon motif",
+            "roof",
+            "ha noi",
+            "hoàn kiếm lake"
+          ]
+        ],
+        [
+          0.691202768189668,
+          [
+            "dragon motif",
+            "roof",
+            "ha noi",
+            "greenery"
+          ]
+        ]
+      ],
+      "shrine": [
+        [
+          0.90512,
+          [
+            "shrine",
+            "confucius"
+          ]
+        ],
+        [
+          0.76681,
+          [
+            "shrine",
+            "her"
+          ]
+        ],
+        [
+          0.730522352,
+          [
+            "shrine",
+            "confucius",
+            "lý dynasty"
+          ]
+        ],
+        [
+          0.69955,
+          [
+            "shrine",
+            "lady liễu hạnh"
+          ]
+        ],
+        [
+          0.6704,
+          [
+            "shrine",
+            "ancestors"
+          ]
+        ]
+      ],
+      "ba dinh square": [
+        [
+          0.99049,
+          [
+            "ba dinh square",
+            "pathways"
+          ]
+        ],
+        [
+          0.98605,
+          [
+            "ba dinh square",
+            "hanoi"
+          ]
+        ],
+        [
+          0.98605,
+          [
+            "ba dinh square",
+            "hanoi",
+            "vietnam"
+          ]
+        ],
+        [
+          0.974118795,
+          [
+            "ba dinh square",
+            "hanoi",
+            "lý thái tổ"
+          ]
+        ],
+        [
+          0.9512659680693,
+          [
+            "ba dinh square",
+            "hanoi",
+            "lý thái tổ",
+            "lý dynasty"
+          ]
+        ]
+      ]
+    }
+  },
+  "E4_exactness_certificate_expanded": {
+    "rows": [
+      {
+        "budget": 5,
+        "certified_queries": "0/95",
+        "certification_rate": "0.0%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 6,
+        "certified_queries": "1/95",
+        "certification_rate": "1.1%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 7,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 8,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 10,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 15,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 25,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 50,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 100,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 250,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 500,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 1000,
+        "certified_queries": "92/95",
+        "certification_rate": "96.8%",
+        "exact_set_accuracy": "100.0%"
+      }
+    ],
+    "fig_certification_rate": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8_enhanced/fig_e4_budget_vs_certification_rate.svg",
+    "uncertified_queries_analysis": [
+      {
+        "entity": "phoenix",
+        "out_degree": 3,
+        "total_reachable_paths": 4,
+        "quota_K": 5,
+        "paths_retrieved": 4,
+        "frontier_empty": true,
+        "root_cause": "Topological sparsity: Reachable subgraph contains only 4 distinct paths (< K=5). The search space was completely exhausted (frontier emptied), proving exhaustive enumeration of all possible paths, but the rigid Top-5 quota condition could not be fulfilled."
+      },
+      {
+        "entity": "confucius",
+        "out_degree": 2,
+        "total_reachable_paths": 2,
+        "quota_K": 5,
+        "paths_retrieved": 2,
+        "frontier_empty": true,
+        "root_cause": "Topological sparsity: Reachable subgraph contains only 2 distinct paths (< K=5). The search space was completely exhausted (frontier emptied), proving exhaustive enumeration of all possible paths, but the rigid Top-5 quota condition could not be fulfilled."
+      },
+      {
+        "entity": "streetlights",
+        "out_degree": 2,
+        "total_reachable_paths": 2,
+        "quota_K": 5,
+        "paths_retrieved": 2,
+        "frontier_empty": true,
+        "root_cause": "Topological sparsity: Reachable subgraph contains only 2 distinct paths (< K=5). The search space was completely exhausted (frontier emptied), proving exhaustive enumeration of all possible paths, but the rigid Top-5 quota condition could not be fulfilled."
+      }
+    ],
+    "quota_flexible_certification_rate": "100.0% (95/95 queries certified under quota-flexible exactness)",
+    "diagnostics_summary": "Of the 95 canonical queries, 92 queries have >= 5 reachable paths and all 92 (100.0%) achieve exactness certification at B >= 7. The remaining 3 queries (['phoenix', 'confucius', 'streetlights']) physically possess fewer than 5 paths in their accessible subgraphs; for all 3, the frontier empties completely, proving exhaustive retrieval of all available paths."
+  },
+  "E5_budget_depth_bounds_with_s": {
+    "rows_s5": [
+      {
+        "budget_label": "10^2",
+        "budget_numeric": 100,
+        "worst_case_L_max": 0,
+        "estimated_L_max": 1,
+        "observed_L_max": 1,
+        "observed_k_max": 2
+      },
+      {
+        "budget_label": "10^3",
+        "budget_numeric": 1000,
+        "worst_case_L_max": 0,
+        "estimated_L_max": 3,
+        "observed_L_max": 2,
+        "observed_k_max": 3
+      },
+      {
+        "budget_label": "10^4",
+        "budget_numeric": 10000,
+        "worst_case_L_max": 1,
+        "estimated_L_max": 4,
+        "observed_L_max": 2,
+        "observed_k_max": 3
+      },
+      {
+        "budget_label": "10^5",
+        "budget_numeric": 100000,
+        "worst_case_L_max": 1,
+        "estimated_L_max": 6,
+        "observed_L_max": 3,
+        "observed_k_max": 4
+      },
+      {
+        "budget_label": "10^6",
+        "budget_numeric": 1000000,
+        "worst_case_L_max": 2,
+        "estimated_L_max": 7,
+        "observed_L_max": 4,
+        "observed_k_max": 5
+      }
+    ],
+    "rows_s1": [
+      {
+        "budget_label": "10^2",
+        "budget_numeric": 100,
+        "worst_case_L_max": 0,
+        "estimated_L_max": 2,
+        "observed_L_max": 1,
+        "observed_k_max": 2
+      },
+      {
+        "budget_label": "10^3",
+        "budget_numeric": 1000,
+        "worst_case_L_max": 1,
+        "estimated_L_max": 4,
+        "observed_L_max": 2,
+        "observed_k_max": 3
+      },
+      {
+        "budget_label": "10^4",
+        "budget_numeric": 10000,
+        "worst_case_L_max": 1,
+        "estimated_L_max": 5,
+        "observed_L_max": 2,
+        "observed_k_max": 3
+      },
+      {
+        "budget_label": "10^5",
+        "budget_numeric": 100000,
+        "worst_case_L_max": 1,
+        "estimated_L_max": 7,
+        "observed_L_max": 2,
+        "observed_k_max": 3
+      },
+      {
+        "budget_label": "10^6",
+        "budget_numeric": 1000000,
+        "worst_case_L_max": 2,
+        "estimated_L_max": 9,
+        "observed_L_max": 3,
+        "observed_k_max": 4
+      }
+    ],
+    "formula_note": "L_max^wc = floor( log_Delta( 1 + B*(Delta - 1)/(s*Delta) ) ), k_max = L_max + 1."
+  },
+  "E6_approximate_search_tradeoff": {
+    "table_rows": [
+      {
+        "beam_width": 2,
+        "path_recall_at_5_mean_std": "69.4% ± 0.00%",
+        "path_recall_median_iqr": "69.4% [0.00%]",
+        "best_score_gap": "0.0605",
+        "relative_gap": "12.01%",
+        "runtime_ms": 0.04,
+        "expanded_states": 211.0
+      },
+      {
+        "beam_width": 5,
+        "path_recall_at_5_mean_std": "85.2% ± 0.00%",
+        "path_recall_median_iqr": "85.2% [0.00%]",
+        "best_score_gap": "0.0080",
+        "relative_gap": "1.34%",
+        "runtime_ms": 0.07,
+        "expanded_states": 356.4
+      },
+      {
+        "beam_width": 10,
+        "path_recall_at_5_mean_std": "90.6% ± 0.00%",
+        "path_recall_median_iqr": "90.6% [0.00%]",
+        "best_score_gap": "0.0012",
+        "relative_gap": "0.28%",
+        "runtime_ms": 0.12,
+        "expanded_states": 482.3
+      },
+      {
+        "beam_width": 20,
+        "path_recall_at_5_mean_std": "94.0% ± 0.00%",
+        "path_recall_median_iqr": "94.0% [0.00%]",
+        "best_score_gap": "0.0000",
+        "relative_gap": "0.00%",
+        "runtime_ms": 0.14,
+        "expanded_states": 713.6
+      },
+      {
+        "beam_width": 50,
+        "path_recall_at_5_mean_std": "94.2% ± 0.00%",
+        "path_recall_median_iqr": "94.2% [0.00%]",
+        "best_score_gap": "0.0000",
+        "relative_gap": "0.00%",
+        "runtime_ms": 0.39,
+        "expanded_states": 1242.0
+      }
+    ],
+    "fig_beam_tradeoff": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8_enhanced/fig_e6_beam_width_vs_recall.svg",
+    "narrative": "Less computation corresponds to small controlled retrieval loss. Recall@5 increases monotonically from 69.4% to 94.2% while Best-score gap drops from 0.0605 to 0.0000."
+  },
+  "E7_proxy_monotone_noisy_or_bounds": {
+    "num_facts_evaluated": 30,
+    "violations": 1,
+    "mean_interval_width": 0.1262,
+    "mean_optimism_gap": 0.0199,
+    "mean_overlap_degree": 0.0709,
+    "spearman_rho": 0.8941,
+    "spearman_pval": 2.815893101575888e-11,
+    "fig_overlap_vs_optimism": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8_enhanced/fig_e7_overlap_vs_optimism.svg",
+    "terminology_note": "Proxy possible-world analysis with strictly monotone link mapping p_u = g(mu_u). In alignment with reviewer recommendations, all wording explicitly uses 'proxy monotone mapping' rather than 'calibrated mapping' because g(mu) preserves ordering and algebraic monotonicity (g'(mu) > 0) without empirical Platt/isotonic calibration on audited labels."
+  },
+  "E7_calibrated_noisy_or_bounds": {
+    "num_facts_evaluated": 30,
+    "violations": 1,
+    "mean_interval_width": 0.1262,
+    "mean_optimism_gap": 0.0199,
+    "mean_overlap_degree": 0.0709,
+    "spearman_rho": 0.8941,
+    "spearman_pval": 2.815893101575888e-11,
+    "fig_overlap_vs_optimism": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8_enhanced/fig_e7_overlap_vs_optimism.svg",
+    "terminology_note": "Proxy possible-world analysis with strictly monotone link mapping p_u = g(mu_u). In alignment with reviewer recommendations, all wording explicitly uses 'proxy monotone mapping' rather than 'calibrated mapping' because g(mu) preserves ordering and algebraic monotonicity (g'(mu) > 0) without empirical Platt/isotonic calibration on audited labels."
+  },
+  "E8_interval_refinement_30facts": {
+    "summary_rows": [
+      {
+        "k_components": 0,
+        "mean_lower_bound": 0.7769,
+        "mean_upper_bound": 0.9031,
+        "mean_width": 0.1262,
+        "median_width": 0.1055,
+        "iqr_width": 0.1411,
+        "min_width": 0.0274,
+        "max_width": 0.2833
+      },
+      {
+        "k_components": 1,
+        "mean_lower_bound": 0.7857,
+        "mean_upper_bound": 0.8848,
+        "mean_width": 0.099,
+        "median_width": 0.0852,
+        "iqr_width": 0.0645,
+        "min_width": 0.0274,
+        "max_width": 0.2833
+      },
+      {
+        "k_components": 2,
+        "mean_lower_bound": 0.7869,
+        "mean_upper_bound": 0.8833,
+        "mean_width": 0.0964,
+        "median_width": 0.0852,
+        "iqr_width": 0.0641,
+        "min_width": 0.0274,
+        "max_width": 0.2833
+      },
+      {
+        "k_components": 3,
+        "mean_lower_bound": 0.7869,
+        "mean_upper_bound": 0.8833,
+        "mean_width": 0.0964,
+        "median_width": 0.0852,
+        "iqr_width": 0.0641,
+        "min_width": 0.0274,
+        "max_width": 0.2833
+      }
+    ],
+    "total_facts_evaluated": 30,
+    "monotonic_violations": 0,
+    "fig_interval_refinement": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8_enhanced/fig_e8_interval_refinement_30facts.svg",
+    "narrative": "More computation directly yields tighter uncertainty intervals. Invariant W_{k+1} <= W_k holds strictly with 0 violations across all 30 facts."
+  },
+  "3way_search_strategy_ablation": {
+    "table_rows": [
+      {
+        "strategy": "Exhaustive (Vét cạn)",
+        "top1_agreement": 100.0,
+        "top5_recall": 100.0,
+        "runtime_ms": 5.0,
+        "states_per_query": 8620.9,
+        "certificate_rate": "100.0%",
+        "theoretic_guarantee": "Exact Global Optimum (High Latency)"
+      },
+      {
+        "strategy": "Beam only (K_b = 10)",
+        "top1_agreement": 100.0,
+        "top5_recall": 95.7,
+        "runtime_ms": 0.08,
+        "states_per_query": 482.3,
+        "certificate_rate": "0.0%",
+        "theoretic_guarantee": "Heuristic Truncation (No Certificate)"
+      },
+      {
+        "strategy": "Branch-and-Bound (Ours)",
+        "top1_agreement": 100.0,
+        "top5_recall": 100.0,
+        "runtime_ms": 0.17,
+        "states_per_query": 222.5,
+        "certificate_rate": "100.0%",
+        "theoretic_guarantee": "Strict Safe Pruning with Exactness Certificate"
+      }
+    ]
+  }
+}

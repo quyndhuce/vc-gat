@@ -1,0 +1,467 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1c380a21> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/8695bedd> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/le_nin_park#open_paved_space> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/le_nin_park#pedestal> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/le_nin_park#planted_sections> onto:part_of <http://transmtl.vn/ent/675583c7> .
+
+<http://transmtl.vn/kb/le_nin_park#roads> onto:connected_to <http://transmtl.vn/ent/d27edbd1> .
+
+<http://transmtl.vn/ent/6493ebc0> onto:part_of <http://transmtl.vn/kb/le_nin_park> .
+
+<http://transmtl.vn/ent/a3ca6d20> onto:located_in <http://transmtl.vn/kb/le_nin_park> ;
+    onto:part_of <http://transmtl.vn/kb/le_nin_park> .
+
+<http://transmtl.vn/kb/le_nin_park#lawns> onto:located_in <http://transmtl.vn/kb/le_nin_park> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/kb/le_nin_park> .
+
+<http://transmtl.vn/kb/le_nin_park#trees> onto:located_in <http://transmtl.vn/ent/675583c7> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/ent/675583c7> .
+
+<http://transmtl.vn/ent/dd73c112> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/kb/le_nin_park>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://transmtl.vn/kb/le_nin_park> .
+
+<http://transmtl.vn/ent/a98b6ec8> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q1858> onto:adjacent_to <http://transmtl.vn/ent/24a7c103>,
+        <http://transmtl.vn/ent/3d4b8a78> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/24a7c103>,
+        <http://transmtl.vn/ent/3d4b8a78>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/c1b1487b> ;
+    onto:surrounded_by <http://transmtl.vn/ent/9927c3a9> .
+
+<http://transmtl.vn/kb/le_nin_park> onto:adjacent_to <http://transmtl.vn/ent/6493ebc0>,
+        <http://transmtl.vn/ent/a3ca6d20>,
+        <http://transmtl.vn/ent/a55ef29a>,
+        <http://transmtl.vn/ent/a98b6ec8>,
+        <http://transmtl.vn/ent/dd73c112> ;
+    onto:has_component <http://transmtl.vn/kb/le_nin_park#lawns>,
+        <http://transmtl.vn/kb/le_nin_park#open_paved_space>,
+        <http://transmtl.vn/kb/le_nin_park#pedestal>,
+        <http://transmtl.vn/kb/le_nin_park#planted_sections>,
+        <http://transmtl.vn/kb/le_nin_park#roads>,
+        <http://transmtl.vn/kb/le_nin_park#trees> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/a98b6ec8> ;
+    onto:near <http://transmtl.vn/ent/6493ebc0>,
+        <http://transmtl.vn/ent/a3ca6d20>,
+        <http://transmtl.vn/ent/a55ef29a>,
+        <http://transmtl.vn/ent/a98b6ec8>,
+        <http://transmtl.vn/ent/dd73c112> ;
+    onto:part_of <http://transmtl.vn/ent/a98b6ec8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4819 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/a98b6ec8> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4959 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#trees> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2745 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/c1b1487b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5302 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#pedestal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5337 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/d27edbd1> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#roads> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5518 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/a98b6ec8> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4712 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a98b6ec8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3874 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/24a7c103> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5787 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a3ca6d20> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3827 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/3d4b8a78> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8229 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/9927c3a9> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3869 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/675583c7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#planted_sections> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4249 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/24a7c103> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7022 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/dd73c112> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3365 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/6493ebc0> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5024 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#open_paved_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.395 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/a55ef29a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2963 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3228 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/6493ebc0> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3025 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/a3ca6d20> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#lawns> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.386 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/a98b6ec8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8228 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8695bedd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6167 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2724 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/675583c7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#trees> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6025 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/a3ca6d20> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#pedestal> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3903 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a3ca6d20> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5214 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/6493ebc0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3841 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/dd73c112> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5393 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#lawns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4046 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/dd73c112> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#open_paved_space> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#trees> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3565 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/dd73c112> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5588 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/3d4b8a78> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#roads> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.297 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/a55ef29a> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9136 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1c380a21> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3499 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/a98b6ec8> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5654 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2629 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#lawns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4002 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/dd73c112> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#trees> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#planted_sections> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4108 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/675583c7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#trees> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5398 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park#lawns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6766 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/dd73c112> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3182 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "le_nin_park" ;
+    rdf:object <http://transmtl.vn/kb/le_nin_park#lawns> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/le_nin_park> .
+

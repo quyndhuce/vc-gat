@@ -1,0 +1,1571 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/thai_hoc_buildings> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/temple_of_literature#central_axis> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/temple_of_literature#elevated_architectural_structure> onto:part_of <http://transmtl.vn/kb/khue_van_cac> .
+
+<http://transmtl.vn/kb/temple_of_literature#enclosed_courtyards> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/temple_of_literature#entrance> onto:part_of <http://transmtl.vn/ent/498f51ba> .
+
+<http://transmtl.vn/kb/temple_of_literature#openings> onto:part_of <http://transmtl.vn/kb/khue_van_cac> .
+
+<http://transmtl.vn/kb/temple_of_literature#pool> onto:part_of <http://transmtl.vn/ent/f9323f5b> .
+
+<http://transmtl.vn/kb/temple_of_literature#roof> onto:part_of <http://transmtl.vn/kb/khue_van_cac> .
+
+<http://transmtl.vn/kb/temple_of_literature#roofs> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/temple_of_literature#stelae> onto:made_of <http://transmtl.vn/ent/0a840ef4> .
+
+<http://transmtl.vn/ent/c39e1092> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/temple_of_literature#gateways> onto:made_of <http://transmtl.vn/ent/7ceffe3b> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/temple_of_literature#walls> onto:made_of <http://transmtl.vn/ent/7ceffe3b> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/temple_of_literature#well> onto:adjacent_to <http://transmtl.vn/kb/khue_van_cac> ;
+    onto:near <http://transmtl.vn/kb/khue_van_cac> .
+
+<http://transmtl.vn/ent/a1b0311b> onto:located_in <http://transmtl.vn/kb/dai_thanh_gate>,
+        <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:part_of <http://transmtl.vn/kb/dai_thanh_gate> .
+
+<http://transmtl.vn/kb/dai_thanh_courtyard> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/temple_of_literature#courtyard> onto:part_of <http://transmtl.vn/ent/fa1c731e> ;
+    onto:surrounded_by <http://transmtl.vn/ent/a1b0311b> .
+
+<http://transmtl.vn/kb/temple_of_literature#sheltered_pavilions> onto:adjacent_to <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:near <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:overlooks <http://transmtl.vn/kb/thien_quang_well> .
+
+<http://transmtl.vn/kb/temple_of_literature#window> onto:part_of <http://transmtl.vn/kb/khue_van_cac> .
+
+<http://transmtl.vn/kb/thai_hoc_gate> onto:located_inside <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/b8f780e1> onto:has_part <http://transmtl.vn/kb/temple_of_literature>,
+        <http://transmtl.vn/kb/van_mieu_gate> .
+
+<http://transmtl.vn/ent/498f51ba> onto:has_entrance <http://transmtl.vn/kb/van_mieu_gate> .
+
+<http://transmtl.vn/kb/temple_of_literature#pavilions> onto:adjacent_to <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:faces <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:near <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:overlooks <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:part_of <http://transmtl.vn/ent/44d5dc1a> .
+
+<http://transmtl.vn/kb/temple_of_literature#courtyards> onto:made_of <http://transmtl.vn/ent/7ceffe3b> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> onto:adjacent_to <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:has_part <http://transmtl.vn/ent/e057a615> ;
+    onto:located_in <http://transmtl.vn/ent/e2c51d4b> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4> ;
+    onto:near <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:overlooks <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/e2c51d4b> .
+
+<http://transmtl.vn/kb/van_lake> onto:adjacent_to <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:located_in <http://transmtl.vn/ent/c3708fd0>,
+        <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:near <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:part_of <http://transmtl.vn/ent/350b38d3>,
+        <http://transmtl.vn/ent/c3708fd0>,
+        <http://transmtl.vn/kb/temple_of_literature>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/van_mieu_gate> onto:connected_to <http://transmtl.vn/kb/dai_trung_gate> ;
+    onto:faces <http://transmtl.vn/kb/dai_trung_gate> ;
+    onto:located_in <http://transmtl.vn/ent/498f51ba> ;
+    onto:overlooks <http://transmtl.vn/kb/dai_trung_gate> ;
+    onto:part_of <http://transmtl.vn/ent/498f51ba>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/dai_trung_gate> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:located_inside <http://transmtl.vn/ent/335cf450>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:overlooks <http://transmtl.vn/ent/6711cc75> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/khue_van_cac> onto:adjacent_to <http://transmtl.vn/ent/44d5dc1a>,
+        <http://transmtl.vn/ent/e057a615>,
+        <http://transmtl.vn/kb/dai_trung_gate>,
+        <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:faces <http://transmtl.vn/kb/dai_trung_gate>,
+        <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:has_component <http://transmtl.vn/ent/05b8c74c>,
+        <http://transmtl.vn/ent/17684fde> ;
+    onto:near <http://transmtl.vn/ent/44d5dc1a>,
+        <http://transmtl.vn/kb/dai_trung_gate>,
+        <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:overlooks <http://transmtl.vn/kb/dai_trung_gate>,
+        <http://transmtl.vn/kb/thien_quang_well> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/17684fde> .
+
+<http://transmtl.vn/kb/thien_quang_well> onto:located_in <http://transmtl.vn/ent/2c2bf458>,
+        <http://transmtl.vn/ent/60df9e64> ;
+    onto:located_inside <http://transmtl.vn/ent/2c2bf458>,
+        <http://transmtl.vn/ent/60df9e64> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4> ;
+    onto:part_of <http://transmtl.vn/ent/2c2bf458>,
+        <http://transmtl.vn/ent/fa1c731e>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://www.wikidata.org/entity/Q1858> onto:has_component <http://transmtl.vn/ent/15fd82cd>,
+        <http://transmtl.vn/ent/1a8e628e>,
+        <http://transmtl.vn/ent/c39e1092>,
+        <http://transmtl.vn/ent/d3e03422>,
+        <http://transmtl.vn/ent/ed0aa594> ;
+    onto:has_entrance <http://transmtl.vn/ent/15fd82cd> ;
+    onto:has_part <http://transmtl.vn/ent/15fd82cd>,
+        <http://transmtl.vn/ent/1a8e628e>,
+        <http://transmtl.vn/ent/ed0aa594>,
+        <http://transmtl.vn/ent/fa1c731e> ;
+    onto:has_roof_type <http://transmtl.vn/ent/78506882> ;
+    onto:located_in <http://transmtl.vn/ent/1a8e628e> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4>,
+        <http://transmtl.vn/ent/7ceffe3b> ;
+    onto:part_of <http://transmtl.vn/ent/0d149b90> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:adjacent_to <http://transmtl.vn/kb/dai_thanh_courtyard>,
+        <http://transmtl.vn/kb/dai_trung_gate>,
+        <http://transmtl.vn/kb/khue_van_cac>,
+        <http://transmtl.vn/kb/thien_quang_well>,
+        <http://transmtl.vn/kb/van_lake>,
+        <http://transmtl.vn/kb/van_mieu_gate> ;
+    onto:has_component <http://transmtl.vn/ent/67b4677f>,
+        <http://transmtl.vn/kb/temple_of_literature#central_axis>,
+        <http://transmtl.vn/kb/temple_of_literature#courtyard>,
+        <http://transmtl.vn/kb/temple_of_literature#courtyards>,
+        <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae>,
+        <http://transmtl.vn/kb/temple_of_literature#elevated_architectural_structure>,
+        <http://transmtl.vn/kb/temple_of_literature#enclosed_courtyards>,
+        <http://transmtl.vn/kb/temple_of_literature#entrance>,
+        <http://transmtl.vn/kb/temple_of_literature#gateways>,
+        <http://transmtl.vn/kb/temple_of_literature#openings>,
+        <http://transmtl.vn/kb/temple_of_literature#pavilions>,
+        <http://transmtl.vn/kb/temple_of_literature#pool>,
+        <http://transmtl.vn/kb/temple_of_literature#roof>,
+        <http://transmtl.vn/kb/temple_of_literature#roofs>,
+        <http://transmtl.vn/kb/temple_of_literature#sheltered_pavilions>,
+        <http://transmtl.vn/kb/temple_of_literature#stelae>,
+        <http://transmtl.vn/kb/temple_of_literature#walls>,
+        <http://transmtl.vn/kb/temple_of_literature#well>,
+        <http://transmtl.vn/kb/temple_of_literature#window> ;
+    onto:has_part <http://transmtl.vn/ent/67b4677f>,
+        <http://transmtl.vn/kb/dai_trung_gate>,
+        <http://transmtl.vn/kb/van_mieu_gate> ;
+    onto:located_in <http://transmtl.vn/ent/6b77ef4b>,
+        <http://transmtl.vn/ent/b8f780e1>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:located_inside <http://www.wikidata.org/entity/Q1858> ;
+    onto:near <http://transmtl.vn/kb/dai_thanh_courtyard>,
+        <http://transmtl.vn/kb/dai_trung_gate>,
+        <http://transmtl.vn/kb/khue_van_cac>,
+        <http://transmtl.vn/kb/thien_quang_well>,
+        <http://transmtl.vn/kb/van_lake>,
+        <http://transmtl.vn/kb/van_mieu_gate> ;
+    onto:overlooks <http://transmtl.vn/kb/van_lake> ;
+    onto:part_of <http://transmtl.vn/ent/0cc175b9>,
+        <http://transmtl.vn/ent/b8f780e1>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6385 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/498f51ba> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6639 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/van_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.516 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4265 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#sheltered_pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2906 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/van_lake> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4964 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3116 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/350b38d3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2817 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2791 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2983 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/e2c51d4b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3221 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5583 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/ed0aa594> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5746 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#enclosed_courtyards> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4027 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2544 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5482 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5776 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4495 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#pavilions> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7283 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7521 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#courtyards> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#stelae> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#well> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.255 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/6711cc75> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7286 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c39e1092> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#gateways> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5977 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4593 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#window> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#sheltered_pavilions> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4043 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.617 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5666 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8252 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2642 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2723 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#elevated_architectural_structure> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5542 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6529 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#central_axis> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4766 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4082 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#elevated_architectural_structure> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#courtyard> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.935 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/e2c51d4b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2667 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/15fd82cd> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7388 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.715 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6057 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5253 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#gateways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.339 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/e057a615> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.26 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/fa1c731e> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7155 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#courtyards> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6195 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.479 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#courtyards> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.51 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2808 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/0d149b90> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3145 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/17684fde> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6164 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2986 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8571 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/78506882> ;
+    rdf:predicate onto:has_roof_type ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.527 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3683 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/498f51ba> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3116 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/44d5dc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3143 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5447 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#courtyards> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7824 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2856 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/e057a615> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4166 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5629 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4561 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/67b4677f> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7906 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3299 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/60df9e64> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5744 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3609 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4741 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#sheltered_pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3187 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3018 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/17684fde> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5811 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:has_entrance ;
+    rdf:subject <http://transmtl.vn/ent/498f51ba> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2929 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2841 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/fa1c731e> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3589 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2925 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2778 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.538 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/44d5dc1a> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9334 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#gateways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6193 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_courtyard> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.256 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/fa1c731e> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6037 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7405 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9082 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#courtyards> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3987 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2548 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9358 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/b8f780e1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3603 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/44d5dc1a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4356 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#window> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3889 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2699 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#pool> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.745 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.339 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#roofs> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3508 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/c3708fd0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3722 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/6b77ef4b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6558 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a1b0311b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3074 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/b8f780e1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2977 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/05b8c74c> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#roof> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.536 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7447 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#enclosed_courtyards> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3514 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/15fd82cd> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8036 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a1b0311b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#window> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3307 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#sheltered_pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2825 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/b8f780e1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3433 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2696 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2972 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3657 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9516 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3752 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3009 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/0cc175b9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3952 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5184 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thai_hoc_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#courtyards> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4406 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4621 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2975 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8061 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6784 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3671 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4223 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5612 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2656 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c39e1092> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3047 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/15fd82cd> ;
+    rdf:predicate onto:has_entrance ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.807 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/c3708fd0> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3047 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#openings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6866 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/van_lake> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6493 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5344 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4918 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5179 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3373 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/498f51ba> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3642 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#courtyards> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3817 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/d3e03422> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3038 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#courtyard> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5849 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3005 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/b8f780e1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2812 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3277 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/khue_van_cac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.49 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/67b4677f> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6818 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/ed0aa594> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4158 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9349 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2897 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/a1b0311b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.262 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/c39e1092> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2524 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/f9323f5b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#pool> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2676 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/60df9e64> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2667 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_thanh_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a1b0311b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#openings> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#window> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4003 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#doctoral_stelae> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6287 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/dai_trung_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature#walls> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3774 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://transmtl.vn/ent/1a8e628e> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3092 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "temple_of_literature" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature#central_axis> .
+

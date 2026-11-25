@@ -1,0 +1,368 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/ad9b8a7b> onto:located_in <http://transmtl.vn/ent/5ab06702> .
+
+<http://www.wikidata.org/entity/Q2227270#arched_windows> onto:part_of <http://transmtl.vn/ent/5120ba40> .
+
+<http://www.wikidata.org/entity/Q2227270#ornamental_pilasters> onto:part_of <http://transmtl.vn/ent/5120ba40> .
+
+<http://www.wikidata.org/entity/Q2227270#two_large_historical_maps> onto:located_inside <http://transmtl.vn/ent/d1489a35> .
+
+<http://www.wikidata.org/entity/Q2227270#ceiling> onto:located_inside <http://transmtl.vn/ent/335cf450> ;
+    onto:part_of <http://transmtl.vn/ent/8f1c5099> .
+
+<http://www.wikidata.org/entity/Q2227270#clock> onto:above <http://transmtl.vn/ent/901dc00a> ;
+    onto:over <http://transmtl.vn/ent/901dc00a> .
+
+<http://www.wikidata.org/entity/Q2227270#arches> onto:located_inside <http://transmtl.vn/ent/335cf450> ;
+    onto:made_of <http://transmtl.vn/ent/bcd31c71> ;
+    onto:part_of <http://transmtl.vn/ent/8f1c5099> .
+
+<http://www.wikidata.org/entity/Q2227270#patterned_tiled_floors> onto:located_in <http://transmtl.vn/ent/5ab06702> ;
+    onto:located_inside <http://transmtl.vn/ent/5ab06702> ;
+    onto:part_of <http://transmtl.vn/ent/5ab06702> .
+
+<http://www.wikidata.org/entity/Q2227270#decorative_relief_plaques> onto:dedicated_to <http://transmtl.vn/ent/0febaa80>,
+        <http://transmtl.vn/ent/641b2b00>,
+        <http://transmtl.vn/ent/7ed9d1ac> ;
+    onto:part_of <http://transmtl.vn/ent/5120ba40> .
+
+<http://www.wikidata.org/entity/Q2227270#main_hall> onto:has_component <http://transmtl.vn/ent/76c773f0> ;
+    onto:located_in <http://transmtl.vn/ent/335cf450> ;
+    onto:located_inside <http://transmtl.vn/ent/335cf450> ;
+    onto:surrounded_by <http://transmtl.vn/ent/76c773f0> .
+
+<http://transmtl.vn/ent/6aaeddf4> onto:located_in <http://transmtl.vn/ent/1675f1c5> .
+
+<http://www.wikidata.org/entity/Q2227270> onto:adjacent_to <http://transmtl.vn/ent/6aaeddf4>,
+        <http://transmtl.vn/ent/c5dd1982> ;
+    onto:faces <http://transmtl.vn/ent/6aaeddf4>,
+        <http://transmtl.vn/ent/c5dd1982> ;
+    onto:has_component <http://www.wikidata.org/entity/Q2227270#arched_windows>,
+        <http://www.wikidata.org/entity/Q2227270#arches>,
+        <http://www.wikidata.org/entity/Q2227270#ceiling>,
+        <http://www.wikidata.org/entity/Q2227270#clock>,
+        <http://www.wikidata.org/entity/Q2227270#decorative_relief_plaques>,
+        <http://www.wikidata.org/entity/Q2227270#main_hall>,
+        <http://www.wikidata.org/entity/Q2227270#ornamental_pilasters>,
+        <http://www.wikidata.org/entity/Q2227270#patterned_tiled_floors>,
+        <http://www.wikidata.org/entity/Q2227270#two_large_historical_maps> ;
+    onto:located_in <http://transmtl.vn/ent/6aaeddf4> ;
+    onto:near <http://transmtl.vn/ent/c5dd1982> ;
+    onto:overlooks <http://transmtl.vn/ent/6aaeddf4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3282 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/c5dd1982> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7894 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/6aaeddf4> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7551 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/5120ba40> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#decorative_relief_plaques> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6615 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#ceiling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#patterned_tiled_floors> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2617 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4898 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#patterned_tiled_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#two_large_historical_maps> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2891 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#patterned_tiled_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.345 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3666 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/901dc00a> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#clock> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3736 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/901dc00a> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#clock> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7136 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/0febaa80> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#decorative_relief_plaques> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9048 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#patterned_tiled_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2731 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/6aaeddf4> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7466 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/641b2b00> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#decorative_relief_plaques> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.347 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/6aaeddf4> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#ceiling> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7701 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/7ed9d1ac> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#decorative_relief_plaques> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9243 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/1675f1c5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/6aaeddf4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#clock> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7107 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/d1489a35> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#two_large_historical_maps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3929 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/76c773f0> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#ornamental_pilasters> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6211 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#arched_windows> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3452 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/76c773f0> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#decorative_relief_plaques> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6101 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/5120ba40> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#arched_windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2551 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/c5dd1982> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3679 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#ceiling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#main_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4368 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/5ab06702> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ad9b8a7b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://www.wikidata.org/entity/Q2227270#arches> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2626 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/6aaeddf4> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5882 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/bcd31c71> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7963 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/5120ba40> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#ornamental_pilasters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4162 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2672 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_central_post_office" ;
+    rdf:object <http://transmtl.vn/ent/c5dd1982> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q2227270> .
+

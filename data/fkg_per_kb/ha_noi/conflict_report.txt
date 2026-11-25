@@ -1,0 +1,56 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Ha Noi)  --[capital_of]-->  ?
+  Head URI  : http://www.wikidata.org/entity/Q1858
+  Conflict K: 0.9995
+  Candidates:
+    • Vietnam                         Bel=0.4234  Pl=0.4436  (3 evidence)
+    • Đại Việt                        Bel=0.2795  Pl=0.2997  (2 evidence)
+    • French Indochina                Bel=0.1657  Pl=0.1859  (2 evidence)
+    • Tonkin                          Bel=0.0503  Pl=0.0705  (2 evidence)
+    • Socialist Republic of Vietnam   Bel=0.0247  Pl=0.0449  (1 evidence)
+    • country                         Bel=0.0174  Pl=0.0377  (2 evidence)
+    • French protectorate             Bel=0.0101  Pl=0.0303  (1 evidence)
+    • imperial nation                 Bel=0.0086  Pl=0.0288  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Ha Noi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.4234  K=0.9995 ⚠ REVIEW
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.9972  K=0.0000
+  [capital_of] (Hoa Lư) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2234  K=0.0000
+  [capital_of] (Thăng Long) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2218  K=0.0000
+  [former_name_of] (Ha Noi) → http://transmtl.vn/ent/207462d2  Bel=0.1965  K=0.0495
+  [founded_in] (Ha Noi) → http://transmtl.vn/ent/1e48c442  Bel=0.8079  K=0.0000
+  [capital_of] (Đông Kinh) → http://transmtl.vn/ent/072306ee  Bel=0.3510  K=0.0000
+  [capital_of] (Huế) → http://transmtl.vn/ent/072306ee  Bel=0.6160  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Ha Noi) → (Hoàn Kiếm Lake)  μ_F=0.9999  (4 evidence)
+  [belongs_to_dynasty] (Lý Thái Tổ) → (Lý dynasty)  μ_F=0.9232  (2 evidence)
+  [ruled_by] (Hanoi) → (Lý Thái Tổ)  μ_F=0.9086  (4 evidence)
+  [located_in] (Hanoi) → (Vietnam)  μ_F=0.8825  (4 evidence)
+  [founded_by] (Ha Noi) → (Lý Thái Tổ)  μ_F=0.8297  (2 evidence)
+  [part_of] (Ha Noi) → (State of Vietnam)  μ_F=0.8282  (2 evidence)
+  [near] (Ba Vì National Park) → (Ha Noi)  μ_F=0.8045  (2 evidence)
+  [part_of] (Hanoi Old Quarter) → (Hanoi)  μ_F=0.7569  (3 evidence)
+  [part_of] (West Lake) → (Hanoi)  μ_F=0.7468  (3 evidence)
+  [part_of] (Ha Noi) → (Vietnam)  μ_F=0.7265  (3 evidence)
+  [part_of] (Hoan Kiem Lake) → (Hanoi)  μ_F=0.7061  (3 evidence)
+  [located_in] (West Lake) → (Hanoi)  μ_F=0.6998  (4 evidence)
+  [near] (West Lake) → (Ha Noi)  μ_F=0.6537  (1 evidence)
+  [near] (city) → (Hoan Kiem Lake)  μ_F=0.6397  (2 evidence)
+  [ruled_by] (Đại Việt) → (Lê Lợi)  μ_F=0.6366  (1 evidence)
+  [near] (Hoàn Kiếm Lake) → (Ha Noi)  μ_F=0.6147  (1 evidence)
+  [renamed_to] (Ha Noi) → (Thăng Long)  μ_F=0.6089  (1 evidence)
+  [ruled_by] (Đại Việt) → (Lý Thái Tổ)  μ_F=0.5779  (2 evidence)
+  [located_in] (Hanoi Old Quarter) → (Hanoi)  μ_F=0.5633  (2 evidence)
+  [belongs_to_dynasty] (Huế) → (Nguyễn dynasty)  μ_F=0.5554  (2 evidence)
+
+========================================================================

@@ -1,0 +1,365 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q10841690#canopies> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690#main_hall> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690#thrones> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690#rear_chamber> onto:faces <http://transmtl.vn/kb/red_river> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690#courtyard> onto:made_of <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:surrounded_by <http://transmtl.vn/ent/9f864082> .
+
+<http://www.wikidata.org/entity/Q10841690#three_parallel_rooms> onto:faces <http://transmtl.vn/kb/red_river> ;
+    onto:overlooks <http://transmtl.vn/kb/red_river> .
+
+<http://www.wikidata.org/entity/Q10841690#shrine> onto:built_by <http://transmtl.vn/ent/d8cbd080> ;
+    onto:dedicated_to <http://transmtl.vn/ent/9eb0d040>,
+        <http://transmtl.vn/ent/a43b4caa> .
+
+<http://www.wikidata.org/entity/Q10841690> onto:dedicated_to <http://transmtl.vn/ent/3877f8b5> ;
+    onto:has_part <http://www.wikidata.org/entity/Q10841690#canopies>,
+        <http://www.wikidata.org/entity/Q10841690#courtyard>,
+        <http://www.wikidata.org/entity/Q10841690#main_hall>,
+        <http://www.wikidata.org/entity/Q10841690#rear_chamber>,
+        <http://www.wikidata.org/entity/Q10841690#shrine>,
+        <http://www.wikidata.org/entity/Q10841690#three_parallel_rooms>,
+        <http://www.wikidata.org/entity/Q10841690#thrones> ;
+    onto:reconstructed_by <http://transmtl.vn/ent/9a92c31a> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:architectural_style <http://transmtl.vn/ent/a1b01e73> ;
+    onto:belongs_to_dynasty <http://transmtl.vn/ent/c903b2b1> ;
+    onto:built_in <http://transmtl.vn/ent/2fa6ebce> ;
+    onto:dated_to <http://transmtl.vn/ent/08915416>,
+        <http://transmtl.vn/ent/2fa6ebce> ;
+    onto:has_part <http://transmtl.vn/ent/80a77fdd>,
+        <http://transmtl.vn/ent/8f1c5099> ;
+    onto:hosts_event <http://transmtl.vn/ent/b21c83fd> ;
+    onto:reconstructed_by <http://transmtl.vn/ent/9a92c31a> ;
+    onto:worships <http://transmtl.vn/ent/29dd012b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2699 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/29dd012b> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#rear_chamber> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2542 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4162 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/2fa6ebce> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3609 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3256 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/80a77fdd> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2861 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4817 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#rear_chamber> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3995 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/a43b4caa> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4872 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9a92c31a> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4324 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.289 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9a92c31a> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2506 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#thrones> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3516 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9eb0d040> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3331 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/b21c83fd> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#three_parallel_rooms> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2537 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#canopies> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5692 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4751 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.266 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#rear_chamber> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5171 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/a1b01e73> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.34 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/2fa6ebce> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#rear_chamber> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4026 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/29dd012b> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2878 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.261 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#three_parallel_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#canopies> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2509 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#three_parallel_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2875 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3162 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/d8cbd080> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4692 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#three_parallel_rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8216 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/a43b4caa> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5394 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/3877f8b5> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#three_parallel_rooms> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4591a1d90ec4" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#thrones> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+

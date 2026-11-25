@@ -1,0 +1,68 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/6d394710> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/weaving_machine> onto:has_part <http://transmtl.vn/kb/weaving_machine#machines> .
+
+<http://transmtl.vn/kb/weaving_machine#machines> onto:made_of <http://transmtl.vn/ent/3eb38fa8>,
+        <http://transmtl.vn/ent/bcd31c71> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.808 ;
+    fkg:docId "doc_0e7be809dbf9" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/ent/3eb38fa8> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/weaving_machine#machines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4813 ;
+    fkg:docId "doc_0e7be809dbf9" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/ent/3eb38fa8> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/weaving_machine#machines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8329 ;
+    fkg:docId "doc_0e7be809dbf9" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/ent/bcd31c71> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/weaving_machine#machines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3106 ;
+    fkg:docId "doc_0e7be809dbf9" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/6d394710> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5532 ;
+    fkg:docId "doc_0e7be809dbf9" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/ent/bcd31c71> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/weaving_machine#machines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0e7be809dbf9" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/kb/weaving_machine#machines> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/weaving_machine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0e7be809dbf9" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/kb/weaving_machine#machines> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/weaving_machine> .
+

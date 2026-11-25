@@ -1,0 +1,67 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  2 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hanoi)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/207462d2
+  Conflict K: 0.9102
+  Candidates:
+    • Vietnam                         Bel=0.9997  Pl=0.9998  (8 evidence)
+    • Ly Dynasty                      Bel=0.0001  Pl=0.0002  (2 evidence)
+    • Nguyễn dynasty                  Bel=0.0001  Pl=0.0001  (2 evidence)
+    • country                         Bel=0.0000  Pl=0.0001  (1 evidence)
+    • Lý dynasty                      Bel=0.0000  Pl=0.0001  (1 evidence)
+    • Vietnamese                      Bel=0.0000  Pl=0.0001  (1 evidence)
+
+  (Huế)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/42df5f4e
+  Conflict K: 0.5805
+  Candidates:
+    • Nguyễn dynasty                  Bel=0.7800  Pl=0.8788  (2 evidence)
+    • Trịnh                           Bel=0.0696  Pl=0.1684  (1 evidence)
+    • Mạc dynasty                     Bel=0.0264  Pl=0.1252  (1 evidence)
+    • they                            Bel=0.0252  Pl=0.1239  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.9997  K=0.9102 ⚠ REVIEW
+  [built_in] (North Gate) → http://transmtl.vn/ent/7ffd85d9  Bel=0.3034  K=0.0000
+  [built_in] (gate) → http://transmtl.vn/ent/7ffd85d9  Bel=0.6541  K=0.0000
+  [dated_to] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/14ccc5cd  Bel=0.2769  K=0.0000
+  [founded_in] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/1e48c442  Bel=0.7686  K=0.0000
+  [symbol_of] (tower) → http://transmtl.vn/ent/8d3e54a8  Bel=0.3500  K=0.0000
+  [founded_in] (Ha Noi) → http://transmtl.vn/ent/1e48c442  Bel=0.6623  K=0.0000
+  [built_in] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/1e48c442  Bel=0.8229  K=0.0000
+  [built_in] (Ha Noi) → http://transmtl.vn/ent/1e48c442  Bel=0.6707  K=0.0000
+  [dated_to] (Ha Noi) → http://transmtl.vn/ent/902a915b  Bel=0.3890  K=0.0000
+  [capital_of] (Đông Kinh) → http://transmtl.vn/ent/5a2e3157  Bel=0.4162  K=0.0000
+  [capital_of] (Huế) → http://transmtl.vn/ent/072306ee  Bel=0.7800  K=0.5805 ⚠ REVIEW
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Imperial Citadel of Thang Long) → (gate)  μ_F=0.9999  (4 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (shrine)  μ_F=0.9905  (2 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (dragon carvings)  μ_F=0.9905  (2 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (Princess Tower)  μ_F=0.9905  (2 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (elevated platform)  μ_F=0.9905  (2 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (layers)  μ_F=0.9905  (2 evidence)
+  [has_component] (Imperial Citadel of Thang Long) → (foundations)  μ_F=0.9905  (2 evidence)
+  [located_in] (Imperial Citadel of Thang Long) → (Hanoi)  μ_F=0.9546  (5 evidence)
+  [belongs_to_dynasty] (Ly Thai To) → (Ly Dynasty)  μ_F=0.9520  (3 evidence)
+  [part_of] (Doan Mon Gate) → (Ha Noi)  μ_F=0.9356  (6 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (lanterns)  μ_F=0.9025  (1 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (North Gate)  μ_F=0.9025  (1 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (second floor)  μ_F=0.9025  (1 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (corner)  μ_F=0.9025  (1 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (tower)  μ_F=0.9025  (1 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (main palace structure)  μ_F=0.9025  (1 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (foundations)  μ_F=0.9025  (1 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (structural traces)  μ_F=0.9025  (1 evidence)
+  [has_part] (Imperial Citadel of Thang Long) → (layer)  μ_F=0.9025  (1 evidence)
+  [has_component] (Imperial Citadel of Thang Long) → (It)  μ_F=0.9025  (1 evidence)
+
+========================================================================

@@ -1,0 +1,363 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/903fe2dd> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/9eb0d040> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/c0617d94> onto:located_in <http://transmtl.vn/ent/5b7ef035> .
+
+<http://transmtl.vn/ent/dece8a0b> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/f5a053be> onto:located_in <http://transmtl.vn/ent/4d123dc0> .
+
+<http://www.wikidata.org/entity/Q1063916#decorated> onto:part_of <http://transmtl.vn/ent/3a393f7a> .
+
+<http://www.wikidata.org/entity/Q1063916#dioramas> onto:located_in <http://transmtl.vn/ent/5b7ef035> .
+
+<http://www.wikidata.org/entity/Q1063916#expansions> onto:part_of <http://transmtl.vn/ent/0d149b90> .
+
+<http://www.wikidata.org/entity/Q1063916#gate> onto:part_of <http://transmtl.vn/ent/0d149b90> .
+
+<http://www.wikidata.org/entity/Q1063916#tuệ_thành_assembly_hall> onto:located_in <http://transmtl.vn/ent/4d123dc0> .
+
+<http://www.wikidata.org/entity/Q1063916#altar> onto:has_component <http://transmtl.vn/ent/364e8b62> ;
+    onto:surrounded_by <http://transmtl.vn/ent/364e8b62> .
+
+<http://www.wikidata.org/entity/Q1063916#bell> onto:made_of <http://transmtl.vn/ent/cab7e764> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://www.wikidata.org/entity/Q1063916#courtyard> onto:has_part <http://transmtl.vn/ent/3a393f7a> ;
+    onto:surrounded_by <http://transmtl.vn/ent/fc6955a8> .
+
+<http://www.wikidata.org/entity/Q1063916#exposed_portions> onto:located_in <http://transmtl.vn/ent/2c2bf458> ;
+    onto:part_of <http://transmtl.vn/ent/2c2bf458> .
+
+<http://www.wikidata.org/entity/Q1063916#incense_burners> onto:located_in <http://transmtl.vn/ent/2c2bf458> ;
+    onto:part_of <http://transmtl.vn/ent/2c2bf458> .
+
+<http://transmtl.vn/ent/4d123dc0> onto:located_in <http://www.wikidata.org/entity/Q1854> .
+
+<http://www.wikidata.org/entity/Q1063916> onto:has_component <http://transmtl.vn/ent/8d45c85b>,
+        <http://www.wikidata.org/entity/Q1063916#altar>,
+        <http://www.wikidata.org/entity/Q1063916#bell>,
+        <http://www.wikidata.org/entity/Q1063916#courtyard>,
+        <http://www.wikidata.org/entity/Q1063916#decorated>,
+        <http://www.wikidata.org/entity/Q1063916#dioramas>,
+        <http://www.wikidata.org/entity/Q1063916#expansions>,
+        <http://www.wikidata.org/entity/Q1063916#exposed_portions>,
+        <http://www.wikidata.org/entity/Q1063916#gate>,
+        <http://www.wikidata.org/entity/Q1063916#incense_burners>,
+        <http://www.wikidata.org/entity/Q1063916#tuệ_thành_assembly_hall> ;
+    onto:has_part <http://transmtl.vn/ent/8d45c85b> ;
+    onto:located_in <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/ed6713e0>,
+        <http://www.wikidata.org/entity/Q1854> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3497 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/5b7ef035> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c0617d94> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6615 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/903fe2dd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#courtyard> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8834 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/dece8a0b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5053 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3816 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/4d123dc0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#tuệ_thành_assembly_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9213 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/ed6713e0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4403 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/0d149b90> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#expansions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5466 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/fc6955a8> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#dioramas> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7469 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#bell> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#gate> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.983 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4555 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/0d149b90> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4531 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/8d45c85b> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#expansions> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8995 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4146 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#incense_burners> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#altar> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.278 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#exposed_portions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3134 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/4d123dc0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f5a053be> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2925 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/3a393f7a> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4628 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/8d45c85b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8062 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/cab7e764> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#bell> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#incense_burners> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3475 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#exposed_portions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2731 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/3a393f7a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#decorated> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4941 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9eb0d040> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6164 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#incense_burners> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#decorated> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#bell> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6019 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/364e8b62> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5413 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#tuệ_thành_assembly_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5974 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/4d123dc0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3598 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/5b7ef035> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#dioramas> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3575 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/364e8b62> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#exposed_portions> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+

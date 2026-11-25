@@ -1,0 +1,25 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hanoi_museum> onto:has_part <http://transmtl.vn/kb/hanoi_museum#inverted_pyramid_structure> .
+
+<http://transmtl.vn/kb/hanoi_museum#inverted_pyramid_structure> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2607 ;
+    fkg:docId "doc_803e03240ab6" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum#inverted_pyramid_structure> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_803e03240ab6" ;
+    fkg:kbId "hanoi_museum" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum#inverted_pyramid_structure> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+

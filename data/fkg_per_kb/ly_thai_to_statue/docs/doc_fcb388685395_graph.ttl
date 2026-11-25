@@ -1,0 +1,225 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/e8a07f11> onto:located_in <http://transmtl.vn/ent/989ca527> .
+
+<http://transmtl.vn/ent/207462d2> onto:ruled_by <http://transmtl.vn/ent/46e658f9> .
+
+<http://transmtl.vn/kb/ly_thai_to_statue#ly_thai_to_garden> onto:former_name_of <http://transmtl.vn/ent/aa0820e4> .
+
+<http://transmtl.vn/ent/16b95751> onto:part_of <http://transmtl.vn/kb/ly_thai_to_park> .
+
+<http://transmtl.vn/kb/ly_thai_to_statue#winning_design> onto:designed_by <http://transmtl.vn/ent/89bb3fe8> ;
+    onto:overlooks <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/a643f0c6> onto:located_in <http://transmtl.vn/ent/16b95751>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/989ca527>,
+        <http://transmtl.vn/kb/ly_thai_to_park> ;
+    onto:part_of <http://transmtl.vn/kb/ly_thai_to_park> .
+
+<http://transmtl.vn/kb/ly_thai_to_statue> onto:dedicated_to <http://transmtl.vn/ent/46e658f9> ;
+    onto:has_part <http://transmtl.vn/kb/ly_thai_to_statue#ly_thai_to_garden>,
+        <http://transmtl.vn/kb/ly_thai_to_statue#winning_design> ;
+    onto:located_in <http://transmtl.vn/ent/989ca527>,
+        <http://transmtl.vn/ent/fb7a06dc> ;
+    onto:part_of <http://transmtl.vn/kb/ly_thai_to_park> ;
+    onto:surrounded_by <http://transmtl.vn/ent/e7021fdc>,
+        <http://transmtl.vn/kb/ly_thai_to_park> .
+
+<http://transmtl.vn/kb/ly_thai_to_park> onto:located_in <http://transmtl.vn/ent/fb7a06dc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4501 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/fb7a06dc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5358 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/fb7a06dc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2757 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/kb/ly_thai_to_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3205 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/989ca527> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5331 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/16b95751> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/kb/ly_thai_to_statue#ly_thai_to_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3252 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/46e658f9> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2694 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/e7021fdc> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3068 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/89bb3fe8> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue#winning_design> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/kb/ly_thai_to_statue#winning_design> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5944 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/16b95751> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2644 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue#winning_design> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3321 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3096 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/fb7a06dc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2986 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/kb/ly_thai_to_park> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4742 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/989ca527> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3737 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/kb/ly_thai_to_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2747 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/46e658f9> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3302 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/fb7a06dc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.26 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/989ca527> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8a07f11> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4667 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/ent/aa0820e4> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/ly_thai_to_statue#ly_thai_to_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6304 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/kb/ly_thai_to_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5977 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/kb/ly_thai_to_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2514 ;
+    fkg:docId "doc_fcb388685395" ;
+    fkg:kbId "ly_thai_to_statue" ;
+    rdf:object <http://transmtl.vn/kb/ly_thai_to_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/16b95751> .
+

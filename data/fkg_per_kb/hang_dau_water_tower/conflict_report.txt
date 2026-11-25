@@ -1,0 +1,49 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hanoi)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/207462d2
+  Conflict K: 0.5800
+  Candidates:
+    • French                          Bel=0.6904  Pl=0.7936  (4 evidence)
+    • France                          Bel=0.2064  Pl=0.3096  (2 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [built_in] (Hang Dau Water Tower) → http://transmtl.vn/ent/5fa9e41b  Bel=0.9348  K=0.0000
+  [built_in] (Hang Dau Street) → http://transmtl.vn/ent/5fa9e41b  Bel=0.4271  K=0.0000
+  [built_in] (tower) → http://transmtl.vn/ent/5fa9e41b  Bel=0.5780  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/64e12ab6  Bel=0.6904  K=0.5800 ⚠ REVIEW
+  [demolished_in] (city walls) → http://transmtl.vn/ent/5fa9e41b  Bel=0.6272  K=0.0000
+  [demolished_in] (old city wall) → http://transmtl.vn/ent/5fa9e41b  Bel=0.2166  K=0.0000
+  [symbol_of] (Hang Dau Water Tower) → http://transmtl.vn/ent/207462d2  Bel=0.4179  K=0.1556
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Hang Dau Water Tower) → (tower)  μ_F=1.0000  (23 evidence)
+  [located_in] (Hang Dau Water Tower) → (Hanoi)  μ_F=0.9994  (15 evidence)
+  [has_part] (Hang Dau Water Tower) → (conical roof)  μ_F=0.9991  (3 evidence)
+  [has_part] (Hang Dau Water Tower) → (semicircular arched windows)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hang Dau Water Tower) → (interior)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hang Dau Water Tower) → (city walls)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hang Dau Water Tower) → (two doors)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hang Dau Water Tower) → (walls)  μ_F=0.9905  (2 evidence)
+  [has_part] (Hang Dau Water Tower) → (the tower)  μ_F=0.9905  (2 evidence)
+  [surrounded_by] (tower) → (tropical almond trees)  μ_F=0.9352  (4 evidence)
+  [located_in] (Tower) → (Hanoi)  μ_F=0.9202  (7 evidence)
+  [has_part] (Hang Dau Water Tower) → (space)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Dau Water Tower) → (old city wall)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Dau Water Tower) → (public faucets)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Dau Water Tower) → (steel reservoir)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Dau Water Tower) → (lightning rod)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Dau Water Tower) → (entrance)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Dau Water Tower) → (artistic installations)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Dau Water Tower) → (installations)  μ_F=0.9025  (1 evidence)
+  [has_part] (Hang Dau Water Tower) → (rivers)  μ_F=0.9025  (1 evidence)
+
+========================================================================

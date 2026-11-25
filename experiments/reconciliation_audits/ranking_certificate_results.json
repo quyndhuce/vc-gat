@@ -1,0 +1,43 @@
+{
+  "evaluation_scope": "Hanoi-500 test clips",
+  "total_clips_evaluated": 500,
+  "total_candidates_evaluated": 78800,
+  "all_pairs": {
+    "description": "Pairwise condition: s_vis,i - s_vis,j > eps_i + eps_j",
+    "numerator_certified": 3643760,
+    "denominator_total": 7314532,
+    "coverage_percentage": 49.82,
+    "certified_violations": 0,
+    "violation_rate": 0.0
+  },
+  "adjacent_pairs": {
+    "description": "Adjacent visual ranking condition: s_vis,i - s_vis,i+1 > eps_i + eps_i+1",
+    "numerator_certified": 40,
+    "denominator_total": 78300,
+    "coverage_percentage": 0.05,
+    "certified_violations": 0,
+    "violation_rate": 0.0
+  },
+  "top5_boundary": {
+    "description": "Boundary separation condition: s_vis,5 - s_vis,6 > eps_5 + eps_6",
+    "numerator_certified": 0,
+    "denominator_total": 500,
+    "coverage_percentage": 0.0,
+    "certified_violations": 0,
+    "violation_rate": 0.0
+  },
+  "full_top5_set": {
+    "description": "Full set preservation condition: min_{i in T_5}(s_vis,i - eps_i) > max_{j not in T_5}(s_vis,j + eps_j)",
+    "numerator_certified": 0,
+    "denominator_total": 500,
+    "coverage_percentage": 0.0,
+    "certified_violations": 0,
+    "violation_rate": 0.0
+  },
+  "empirical_visual_to_graph_top5_agreement": {
+    "description": "Exact match between Visual Top-5 set and Composite VC-GAT Top-5 set",
+    "numerator_matched": 187,
+    "denominator_total": 500,
+    "agreement_percentage": 37.4
+  }
+}

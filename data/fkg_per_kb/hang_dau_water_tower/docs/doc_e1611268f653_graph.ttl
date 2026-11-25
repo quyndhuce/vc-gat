@@ -1,0 +1,872 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_dau_street> onto:built_in <http://transmtl.vn/ent/5fa9e41b> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#conical_roof> onto:above <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#halls> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#installations> onto:inspired_by <http://transmtl.vn/ent/fd679c1b> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#interior> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#rivers> onto:part_of <http://transmtl.vn/ent/fd679c1b> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#springs> onto:part_of <http://transmtl.vn/ent/fd679c1b> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#streams> onto:part_of <http://transmtl.vn/ent/fd679c1b> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#walls> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#the_tower> onto:surrounded_by <http://transmtl.vn/ent/92b32908>,
+        <http://transmtl.vn/ent/e2704f30> .
+
+<http://transmtl.vn/ent/4ed5d2ea> onto:ruled_by <http://transmtl.vn/ent/6fb98b85> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> onto:inspired_by <http://transmtl.vn/ent/271c5e92>,
+        <http://transmtl.vn/ent/2f6f4768>,
+        <http://transmtl.vn/ent/5d5d704d>,
+        <http://transmtl.vn/ent/6bff7223>,
+        <http://transmtl.vn/ent/86cee514>,
+        <http://transmtl.vn/ent/c68757b3>,
+        <http://transmtl.vn/ent/fd679c1b> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/64e12ab6> ;
+    onto:ruled_by <http://transmtl.vn/ent/eaf762d7> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower#tower> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/493a75f0> ;
+    onto:made_of <http://transmtl.vn/ent/222c15e8>,
+        <http://transmtl.vn/ent/62abbbf7>,
+        <http://transmtl.vn/ent/bcd31c71> ;
+    onto:over <http://transmtl.vn/ent/e4ed1de9> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/79ea43f0> ;
+    onto:surrounded_by <http://transmtl.vn/ent/0cc175b9>,
+        <http://transmtl.vn/ent/92b32908>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/e2704f30>,
+        <http://transmtl.vn/ent/febef0f1> .
+
+<http://transmtl.vn/kb/hang_dau_water_tower> onto:architectural_style <http://transmtl.vn/ent/9949df35> ;
+    onto:built_by <http://transmtl.vn/ent/64e12ab6>,
+        <http://transmtl.vn/ent/6fb98b85> ;
+    onto:built_in <http://transmtl.vn/ent/5fa9e41b> ;
+    onto:has_part <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#conical_roof>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#halls>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#installations>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#interior>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#rivers>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#springs>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#streams>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#the_tower>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#tower>,
+        <http://transmtl.vn/kb/hang_dau_water_tower#walls> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/493a75f0>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/c0cb5f0f> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/79ea43f0>,
+        <http://transmtl.vn/ent/a1546fb7> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:used_as <http://transmtl.vn/ent/8f126090> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5062 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5867 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/eaf762d7> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2659 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3055 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3742 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/febef0f1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.443 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5746 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#installations> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3018 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2788 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/fd679c1b> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#installations> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#rivers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2819 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2637 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/2f6f4768> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2514 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/271c5e92> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.254 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/92b32908> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#the_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5068 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/79ea43f0> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.365 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/e2704f30> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4725 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.516 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3024 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.59 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/5fa9e41b> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#the_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3578 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3008 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/92b32908> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2974 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2821 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/6bff7223> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.309 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/493a75f0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#streams> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2711 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/9949df35> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4962 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/a1546fb7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.276 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/86cee514> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#the_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#springs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5922 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/e4ed1de9> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4117 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#conical_roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4076 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4322 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/0cc175b9> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2779 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/e4ed1de9> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4105 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/222c15e8> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7013 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/92b32908> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3029 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/493a75f0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2792 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4087 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5128 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/fd679c1b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#springs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7224 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/eaf762d7> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2829 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/92b32908> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#the_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#halls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2824 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/5d5d704d> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#conical_roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4469 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3056 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2708 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#interior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3098 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/e2704f30> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#the_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5384 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/fd679c1b> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6751 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/e2704f30> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5259 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/fd679c1b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#streams> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3568 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2522 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/c68757b3> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3943 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2975 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3327 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/8f126090> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4678 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3322 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3852 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#artistic_installations> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5266 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/fd679c1b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#rivers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3007 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/6fb98b85> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.382 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/62abbbf7> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.308 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/bcd31c71> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3825 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2717 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/5fa9e41b> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#interior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2635 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8424 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3192 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2876 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/79ea43f0> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4714 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6067 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2869 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5366 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4336 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2556 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2611 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/e2704f30> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower#the_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2759 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/ent/6fb98b85> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1611268f653" ;
+    fkg:kbId "hang_dau_water_tower" ;
+    rdf:object <http://transmtl.vn/kb/hang_dau_water_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_dau_water_tower> .
+

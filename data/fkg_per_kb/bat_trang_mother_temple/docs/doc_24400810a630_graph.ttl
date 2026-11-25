@@ -1,0 +1,285 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/6cd01c0a> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690#bình_phong> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690#lim_columns> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690#roof_system> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690#đao_roof_system> onto:above <http://transmtl.vn/ent/b0006ffb> ;
+    onto:over <http://transmtl.vn/ent/b0006ffb> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q10841690> onto:dedicated_to <http://transmtl.vn/ent/f0dc5340> ;
+    onto:has_part <http://www.wikidata.org/entity/Q10841690#bình_phong>,
+        <http://www.wikidata.org/entity/Q10841690#lim_columns>,
+        <http://www.wikidata.org/entity/Q10841690#roof_system>,
+        <http://www.wikidata.org/entity/Q10841690#đao_roof_system> ;
+    onto:worships <http://transmtl.vn/ent/f0dc5340> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:architectural_style <http://transmtl.vn/ent/79d7f9c2>,
+        <http://transmtl.vn/ent/9b732bf8> ;
+    onto:founded_by <http://transmtl.vn/ent/53d670af>,
+        <http://transmtl.vn/ent/628f6284>,
+        <http://transmtl.vn/ent/8b04d5e3> ;
+    onto:located_in <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:surrounded_by <http://transmtl.vn/ent/7dd636d7>,
+        <http://transmtl.vn/ent/9f864082>,
+        <http://transmtl.vn/ent/cf32134f>,
+        <http://transmtl.vn/ent/d44bed13> ;
+    onto:with <http://transmtl.vn/ent/015f28b9>,
+        <http://transmtl.vn/ent/852488dd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3811 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/d44bed13> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2907 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/015f28b9> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.251 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/7dd636d7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2541 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4231 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/015f28b9> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2511 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/b0006ffb> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#đao_roof_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6877 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/79d7f9c2> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7393 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/f0dc5340> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3459 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#lim_columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4623 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2663 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#lim_columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2529 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/b0006ffb> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#đao_roof_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.318 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/8b04d5e3> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.389 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/852488dd> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3722 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/f0dc5340> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4418 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#bình_phong> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#bình_phong> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4088 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#đao_roof_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#roof_system> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2573 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690#roof_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5203 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/852488dd> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2632 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/53d670af> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3766 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/f0dc5340> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4094 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/79d7f9c2> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4583 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3271 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/6cd01c0a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4725 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/628f6284> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q10841690#đao_roof_system> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10841690> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3084 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3267 ;
+    fkg:docId "doc_24400810a630" ;
+    fkg:kbId "bat_trang_mother_temple" ;
+    rdf:object <http://transmtl.vn/ent/cf32134f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+

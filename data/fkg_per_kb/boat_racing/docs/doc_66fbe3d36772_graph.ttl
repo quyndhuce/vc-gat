@@ -1,0 +1,90 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/8f673d54> onto:hosts_event <http://transmtl.vn/kb/boat_racing> .
+
+<http://transmtl.vn/kb/boat_racing> onto:has_part <http://transmtl.vn/kb/boat_racing#screens> .
+
+<http://transmtl.vn/kb/boat_racing#screens> onto:part_of <http://transmtl.vn/kb/performance> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/performance> onto:faces <http://www.wikidata.org/entity/Q1151254> ;
+    onto:inaugurated_in <http://transmtl.vn/ent/4d855669> ;
+    onto:on <http://transmtl.vn/ent/9334163c> ;
+    onto:overlooks <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/kb/boat_racing#screens> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2622 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9213 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4164 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/4d855669> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5257 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/4d855669> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3729 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6969 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/9334163c> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2792 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#screens> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5048 ;
+    fkg:docId "doc_66fbe3d36772" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/kb/boat_racing> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/ent/8f673d54> .
+

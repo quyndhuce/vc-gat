@@ -1,0 +1,59 @@
+{
+  "methods": {
+    "vanilla_ftranse": {
+      "type_valid": 0.576,
+      "geo_valid": 0.8072,
+      "vis_aligned": 0.0536,
+      "factual_precision": 0.0072,
+      "errors": {
+        "geo_collapse": 241,
+        "type_violation": 530
+      }
+    },
+    "local_ftranse": {
+      "type_valid": 0.3208,
+      "geo_valid": 0.8888,
+      "vis_aligned": 0.056,
+      "factual_precision": 0.3208,
+      "errors": {
+        "type_violation": 769,
+        "geo_collapse": 59,
+        "empty_subgraph": 80
+      }
+    },
+    "enhanced_ftranse": {
+      "type_valid": 1.0,
+      "geo_valid": 0.9616,
+      "vis_aligned": 0.2832,
+      "factual_precision": 0.588,
+      "errors": {
+        "geo_collapse": 48
+      }
+    },
+    "vanilla_simkgc": {
+      "type_valid": 0.3424,
+      "geo_valid": 0.8368,
+      "vis_aligned": 0.1008,
+      "factual_precision": 0.0368,
+      "errors": {
+        "type_violation": 822,
+        "geo_collapse": 204
+      }
+    },
+    "enhanced_simkgc": {
+      "type_valid": 1.0,
+      "geo_valid": 0.9616,
+      "vis_aligned": 0.2848,
+      "factual_precision": 0.352,
+      "errors": {
+        "geo_collapse": 48
+      }
+    }
+  },
+  "symbolic_reference": {
+    "type_valid": 1.0,
+    "geo_valid": 1.0,
+    "vis_aligned": 0.848,
+    "factual_precision": 0.974
+  }
+}

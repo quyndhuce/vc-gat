@@ -1,0 +1,213 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/f6fbb633> .
+
+<http://transmtl.vn/kb/thanh_dat_section#central_path> onto:connects <http://transmtl.vn/ent/2c2bf458> ;
+    onto:leading_to <http://transmtl.vn/ent/540e05d2>,
+        <http://transmtl.vn/ent/9bbf696a> .
+
+<http://transmtl.vn/ent/f6fbb633> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:ruled_by <http://transmtl.vn/ent/867456f9> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/f6fbb633> .
+
+<http://transmtl.vn/kb/thanh_dat_section> onto:associated_with <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:has_part <http://transmtl.vn/kb/thanh_dat_section#central_path>,
+        <http://transmtl.vn/kb/thanh_dat_section#courtyard> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/9f864082> .
+
+<http://transmtl.vn/kb/thanh_dat_section#courtyard> onto:connects <http://transmtl.vn/kb/khue_van_cac> ;
+    onto:made_of <http://transmtl.vn/ent/ecfd485b> ;
+    onto:surrounded_by <http://transmtl.vn/ent/21582c6c>,
+        <http://transmtl.vn/ent/9f864082> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2589 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/kb/thanh_dat_section#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/kb/thanh_dat_section#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5651 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section#central_path> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2794 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/9bbf696a> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section#central_path> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6169 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/kb/thanh_dat_section#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3328 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.608 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4246 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/kb/khue_van_cac> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3035 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2757 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5401 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5996 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/ecfd485b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4438 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3562 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/21582c6c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/kb/thanh_dat_section#central_path> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/kb/thanh_dat_section#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2545 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2971 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/540e05d2> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section#central_path> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2907 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/867456f9> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/f6fbb633> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.517 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_dat_section> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3433 ;
+    fkg:docId "doc_d8eaf3091a79" ;
+    fkg:kbId "thanh_dat_section" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/f6fbb633> .
+

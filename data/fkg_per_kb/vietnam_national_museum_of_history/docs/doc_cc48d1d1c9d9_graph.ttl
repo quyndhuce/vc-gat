@@ -1,0 +1,161 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history#and> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history#architectural_block> onto:near <http://transmtl.vn/ent/997d9c22> ;
+    onto:surrounded_by <http://transmtl.vn/ent/8de68e6e> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history#doors> onto:part_of <http://transmtl.vn/ent/1b20e902>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history#roof> onto:part_of <http://transmtl.vn/ent/1b20e902>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history#walls> onto:part_of <http://transmtl.vn/ent/1b20e902>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history> onto:has_part <http://transmtl.vn/kb/vietnam_national_museum_of_history#and>,
+        <http://transmtl.vn/kb/vietnam_national_museum_of_history#architectural_block>,
+        <http://transmtl.vn/kb/vietnam_national_museum_of_history#doors>,
+        <http://transmtl.vn/kb/vietnam_national_museum_of_history#roof>,
+        <http://transmtl.vn/kb/vietnam_national_museum_of_history#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#and> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2837 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#architectural_block> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3119 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/997d9c22> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#architectural_block> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3361 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/8de68e6e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#architectural_block> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.464 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2663 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2666 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2639 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#and> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3537 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4658 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cc48d1d1c9d9" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+

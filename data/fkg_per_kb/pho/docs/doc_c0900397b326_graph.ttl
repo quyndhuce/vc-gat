@@ -1,0 +1,303 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1a368bac> onto:part_of <http://transmtl.vn/kb/pho> .
+
+<http://transmtl.vn/ent/1bd6b671> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/254ba0ce> onto:part_of <http://transmtl.vn/kb/pho> .
+
+<http://transmtl.vn/ent/31b54b28> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/8dad4d69> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/9efaed7b> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/e5d6e8a5> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/ed9086d5> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/28a40885> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/26c51b47>,
+        <http://transmtl.vn/ent/8e950ac9>,
+        <http://transmtl.vn/ent/dc322ccd> .
+
+<http://transmtl.vn/kb/pho> onto:associated_with <http://transmtl.vn/ent/207462d2> ;
+    onto:in <http://transmtl.vn/ent/207462d2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/26c51b47>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/8e950ac9>,
+        <http://transmtl.vn/ent/dc322ccd> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2> ;
+    onto:used_as <http://transmtl.vn/ent/d9ed7694> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3299 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ed9086d5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2858 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4592 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2574 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4086 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/26c51b47> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3167 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/28a40885> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.303 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2967 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4233 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/kb/pho> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/254ba0ce> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4164 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/dc322ccd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3525 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/kb/pho> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1a368bac> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3948 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/dc322ccd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/28a40885> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.555 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2733 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3003 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/d9ed7694> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.794 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ed9086d5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2554 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4487 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/28a40885> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5872 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4267 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2504 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1bd6b671> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3774 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/26c51b47> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/28a40885> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3667 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5818 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8dad4d69> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4509 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3571 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3245 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/31b54b28> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2577 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5036 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9efaed7b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3008 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4457 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e5d6e8a5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7713 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4494 ;
+    fkg:docId "doc_c0900397b326" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+

@@ -1,0 +1,61 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f4d35508> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/lake_ba_mau> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q1858> onto:part_of <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/e19ca445> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6222 ;
+    fkg:docId "doc_fae294ddf93a" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6941 ;
+    fkg:docId "doc_fae294ddf93a" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6965 ;
+    fkg:docId "doc_fae294ddf93a" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4128 ;
+    fkg:docId "doc_fae294ddf93a" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/e19ca445> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.543 ;
+    fkg:docId "doc_fae294ddf93a" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f4d35508> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3063 ;
+    fkg:docId "doc_fae294ddf93a" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

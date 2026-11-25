@@ -1,0 +1,541 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/13872c01> onto:part_of <http://transmtl.vn/kb/lake_ba_mau> .
+
+<http://transmtl.vn/ent/37e5554a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/7d59fd6b> onto:part_of <http://transmtl.vn/kb/lake_ba_mau> .
+
+<http://transmtl.vn/kb/lake_ba_mau#characteristic_physical_features> onto:surrounded_by <http://transmtl.vn/ent/0038dafa> .
+
+<http://transmtl.vn/kb/lake_ba_mau#lake_shore> onto:part_of <http://transmtl.vn/kb/lake_ba_mau> .
+
+<http://transmtl.vn/kb/lake_ba_mau#lake_surface> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/lake_ba_mau#paved_shores> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/lake_ba_mau#pedestrian_access> onto:part_of <http://transmtl.vn/ent/584826e7> .
+
+<http://transmtl.vn/kb/lake_ba_mau#planted_edges> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/lake_ba_mau#treatment> onto:part_of <http://transmtl.vn/ent/584826e7> .
+
+<http://transmtl.vn/ent/b8f780e1> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/6b77ef4b> .
+
+<http://transmtl.vn/kb/lake_ba_mau#paths> onto:connected_to <http://transmtl.vn/ent/ff4dee88> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/lake_ba_mau#roads> onto:adjacent_to <http://www.wikidata.org/entity/Q1858> ;
+    onto:connected_to <http://transmtl.vn/ent/ff4dee88>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/ff4dee88> onto:adjacent_to <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/lake_ba_mau#shoreline> onto:adjacent_to <http://transmtl.vn/ent/5a5f1874> ;
+    onto:faces <http://transmtl.vn/ent/5a5f1874> ;
+    onto:near <http://transmtl.vn/ent/5a5f1874> ;
+    onto:overlooks <http://transmtl.vn/ent/5a5f1874> ;
+    onto:part_of <http://transmtl.vn/ent/584826e7> .
+
+<http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> onto:adjacent_to <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:part_of <http://transmtl.vn/ent/3e71b680>,
+        <http://transmtl.vn/ent/91e02cd2> .
+
+<http://transmtl.vn/kb/bay_mau_lake> onto:located_in <http://transmtl.vn/ent/13b5bfe9>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/kb/thong_nhat_park> .
+
+<http://www.wikidata.org/entity/Q1858> onto:adjacent_to <http://transmtl.vn/kb/bay_mau_lake> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/kb/bay_mau_lake> ;
+    onto:part_of <http://transmtl.vn/ent/992763c3>,
+        <http://transmtl.vn/kb/bay_mau_lake> ;
+    onto:surrounded_by <http://transmtl.vn/ent/373801fc>,
+        <http://transmtl.vn/ent/a1b0311b> .
+
+<http://transmtl.vn/kb/lake_ba_mau> onto:adjacent_to <http://transmtl.vn/ent/313ca66d> ;
+    onto:has_component <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake>,
+        <http://transmtl.vn/kb/lake_ba_mau#characteristic_physical_features>,
+        <http://transmtl.vn/kb/lake_ba_mau#lake_shore>,
+        <http://transmtl.vn/kb/lake_ba_mau#lake_surface>,
+        <http://transmtl.vn/kb/lake_ba_mau#paths>,
+        <http://transmtl.vn/kb/lake_ba_mau#paved_shores>,
+        <http://transmtl.vn/kb/lake_ba_mau#pedestrian_access>,
+        <http://transmtl.vn/kb/lake_ba_mau#planted_edges>,
+        <http://transmtl.vn/kb/lake_ba_mau#roads>,
+        <http://transmtl.vn/kb/lake_ba_mau#shoreline>,
+        <http://transmtl.vn/kb/lake_ba_mau#treatment> ;
+    onto:located_in <http://transmtl.vn/ent/6b77ef4b>,
+        <http://transmtl.vn/ent/b8f780e1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2678 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/5a5f1874> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#shoreline> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#characteristic_physical_features> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3964 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/7d59fd6b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#planted_edges> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.26 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/6b77ef4b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5478 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8601 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/b8f780e1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5729 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/91e02cd2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6346 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.593 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3745 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/13b5bfe9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2729 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/3e71b680> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3126 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/313ca66d> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4078 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4802 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/ff4dee88> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#roads> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#pedestrian_access> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2846 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/ent/ff4dee88> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3065 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.307 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/584826e7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#pedestrian_access> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#paved_shores> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5741 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4666 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/ff4dee88> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4658 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/37e5554a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6823 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#paved_shores> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3529 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/ff4dee88> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6434 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#planted_edges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8852 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.321 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/6b77ef4b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b8f780e1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3885 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#roads> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4778 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/a1b0311b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4823 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/373801fc> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#lake_surface> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.288 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/bay_mau_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5289 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#lake_surface> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4987 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/5a5f1874> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#shoreline> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2515 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/5a5f1874> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#shoreline> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4723 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6737 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/0038dafa> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9548 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#treatment> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#lake_shore> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2684 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#roads> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4624 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3681 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/584826e7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#shoreline> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#roads> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#shoreline> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#shoreline> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.418 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/5a5f1874> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#shoreline> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2953 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b8f780e1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9681 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#ba_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3184 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bay_mau_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau#paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3162 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/ent/584826e7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#treatment> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4243 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/13872c01> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3659 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "lake_ba_mau" ;
+    rdf:object <http://transmtl.vn/kb/lake_ba_mau> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lake_ba_mau#lake_shore> .
+

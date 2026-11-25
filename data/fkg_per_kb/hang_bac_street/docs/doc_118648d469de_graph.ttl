@@ -1,0 +1,78 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/54299698> onto:located_in <http://transmtl.vn/ent/d0973f87> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_bac_street> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/ent/d0973f87> ;
+    onto:part_of <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2944 ;
+    fkg:docId "doc_118648d469de" ;
+    fkg:kbId "hang_bac_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_bac_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2777 ;
+    fkg:docId "doc_118648d469de" ;
+    fkg:kbId "hang_bac_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_bac_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.256 ;
+    fkg:docId "doc_118648d469de" ;
+    fkg:kbId "hang_bac_street" ;
+    rdf:object <http://transmtl.vn/ent/d0973f87> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/54299698> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3644 ;
+    fkg:docId "doc_118648d469de" ;
+    fkg:kbId "hang_bac_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_bac_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3072 ;
+    fkg:docId "doc_118648d469de" ;
+    fkg:kbId "hang_bac_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_bac_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3181 ;
+    fkg:docId "doc_118648d469de" ;
+    fkg:kbId "hang_bac_street" ;
+    rdf:object <http://transmtl.vn/ent/d0973f87> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_bac_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2751 ;
+    fkg:docId "doc_118648d469de" ;
+    fkg:kbId "hang_bac_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.258 ;
+    fkg:docId "doc_118648d469de" ;
+    fkg:kbId "hang_bac_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_bac_street> .
+

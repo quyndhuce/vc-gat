@@ -1,0 +1,173 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/museum_shop#artificial_lighting> onto:used_as <http://transmtl.vn/ent/777657a0> .
+
+<http://transmtl.vn/kb/museum_shop#glass_panels> onto:part_of <http://transmtl.vn/ent/fb54f3c5> .
+
+<http://transmtl.vn/kb/museum_shop#interior_layout> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/museum_shop#lighting> onto:part_of <http://transmtl.vn/kb/museum_shop> .
+
+<http://transmtl.vn/kb/museum_shop#white> onto:used_as <http://transmtl.vn/ent/0adb8811>,
+        <http://transmtl.vn/ent/f0a41dfc> .
+
+<http://transmtl.vn/kb/museum_shop#façade> onto:faces <http://transmtl.vn/ent/e900e40b> ;
+    onto:part_of <http://transmtl.vn/ent/fb54f3c5>,
+        <http://transmtl.vn/kb/museum_shop> .
+
+<http://transmtl.vn/kb/museum_shop> onto:has_part <http://transmtl.vn/kb/museum_shop#artificial_lighting>,
+        <http://transmtl.vn/kb/museum_shop#façade>,
+        <http://transmtl.vn/kb/museum_shop#glass_panels>,
+        <http://transmtl.vn/kb/museum_shop#interior_layout>,
+        <http://transmtl.vn/kb/museum_shop#lighting>,
+        <http://transmtl.vn/kb/museum_shop#white> ;
+    onto:part_of <http://transmtl.vn/ent/de294cef>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop#façade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop#artificial_lighting> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4194 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/777657a0> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#artificial_lighting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3746 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/e900e40b> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop#façade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3561 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop#lighting> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2888 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/fb54f3c5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#glass_panels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3325 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/0adb8811> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#white> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop#white> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3045 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/fb54f3c5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop#glass_panels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.822 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/de294cef> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2785 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#interior_layout> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3217 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#lighting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/kb/museum_shop#interior_layout> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7571 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3074 ;
+    fkg:docId "doc_e5a4c7caf276" ;
+    fkg:kbId "museum_shop" ;
+    rdf:object <http://transmtl.vn/ent/f0a41dfc> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/museum_shop#white> .
+

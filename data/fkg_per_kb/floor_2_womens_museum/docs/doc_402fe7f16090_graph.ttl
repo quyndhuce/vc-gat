@@ -1,0 +1,79 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/floor_2_womens_museum#central_exhibit> onto:surrounded_by <http://transmtl.vn/ent/39ee828f> .
+
+<http://transmtl.vn/kb/floor_2_womens_museum#space> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/floor_2_womens_museum> onto:has_part <http://transmtl.vn/kb/floor_2_womens_museum#central_exhibit>,
+        <http://transmtl.vn/kb/floor_2_womens_museum#second_floor>,
+        <http://transmtl.vn/kb/floor_2_womens_museum#space> .
+
+<http://transmtl.vn/kb/floor_2_womens_museum#second_floor> onto:part_of <http://transmtl.vn/ent/e5fe76bb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_402fe7f16090" ;
+    fkg:kbId "floor_2_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/floor_2_womens_museum#second_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_2_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3565 ;
+    fkg:docId "doc_402fe7f16090" ;
+    fkg:kbId "floor_2_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_2_womens_museum#second_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6377 ;
+    fkg:docId "doc_402fe7f16090" ;
+    fkg:kbId "floor_2_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_2_womens_museum#second_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_402fe7f16090" ;
+    fkg:kbId "floor_2_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/floor_2_womens_museum#second_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_2_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2694 ;
+    fkg:docId "doc_402fe7f16090" ;
+    fkg:kbId "floor_2_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_2_womens_museum#space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_402fe7f16090" ;
+    fkg:kbId "floor_2_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/floor_2_womens_museum#central_exhibit> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_2_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_402fe7f16090" ;
+    fkg:kbId "floor_2_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/floor_2_womens_museum#space> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_2_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2657 ;
+    fkg:docId "doc_402fe7f16090" ;
+    fkg:kbId "floor_2_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/39ee828f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/floor_2_womens_museum#central_exhibit> .
+

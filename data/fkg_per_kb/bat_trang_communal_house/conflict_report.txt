@@ -1,0 +1,50 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Bat Trang Pottery Village)  --[renovated_in]-->  ?
+  Head URI  : http://www.wikidata.org/entity/Q1319921
+  Conflict K: 0.9317
+  Candidates:
+    • wars                            Bel=0.3100  Pl=0.4027  (2 evidence)
+    • conflicts                       Bel=0.3045  Pl=0.3973  (2 evidence)
+    • 1993                            Bel=0.1492  Pl=0.2420  (2 evidence)
+    • resistance                      Bel=0.0917  Pl=0.1845  (1 evidence)
+    • renovations                     Bel=0.0271  Pl=0.1199  (1 evidence)
+    • restorations                    Bel=0.0247  Pl=0.1175  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.6715  K=0.0000
+  [symbol_of] (Bat Trang Communal house) → http://transmtl.vn/ent/b51695a9  Bel=0.5310  K=0.0000
+  [built_in] (Bat Trang Communal house) → http://transmtl.vn/ent/acab0116  Bel=0.8246  K=0.0000
+  [renovated_in] (Bat Trang Pottery Village) → http://transmtl.vn/ent/ffa1e239  Bel=0.3100  K=0.9317 ⚠ REVIEW
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Bat Trang Communal house) → (columns)  μ_F=1.0000  (5 evidence)
+  [has_part] (Bat Trang Communal house) → (main hall)  μ_F=1.0000  (5 evidence)
+  [has_part] (Bat Trang Communal house) → (rear hall)  μ_F=0.9991  (3 evidence)
+  [has_part] (Bat Trang Communal house) → (gốm men lam relief panels)  μ_F=0.9905  (2 evidence)
+  [has_part] (Bat Trang Communal house) → (lowest step)  μ_F=0.9905  (2 evidence)
+  [has_part] (Bat Trang Communal house) → (courtyard)  μ_F=0.9905  (2 evidence)
+  [has_part] (Bat Trang Communal house) → (plaque)  μ_F=0.9905  (2 evidence)
+  [has_part] (Bat Trang Communal house) → (interior)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bat Trang Communal house) → (communal altar)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bat Trang Communal house) → (spiritual sanctuary)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bat Trang Communal house) → (relief panels)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bat Trang Communal house) → (rồng chầu nguyệt)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bat Trang Communal house) → (main entrance)  μ_F=0.9025  (1 evidence)
+  [dedicated_to] (main hall) → (deities)  μ_F=0.8169  (2 evidence)
+  [located_in] (Bat Trang Communal house) → (Hanoi)  μ_F=0.7696  (3 evidence)
+  [part_of] (columns) → (communal house)  μ_F=0.6656  (3 evidence)
+  [located_in] (Bat Trang Communal house) → (Bat Trang gate)  μ_F=0.6573  (2 evidence)
+  [located_in] (Bat Trang Communal house) → (Gia Lam District)  μ_F=0.6413  (2 evidence)
+  [leading_to] (Nam Môn) → (Bat Trang Pottery Village)  μ_F=0.5903  (2 evidence)
+  [reconstructed_by] (Bat Trang Pottery Village) → (village residents)  μ_F=0.5849  (2 evidence)
+
+========================================================================

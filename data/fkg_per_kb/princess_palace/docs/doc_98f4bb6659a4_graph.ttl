@@ -1,0 +1,254 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/princess_palace#roofline> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/princess_palace#tower> onto:near <http://transmtl.vn/ent/dfeb14c3> .
+
+<http://transmtl.vn/kb/princess_palace#kính_thiên_điện> onto:used_as <http://transmtl.vn/ent/afe88598> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/072306ee>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/princess_palace#windows> onto:part_of <http://transmtl.vn/ent/79835ea3>,
+        <http://transmtl.vn/kb/princess_palace> .
+
+<http://transmtl.vn/kb/princess_palace> onto:built_by <http://transmtl.vn/ent/072306ee> ;
+    onto:has_part <http://transmtl.vn/kb/princess_palace#kính_thiên_điện>,
+        <http://transmtl.vn/kb/princess_palace#roofline>,
+        <http://transmtl.vn/kb/princess_palace#tower>,
+        <http://transmtl.vn/kb/princess_palace#windows> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    onto:surrounded_by <http://transmtl.vn/ent/0223d30a>,
+        <http://transmtl.vn/ent/78528075> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3063 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/0223d30a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/princess_palace#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3726 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.503 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/princess_palace#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2568 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/afe88598> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace#kính_thiên_điện> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/princess_palace#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5799 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2871 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/princess_palace#kính_thiên_điện> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3761 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4875 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2679 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3437 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/78528075> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/princess_palace#roofline> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5452 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4774 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/afe88598> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace#kính_thiên_điện> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7951 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/78528075> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3203 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7189 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/0223d30a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3407 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/princess_palace> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3499 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/dfeb14c3> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2809 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/princess_palace#kính_thiên_điện> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3088 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace#roofline> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7297 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_98f4bb6659a4" ;
+    fkg:kbId "princess_palace" ;
+    rdf:object <http://transmtl.vn/kb/princess_palace#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/princess_palace> .
+

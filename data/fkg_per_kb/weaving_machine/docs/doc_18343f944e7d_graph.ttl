@@ -1,0 +1,44 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/5a25e9d8> onto:symbol_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/weaving_machine> onto:symbol_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/ent/de7b2fff> onto:located_in <http://transmtl.vn/ent/08d6f40a>,
+        <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2719 ;
+    fkg:docId "doc_18343f944e7d" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/de7b2fff> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.279 ;
+    fkg:docId "doc_18343f944e7d" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/ent/08d6f40a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/de7b2fff> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.384 ;
+    fkg:docId "doc_18343f944e7d" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/ent/5a25e9d8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4601 ;
+    fkg:docId "doc_18343f944e7d" ;
+    fkg:kbId "weaving_machine" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/weaving_machine> .
+

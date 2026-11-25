@@ -1,0 +1,805 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/3eda7ddc> onto:located_in <http://transmtl.vn/ent/dc322ccd> .
+
+<http://transmtl.vn/ent/a79dc75a> onto:located_inside <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/b329051c> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/2d5563ed> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:located_inside <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/9460370b> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thu_le_park#animal> onto:part_of <http://transmtl.vn/ent/d2cbe65f> .
+
+<http://transmtl.vn/kb/thu_le_park#bridges> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/thu_le_park#fences> onto:part_of <http://transmtl.vn/ent/ad94a187> .
+
+<http://transmtl.vn/kb/thu_le_park#pedestrian_bridges> onto:part_of <http://transmtl.vn/kb/thu_le_park> .
+
+<http://transmtl.vn/kb/thu_le_park#playground_areas> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/thu_le_park#protective_barriers> onto:part_of <http://transmtl.vn/ent/ad94a187> .
+
+<http://transmtl.vn/kb/thu_le_park#trees> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/thu_le_park#walking_routes> onto:part_of <http://transmtl.vn/ent/d2cbe65f> .
+
+<http://transmtl.vn/kb/thu_le_park#vegetation> onto:part_of <http://transmtl.vn/ent/992763c3>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thu_le_park#visitor_facilities> onto:part_of <http://transmtl.vn/ent/992763c3>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thu_le_park#and> onto:part_of <http://transmtl.vn/ent/ad94a187>,
+        <http://transmtl.vn/ent/d2cbe65f> .
+
+<http://transmtl.vn/kb/thu_le_park#habitats> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:overlooks <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thu_le_park#viewing_points> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:overlooks <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thu_le_park#enclosures> onto:has_component <http://transmtl.vn/ent/748bb555>,
+        <http://transmtl.vn/ent/8bc89cf7> ;
+    onto:part_of <http://transmtl.vn/ent/d2cbe65f> .
+
+<http://transmtl.vn/ent/dc322ccd> onto:has_part <http://transmtl.vn/kb/thu_le_park> .
+
+<http://transmtl.vn/kb/thu_le_park#paths> onto:adjacent_to <http://transmtl.vn/ent/b194bab8> ;
+    onto:near <http://transmtl.vn/ent/b194bab8> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/kb/thu_le_park> .
+
+<http://transmtl.vn/kb/thu_le_park#animal_enclosures> onto:adjacent_to <http://transmtl.vn/ent/eb557ded> ;
+    onto:near <http://transmtl.vn/ent/eb557ded> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/ent/d2cbe65f>,
+        <http://transmtl.vn/kb/thu_le_park> .
+
+<http://www.wikidata.org/entity/Q1858> onto:adjacent_to <http://transmtl.vn/ent/13872c01>,
+        <http://transmtl.vn/ent/15c886c4> ;
+    onto:border_with <http://transmtl.vn/ent/13872c01>,
+        <http://transmtl.vn/ent/15c886c4> ;
+    onto:has_component <http://transmtl.vn/ent/831740e4>,
+        <http://transmtl.vn/ent/9460370b> ;
+    onto:has_part <http://transmtl.vn/ent/992763c3> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/kb/thu_le_park> ;
+    onto:surrounded_by <http://transmtl.vn/ent/13872c01>,
+        <http://transmtl.vn/ent/15c886c4>,
+        <http://transmtl.vn/ent/21a2ad59>,
+        <http://transmtl.vn/ent/8fc42c6d> .
+
+<http://transmtl.vn/kb/thu_le_park> onto:adjacent_to <http://transmtl.vn/ent/1775ed1a>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:has_component <http://transmtl.vn/kb/thu_le_park#and>,
+        <http://transmtl.vn/kb/thu_le_park#animal>,
+        <http://transmtl.vn/kb/thu_le_park#animal_enclosures>,
+        <http://transmtl.vn/kb/thu_le_park#bridges>,
+        <http://transmtl.vn/kb/thu_le_park#enclosures>,
+        <http://transmtl.vn/kb/thu_le_park#fences>,
+        <http://transmtl.vn/kb/thu_le_park#habitats>,
+        <http://transmtl.vn/kb/thu_le_park#paths>,
+        <http://transmtl.vn/kb/thu_le_park#pedestrian_bridges>,
+        <http://transmtl.vn/kb/thu_le_park#playground_areas>,
+        <http://transmtl.vn/kb/thu_le_park#protective_barriers>,
+        <http://transmtl.vn/kb/thu_le_park#trees>,
+        <http://transmtl.vn/kb/thu_le_park#vegetation>,
+        <http://transmtl.vn/kb/thu_le_park#viewing_points>,
+        <http://transmtl.vn/kb/thu_le_park#visitor_facilities>,
+        <http://transmtl.vn/kb/thu_le_park#walking_routes> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/dc322ccd> ;
+    onto:near <http://transmtl.vn/ent/13872c01>,
+        <http://transmtl.vn/ent/1775ed1a>,
+        <http://transmtl.vn/ent/c9bdab95>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://transmtl.vn/ent/dc322ccd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3732 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/8fc42c6d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7481 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#animal_enclosures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8012 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/d2cbe65f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#walking_routes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#protective_barriers> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#enclosures> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4196 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#animal_enclosures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#pedestrian_bridges> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#animal> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4869 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/ent/2d5563ed> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4865 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5704 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/8bc89cf7> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#enclosures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2877 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/dc322ccd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#visitor_facilities> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5937 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/9460370b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#animal_enclosures> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2562 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/ad94a187> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#and> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2615 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3771 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/b194bab8> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4666 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/dc322ccd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3eda7ddc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4847 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#vegetation> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#animal_enclosures> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2916 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/831740e4> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#enclosures> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#habitats> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6413 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#viewing_points> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2673 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/13872c01> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#playground_areas> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#viewing_points> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#and> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3519 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/d2cbe65f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#animal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3777 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/748bb555> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#enclosures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8162 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3488 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#habitats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3383 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#habitats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2519 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/13872c01> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3097 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3098 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/ent/a79dc75a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3054 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/dc322ccd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.457 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2d5563ed> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3301 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/c9bdab95> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5992 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/15c886c4> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#vegetation> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7286 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#animal_enclosures> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4787 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/13872c01> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6015 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#vegetation> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3704 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/15c886c4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2832 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/15c886c4> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3285 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6951 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#habitats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3248 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#visitor_facilities> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.39 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4043 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#bridges> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4376 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/1775ed1a> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#walking_routes> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2783 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#viewing_points> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5461 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/ad94a187> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#protective_barriers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6534 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#playground_areas> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4281 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/eb557ded> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#animal_enclosures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3576 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/eb557ded> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#animal_enclosures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4635 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6974 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/dc322ccd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4052 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#visitor_facilities> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#animal_enclosures> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4238 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/d2cbe65f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#enclosures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.705 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/ad94a187> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#fences> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#fences> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7222 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#bridges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#trees> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3175 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b329051c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3794 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/2d5563ed> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4172 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#pedestrian_bridges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7031 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#trees> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2504 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#viewing_points> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9337 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4744 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/1775ed1a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.375 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/21a2ad59> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5402 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/kb/thu_le_park#and> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5888 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/d2cbe65f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#animal_enclosures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6222 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/13872c01> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3094 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/b194bab8> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3739 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/d2cbe65f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park#and> .
+

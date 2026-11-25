@@ -1,0 +1,706 @@
+{
+  "models": {
+    "DINOv2_1nn": {
+      "micro_top1": 56.57,
+      "macro_top1": 57.87,
+      "parent_top3": 77.66,
+      "parent_top5": 84.0,
+      "hierarchical_top1": 56.57,
+      "counts": [
+        633,
+        869,
+        940,
+        633,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          58,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          81,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          47,
+          75
+        ],
+        "One Pillar Pagoda": [
+          2,
+          6
+        ],
+        "West Lake": [
+          5,
+          9
+        ],
+        "Thu Le Park": [
+          74,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          84,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          33,
+          94
+        ],
+        "Ba Dinh Square": [
+          20,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          29,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          40,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          63,
+          70
+        ],
+        "Temple of Literature": [
+          97,
+          169
+        ]
+      }
+    },
+    "SigLIP_6f_1nn": {
+      "micro_top1": 64.88,
+      "macro_top1": 66.34,
+      "parent_top3": 84.9,
+      "parent_top5": 89.45,
+      "hierarchical_top1": 64.88,
+      "counts": [
+        726,
+        950,
+        1001,
+        726,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          88,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          104,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          54,
+          75
+        ],
+        "One Pillar Pagoda": [
+          4,
+          6
+        ],
+        "West Lake": [
+          3,
+          9
+        ],
+        "Thu Le Park": [
+          75,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          82,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          56,
+          94
+        ],
+        "Ba Dinh Square": [
+          23,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          27,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          49,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          69,
+          70
+        ],
+        "Temple of Literature": [
+          92,
+          169
+        ]
+      }
+    },
+    "SigLIP_6f_mlp_768d": {
+      "micro_top1": 68.81,
+      "macro_top1": 72.51,
+      "parent_top3": 85.43,
+      "parent_top5": 87.22,
+      "hierarchical_top1": 68.81,
+      "counts": [
+        770,
+        956,
+        976,
+        770,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          80,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          94,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          59,
+          75
+        ],
+        "One Pillar Pagoda": [
+          5,
+          6
+        ],
+        "West Lake": [
+          5,
+          9
+        ],
+        "Thu Le Park": [
+          97,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          93,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          77,
+          94
+        ],
+        "Ba Dinh Square": [
+          22,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          30,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          48,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          68,
+          70
+        ],
+        "Temple of Literature": [
+          92,
+          169
+        ]
+      }
+    },
+    "SigLIP_6f_late_fusion_285c": {
+      "micro_top1": 70.06,
+      "macro_top1": 74.94,
+      "parent_top3": 87.13,
+      "parent_top5": 90.08,
+      "hierarchical_top1": 70.06,
+      "counts": [
+        784,
+        975,
+        1008,
+        784,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          74,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          106,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          55,
+          75
+        ],
+        "One Pillar Pagoda": [
+          6,
+          6
+        ],
+        "West Lake": [
+          5,
+          9
+        ],
+        "Thu Le Park": [
+          92,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          98,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          77,
+          94
+        ],
+        "Ba Dinh Square": [
+          22,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          37,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          49,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          67,
+          70
+        ],
+        "Temple of Literature": [
+          96,
+          169
+        ]
+      }
+    },
+    "Ablation_late_fusion_100c": {
+      "micro_top1": 69.79,
+      "macro_top1": 75.31,
+      "parent_top3": 86.95,
+      "parent_top5": 90.62,
+      "hierarchical_top1": 69.79,
+      "counts": [
+        781,
+        973,
+        1014,
+        781,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          76,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          102,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          57,
+          75
+        ],
+        "One Pillar Pagoda": [
+          6,
+          6
+        ],
+        "West Lake": [
+          6,
+          9
+        ],
+        "Thu Le Park": [
+          92,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          96,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          74,
+          94
+        ],
+        "Ba Dinh Square": [
+          22,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          35,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          49,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          66,
+          70
+        ],
+        "Temple of Literature": [
+          100,
+          169
+        ]
+      }
+    },
+    "Ablation_no_bbox_285c": {
+      "micro_top1": 76.23,
+      "macro_top1": 79.17,
+      "parent_top3": 87.58,
+      "parent_top5": 90.88,
+      "hierarchical_top1": 76.23,
+      "counts": [
+        853,
+        980,
+        1017,
+        853,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          94,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          132,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          54,
+          75
+        ],
+        "One Pillar Pagoda": [
+          6,
+          6
+        ],
+        "West Lake": [
+          5,
+          9
+        ],
+        "Thu Le Park": [
+          92,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          108,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          76,
+          94
+        ],
+        "Ba Dinh Square": [
+          22,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          44,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          49,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          67,
+          70
+        ],
+        "Temple of Literature": [
+          104,
+          169
+        ]
+      }
+    },
+    "Ablation_flat_1stage": {
+      "micro_top1": 70.6,
+      "macro_top1": 75.4,
+      "parent_top3": 87.76,
+      "parent_top5": 90.88,
+      "hierarchical_top1": 70.6,
+      "counts": [
+        790,
+        982,
+        1017,
+        790,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          74,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          109,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          55,
+          75
+        ],
+        "One Pillar Pagoda": [
+          6,
+          6
+        ],
+        "West Lake": [
+          5,
+          9
+        ],
+        "Thu Le Park": [
+          92,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          98,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          76,
+          94
+        ],
+        "Ba Dinh Square": [
+          23,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          37,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          49,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          67,
+          70
+        ],
+        "Temple of Literature": [
+          99,
+          169
+        ]
+      }
+    },
+    "Ablation_full_system_100c": {
+      "micro_top1": 76.23,
+      "macro_top1": 79.2,
+      "parent_top3": 87.94,
+      "parent_top5": 91.78,
+      "hierarchical_top1": 76.23,
+      "counts": [
+        853,
+        984,
+        1027,
+        853,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          101,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          138,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          55,
+          75
+        ],
+        "One Pillar Pagoda": [
+          6,
+          6
+        ],
+        "West Lake": [
+          6,
+          9
+        ],
+        "Thu Le Park": [
+          92,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          105,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          71,
+          94
+        ],
+        "Ba Dinh Square": [
+          22,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          39,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          49,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          65,
+          70
+        ],
+        "Temple of Literature": [
+          104,
+          169
+        ]
+      }
+    },
+    "Proposed_full_system_285c": {
+      "micro_top1": 76.68,
+      "macro_top1": 79.38,
+      "parent_top3": 88.2,
+      "parent_top5": 91.24,
+      "hierarchical_top1": 76.68,
+      "counts": [
+        858,
+        987,
+        1021,
+        858,
+        1119
+      ],
+      "per_lm": {
+        "Vietnam National Museum of History": [
+          96,
+          134
+        ],
+        "Vietnam Women's Museum": [
+          136,
+          164
+        ],
+        "Hoan Kiem Lake": [
+          54,
+          75
+        ],
+        "One Pillar Pagoda": [
+          6,
+          6
+        ],
+        "West Lake": [
+          5,
+          9
+        ],
+        "Thu Le Park": [
+          92,
+          129
+        ],
+        "Bat Trang Pottery Village": [
+          109,
+          142
+        ],
+        "Imperial Citadel of Thang Long": [
+          75,
+          94
+        ],
+        "Ba Dinh Square": [
+          23,
+          29
+        ],
+        "Van Phuc Silk Village": [
+          42,
+          47
+        ],
+        "Thang Long Water Puppetry Theatre": [
+          49,
+          51
+        ],
+        "Hanoi Old Quarter": [
+          67,
+          70
+        ],
+        "Temple of Literature": [
+          104,
+          169
+        ]
+      }
+    }
+  },
+  "mcnemar_tests": {
+    "proposed_vs_siglip6f_1nn": {
+      "table": [
+        [
+          677,
+          181
+        ],
+        [
+          49,
+          212
+        ]
+      ],
+      "n11_both_correct": 677,
+      "n10_a_correct_b_wrong": 181,
+      "n01_a_wrong_b_correct": 49,
+      "n00_both_wrong": 212,
+      "chi2": 74.613,
+      "p_value_chi2": 5.726361544192325e-18,
+      "p_value_exact": 5.545050194207658e-19,
+      "significant_005": true,
+      "significant_001": true,
+      "significant_0001": true
+    },
+    "proposed_vs_siglip6f_late_fusion": {
+      "table": [
+        [
+          779,
+          79
+        ],
+        [
+          5,
+          256
+        ]
+      ],
+      "n11_both_correct": 779,
+      "n10_a_correct_b_wrong": 79,
+      "n01_a_wrong_b_correct": 5,
+      "n00_both_wrong": 256,
+      "chi2": 63.4405,
+      "p_value_chi2": 1.6528659665512787e-15,
+      "p_value_exact": 3.40181873302281e-18,
+      "significant_005": true,
+      "significant_001": true,
+      "significant_0001": true
+    },
+    "proposed_vs_no_bbox": {
+      "table": [
+        [
+          847,
+          11
+        ],
+        [
+          6,
+          255
+        ]
+      ],
+      "n11_both_correct": 847,
+      "n10_a_correct_b_wrong": 11,
+      "n01_a_wrong_b_correct": 6,
+      "n00_both_wrong": 255,
+      "chi2": 0.9412,
+      "p_value_chi2": 0.33197546708274833,
+      "p_value_exact": 0.332305908203125,
+      "significant_005": false,
+      "significant_001": false,
+      "significant_0001": false
+    },
+    "proposed_vs_100_concepts": {
+      "table": [
+        [
+          836,
+          22
+        ],
+        [
+          17,
+          244
+        ]
+      ],
+      "n11_both_correct": 836,
+      "n10_a_correct_b_wrong": 22,
+      "n01_a_wrong_b_correct": 17,
+      "n00_both_wrong": 244,
+      "chi2": 0.4103,
+      "p_value_chi2": 0.5218393903336206,
+      "p_value_exact": 0.5223973804968411,
+      "significant_005": false,
+      "significant_001": false,
+      "significant_0001": false
+    }
+  }
+}

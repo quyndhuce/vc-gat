@@ -1,0 +1,83 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  2 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hanoi)  --[capital_of]-->  ?
+  Head URI  : http://www.wikidata.org/entity/Q1858
+  Conflict K: 0.7607
+  Candidates:
+    • Vietnam                         Bel=0.9551  Pl=0.9655  (3 evidence)
+    • Indochina                       Bel=0.0345  Pl=0.0449  (1 evidence)
+
+  (Hue)  --[capital_of]-->  ?
+  Head URI  : http://www.wikidata.org/entity/Q36167
+  Conflict K: 0.5419
+  Candidates:
+    • Đại Việt                        Bel=0.4472  Pl=0.5989  (1 evidence)
+    • Nguyen dynasty                  Bel=0.4011  Pl=0.5528  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [symbol_of] (Hanoi Flag Tower) → http://www.wikidata.org/entity/Q1858  Bel=0.7287  K=0.0000
+  [has_height] (Hanoi Flag Tower) → http://transmtl.vn/ent/8c839ec9  Bel=0.6848  K=0.0000
+  [built_in] (Hanoi Flag Tower) → http://transmtl.vn/time/1812  Bel=0.7846  K=0.0000
+  [built_in] (Văn Miếu) → http://transmtl.vn/time/1070  Bel=0.5129  K=0.0000
+  [founded_in] (Văn Miếu) → http://transmtl.vn/time/1070  Bel=0.7003  K=0.0000
+  [capital_of] (Hanoi) → http://www.wikidata.org/entity/Q881  Bel=0.9551  K=0.7607 ⚠ REVIEW
+  [capital_of] (Hue) → http://www.wikidata.org/entity/Q3111454  Bel=0.4472  K=0.5419 ⚠ REVIEW
+  [dated_to] (Văn Miếu) → http://transmtl.vn/time/1070  Bel=0.3111  K=0.0000
+  [founded_in] (Quốc Tử Giám) → http://transmtl.vn/time/1076  Bel=0.6230  K=0.0000
+  [founded_in] (Imperial Academy) → http://transmtl.vn/time/1076  Bel=0.3537  K=0.0000
+  [capital_of] (Huế capital) → http://www.wikidata.org/entity/Q881  Bel=0.6798  K=0.0000
+  [founded_in] (Huế capital) → http://transmtl.vn/time/1802  Bel=0.6557  K=0.0000
+  [demolished_in] (Hanoi temple) → http://transmtl.vn/time/1945_1954  Bel=0.4023  K=0.0000
+  [built_in] (Trấn Quốc) → http://transmtl.vn/time/sixth_century  Bel=0.3618  K=0.0000
+  [former_name_of] (Trấn Quốc Pagoda) → http://transmtl.vn/ent/c6f6bc26  Bel=0.2990  K=0.1124
+  [built_in] (Trấn Quốc Pagoda) → http://transmtl.vn/time/sixth_century  Bel=0.7630  K=0.0000
+  [built_in] (One Pillar Pagoda) → http://transmtl.vn/time/1049  Bel=0.7346  K=0.0000
+  [has_height] (President Ho Chi Minh Mausoleum) → http://transmtl.vn/ent/84b9c1a4  Bel=0.5812  K=0.0000
+  [has_width] (President Ho Chi Minh Mausoleum) → http://transmtl.vn/ent/abf95733  Bel=0.3578  K=0.0000
+  [has_area] (President Ho Chi Minh Mausoleum) → http://transmtl.vn/ent/abf95733  Bel=0.2958  K=0.0000
+  [has_height] (Lenin's Mausoleum) → http://transmtl.vn/ent/84b9c1a4  Bel=0.3680  K=0.0000
+  [has_area] (Hoa Lư) → http://transmtl.vn/ent/4b82677b  Bel=0.3892  K=0.0000
+  [capital_of] (Hoa Lư) → http://www.wikidata.org/entity/Q112591912  Bel=0.7784  K=0.0000
+  [founded_in] (Hoa Lư) → http://transmtl.vn/time/968_a_d  Bel=0.3118  K=0.0000
+  [founded_in] (Đại Cồ Việt) → http://transmtl.vn/time/968_a_d  Bel=0.7710  K=0.0000
+  [former_name_of] (Hanoi citadel) → http://www.wikidata.org/entity/Q1858  Bel=0.3402  K=0.0000
+  [renovated_in] (Hanoi citadel) → http://transmtl.vn/time/1805  Bel=0.3042  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [located_in] (Trấn Quốc Pagoda) → (Hanoi)  μ_F=0.7741  (1 evidence)
+  [located_in] (Văn Miếu) → (Hanoi)  μ_F=0.7562  (1 evidence)
+  [founded_by] (Đại Cồ Việt) → (Đinh Tiên Hoàng)  μ_F=0.7352  (1 evidence)
+  [part_of] (Hanoi) → (Vietnam)  μ_F=0.7258  (2 evidence)
+  [part_of] (Hanoi Flag Tower) → (Vietnam Military History Museum)  μ_F=0.7240  (1 evidence)
+  [ruled_by] (Đại Cồ Việt) → (Đinh Tiên Hoàng)  μ_F=0.7206  (1 evidence)
+  [located_in] (Văn Miếu) → (Vietnam)  μ_F=0.7201  (1 evidence)
+  [used_by] (Hanoi citadel) → (Imperial Japanese Army)  μ_F=0.7038  (1 evidence)
+  [near] (Hoa Lư) → (Hanoi)  μ_F=0.6707  (1 evidence)
+  [demolished_by] (Hanoi temple) → (French School)  μ_F=0.6661  (1 evidence)
+  [located_in] (Hoa Lư) → (Ninh Bình Province)  μ_F=0.6626  (1 evidence)
+  [inspired_by] (President Ho Chi Minh Mausoleum) → (Lenin's Mausoleum)  μ_F=0.6608  (1 evidence)
+  [ruled_by] (Hanoi) → (French)  μ_F=0.6493  (1 evidence)
+  [located_in] (President Ho Chi Minh Mausoleum) → (Hanoi)  μ_F=0.6256  (1 evidence)
+  [surrounded_by] (Hoa Lư) → (mountains)  μ_F=0.6174  (1 evidence)
+  [part_of] (Trấn Quốc Pagoda) → (Trấn Quốc Temple)  μ_F=0.6162  (1 evidence)
+  [located_in] (Hanoi Flag Tower) → (Hanoi)  μ_F=0.6111  (1 evidence)
+  [ruled_by] (French Indochina Federation) → (French)  μ_F=0.6059  (1 evidence)
+  [ceded_to] (Hoa Lư) → (Thăng Long)  μ_F=0.6032  (1 evidence)
+  [founded_by] (Huế capital) → (Nguyễn Dynasty's monarchs)  μ_F=0.5976  (1 evidence)
+
+------------------------------------------------------------------------
+AMBIGUOUS ENTITY PAIRS (1):
+------------------------------------------------------------------------
+  http://transmtl.vn/ent/876fe076  ↔  http://transmtl.vn/ent/5c08d5fc  sim=0.9080  label=PER
+    surfaces 1: ['Emperor Lý Thánh Tông']
+    surfaces 2: ['Emperor Lý Thái Tông']
+
+========================================================================

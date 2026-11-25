@@ -1,0 +1,372 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/584826e7> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/8fc42c6d> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/95e53922> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/9e925e93> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/a4db7d6f> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/c1c3342f> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/db8c1067> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/ed5eb28c> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/f39f8215> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/55dc7c69> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/d0238077> onto:former_name_of <http://transmtl.vn/kb/ha_noi_station> .
+
+<http://transmtl.vn/ent/058d8704> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/e8ed3f28> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/ha_noi_station> onto:former_name_of <http://transmtl.vn/ent/d0238077> ;
+    onto:leading_to <http://transmtl.vn/ent/d38ad361> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/f6fbb633> ;
+    onto:part_of <http://transmtl.vn/ent/542dc164> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1858> onto:border_with <http://transmtl.vn/ent/058d8704> ;
+    onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:surrounded_by <http://transmtl.vn/ent/fc1c3cfa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.612 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8ed3f28> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3648 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8fc42c6d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2707 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/55dc7c69> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7147 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5202 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/584826e7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3143 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f39f8215> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3144 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ed5eb28c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3311 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/db8c1067> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3303 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.27 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8ed3f28> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2751 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/d0238077> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2716 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/d0238077> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3746 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3654 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2753 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4819 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3887 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3836 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a4db7d6f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5994 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3342 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/058d8704> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2639 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8ed3f28> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3637 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8ed3f28> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6665 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2588 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5072 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/d38ad361> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2619 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9e925e93> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.626 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/542dc164> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5782 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/542dc164> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3643 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/55dc7c69> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4586 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/95e53922> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4148 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4576 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/d38ad361> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2672 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/fc1c3cfa> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.266 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/058d8704> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2553 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c1c3342f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3213 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/058d8704> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3567 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3828 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7898 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5831 ;
+    fkg:docId "doc_e58d64a41a65" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8ed3f28> .
+

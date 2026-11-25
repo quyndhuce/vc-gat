@@ -1,0 +1,35 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/4edf0dfe> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3293 ;
+    fkg:docId "doc_04a01a5b2486" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4598 ;
+    fkg:docId "doc_04a01a5b2486" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3768 ;
+    fkg:docId "doc_04a01a5b2486" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/4edf0dfe> .
+

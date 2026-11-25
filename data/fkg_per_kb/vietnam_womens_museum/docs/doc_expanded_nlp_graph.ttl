@@ -1,0 +1,352 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/e5fe76bb> onto:located_in <http://transmtl.vn/ent/d21e9cbf> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#costume_displays> onto:part_of <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#cover> onto:over <http://transmtl.vn/ent/b6743403> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#entrance> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#exhibition_space> onto:part_of <http://transmtl.vn/ent/0ee4b9ec> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#galleries> onto:over <http://transmtl.vn/ent/b6743403> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#museum_facade> onto:part_of <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#textile> onto:part_of <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#thematic_galleries> onto:part_of <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#exhibition> onto:has_component <http://transmtl.vn/kb/artifact_3> ;
+    onto:has_part <http://transmtl.vn/ent/c78bd47f> .
+
+<http://transmtl.vn/ent/d21e9cbf> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#interior_galleries> onto:located_in <http://transmtl.vn/ent/eb0ea0bc> ;
+    onto:located_inside <http://transmtl.vn/ent/eb0ea0bc> ;
+    onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#exhibition_spaces> onto:located_in <http://transmtl.vn/ent/54531522> ;
+    onto:located_inside <http://transmtl.vn/ent/54531522>,
+        <http://transmtl.vn/ent/60df9e64> ;
+    onto:part_of <http://transmtl.vn/ent/54531522> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum> onto:has_component <http://transmtl.vn/ent/dc20e750>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#costume_displays>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#cover>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#entrance>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#exhibition>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_space>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_spaces>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#galleries>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#interior_galleries>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#museum_facade>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#textile>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#thematic_galleries> ;
+    onto:has_part <http://transmtl.vn/ent/8000f614>,
+        <http://transmtl.vn/ent/89435854>,
+        <http://transmtl.vn/ent/c2752286>,
+        <http://transmtl.vn/ent/dc20e750> ;
+    onto:located_in <http://transmtl.vn/ent/8e950ac9>,
+        <http://transmtl.vn/ent/d21e9cbf> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#textile> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4398 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/54531522> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_spaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2871 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/8000f614> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5231 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#textile> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#galleries> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6194 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#interior_galleries> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5595 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_space> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6994 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d21e9cbf> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#thematic_galleries> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#exhibition> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7179 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/54531522> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_spaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_spaces> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7233 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#museum_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3359 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/c78bd47f> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#exhibition> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4337 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/60df9e64> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_spaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#museum_facade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.431 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/0ee4b9ec> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3296 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#interior_galleries> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#cover> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8045 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/b6743403> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#galleries> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6753 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/d21e9cbf> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e5fe76bb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3259 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/54531522> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#exhibition_spaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3213 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7523 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#thematic_galleries> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6305 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/dc20e750> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4379 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/c2752286> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9569 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/d21e9cbf> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3069 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/artifact_3> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#exhibition> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#costume_displays> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6254 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/89435854> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2887 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/b6743403> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#cover> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#interior_galleries> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8096 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#interior_galleries> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6526 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#costume_displays> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2777 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/dc20e750> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+

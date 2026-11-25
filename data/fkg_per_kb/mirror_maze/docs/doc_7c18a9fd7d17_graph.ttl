@@ -1,0 +1,25 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/8089ee15> onto:located_in <http://transmtl.vn/kb/thong_nhat_park> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:surrounded_by <http://transmtl.vn/ent/d6cf136a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.318 ;
+    fkg:docId "doc_7c18a9fd7d17" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8089ee15> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3268 ;
+    fkg:docId "doc_7c18a9fd7d17" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/d6cf136a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+

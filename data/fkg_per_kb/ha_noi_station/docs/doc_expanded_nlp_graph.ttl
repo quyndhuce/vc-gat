@@ -1,0 +1,598 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/422b1160> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/07d32ed9> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/ha_noi_station#central_entrance> onto:connected_to <http://transmtl.vn/ent/605714fc> .
+
+<http://transmtl.vn/kb/ha_noi_station#forecourt> onto:has_entrance <http://transmtl.vn/ent/901dc00a> .
+
+<http://transmtl.vn/kb/ha_noi_station#hang_co_station> onto:part_of <http://transmtl.vn/ent/07d32ed9> .
+
+<http://transmtl.vn/kb/ha_noi_station#national_railway_network> onto:has_part <http://transmtl.vn/ent/e8ed3f28> .
+
+<http://transmtl.vn/kb/ha_noi_station#passenger_entrance> onto:part_of <http://transmtl.vn/kb/ha_noi_station> .
+
+<http://transmtl.vn/kb/ha_noi_station#passenger_halls> onto:connected_to <http://transmtl.vn/ent/a7c281f3> .
+
+<http://transmtl.vn/kb/ha_noi_station#signage> onto:part_of <http://transmtl.vn/ent/0edf49df> .
+
+<http://transmtl.vn/kb/ha_noi_station#tracks> onto:part_of <http://transmtl.vn/kb/ha_noi_station> .
+
+<http://transmtl.vn/kb/ha_noi_station#rail_corridor> onto:located_behind <http://transmtl.vn/ent/87c822f8>,
+        <http://transmtl.vn/ent/9da3be8f> .
+
+<http://transmtl.vn/kb/ha_noi_station#railway_lines> onto:connected_to <http://transmtl.vn/ent/9ca41468> ;
+    onto:crosses <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/9ca41468> .
+
+<http://transmtl.vn/kb/ha_noi_station#railway_terminal> onto:located_in <http://transmtl.vn/ent/13b5bfe9>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5058f1af> .
+
+<http://transmtl.vn/kb/ha_noi_station#railway_tracks> onto:adjacent_to <http://transmtl.vn/ent/19cb3cfe> ;
+    onto:located_behind <http://transmtl.vn/ent/19cb3cfe> ;
+    onto:near <http://transmtl.vn/ent/19cb3cfe> .
+
+<http://transmtl.vn/ent/9ca41468> onto:located_in <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/68658f61> .
+
+<http://transmtl.vn/ent/5eb88f7c> onto:part_of <http://transmtl.vn/kb/ha_noi_station> .
+
+<http://transmtl.vn/kb/ha_noi_station#platforms> onto:connected_to <http://transmtl.vn/ent/4e85eddf>,
+        <http://transmtl.vn/ent/5083eaa1> ;
+    onto:part_of <http://transmtl.vn/ent/0edf49df>,
+        <http://transmtl.vn/kb/ha_noi_station> .
+
+<http://transmtl.vn/ent/704904a4> onto:has_part <http://transmtl.vn/kb/ha_noi_station> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/ha_noi_station#station> onto:faces <http://transmtl.vn/ent/704904a4> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5058f1af> ;
+    onto:overlooks <http://transmtl.vn/ent/704904a4> ;
+    onto:part_of <http://transmtl.vn/ent/8ad230ee>,
+        <http://transmtl.vn/ent/9edef3f1> .
+
+<http://transmtl.vn/ent/207462d2> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/ha_noi_station> onto:adjacent_to <http://transmtl.vn/ent/5eb88f7c> ;
+    onto:has_component <http://transmtl.vn/ent/f1e904ac>,
+        <http://transmtl.vn/kb/ha_noi_station#central_entrance>,
+        <http://transmtl.vn/kb/ha_noi_station#forecourt>,
+        <http://transmtl.vn/kb/ha_noi_station#hang_co_station>,
+        <http://transmtl.vn/kb/ha_noi_station#national_railway_network>,
+        <http://transmtl.vn/kb/ha_noi_station#passenger_entrance>,
+        <http://transmtl.vn/kb/ha_noi_station#passenger_halls>,
+        <http://transmtl.vn/kb/ha_noi_station#platforms>,
+        <http://transmtl.vn/kb/ha_noi_station#rail_corridor>,
+        <http://transmtl.vn/kb/ha_noi_station#railway_lines>,
+        <http://transmtl.vn/kb/ha_noi_station#railway_terminal>,
+        <http://transmtl.vn/kb/ha_noi_station#railway_tracks>,
+        <http://transmtl.vn/kb/ha_noi_station#signage>,
+        <http://transmtl.vn/kb/ha_noi_station#station>,
+        <http://transmtl.vn/kb/ha_noi_station#tracks> ;
+    onto:has_entrance <http://transmtl.vn/ent/12f17889> ;
+    onto:has_part <http://transmtl.vn/ent/5eb88f7c>,
+        <http://transmtl.vn/ent/a7c281f3>,
+        <http://transmtl.vn/ent/f1e904ac> ;
+    onto:located_in <http://transmtl.vn/ent/704904a4> ;
+    onto:near <http://transmtl.vn/ent/5eb88f7c> ;
+    onto:part_of <http://transmtl.vn/ent/704904a4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#railway_tracks> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2795 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5083eaa1> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#platforms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2517 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_lines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2534 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/4e85eddf> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#platforms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3977 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/704904a4> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6664 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_terminal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6881 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/704904a4> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#tracks> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#platforms> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#national_railway_network> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#platforms> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7347 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9ca41468> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3944 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/68658f61> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9ca41468> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5874 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/5eb88f7c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2688 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/f1e904ac> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#station> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#passenger_halls> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#platforms> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7972 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/19cb3cfe> ;
+    rdf:predicate onto:located_behind ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_tracks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#station> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3059 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_terminal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2873 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/605714fc> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#central_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2801 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/f1e904ac> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8824 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/704904a4> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8054 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#railway_terminal> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9936 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/a7c281f3> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#passenger_halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2696 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/13b5bfe9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_terminal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8555 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/422b1160> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#forecourt> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2543 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/9ca41468> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_lines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.332 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/8ad230ee> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4941 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7725 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/87c822f8> ;
+    rdf:predicate onto:located_behind ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#rail_corridor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.266 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/704904a4> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5143 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#passenger_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5574 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/901dc00a> ;
+    rdf:predicate onto:has_entrance ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#forecourt> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2668 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5eb88f7c> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3448 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/0edf49df> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#platforms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#station> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#central_entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6182 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5eb88f7c> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5691 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#platforms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3356 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/a7c281f3> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8103 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/9edef3f1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#railway_lines> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2569 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/704904a4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9332 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/12f17889> ;
+    rdf:predicate onto:has_entrance ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#passenger_entrance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2744 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/0edf49df> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#signage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3959 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/19cb3cfe> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_tracks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3159 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#hang_co_station> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#signage> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4277 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/704904a4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station#rail_corridor> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2515 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/19cb3cfe> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_tracks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4844 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/5eb88f7c> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6037 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/9da3be8f> ;
+    rdf:predicate onto:located_behind ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#rail_corridor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3042 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/07d32ed9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2589 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/9ca41468> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#railway_lines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5372 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/kb/ha_noi_station> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#tracks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.355 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/e8ed3f28> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#national_railway_network> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2662 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "ha_noi_station" ;
+    rdf:object <http://transmtl.vn/ent/07d32ed9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ha_noi_station#hang_co_station> .
+

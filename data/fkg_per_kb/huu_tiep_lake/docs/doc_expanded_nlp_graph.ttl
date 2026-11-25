@@ -1,0 +1,351 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/033b3554> onto:located_in <http://transmtl.vn/ent/133b931a> .
+
+<http://transmtl.vn/ent/4c664c59> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/7e23e5a8> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/huu_tiep_lake#characteristic_physical_features> onto:surrounded_by <http://transmtl.vn/ent/94a55a83> .
+
+<http://transmtl.vn/kb/huu_tiep_lake#physical_wreckage> onto:part_of <http://transmtl.vn/ent/7e23e5a8> .
+
+<http://transmtl.vn/kb/huu_tiep_lake#remains> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/huu_tiep_lake#us_b_52_bomber> onto:part_of <http://transmtl.vn/ent/b7e97e81> .
+
+<http://transmtl.vn/kb/huu_tiep_lake#lanes> onto:adjacent_to <http://transmtl.vn/ent/1f398a97> ;
+    onto:near <http://transmtl.vn/ent/1f398a97> .
+
+<http://transmtl.vn/kb/huu_tiep_lake#narrow_lanes> onto:located_in <http://transmtl.vn/ent/133b931a> ;
+    onto:part_of <http://transmtl.vn/ent/133b931a> .
+
+<http://transmtl.vn/ent/207462d2> onto:has_part <http://transmtl.vn/kb/huu_tiep_lake> .
+
+<http://transmtl.vn/kb/huu_tiep_lake#fragments> onto:above <http://transmtl.vn/ent/ca6daecd> ;
+    onto:located_in <http://transmtl.vn/ent/f4d3b5a1>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:over <http://transmtl.vn/ent/ca6daecd> .
+
+<http://transmtl.vn/ent/f474186b> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/kb/huu_tiep_lake> ;
+    onto:part_of <http://transmtl.vn/kb/huu_tiep_lake> .
+
+<http://www.wikidata.org/entity/Q1858> onto:located_in <http://transmtl.vn/ent/133b931a>,
+        <http://transmtl.vn/ent/a5b32ddf> ;
+    onto:part_of <http://transmtl.vn/ent/133b931a> ;
+    onto:surrounded_by <http://transmtl.vn/ent/a5b32ddf> .
+
+<http://transmtl.vn/kb/huu_tiep_lake> onto:has_component <http://transmtl.vn/kb/huu_tiep_lake#characteristic_physical_features>,
+        <http://transmtl.vn/kb/huu_tiep_lake#fragments>,
+        <http://transmtl.vn/kb/huu_tiep_lake#lanes>,
+        <http://transmtl.vn/kb/huu_tiep_lake#narrow_lanes>,
+        <http://transmtl.vn/kb/huu_tiep_lake#physical_wreckage>,
+        <http://transmtl.vn/kb/huu_tiep_lake#remains>,
+        <http://transmtl.vn/kb/huu_tiep_lake#us_b_52_bomber> ;
+    onto:has_part <http://transmtl.vn/ent/f474186b> ;
+    onto:located_in <http://transmtl.vn/ent/8b63e201>,
+        <http://transmtl.vn/ent/f474186b> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/f474186b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3959 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/7e23e5a8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#physical_wreckage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.295 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/1f398a97> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#lanes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2965 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/b7e97e81> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#us_b_52_bomber> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3935 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#remains> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4126 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f474186b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake#remains> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3149 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/f474186b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3233 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#fragments> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2595 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/ca6daecd> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#fragments> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake#fragments> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5013 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8936 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/8b63e201> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.313 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7e23e5a8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4772 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/a5b32ddf> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3251 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/133b931a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#narrow_lanes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2751 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/f4d3b5a1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#fragments> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake#us_b_52_bomber> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake#characteristic_physical_features> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3276 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/133b931a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2833 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/f474186b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake#lanes> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4262 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3502 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/4c664c59> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3599 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/133b931a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#narrow_lanes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2584 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f474186b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake#fragments> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3657 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/133b931a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/033b3554> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.403 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/4c664c59> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake#narrow_lanes> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3339 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/ca6daecd> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#fragments> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6999 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2969 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/133b931a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9326 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/f474186b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2556 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/1f398a97> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake#lanes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5968 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/a5b32ddf> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake#physical_wreckage> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.68 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/kb/huu_tiep_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/f474186b> .
+

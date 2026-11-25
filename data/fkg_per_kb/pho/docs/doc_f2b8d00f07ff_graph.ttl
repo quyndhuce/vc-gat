@@ -1,0 +1,59 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/pho> onto:associated_with <http://transmtl.vn/ent/8e7ad3ad> ;
+    onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://www.wikidata.org/entity/Q1858> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9583 ;
+    fkg:docId "doc_f2b8d00f07ff" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4128 ;
+    fkg:docId "doc_f2b8d00f07ff" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3596 ;
+    fkg:docId "doc_f2b8d00f07ff" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7178 ;
+    fkg:docId "doc_f2b8d00f07ff" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5882 ;
+    fkg:docId "doc_f2b8d00f07ff" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2825 ;
+    fkg:docId "doc_f2b8d00f07ff" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/8e7ad3ad> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+

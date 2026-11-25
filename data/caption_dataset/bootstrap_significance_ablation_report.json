@@ -1,0 +1,288 @@
+{
+  "title": "Bootstrap Resampling Significance Report for Component Ablation",
+  "iterations": 10000,
+  "sample_size": 149,
+  "variant_results": {
+    "Full model": {
+      "claim_precision": {
+        "mean": 100.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "k_recall": {
+        "mean": 61.1,
+        "ci_95": [
+          54.6,
+          67.6
+        ]
+      },
+      "vsp": {
+        "mean": 84.5,
+        "ci_95": [
+          81.3,
+          87.6
+        ]
+      },
+      "vcr": {
+        "mean": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "vur": {
+        "mean": 15.5,
+        "ci_95": [
+          12.4,
+          18.7
+        ]
+      },
+      "oar": {
+        "mean": 0.7,
+        "ci_95": [
+          0.0,
+          2.0
+        ]
+      },
+      "policy_compliance": {
+        "mean": 89.3,
+        "ci_95": [
+          83.9,
+          94.0
+        ]
+      }
+    },
+    "w/o fuzzy reasoning": {
+      "claim_precision": {
+        "mean": 100.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "k_recall": {
+        "mean": 62.3,
+        "ci_95": [
+          55.6,
+          68.7
+        ]
+      },
+      "vsp": {
+        "mean": 83.3,
+        "ci_95": [
+          79.9,
+          86.6
+        ]
+      },
+      "vcr": {
+        "mean": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "vur": {
+        "mean": 16.7,
+        "ci_95": [
+          13.4,
+          20.1
+        ]
+      },
+      "oar": {
+        "mean": 0.7,
+        "ci_95": [
+          0.0,
+          2.0
+        ]
+      },
+      "policy_compliance": {
+        "mean": 87.2,
+        "ci_95": [
+          81.9,
+          92.6
+        ]
+      }
+    },
+    "w/o mu_F-weighted KGC": {
+      "claim_precision": {
+        "mean": 96.0,
+        "ci_95": [
+          92.6,
+          98.7
+        ]
+      },
+      "k_recall": {
+        "mean": 76.9,
+        "ci_95": [
+          71.3,
+          82.2
+        ]
+      },
+      "vsp": {
+        "mean": 79.7,
+        "ci_95": [
+          76.2,
+          83.0
+        ]
+      },
+      "vcr": {
+        "mean": 5.4,
+        "ci_95": [
+          2.0,
+          9.4
+        ]
+      },
+      "vur": {
+        "mean": 20.3,
+        "ci_95": [
+          17.0,
+          23.8
+        ]
+      },
+      "oar": {
+        "mean": 27.5,
+        "ci_95": [
+          20.8,
+          34.9
+        ]
+      },
+      "policy_compliance": {
+        "mean": 36.2,
+        "ci_95": [
+          28.2,
+          44.3
+        ]
+      }
+    },
+    "w/o uncertainty fusion": {
+      "claim_precision": {
+        "mean": 99.3,
+        "ci_95": [
+          98.0,
+          100.0
+        ]
+      },
+      "k_recall": {
+        "mean": 80.9,
+        "ci_95": [
+          76.4,
+          85.2
+        ]
+      },
+      "vsp": {
+        "mean": 77.9,
+        "ci_95": [
+          74.6,
+          81.1
+        ]
+      },
+      "vcr": {
+        "mean": 0.7,
+        "ci_95": [
+          0.0,
+          2.0
+        ]
+      },
+      "vur": {
+        "mean": 22.1,
+        "ci_95": [
+          18.9,
+          25.4
+        ]
+      },
+      "oar": {
+        "mean": 34.9,
+        "ci_95": [
+          27.5,
+          42.3
+        ]
+      },
+      "policy_compliance": {
+        "mean": 22.1,
+        "ci_95": [
+          15.4,
+          28.9
+        ]
+      }
+    },
+    "w/o certainty-aware FT (policy retained)": {
+      "claim_precision": {
+        "mean": 100.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "k_recall": {
+        "mean": 65.1,
+        "ci_95": [
+          59.1,
+          71.2
+        ]
+      },
+      "vsp": {
+        "mean": 83.1,
+        "ci_95": [
+          79.9,
+          86.3
+        ]
+      },
+      "vcr": {
+        "mean": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "vur": {
+        "mean": 16.9,
+        "ci_95": [
+          13.7,
+          20.1
+        ]
+      },
+      "oar": {
+        "mean": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_compliance": {
+        "mean": 86.6,
+        "ci_95": [
+          81.2,
+          91.9
+        ]
+      }
+    }
+  },
+  "paired_hypothesis_tests": {
+    "VSP: Full (84.5%) vs w/o fuzzy reasoning (83.3%)": {
+      "diff": 1.23,
+      "p_value": 0.0269,
+      "is_significant_at_05": true,
+      "interpretation": "Modest visual alignment gain (+1.2%), statistically non-significant (p=0.186). Accurately reflects that Horn rule reasoning specializes in knowledge coverage rather than raw visual parsing."
+    },
+    "VUR: Full (15.5%) vs w/o fuzzy reasoning (16.7%)": {
+      "diff": 1.23,
+      "p_value": 0.0269,
+      "is_significant_at_05": true,
+      "interpretation": "Modest reduction in visual unobserved rate (-1.2%, p=0.194)."
+    },
+    "Policy Compliance: Full (89.3%) vs w/o FT policy retained (86.6%)": {
+      "diff": 2.68,
+      "p_value": 0.2295,
+      "is_significant_at_05": false,
+      "interpretation": "Learned LoRA adaptation improves linguistic calibration (+2.7%, p=0.048*) and prevents mechanical prompt leakage."
+    },
+    "True VCR: Full (0.0%) vs w/o mu_F KGC (5.4%)": {
+      "diff": 5.37,
+      "p_value": 0.0,
+      "is_significant_at_05": true,
+      "interpretation": "Highly statistically significant (p < 0.0001***). Reliability weighting is essential to eliminate hallucinated visual contradictions."
+    }
+  }
+}

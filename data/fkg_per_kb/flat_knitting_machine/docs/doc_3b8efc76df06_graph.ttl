@@ -1,0 +1,82 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/06c0adda> onto:located_in <http://transmtl.vn/ent/d96123b7> .
+
+<http://transmtl.vn/kb/flat_knitting_machine#machines> onto:symbol_of <http://transmtl.vn/ent/5db931c1> .
+
+<http://transmtl.vn/kb/flat_knitting_machine#slider_assembly> onto:part_of <http://transmtl.vn/ent/fd242a91> .
+
+<http://transmtl.vn/kb/flat_knitting_machine#tiny_needles> onto:part_of <http://transmtl.vn/ent/fd242a91> .
+
+<http://transmtl.vn/kb/flat_knitting_machine> onto:has_part <http://transmtl.vn/kb/flat_knitting_machine#machines>,
+        <http://transmtl.vn/kb/flat_knitting_machine#slider_assembly>,
+        <http://transmtl.vn/kb/flat_knitting_machine#tiny_needles> ;
+    onto:located_in <http://transmtl.vn/ent/06c0adda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3b8efc76df06" ;
+    fkg:kbId "flat_knitting_machine" ;
+    rdf:object <http://transmtl.vn/kb/flat_knitting_machine#machines> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flat_knitting_machine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.258 ;
+    fkg:docId "doc_3b8efc76df06" ;
+    fkg:kbId "flat_knitting_machine" ;
+    rdf:object <http://transmtl.vn/ent/06c0adda> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/flat_knitting_machine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3b8efc76df06" ;
+    fkg:kbId "flat_knitting_machine" ;
+    rdf:object <http://transmtl.vn/kb/flat_knitting_machine#tiny_needles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flat_knitting_machine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3213 ;
+    fkg:docId "doc_3b8efc76df06" ;
+    fkg:kbId "flat_knitting_machine" ;
+    rdf:object <http://transmtl.vn/ent/fd242a91> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flat_knitting_machine#slider_assembly> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2893 ;
+    fkg:docId "doc_3b8efc76df06" ;
+    fkg:kbId "flat_knitting_machine" ;
+    rdf:object <http://transmtl.vn/ent/fd242a91> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flat_knitting_machine#tiny_needles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4189 ;
+    fkg:docId "doc_3b8efc76df06" ;
+    fkg:kbId "flat_knitting_machine" ;
+    rdf:object <http://transmtl.vn/ent/5db931c1> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/flat_knitting_machine#machines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3b8efc76df06" ;
+    fkg:kbId "flat_knitting_machine" ;
+    rdf:object <http://transmtl.vn/kb/flat_knitting_machine#slider_assembly> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flat_knitting_machine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3125 ;
+    fkg:docId "doc_3b8efc76df06" ;
+    fkg:kbId "flat_knitting_machine" ;
+    rdf:object <http://transmtl.vn/ent/d96123b7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/06c0adda> .
+

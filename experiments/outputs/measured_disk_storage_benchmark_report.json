@@ -1,0 +1,31 @@
+{
+  "benchmark": "Empirical_Disk_Storage_Latency_Hanoi_500",
+  "dataset": "Hanoi 500 clips, 12,554 facts, 12,391 derivations",
+  "storage_backend": "SQLite on NVMe/SSD, B-Tree index on (s, p, o, weight DESC)",
+  "trials": 10,
+  "ram_benchmark_reference": {
+    "exhaustive_ms": "23.31 \u00b1 0.99",
+    "pure_bnb_ms": "69.00 \u00b1 5.55",
+    "hybrid_ms": "28.33 \u00b1 0.33",
+    "hybrid_relative_to_exhaustive": "+21.5% slowdown"
+  },
+  "measured_disk_storage_benchmark": {
+    "exhaustive_derivs": 13415,
+    "exhaustive_disk_ms": {
+      "mean": 178.96,
+      "std": 14.15
+    },
+    "pure_bnb_derivs": 4052,
+    "pure_bnb_disk_ms": {
+      "mean": 233.71,
+      "std": 18.56
+    },
+    "hybrid_derivs": 4128,
+    "hybrid_disk_ms": {
+      "mean": 237.06,
+      "std": 26.0
+    },
+    "measured_hybrid_speedup_over_exhaustive": 0.75,
+    "derivations_saved_pct": 69.23
+  }
+}

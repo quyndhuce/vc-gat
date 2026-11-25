@@ -1,0 +1,154 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/bell_house#curved_roof> onto:part_of <http://transmtl.vn/kb/bell_house> .
+
+<http://transmtl.vn/kb/bell_house#dragon_head_finials> onto:part_of <http://transmtl.vn/kb/bell_house> .
+
+<http://transmtl.vn/kb/bell_house#roof> onto:part_of <http://transmtl.vn/kb/bell_house> .
+
+<http://transmtl.vn/kb/bell_house#walls> onto:part_of <http://transmtl.vn/ent/e03f1934> .
+
+<http://transmtl.vn/kb/drum_house> onto:located_in <http://transmtl.vn/kb/thai_hoc_gate> .
+
+<http://transmtl.vn/kb/bell_house> onto:architectural_style <http://transmtl.vn/ent/85e50e18> ;
+    onto:built_in <http://transmtl.vn/ent/5ec829de> ;
+    onto:has_part <http://transmtl.vn/kb/bell_house#curved_roof>,
+        <http://transmtl.vn/kb/bell_house#dragon_head_finials>,
+        <http://transmtl.vn/kb/bell_house#roof>,
+        <http://transmtl.vn/kb/bell_house#walls> ;
+    onto:located_in <http://transmtl.vn/kb/thai_hoc_gate> ;
+    onto:near <http://transmtl.vn/kb/drum_house>,
+        <http://transmtl.vn/kb/thai_hoc_gate> ;
+    onto:on <http://transmtl.vn/ent/f10eeb0d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3862 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/ent/f10eeb0d> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4757 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/bell_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bell_house#curved_roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2925 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/drum_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/bell_house#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4401 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2873 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/bell_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bell_house#dragon_head_finials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.421 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/bell_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bell_house#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/bell_house#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5782 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/ent/5ec829de> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/bell_house#curved_roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5674 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/ent/5ec829de> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/bell_house#dragon_head_finials> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.397 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/drum_house> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4501 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.262 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/ent/e03f1934> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/bell_house#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3041 ;
+    fkg:docId "doc_89c10517322b" ;
+    fkg:kbId "bell_house" ;
+    rdf:object <http://transmtl.vn/kb/thai_hoc_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bell_house> .
+

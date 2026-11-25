@@ -1,0 +1,476 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/27f08504> onto:located_in <http://transmtl.vn/ent/2ca8b228> .
+
+<http://transmtl.vn/ent/8bd106fa> onto:located_in <http://www.wikidata.org/entity/Q1854> .
+
+<http://transmtl.vn/ent/aad653ca> onto:located_in <http://transmtl.vn/ent/2ca8b228> .
+
+<http://transmtl.vn/ent/ad026f29> onto:located_in <http://transmtl.vn/ent/2ca8b228> .
+
+<http://transmtl.vn/ent/ddf2effa> onto:located_in <http://transmtl.vn/ent/e5a871c2> .
+
+<http://transmtl.vn/ent/f1c5b027> onto:located_in <http://www.wikidata.org/entity/Q1854> .
+
+<http://transmtl.vn/ent/207462d2> onto:located_in <http://transmtl.vn/ent/2ca8b228>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q933384#convention_hall> onto:part_of <http://www.wikidata.org/entity/Q933384> .
+
+<http://www.wikidata.org/entity/Q933384#f_5e> onto:part_of <http://transmtl.vn/ent/e5a871c2> .
+
+<http://www.wikidata.org/entity/Q933384#government_owned_public_hall> onto:located_in <http://www.wikidata.org/entity/Q1854> .
+
+<http://www.wikidata.org/entity/Q933384#tank> onto:part_of <http://transmtl.vn/ent/20a216f6> .
+
+<http://www.wikidata.org/entity/Q933384#hall> onto:part_of <http://transmtl.vn/ent/79cbd48e>,
+        <http://transmtl.vn/ent/80f048d0> .
+
+<http://www.wikidata.org/entity/Q933384#main_gate> onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/4ca9d3dc> .
+
+<http://www.wikidata.org/entity/Q933384#reunification_convention_hall> onto:located_in <http://www.wikidata.org/entity/Q1854> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1854> .
+
+<http://transmtl.vn/ent/eb0ea0bc> onto:located_in <http://www.wikidata.org/entity/Q1854> ;
+    onto:part_of <http://www.wikidata.org/entity/Q933384> .
+
+<http://www.wikidata.org/entity/Q933384#independence_hall> onto:faces <http://transmtl.vn/ent/d5072356> ;
+    onto:located_in <http://transmtl.vn/ent/07b3859a>,
+        <http://transmtl.vn/ent/619dfee7>,
+        <http://transmtl.vn/ent/e909c2d7> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:has_part <http://www.wikidata.org/entity/Q933384> .
+
+<http://www.wikidata.org/entity/Q1854> onto:has_part <http://www.wikidata.org/entity/Q933384> ;
+    onto:located_in <http://transmtl.vn/ent/2ca8b228>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q933384> onto:designed_by <http://transmtl.vn/ent/adaf9ba0> ;
+    onto:has_component <http://www.wikidata.org/entity/Q933384#convention_hall>,
+        <http://www.wikidata.org/entity/Q933384#f_5e>,
+        <http://www.wikidata.org/entity/Q933384#government_owned_public_hall>,
+        <http://www.wikidata.org/entity/Q933384#hall>,
+        <http://www.wikidata.org/entity/Q933384#independence_hall>,
+        <http://www.wikidata.org/entity/Q933384#main_gate>,
+        <http://www.wikidata.org/entity/Q933384#reunification_convention_hall>,
+        <http://www.wikidata.org/entity/Q933384#tank> ;
+    onto:has_part <http://transmtl.vn/ent/7524123f>,
+        <http://transmtl.vn/ent/eb0ea0bc> ;
+    onto:located_in <http://transmtl.vn/ent/2ca8b228>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://www.wikidata.org/entity/Q1854> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1854> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3263 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.296 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3029 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/e909c2d7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#independence_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9856 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/adaf9ba0> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4373 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#reunification_convention_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4747 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/7524123f> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3192 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/20a216f6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#tank> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4518 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1854> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3084 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.305 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2668 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/2ca8b228> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ad026f29> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8857 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9352 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.252 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#main_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#convention_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2853 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/e5a871c2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ddf2effa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2957 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#government_owned_public_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3787 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3188 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/e5a871c2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#f_5e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5832 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2583 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#reunification_convention_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2894 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/2ca8b228> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/aad653ca> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4226 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/07b3859a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#independence_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#f_5e> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3766 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/619dfee7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#independence_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3968 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2505 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1854> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4309 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2779 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2702 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/2ca8b228> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1854> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#independence_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2984 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/d5072356> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#independence_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#government_owned_public_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5441 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1854> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4652 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/2ca8b228> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5668 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#main_gate> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6402 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#convention_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6871 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#reunification_convention_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384#tank> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9289 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2507 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q933384> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1854> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5379 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f1c5b027> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6137 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/80f048d0> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7013 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8bd106fa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2549 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/4ca9d3dc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#main_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2965 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/79cbd48e> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2721 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/2ca8b228> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q933384> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4163 ;
+    fkg:docId "doc_wiki" ;
+    fkg:kbId "independence_palace" ;
+    rdf:object <http://transmtl.vn/ent/2ca8b228> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/27f08504> .
+

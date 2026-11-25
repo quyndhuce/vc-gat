@@ -1,0 +1,123 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/kim_truc_tu_pagoda> onto:has_part <http://transmtl.vn/kb/kim_truc_tu_pagoda#entrance>,
+        <http://transmtl.vn/kb/kim_truc_tu_pagoda#roof_system> .
+
+<http://transmtl.vn/kb/kim_truc_tu_pagoda#roof_system> onto:over <http://www.wikidata.org/entity/Q1319921> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/kb/kim_truc_tu_pagoda#entrance> onto:part_of <http://www.wikidata.org/entity/Q1319921> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:faces <http://transmtl.vn/kb/red_river> ;
+    onto:in <http://transmtl.vn/ent/2a2d595e> ;
+    onto:located_in <http://transmtl.vn/ent/960db2ed> ;
+    onto:overlooks <http://transmtl.vn/kb/red_river> ;
+    onto:surrounded_by <http://transmtl.vn/ent/a1b38006> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4853 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2558 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/2a2d595e> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3479 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda#roof_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3318 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/a1b38006> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/kim_truc_tu_pagoda#entrance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3281 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3069 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda#roof_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6049 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/960db2ed> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3017 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda#entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/kim_truc_tu_pagoda#entrance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7292 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/kim_truc_tu_pagoda#roof_system> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2604 ;
+    fkg:docId "doc_43b4c2b9c3cc" ;
+    fkg:kbId "kim_truc_tu_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/kim_truc_tu_pagoda#entrance> .
+

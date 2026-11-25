@@ -1,0 +1,317 @@
+[
+  {
+    "system": "Qwen2.5-3B Visual-only",
+    "k_recall": {
+      "point": 31.8,
+      "ci_low": 24.7,
+      "ci_high": 39.1,
+      "str": " 31.8 [ 24.7,  39.1]"
+    },
+    "claim_prec": {
+      "point": 99.7,
+      "ci_low": 99.0,
+      "ci_high": 100.0,
+      "str": " 99.7 [ 99.0, 100.0]"
+    },
+    "vsp": {
+      "point": 99.9,
+      "ci_low": 99.7,
+      "ci_high": 100.0,
+      "str": " 99.9 [ 99.7, 100.0]"
+    },
+    "vur": {
+      "point": 0.1,
+      "ci_low": 0.0,
+      "ci_high": 0.3,
+      "str": "  0.1 [  0.0,   0.3]"
+    },
+    "vcr": {
+      "point": 0.7,
+      "ci_low": 0.0,
+      "ci_high": 2.0,
+      "str": "  0.7 [  0.0,   2.0]"
+    },
+    "non_contra": {
+      "point": 99.3,
+      "ci_low": 98.0,
+      "ci_high": 100.0,
+      "str": " 99.3 [ 98.0, 100.0]"
+    },
+    "oar": {
+      "point": 8.1,
+      "ci_low": 4.0,
+      "ci_high": 12.8,
+      "str": "  8.1 [  4.0,  12.8]"
+    },
+    "policy": {
+      "point": 7.4,
+      "ci_low": 3.4,
+      "ci_high": 12.1,
+      "str": "  7.4 [  3.4,  12.1]"
+    },
+    "bleu4": {
+      "point": 9.9,
+      "ci_low": 8.8,
+      "ci_high": 11.0,
+      "str": "  9.9 [  8.8,  11.0]"
+    },
+    "rouge_l": {
+      "point": 28.3,
+      "ci_low": 27.1,
+      "ci_high": 29.5,
+      "str": " 28.3 [ 27.1,  29.5]"
+    }
+  },
+  {
+    "system": "KG-RAG (Visual + Text RAG)",
+    "k_recall": {
+      "point": 37.5,
+      "ci_low": 30.4,
+      "ci_high": 44.6,
+      "str": " 37.5 [ 30.4,  44.6]"
+    },
+    "claim_prec": {
+      "point": 86.6,
+      "ci_low": 82.9,
+      "ci_high": 89.9,
+      "str": " 86.6 [ 82.9,  89.9]"
+    },
+    "vsp": {
+      "point": 98.1,
+      "ci_low": 97.1,
+      "ci_high": 98.9,
+      "str": " 98.1 [ 97.1,  98.9]"
+    },
+    "vur": {
+      "point": 1.9,
+      "ci_low": 1.1,
+      "ci_high": 2.9,
+      "str": "  1.9 [  1.1,   2.9]"
+    },
+    "vcr": {
+      "point": 26.8,
+      "ci_low": 20.1,
+      "ci_high": 34.2,
+      "str": " 26.8 [ 20.1,  34.2]"
+    },
+    "non_contra": {
+      "point": 73.2,
+      "ci_low": 65.8,
+      "ci_high": 79.9,
+      "str": " 73.2 [ 65.8,  79.9]"
+    },
+    "oar": {
+      "point": 38.3,
+      "ci_low": 30.9,
+      "ci_high": 46.3,
+      "str": " 38.3 [ 30.9,  46.3]"
+    },
+    "policy": {
+      "point": 11.4,
+      "ci_low": 6.7,
+      "ci_high": 16.8,
+      "str": " 11.4 [  6.7,  16.8]"
+    },
+    "bleu4": {
+      "point": 7.7,
+      "ci_low": 6.8,
+      "ci_high": 8.7,
+      "str": "  7.7 [  6.8,   8.7]"
+    },
+    "rouge_l": {
+      "point": 23.4,
+      "ci_low": 22.2,
+      "ci_high": 24.5,
+      "str": " 23.4 [ 22.2,  24.5]"
+    }
+  },
+  {
+    "system": "Unfiltered KG-RAG (Crisp KG)",
+    "k_recall": {
+      "point": 74.9,
+      "ci_low": 70.0,
+      "ci_high": 79.8,
+      "str": " 74.9 [ 70.0,  79.8]"
+    },
+    "claim_prec": {
+      "point": 87.6,
+      "ci_low": 84.2,
+      "ci_high": 90.9,
+      "str": " 87.6 [ 84.2,  90.9]"
+    },
+    "vsp": {
+      "point": 80.5,
+      "ci_low": 77.2,
+      "ci_high": 83.8,
+      "str": " 80.5 [ 77.2,  83.8]"
+    },
+    "vur": {
+      "point": 19.5,
+      "ci_low": 16.2,
+      "ci_high": 22.9,
+      "str": " 19.5 [ 16.2,  22.9]"
+    },
+    "vcr": {
+      "point": 24.8,
+      "ci_low": 18.1,
+      "ci_high": 31.5,
+      "str": " 24.8 [ 18.1,  31.5]"
+    },
+    "non_contra": {
+      "point": 75.2,
+      "ci_low": 67.8,
+      "ci_high": 81.9,
+      "str": " 75.2 [ 67.8,  81.9]"
+    },
+    "oar": {
+      "point": 43.0,
+      "ci_low": 34.9,
+      "ci_high": 51.0,
+      "str": " 43.0 [ 34.9,  51.0]"
+    },
+    "policy": {
+      "point": 16.8,
+      "ci_low": 10.7,
+      "ci_high": 22.8,
+      "str": " 16.8 [ 10.7,  22.8]"
+    },
+    "bleu4": {
+      "point": 11.9,
+      "ci_low": 10.7,
+      "ci_high": 13.2,
+      "str": " 11.9 [ 10.7,  13.2]"
+    },
+    "rouge_l": {
+      "point": 28.5,
+      "ci_low": 27.0,
+      "ci_high": 29.9,
+      "str": " 28.5 [ 27.0,  29.9]"
+    }
+  },
+  {
+    "system": "Hard-threshold KG-RAG (θ=0.50)",
+    "k_recall": {
+      "point": 65.2,
+      "ci_low": 58.8,
+      "ci_high": 71.4,
+      "str": " 65.2 [ 58.8,  71.4]"
+    },
+    "claim_prec": {
+      "point": 99.7,
+      "ci_low": 99.0,
+      "ci_high": 100.0,
+      "str": " 99.7 [ 99.0, 100.0]"
+    },
+    "vsp": {
+      "point": 83.4,
+      "ci_low": 79.9,
+      "ci_high": 86.7,
+      "str": " 83.4 [ 79.9,  86.7]"
+    },
+    "vur": {
+      "point": 16.6,
+      "ci_low": 13.3,
+      "ci_high": 20.0,
+      "str": " 16.6 [ 13.3,  20.0]"
+    },
+    "vcr": {
+      "point": 0.7,
+      "ci_low": 0.0,
+      "ci_high": 2.0,
+      "str": "  0.7 [  0.0,   2.0]"
+    },
+    "non_contra": {
+      "point": 99.3,
+      "ci_low": 98.0,
+      "ci_high": 100.0,
+      "str": " 99.3 [ 98.0, 100.0]"
+    },
+    "oar": {
+      "point": 18.8,
+      "ci_low": 12.8,
+      "ci_high": 24.8,
+      "str": " 18.8 [ 12.8,  24.8]"
+    },
+    "policy": {
+      "point": 18.8,
+      "ci_low": 12.8,
+      "ci_high": 25.5,
+      "str": " 18.8 [ 12.8,  25.5]"
+    },
+    "bleu4": {
+      "point": 12.5,
+      "ci_low": 11.3,
+      "ci_high": 13.6,
+      "str": " 12.5 [ 11.3,  13.6]"
+    },
+    "rouge_l": {
+      "point": 31.7,
+      "ci_low": 30.6,
+      "ci_high": 32.9,
+      "str": " 31.7 [ 30.6,  32.9]"
+    }
+  },
+  {
+    "system": "Ours: Full Fuzzy Pipeline",
+    "k_recall": {
+      "point": 65.5,
+      "ci_low": 59.5,
+      "ci_high": 71.3,
+      "str": " 65.5 [ 59.5,  71.3]"
+    },
+    "claim_prec": {
+      "point": 100.0,
+      "ci_low": 100.0,
+      "ci_high": 100.0,
+      "str": "100.0 [100.0, 100.0]"
+    },
+    "vsp": {
+      "point": 82.5,
+      "ci_low": 79.3,
+      "ci_high": 85.5,
+      "str": " 82.5 [ 79.3,  85.5]"
+    },
+    "vur": {
+      "point": 17.5,
+      "ci_low": 14.4,
+      "ci_high": 20.7,
+      "str": " 17.5 [ 14.4,  20.7]"
+    },
+    "vcr": {
+      "point": 0.0,
+      "ci_low": 0.0,
+      "ci_high": 0.0,
+      "str": "  0.0 [  0.0,   0.0]"
+    },
+    "non_contra": {
+      "point": 100.0,
+      "ci_low": 100.0,
+      "ci_high": 100.0,
+      "str": "100.0 [100.0, 100.0]"
+    },
+    "oar": {
+      "point": 1.3,
+      "ci_low": 0.0,
+      "ci_high": 3.4,
+      "str": "  1.3 [  0.0,   3.4]"
+    },
+    "policy": {
+      "point": 79.2,
+      "ci_low": 72.5,
+      "ci_high": 85.2,
+      "str": " 79.2 [ 72.5,  85.2]"
+    },
+    "bleu4": {
+      "point": 26.6,
+      "ci_low": 24.7,
+      "ci_high": 28.6,
+      "str": " 26.6 [ 24.7,  28.6]"
+    },
+    "rouge_l": {
+      "point": 44.1,
+      "ci_low": 42.0,
+      "ci_high": 46.3,
+      "str": " 44.1 [ 42.0,  46.3]"
+    }
+  }
+]

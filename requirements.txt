@@ -1,0 +1,40 @@
+# =============================================================================
+# Requirements for IJAR Publication Repository:
+# "Decision-Certified Partial Reasoning for Uncertainty-Aware Heritage Video Captioning"
+# International Journal of Approximate Reasoning (IJAR)
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Tier 1: Core Reproduction & Scientific Evaluation Suite
+# (Minimal dependencies to execute all unittests and reproduce Tables 3-7, 11,
+#  Figures 2-3, and persistent storage benchmarks on CPU)
+# -----------------------------------------------------------------------------
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+pyyaml>=6.0
+tqdm>=4.65.0
+
+# -----------------------------------------------------------------------------
+# Tier 2: Deep Learning, Graph Neural Networks & Multimodal Reasoning
+# (Required for full training, VC-GAT attention layers, and VLM captioning)
+# -----------------------------------------------------------------------------
+torch>=2.0.0
+transformers>=4.40.0
+peft>=0.10.0
+torch-geometric>=2.4.0
+qwen-vl-utils>=0.0.8
+sentence-transformers>=2.2.2
+pillow>=9.5.0
+opencv-python>=4.8.0
+rank-bm25>=0.2.2
+
+# -----------------------------------------------------------------------------
+# Tier 3: Knowledge Graph, Ontology & NLP Utilities
+# -----------------------------------------------------------------------------
+rdflib>=6.3.0
+networkx>=3.0
+spacy>=3.7.0
+rouge-score>=0.1.2

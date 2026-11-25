@@ -1,0 +1,2028 @@
+{
+  "scene_metadata": {
+    "scene_id": "scene_04",
+    "scene_index": 4,
+    "video_path": "/home/nguyendinhquy/OvSGTR/demo2.mp4",
+    "start_frame": 320,
+    "end_frame": 376,
+    "start_seconds": 12.8,
+    "end_seconds": 15.04,
+    "duration_seconds": 2.24,
+    "num_keyframes": 4,
+    "fps": 25.0
+  },
+  "tracked_entities": [
+    {
+      "track_id": "T01",
+      "detector_label": "building",
+      "detector_score": 0.5304,
+      "siglip2_label": "Vietnamese temple",
+      "siglip2_concept_id": "temple_den",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "stone",
+          "label_en": "stone",
+          "confidence": 0.398
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.9661
+        }
+      },
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 331,
+          "box_2d": [
+            2.33,
+            0.1,
+            1918.0,
+            1077.43
+          ],
+          "score": 0.5197
+        },
+        {
+          "frame_idx": 342,
+          "box_2d": [
+            2.27,
+            0.06,
+            1918.06,
+            1077.49
+          ],
+          "score": 0.5172
+        },
+        {
+          "frame_idx": 353,
+          "box_2d": [
+            2.22,
+            0.0,
+            1918.15,
+            1077.58
+          ],
+          "score": 0.5304
+        },
+        {
+          "frame_idx": 364,
+          "box_2d": [
+            2.12,
+            0.14,
+            1918.12,
+            1077.88
+          ],
+          "score": 0.5273
+        }
+      ]
+    },
+    {
+      "track_id": "T02",
+      "detector_label": "person",
+      "detector_score": 0.3652,
+      "siglip2_label": "person",
+      "siglip2_concept_id": "person",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 331,
+          "box_2d": [
+            844.39,
+            150.75,
+            1029.32,
+            323.05
+          ],
+          "score": 0.3482
+        },
+        {
+          "frame_idx": 342,
+          "box_2d": [
+            844.67,
+            147.52,
+            1031.71,
+            323.78
+          ],
+          "score": 0.3533
+        },
+        {
+          "frame_idx": 353,
+          "box_2d": [
+            844.06,
+            149.49,
+            1032.38,
+            325.2
+          ],
+          "score": 0.3652
+        },
+        {
+          "frame_idx": 364,
+          "box_2d": [
+            846.08,
+            154.78,
+            1033.07,
+            329.8
+          ],
+          "score": 0.2981
+        }
+      ]
+    },
+    {
+      "track_id": "T03",
+      "detector_label": "railing",
+      "detector_score": 0.2806,
+      "siglip2_label": "Vietnamese temple",
+      "siglip2_concept_id": "temple_den",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "wood",
+          "label_en": "wood",
+          "confidence": 0.2384
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.971
+        }
+      },
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 331,
+          "box_2d": [
+            1.06,
+            617.73,
+            1918.48,
+            1075.66
+          ],
+          "score": 0.2716
+        },
+        {
+          "frame_idx": 342,
+          "box_2d": [
+            1.09,
+            618.69,
+            1918.35,
+            1075.61
+          ],
+          "score": 0.2777
+        },
+        {
+          "frame_idx": 353,
+          "box_2d": [
+            0.96,
+            620.54,
+            1918.58,
+            1075.97
+          ],
+          "score": 0.28
+        },
+        {
+          "frame_idx": 364,
+          "box_2d": [
+            1.05,
+            625.32,
+            1918.61,
+            1076.28
+          ],
+          "score": 0.2806
+        }
+      ]
+    },
+    {
+      "track_id": "T04",
+      "detector_label": "person",
+      "detector_score": 0.285,
+      "siglip2_label": "person",
+      "siglip2_concept_id": "person",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 331,
+          "box_2d": [
+            1045.52,
+            153.15,
+            1215.8,
+            323.13
+          ],
+          "score": 0.2322
+        },
+        {
+          "frame_idx": 342,
+          "box_2d": [
+            1043.6,
+            150.87,
+            1215.24,
+            324.06
+          ],
+          "score": 0.2244
+        },
+        {
+          "frame_idx": 353,
+          "box_2d": [
+            1043.46,
+            151.5,
+            1216.49,
+            325.54
+          ],
+          "score": 0.2181
+        },
+        {
+          "frame_idx": 364,
+          "box_2d": [
+            1046.18,
+            153.64,
+            1219.77,
+            329.52
+          ],
+          "score": 0.285
+        }
+      ]
+    },
+    {
+      "track_id": "T05",
+      "detector_label": "tree",
+      "detector_score": 0.2861,
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree",
+      "is_refined_by_siglip2": false,
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "frames_observed": [
+        331,
+        342,
+        353
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 331,
+          "box_2d": [
+            1045.52,
+            153.15,
+            1215.8,
+            323.13
+          ],
+          "score": 0.2262
+        },
+        {
+          "frame_idx": 342,
+          "box_2d": [
+            1043.6,
+            150.87,
+            1215.24,
+            324.06
+          ],
+          "score": 0.269
+        },
+        {
+          "frame_idx": 353,
+          "box_2d": [
+            1043.46,
+            151.5,
+            1216.49,
+            325.54
+          ],
+          "score": 0.2861
+        }
+      ]
+    },
+    {
+      "track_id": "T06",
+      "detector_label": "roof",
+      "detector_score": 0.2067,
+      "siglip2_label": "red lacquered column",
+      "siglip2_concept_id": "lacquered_column",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "wood",
+          "label_en": "wood",
+          "confidence": 0.3611
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.9427
+        }
+      },
+      "frames_observed": [
+        331
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 331,
+          "box_2d": [
+            12.71,
+            0.57,
+            1815.11,
+            193.54
+          ],
+          "score": 0.2067
+        }
+      ]
+    },
+    {
+      "track_id": "T07",
+      "detector_label": "railing",
+      "detector_score": 0.2135,
+      "siglip2_label": "red painted wooden bridge",
+      "siglip2_concept_id": "red_wooden_bridge",
+      "is_refined_by_siglip2": true,
+      "attributes": {
+        "material": {
+          "id": "wood",
+          "label_en": "wood",
+          "confidence": 0.7769
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.9881
+        }
+      },
+      "frames_observed": [
+        331,
+        353,
+        364
+      ],
+      "trajectory": [
+        {
+          "frame_idx": 331,
+          "box_2d": [
+            1416.6,
+            622.87,
+            1919.54,
+            920.09
+          ],
+          "score": 0.2008
+        },
+        {
+          "frame_idx": 353,
+          "box_2d": [
+            1418.35,
+            625.78,
+            1919.55,
+            928.28
+          ],
+          "score": 0.2135
+        },
+        {
+          "frame_idx": 364,
+          "box_2d": [
+            1493.78,
+            709.97,
+            1919.67,
+            917.46
+          ],
+          "score": 0.2046
+        }
+      ]
+    }
+  ],
+  "scene_level_relations": [
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Vietnamese temple",
+      "refined_triple": "T02 (person) -> on -> T01 (Vietnamese temple)",
+      "max_confidence": 0.1504,
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Vietnamese temple",
+      "refined_triple": "T04 (person) -> on -> T01 (Vietnamese temple)",
+      "max_confidence": 0.1375,
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T05",
+      "subject_siglip2_label": "tree",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Vietnamese temple",
+      "refined_triple": "T05 (tree) -> on -> T01 (Vietnamese temple)",
+      "max_confidence": 0.1197,
+      "frames_observed": [
+        331,
+        342,
+        353
+      ]
+    },
+    {
+      "subject_track_id": "T03",
+      "subject_siglip2_label": "red lacquered column",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Vietnamese temple",
+      "refined_triple": "T03 (red lacquered column) -> on -> T01 (Vietnamese temple)",
+      "max_confidence": 0.1088,
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Vietnamese temple",
+      "refined_triple": "T07 (red painted wooden bridge) -> on -> T01 (Vietnamese temple)",
+      "max_confidence": 0.1069,
+      "frames_observed": [
+        331,
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T06",
+      "subject_siglip2_label": "red lacquered column",
+      "predicate": "above",
+      "object_track_id": "T01",
+      "object_siglip2_label": "Vietnamese temple",
+      "refined_triple": "T06 (red lacquered column) -> above -> T01 (Vietnamese temple)",
+      "max_confidence": 0.0899,
+      "frames_observed": [
+        331
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "red lacquered column",
+      "refined_triple": "T02 (person) -> on -> T03 (red lacquered column)",
+      "max_confidence": 0.0775,
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T07",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "red lacquered column",
+      "refined_triple": "T07 (red painted wooden bridge) -> on -> T03 (red lacquered column)",
+      "max_confidence": 0.0683,
+      "frames_observed": [
+        331,
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Vietnamese temple",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "red lacquered column",
+      "refined_triple": "T01 (Vietnamese temple) -> on -> T03 (red lacquered column)",
+      "max_confidence": 0.0639,
+      "frames_observed": [
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Vietnamese temple",
+      "predicate": "above",
+      "object_track_id": "T03",
+      "object_siglip2_label": "red lacquered column",
+      "refined_triple": "T01 (Vietnamese temple) -> above -> T03 (red lacquered column)",
+      "max_confidence": 0.0631,
+      "frames_observed": [
+        331,
+        342
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Vietnamese temple",
+      "predicate": "on",
+      "object_track_id": "T05",
+      "object_siglip2_label": "tree",
+      "refined_triple": "T01 (Vietnamese temple) -> on -> T05 (tree)",
+      "max_confidence": 0.0616,
+      "frames_observed": [
+        331,
+        342,
+        353
+      ]
+    },
+    {
+      "subject_track_id": "T04",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T03",
+      "object_siglip2_label": "Vietnamese temple",
+      "refined_triple": "T04 (person) -> on -> T03 (Vietnamese temple)",
+      "max_confidence": 0.0593,
+      "frames_observed": [
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Vietnamese temple",
+      "predicate": "on",
+      "object_track_id": "T02",
+      "object_siglip2_label": "person",
+      "refined_triple": "T01 (Vietnamese temple) -> on -> T02 (person)",
+      "max_confidence": 0.0585,
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T01",
+      "subject_siglip2_label": "Vietnamese temple",
+      "predicate": "on",
+      "object_track_id": "T04",
+      "object_siglip2_label": "person",
+      "refined_triple": "T01 (Vietnamese temple) -> on -> T04 (person)",
+      "max_confidence": 0.0538,
+      "frames_observed": [
+        331,
+        342,
+        353,
+        364
+      ]
+    },
+    {
+      "subject_track_id": "T02",
+      "subject_siglip2_label": "person",
+      "predicate": "on",
+      "object_track_id": "T07",
+      "object_siglip2_label": "red painted wooden bridge",
+      "refined_triple": "T02 (person) -> on -> T07 (red painted wooden bridge)",
+      "max_confidence": 0.0501,
+      "frames_observed": [
+        353
+      ]
+    }
+  ],
+  "keyframes": [
+    {
+      "frame_idx": 331,
+      "timestamp_sec": 13.24,
+      "image_path": "demo2_output/scene_04/frame_000331.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            2.33,
+            0.1,
+            1918.0,
+            1077.43
+          ],
+          "detector_label": "building",
+          "detector_score": 0.5197,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.5287,
+            "runner_up": {
+              "id": "moon_gate",
+              "label_en": "circular doorway",
+              "siglip2_confidence": 0.0935
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "stone",
+              "label_en": "stone",
+              "confidence": 0.3737
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9621
+            }
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            844.39,
+            150.75,
+            1029.32,
+            323.05
+          ],
+          "detector_label": "person",
+          "detector_score": 0.3482,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            1.06,
+            617.73,
+            1918.48,
+            1075.66
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2716,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red lacquered column",
+          "siglip2_concept_id": "lacquered_column",
+          "refined_concept": {
+            "id": "lacquered_column",
+            "label_en": "red lacquered column",
+            "description": "a red and gold lacquered wooden column",
+            "group": "architectural_elements",
+            "siglip2_confidence": 0.3869,
+            "runner_up": {
+              "id": "temple_den",
+              "label_en": "Vietnamese temple",
+              "siglip2_confidence": 0.1954
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.2747
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9684
+            }
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            1045.52,
+            153.15,
+            1215.8,
+            323.13
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2322,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1045.52,
+            153.15,
+            1215.8,
+            323.13
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2262,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T05"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            12.71,
+            0.57,
+            1815.11,
+            193.54
+          ],
+          "detector_label": "roof",
+          "detector_score": 0.2067,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red lacquered column",
+          "siglip2_concept_id": "lacquered_column",
+          "refined_concept": {
+            "id": "lacquered_column",
+            "label_en": "red lacquered column",
+            "description": "a red and gold lacquered wooden column",
+            "group": "architectural_elements",
+            "siglip2_confidence": 0.1163,
+            "runner_up": {
+              "id": "ancient_house",
+              "label_en": "old wooden house",
+              "siglip2_confidence": 0.0896
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.3611
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9427
+            }
+          },
+          "track_id": "T06"
+        },
+        {
+          "node_idx": 6,
+          "orig_idx": 6,
+          "box_2d": [
+            1416.6,
+            622.87,
+            1919.54,
+            920.09
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2008,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.494,
+            "runner_up": {
+              "id": "lacquered_column",
+              "label_en": "red lacquered column",
+              "siglip2_confidence": 0.3257
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.743
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9876
+            }
+          },
+          "track_id": "T07"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1433,
+          "rel_score": 0.3368,
+          "detector_triple": "T02 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1104,
+          "rel_score": 0.3177,
+          "detector_triple": "T04 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T04 (person) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.109,
+          "rel_score": 0.3177,
+          "detector_triple": "T05 (tree) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T05 (tree) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red lacquered column",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1053,
+          "rel_score": 0.2802,
+          "detector_triple": "T03 (railing) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T03 (red lacquered column) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1042,
+          "rel_score": 0.3227,
+          "detector_triple": "T07 (railing) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T06",
+          "subject_detector_label": "roof",
+          "subject_siglip2_label": "red lacquered column",
+          "predicate": "above",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.0899,
+          "rel_score": 0.2742,
+          "detector_triple": "T06 (roof) -> above -> T01 (building)",
+          "siglip2_refined_triple": "T06 (red lacquered column) -> above -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red lacquered column",
+          "confidence": 0.0739,
+          "rel_score": 0.2402,
+          "detector_triple": "T02 (person) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T03 (red lacquered column)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red lacquered column",
+          "confidence": 0.0644,
+          "rel_score": 0.2756,
+          "detector_triple": "T07 (railing) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T03 (red lacquered column)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "above",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red lacquered column",
+          "confidence": 0.0626,
+          "rel_score": 0.1667,
+          "detector_triple": "T01 (building) -> above -> T03 (railing)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> above -> T03 (red lacquered column)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0561,
+          "rel_score": 0.1319,
+          "detector_triple": "T01 (building) -> on -> T02 (person)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T02 (person)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0517,
+          "rel_score": 0.1489,
+          "detector_triple": "T01 (building) -> on -> T04 (person)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T04 (person)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.051,
+          "rel_score": 0.1489,
+          "detector_triple": "T01 (building) -> on -> T05 (tree)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T05 (tree)"
+        }
+      ]
+    },
+    {
+      "frame_idx": 342,
+      "timestamp_sec": 13.68,
+      "image_path": "demo2_output/scene_04/frame_000342.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            2.27,
+            0.06,
+            1918.06,
+            1077.49
+          ],
+          "detector_label": "building",
+          "detector_score": 0.5172,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.588,
+            "runner_up": {
+              "id": "lacquered_column",
+              "label_en": "red lacquered column",
+              "siglip2_confidence": 0.0755
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "stone",
+              "label_en": "stone",
+              "confidence": 0.3578
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9683
+            }
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            844.67,
+            147.52,
+            1031.71,
+            323.78
+          ],
+          "detector_label": "person",
+          "detector_score": 0.3533,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            1.09,
+            618.69,
+            1918.35,
+            1075.61
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2777,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red lacquered column",
+          "siglip2_concept_id": "lacquered_column",
+          "refined_concept": {
+            "id": "lacquered_column",
+            "label_en": "red lacquered column",
+            "description": "a red and gold lacquered wooden column",
+            "group": "architectural_elements",
+            "siglip2_confidence": 0.3939,
+            "runner_up": {
+              "id": "temple_den",
+              "label_en": "Vietnamese temple",
+              "siglip2_confidence": 0.2224
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.2789
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9713
+            }
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            1043.6,
+            150.87,
+            1215.24,
+            324.06
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.269,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T05"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1043.6,
+            150.87,
+            1215.24,
+            324.06
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2244,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T04"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1452,
+          "rel_score": 0.3398,
+          "detector_triple": "T02 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1156,
+          "rel_score": 0.3099,
+          "detector_triple": "T05 (tree) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T05 (tree) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1056,
+          "rel_score": 0.3099,
+          "detector_triple": "T04 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T04 (person) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red lacquered column",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1049,
+          "rel_score": 0.2769,
+          "detector_triple": "T03 (railing) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T03 (red lacquered column) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red lacquered column",
+          "confidence": 0.0775,
+          "rel_score": 0.2475,
+          "detector_triple": "T02 (person) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T03 (red lacquered column)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "above",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red lacquered column",
+          "confidence": 0.0631,
+          "rel_score": 0.1666,
+          "detector_triple": "T01 (building) -> above -> T03 (railing)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> above -> T03 (red lacquered column)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.058,
+          "rel_score": 0.1555,
+          "detector_triple": "T01 (building) -> on -> T05 (tree)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.057,
+          "rel_score": 0.1334,
+          "detector_triple": "T01 (building) -> on -> T02 (person)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T02 (person)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.053,
+          "rel_score": 0.1555,
+          "detector_triple": "T01 (building) -> on -> T04 (person)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T04 (person)"
+        }
+      ]
+    },
+    {
+      "frame_idx": 353,
+      "timestamp_sec": 14.12,
+      "image_path": "demo2_output/scene_04/frame_000353.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            2.22,
+            0.0,
+            1918.15,
+            1077.58
+          ],
+          "detector_label": "building",
+          "detector_score": 0.5304,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.5284,
+            "runner_up": {
+              "id": "moon_gate",
+              "label_en": "circular doorway",
+              "siglip2_confidence": 0.0833
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "stone",
+              "label_en": "stone",
+              "confidence": 0.398
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9661
+            }
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            844.06,
+            149.49,
+            1032.38,
+            325.2
+          ],
+          "detector_label": "person",
+          "detector_score": 0.3652,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            1043.46,
+            151.5,
+            1216.49,
+            325.54
+          ],
+          "detector_label": "tree",
+          "detector_score": 0.2861,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "tree",
+          "siglip2_concept_id": "tree",
+          "refined_concept": {
+            "id": "tree",
+            "label_en": "tree",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T05"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            0.96,
+            620.54,
+            1918.58,
+            1075.97
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.28,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red lacquered column",
+          "siglip2_concept_id": "lacquered_column",
+          "refined_concept": {
+            "id": "lacquered_column",
+            "label_en": "red lacquered column",
+            "description": "a red and gold lacquered wooden column",
+            "group": "architectural_elements",
+            "siglip2_confidence": 0.3807,
+            "runner_up": {
+              "id": "temple_den",
+              "label_en": "Vietnamese temple",
+              "siglip2_confidence": 0.1879
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.2999
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9757
+            }
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1043.46,
+            151.5,
+            1216.49,
+            325.54
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2181,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 5,
+          "orig_idx": 5,
+          "box_2d": [
+            1418.35,
+            625.78,
+            1919.55,
+            928.28
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2135,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red painted wooden bridge",
+          "siglip2_concept_id": "red_wooden_bridge",
+          "refined_concept": {
+            "id": "red_wooden_bridge",
+            "label_en": "red painted wooden bridge",
+            "description": "a small red wooden footbridge over water",
+            "group": "water_and_transport",
+            "siglip2_confidence": 0.426,
+            "runner_up": {
+              "id": "lacquered_column",
+              "label_en": "red lacquered column",
+              "siglip2_confidence": 0.3825
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.7769
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9881
+            }
+          },
+          "track_id": "T07"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1504,
+          "rel_score": 0.3416,
+          "detector_triple": "T02 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T05",
+          "subject_detector_label": "tree",
+          "subject_siglip2_label": "tree",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1197,
+          "rel_score": 0.3073,
+          "detector_triple": "T05 (tree) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T05 (tree) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red lacquered column",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1088,
+          "rel_score": 0.2823,
+          "detector_triple": "T03 (railing) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T03 (red lacquered column) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1069,
+          "rel_score": 0.3177,
+          "detector_triple": "T07 (railing) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1045,
+          "rel_score": 0.3073,
+          "detector_triple": "T04 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T04 (person) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red lacquered column",
+          "confidence": 0.0775,
+          "rel_score": 0.2422,
+          "detector_triple": "T02 (person) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T03 (red lacquered column)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red painted wooden bridge",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red lacquered column",
+          "confidence": 0.0683,
+          "rel_score": 0.2793,
+          "detector_triple": "T07 (railing) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T07 (red painted wooden bridge) -> on -> T03 (red lacquered column)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red lacquered column",
+          "confidence": 0.0639,
+          "rel_score": 0.1659,
+          "detector_triple": "T01 (building) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T03 (red lacquered column)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T05",
+          "object_detector_label": "tree",
+          "object_siglip2_label": "tree",
+          "confidence": 0.0616,
+          "rel_score": 0.1581,
+          "detector_triple": "T01 (building) -> on -> T05 (tree)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T05 (tree)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0585,
+          "rel_score": 0.1329,
+          "detector_triple": "T01 (building) -> on -> T02 (person)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T02 (person)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0538,
+          "rel_score": 0.1581,
+          "detector_triple": "T01 (building) -> on -> T04 (person)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T04 (person)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T07",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "red painted wooden bridge",
+          "confidence": 0.0501,
+          "rel_score": 0.1795,
+          "detector_triple": "T02 (person) -> on -> T07 (railing)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T07 (red painted wooden bridge)"
+        }
+      ]
+    },
+    {
+      "frame_idx": 364,
+      "timestamp_sec": 14.56,
+      "image_path": "demo2_output/scene_04/frame_000364.jpg",
+      "width": 1920,
+      "height": 1080,
+      "nodes": [
+        {
+          "node_idx": 0,
+          "orig_idx": 0,
+          "box_2d": [
+            2.12,
+            0.14,
+            1918.12,
+            1077.88
+          ],
+          "detector_label": "building",
+          "detector_score": 0.5273,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.5333,
+            "runner_up": {
+              "id": "lacquered_column",
+              "label_en": "red lacquered column",
+              "siglip2_confidence": 0.0833
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "stone",
+              "label_en": "stone",
+              "confidence": 0.3419
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9642
+            }
+          },
+          "track_id": "T01"
+        },
+        {
+          "node_idx": 1,
+          "orig_idx": 1,
+          "box_2d": [
+            846.08,
+            154.78,
+            1033.07,
+            329.8
+          ],
+          "detector_label": "person",
+          "detector_score": 0.2981,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T02"
+        },
+        {
+          "node_idx": 2,
+          "orig_idx": 2,
+          "box_2d": [
+            1046.18,
+            153.64,
+            1219.77,
+            329.52
+          ],
+          "detector_label": "person",
+          "detector_score": 0.285,
+          "is_refined_by_siglip2": false,
+          "triage_type": "natural_primitive_or_person",
+          "siglip2_label": "person",
+          "siglip2_concept_id": "person",
+          "refined_concept": {
+            "id": "person",
+            "label_en": "person",
+            "group": "natural_primitive",
+            "siglip2_confidence": null,
+            "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+          },
+          "attributes": {
+            "material": null,
+            "dominant_colour": null
+          },
+          "track_id": "T04"
+        },
+        {
+          "node_idx": 3,
+          "orig_idx": 3,
+          "box_2d": [
+            1.05,
+            625.32,
+            1918.61,
+            1076.28
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2806,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "Vietnamese temple",
+          "siglip2_concept_id": "temple_den",
+          "refined_concept": {
+            "id": "temple_den",
+            "label_en": "Vietnamese temple",
+            "description": "a temple hall with red lacquered doors and curved roof",
+            "group": "religious_architecture",
+            "siglip2_confidence": 0.3606,
+            "runner_up": {
+              "id": "lacquered_column",
+              "label_en": "red lacquered column",
+              "siglip2_confidence": 0.2838
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "wood",
+              "label_en": "wood",
+              "confidence": 0.2384
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.971
+            }
+          },
+          "track_id": "T03"
+        },
+        {
+          "node_idx": 4,
+          "orig_idx": 4,
+          "box_2d": [
+            1493.78,
+            709.97,
+            1919.67,
+            917.46
+          ],
+          "detector_label": "railing",
+          "detector_score": 0.2046,
+          "is_refined_by_siglip2": true,
+          "triage_type": "architectural_or_cultural",
+          "siglip2_label": "red lacquered column",
+          "siglip2_concept_id": "lacquered_column",
+          "refined_concept": {
+            "id": "lacquered_column",
+            "label_en": "red lacquered column",
+            "description": "a red and gold lacquered wooden column",
+            "group": "architectural_elements",
+            "siglip2_confidence": 0.8137,
+            "runner_up": {
+              "id": "red_wooden_bridge",
+              "label_en": "red painted wooden bridge",
+              "siglip2_confidence": 0.0763
+            }
+          },
+          "attributes": {
+            "material": {
+              "id": "concrete",
+              "label_en": "concrete",
+              "confidence": 0.3344
+            },
+            "dominant_colour": {
+              "id": "red",
+              "label_en": "red",
+              "confidence": 0.9868
+            }
+          },
+          "track_id": "T07"
+        }
+      ],
+      "edges": [
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1375,
+          "rel_score": 0.3548,
+          "detector_triple": "T04 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T04 (person) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1344,
+          "rel_score": 0.3389,
+          "detector_triple": "T02 (person) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T03",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1065,
+          "rel_score": 0.2769,
+          "detector_triple": "T03 (railing) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T03 (Vietnamese temple) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red lacquered column",
+          "predicate": "on",
+          "object_track_id": "T01",
+          "object_detector_label": "building",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.1011,
+          "rel_score": 0.3077,
+          "detector_triple": "T07 (railing) -> on -> T01 (building)",
+          "siglip2_refined_triple": "T07 (red lacquered column) -> on -> T01 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T07",
+          "subject_detector_label": "railing",
+          "subject_siglip2_label": "red lacquered column",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.0675,
+          "rel_score": 0.2819,
+          "detector_triple": "T07 (railing) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T07 (red lacquered column) -> on -> T03 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T02",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.0652,
+          "rel_score": 0.2254,
+          "detector_triple": "T02 (person) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T02 (person) -> on -> T03 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.0635,
+          "rel_score": 0.165,
+          "detector_triple": "T01 (building) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T03 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T04",
+          "subject_detector_label": "person",
+          "subject_siglip2_label": "person",
+          "predicate": "on",
+          "object_track_id": "T03",
+          "object_detector_label": "railing",
+          "object_siglip2_label": "Vietnamese temple",
+          "confidence": 0.0593,
+          "rel_score": 0.2097,
+          "detector_triple": "T04 (person) -> on -> T03 (railing)",
+          "siglip2_refined_triple": "T04 (person) -> on -> T03 (Vietnamese temple)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T02",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0509,
+          "rel_score": 0.1284,
+          "detector_triple": "T01 (building) -> on -> T02 (person)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T02 (person)"
+        },
+        {
+          "subject_track_id": "T01",
+          "subject_detector_label": "building",
+          "subject_siglip2_label": "Vietnamese temple",
+          "predicate": "on",
+          "object_track_id": "T04",
+          "object_detector_label": "person",
+          "object_siglip2_label": "person",
+          "confidence": 0.0501,
+          "rel_score": 0.1292,
+          "detector_triple": "T01 (building) -> on -> T04 (person)",
+          "siglip2_refined_triple": "T01 (Vietnamese temple) -> on -> T04 (person)"
+        }
+      ]
+    }
+  ]
+}

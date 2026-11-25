@@ -1,0 +1,476 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/d90f3d29> onto:part_of <http://transmtl.vn/kb/building_d67> .
+
+<http://transmtl.vn/kb/building_d67#d67_bunker> onto:built_in <http://transmtl.vn/ent/a82d922b> .
+
+<http://transmtl.vn/kb/building_d67#desk> onto:used_by <http://transmtl.vn/ent/b68b3ba5> .
+
+<http://transmtl.vn/kb/building_d67#largest_room> onto:part_of <http://transmtl.vn/ent/3ca11381> .
+
+<http://transmtl.vn/kb/building_d67#outer_layer> onto:made_of <http://transmtl.vn/ent/1c8a5026> .
+
+<http://transmtl.vn/kb/building_d67#rooms> onto:part_of <http://transmtl.vn/kb/building_d67> .
+
+<http://transmtl.vn/kb/building_d67#sand> onto:used_as <http://transmtl.vn/ent/aa177432> .
+
+<http://transmtl.vn/kb/building_d67#walls> onto:part_of <http://transmtl.vn/ent/1b20e902>,
+        <http://transmtl.vn/ent/5058f1af> .
+
+<http://transmtl.vn/kb/building_d67#roof> onto:part_of <http://transmtl.vn/kb/building_d67> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:built_in <http://transmtl.vn/ent/a82d922b> .
+
+<http://transmtl.vn/kb/building_d67#construction_materials> onto:made_of <http://transmtl.vn/ent/3eb38fa8>,
+        <http://transmtl.vn/ent/88336b5b>,
+        <http://transmtl.vn/ent/bcd31c71>,
+        <http://transmtl.vn/ent/c6d3456c>,
+        <http://transmtl.vn/ent/ecfd485b> .
+
+<http://transmtl.vn/kb/building_d67> onto:architectural_style <http://transmtl.vn/ent/4131d75e>,
+        <http://transmtl.vn/ent/ae74ea4e> ;
+    onto:built_by <http://transmtl.vn/ent/2a7e695e> ;
+    onto:built_in <http://transmtl.vn/ent/3683af9d>,
+        <http://transmtl.vn/ent/a82d922b> ;
+    onto:has_part <http://transmtl.vn/kb/building_d67#construction_materials>,
+        <http://transmtl.vn/kb/building_d67#d67_bunker>,
+        <http://transmtl.vn/kb/building_d67#desk>,
+        <http://transmtl.vn/kb/building_d67#largest_room>,
+        <http://transmtl.vn/kb/building_d67#outer_layer>,
+        <http://transmtl.vn/kb/building_d67#roof>,
+        <http://transmtl.vn/kb/building_d67#rooms>,
+        <http://transmtl.vn/kb/building_d67#sand>,
+        <http://transmtl.vn/kb/building_d67#walls> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    onto:near <http://transmtl.vn/kb/kinh_thien_palace> ;
+    onto:part_of <http://transmtl.vn/ent/ff9a1322>,
+        <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3278 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/aa177432> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#sand> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5533 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/a82d922b> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.351 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/bcd31c71> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#desk> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4143 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/ff9a1322> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6029 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/4131d75e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3335 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/c6d3456c> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3797 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#outer_layer> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3518 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/88336b5b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3502 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/ecfd485b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5578 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/2a7e695e> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3846 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/c6d3456c> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8295 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/b68b3ba5> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#desk> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3962 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/3eb38fa8> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4557 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2518 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/ff9a1322> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2555 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4314 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#construction_materials> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3983 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#sand> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3563 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.322 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/3eb38fa8> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7324 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/a82d922b> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7737 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/a82d922b> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4128 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/bcd31c71> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4499 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2903 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/d90f3d29> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5977 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4723 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/ae74ea4e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2821 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/3683af9d> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3063 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/ecfd485b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3277 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4927 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/2a7e695e> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.269 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#d67_bunker> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#rooms> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#construction_materials> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5119 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4744 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67#largest_room> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5879 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/a82d922b> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#d67_bunker> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.275 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/88336b5b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#construction_materials> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.253 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7019 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/1c8a5026> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#outer_layer> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.374 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/3ca11381> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#largest_room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7759 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/a82d922b> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/building_d67> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2638 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/kb/building_d67> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6158 ;
+    fkg:docId "doc_397d87d5aa34" ;
+    fkg:kbId "building_d67" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/building_d67#walls> .
+

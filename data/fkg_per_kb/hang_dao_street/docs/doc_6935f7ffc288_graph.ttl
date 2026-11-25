@@ -1,0 +1,99 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/a8677272> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q10770772#ground_floors> onto:part_of <http://transmtl.vn/ent/a1b0311b> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q10770772> onto:has_part <http://www.wikidata.org/entity/Q10770772#ground_floors> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/291f141d>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://www.wikidata.org/entity/Q1151254>,
+        <http://www.wikidata.org/entity/Q2234574> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3492 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5785 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/291f141d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772#ground_floors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.413 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.39 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7659 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q2234574> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6474 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7587 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2826 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/a1b0311b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772#ground_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3433 ;
+    fkg:docId "doc_6935f7ffc288" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a8677272> .
+

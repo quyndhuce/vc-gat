@@ -1,0 +1,134 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/02d67676> onto:part_of <http://transmtl.vn/kb/tay_ho_temple> .
+
+<http://transmtl.vn/kb/son_trang_palace#offerings> onto:dedicated_to <http://transmtl.vn/ent/5e37719b> .
+
+<http://transmtl.vn/kb/son_trang_palace> onto:has_part <http://transmtl.vn/kb/son_trang_palace#altar>,
+        <http://transmtl.vn/kb/son_trang_palace#offerings> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/son_trang_palace#altar> onto:part_of <http://transmtl.vn/kb/tay_ho_temple> ;
+    onto:surrounded_by <http://transmtl.vn/ent/9f864082> .
+
+<http://transmtl.vn/kb/tay_ho_temple> onto:architectural_style <http://transmtl.vn/ent/6d59f8f4>,
+        <http://transmtl.vn/ent/9b732bf8> ;
+    onto:surrounded_by <http://transmtl.vn/ent/494232ca>,
+        <http://transmtl.vn/ent/71d3b811>,
+        <http://transmtl.vn/ent/c5f53073> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6247 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/ent/6d59f8f4> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2761 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/son_trang_palace#altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/kb/son_trang_palace#offerings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/son_trang_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/kb/son_trang_palace#altar> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/son_trang_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6698 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/son_trang_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7032 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/son_trang_palace#altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5484 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/ent/5e37719b> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/son_trang_palace#offerings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/kb/son_trang_palace#altar> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/son_trang_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2919 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/ent/494232ca> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4622 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/son_trang_palace#altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3991 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/02d67676> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4794 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7425 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/ent/71d3b811> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5601 ;
+    fkg:docId "doc_e4721945d163" ;
+    fkg:kbId "son_trang_palace" ;
+    rdf:object <http://transmtl.vn/ent/c5f53073> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+

@@ -1,0 +1,262 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/tam_quan_gate> onto:part_of <http://transmtl.vn/kb/nghi_mon_gate> .
+
+<http://transmtl.vn/kb/nghi_mon_gate#foundation> onto:part_of <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/nghi_mon_gate#gate> onto:connects <http://transmtl.vn/ent/d0973f87> .
+
+<http://transmtl.vn/kb/nghi_mon_gate#grand_entrance> onto:commemorates <http://transmtl.vn/ent/e4f1ee70> .
+
+<http://transmtl.vn/kb/nghi_mon_gate#dragons> onto:above <http://transmtl.vn/ent/1ea9c5f1> ;
+    onto:part_of <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/nghi_mon_gate#pillars> onto:part_of <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/nghi_mon_gate#tiered_roofs> onto:part_of <http://transmtl.vn/ent/63d721d2>,
+        <http://transmtl.vn/kb/nghi_mon_gate> .
+
+<http://transmtl.vn/kb/nghi_mon_gate#courtyard> onto:near <http://transmtl.vn/ent/4808327f> ;
+    onto:surrounded_by <http://transmtl.vn/ent/0533e7f0>,
+        <http://transmtl.vn/ent/d6cf136a> .
+
+<http://transmtl.vn/kb/nghi_mon_gate> onto:architectural_style <http://transmtl.vn/ent/437645a9>,
+        <http://transmtl.vn/ent/a2a8152a> ;
+    onto:commemorates <http://transmtl.vn/ent/b069e7de>,
+        <http://transmtl.vn/ent/e4f1ee70> ;
+    onto:has_part <http://transmtl.vn/kb/nghi_mon_gate#courtyard>,
+        <http://transmtl.vn/kb/nghi_mon_gate#dragons>,
+        <http://transmtl.vn/kb/nghi_mon_gate#foundation>,
+        <http://transmtl.vn/kb/nghi_mon_gate#gate>,
+        <http://transmtl.vn/kb/nghi_mon_gate#grand_entrance>,
+        <http://transmtl.vn/kb/nghi_mon_gate#pillars>,
+        <http://transmtl.vn/kb/nghi_mon_gate#tiered_roofs> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2619 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/e4f1ee70> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#grand_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.432 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#pillars> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3248 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/1ea9c5f1> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5358 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#pillars> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2605 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2833 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#tiered_roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#pillars> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#tiered_roofs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2587 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/e4f1ee70> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3507 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/437645a9> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#grand_entrance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3127 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#dragons> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#tiered_roofs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.54 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/b069e7de> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4419 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#foundation> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2753 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#tiered_roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4489 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/d6cf136a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3194 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/a2a8152a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#foundation> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2875 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/d0973f87> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6869 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#pillars> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3054 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/0533e7f0> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6389 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/4808327f> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_37fd81c0cc6c" ;
+    fkg:kbId "nghi_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/nghi_mon_gate#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nghi_mon_gate> .
+

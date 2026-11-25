@@ -1,0 +1,622 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/d5d177d5> onto:part_of <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/ent/9c02c638> onto:located_in <http://transmtl.vn/ent/2c2bf458>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:part_of <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/tay_ho_temple#eaves> onto:part_of <http://transmtl.vn/kb/tay_ho_temple> .
+
+<http://transmtl.vn/kb/tay_ho_temple#four_middle_doors> onto:part_of <http://transmtl.vn/ent/2f880e5f> .
+
+<http://transmtl.vn/kb/tay_ho_temple#shrine> onto:dedicated_to <http://transmtl.vn/ent/3af00c6c> .
+
+<http://transmtl.vn/kb/tay_ho_temple#two_levels> onto:dedicated_to <http://transmtl.vn/ent/2ce8698a> .
+
+<http://transmtl.vn/kb/tay_ho_temple#three_temple_mountain_hall> onto:with <http://transmtl.vn/ent/64421d84>,
+        <http://transmtl.vn/ent/8f4e729a> .
+
+<http://transmtl.vn/kb/tay_ho_temple#two_tiered_three_arched_gate> onto:faces <http://transmtl.vn/ent/e6ec529b> ;
+    onto:part_of <http://transmtl.vn/ent/2f880e5f> .
+
+<http://transmtl.vn/kb/tay_ho_temple#courtyard> onto:near <http://transmtl.vn/kb/west_lake> ;
+    onto:part_of <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/tay_ho_temple#gate> onto:leading_to <http://transmtl.vn/kb/octagonal_pavilion> .
+
+<http://transmtl.vn/kb/tay_ho_temple#upper_level> onto:dedicated_to <http://transmtl.vn/ent/2ce8698a> .
+
+<http://transmtl.vn/kb/tay_ho_temple#girls_tower> onto:located_in <http://transmtl.vn/ent/2c2bf458> ;
+    onto:on <http://transmtl.vn/ent/2c2bf458>,
+        <http://transmtl.vn/ent/7c4f2940> ;
+    onto:part_of <http://transmtl.vn/ent/2c2bf458> .
+
+<http://transmtl.vn/kb/tay_ho_temple#roof> onto:over <http://transmtl.vn/kb/tay_ho_temple> ;
+    onto:part_of <http://transmtl.vn/kb/tay_ho_temple> .
+
+<http://transmtl.vn/kb/tay_ho_temple#boys_tower> onto:located_in <http://transmtl.vn/ent/2c2bf458> ;
+    onto:on <http://transmtl.vn/ent/2c2bf458>,
+        <http://transmtl.vn/ent/39f0fdf1> .
+
+<http://transmtl.vn/kb/tay_ho_temple#kim_ngưu_shrine> onto:near <http://transmtl.vn/kb/tay_ho_temple>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:worships <http://transmtl.vn/ent/7b8e6231> .
+
+<http://transmtl.vn/kb/tay_ho_temple#three_arched_gate> onto:part_of <http://transmtl.vn/kb/tay_ho_temple> ;
+    onto:with <http://transmtl.vn/ent/19961207> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:has_part <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/west_lake> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://transmtl.vn/ent/979083ee> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> ;
+    onto:surrounded_by <http://transmtl.vn/ent/882d2efd> .
+
+<http://transmtl.vn/kb/tay_ho_temple> onto:built_in <http://transmtl.vn/ent/08915416> ;
+    onto:dedicated_to <http://transmtl.vn/ent/a42868cf> ;
+    onto:has_part <http://transmtl.vn/kb/tay_ho_temple#boys_tower>,
+        <http://transmtl.vn/kb/tay_ho_temple#courtyard>,
+        <http://transmtl.vn/kb/tay_ho_temple#eaves>,
+        <http://transmtl.vn/kb/tay_ho_temple#four_middle_doors>,
+        <http://transmtl.vn/kb/tay_ho_temple#gate>,
+        <http://transmtl.vn/kb/tay_ho_temple#girls_tower>,
+        <http://transmtl.vn/kb/tay_ho_temple#kim_ngưu_shrine>,
+        <http://transmtl.vn/kb/tay_ho_temple#roof>,
+        <http://transmtl.vn/kb/tay_ho_temple#shrine>,
+        <http://transmtl.vn/kb/tay_ho_temple#three_arched_gate>,
+        <http://transmtl.vn/kb/tay_ho_temple#three_temple_mountain_hall>,
+        <http://transmtl.vn/kb/tay_ho_temple#two_levels>,
+        <http://transmtl.vn/kb/tay_ho_temple#two_tiered_three_arched_gate>,
+        <http://transmtl.vn/kb/tay_ho_temple#upper_level> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#two_levels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3125 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2ce8698a> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#two_levels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#eaves> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#three_arched_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.305 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4014 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#girls_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6288 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/19961207> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#three_arched_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3438 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/39f0fdf1> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#boys_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.371 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#boys_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7158 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#kim_ngưu_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#boys_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2535 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9c02c638> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5443 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#upper_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.463 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2f880e5f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#two_tiered_three_arched_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5695 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3646 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2526 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/3af00c6c> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3035 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/e6ec529b> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#two_tiered_three_arched_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2591 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/8f4e729a> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#three_temple_mountain_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.906 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#upper_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3287 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8257 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2ce8698a> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#upper_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.389 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#three_arched_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5878 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/octagonal_pavilion> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#kim_ngưu_shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3021 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/979083ee> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3103 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/19961207> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#three_arched_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3517 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/64421d84> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#three_temple_mountain_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3636 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2f880e5f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#four_middle_doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#girls_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3467 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/7c4f2940> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#girls_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4433 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#boys_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.307 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2528 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#girls_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#three_arched_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6571 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#kim_ngưu_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9636 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2ce8698a> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#upper_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#three_temple_mountain_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9642 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3213 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.276 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#eaves> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5354 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5925 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#kim_ngưu_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2769 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/882d2efd> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#four_middle_doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3611 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.266 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#girls_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8553 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#boys_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4068 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/7b8e6231> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#kim_ngưu_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#two_tiered_three_arched_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5266 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#three_arched_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.518 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/a42868cf> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4541 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9c02c638> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3293 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/9c02c638> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3081 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3592 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3286 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/d5d177d5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#kim_ngưu_shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a31e580445c" ;
+    fkg:kbId "tay_ho_temple" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple#boys_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+

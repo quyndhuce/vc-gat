@@ -1,0 +1,70 @@
+{
+  "metrics": [
+    {
+      "name": "Raw PCA (AMIE Baseline)",
+      "p5": 0.4,
+      "p10": 0.2,
+      "p15": 0.2667,
+      "p20": 0.25,
+      "ndcg10": 0.2489,
+      "ndcg20": 0.3956,
+      "mrr": 0.5
+    },
+    {
+      "name": "Shrunk PCA",
+      "p5": 0.4,
+      "p10": 0.3,
+      "p15": 0.2667,
+      "p20": 0.25,
+      "ndcg10": 0.2583,
+      "ndcg20": 0.35,
+      "mrr": 0.25
+    },
+    {
+      "name": "LARI (Lineage Score)",
+      "p5": 0.6,
+      "p10": 0.4,
+      "p15": 0.3333,
+      "p20": 0.3,
+      "ndcg10": 0.4636,
+      "ndcg20": 0.5387,
+      "mrr": 1.0
+    },
+    {
+      "name": "LARI + Type Filter (Full)",
+      "p5": 1.0,
+      "p10": 0.9,
+      "p15": 0.7333,
+      "p20": 0.55,
+      "ndcg10": 0.9216,
+      "ndcg20": 0.9822,
+      "mrr": 1.0
+    }
+  ],
+  "top10_pca": [
+    "on o symbol_of => located_in",
+    "renamed_to o located_in => located_in",
+    "former_name_of o located_in => located_in",
+    "near o symbol_of => symbol_of",
+    "renamed_to o symbol_of => located_in",
+    "near o symbol_of => located_in",
+    "faces o located_in => located_in",
+    "surrounded_by o symbol_of => located_in",
+    "overlooks o symbol_of => located_in",
+    "located_in o symbol_of => located_in"
+  ],
+  "top10_lari": [
+    "renamed_to o located_in => located_in",
+    "renamed_to o part_of => located_in",
+    "former_name_of o located_in => located_in",
+    "on o part_of => part_of",
+    "in o located_in => located_in",
+    "in o capital_of => located_in",
+    "part_of o in => located_in",
+    "on o part_of => located_in",
+    "on o located_in => located_in",
+    "part_of o located_in => located_in"
+  ],
+  "total_rules": 55,
+  "total_valid_rules": 11
+}

@@ -1,0 +1,584 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/3edae1ae> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/d1b6931d> onto:located_in <http://transmtl.vn/ent/5d3c0982> .
+
+<http://transmtl.vn/ent/d2ea9315> onto:located_in <http://transmtl.vn/ent/5d3c0982> .
+
+<http://transmtl.vn/ent/446e2b15> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/tam_quan_gate#central_columns> onto:part_of <http://transmtl.vn/kb/tam_quan_gate> .
+
+<http://transmtl.vn/kb/tam_quan_gate#gate_of_emptiness> onto:part_of <http://transmtl.vn/ent/e4e6e19a> .
+
+<http://transmtl.vn/kb/tam_quan_gate#ornamental_beam> onto:above <http://transmtl.vn/ent/54ca84a7> .
+
+<http://transmtl.vn/kb/tam_quan_gate#passageways> onto:part_of <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/tam_quan_gate#top> onto:above <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/tam_quan_gate#two_tiers> onto:made_of <http://transmtl.vn/ent/7ceffe3b> .
+
+<http://transmtl.vn/kb/tam_quan_gate#upper_part> onto:part_of <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/tam_quan_gate#central_passage> onto:part_of <http://transmtl.vn/ent/63d721d2>,
+        <http://transmtl.vn/kb/tam_quan_gate> .
+
+<http://transmtl.vn/kb/tam_quan_gate#gate> onto:has_part <http://transmtl.vn/ent/e5423976> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4>,
+        <http://transmtl.vn/ent/7ceffe3b> .
+
+<http://transmtl.vn/kb/tam_quan_gate#gate_of_formlessness> onto:part_of <http://transmtl.vn/ent/e4e6e19a> .
+
+<http://transmtl.vn/kb/tam_quan_gate#gate_of_non_action> onto:part_of <http://transmtl.vn/ent/e4e6e19a> .
+
+<http://transmtl.vn/kb/tam_quan_gate#side_passages> onto:part_of <http://transmtl.vn/ent/63d721d2>,
+        <http://transmtl.vn/kb/tam_quan_gate> .
+
+<http://transmtl.vn/kb/tam_quan_gate#walls> onto:made_of <http://transmtl.vn/ent/0a840ef4>,
+        <http://transmtl.vn/ent/22811dd9>,
+        <http://transmtl.vn/ent/7ceffe3b> ;
+    onto:part_of <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/kb/tam_quan_gate> onto:architectural_style <http://transmtl.vn/ent/917597ae>,
+        <http://transmtl.vn/ent/93973f0c>,
+        <http://transmtl.vn/ent/c9d08d0c>,
+        <http://transmtl.vn/ent/d239ac37> ;
+    onto:has_part <http://transmtl.vn/ent/53496f39>,
+        <http://transmtl.vn/ent/e5423976>,
+        <http://transmtl.vn/kb/tam_quan_gate#central_columns>,
+        <http://transmtl.vn/kb/tam_quan_gate#central_passage>,
+        <http://transmtl.vn/kb/tam_quan_gate#gate>,
+        <http://transmtl.vn/kb/tam_quan_gate#gate_of_emptiness>,
+        <http://transmtl.vn/kb/tam_quan_gate#gate_of_formlessness>,
+        <http://transmtl.vn/kb/tam_quan_gate#gate_of_non_action>,
+        <http://transmtl.vn/kb/tam_quan_gate#ornamental_beam>,
+        <http://transmtl.vn/kb/tam_quan_gate#passageways>,
+        <http://transmtl.vn/kb/tam_quan_gate#side_passages>,
+        <http://transmtl.vn/kb/tam_quan_gate#top>,
+        <http://transmtl.vn/kb/tam_quan_gate#two_tiers>,
+        <http://transmtl.vn/kb/tam_quan_gate#upper_part>,
+        <http://transmtl.vn/kb/tam_quan_gate#walls> ;
+    onto:located_in <http://transmtl.vn/ent/0a4b5299>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5d3c0982>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/fefa7973> ;
+    onto:used_as <http://transmtl.vn/ent/043566d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3227 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#gate_of_non_action> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2645 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#upper_part> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#ornamental_beam> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3097 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#central_columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7302 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/22811dd9> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2656 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/53496f39> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5761 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/e5423976> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#gate_of_non_action> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2614 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/e4e6e19a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#gate_of_emptiness> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3949 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/93973f0c> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2848 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9298 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/22811dd9> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.355 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/917597ae> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#two_tiers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#passageways> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#gate_of_formlessness> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3766 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#passageways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.286 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/e4e6e19a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#gate_of_non_action> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3309 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/d239ac37> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2993 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/5d3c0982> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#central_passage> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3699 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/043566d2> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4063 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/5d3c0982> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d1b6931d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3829 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/446e2b15> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.932 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9192 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2627 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/e4e6e19a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#gate_of_formlessness> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4294 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/0a4b5299> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5078 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2543 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/e4e6e19a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#gate_of_non_action> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3066 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#side_passages> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3076 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/54ca84a7> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#ornamental_beam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3174 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/5d3c0982> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d2ea9315> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#top> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2678 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/fefa7973> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#central_passage> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4101 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/0a4b5299> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3896 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2685 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#two_tiers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3867 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#central_passage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2873 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#top> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#upper_part> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#side_passages> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#gate_of_emptiness> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2773 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/e4e6e19a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#gate_of_formlessness> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2527 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4807 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/446e2b15> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5244 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/917597ae> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5708 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/5d3c0982> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2936 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#central_passage> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#central_columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3029 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#side_passages> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5355 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/e5423976> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6996 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#gate_of_formlessness> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6457 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7023 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/c9d08d0c> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5382 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/93973f0c> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/kb/tam_quan_gate#side_passages> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3102 ;
+    fkg:docId "doc_654648566659" ;
+    fkg:kbId "tam_quan_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3edae1ae> .
+

@@ -1,0 +1,110 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/saigon_station_replica#ga_sài_gòn> onto:above <http://transmtl.vn/kb/thong_nhat_park> .
+
+<http://transmtl.vn/kb/saigon_station_replica#miniature_railway_track> onto:across <http://transmtl.vn/ent/e6ec529b> .
+
+<http://transmtl.vn/kb/saigon_station_replica> onto:has_part <http://transmtl.vn/kb/saigon_station_replica#architecture>,
+        <http://transmtl.vn/kb/saigon_station_replica#ga_sài_gòn>,
+        <http://transmtl.vn/kb/saigon_station_replica#miniature_railway_track>,
+        <http://transmtl.vn/kb/saigon_station_replica#sign> .
+
+<http://transmtl.vn/kb/saigon_station_replica#architecture> onto:architectural_style <http://transmtl.vn/ent/9b732bf8>,
+        <http://transmtl.vn/ent/ae74ea4e> .
+
+<http://transmtl.vn/kb/saigon_station_replica#sign> onto:above <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:over <http://transmtl.vn/kb/thong_nhat_park> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:symbol_of <http://transmtl.vn/ent/78b6367a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/saigon_station_replica#miniature_railway_track> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4165 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/e6ec529b> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica#miniature_railway_track> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/saigon_station_replica#sign> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/saigon_station_replica#architecture> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4231 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica#sign> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3148 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica#sign> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2547 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica#ga_sài_gòn> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3257 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/ae74ea4e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.583 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/78b6367a> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3087 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1e55288fd38f" ;
+    fkg:kbId "saigon_station_replica" ;
+    rdf:object <http://transmtl.vn/kb/saigon_station_replica#ga_sài_gòn> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/saigon_station_replica> .
+

@@ -1,0 +1,776 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/a5ffd5f6> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/ent/8d0c973c> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/b1551767> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/bd7419ab> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#central_hall> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#corridors> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#eight_ridges> onto:over <http://transmtl.vn/ent/68f3df62> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#entrance> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#main_hall> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#rock_garden> onto:used_as <http://transmtl.vn/ent/a05f1800> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#rooms> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#shrines> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#two_tiered_roof> onto:over <http://transmtl.vn/ent/68f3df62> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#main_altar> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> ;
+    onto:with <http://transmtl.vn/ent/c3882c2c> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#small_rock_garden> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> ;
+    onto:used_as <http://transmtl.vn/ent/a05f1800> .
+
+<http://transmtl.vn/ent/c3882c2c> onto:located_in <http://transmtl.vn/kb/than_quang_pagoda> ;
+    onto:part_of <http://transmtl.vn/kb/than_quang_pagoda> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#main_entrance> onto:faces <http://transmtl.vn/ent/50fd76e3> ;
+    onto:overlooks <http://transmtl.vn/ent/1f4a9685> ;
+    onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#upper_level> onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/ent/68f3df62> onto:former_name_of <http://transmtl.vn/kb/than_quang_pagoda> ;
+    onto:part_of <http://transmtl.vn/kb/than_quang_pagoda> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#steps> onto:connects <http://transmtl.vn/ent/8f1c5099> ;
+    onto:leading_to <http://transmtl.vn/ent/8f1c5099> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#halls> onto:dedicated_to <http://transmtl.vn/ent/719f2410>,
+        <http://transmtl.vn/ent/f904c464> ;
+    onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/than_quang_pagoda#chambers> onto:dedicated_to <http://transmtl.vn/ent/719f2410>,
+        <http://transmtl.vn/ent/f904c464> ;
+    onto:part_of <http://transmtl.vn/kb/ngu_xa_island> .
+
+<http://transmtl.vn/kb/ngu_xa_island> onto:has_part <http://transmtl.vn/ent/42ef7410>,
+        <http://transmtl.vn/ent/608bc3c5> ;
+    onto:leading_to <http://transmtl.vn/ent/207462d2> ;
+    onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:reconstructed_by <http://transmtl.vn/ent/d70b586a> .
+
+<http://transmtl.vn/kb/than_quang_pagoda> onto:architectural_style <http://transmtl.vn/ent/9b732bf8>,
+        <http://transmtl.vn/ent/ae74ea4e> ;
+    onto:built_in <http://transmtl.vn/ent/192afb19>,
+        <http://transmtl.vn/ent/bb3d8519> ;
+    onto:dated_to <http://transmtl.vn/ent/192afb19> ;
+    onto:has_part <http://transmtl.vn/kb/than_quang_pagoda#central_hall>,
+        <http://transmtl.vn/kb/than_quang_pagoda#chambers>,
+        <http://transmtl.vn/kb/than_quang_pagoda#corridors>,
+        <http://transmtl.vn/kb/than_quang_pagoda#eight_ridges>,
+        <http://transmtl.vn/kb/than_quang_pagoda#entrance>,
+        <http://transmtl.vn/kb/than_quang_pagoda#halls>,
+        <http://transmtl.vn/kb/than_quang_pagoda#main_altar>,
+        <http://transmtl.vn/kb/than_quang_pagoda#main_entrance>,
+        <http://transmtl.vn/kb/than_quang_pagoda#main_hall>,
+        <http://transmtl.vn/kb/than_quang_pagoda#rock_garden>,
+        <http://transmtl.vn/kb/than_quang_pagoda#rooms>,
+        <http://transmtl.vn/kb/than_quang_pagoda#shrines>,
+        <http://transmtl.vn/kb/than_quang_pagoda#small_rock_garden>,
+        <http://transmtl.vn/kb/than_quang_pagoda#steps>,
+        <http://transmtl.vn/kb/than_quang_pagoda#two_tiered_roof>,
+        <http://transmtl.vn/kb/than_quang_pagoda#upper_level> ;
+    onto:located_in <http://transmtl.vn/ent/52ea84c6>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/ce8ca6d9>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://transmtl.vn/ent/52ea84c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3679 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4218 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#small_rock_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5814 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b1551767> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#central_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4971 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b1551767> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5988 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8d0c973c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4823 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f904c464> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3402 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/68f3df62> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.382 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#halls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3469 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2617 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/a05f1800> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#small_rock_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4915 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5752 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/ae74ea4e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5193 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/bd7419ab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2541 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6903 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f904c464> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6332 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3513 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#rooms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3425 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c3882c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.586 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/719f2410> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7166 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8d0c973c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3471 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/bb3d8519> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3014 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a5ffd5f6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#corridors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2901 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c3882c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5777 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2541 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8751 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#main_entrance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3938 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/719f2410> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#chambers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2627 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/68f3df62> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#eight_ridges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#small_rock_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2525 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/192afb19> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2642 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#main_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#upper_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#eight_ridges> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4672 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3204 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#two_tiered_roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4925 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/42ef7410> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_island> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#upper_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4604 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#upper_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3449 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#corridors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3047 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/d70b586a> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_island> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#chambers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2523 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/68f3df62> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3351 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/bd7419ab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5165 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/719f2410> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4362 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#main_altar> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2679 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#shrines> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#entrance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3401 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/a05f1800> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#rock_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7688 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/50fd76e3> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#main_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2589 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/ce8ca6d9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5352 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#chambers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7261 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2886 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_island> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2843 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#halls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2929 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/c3882c2c> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#main_altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3299 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.461 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/68f3df62> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#two_tiered_roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3236 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6257 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#rooms> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.252 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7987 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_island> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3045 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/608bc3c5> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_island> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#shrines> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2824 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f904c464> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3866 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#main_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2865 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c3882c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6737 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f904c464> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2858 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#main_altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3598 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/192afb19> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3392 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_island> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda#upper_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7578 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_island> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e82fa8d9f2da" ;
+    fkg:kbId "than_quang_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/than_quang_pagoda#rock_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/than_quang_pagoda> .
+

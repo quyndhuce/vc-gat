@@ -1,0 +1,26 @@
+{
+  "hanoi_test_clips_count": 500,
+  "hanoi_test_parent_videos_count": 60,
+  "hcmc_ood_clips_count": 300,
+  "hcmc_ood_parent_videos_count": 26,
+  "clip_overlap_hanoi_vs_hcmc": 0,
+  "video_overlap_hanoi_vs_hcmc": 0,
+  "caption_splits": {
+    "train_samples": 702,
+    "val_samples": 149,
+    "test_samples": 500,
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "scheme_a_video_splits": {
+    "train_videos": 965,
+    "val_videos": 207,
+    "test_videos": 208,
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "leakage_detected": false,
+  "audit_conclusion": "Strict train/val/test/calibration disjointness confirmed at both clip segment level and parent video cluster level."
+}

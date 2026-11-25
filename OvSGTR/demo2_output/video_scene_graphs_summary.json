@@ -1,0 +1,112 @@
+{
+  "video_path": "/home/nguyendinhquy/OvSGTR/demo2.mp4",
+  "fps": 25.0,
+  "num_scenes": 5,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "time_range": "0.0s - 5.12s",
+      "duration": "5.12s",
+      "json_path": "demo2_output/scene_01_scene_graph.json",
+      "num_entities": 13,
+      "num_relations": 76,
+      "top_entities": [
+        "T01: tree",
+        "T02: Buddhist pagoda",
+        "T03: stele pavilion",
+        "T04: water",
+        "T05: lake"
+      ],
+      "top_triplets": [
+        "T02 (Buddhist pagoda) -> on -> T03 (stele pavilion)",
+        "T08 (tree) -> on -> T01 (tree)",
+        "T06 (tree) -> on -> T01 (tree)",
+        "T04 (water) -> on -> T01 (tree)"
+      ]
+    },
+    {
+      "scene_id": "scene_02",
+      "time_range": "5.12s - 7.16s",
+      "duration": "2.04s",
+      "json_path": "demo2_output/scene_02_scene_graph.json",
+      "num_entities": 11,
+      "num_relations": 41,
+      "top_entities": [
+        "T01: Buddhist pagoda",
+        "T02: tree",
+        "T03: Buddhist pagoda",
+        "T04: puppet stage over water",
+        "T05: Buddhist pagoda"
+      ],
+      "top_triplets": [
+        "T06 (dragon roof ornament) -> on -> T01 (Buddhist pagoda)",
+        "T03 (Buddhist pagoda) -> on -> T01 (Buddhist pagoda)",
+        "T09 (red lacquered column) -> on -> T01 (Buddhist pagoda)",
+        "T05 (Buddhist pagoda) -> on -> T01 (Buddhist pagoda)"
+      ]
+    },
+    {
+      "scene_id": "scene_03",
+      "time_range": "7.16s - 12.8s",
+      "duration": "5.64s",
+      "json_path": "demo2_output/scene_03_scene_graph.json",
+      "num_entities": 11,
+      "num_relations": 28,
+      "top_entities": [
+        "T01: Buddhist pagoda",
+        "T02: Buddhist pagoda",
+        "T03: tree",
+        "T04: tree",
+        "T05: person"
+      ],
+      "top_triplets": [
+        "T02 (Buddhist pagoda) -> on -> T01 (Buddhist pagoda)",
+        "T10 (something else) -> on -> T01 (Buddhist pagoda)",
+        "T06 (person) -> on -> T01 (Buddhist pagoda)",
+        "T05 (person) -> in -> T01 (Buddhist pagoda)"
+      ]
+    },
+    {
+      "scene_id": "scene_04",
+      "time_range": "12.8s - 15.04s",
+      "duration": "2.24s",
+      "json_path": "demo2_output/scene_04_scene_graph.json",
+      "num_entities": 7,
+      "num_relations": 15,
+      "top_entities": [
+        "T01: Vietnamese temple",
+        "T02: person",
+        "T03: Vietnamese temple",
+        "T04: person",
+        "T05: tree"
+      ],
+      "top_triplets": [
+        "T02 (person) -> on -> T01 (Vietnamese temple)",
+        "T04 (person) -> on -> T01 (Vietnamese temple)",
+        "T05 (tree) -> on -> T01 (Vietnamese temple)",
+        "T03 (red lacquered column) -> on -> T01 (Vietnamese temple)"
+      ]
+    },
+    {
+      "scene_id": "scene_05",
+      "time_range": "15.04s - 21.16s",
+      "duration": "6.12s",
+      "json_path": "demo2_output/scene_05_scene_graph.json",
+      "num_entities": 9,
+      "num_relations": 43,
+      "top_entities": [
+        "T01: stele pavilion",
+        "T02: Buddhist pagoda",
+        "T03: tree",
+        "T04: tree",
+        "T05: stele pavilion"
+      ],
+      "top_triplets": [
+        "T02 (Buddhist pagoda) -> on -> T01 (stele pavilion)",
+        "T08 (person) -> on -> T01 (Buddhist pagoda)",
+        "T06 (tree) -> near -> T01 (stele pavilion)",
+        "T03 (tree) -> near -> T01 (stele pavilion)"
+      ]
+    }
+  ]
+}

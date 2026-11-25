@@ -1,0 +1,281 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/2e607776> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/calligraphy#dai_nghien_pavilion> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/f97ff4a7> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/calligraphy#pavilion> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/calligraphy#bai_minh_stele> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:near <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/calligraphy> onto:has_part <http://transmtl.vn/kb/calligraphy#bai_minh_stele>,
+        <http://transmtl.vn/kb/calligraphy#dai_nghien_pavilion>,
+        <http://transmtl.vn/kb/calligraphy#pavilion>,
+        <http://transmtl.vn/kb/calligraphy#stele> .
+
+<http://transmtl.vn/kb/calligraphy#stele> onto:dated_to <http://transmtl.vn/ent/7302e3f5>,
+        <http://transmtl.vn/ent/e1314fc0> ;
+    onto:faces <http://transmtl.vn/ent/f97ff4a7> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4> ;
+    onto:symbol_of <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.472 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/f97ff4a7> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6309 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#bai_minh_stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#bai_minh_stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#bai_minh_stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.758 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2e607776> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#bai_minh_stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3212 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3151 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3469 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/7302e3f5> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4404 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#dai_nghien_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2791 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5438 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3483 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#bai_minh_stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6437 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4964 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2992 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2626 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f97ff4a7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3727 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/f97ff4a7> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3037 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#bai_minh_stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#dai_nghien_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4641 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#bai_minh_stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.365 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/e1314fc0> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2614 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2e607776> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_75ee00393e21" ;
+    fkg:kbId "calligraphy" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+

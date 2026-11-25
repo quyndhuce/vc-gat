@@ -1,0 +1,127 @@
+{
+  "benchmark": "Final_Verification_Decision_Certified_Horn_Reasoning_Hanoi_Test_Only",
+  "scope": "Hanoi In-Domain Test Only (500 clips, 12,554 facts, 12,391 derivations)",
+  "thresholds": {
+    "assert": 0.8,
+    "omit": 0.5,
+    "mu_L_hanoi": 0.85
+  },
+  "methods": {
+    "Exhaustive_Inference": {
+      "derivations_evaluated": 12391,
+      "derivations_saved": 0,
+      "derivations_saved_pct": 0.0,
+      "policy_flips": 0,
+      "bound_violations": 0,
+      "top5_set_matches": 500,
+      "top5_order_matches": 500,
+      "wall_clock_ram_ms": {
+        "mean": 23.31,
+        "std": 0.99
+      }
+    },
+    "Epsilon_BnB_001": {
+      "derivations_evaluated": 7349,
+      "derivations_saved": 5042,
+      "derivations_saved_pct": 40.69,
+      "policy_flips": 2,
+      "policy_flips_sample": [
+        [
+          "fact_79147a209c",
+          0.8045647161296935,
+          0.7981364388041636,
+          "ASSERT",
+          "HEDGE"
+        ],
+        [
+          "fact_29f2458fa6",
+          0.80251536541717,
+          0.796195,
+          "ASSERT",
+          "HEDGE"
+        ]
+      ],
+      "bound_violations": 0,
+      "top5_set_matches": 500,
+      "top5_order_matches": 357,
+      "wall_clock_ram_ms": {
+        "mean": 32.48,
+        "std": 2.59
+      }
+    },
+    "Decision_Certified_BnB_Pure": {
+      "derivations_evaluated": 4020,
+      "derivations_saved": 8371,
+      "derivations_saved_pct": 67.56,
+      "facts_certified_early": 4767,
+      "facts_certified_early_pct": 65.65,
+      "fallbacks_to_exhaustive": 2494,
+      "policy_flips": 0,
+      "bound_violations": 0,
+      "top5_set_matches": 500,
+      "top5_set_matches_pct": 100.0,
+      "top5_order_matches": 313,
+      "top5_order_matches_pct": 62.6,
+      "wall_clock_ram_ms": {
+        "mean": 69.0,
+        "std": 5.55
+      }
+    },
+    "Hybrid_Mode_Certified_and_Refined": {
+      "derivations_evaluated": 4096,
+      "derivations_saved": 8295,
+      "derivations_saved_pct": 66.94,
+      "policy_flips": 0,
+      "bound_violations": 0,
+      "top5_set_matches": 500,
+      "top5_set_matches_pct": 100.0,
+      "top5_order_matches": 500,
+      "top5_order_matches_pct": 100.0,
+      "wall_clock_ram_ms": {
+        "mean": 28.33,
+        "std": 0.33
+      }
+    }
+  },
+  "cohort_breakdown": {
+    "m=0": {
+      "total": 5293,
+      "certified_early": 0,
+      "fallbacks": 0,
+      "derivs_total": 0,
+      "derivs_evaluated": 0
+    },
+    "m=1": {
+      "total": 5010,
+      "certified_early": 2826,
+      "fallbacks": 2184,
+      "derivs_total": 5011,
+      "derivs_evaluated": 2184
+    },
+    "m>=2": {
+      "total": 2251,
+      "certified_early": 1941,
+      "fallbacks": 310,
+      "derivs_total": 7381,
+      "derivs_evaluated": 1836
+    },
+    "m>=5": {
+      "total": 363,
+      "certified_early": 363,
+      "fallbacks": 0,
+      "derivs_total": 2706,
+      "derivs_evaluated": 226
+    },
+    "m>=10": {
+      "total": 55,
+      "certified_early": 55,
+      "fallbacks": 0,
+      "derivs_total": 859,
+      "derivs_evaluated": 32
+    }
+  },
+  "near_threshold_analysis": {
+    "facts_within_001_of_050_or_080": 1051,
+    "policy_flips_on_near_threshold": 0
+  }
+}

@@ -1,0 +1,124 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/63411294> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/5abf247d> onto:near <http://www.wikidata.org/entity/Q1858> .
+
+<http://www.wikidata.org/entity/Q1858> onto:former_name_of <http://transmtl.vn/ent/1ed14e17> ;
+    onto:surrounded_by <http://transmtl.vn/ent/5abf247d>,
+        <http://transmtl.vn/ent/5e2344c1> .
+
+<http://transmtl.vn/kb/west_lake> onto:former_name_of <http://transmtl.vn/ent/1ed14e17>,
+        <http://transmtl.vn/kb/red_river> ;
+    onto:located_in <http://transmtl.vn/ent/120c79e8>,
+        <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/120c79e8> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5323 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/120c79e8> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.296 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/1ed14e17> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2683 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4938 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4088 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2855 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/5abf247d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2641 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/63411294> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5842 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3078 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/1ed14e17> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4077 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/120c79e8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5875 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2655 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/5e2344c1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3551 ;
+    fkg:docId "doc_c9737233efec" ;
+    fkg:kbId "west_lake" ;
+    rdf:object <http://transmtl.vn/ent/5abf247d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

@@ -1,0 +1,2873 @@
+{
+  "pred_prefix": "z3",
+  "total_clips": 180,
+  "vlm_verified_onsite_clips": 180,
+  "regimes_5way": {
+    "MEDIUM": 102,
+    "LOW": 72,
+    "HIGH": 6
+  },
+  "regimes_35way": {
+    "LOW": 163,
+    "MEDIUM": 17
+  },
+  "correct_vs_wrong_5way": {
+    "correct": 130,
+    "wrong": 50
+  },
+  "correct_vs_wrong_35way": {
+    "correct": 64,
+    "wrong": 116
+  },
+  "all_300": {
+    "B1_Visual_Only": {
+      "eap": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "fact_p": {
+        "mean": 92.22,
+        "boot_std": 1.99,
+        "ci_95": [
+          88.33,
+          96.11
+        ]
+      },
+      "k_recall": {
+        "mean": 3.69,
+        "boot_std": 0.6,
+        "ci_95": [
+          2.57,
+          4.93
+        ]
+      },
+      "vsp": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 33.89,
+        "boot_std": 3.51,
+        "ci_95": [
+          27.22,
+          41.11
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "oar_fact": {
+        "mean": 7.78,
+        "boot_std": 1.99,
+        "ci_95": [
+          3.89,
+          11.67
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 9.44,
+        "boot_std": 2.17,
+        "ci_95": [
+          5.56,
+          13.89
+        ]
+      },
+      "policy_prompt": {
+        "mean": 51.11,
+        "boot_std": 3.68,
+        "ci_95": [
+          43.89,
+          58.33
+        ]
+      },
+      "bleu4": {
+        "mean": 1.0,
+        "boot_std": 0.19,
+        "ci_95": [
+          0.64,
+          1.39
+        ]
+      },
+      "rougel": {
+        "mean": 16.71,
+        "boot_std": 0.21,
+        "ci_95": [
+          16.29,
+          17.13
+        ]
+      },
+      "word_count": {
+        "mean": 74.77,
+        "boot_std": 1.7,
+        "ci_95": [
+          71.53,
+          78.12
+        ]
+      }
+    },
+    "B2_Crisp_KG_RAG_5way": {
+      "eap": {
+        "mean": 96.42,
+        "boot_std": 0.47,
+        "ci_95": [
+          95.5,
+          97.33
+        ]
+      },
+      "fact_p": {
+        "mean": 66.67,
+        "boot_std": 3.53,
+        "ci_95": [
+          60.0,
+          73.33
+        ]
+      },
+      "k_recall": {
+        "mean": 13.14,
+        "boot_std": 1.17,
+        "ci_95": [
+          10.88,
+          15.53
+        ]
+      },
+      "vsp": {
+        "mean": 99.96,
+        "boot_std": 0.04,
+        "ci_95": [
+          99.89,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 88.86,
+        "boot_std": 2.14,
+        "ci_95": [
+          84.53,
+          92.94
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 77.22,
+        "boot_std": 3.12,
+        "ci_95": [
+          71.11,
+          83.33
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 23.89,
+        "boot_std": 3.16,
+        "ci_95": [
+          17.78,
+          30.0
+        ]
+      },
+      "oar_fact": {
+        "mean": 33.33,
+        "boot_std": 3.53,
+        "ci_95": [
+          26.67,
+          40.0
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 23.89,
+        "boot_std": 3.16,
+        "ci_95": [
+          17.78,
+          30.0
+        ]
+      },
+      "policy_target": {
+        "mean": 7.78,
+        "boot_std": 1.97,
+        "ci_95": [
+          3.89,
+          11.67
+        ]
+      },
+      "policy_prompt": {
+        "mean": 82.22,
+        "boot_std": 2.86,
+        "ci_95": [
+          76.67,
+          87.78
+        ]
+      },
+      "bleu4": {
+        "mean": 6.63,
+        "boot_std": 0.34,
+        "ci_95": [
+          5.96,
+          7.28
+        ]
+      },
+      "rougel": {
+        "mean": 21.4,
+        "boot_std": 0.34,
+        "ci_95": [
+          20.72,
+          22.07
+        ]
+      },
+      "word_count": {
+        "mean": 79.75,
+        "boot_std": 1.75,
+        "ci_95": [
+          76.32,
+          83.16
+        ]
+      }
+    },
+    "B3_Prompt_Only_Certainty_5way": {
+      "eap": {
+        "mean": 99.58,
+        "boot_std": 0.18,
+        "ci_95": [
+          99.17,
+          99.92
+        ]
+      },
+      "fact_p": {
+        "mean": 96.67,
+        "boot_std": 1.33,
+        "ci_95": [
+          93.89,
+          98.89
+        ]
+      },
+      "k_recall": {
+        "mean": 40.64,
+        "boot_std": 2.9,
+        "ci_95": [
+          35.08,
+          46.35
+        ]
+      },
+      "vsp": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 99.44,
+        "boot_std": 0.55,
+        "ci_95": [
+          98.33,
+          100.0
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 3.33,
+        "boot_std": 1.33,
+        "ci_95": [
+          1.11,
+          6.11
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 3.33,
+        "boot_std": 1.33,
+        "ci_95": [
+          1.11,
+          6.11
+        ]
+      },
+      "oar_fact": {
+        "mean": 3.33,
+        "boot_std": 1.33,
+        "ci_95": [
+          1.11,
+          6.11
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 95.0,
+        "boot_std": 1.62,
+        "ci_95": [
+          91.67,
+          97.78
+        ]
+      },
+      "policy_prompt": {
+        "mean": 96.11,
+        "boot_std": 1.43,
+        "ci_95": [
+          93.33,
+          98.89
+        ]
+      },
+      "bleu4": {
+        "mean": 5.7,
+        "boot_std": 0.48,
+        "ci_95": [
+          4.78,
+          6.66
+        ]
+      },
+      "rougel": {
+        "mean": 19.67,
+        "boot_std": 0.46,
+        "ci_95": [
+          18.77,
+          20.59
+        ]
+      },
+      "word_count": {
+        "mean": 70.26,
+        "boot_std": 1.58,
+        "ci_95": [
+          67.23,
+          73.39
+        ]
+      }
+    },
+    "B4_Ours_No_VCGAT_5way": {
+      "eap": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "fact_p": {
+        "mean": 91.11,
+        "boot_std": 2.13,
+        "ci_95": [
+          86.67,
+          95.0
+        ]
+      },
+      "k_recall": {
+        "mean": 7.01,
+        "boot_std": 0.88,
+        "ci_95": [
+          5.32,
+          8.81
+        ]
+      },
+      "vsp": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 92.69,
+        "boot_std": 1.79,
+        "ci_95": [
+          88.98,
+          95.93
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 8.89,
+        "boot_std": 2.13,
+        "ci_95": [
+          5.0,
+          13.33
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 8.89,
+        "boot_std": 2.13,
+        "ci_95": [
+          5.0,
+          13.33
+        ]
+      },
+      "oar_fact": {
+        "mean": 8.89,
+        "boot_std": 2.13,
+        "ci_95": [
+          5.0,
+          13.33
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 83.33,
+        "boot_std": 2.8,
+        "ci_95": [
+          77.78,
+          88.89
+        ]
+      },
+      "policy_prompt": {
+        "mean": 85.0,
+        "boot_std": 2.67,
+        "ci_95": [
+          79.44,
+          90.0
+        ]
+      },
+      "bleu4": {
+        "mean": 3.02,
+        "boot_std": 0.29,
+        "ci_95": [
+          2.47,
+          3.61
+        ]
+      },
+      "rougel": {
+        "mean": 18.25,
+        "boot_std": 0.37,
+        "ci_95": [
+          17.53,
+          18.98
+        ]
+      },
+      "word_count": {
+        "mean": 51.81,
+        "boot_std": 1.2,
+        "ci_95": [
+          49.49,
+          54.17
+        ]
+      }
+    },
+    "Proposed_VCGAT_E2E_5way": {
+      "eap": {
+        "mean": 99.83,
+        "boot_std": 0.12,
+        "ci_95": [
+          99.58,
+          100.0
+        ]
+      },
+      "fact_p": {
+        "mean": 89.44,
+        "boot_std": 2.3,
+        "ci_95": [
+          84.99,
+          93.89
+        ]
+      },
+      "k_recall": {
+        "mean": 23.9,
+        "boot_std": 2.04,
+        "ci_95": [
+          19.94,
+          27.97
+        ]
+      },
+      "vsp": {
+        "mean": 99.94,
+        "boot_std": 0.06,
+        "ci_95": [
+          99.81,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 99.44,
+        "boot_std": 0.55,
+        "ci_95": [
+          98.33,
+          100.0
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 11.67,
+        "boot_std": 2.4,
+        "ci_95": [
+          7.22,
+          16.67
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 11.67,
+        "boot_std": 2.4,
+        "ci_95": [
+          7.22,
+          16.67
+        ]
+      },
+      "oar_fact": {
+        "mean": 10.56,
+        "boot_std": 2.3,
+        "ci_95": [
+          6.11,
+          15.01
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 84.44,
+        "boot_std": 2.71,
+        "ci_95": [
+          78.89,
+          89.44
+        ]
+      },
+      "policy_prompt": {
+        "mean": 85.0,
+        "boot_std": 2.67,
+        "ci_95": [
+          79.44,
+          90.0
+        ]
+      },
+      "bleu4": {
+        "mean": 4.1,
+        "boot_std": 0.4,
+        "ci_95": [
+          3.34,
+          4.9
+        ]
+      },
+      "rougel": {
+        "mean": 19.12,
+        "boot_std": 0.45,
+        "ci_95": [
+          18.24,
+          20.0
+        ]
+      },
+      "word_count": {
+        "mean": 52.39,
+        "boot_std": 1.28,
+        "ci_95": [
+          49.89,
+          54.88
+        ]
+      }
+    },
+    "Proposed_VCGAT_E2E_35way": {
+      "eap": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "fact_p": {
+        "mean": 77.22,
+        "boot_std": 3.13,
+        "ci_95": [
+          71.11,
+          83.33
+        ]
+      },
+      "k_recall": {
+        "mean": 2.91,
+        "boot_std": 0.55,
+        "ci_95": [
+          1.88,
+          4.04
+        ]
+      },
+      "vsp": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 22.78,
+        "boot_std": 3.13,
+        "ci_95": [
+          16.67,
+          28.89
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 22.78,
+        "boot_std": 3.13,
+        "ci_95": [
+          16.67,
+          28.89
+        ]
+      },
+      "oar_fact": {
+        "mean": 22.78,
+        "boot_std": 3.13,
+        "ci_95": [
+          16.67,
+          28.89
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 59.44,
+        "boot_std": 3.64,
+        "ci_95": [
+          52.22,
+          66.67
+        ]
+      },
+      "policy_prompt": {
+        "mean": 63.33,
+        "boot_std": 3.57,
+        "ci_95": [
+          56.11,
+          70.0
+        ]
+      },
+      "bleu4": {
+        "mean": 0.64,
+        "boot_std": 0.16,
+        "ci_95": [
+          0.35,
+          0.97
+        ]
+      },
+      "rougel": {
+        "mean": 15.05,
+        "boot_std": 0.3,
+        "ci_95": [
+          14.47,
+          15.66
+        ]
+      },
+      "word_count": {
+        "mean": 48.88,
+        "boot_std": 0.93,
+        "ci_95": [
+          47.06,
+          50.71
+        ]
+      }
+    }
+  },
+  "vlm_verified_onsite_only": {
+    "B1_Visual_Only": {
+      "eap": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "fact_p": {
+        "mean": 92.22,
+        "boot_std": 1.99,
+        "ci_95": [
+          88.33,
+          96.11
+        ]
+      },
+      "k_recall": {
+        "mean": 3.69,
+        "boot_std": 0.6,
+        "ci_95": [
+          2.57,
+          4.93
+        ]
+      },
+      "vsp": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 33.89,
+        "boot_std": 3.51,
+        "ci_95": [
+          27.22,
+          41.11
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "oar_fact": {
+        "mean": 7.78,
+        "boot_std": 1.99,
+        "ci_95": [
+          3.89,
+          11.67
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 9.44,
+        "boot_std": 2.17,
+        "ci_95": [
+          5.56,
+          13.89
+        ]
+      },
+      "policy_prompt": {
+        "mean": 51.11,
+        "boot_std": 3.68,
+        "ci_95": [
+          43.89,
+          58.33
+        ]
+      },
+      "bleu4": {
+        "mean": 1.0,
+        "boot_std": 0.19,
+        "ci_95": [
+          0.64,
+          1.39
+        ]
+      },
+      "rougel": {
+        "mean": 16.71,
+        "boot_std": 0.21,
+        "ci_95": [
+          16.29,
+          17.13
+        ]
+      },
+      "word_count": {
+        "mean": 74.77,
+        "boot_std": 1.7,
+        "ci_95": [
+          71.53,
+          78.12
+        ]
+      }
+    },
+    "B2_Crisp_KG_RAG_5way": {
+      "eap": {
+        "mean": 96.42,
+        "boot_std": 0.47,
+        "ci_95": [
+          95.5,
+          97.33
+        ]
+      },
+      "fact_p": {
+        "mean": 66.67,
+        "boot_std": 3.53,
+        "ci_95": [
+          60.0,
+          73.33
+        ]
+      },
+      "k_recall": {
+        "mean": 13.14,
+        "boot_std": 1.17,
+        "ci_95": [
+          10.88,
+          15.53
+        ]
+      },
+      "vsp": {
+        "mean": 99.96,
+        "boot_std": 0.04,
+        "ci_95": [
+          99.89,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 88.86,
+        "boot_std": 2.14,
+        "ci_95": [
+          84.53,
+          92.94
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 77.22,
+        "boot_std": 3.12,
+        "ci_95": [
+          71.11,
+          83.33
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 23.89,
+        "boot_std": 3.16,
+        "ci_95": [
+          17.78,
+          30.0
+        ]
+      },
+      "oar_fact": {
+        "mean": 33.33,
+        "boot_std": 3.53,
+        "ci_95": [
+          26.67,
+          40.0
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 23.89,
+        "boot_std": 3.16,
+        "ci_95": [
+          17.78,
+          30.0
+        ]
+      },
+      "policy_target": {
+        "mean": 7.78,
+        "boot_std": 1.97,
+        "ci_95": [
+          3.89,
+          11.67
+        ]
+      },
+      "policy_prompt": {
+        "mean": 82.22,
+        "boot_std": 2.86,
+        "ci_95": [
+          76.67,
+          87.78
+        ]
+      },
+      "bleu4": {
+        "mean": 6.63,
+        "boot_std": 0.34,
+        "ci_95": [
+          5.96,
+          7.28
+        ]
+      },
+      "rougel": {
+        "mean": 21.4,
+        "boot_std": 0.34,
+        "ci_95": [
+          20.72,
+          22.07
+        ]
+      },
+      "word_count": {
+        "mean": 79.75,
+        "boot_std": 1.75,
+        "ci_95": [
+          76.32,
+          83.16
+        ]
+      }
+    },
+    "B3_Prompt_Only_Certainty_5way": {
+      "eap": {
+        "mean": 99.58,
+        "boot_std": 0.18,
+        "ci_95": [
+          99.17,
+          99.92
+        ]
+      },
+      "fact_p": {
+        "mean": 96.67,
+        "boot_std": 1.33,
+        "ci_95": [
+          93.89,
+          98.89
+        ]
+      },
+      "k_recall": {
+        "mean": 40.64,
+        "boot_std": 2.9,
+        "ci_95": [
+          35.08,
+          46.35
+        ]
+      },
+      "vsp": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 99.44,
+        "boot_std": 0.55,
+        "ci_95": [
+          98.33,
+          100.0
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 3.33,
+        "boot_std": 1.33,
+        "ci_95": [
+          1.11,
+          6.11
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 3.33,
+        "boot_std": 1.33,
+        "ci_95": [
+          1.11,
+          6.11
+        ]
+      },
+      "oar_fact": {
+        "mean": 3.33,
+        "boot_std": 1.33,
+        "ci_95": [
+          1.11,
+          6.11
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 95.0,
+        "boot_std": 1.62,
+        "ci_95": [
+          91.67,
+          97.78
+        ]
+      },
+      "policy_prompt": {
+        "mean": 96.11,
+        "boot_std": 1.43,
+        "ci_95": [
+          93.33,
+          98.89
+        ]
+      },
+      "bleu4": {
+        "mean": 5.7,
+        "boot_std": 0.48,
+        "ci_95": [
+          4.78,
+          6.66
+        ]
+      },
+      "rougel": {
+        "mean": 19.67,
+        "boot_std": 0.46,
+        "ci_95": [
+          18.77,
+          20.59
+        ]
+      },
+      "word_count": {
+        "mean": 70.26,
+        "boot_std": 1.58,
+        "ci_95": [
+          67.23,
+          73.39
+        ]
+      }
+    },
+    "B4_Ours_No_VCGAT_5way": {
+      "eap": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "fact_p": {
+        "mean": 91.11,
+        "boot_std": 2.13,
+        "ci_95": [
+          86.67,
+          95.0
+        ]
+      },
+      "k_recall": {
+        "mean": 7.01,
+        "boot_std": 0.88,
+        "ci_95": [
+          5.32,
+          8.81
+        ]
+      },
+      "vsp": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 92.69,
+        "boot_std": 1.79,
+        "ci_95": [
+          88.98,
+          95.93
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 8.89,
+        "boot_std": 2.13,
+        "ci_95": [
+          5.0,
+          13.33
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 8.89,
+        "boot_std": 2.13,
+        "ci_95": [
+          5.0,
+          13.33
+        ]
+      },
+      "oar_fact": {
+        "mean": 8.89,
+        "boot_std": 2.13,
+        "ci_95": [
+          5.0,
+          13.33
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 83.33,
+        "boot_std": 2.8,
+        "ci_95": [
+          77.78,
+          88.89
+        ]
+      },
+      "policy_prompt": {
+        "mean": 85.0,
+        "boot_std": 2.67,
+        "ci_95": [
+          79.44,
+          90.0
+        ]
+      },
+      "bleu4": {
+        "mean": 3.02,
+        "boot_std": 0.29,
+        "ci_95": [
+          2.47,
+          3.61
+        ]
+      },
+      "rougel": {
+        "mean": 18.25,
+        "boot_std": 0.37,
+        "ci_95": [
+          17.53,
+          18.98
+        ]
+      },
+      "word_count": {
+        "mean": 51.81,
+        "boot_std": 1.2,
+        "ci_95": [
+          49.49,
+          54.17
+        ]
+      }
+    },
+    "Proposed_VCGAT_E2E_5way": {
+      "eap": {
+        "mean": 99.83,
+        "boot_std": 0.12,
+        "ci_95": [
+          99.58,
+          100.0
+        ]
+      },
+      "fact_p": {
+        "mean": 89.44,
+        "boot_std": 2.3,
+        "ci_95": [
+          84.99,
+          93.89
+        ]
+      },
+      "k_recall": {
+        "mean": 23.9,
+        "boot_std": 2.04,
+        "ci_95": [
+          19.94,
+          27.97
+        ]
+      },
+      "vsp": {
+        "mean": 99.94,
+        "boot_std": 0.06,
+        "ci_95": [
+          99.81,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 99.44,
+        "boot_std": 0.55,
+        "ci_95": [
+          98.33,
+          100.0
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 11.67,
+        "boot_std": 2.4,
+        "ci_95": [
+          7.22,
+          16.67
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 11.67,
+        "boot_std": 2.4,
+        "ci_95": [
+          7.22,
+          16.67
+        ]
+      },
+      "oar_fact": {
+        "mean": 10.56,
+        "boot_std": 2.3,
+        "ci_95": [
+          6.11,
+          15.01
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 84.44,
+        "boot_std": 2.71,
+        "ci_95": [
+          78.89,
+          89.44
+        ]
+      },
+      "policy_prompt": {
+        "mean": 85.0,
+        "boot_std": 2.67,
+        "ci_95": [
+          79.44,
+          90.0
+        ]
+      },
+      "bleu4": {
+        "mean": 4.1,
+        "boot_std": 0.4,
+        "ci_95": [
+          3.34,
+          4.9
+        ]
+      },
+      "rougel": {
+        "mean": 19.12,
+        "boot_std": 0.45,
+        "ci_95": [
+          18.24,
+          20.0
+        ]
+      },
+      "word_count": {
+        "mean": 52.39,
+        "boot_std": 1.28,
+        "ci_95": [
+          49.89,
+          54.88
+        ]
+      }
+    },
+    "Proposed_VCGAT_E2E_35way": {
+      "eap": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "fact_p": {
+        "mean": 77.22,
+        "boot_std": 3.13,
+        "ci_95": [
+          71.11,
+          83.33
+        ]
+      },
+      "k_recall": {
+        "mean": 2.91,
+        "boot_std": 0.55,
+        "ci_95": [
+          1.88,
+          4.04
+        ]
+      },
+      "vsp": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "vsp_vlm": {
+        "mean": 100.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          100.0,
+          100.0
+        ]
+      },
+      "oar_gen_target": {
+        "mean": 22.78,
+        "boot_std": 3.13,
+        "ci_95": [
+          16.67,
+          28.89
+        ]
+      },
+      "oar_gen_prompt": {
+        "mean": 22.78,
+        "boot_std": 3.13,
+        "ci_95": [
+          16.67,
+          28.89
+        ]
+      },
+      "oar_fact": {
+        "mean": 22.78,
+        "boot_std": 3.13,
+        "ci_95": [
+          16.67,
+          28.89
+        ]
+      },
+      "wrong_lm_assert": {
+        "mean": 0.0,
+        "boot_std": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "policy_target": {
+        "mean": 59.44,
+        "boot_std": 3.64,
+        "ci_95": [
+          52.22,
+          66.67
+        ]
+      },
+      "policy_prompt": {
+        "mean": 63.33,
+        "boot_std": 3.57,
+        "ci_95": [
+          56.11,
+          70.0
+        ]
+      },
+      "bleu4": {
+        "mean": 0.64,
+        "boot_std": 0.16,
+        "ci_95": [
+          0.35,
+          0.97
+        ]
+      },
+      "rougel": {
+        "mean": 15.05,
+        "boot_std": 0.3,
+        "ci_95": [
+          14.47,
+          15.66
+        ]
+      },
+      "word_count": {
+        "mean": 48.88,
+        "boot_std": 0.93,
+        "ci_95": [
+          47.06,
+          50.71
+        ]
+      }
+    }
+  },
+  "breakdown_correct_vs_misidentified": {
+    "B1_Visual_Only": {
+      "n_correct": 130,
+      "correct": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 96.15,
+          "boot_std": 1.71,
+          "ci_95": [
+            92.31,
+            99.23
+          ]
+        },
+        "k_recall": {
+          "mean": 4.51,
+          "boot_std": 0.77,
+          "ci_95": [
+            3.07,
+            6.09
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 40.0,
+          "boot_std": 4.35,
+          "ci_95": [
+            31.54,
+            48.46
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "oar_fact": {
+          "mean": 3.85,
+          "boot_std": 1.71,
+          "ci_95": [
+            0.77,
+            7.69
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 12.31,
+          "boot_std": 2.87,
+          "ci_95": [
+            6.92,
+            18.46
+          ]
+        },
+        "policy_prompt": {
+          "mean": 50.0,
+          "boot_std": 4.49,
+          "ci_95": [
+            41.54,
+            58.46
+          ]
+        },
+        "bleu4": {
+          "mean": 1.12,
+          "boot_std": 0.24,
+          "ci_95": [
+            0.68,
+            1.6
+          ]
+        },
+        "rougel": {
+          "mean": 17.01,
+          "boot_std": 0.24,
+          "ci_95": [
+            16.54,
+            17.49
+          ]
+        },
+        "word_count": {
+          "mean": 73.25,
+          "boot_std": 2.08,
+          "ci_95": [
+            69.32,
+            77.38
+          ]
+        }
+      },
+      "n_wrong": 50,
+      "wrong": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 82.0,
+          "boot_std": 5.6,
+          "ci_95": [
+            70.0,
+            92.0
+          ]
+        },
+        "k_recall": {
+          "mean": 1.56,
+          "boot_std": 0.63,
+          "ci_95": [
+            0.43,
+            2.89
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 18.0,
+          "boot_std": 5.6,
+          "ci_95": [
+            8.0,
+            30.0
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "oar_fact": {
+          "mean": 18.0,
+          "boot_std": 5.6,
+          "ci_95": [
+            8.0,
+            30.0
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 2.0,
+          "boot_std": 1.95,
+          "ci_95": [
+            0.0,
+            6.0
+          ]
+        },
+        "policy_prompt": {
+          "mean": 54.0,
+          "boot_std": 7.06,
+          "ci_95": [
+            40.0,
+            68.0
+          ]
+        },
+        "bleu4": {
+          "mean": 0.67,
+          "boot_std": 0.31,
+          "ci_95": [
+            0.14,
+            1.36
+          ]
+        },
+        "rougel": {
+          "mean": 15.93,
+          "boot_std": 0.45,
+          "ci_95": [
+            15.07,
+            16.83
+          ]
+        },
+        "word_count": {
+          "mean": 78.74,
+          "boot_std": 2.73,
+          "ci_95": [
+            73.3,
+            84.04
+          ]
+        }
+      }
+    },
+    "B2_Crisp_KG_RAG_5way": {
+      "n_correct": 130,
+      "correct": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 86.92,
+          "boot_std": 2.94,
+          "ci_95": [
+            80.77,
+            92.31
+          ]
+        },
+        "k_recall": {
+          "mean": 16.7,
+          "boot_std": 1.45,
+          "ci_95": [
+            13.88,
+            19.56
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 88.42,
+          "boot_std": 2.44,
+          "ci_95": [
+            83.36,
+            93.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 73.85,
+          "boot_std": 3.85,
+          "ci_95": [
+            66.15,
+            80.77
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "oar_fact": {
+          "mean": 13.08,
+          "boot_std": 2.94,
+          "ci_95": [
+            7.69,
+            19.23
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 10.77,
+          "boot_std": 2.71,
+          "ci_95": [
+            5.38,
+            16.15
+          ]
+        },
+        "policy_prompt": {
+          "mean": 84.62,
+          "boot_std": 3.18,
+          "ci_95": [
+            78.46,
+            90.77
+          ]
+        },
+        "bleu4": {
+          "mean": 7.95,
+          "boot_std": 0.37,
+          "ci_95": [
+            7.22,
+            8.67
+          ]
+        },
+        "rougel": {
+          "mean": 23.08,
+          "boot_std": 0.34,
+          "ci_95": [
+            22.43,
+            23.77
+          ]
+        },
+        "word_count": {
+          "mean": 76.38,
+          "boot_std": 1.99,
+          "ci_95": [
+            72.55,
+            80.33
+          ]
+        }
+      },
+      "n_wrong": 50,
+      "wrong": {
+        "eap": {
+          "mean": 87.1,
+          "boot_std": 0.74,
+          "ci_95": [
+            85.9,
+            88.6
+          ]
+        },
+        "fact_p": {
+          "mean": 14.0,
+          "boot_std": 4.94,
+          "ci_95": [
+            6.0,
+            24.0
+          ]
+        },
+        "k_recall": {
+          "mean": 3.91,
+          "boot_std": 0.94,
+          "ci_95": [
+            2.17,
+            5.8
+          ]
+        },
+        "vsp": {
+          "mean": 99.87,
+          "boot_std": 0.13,
+          "ci_95": [
+            99.6,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 90.0,
+          "boot_std": 4.34,
+          "ci_95": [
+            80.0,
+            98.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 86.0,
+          "boot_std": 4.94,
+          "ci_95": [
+            76.0,
+            94.0
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 86.0,
+          "boot_std": 4.94,
+          "ci_95": [
+            76.0,
+            94.0
+          ]
+        },
+        "oar_fact": {
+          "mean": 86.0,
+          "boot_std": 4.94,
+          "ci_95": [
+            76.0,
+            94.0
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 86.0,
+          "boot_std": 4.94,
+          "ci_95": [
+            76.0,
+            94.0
+          ]
+        },
+        "policy_target": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_prompt": {
+          "mean": 76.0,
+          "boot_std": 6.06,
+          "ci_95": [
+            64.0,
+            88.0
+          ]
+        },
+        "bleu4": {
+          "mean": 3.19,
+          "boot_std": 0.52,
+          "ci_95": [
+            2.22,
+            4.22
+          ]
+        },
+        "rougel": {
+          "mean": 17.04,
+          "boot_std": 0.48,
+          "ci_95": [
+            16.11,
+            17.96
+          ]
+        },
+        "word_count": {
+          "mean": 88.5,
+          "boot_std": 3.32,
+          "ci_95": [
+            82.02,
+            95.18
+          ]
+        }
+      }
+    },
+    "B3_Prompt_Only_Certainty_5way": {
+      "n_correct": 130,
+      "correct": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 99.23,
+          "boot_std": 0.78,
+          "ci_95": [
+            97.69,
+            100.0
+          ]
+        },
+        "k_recall": {
+          "mean": 55.64,
+          "boot_std": 3.15,
+          "ci_95": [
+            49.43,
+            61.93
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 99.23,
+          "boot_std": 0.76,
+          "ci_95": [
+            97.69,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 0.77,
+          "boot_std": 0.78,
+          "ci_95": [
+            0.0,
+            2.31
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 0.77,
+          "boot_std": 0.78,
+          "ci_95": [
+            0.0,
+            2.31
+          ]
+        },
+        "oar_fact": {
+          "mean": 0.77,
+          "boot_std": 0.78,
+          "ci_95": [
+            0.0,
+            2.31
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 96.15,
+          "boot_std": 1.7,
+          "ci_95": [
+            92.31,
+            99.23
+          ]
+        },
+        "policy_prompt": {
+          "mean": 96.15,
+          "boot_std": 1.7,
+          "ci_95": [
+            92.31,
+            99.23
+          ]
+        },
+        "bleu4": {
+          "mean": 7.79,
+          "boot_std": 0.57,
+          "ci_95": [
+            6.7,
+            8.94
+          ]
+        },
+        "rougel": {
+          "mean": 21.81,
+          "boot_std": 0.51,
+          "ci_95": [
+            20.83,
+            22.84
+          ]
+        },
+        "word_count": {
+          "mean": 71.81,
+          "boot_std": 1.98,
+          "ci_95": [
+            67.98,
+            75.75
+          ]
+        }
+      },
+      "n_wrong": 50,
+      "wrong": {
+        "eap": {
+          "mean": 98.5,
+          "boot_std": 0.63,
+          "ci_95": [
+            97.3,
+            99.7
+          ]
+        },
+        "fact_p": {
+          "mean": 90.0,
+          "boot_std": 4.21,
+          "ci_95": [
+            82.0,
+            98.0
+          ]
+        },
+        "k_recall": {
+          "mean": 1.63,
+          "boot_std": 0.6,
+          "ci_95": [
+            0.55,
+            2.87
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 10.0,
+          "boot_std": 4.21,
+          "ci_95": [
+            2.0,
+            18.0
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 10.0,
+          "boot_std": 4.21,
+          "ci_95": [
+            2.0,
+            18.0
+          ]
+        },
+        "oar_fact": {
+          "mean": 10.0,
+          "boot_std": 4.21,
+          "ci_95": [
+            2.0,
+            18.0
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 92.0,
+          "boot_std": 3.89,
+          "ci_95": [
+            84.0,
+            98.0
+          ]
+        },
+        "policy_prompt": {
+          "mean": 96.0,
+          "boot_std": 2.82,
+          "ci_95": [
+            90.0,
+            100.0
+          ]
+        },
+        "bleu4": {
+          "mean": 0.27,
+          "boot_std": 0.14,
+          "ci_95": [
+            0.04,
+            0.57
+          ]
+        },
+        "rougel": {
+          "mean": 14.09,
+          "boot_std": 0.31,
+          "ci_95": [
+            13.5,
+            14.71
+          ]
+        },
+        "word_count": {
+          "mean": 66.24,
+          "boot_std": 2.31,
+          "ci_95": [
+            61.84,
+            70.88
+          ]
+        }
+      }
+    },
+    "B4_Ours_No_VCGAT_5way": {
+      "n_correct": 130,
+      "correct": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 93.85,
+          "boot_std": 2.12,
+          "ci_95": [
+            89.23,
+            97.69
+          ]
+        },
+        "k_recall": {
+          "mean": 9.03,
+          "boot_std": 1.15,
+          "ci_95": [
+            6.83,
+            11.37
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 90.64,
+          "boot_std": 2.31,
+          "ci_95": [
+            85.9,
+            94.87
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 6.15,
+          "boot_std": 2.12,
+          "ci_95": [
+            2.31,
+            10.77
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 6.15,
+          "boot_std": 2.12,
+          "ci_95": [
+            2.31,
+            10.77
+          ]
+        },
+        "oar_fact": {
+          "mean": 6.15,
+          "boot_std": 2.12,
+          "ci_95": [
+            2.31,
+            10.77
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 89.23,
+          "boot_std": 2.75,
+          "ci_95": [
+            83.85,
+            94.62
+          ]
+        },
+        "policy_prompt": {
+          "mean": 89.23,
+          "boot_std": 2.75,
+          "ci_95": [
+            83.85,
+            94.62
+          ]
+        },
+        "bleu4": {
+          "mean": 3.92,
+          "boot_std": 0.36,
+          "ci_95": [
+            3.21,
+            4.62
+          ]
+        },
+        "rougel": {
+          "mean": 19.71,
+          "boot_std": 0.41,
+          "ci_95": [
+            18.92,
+            20.51
+          ]
+        },
+        "word_count": {
+          "mean": 51.33,
+          "boot_std": 1.46,
+          "ci_95": [
+            48.55,
+            54.24
+          ]
+        }
+      },
+      "n_wrong": 50,
+      "wrong": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 84.0,
+          "boot_std": 5.16,
+          "ci_95": [
+            74.0,
+            94.0
+          ]
+        },
+        "k_recall": {
+          "mean": 1.74,
+          "boot_std": 0.65,
+          "ci_95": [
+            0.58,
+            3.13
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 98.0,
+          "boot_std": 1.97,
+          "ci_95": [
+            94.0,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 16.0,
+          "boot_std": 5.16,
+          "ci_95": [
+            6.0,
+            26.0
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 16.0,
+          "boot_std": 5.16,
+          "ci_95": [
+            6.0,
+            26.0
+          ]
+        },
+        "oar_fact": {
+          "mean": 16.0,
+          "boot_std": 5.16,
+          "ci_95": [
+            6.0,
+            26.0
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 68.0,
+          "boot_std": 6.55,
+          "ci_95": [
+            54.0,
+            80.0
+          ]
+        },
+        "policy_prompt": {
+          "mean": 74.0,
+          "boot_std": 6.2,
+          "ci_95": [
+            62.0,
+            86.0
+          ]
+        },
+        "bleu4": {
+          "mean": 0.7,
+          "boot_std": 0.23,
+          "ci_95": [
+            0.28,
+            1.19
+          ]
+        },
+        "rougel": {
+          "mean": 14.46,
+          "boot_std": 0.49,
+          "ci_95": [
+            13.52,
+            15.45
+          ]
+        },
+        "word_count": {
+          "mean": 53.04,
+          "boot_std": 1.93,
+          "ci_95": [
+            49.38,
+            56.82
+          ]
+        }
+      }
+    },
+    "Proposed_VCGAT_E2E_5way": {
+      "n_correct": 130,
+      "correct": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 94.62,
+          "boot_std": 2.0,
+          "ci_95": [
+            90.77,
+            98.46
+          ]
+        },
+        "k_recall": {
+          "mean": 32.64,
+          "boot_std": 2.43,
+          "ci_95": [
+            27.91,
+            37.39
+          ]
+        },
+        "vsp": {
+          "mean": 99.91,
+          "boot_std": 0.08,
+          "ci_95": [
+            99.74,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 99.23,
+          "boot_std": 0.76,
+          "ci_95": [
+            97.69,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 6.92,
+          "boot_std": 2.25,
+          "ci_95": [
+            3.08,
+            11.54
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 6.92,
+          "boot_std": 2.25,
+          "ci_95": [
+            3.08,
+            11.54
+          ]
+        },
+        "oar_fact": {
+          "mean": 5.38,
+          "boot_std": 2.0,
+          "ci_95": [
+            1.54,
+            9.23
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 88.46,
+          "boot_std": 2.82,
+          "ci_95": [
+            82.31,
+            93.85
+          ]
+        },
+        "policy_prompt": {
+          "mean": 88.46,
+          "boot_std": 2.82,
+          "ci_95": [
+            82.31,
+            93.85
+          ]
+        },
+        "bleu4": {
+          "mean": 5.55,
+          "boot_std": 0.5,
+          "ci_95": [
+            4.62,
+            6.56
+          ]
+        },
+        "rougel": {
+          "mean": 21.03,
+          "boot_std": 0.51,
+          "ci_95": [
+            20.03,
+            22.04
+          ]
+        },
+        "word_count": {
+          "mean": 52.52,
+          "boot_std": 1.59,
+          "ci_95": [
+            49.48,
+            55.77
+          ]
+        }
+      },
+      "n_wrong": 50,
+      "wrong": {
+        "eap": {
+          "mean": 99.4,
+          "boot_std": 0.42,
+          "ci_95": [
+            98.5,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 76.0,
+          "boot_std": 5.99,
+          "ci_95": [
+            64.0,
+            88.0
+          ]
+        },
+        "k_recall": {
+          "mean": 1.2,
+          "boot_std": 0.54,
+          "ci_95": [
+            0.25,
+            2.36
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 24.0,
+          "boot_std": 5.99,
+          "ci_95": [
+            12.0,
+            36.0
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 24.0,
+          "boot_std": 5.99,
+          "ci_95": [
+            12.0,
+            36.0
+          ]
+        },
+        "oar_fact": {
+          "mean": 24.0,
+          "boot_std": 5.99,
+          "ci_95": [
+            12.0,
+            36.0
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 74.0,
+          "boot_std": 6.22,
+          "ci_95": [
+            62.0,
+            86.0
+          ]
+        },
+        "policy_prompt": {
+          "mean": 76.0,
+          "boot_std": 6.03,
+          "ci_95": [
+            64.0,
+            88.0
+          ]
+        },
+        "bleu4": {
+          "mean": 0.34,
+          "boot_std": 0.17,
+          "ci_95": [
+            0.07,
+            0.72
+          ]
+        },
+        "rougel": {
+          "mean": 14.18,
+          "boot_std": 0.41,
+          "ci_95": [
+            13.41,
+            15.01
+          ]
+        },
+        "word_count": {
+          "mean": 52.04,
+          "boot_std": 1.94,
+          "ci_95": [
+            48.24,
+            55.86
+          ]
+        }
+      }
+    },
+    "Proposed_VCGAT_E2E_35way": {
+      "n_correct": 64,
+      "correct": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 71.88,
+          "boot_std": 5.55,
+          "ci_95": [
+            60.94,
+            82.81
+          ]
+        },
+        "k_recall": {
+          "mean": 5.87,
+          "boot_std": 1.22,
+          "ci_95": [
+            3.54,
+            8.34
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 28.12,
+          "boot_std": 5.55,
+          "ci_95": [
+            17.19,
+            39.06
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 28.12,
+          "boot_std": 5.55,
+          "ci_95": [
+            17.19,
+            39.06
+          ]
+        },
+        "oar_fact": {
+          "mean": 28.12,
+          "boot_std": 5.55,
+          "ci_95": [
+            17.19,
+            39.06
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 54.69,
+          "boot_std": 6.18,
+          "ci_95": [
+            42.19,
+            67.19
+          ]
+        },
+        "policy_prompt": {
+          "mean": 54.69,
+          "boot_std": 6.18,
+          "ci_95": [
+            42.19,
+            67.19
+          ]
+        },
+        "bleu4": {
+          "mean": 0.78,
+          "boot_std": 0.34,
+          "ci_95": [
+            0.21,
+            1.53
+          ]
+        },
+        "rougel": {
+          "mean": 15.78,
+          "boot_std": 0.59,
+          "ci_95": [
+            14.68,
+            17.01
+          ]
+        },
+        "word_count": {
+          "mean": 47.0,
+          "boot_std": 1.45,
+          "ci_95": [
+            44.2,
+            49.94
+          ]
+        }
+      },
+      "n_wrong": 116,
+      "wrong": {
+        "eap": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "fact_p": {
+          "mean": 80.17,
+          "boot_std": 3.63,
+          "ci_95": [
+            73.28,
+            87.07
+          ]
+        },
+        "k_recall": {
+          "mean": 1.27,
+          "boot_std": 0.44,
+          "ci_95": [
+            0.52,
+            2.23
+          ]
+        },
+        "vsp": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "vsp_vlm": {
+          "mean": 100.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            100.0,
+            100.0
+          ]
+        },
+        "oar_gen_target": {
+          "mean": 19.83,
+          "boot_std": 3.63,
+          "ci_95": [
+            12.93,
+            26.72
+          ]
+        },
+        "oar_gen_prompt": {
+          "mean": 19.83,
+          "boot_std": 3.63,
+          "ci_95": [
+            12.93,
+            26.72
+          ]
+        },
+        "oar_fact": {
+          "mean": 19.83,
+          "boot_std": 3.63,
+          "ci_95": [
+            12.93,
+            26.72
+          ]
+        },
+        "wrong_lm_assert": {
+          "mean": 0.0,
+          "boot_std": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ]
+        },
+        "policy_target": {
+          "mean": 62.07,
+          "boot_std": 4.49,
+          "ci_95": [
+            53.45,
+            70.69
+          ]
+        },
+        "policy_prompt": {
+          "mean": 68.1,
+          "boot_std": 4.27,
+          "ci_95": [
+            59.48,
+            76.72
+          ]
+        },
+        "bleu4": {
+          "mean": 0.56,
+          "boot_std": 0.16,
+          "ci_95": [
+            0.28,
+            0.9
+          ]
+        },
+        "rougel": {
+          "mean": 14.65,
+          "boot_std": 0.33,
+          "ci_95": [
+            14.0,
+            15.31
+          ]
+        },
+        "word_count": {
+          "mean": 49.91,
+          "boot_std": 1.21,
+          "ci_95": [
+            47.58,
+            52.32
+          ]
+        }
+      }
+    }
+  },
+  "llm_judge_qwen14b": {
+    "Proposed_5way_vs_B2_CrispKG": {
+      "q1_scene_consistency": {
+        "Proposed_VCGAT_E2E_5way_pct": 81.11,
+        "B2_Crisp_KG_RAG_5way_pct": 17.78,
+        "Tie_pct": 1.11,
+        "counts": {
+          "Proposed_VCGAT_E2E_5way": 146,
+          "B2_Crisp_KG_RAG_5way": 32,
+          "Tie": 2
+        }
+      },
+      "q2_epistemic_reliability": {
+        "Proposed_VCGAT_E2E_5way_pct": 85.0,
+        "B2_Crisp_KG_RAG_5way_pct": 9.44,
+        "Tie_pct": 5.56,
+        "counts": {
+          "Proposed_VCGAT_E2E_5way": 153,
+          "Tie": 10,
+          "B2_Crisp_KG_RAG_5way": 17
+        }
+      },
+      "q3_audio_naturalness": {
+        "Proposed_VCGAT_E2E_5way_pct": 15.56,
+        "B2_Crisp_KG_RAG_5way_pct": 21.67,
+        "Tie_pct": 62.78,
+        "counts": {
+          "Tie": 113,
+          "B2_Crisp_KG_RAG_5way": 39,
+          "Proposed_VCGAT_E2E_5way": 28
+        }
+      },
+      "overall_winner": {
+        "Proposed_VCGAT_E2E_5way_pct": 78.33,
+        "B2_Crisp_KG_RAG_5way_pct": 21.67,
+        "Tie_pct": 0.0,
+        "counts": {
+          "Proposed_VCGAT_E2E_5way": 141,
+          "B2_Crisp_KG_RAG_5way": 39
+        }
+      }
+    },
+    "Proposed_5way_vs_B3_PromptOnly": {
+      "q1_scene_consistency": {
+        "Proposed_VCGAT_E2E_5way_pct": 56.67,
+        "B3_Prompt_Only_Certainty_5way_pct": 30.0,
+        "Tie_pct": 13.33,
+        "counts": {
+          "Proposed_VCGAT_E2E_5way": 102,
+          "Tie": 24,
+          "B3_Prompt_Only_Certainty_5way": 54
+        }
+      },
+      "q2_epistemic_reliability": {
+        "Proposed_VCGAT_E2E_5way_pct": 55.56,
+        "B3_Prompt_Only_Certainty_5way_pct": 27.78,
+        "Tie_pct": 16.67,
+        "counts": {
+          "Proposed_VCGAT_E2E_5way": 100,
+          "B3_Prompt_Only_Certainty_5way": 50,
+          "Tie": 30
+        }
+      },
+      "q3_audio_naturalness": {
+        "Proposed_VCGAT_E2E_5way_pct": 6.11,
+        "B3_Prompt_Only_Certainty_5way_pct": 3.89,
+        "Tie_pct": 90.0,
+        "counts": {
+          "Tie": 162,
+          "Proposed_VCGAT_E2E_5way": 11,
+          "B3_Prompt_Only_Certainty_5way": 7
+        }
+      },
+      "overall_winner": {
+        "Proposed_VCGAT_E2E_5way_pct": 60.0,
+        "B3_Prompt_Only_Certainty_5way_pct": 35.0,
+        "Tie_pct": 5.0,
+        "counts": {
+          "Proposed_VCGAT_E2E_5way": 108,
+          "B3_Prompt_Only_Certainty_5way": 63,
+          "Tie": 9
+        }
+      }
+    }
+  }
+}

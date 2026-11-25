@@ -1,0 +1,43 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam> onto:has_part <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#children_s_creative_space> ;
+    onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/museum_of_fine_arts_vietnam#children_s_creative_space> onto:inaugurated_in <http://transmtl.vn/ent/c8758b51> ;
+    onto:part_of <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3719 ;
+    fkg:docId "doc_e3a3f1e5483b" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#children_s_creative_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e3a3f1e5483b" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#children_s_creative_space> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6467 ;
+    fkg:docId "doc_e3a3f1e5483b" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/c8758b51> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam#children_s_creative_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2578 ;
+    fkg:docId "doc_e3a3f1e5483b" ;
+    fkg:kbId "museum_of_fine_arts_vietnam" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/museum_of_fine_arts_vietnam> .
+

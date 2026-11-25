@@ -1,0 +1,178 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/cc8ced3f> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/de5f4e1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q1858> onto:dated_to <http://transmtl.vn/ent/9dff31e0> ;
+    onto:on <http://transmtl.vn/ent/cc8ced3f> ;
+    onto:with <http://transmtl.vn/ent/35b93850>,
+        <http://transmtl.vn/ent/fc3ff482> .
+
+<http://transmtl.vn/kb/one_pillar_pagoda> onto:built_by <http://transmtl.vn/ent/b2086154> ;
+    onto:built_in <http://transmtl.vn/ent/58c54802> ;
+    onto:commissioned_by <http://transmtl.vn/ent/b2086154> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:symbol_of <http://transmtl.vn/ent/7a02715c>,
+        <http://transmtl.vn/ent/852488dd>,
+        <http://transmtl.vn/ent/beb35b75>,
+        <http://transmtl.vn/ent/eb318706> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7941 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2818 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/de5f4e1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3817 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/35b93850> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3328 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/cc8ced3f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3478 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b2086154> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3294 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/fc3ff482> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4942 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b2086154> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2646 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3342 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/58c54802> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3026 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/beb35b75> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4047 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/cc8ced3f> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3347 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/9dff31e0> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5481 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/852488dd> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4482 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/eb318706> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7197 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2838 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/7a02715c> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2794 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b2086154> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2579 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5274 ;
+    fkg:docId "doc_cfd2cf7ebd2e" ;
+    fkg:kbId "one_pillar_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/one_pillar_pagoda> .
+

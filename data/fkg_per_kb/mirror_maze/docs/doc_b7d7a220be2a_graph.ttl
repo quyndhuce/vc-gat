@@ -1,0 +1,131 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/mirror_maze#labyrinthine_interior> onto:part_of <http://transmtl.vn/ent/0d149b90> .
+
+<http://transmtl.vn/kb/mirror_maze> onto:has_part <http://transmtl.vn/kb/mirror_maze#labyrinthine_interior> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:part_of <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:renovated_in <http://transmtl.vn/ent/8d8818c8> ;
+    onto:surrounded_by <http://transmtl.vn/ent/bbdddab4>,
+        <http://transmtl.vn/kb/thong_nhat_park> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:renovated_in <http://transmtl.vn/ent/8d8818c8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5382 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7776 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2888 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/8d8818c8> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5092 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/bbdddab4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3051 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3623 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2649 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2603 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/0d149b90> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze#labyrinthine_interior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7322 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/8d8818c8> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.66 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/kb/thong_nhat_park> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/kb/mirror_maze#labyrinthine_interior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6419 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/8d8818c8> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3324 ;
+    fkg:docId "doc_b7d7a220be2a" ;
+    fkg:kbId "mirror_maze" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/mirror_maze> .
+

@@ -1,0 +1,143 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q1319921#towering_structures> onto:located_in <http://transmtl.vn/kb/bat_trang_gate> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:has_part <http://www.wikidata.org/entity/Q1319921#towering_structures> ;
+    onto:located_in <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:near <http://transmtl.vn/ent/7022f4e7>,
+        <http://transmtl.vn/ent/e05eebf4> .
+
+<http://www.wikidata.org/entity/Q1858> onto:located_in <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:near <http://transmtl.vn/ent/7022f4e7>,
+        <http://transmtl.vn/ent/bdd6405f>,
+        <http://transmtl.vn/ent/e05eebf4>,
+        <http://transmtl.vn/ent/e699810d> .
+
+<http://transmtl.vn/kb/bat_trang_gate> onto:located_in <http://transmtl.vn/ent/d807f9f9> ;
+    onto:near <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/d807f9f9> ;
+    onto:on <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3555 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/e699810d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3365 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921#towering_structures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3644 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/d807f9f9> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921#towering_structures> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6644 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/7022f4e7> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6931 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/e05eebf4> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3129 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7032 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/d807f9f9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3224 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2661 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/bdd6405f> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6904 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5852 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/e05eebf4> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6458 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/bat_trang_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6466 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/e699810d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7569 ;
+    fkg:docId "doc_ce38d299f9bb" ;
+    fkg:kbId "bat_trang_pottery_village" ;
+    rdf:object <http://transmtl.vn/ent/7022f4e7> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

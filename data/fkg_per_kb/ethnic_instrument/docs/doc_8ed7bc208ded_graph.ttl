@@ -1,0 +1,25 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1044a4e5> onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+<http://transmtl.vn/ent/912cbe51> onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4347 ;
+    fkg:docId "doc_8ed7bc208ded" ;
+    fkg:kbId "ethnic_instrument" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1044a4e5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.47 ;
+    fkg:docId "doc_8ed7bc208ded" ;
+    fkg:kbId "ethnic_instrument" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/912cbe51> .
+

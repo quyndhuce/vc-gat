@@ -1,0 +1,73 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/25359346> onto:over <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/ent/2ac43aa4> onto:over <http://www.wikidata.org/entity/Q1319921> .
+
+<http://transmtl.vn/kb/ceramic_kiln> onto:has_part <http://transmtl.vn/kb/ceramic_kiln#kiln_door> .
+
+<http://transmtl.vn/kb/ceramic_kiln#kiln_door> onto:part_of <http://transmtl.vn/ent/9e828743> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:located_in <http://transmtl.vn/ent/4c4976f8> ;
+    onto:near <http://transmtl.vn/kb/red_river> ;
+    onto:surrounded_by <http://transmtl.vn/ent/992763c3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3081 ;
+    fkg:docId "doc_2aa19a9c88cb" ;
+    fkg:kbId "ceramic_kiln" ;
+    rdf:object <http://transmtl.vn/ent/9e828743> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ceramic_kiln#kiln_door> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.304 ;
+    fkg:docId "doc_2aa19a9c88cb" ;
+    fkg:kbId "ceramic_kiln" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5727 ;
+    fkg:docId "doc_2aa19a9c88cb" ;
+    fkg:kbId "ceramic_kiln" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/ent/25359346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3077 ;
+    fkg:docId "doc_2aa19a9c88cb" ;
+    fkg:kbId "ceramic_kiln" ;
+    rdf:object <http://transmtl.vn/ent/4c4976f8> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5097 ;
+    fkg:docId "doc_2aa19a9c88cb" ;
+    fkg:kbId "ceramic_kiln" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/ent/2ac43aa4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2aa19a9c88cb" ;
+    fkg:kbId "ceramic_kiln" ;
+    rdf:object <http://transmtl.vn/kb/ceramic_kiln#kiln_door> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ceramic_kiln> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2519 ;
+    fkg:docId "doc_2aa19a9c88cb" ;
+    fkg:kbId "ceramic_kiln" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+

@@ -1,0 +1,284 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/98c67295> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/quan_thanh_temple> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/df90989c> onto:near <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/c0cb5f0f> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/west_lake> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/truc_bach_lake#narrow_dike> onto:built_in <http://transmtl.vn/ent/08915416> ;
+    onto:connects <http://transmtl.vn/ent/5ac12e3e>,
+        <http://transmtl.vn/kb/west_lake> .
+
+<http://www.wikidata.org/entity/Q1858> onto:built_in <http://transmtl.vn/ent/1f36c15d> ;
+    onto:dated_to <http://transmtl.vn/ent/1f36c15d> ;
+    onto:renovated_in <http://transmtl.vn/ent/65d2ea03> .
+
+<http://transmtl.vn/kb/truc_bach_lake> onto:has_part <http://transmtl.vn/kb/truc_bach_lake#narrow_dike>,
+        <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/c0cb5f0f> ;
+    onto:near <http://transmtl.vn/ent/606dcc1a> ;
+    onto:part_of <http://transmtl.vn/kb/red_river> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4587 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/1f36c15d> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.352 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2995 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6437 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4934 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8463 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2535 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2616 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/df90989c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.252 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/65d2ea03> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3157 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3892 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#narrow_dike> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2527 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/1f36c15d> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3208 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/df90989c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4528 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#narrow_dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2967 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#narrow_dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.638 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5355 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/98c67295> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7652 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/c0cb5f0f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2834 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4839 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9974 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3213 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/5ac12e3e> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#narrow_dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3839 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake#trúc_bạch_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6905 ;
+    fkg:docId "doc_0ecb6052868d" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/quan_thanh_temple> .
+

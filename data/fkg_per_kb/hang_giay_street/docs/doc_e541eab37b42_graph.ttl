@@ -1,0 +1,109 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/a1b0311b> onto:on <http://transmtl.vn/kb/hang_giay_street> .
+
+<http://transmtl.vn/ent/cb897c2c> onto:on <http://transmtl.vn/kb/hang_giay_street> .
+
+<http://transmtl.vn/kb/hang_giay_street#tube_houses> onto:architectural_style <http://transmtl.vn/ent/f8ddd3b5> .
+
+<http://transmtl.vn/ent/c0bc680b> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_giay_street> onto:has_part <http://transmtl.vn/kb/hang_giay_street#tube_houses> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/c0bc680b> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/c0bc680b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3078 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3075 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c0bc680b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3471 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4913 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/f8ddd3b5> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street#tube_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_giay_street#tube_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3265 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4466 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_giay_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/a1b0311b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3601 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_giay_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/cb897c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4215 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/c0bc680b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2682 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5549 ;
+    fkg:docId "doc_e541eab37b42" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/c0bc680b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+

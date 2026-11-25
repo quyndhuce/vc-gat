@@ -1,0 +1,662 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/3aab24fa> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/7a8a4b2e> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/9b1118d6> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/a00b41a9> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/a1b0311b> onto:on <http://transmtl.vn/kb/hang_buom_street> .
+
+<http://transmtl.vn/ent/bb719428> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/d024800e> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/ecd228c7> .
+
+<http://transmtl.vn/ent/388f4940> onto:former_name_of <http://transmtl.vn/kb/hang_buom_street> .
+
+<http://transmtl.vn/ent/4ed5d2ea> onto:ruled_by <http://transmtl.vn/ent/93992864> .
+
+<http://transmtl.vn/kb/hang_buom_street#architecture> onto:architectural_style <http://transmtl.vn/ent/9ad80839> .
+
+<http://transmtl.vn/kb/hang_buom_street#intricate_carvings> onto:part_of <http://transmtl.vn/ent/efe79c32> .
+
+<http://transmtl.vn/kb/hang_buom_street#street> onto:part_of <http://transmtl.vn/ent/e19ca445> .
+
+<http://transmtl.vn/kb/hang_buom_street#arched_windows> onto:architectural_style <http://transmtl.vn/ent/30516712>,
+        <http://transmtl.vn/ent/9ad80839> ;
+    onto:part_of <http://transmtl.vn/ent/efe79c32> .
+
+<http://transmtl.vn/kb/hang_buom_street#curved_roofs> onto:architectural_style <http://transmtl.vn/ent/30516712>,
+        <http://transmtl.vn/ent/9ad80839> ;
+    onto:part_of <http://transmtl.vn/ent/efe79c32> .
+
+<http://transmtl.vn/kb/hang_buom_street#iron_balconies> onto:architectural_style <http://transmtl.vn/ent/30516712>,
+        <http://transmtl.vn/ent/9ad80839> ;
+    onto:part_of <http://transmtl.vn/ent/efe79c32> .
+
+<http://transmtl.vn/kb/hang_buom_street#vietnamese_eastern_gate> onto:renamed_to <http://transmtl.vn/kb/hang_ngang_street> .
+
+<http://transmtl.vn/kb/hang_buom_street#houses> onto:architectural_style <http://transmtl.vn/ent/30516712>,
+        <http://transmtl.vn/ent/9ad80839> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/e19ca445> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:ruled_by <http://transmtl.vn/ent/93992864>,
+        <http://transmtl.vn/ent/babd2925> .
+
+<http://transmtl.vn/kb/hang_buom_street> onto:connects <http://transmtl.vn/ent/6277247f>,
+        <http://transmtl.vn/ent/71e5144d>,
+        <http://transmtl.vn/ent/75ba8307> ;
+    onto:former_name_of <http://transmtl.vn/ent/388f4940> ;
+    onto:founded_in <http://transmtl.vn/ent/08915416> ;
+    onto:has_part <http://transmtl.vn/kb/hang_buom_street#arched_windows>,
+        <http://transmtl.vn/kb/hang_buom_street#architecture>,
+        <http://transmtl.vn/kb/hang_buom_street#curved_roofs>,
+        <http://transmtl.vn/kb/hang_buom_street#houses>,
+        <http://transmtl.vn/kb/hang_buom_street#intricate_carvings>,
+        <http://transmtl.vn/kb/hang_buom_street#iron_balconies>,
+        <http://transmtl.vn/kb/hang_buom_street#street>,
+        <http://transmtl.vn/kb/hang_buom_street#vietnamese_eastern_gate> ;
+    onto:leading_to <http://transmtl.vn/ent/7b716a10> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/dd93302e>,
+        <http://transmtl.vn/ent/ecd228c7> ;
+    onto:near <http://transmtl.vn/ent/ded809d4> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3187 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/babd2925> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#iron_balconies> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3882 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3aab24fa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2556 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/388f4940> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.272 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3708 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/75ba8307> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3965 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2921 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d024800e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2984 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/388f4940> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.389 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/71e5144d> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3971 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a00b41a9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#architecture> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2649 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3851 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/30516712> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#curved_roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.272 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2601 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9b1118d6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2668 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5137 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/30516712> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3741 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2672 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/7b716a10> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.641 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/93992864> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2803 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/30516712> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#iron_balconies> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8735 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2889 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#arched_windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2746 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/dd93302e> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4689 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4408 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3685 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#curved_roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2601 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/93992864> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#curved_roofs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3165 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3051 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3383 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3643 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7a8a4b2e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6576 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3382 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2836 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/e19ca445> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4078 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2809 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#iron_balconies> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.251 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/9ad80839> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3087 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.325 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/30516712> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#arched_windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4432 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5089 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3711 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/bb719428> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2665 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/a1b0311b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#arched_windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2951 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/9ad80839> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#iron_balconies> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8308 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6023 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4273 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/ecd228c7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3432 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#intricate_carvings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4077 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2925 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/ded809d4> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5024 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#vietnamese_eastern_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3462 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3567 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4332 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/6277247f> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.345 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_ngang_street> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#vietnamese_eastern_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#vietnamese_eastern_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2571 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4868 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/9ad80839> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4442 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_ngang_street> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#vietnamese_eastern_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3599 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/9ad80839> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#arched_windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3637 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/9ad80839> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#curved_roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_buom_street#intricate_carvings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3124 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/ecd228c7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4244 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/e19ca445> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5857 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7585 ;
+    fkg:docId "doc_15c78dd570db" ;
+    fkg:kbId "hang_buom_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_buom_street> .
+

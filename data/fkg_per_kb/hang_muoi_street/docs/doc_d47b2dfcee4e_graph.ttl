@@ -1,0 +1,109 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_muoi_street#concrete_dike> onto:above <http://transmtl.vn/ent/a1b0311b> .
+
+<http://transmtl.vn/kb/hang_muoi_street#slope> onto:connects <http://transmtl.vn/ent/dfa6a4de> .
+
+<http://transmtl.vn/kb/hang_muoi_street#street> onto:surrounded_by <http://transmtl.vn/ent/cb897c2c> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_muoi_street> onto:has_part <http://transmtl.vn/kb/hang_muoi_street#concrete_dike>,
+        <http://transmtl.vn/kb/hang_muoi_street#slope>,
+        <http://transmtl.vn/kb/hang_muoi_street#street> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:part_of <http://transmtl.vn/ent/606dcc1a> ;
+    onto:surrounded_by <http://transmtl.vn/ent/cb897c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2949 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/a1b0311b> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#concrete_dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#slope> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3609 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2747 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/dfa6a4de> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#slope> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3667 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4026 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/cb897c2c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3079 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4805 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#concrete_dike> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_muoi_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2773 ;
+    fkg:docId "doc_d47b2dfcee4e" ;
+    fkg:kbId "hang_muoi_street" ;
+    rdf:object <http://transmtl.vn/ent/cb897c2c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_muoi_street#street> .
+

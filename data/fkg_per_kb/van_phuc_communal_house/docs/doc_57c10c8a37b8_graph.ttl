@@ -1,0 +1,109 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/van_phuc_communal_house#central_hall> onto:part_of <http://transmtl.vn/ent/8145acf6> .
+
+<http://transmtl.vn/kb/van_phuc_communal_house#cuốn_thư> onto:part_of <http://transmtl.vn/ent/8145acf6> .
+
+<http://transmtl.vn/kb/van_phuc_communal_house#lim_columns> onto:part_of <http://transmtl.vn/kb/van_phuc_communal_house> .
+
+<http://transmtl.vn/kb/van_phuc_communal_house#đầu_đao> onto:part_of <http://transmtl.vn/kb/van_phuc_communal_house> .
+
+<http://transmtl.vn/kb/van_phuc_communal_house> onto:dedicated_to <http://transmtl.vn/ent/23ed0062> ;
+    onto:has_part <http://transmtl.vn/kb/van_phuc_communal_house#central_hall>,
+        <http://transmtl.vn/kb/van_phuc_communal_house#cuốn_thư>,
+        <http://transmtl.vn/kb/van_phuc_communal_house#lim_columns>,
+        <http://transmtl.vn/kb/van_phuc_communal_house#đầu_đao> ;
+    onto:located_in <http://transmtl.vn/ent/6791d446>,
+        <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_communal_house#cuốn_thư> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.319 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/23ed0062> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4114 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/8145acf6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house#central_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2838 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_communal_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house#đầu_đao> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2881 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/8145acf6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house#cuốn_thư> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3389 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_communal_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house#lim_columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_communal_house#đầu_đao> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3308 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/6791d446> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_communal_house#central_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3596 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_57c10c8a37b8" ;
+    fkg:kbId "van_phuc_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_communal_house#lim_columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_communal_house> .
+

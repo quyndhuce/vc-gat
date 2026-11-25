@@ -1,0 +1,552 @@
+{
+  "scheme": "Scheme 1 (Two-tier Natural Thresholds: theta_base=0.45, theta_inf=0.25, max_per_rel=3)",
+  "R5": {
+    "panel_a": {
+      "total_inferred_conclusions": 1820,
+      "single_derivation_M_1": 1433,
+      "single_derivation_M_1_share": 78.74,
+      "multi_derivation_M_ge_2": 387,
+      "multi_derivation_M_ge_2_share": 21.26,
+      "exact_ldfi_n_le_12": 1655,
+      "exact_ldfi_share": 90.93,
+      "truncated_ldfi_n_gt_12": 165,
+      "truncated_ldfi_share": 9.07,
+      "source_corroboration_kappa_1": 382,
+      "source_corroboration_kappa_ge_2": 5,
+      "partial_overlap_conclusions": 223,
+      "partial_overlap_share_of_M_ge_2": 57.62,
+      "strictly_absorbable_conclusions": 298,
+      "total_absorbed_echo_derivations": 966
+    },
+    "panel_b": {
+      "mu_max": {
+        "mean_support": 0.2574,
+        "median_support": 0.2332,
+        "inflation_vs_v2": -0.0046,
+        "sandwich_violations": 0
+      },
+      "naive_noisy_or": {
+        "mean_support": 0.3189,
+        "median_support": 0.2604,
+        "inflation_vs_v2": 0.0569,
+        "affected_conclusions": 383
+      },
+      "ldfi_v2": {
+        "mean_support": 0.262,
+        "median_support": 0.2333,
+        "inflation_vs_v2": 0.0,
+        "sandwich_violations": 0
+      }
+    }
+  },
+  "R6": {
+    "base_only": {
+      "avg_inferred_facts": 0.0,
+      "pct_videos_ge_1_inferred": 0.0,
+      "relation_entropy": 2.26,
+      "echo_rate_pct": 0.0,
+      "unique_relations_per_prompt": 5.41,
+      "knowledge_set_change_pct": 0.0
+    },
+    "naive_noisy_or": {
+      "avg_inferred_facts": 1.11,
+      "pct_videos_ge_1_inferred": 56.4,
+      "relation_entropy": 2.33,
+      "echo_rate_pct": 91.3,
+      "unique_relations_per_prompt": 5.68,
+      "knowledge_set_change_pct": 56.4
+    },
+    "ldfi_v2_no_cap": {
+      "avg_inferred_facts": 0.0,
+      "pct_videos_ge_1_inferred": 0.0,
+      "relation_entropy": 0.81,
+      "echo_rate_pct": 0.0,
+      "unique_relations_per_prompt": 2.54,
+      "knowledge_set_change_pct": 93.2
+    },
+    "ldfi_v2_full": {
+      "avg_inferred_facts": 0.66,
+      "pct_videos_ge_1_inferred": 27.2,
+      "relation_entropy": 2.33,
+      "echo_rate_pct": 0.0,
+      "unique_relations_per_prompt": 5.68,
+      "knowledge_set_change_pct": 27.2
+    }
+  },
+  "R7": {
+    "vlm_rag": {
+      "factual": {
+        "pt": 51.6,
+        "ci_low": 50.3,
+        "ci_high": 52.9
+      },
+      "unsupported": {
+        "pt": 37.1,
+        "ci_low": 36.0,
+        "ci_high": 38.3
+      },
+      "coverage": {
+        "pt": 35.3,
+        "ci_low": 34.0,
+        "ci_high": 36.6
+      },
+      "scene": {
+        "pt": 40.0,
+        "ci_low": 38.7,
+        "ci_high": 41.3
+      }
+    },
+    "dedup_first": {
+      "factual": {
+        "pt": 63.8,
+        "ci_low": 62.5,
+        "ci_high": 65.1
+      },
+      "unsupported": {
+        "pt": 26.2,
+        "ci_low": 25.1,
+        "ci_high": 27.3
+      },
+      "coverage": {
+        "pt": 41.2,
+        "ci_low": 39.8,
+        "ci_high": 42.6
+      },
+      "scene": {
+        "pt": 46.5,
+        "ci_low": 45.2,
+        "ci_high": 47.8
+      }
+    },
+    "graph_rag": {
+      "factual": {
+        "pt": 74.2,
+        "ci_low": 72.8,
+        "ci_high": 75.6
+      },
+      "unsupported": {
+        "pt": 22.4,
+        "ci_low": 21.3,
+        "ci_high": 23.5
+      },
+      "coverage": {
+        "pt": 58.6,
+        "ci_low": 57.3,
+        "ci_high": 59.9
+      },
+      "scene": {
+        "pt": 52.1,
+        "ci_low": 50.7,
+        "ci_high": 53.5
+      }
+    },
+    "ds_discounted": {
+      "factual": {
+        "pt": 78.5,
+        "ci_low": 77.2,
+        "ci_high": 79.8
+      },
+      "unsupported": {
+        "pt": 18.2,
+        "ci_low": 17.1,
+        "ci_high": 19.3
+      },
+      "coverage": {
+        "pt": 51.4,
+        "ci_low": 50.0,
+        "ci_high": 52.8
+      },
+      "scene": {
+        "pt": 75.6,
+        "ci_low": 74.3,
+        "ci_high": 77.0
+      }
+    },
+    "ours_full": {
+      "factual": {
+        "pt": 83.1,
+        "ci_low": 81.9,
+        "ci_high": 84.3
+      },
+      "unsupported": {
+        "pt": 16.9,
+        "ci_low": 15.8,
+        "ci_high": 18.1
+      },
+      "coverage": {
+        "pt": 54.5,
+        "ci_low": 53.2,
+        "ci_high": 55.8
+      },
+      "scene": {
+        "pt": 78.8,
+        "ci_low": 77.6,
+        "ci_high": 80.0
+      }
+    }
+  },
+  "R8_progressive": {
+    "vlm_rag": {
+      "factual": {
+        "pt": 51.6,
+        "ci_low": 50.3,
+        "ci_high": 52.8
+      },
+      "unsupported": {
+        "pt": 37.1,
+        "ci_low": 36.0,
+        "ci_high": 38.2
+      },
+      "coverage": {
+        "pt": 35.3,
+        "ci_low": 34.0,
+        "ci_high": 36.6
+      },
+      "scene": {
+        "pt": 40.0,
+        "ci_low": 38.6,
+        "ci_high": 41.4
+      }
+    },
+    "fkg": {
+      "factual": {
+        "pt": 68.4,
+        "ci_low": 67.0,
+        "ci_high": 69.8
+      },
+      "unsupported": {
+        "pt": 21.8,
+        "ci_low": 20.7,
+        "ci_high": 23.0
+      },
+      "coverage": {
+        "pt": 44.5,
+        "ci_low": 43.2,
+        "ci_high": 45.8
+      },
+      "scene": {
+        "pt": 50.6,
+        "ci_low": 49.3,
+        "ci_high": 51.9
+      }
+    },
+    "vis_adm": {
+      "factual": {
+        "pt": 72.4,
+        "ci_low": 71.1,
+        "ci_high": 73.7
+      },
+      "unsupported": {
+        "pt": 18.5,
+        "ci_low": 17.4,
+        "ci_high": 19.7
+      },
+      "coverage": {
+        "pt": 48.8,
+        "ci_low": 47.5,
+        "ci_high": 50.1
+      },
+      "scene": {
+        "pt": 74.4,
+        "ci_low": 73.1,
+        "ci_high": 75.8
+      }
+    },
+    "lari_naive": {
+      "factual": {
+        "pt": 80.4,
+        "ci_low": 79.1,
+        "ci_high": 81.7
+      },
+      "unsupported": {
+        "pt": 19.5,
+        "ci_low": 18.4,
+        "ci_high": 20.7
+      },
+      "coverage": {
+        "pt": 59.2,
+        "ci_low": 57.9,
+        "ci_high": 60.5
+      },
+      "scene": {
+        "pt": 74.4,
+        "ci_low": 73.1,
+        "ci_high": 75.7
+      }
+    },
+    "ldfi_v2_ungated": {
+      "factual": {
+        "pt": 82.2,
+        "ci_low": 80.9,
+        "ci_high": 83.4
+      },
+      "unsupported": {
+        "pt": 17.8,
+        "ci_low": 16.7,
+        "ci_high": 18.9
+      },
+      "coverage": {
+        "pt": 56.4,
+        "ci_low": 55.0,
+        "ci_high": 57.7
+      },
+      "scene": {
+        "pt": 75.2,
+        "ci_low": 73.9,
+        "ci_high": 76.5
+      }
+    },
+    "full_system": {
+      "factual": {
+        "pt": 83.1,
+        "ci_low": 81.8,
+        "ci_high": 84.4
+      },
+      "unsupported": {
+        "pt": 16.9,
+        "ci_low": 15.7,
+        "ci_high": 18.1
+      },
+      "coverage": {
+        "pt": 54.5,
+        "ci_low": 53.2,
+        "ci_high": 55.8
+      },
+      "scene": {
+        "pt": 78.8,
+        "ci_low": 77.5,
+        "ci_high": 80.1
+      }
+    }
+  },
+  "R8_loo": {
+    "full_system": {
+      "factual": {
+        "pt": 83.1,
+        "ci_low": 81.8,
+        "ci_high": 84.3
+      },
+      "unsupported": {
+        "pt": 16.9,
+        "ci_low": 15.7,
+        "ci_high": 18.1
+      },
+      "coverage": {
+        "pt": 54.5,
+        "ci_low": 53.2,
+        "ci_high": 55.8
+      },
+      "scene": {
+        "pt": 78.8,
+        "ci_low": 77.4,
+        "ci_high": 80.2
+      }
+    },
+    "wo_provenance": {
+      "factual": {
+        "pt": 79.6,
+        "ci_low": 78.3,
+        "ci_high": 80.9
+      },
+      "unsupported": {
+        "pt": 20.2,
+        "ci_low": 19.1,
+        "ci_high": 21.4
+      },
+      "coverage": {
+        "pt": 56.8,
+        "ci_low": 55.4,
+        "ci_high": 58.2
+      },
+      "scene": {
+        "pt": 76.2,
+        "ci_low": 74.9,
+        "ci_high": 77.5
+      }
+    },
+    "wo_vis_adm": {
+      "factual": {
+        "pt": 76.8,
+        "ci_low": 75.5,
+        "ci_high": 78.0
+      },
+      "unsupported": {
+        "pt": 23.2,
+        "ci_low": 22.0,
+        "ci_high": 24.4
+      },
+      "coverage": {
+        "pt": 50.1,
+        "ci_low": 48.7,
+        "ci_high": 51.5
+      },
+      "scene": {
+        "pt": 51.2,
+        "ci_low": 49.9,
+        "ci_high": 52.6
+      }
+    },
+    "wo_lari": {
+      "factual": {
+        "pt": 78.5,
+        "ci_low": 77.2,
+        "ci_high": 79.8
+      },
+      "unsupported": {
+        "pt": 21.5,
+        "ci_low": 20.3,
+        "ci_high": 22.7
+      },
+      "coverage": {
+        "pt": 48.8,
+        "ci_low": 47.5,
+        "ci_high": 50.1
+      },
+      "scene": {
+        "pt": 78.0,
+        "ci_low": 76.7,
+        "ci_high": 79.3
+      }
+    },
+    "wo_ldfi_naive": {
+      "factual": {
+        "pt": 80.4,
+        "ci_low": 79.2,
+        "ci_high": 81.6
+      },
+      "unsupported": {
+        "pt": 19.5,
+        "ci_low": 18.3,
+        "ci_high": 20.7
+      },
+      "coverage": {
+        "pt": 58.2,
+        "ci_low": 56.8,
+        "ci_high": 59.6
+      },
+      "scene": {
+        "pt": 78.4,
+        "ci_low": 77.1,
+        "ci_high": 79.7
+      }
+    },
+    "wo_selective_gate": {
+      "factual": {
+        "pt": 82.2,
+        "ci_low": 80.9,
+        "ci_high": 83.4
+      },
+      "unsupported": {
+        "pt": 17.8,
+        "ci_low": 16.7,
+        "ci_high": 18.9
+      },
+      "coverage": {
+        "pt": 56.4,
+        "ci_low": 55.1,
+        "ci_high": 57.7
+      },
+      "scene": {
+        "pt": 75.2,
+        "ci_low": 73.8,
+        "ci_high": 76.6
+      }
+    }
+  },
+  "R9_oracle": {
+    "factual": {
+      "pred_pt": 83.1,
+      "pred_ci": [
+        81.8,
+        84.4
+      ],
+      "orac_pt": 94.5,
+      "orac_ci": [
+        93.8,
+        95.1
+      ],
+      "delta_pt": 11.4,
+      "delta_ci": [
+        10.5,
+        12.3
+      ]
+    },
+    "unsupported": {
+      "pred_pt": 16.9,
+      "pred_ci": [
+        15.7,
+        18.1
+      ],
+      "orac_pt": 5.5,
+      "orac_ci": [
+        4.9,
+        6.1
+      ],
+      "delta_pt": -11.4,
+      "delta_ci": [
+        -12.2,
+        -10.6
+      ]
+    },
+    "coverage": {
+      "pred_pt": 54.5,
+      "pred_ci": [
+        53.2,
+        55.8
+      ],
+      "orac_pt": 62.8,
+      "orac_ci": [
+        62.0,
+        63.6
+      ],
+      "delta_pt": 8.3,
+      "delta_ci": [
+        7.5,
+        9.1
+      ]
+    },
+    "scene": {
+      "pred_pt": 78.8,
+      "pred_ci": [
+        77.5,
+        80.1
+      ],
+      "orac_pt": 87.2,
+      "orac_ci": [
+        86.4,
+        88.0
+      ],
+      "delta_pt": 8.4,
+      "delta_ci": [
+        7.5,
+        9.3
+      ]
+    }
+  },
+  "R9_error_decomp": {
+    "total_claims": 575,
+    "total_errors": 97,
+    "error_rate_pp": 16.87,
+    "factual_precision": 83.13,
+    "components": {
+      "visual_grounding": {
+        "claims": 65,
+        "share_pct": 67.0,
+        "share_pp": 11.3,
+        "mechanism": "Subgraph mismatch or scene entity confusion from visual classifier"
+      },
+      "reasoning_ldfi": {
+        "claims": 4,
+        "share_pct": 4.1,
+        "share_pp": 0.7,
+        "mechanism": "Invalid rule grounding or inference-chain support"
+      },
+      "generation_gate": {
+        "claims": 28,
+        "share_pct": 28.9,
+        "share_pp": 4.87,
+        "mechanism": "Unsupported surface realization or gate leakage"
+      }
+    }
+  }
+}

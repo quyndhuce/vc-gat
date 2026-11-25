@@ -1,0 +1,779 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:located_in <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/ent/232a7f6f> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/57fa11f7> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/83543e10> onto:located_in <http://transmtl.vn/ent/57fa11f7> .
+
+<http://transmtl.vn/ent/faf59b4a> onto:ruled_by <http://transmtl.vn/ent/302c0f0a>,
+        <http://transmtl.vn/ent/3fe36b13> .
+
+<http://transmtl.vn/kb/hanoi_cathedral#ceiling> onto:architectural_style <http://transmtl.vn/ent/a6485b51> .
+
+<http://transmtl.vn/kb/hanoi_cathedral#main_entrance> onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/hanoi_cathedral#towers> onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/hanoi_cathedral#interior> onto:over <http://transmtl.vn/ent/75aeb98e> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/hanoi_cathedral#side_door> onto:leading_to <http://www.wikidata.org/entity/Q1151254> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/64e12ab6> onto:ruled_by <http://transmtl.vn/ent/3fe36b13> .
+
+<http://transmtl.vn/kb/hanoi_cathedral#bell_towers> onto:part_of <http://transmtl.vn/ent/83543e10>,
+        <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/hanoi_cathedral#exterior> onto:over <http://transmtl.vn/ent/75aeb98e> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/268a6573>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/268a6573> ;
+    onto:ruled_by <http://transmtl.vn/ent/64e12ab6>,
+        <http://transmtl.vn/ent/6ef85f7d> .
+
+<http://transmtl.vn/kb/hanoi_cathedral> onto:has_part <http://transmtl.vn/kb/hanoi_cathedral#bell_towers>,
+        <http://transmtl.vn/kb/hanoi_cathedral#ceiling>,
+        <http://transmtl.vn/kb/hanoi_cathedral#exterior>,
+        <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls>,
+        <http://transmtl.vn/kb/hanoi_cathedral#interior>,
+        <http://transmtl.vn/kb/hanoi_cathedral#main_entrance>,
+        <http://transmtl.vn/kb/hanoi_cathedral#side_door>,
+        <http://transmtl.vn/kb/hanoi_cathedral#towers> .
+
+<http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> onto:made_of <http://transmtl.vn/ent/00ecf6d0>,
+        <http://transmtl.vn/ent/0a840ef4>,
+        <http://transmtl.vn/ent/7ceffe3b>,
+        <http://transmtl.vn/ent/bf3d3410>,
+        <http://transmtl.vn/ent/df40a4b0> ;
+    onto:part_of <http://transmtl.vn/ent/3590cb8a>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://www.wikidata.org/entity/Q1151254> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:architectural_style <http://transmtl.vn/ent/3015e390>,
+        <http://transmtl.vn/ent/31c13f47>,
+        <http://transmtl.vn/ent/fff9183c> ;
+    onto:built_by <http://transmtl.vn/ent/302c0f0a>,
+        <http://transmtl.vn/ent/3fe36b13>,
+        <http://transmtl.vn/ent/64e12ab6>,
+        <http://transmtl.vn/ent/9365f722> ;
+    onto:built_in <http://transmtl.vn/ent/c366c2c9>,
+        <http://transmtl.vn/ent/e5fe3c72>,
+        <http://transmtl.vn/ent/f0fcf351> ;
+    onto:destroyed_in <http://transmtl.vn/ent/d010396c> ;
+    onto:has_part <http://transmtl.vn/ent/bfe4b52c> ;
+    onto:hosts_event <http://transmtl.vn/ent/d90ccffa> ;
+    onto:inspired_by <http://transmtl.vn/ent/b1d5b2bd> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:named_after <http://transmtl.vn/ent/cb07901c> ;
+    onto:near <http://transmtl.vn/ent/6c6d4dfa> ;
+    onto:on <http://transmtl.vn/ent/25da38a6>,
+        <http://transmtl.vn/ent/82f47b4e> ;
+    onto:over <http://transmtl.vn/ent/75aeb98e> ;
+    onto:part_of <http://transmtl.vn/ent/3fe36b13> ;
+    onto:renovated_in <http://transmtl.vn/ent/9a651a65>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/bed840df> ;
+    onto:surrounded_by <http://transmtl.vn/ent/49cfbe25>,
+        <http://transmtl.vn/ent/a7330226>,
+        <http://transmtl.vn/ent/c5dceace>,
+        <http://transmtl.vn/ent/dc10e541>,
+        <http://transmtl.vn/ent/f9e1384c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#exterior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3611 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/82f47b4e> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.558 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2805 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#interior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5335 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/9a651a65> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7985 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/268a6573> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3589 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/f9e1384c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3163 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/df40a4b0> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7497 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3243 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/25da38a6> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2585 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/57fa11f7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/83543e10> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2783 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7442 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/3fe36b13> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6367 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/f0fcf351> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.338 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#side_door> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7005 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/bf3d3410> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5763 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.407 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/9365f722> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3125 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3417 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/268a6573> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3299 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/3590cb8a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#main_entrance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7111 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/bed840df> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3266 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/31c13f47> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3253 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3557 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/00ecf6d0> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#bell_towers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2882 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/3fe36b13> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3509 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/232a7f6f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#towers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#side_door> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4144 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/6ef85f7d> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5577 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5671 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/3015e390> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5004 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.329 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/3fe36b13> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/64e12ab6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2774 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/bfe4b52c> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5264 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/75aeb98e> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3367 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/57fa11f7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.895 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4758 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/3fe36b13> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2694 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/cb07901c> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3339 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5114 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/dc10e541> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6001 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4511 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/a6485b51> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#ceiling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.579 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/fff9183c> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2743 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/c366c2c9> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5383 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#bell_towers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3149 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/d90ccffa> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#ceiling> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5744 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/c5dceace> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3913 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/49cfbe25> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.616 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/83543e10> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#bell_towers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3885 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/302c0f0a> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/faf59b4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2839 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4883 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/75aeb98e> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3461 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.481 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/bf3d3410> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5432 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/3fe36b13> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/faf59b4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2939 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#main_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5794 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/302c0f0a> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#exterior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8658 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/cb07901c> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7484 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6447 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/b1d5b2bd> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.279 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3985 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/a7330226> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3451 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#towers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3877 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6097 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/f0fcf351> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4054 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/e5fe3c72> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5348 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/3fe36b13> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/faf59b4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5953 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/49cfbe25> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4011 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#bell_towers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2502 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/75aeb98e> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#interior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3641 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/b1d5b2bd> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8774 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#exterior_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3579 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/c5dceace> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3928 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral#side_door> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#interior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5859 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/fff9183c> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4229 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/ent/d010396c> ;
+    rdf:predicate onto:destroyed_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d83e71c41de9" ;
+    fkg:kbId "hanoi_cathedral" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cathedral#bell_towers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cathedral> .
+

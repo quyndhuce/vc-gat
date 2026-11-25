@@ -1,0 +1,286 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f750c6da> onto:leading_to <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/kb/trung_liet_temple#sacred_sanctuary> onto:founded_in <http://transmtl.vn/ent/eceafd21> .
+
+<http://transmtl.vn/kb/trung_liet_temple#serene_shadow> onto:over <http://transmtl.vn/kb/trung_liet_temple> .
+
+<http://transmtl.vn/kb/trung_liet_temple#hoành_phi_plaque> onto:over <http://transmtl.vn/ent/68f3df62> ;
+    onto:symbol_of <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/kb/trung_liet_temple#roof_tiles> onto:part_of <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/kb/trung_liet_temple#walls> onto:made_of <http://transmtl.vn/ent/7ceffe3b> ;
+    onto:part_of <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/kb/trung_liet_temple> onto:above <http://transmtl.vn/kb/dong_da_mound> ;
+    onto:commemorates <http://transmtl.vn/ent/090e28c6>,
+        <http://transmtl.vn/ent/0df7e787>,
+        <http://transmtl.vn/ent/4b66bb57> ;
+    onto:founded_in <http://transmtl.vn/ent/eceafd21> ;
+    onto:has_part <http://transmtl.vn/kb/trung_liet_temple#hoành_phi_plaque>,
+        <http://transmtl.vn/kb/trung_liet_temple#roof_tiles>,
+        <http://transmtl.vn/kb/trung_liet_temple#sacred_sanctuary>,
+        <http://transmtl.vn/kb/trung_liet_temple#serene_shadow>,
+        <http://transmtl.vn/kb/trung_liet_temple#walls> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/kb/dong_da_mound> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/5aa6bac7>,
+        <http://transmtl.vn/ent/c0cb5f0f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6462 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6549 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/5aa6bac7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4912 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#hoành_phi_plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3822 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3919 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6217 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3057 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4421 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2848 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3377 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/090e28c6> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3446 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4941 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/eceafd21> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#sacred_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3198 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/4b66bb57> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/trung_liet_temple#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/trung_liet_temple#serene_shadow> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3329 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/68f3df62> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#hoành_phi_plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/trung_liet_temple#sacred_sanctuary> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2965 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5468 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/f750c6da> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2735 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/0df7e787> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5991 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/trung_liet_temple#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2725 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/trung_liet_temple#hoành_phi_plaque> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.737 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/eceafd21> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4192 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/trung_liet_temple> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#serene_shadow> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2636 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#roof_tiles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4455 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8173 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/f750c6da> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2521 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple#roof_tiles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_090bc92e0cd0" ;
+    fkg:kbId "trung_liet_temple" ;
+    rdf:object <http://transmtl.vn/kb/trung_liet_temple#roof_tiles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/trung_liet_temple> .
+

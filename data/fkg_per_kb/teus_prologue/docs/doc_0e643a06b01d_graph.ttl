@@ -1,0 +1,34 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/performance> onto:near <http://transmtl.vn/ent/c2c83a30> .
+
+<http://transmtl.vn/kb/teus_prologue> onto:connects <http://transmtl.vn/ent/47ed4995>,
+        <http://transmtl.vn/ent/68e2d837> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5541 ;
+    fkg:docId "doc_0e643a06b01d" ;
+    fkg:kbId "teus_prologue" ;
+    rdf:object <http://transmtl.vn/ent/c2c83a30> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2788 ;
+    fkg:docId "doc_0e643a06b01d" ;
+    fkg:kbId "teus_prologue" ;
+    rdf:object <http://transmtl.vn/ent/47ed4995> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/teus_prologue> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2917 ;
+    fkg:docId "doc_0e643a06b01d" ;
+    fkg:kbId "teus_prologue" ;
+    rdf:object <http://transmtl.vn/ent/68e2d837> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/teus_prologue> .
+

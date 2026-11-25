@@ -1,0 +1,69 @@
+{
+  "n_entities": 252,
+  "n_single_valued_groups": 2,
+  "n_multi_valued_facts": 31,
+  "n_metadata_facts": 0,
+  "n_evidence_single_valued": 2,
+  "n_evidence_multi_valued": 45,
+  "n_conflicts_flagged": 0,
+  "n_uri_merges": 0,
+  "n_ambiguous_pairs": 0,
+  "relation_summary": {
+    "dated_to": {
+      "type": "single_valued",
+      "n_groups": 1,
+      "mean_K": 0.0,
+      "max_K": 0.0,
+      "n_flagged": 0
+    },
+    "capital_of": {
+      "type": "single_valued",
+      "n_groups": 1,
+      "mean_K": 0.0,
+      "max_K": 0.0,
+      "n_flagged": 0
+    },
+    "held_in": {
+      "type": "multi_valued",
+      "n_facts": 2,
+      "mean_mu": 0.3054,
+      "max_mu": 0.3118
+    },
+    "hosts_event": {
+      "type": "multi_valued",
+      "n_facts": 2,
+      "mean_mu": 0.216,
+      "max_mu": 0.2282
+    },
+    "part_of": {
+      "type": "multi_valued",
+      "n_facts": 8,
+      "mean_mu": 0.2853,
+      "max_mu": 0.3869
+    },
+    "has_part": {
+      "type": "multi_valued",
+      "n_facts": 4,
+      "mean_mu": 0.9489,
+      "max_mu": 1.0
+    },
+    "located_in": {
+      "type": "multi_valued",
+      "n_facts": 12,
+      "mean_mu": 0.3651,
+      "max_mu": 0.8978
+    },
+    "surrounded_by": {
+      "type": "multi_valued",
+      "n_facts": 2,
+      "mean_mu": 0.7421,
+      "max_mu": 0.7872
+    },
+    "architectural_style": {
+      "type": "multi_valued",
+      "n_facts": 1,
+      "mean_mu": 0.2081,
+      "max_mu": 0.2081
+    }
+  }
+}

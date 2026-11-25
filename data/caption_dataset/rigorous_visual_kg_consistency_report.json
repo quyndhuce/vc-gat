@@ -1,0 +1,97 @@
+{
+  "title": "Rigorous Visual-Knowledge Consistency Benchmark",
+  "ablation_results": [
+    {
+      "variant": "Full model",
+      "k_recall": 61.1,
+      "visual_support_vsp": 84.5,
+      "true_vcr": 0.0,
+      "visual_unsupported_vur": 15.5,
+      "oar": 0.7,
+      "policy_compliance": 89.3
+    },
+    {
+      "variant": "w/o fuzzy reasoning",
+      "k_recall": 62.3,
+      "visual_support_vsp": 83.3,
+      "true_vcr": 0.0,
+      "visual_unsupported_vur": 16.7,
+      "oar": 0.7,
+      "policy_compliance": 87.2
+    },
+    {
+      "variant": "w/o mu_F-weighted KGC",
+      "k_recall": 76.9,
+      "visual_support_vsp": 79.7,
+      "true_vcr": 5.4,
+      "visual_unsupported_vur": 20.3,
+      "oar": 27.5,
+      "policy_compliance": 36.2
+    },
+    {
+      "variant": "w/o uncertainty fusion",
+      "k_recall": 80.9,
+      "visual_support_vsp": 77.9,
+      "true_vcr": 0.7,
+      "visual_unsupported_vur": 22.1,
+      "oar": 34.9,
+      "policy_compliance": 22.1
+    },
+    {
+      "variant": "w/o certainty-aware fine-tuning",
+      "k_recall": 65.1,
+      "visual_support_vsp": 83.1,
+      "true_vcr": 0.0,
+      "visual_unsupported_vur": 16.9,
+      "oar": 0.0,
+      "policy_compliance": 86.6
+    }
+  ],
+  "e2e_results": [
+    {
+      "system": "Visual-only VLM",
+      "k_recall": 32.8,
+      "visual_support_vsp": 99.8,
+      "true_vcr": 0.7,
+      "visual_unsupported_vur": 0.2,
+      "oar": 12.1,
+      "policy_compliance": 20.8
+    },
+    {
+      "system": "Visual + Text RAG",
+      "k_recall": 37.9,
+      "visual_support_vsp": 97.7,
+      "true_vcr": 24.2,
+      "visual_unsupported_vur": 2.3,
+      "oar": 35.6,
+      "policy_compliance": 7.4
+    },
+    {
+      "system": "Visual + Crisp KG",
+      "k_recall": 74.9,
+      "visual_support_vsp": 80.6,
+      "true_vcr": 24.8,
+      "visual_unsupported_vur": 19.4,
+      "oar": 47.0,
+      "policy_compliance": 17.4
+    },
+    {
+      "system": "Hard-threshold KG Captioning",
+      "k_recall": 65.4,
+      "visual_support_vsp": 83.8,
+      "true_vcr": 0.7,
+      "visual_unsupported_vur": 16.2,
+      "oar": 17.4,
+      "policy_compliance": 18.1
+    },
+    {
+      "system": "Ours: Full Fuzzy Certainty-aware Pipeline",
+      "k_recall": 60.5,
+      "visual_support_vsp": 84.3,
+      "true_vcr": 0.0,
+      "visual_unsupported_vur": 15.7,
+      "oar": 1.3,
+      "policy_compliance": 87.2
+    }
+  ]
+}

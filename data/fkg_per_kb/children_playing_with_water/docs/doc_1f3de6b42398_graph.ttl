@@ -1,0 +1,44 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/children_playing_with_water> onto:has_part <http://transmtl.vn/kb/children_playing_with_water#screen> .
+
+<http://transmtl.vn/kb/performance> onto:architectural_style <http://transmtl.vn/ent/fe9e025d> .
+
+<http://transmtl.vn/kb/children_playing_with_water#screen> onto:architectural_style <http://transmtl.vn/ent/fe9e025d> ;
+    onto:part_of <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2912 ;
+    fkg:docId "doc_1f3de6b42398" ;
+    fkg:kbId "children_playing_with_water" ;
+    rdf:object <http://transmtl.vn/ent/fe9e025d> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/children_playing_with_water#screen> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_1f3de6b42398" ;
+    fkg:kbId "children_playing_with_water" ;
+    rdf:object <http://transmtl.vn/kb/children_playing_with_water#screen> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/children_playing_with_water> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3131 ;
+    fkg:docId "doc_1f3de6b42398" ;
+    fkg:kbId "children_playing_with_water" ;
+    rdf:object <http://transmtl.vn/ent/fe9e025d> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3195 ;
+    fkg:docId "doc_1f3de6b42398" ;
+    fkg:kbId "children_playing_with_water" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/children_playing_with_water#screen> .
+

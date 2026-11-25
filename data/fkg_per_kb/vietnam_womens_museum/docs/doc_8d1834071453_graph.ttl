@@ -1,0 +1,205 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/3ebb95ab> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/8267a0e0> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/9f535a47> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#ethnic_groups> onto:in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum#54_ethnic_groups> onto:in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/eb0ea0bc> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum> onto:founded_by <http://transmtl.vn/ent/19b36764> ;
+    onto:founded_in <http://transmtl.vn/ent/d68a1827> ;
+    onto:has_part <http://transmtl.vn/ent/1b9b57f8>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#54_ethnic_groups>,
+        <http://transmtl.vn/kb/vietnam_womens_museum#ethnic_groups> ;
+    onto:inaugurated_in <http://transmtl.vn/ent/3f088ebe> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3778 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#54_ethnic_groups> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7271 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4158 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3113 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#54_ethnic_groups> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5543 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2954 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.359 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3ebb95ab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.273 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/19b36764> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8019 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5652 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6574 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/3f088ebe> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4355 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5696 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#ethnic_groups> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.257 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum#ethnic_groups> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3136 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8295 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/d68a1827> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum#54_ethnic_groups> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9079 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3285 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9f535a47> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2764 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/1b9b57f8> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2666 ;
+    fkg:docId "doc_8d1834071453" ;
+    fkg:kbId "vietnam_womens_museum" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8267a0e0> .
+

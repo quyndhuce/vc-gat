@@ -1,0 +1,165 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0402129e> onto:located_in <http://transmtl.vn/ent/92da1d30> .
+
+<http://transmtl.vn/ent/2115bafb> onto:located_in <http://transmtl.vn/ent/92da1d30> .
+
+<http://transmtl.vn/ent/315e6b9e> onto:located_in <http://transmtl.vn/ent/92da1d30> .
+
+<http://transmtl.vn/ent/7ae8c788> onto:located_in <http://transmtl.vn/ent/92da1d30> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#central_gate> onto:part_of <http://transmtl.vn/ent/fb54f3c5> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#facade> onto:part_of <http://transmtl.vn/ent/fb54f3c5> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#đông_hồ> onto:located_in <http://transmtl.vn/ent/92da1d30> ;
+    onto:part_of <http://transmtl.vn/ent/92da1d30> .
+
+<http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop> onto:dated_to <http://transmtl.vn/ent/a40841a8> ;
+    onto:has_part <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#central_gate>,
+        <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#facade>,
+        <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#đông_hồ> ;
+    onto:on <http://transmtl.vn/ent/52ea84c6> ;
+    onto:surrounded_by <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/ent/92da1d30> onto:ruled_by <http://transmtl.vn/ent/7010e65e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3119 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/315e6b9e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3647 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/fb54f3c5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#central_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3751 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/7010e65e> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/92da1d30> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2778 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7ae8c788> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#facade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2969 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#đông_hồ> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3193 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2115bafb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3235 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/fb54f3c5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6389 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#đông_hồ> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5566 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#đông_hồ> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3307 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/52ea84c6> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#central_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2924 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0402129e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#đông_hồ> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4012 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/ent/a40841a8> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6968 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5631230af1fe" ;
+    fkg:kbId "ngu_xa_traditional_bronze_casting_shop" ;
+    rdf:object <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop#đông_hồ> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngu_xa_traditional_bronze_casting_shop> .
+

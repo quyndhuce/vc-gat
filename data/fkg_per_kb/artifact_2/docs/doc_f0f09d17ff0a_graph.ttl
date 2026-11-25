@@ -1,0 +1,110 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/artifact_2#arched_columns> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/artifact_2#galleries> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/artifact_2#halls> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/artifact_2#wall_sections> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/artifact_2#architecture> onto:architectural_style <http://transmtl.vn/ent/50cba1d2>,
+        <http://transmtl.vn/ent/64e12ab6> .
+
+<http://transmtl.vn/kb/artifact_2> onto:has_part <http://transmtl.vn/kb/artifact_2#arched_columns>,
+        <http://transmtl.vn/kb/artifact_2#architecture>,
+        <http://transmtl.vn/kb/artifact_2#galleries>,
+        <http://transmtl.vn/kb/artifact_2#halls>,
+        <http://transmtl.vn/kb/artifact_2#wall_sections> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2987 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/50cba1d2> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4091 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#arched_columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3559 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#galleries> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3028 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#arched_columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.342 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#wall_sections> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2553 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2#halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#galleries> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#halls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#wall_sections> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f0f09d17ff0a" ;
+    fkg:kbId "artifact_2" ;
+    rdf:object <http://transmtl.vn/kb/artifact_2#architecture> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/artifact_2> .
+

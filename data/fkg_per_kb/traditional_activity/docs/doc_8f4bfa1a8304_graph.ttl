@@ -1,0 +1,80 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/traditional_activity#courtyard> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/traditional_activity> onto:has_part <http://transmtl.vn/kb/traditional_activity#courtyard> ;
+    onto:surrounded_by <http://transmtl.vn/ent/5e1f5b3f>,
+        <http://transmtl.vn/ent/635f08d4>,
+        <http://transmtl.vn/ent/a55ef29a>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/ea9e8078> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3253 ;
+    fkg:docId "doc_8f4bfa1a8304" ;
+    fkg:kbId "traditional_activity" ;
+    rdf:object <http://transmtl.vn/ent/5e1f5b3f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/traditional_activity> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.553 ;
+    fkg:docId "doc_8f4bfa1a8304" ;
+    fkg:kbId "traditional_activity" ;
+    rdf:object <http://transmtl.vn/ent/a55ef29a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/traditional_activity> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6188 ;
+    fkg:docId "doc_8f4bfa1a8304" ;
+    fkg:kbId "traditional_activity" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2844 ;
+    fkg:docId "doc_8f4bfa1a8304" ;
+    fkg:kbId "traditional_activity" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/traditional_activity#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f4bfa1a8304" ;
+    fkg:kbId "traditional_activity" ;
+    rdf:object <http://transmtl.vn/kb/traditional_activity#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/traditional_activity> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2644 ;
+    fkg:docId "doc_8f4bfa1a8304" ;
+    fkg:kbId "traditional_activity" ;
+    rdf:object <http://transmtl.vn/ent/ea9e8078> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/traditional_activity> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2709 ;
+    fkg:docId "doc_8f4bfa1a8304" ;
+    fkg:kbId "traditional_activity" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/traditional_activity> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5953 ;
+    fkg:docId "doc_8f4bfa1a8304" ;
+    fkg:kbId "traditional_activity" ;
+    rdf:object <http://transmtl.vn/ent/635f08d4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/traditional_activity> .
+

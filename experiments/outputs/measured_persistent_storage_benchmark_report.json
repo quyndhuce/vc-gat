@@ -1,0 +1,48 @@
+{
+  "benchmark": "In_Memory_vs_Measured_Persistent_Storage_Benchmark",
+  "dataset": "Hanoi 500 clips, 12,554 facts, 12,391 derivations",
+  "ram_benchmark": {
+    "exhaustive": {
+      "derivations": 12391,
+      "time_ms": "23.31 \u00b1 0.99",
+      "speedup": "1.00x"
+    },
+    "pure_certified_bnb": {
+      "derivations": 4020,
+      "time_ms": "69.00 \u00b1 5.55",
+      "speedup": "0.34x (slowdown 2.96x)"
+    },
+    "hybrid_proposed": {
+      "derivations": 4096,
+      "time_ms": "28.33 \u00b1 0.33",
+      "speedup": "0.82x (slowdown 1.22x)"
+    }
+  },
+  "measured_persistent_storage_benchmark": {
+    "storage_type": "Disk-backed B-Tree Key-Value Store on NVMe SSD",
+    "trials": 10,
+    "exhaustive": {
+      "derivations": 12391,
+      "time_ms": "108.46 \u00b1 5.92",
+      "speedup": "1.00x"
+    },
+    "pure_certified_bnb": {
+      "derivations": 4020,
+      "time_ms": "59.22 \u00b1 2.49",
+      "speedup": "1.83x"
+    },
+    "hybrid_proposed": {
+      "derivations": 4096,
+      "time_ms": "60.70 \u00b1 3.35",
+      "speedup": "1.79x"
+    },
+    "measured_time_saved_ms": 47.76,
+    "derivations_saved": 8295,
+    "derivations_saved_pct": 66.94
+  },
+  "analytical_crossover": {
+    "ram_delta_ms": 5.02,
+    "derivations_saved": 8295,
+    "crossover_latency_us": 0.605
+  }
+}

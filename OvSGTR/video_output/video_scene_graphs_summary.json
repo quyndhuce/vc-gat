@@ -1,0 +1,70 @@
+{
+  "video_path": "/home/nguyendinhquy/OvSGTR/videos/cau_the_huc_full.mp4",
+  "fps": 25.0,
+  "num_scenes": 3,
+  "scenes": [
+    {
+      "scene_id": "scene_01",
+      "time_range": "0.0s - 2.68s",
+      "duration": "2.68s",
+      "json_path": "video_output/scene_01_scene_graph.json",
+      "num_entities": 14,
+      "num_relations": 69,
+      "top_entities": [
+        "T01: tree",
+        "T02: red painted wooden bridge",
+        "T03: lake",
+        "T04: water",
+        "T05: Buddhist pagoda"
+      ],
+      "top_triplets": [
+        "T02 (red painted wooden bridge) -> on -> T03 (lake)",
+        "T02 (red painted wooden bridge) -> on -> T04 (water)",
+        "T01 (tree) -> above -> T03 (lake)",
+        "T10 (red painted wooden bridge) -> on -> T03 (lake)"
+      ]
+    },
+    {
+      "scene_id": "scene_02",
+      "time_range": "2.68s - 9.48s",
+      "duration": "6.8s",
+      "json_path": "video_output/scene_02_scene_graph.json",
+      "num_entities": 8,
+      "num_relations": 31,
+      "top_entities": [
+        "T01: lake",
+        "T02: tree",
+        "T03: water",
+        "T04: person",
+        "T05: tree"
+      ],
+      "top_triplets": [
+        "T04 (person) -> on -> T07 (red painted wooden bridge)",
+        "T07 (red painted wooden bridge) -> on -> T01 (lake)",
+        "T07 (red painted wooden bridge) -> on -> T03 (water)",
+        "T05 (tree) -> above -> T01 (lake)"
+      ]
+    },
+    {
+      "scene_id": "scene_03",
+      "time_range": "9.48s - 16.88s",
+      "duration": "7.4s",
+      "json_path": "video_output/scene_03_scene_graph.json",
+      "num_entities": 15,
+      "num_relations": 100,
+      "top_entities": [
+        "T01: tree",
+        "T02: lake",
+        "T03: water",
+        "T04: red painted wooden bridge",
+        "T05: tree"
+      ],
+      "top_triplets": [
+        "T08 (person) -> on -> T04 (red painted wooden bridge)",
+        "T08 (person) -> on -> T06 (red painted wooden bridge)",
+        "T02 (lake) -> near -> T03 (water)",
+        "T03 (water) -> near -> T02 (lake)"
+      ]
+    }
+  ]
+}

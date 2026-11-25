@@ -1,0 +1,23 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+✓  No single-valued conflicts above threshold.
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [symbol_of] (Weaving machine) → http://transmtl.vn/kb/van_phuc_silk_village  Bel=0.3681  K=0.0000
+  [symbol_of] (machines) → http://transmtl.vn/kb/van_phuc_silk_village  Bel=0.3072  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Weaving machine) → (machines)  μ_F=0.9905  (2 evidence)
+  [made_of] (machines) → (iron)  μ_F=0.8140  (2 evidence)
+  [made_of] (machines) → (steel)  μ_F=0.7826  (2 evidence)
+  [part_of] (mechanical looms) → (Van Phuc Silk Village)  μ_F=0.2485  (1 evidence)
+  [located_in] (mechanical loom) → (Van Phuc)  μ_F=0.2232  (1 evidence)
+  [located_in] (mechanical loom) → (Van Phuc Silk Village)  μ_F=0.2175  (1 evidence)
+
+========================================================================

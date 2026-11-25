@@ -1,0 +1,72 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/5a5127e4> onto:former_name_of <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+<http://transmtl.vn/ent/86fe8d6f> onto:on <http://transmtl.vn/kb/hang_bo_street> .
+
+<http://transmtl.vn/ent/63be8e4a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_bo_street> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a>,
+        <http://transmtl.vn/ent/bbe62701> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4162 ;
+    fkg:docId "doc_5d54cc9ed9b8" ;
+    fkg:kbId "hang_bo_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_bo_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2617 ;
+    fkg:docId "doc_5d54cc9ed9b8" ;
+    fkg:kbId "hang_bo_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_bo_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/86fe8d6f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2517 ;
+    fkg:docId "doc_5d54cc9ed9b8" ;
+    fkg:kbId "hang_bo_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8828 ;
+    fkg:docId "doc_5d54cc9ed9b8" ;
+    fkg:kbId "hang_bo_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_bo_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2826 ;
+    fkg:docId "doc_5d54cc9ed9b8" ;
+    fkg:kbId "hang_bo_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_bo_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2963 ;
+    fkg:docId "doc_5d54cc9ed9b8" ;
+    fkg:kbId "hang_bo_street" ;
+    rdf:object <http://transmtl.vn/ent/bbe62701> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_bo_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2771 ;
+    fkg:docId "doc_5d54cc9ed9b8" ;
+    fkg:kbId "hang_bo_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/5a5127e4> .
+

@@ -1,0 +1,485 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/4c30e883> onto:renamed_to <http://transmtl.vn/kb/lo_ren_street> .
+
+<http://transmtl.vn/ent/dc582cd1> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/f5b2e819> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/cec79865> onto:former_name_of <http://transmtl.vn/kb/lo_ren_street> .
+
+<http://transmtl.vn/kb/lo_ren_street#hinges> onto:part_of <http://transmtl.vn/ent/45a27cbe> .
+
+<http://transmtl.vn/kb/lo_ren_street#ornamental_gates> onto:part_of <http://transmtl.vn/ent/45a27cbe> .
+
+<http://transmtl.vn/kb/lo_ren_street#railings> onto:part_of <http://transmtl.vn/ent/45a27cbe> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/lo_ren_street#forges> onto:part_of <http://transmtl.vn/ent/1f4a9685> ;
+    onto:used_by <http://transmtl.vn/ent/4f23aae3> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:renamed_to <http://transmtl.vn/kb/lo_ren_street> .
+
+<http://transmtl.vn/ent/63be8e4a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/c1e59024> ;
+    onto:ruled_by <http://transmtl.vn/ent/6c9fd08c>,
+        <http://transmtl.vn/ent/c1e59024> .
+
+<http://transmtl.vn/kb/lo_ren_street> onto:former_name_of <http://transmtl.vn/ent/1f4a9685>,
+        <http://transmtl.vn/ent/cec79865> ;
+    onto:has_part <http://transmtl.vn/kb/lo_ren_street#forges>,
+        <http://transmtl.vn/kb/lo_ren_street#hinges>,
+        <http://transmtl.vn/kb/lo_ren_street#ornamental_gates>,
+        <http://transmtl.vn/kb/lo_ren_street#railings> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a>,
+        <http://transmtl.vn/ent/8e950ac9>,
+        <http://transmtl.vn/ent/ca3a2b16> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a>,
+        <http://transmtl.vn/ent/7a82a1b3>,
+        <http://transmtl.vn/ent/be7e5963>,
+        <http://transmtl.vn/ent/c4a0df12> ;
+    onto:renamed_to <http://transmtl.vn/ent/20737528>,
+        <http://transmtl.vn/ent/c5cc3438> ;
+    onto:surrounded_by <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8239 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3496 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/ca3a2b16> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3115 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/45a27cbe> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#railings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5525 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/20737528> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2888 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/dc582cd1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2875 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.287 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.624 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3466 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/cec79865> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6485 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2779 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3174 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3145 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/45a27cbe> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#ornamental_gates> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2585 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3426 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3031 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5964 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3009 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/be7e5963> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3086 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3938 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2689 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/45a27cbe> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#hinges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6892 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/ent/4c30e883> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3849 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/ca3a2b16> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#railings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#ornamental_gates> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#forges> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2511 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.468 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6002 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3338 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2741 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2777 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5936 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2719 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7812 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9127 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/6c9fd08c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5488 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2891 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/c4a0df12> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2949 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/7a82a1b3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3121 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/c5cc3438> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2852 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/6c9fd08c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3074 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4441 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street#hinges> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5487 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3633 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5569 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f5b2e819> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.305 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#forges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3492 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/4f23aae3> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street#forges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2613 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/kb/lo_ren_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/cec79865> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2692 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3721 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2887 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8082 ;
+    fkg:docId "doc_eafc54a8c18b" ;
+    fkg:kbId "lo_ren_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/lo_ren_street> .
+

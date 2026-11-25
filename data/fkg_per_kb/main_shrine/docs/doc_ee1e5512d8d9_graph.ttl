@@ -1,0 +1,273 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/main_shrine#hoành_phi> onto:part_of <http://transmtl.vn/ent/86454297> .
+
+<http://transmtl.vn/kb/main_shrine#curved_roof> onto:above <http://transmtl.vn/kb/tay_ho_temple> ;
+    onto:over <http://transmtl.vn/kb/tay_ho_temple> .
+
+<http://transmtl.vn/kb/main_shrine#gnarled_branches> onto:above <http://transmtl.vn/kb/west_lake> ;
+    onto:over <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/main_shrine#mái_đao> onto:above <http://transmtl.vn/kb/tay_ho_temple> ;
+    onto:over <http://transmtl.vn/kb/tay_ho_temple> .
+
+<http://transmtl.vn/kb/main_shrine#shrine> onto:dated_to <http://transmtl.vn/ent/08915416> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/ac5585d9> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/west_lake> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/main_shrine> onto:architectural_style <http://transmtl.vn/ent/03ff626f> ;
+    onto:has_part <http://transmtl.vn/kb/main_shrine#curved_roof>,
+        <http://transmtl.vn/kb/main_shrine#gnarled_branches>,
+        <http://transmtl.vn/kb/main_shrine#hoành_phi>,
+        <http://transmtl.vn/kb/main_shrine#mái_đao>,
+        <http://transmtl.vn/kb/main_shrine#shrine> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:near <http://transmtl.vn/kb/west_lake> ;
+    onto:part_of <http://transmtl.vn/kb/tay_ho_temple> ;
+    onto:symbol_of <http://transmtl.vn/ent/3cd15f8f> .
+
+<http://transmtl.vn/kb/tay_ho_temple> onto:dedicated_to <http://transmtl.vn/ent/f0dc5340> ;
+    onto:surrounded_by <http://transmtl.vn/ent/ac5585d9> ;
+    onto:worships <http://transmtl.vn/ent/f0dc5340> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/main_shrine#hoành_phi> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2715 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#gnarled_branches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.64 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/ac5585d9> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2646 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5411 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#gnarled_branches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2972 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2852 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/86454297> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#hoành_phi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/main_shrine#curved_roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3689 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.322 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/f0dc5340> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6457 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#mái_đao> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2799 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/main_shrine#mái_đao> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3387 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6298 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#mái_đao> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8781 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4278 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2884 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#curved_roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2734 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/tay_ho_temple> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#curved_roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7077 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3107 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/03ff626f> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2507 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/main_shrine#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/main_shrine#gnarled_branches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4004 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/f0dc5340> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6614 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3648 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/ac5585d9> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tay_ho_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/kb/main_shrine#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3653 ;
+    fkg:docId "doc_ee1e5512d8d9" ;
+    fkg:kbId "main_shrine" ;
+    rdf:object <http://transmtl.vn/ent/3cd15f8f> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/main_shrine> .
+

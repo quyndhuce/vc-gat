@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="840" height="520" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;">
+  <text x="420" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0f172a">Kiểm Chứng Mệnh Đề Lý Thuyết: FAR ≤ (1 − θ) + ECE</text>
+  <text x="420" y="52" text-anchor="middle" font-size="12" fill="#64748b">Thực nghiệm trên 250 video test từ 0% đến 40% nhiễu: FAR luôn nằm dưới Cận trên Lý thuyết</text>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="420" x2="780" y2="420" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="68" y="424" text-anchor="end" font-size="12" fill="#64748b">0%</text>
+
+  <line x1="80" y1="352.0" x2="780" y2="352.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="356.0" text-anchor="end" font-size="12" fill="#64748b">10%</text>
+
+  <line x1="80" y1="284.0" x2="780" y2="284.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="288.0" text-anchor="end" font-size="12" fill="#64748b">20%</text>
+
+  <line x1="80" y1="216.0" x2="780" y2="216.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="220.0" text-anchor="end" font-size="12" fill="#64748b">30%</text>
+
+  <line x1="80" y1="148.0" x2="780" y2="148.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="152.0" text-anchor="end" font-size="12" fill="#64748b">40%</text>
+
+  <line x1="80" y1="80.0" x2="780" y2="80.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="84.0" text-anchor="end" font-size="12" fill="#64748b">50%</text>
+
+  <!-- X ticks -->
+  <line x1="130" y1="420" x2="130" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="130" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">0% (Gốc)</text>
+  <line x1="260" y1="420" x2="260" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="260" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">5%</text>
+  <line x1="390" y1="420" x2="390" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="390" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">10%</text>
+  <line x1="550" y1="420" x2="550" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="550" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">20%</text>
+  <line x1="720" y1="420" x2="720" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="720" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">40%</text>
+  <text x="420" y="480" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">Tỷ Lệ Nhiễu Tri Thức Tiêm Vào (Noise Ratio η)</text>
+  <text x="25" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b" transform="rotate(-90 25 250)">Tỷ Lệ Lỗi FAR vs Cận Lý Thuyết (%)</text>
+  <!-- Upper Bound -->
+  <polyline points="130,139.83999999999997 260,136.57600000000002 390,134.332 550,133.78799999999995 720,129.776" fill="none" stroke="#2563eb" stroke-width="3" stroke-dasharray="6,4" />
+  <circle cx="130" cy="139.83999999999997" r="5.5" fill="#2563eb" stroke="#ffffff" stroke-width="2" />
+  <text x="130" y="129.83999999999997" text-anchor="middle" font-size="11" font-weight="bold" fill="#1d4ed8">41.2%</text>
+  <circle cx="260" cy="136.57600000000002" r="5.5" fill="#2563eb" stroke="#ffffff" stroke-width="2" />
+  <text x="260" y="126.57600000000002" text-anchor="middle" font-size="11" font-weight="bold" fill="#1d4ed8">41.7%</text>
+  <circle cx="390" cy="134.332" r="5.5" fill="#2563eb" stroke="#ffffff" stroke-width="2" />
+  <text x="390" y="124.332" text-anchor="middle" font-size="11" font-weight="bold" fill="#1d4ed8">42.0%</text>
+  <circle cx="550" cy="133.78799999999995" r="5.5" fill="#2563eb" stroke="#ffffff" stroke-width="2" />
+  <text x="550" y="123.78799999999995" text-anchor="middle" font-size="11" font-weight="bold" fill="#1d4ed8">42.1%</text>
+  <circle cx="720" cy="129.776" r="5.5" fill="#2563eb" stroke="#ffffff" stroke-width="2" />
+  <text x="720" y="119.77600000000001" text-anchor="middle" font-size="11" font-weight="bold" fill="#1d4ed8">42.7%</text>
+  <!-- Empirical FAR -->
+  <polyline points="130,414.56 260,414.56 390,381.92 550,305.76 720,316.64" fill="none" stroke="#10b981" stroke-width="4" />
+  <circle cx="130" cy="414.56" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="130" y="434.56" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">0.8%</text>
+  <circle cx="260" cy="414.56" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="260" y="434.56" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">0.8%</text>
+  <circle cx="390" cy="381.92" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="390" y="401.92" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">5.6%</text>
+  <circle cx="550" cy="305.76" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="550" y="325.76" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">16.8%</text>
+  <circle cx="720" cy="316.64" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="720" y="336.64" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">15.2%</text>
+  <!-- Legend -->
+  <rect x="100" y="75" width="410" height="70" fill="#f8fafc" stroke="#cbd5e1" rx="6" />
+  <line x1="115" y1="95" x2="145" y2="95" stroke="#2563eb" stroke-width="3" stroke-dasharray="6,4" />
+  <circle cx="130" cy="95" r="4.5" fill="#2563eb" />
+  <text x="155" y="99" font-size="12" font-weight="bold" fill="#0f172a">Cận trên lý thuyết: (1 − θ) + ECE  [θ = 0.60]</text>
+
+  <line x1="115" y1="122" x2="145" y2="122" stroke="#10b981" stroke-width="4" />
+  <circle cx="130" cy="122" r="5" fill="#10b981" />
+  <text x="155" y="126" font-size="12" font-weight="bold" fill="#0f172a">FAR Thực tế (Real GPU Inferred False Claim Rate)</text>
+</svg>

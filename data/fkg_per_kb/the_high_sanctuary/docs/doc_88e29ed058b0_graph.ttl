@@ -1,0 +1,458 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/50aeeaea> onto:above <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/9d7f1b1e> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/7b0c3f3c> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#curved_ceramic_tiles> onto:architectural_style <http://transmtl.vn/ent/0988165f> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#tiles> onto:across <http://transmtl.vn/ent/28b724e3> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#windows> onto:part_of <http://transmtl.vn/ent/8f1c5099>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#artisans> onto:belongs_to_dynasty <http://transmtl.vn/ent/7010e65e> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#bái_đường> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#altar> onto:located_in <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#roof> onto:architectural_style <http://transmtl.vn/ent/0988165f> ;
+    onto:with <http://transmtl.vn/ent/6de21a2b>,
+        <http://transmtl.vn/ent/fa6becea> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#steps> onto:above <http://transmtl.vn/ent/2a20afe0> ;
+    onto:leading_to <http://transmtl.vn/ent/2a20afe0> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/7b0c3f3c>,
+        <http://transmtl.vn/ent/806213c1>,
+        <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/the_high_sanctuary#two_dragons> onto:faces <http://transmtl.vn/ent/6d4db5ff>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/ebd556e6> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:architectural_style <http://transmtl.vn/ent/055853b8> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/the_high_sanctuary> onto:has_part <http://transmtl.vn/kb/the_high_sanctuary#altar>,
+        <http://transmtl.vn/kb/the_high_sanctuary#artisans>,
+        <http://transmtl.vn/kb/the_high_sanctuary#bái_đường>,
+        <http://transmtl.vn/kb/the_high_sanctuary#curved_ceramic_tiles>,
+        <http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary>,
+        <http://transmtl.vn/kb/the_high_sanctuary#roof>,
+        <http://transmtl.vn/kb/the_high_sanctuary#steps>,
+        <http://transmtl.vn/kb/the_high_sanctuary#tiles>,
+        <http://transmtl.vn/kb/the_high_sanctuary#two_dragons>,
+        <http://transmtl.vn/kb/the_high_sanctuary#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3156 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/7010e65e> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#artisans> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5061 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#altar> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2943 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#two_dragons> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4943 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/0988165f> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#curved_ceramic_tiles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4583 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/0988165f> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2625 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4323 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2623 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#artisans> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3636 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7b0c3f3c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3804 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/7010e65e> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#artisans> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#curved_ceramic_tiles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2829 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/ent/50aeeaea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5454 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4057 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/7b0c3f3c> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#bái_đường> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2801 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3889 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#two_dragons> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3637 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/6de21a2b> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4496 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3749 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#two_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#bái_đường> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3889 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/6d4db5ff> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#two_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#tiles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3035 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/28b724e3> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#tiles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3142 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#altar> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5085 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4273 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#bái_đường> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8409 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/6d4db5ff> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#two_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3867 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/ebd556e6> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#two_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2706 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/9d7f1b1e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8437 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/ebd556e6> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#two_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3292 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/055853b8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4112 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/fa6becea> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.287 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/806213c1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7197 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4072 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#artisans> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/kb/the_high_sanctuary#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3069 ;
+    fkg:docId "doc_88e29ed058b0" ;
+    fkg:kbId "the_high_sanctuary" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_high_sanctuary#bái_đường> .
+

@@ -1,0 +1,512 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/artifact_3> onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+<http://transmtl.vn/ent/763093ab> onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#clothing> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#exhibition> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#exhibition_galleries> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#garden_paths> onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#gardens> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#house> onto:part_of <http://transmtl.vn/ent/f99377de> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#labels> onto:part_of <http://transmtl.vn/ent/f99377de> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#living_floors> onto:part_of <http://transmtl.vn/ent/0538dec3> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_traditional_houses> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#photographs> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#posts> onto:part_of <http://transmtl.vn/ent/0538dec3> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#ritual_objects> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#roof> onto:part_of <http://transmtl.vn/ent/2ca63cdd> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#shapes> onto:part_of <http://transmtl.vn/ent/2ca63cdd> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#stilts> onto:part_of <http://transmtl.vn/ent/94a55a83> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#tools> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/ethnic_house> onto:located_in <http://transmtl.vn/ent/a000d901> ;
+    onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_architectural_garden> onto:located_in <http://transmtl.vn/ent/a000d901> ;
+    onto:surrounded_by <http://transmtl.vn/ent/a000d901> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology#walking_paths> onto:located_in <http://transmtl.vn/ent/eb0ea0bc>,
+        <http://transmtl.vn/ent/f10eeb0d> ;
+    onto:near <http://transmtl.vn/ent/d7a87e54> ;
+    onto:part_of <http://transmtl.vn/ent/eb0ea0bc>,
+        <http://transmtl.vn/ent/f10eeb0d> .
+
+<http://transmtl.vn/ent/eb0ea0bc> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology> onto:has_component <http://transmtl.vn/kb/vietnam_museum_of_ethnology#clothing>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#exhibition>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#exhibition_galleries>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#garden_paths>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#gardens>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#house>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#labels>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#living_floors>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_architectural_garden>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_traditional_houses>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#photographs>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#posts>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#ritual_objects>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#roof>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#shapes>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#stilts>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#tools>,
+        <http://transmtl.vn/kb/vietnam_museum_of_ethnology#walking_paths> ;
+    onto:has_part <http://transmtl.vn/ent/763093ab>,
+        <http://transmtl.vn/ent/8cec3d8d>,
+        <http://transmtl.vn/kb/ethnic_house> ;
+    onto:located_in <http://transmtl.vn/ent/41feb3bd>,
+        <http://transmtl.vn/ent/4ab10bed>,
+        <http://transmtl.vn/ent/6b77ef4b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3956 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#tools> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#tools> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#posts> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7439 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/ethnic_house> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#exhibition> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7148 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8947 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/763093ab> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5056 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/f10eeb0d> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#walking_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#ritual_objects> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.48 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/8cec3d8d> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#labels> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9589 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/4ab10bed> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7374 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#exhibition_galleries> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7312 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_traditional_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5152 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/f99377de> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#labels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_traditional_houses> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2533 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/4ab10bed> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.653 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#gardens> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#clothing> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2682 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#walking_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3778 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#ritual_objects> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#stilts> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2762 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/a000d901> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_architectural_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2852 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/f99377de> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4917 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/f10eeb0d> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#walking_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3417 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/a000d901> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_architectural_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4201 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#clothing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6729 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3135 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/0538dec3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#living_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4754 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#walking_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#walking_paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#shapes> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3648 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/a000d901> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9518 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/41feb3bd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#photographs> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6383 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#garden_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6965 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/763093ab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#house> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3655 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/0538dec3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#posts> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3733 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/6b77ef4b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3008 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#shapes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#gardens> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#exhibition_galleries> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#garden_paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3231 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#stilts> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#outdoor_architectural_garden> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#living_floors> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.355 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#photographs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8611 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3792 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/d7a87e54> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#walking_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3583 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology#exhibition> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology#roof> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.846 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/eb0ea0bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5576 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_museum_of_ethnology" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/artifact_3> .
+

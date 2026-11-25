@@ -1,0 +1,422 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/5d51ed33> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_area> onto:part_of <http://transmtl.vn/kb/performance> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#control_mechanisms> onto:part_of <http://transmtl.vn/ent/ed0f72a9> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#musical_ensemble> onto:part_of <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#musicians> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#props> onto:part_of <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppets> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#stage_areas> onto:part_of <http://transmtl.vn/kb/performance> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#theatrical_sets> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#characteristic_physical_features> onto:has_component <http://transmtl.vn/ent/00cc3300>,
+        <http://transmtl.vn/kb/performance> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_seating> onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/kb/performance> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppet_figures> onto:part_of <http://transmtl.vn/ent/8a90c547>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+<http://transmtl.vn/ent/dfe71ed7> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+<http://transmtl.vn/kb/performance> onto:part_of <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre> onto:has_component <http://transmtl.vn/ent/16830b54>,
+        <http://transmtl.vn/ent/50fe03ab>,
+        <http://transmtl.vn/ent/e754b247>,
+        <http://transmtl.vn/kb/performance>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_area>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_seating>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#characteristic_physical_features>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#control_mechanisms>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#musical_ensemble>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#musicians>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#props>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppet_figures>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppets>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#stage_areas>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#theatrical_sets> ;
+    onto:has_part <http://transmtl.vn/ent/16830b54>,
+        <http://transmtl.vn/ent/50fe03ab>,
+        <http://transmtl.vn/ent/e754b247>,
+        <http://transmtl.vn/kb/performance> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/dfe71ed7> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/dfe71ed7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppet_figures> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_area> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#characteristic_physical_features> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3614 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/50fe03ab> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4162 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/e754b247> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6322 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7117 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/e754b247> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2572 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3497 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/5d51ed33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#musicians> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3059 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/dfe71ed7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#musical_ensemble> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#theatrical_sets> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#control_mechanisms> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7817 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8544 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#theatrical_sets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3189 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.894 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.294 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/ed0f72a9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#control_mechanisms> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2868 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/dfe71ed7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5902 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/16830b54> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3849 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#props> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppet_figures> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2936 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/dfe71ed7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppets> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8229 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6749 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_area> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7789 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#props> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.818 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_seating> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#stage_areas> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7347 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_seating> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.938 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7634 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#stage_areas> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6106 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/50fe03ab> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_seating> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5274 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7533 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#musicians> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3649 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/8a90c547> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppet_figures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3348 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/16830b54> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7603 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#musical_ensemble> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#audience_seating> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7859 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#puppet_figures> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9062 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/dfe71ed7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2918 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/00cc3300> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#characteristic_physical_features> .
+

@@ -1,0 +1,45 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Water Pavilion)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/water_pavilion
+  Conflict K: 0.5322
+  Candidates:
+    • region                          Bel=0.3622  Pl=0.5787  (2 evidence)
+    • heritage                        Bel=0.3072  Pl=0.5236  (2 evidence)
+    • wet-rice civilization           Bel=0.1141  Pl=0.3306  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [built_in] (Water Pavilion) → http://transmtl.vn/ent/a4e3c587  Bel=0.6048  K=0.0000
+  [symbol_of] (Water Pavilion) → http://transmtl.vn/ent/960db2ed  Bel=0.3622  K=0.5322 ⚠ REVIEW
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Water Pavilion) → (pavilion)  μ_F=1.0000  (7 evidence)
+  [has_part] (Water Pavilion) → (music room)  μ_F=0.9991  (3 evidence)
+  [has_part] (Water Pavilion) → (side houses)  μ_F=0.9905  (2 evidence)
+  [has_part] (Water Pavilion) → (nanh)  μ_F=0.9905  (2 evidence)
+  [has_part] (Water Pavilion) → (roof)  μ_F=0.9905  (2 evidence)
+  [has_part] (Water Pavilion) → (foundation)  μ_F=0.9905  (2 evidence)
+  [has_part] (Water Pavilion) → (central hall)  μ_F=0.9905  (2 evidence)
+  [has_part] (Water Pavilion) → (side rooms)  μ_F=0.9905  (2 evidence)
+  [has_part] (Water Pavilion) → (dragon heads)  μ_F=0.9025  (1 evidence)
+  [has_part] (Water Pavilion) → (finials)  μ_F=0.9025  (1 evidence)
+  [has_part] (Water Pavilion) → (rustic structure)  μ_F=0.9025  (1 evidence)
+  [has_part] (Water Pavilion) → (roof corners)  μ_F=0.9025  (1 evidence)
+  [located_in] (Sài Sơn) → (Hanoi)  μ_F=0.7948  (2 evidence)
+  [made_of] (foundation) → (reinforced concrete)  μ_F=0.7903  (2 evidence)
+  [located_in] (Water Pavilion) → (Hanoi)  μ_F=0.7858  (3 evidence)
+  [located_in] (Chàng Sơn) → (Hanoi)  μ_F=0.6818  (2 evidence)
+  [architectural_style] (Water Pavilion) → (functional design)  μ_F=0.5935  (1 evidence)
+  [architectural_style] (Water Pavilion) → (traditional Vietnamese aesthetics)  μ_F=0.5918  (1 evidence)
+  [part_of] (nanh) → (pavilion)  μ_F=0.5413  (2 evidence)
+  [part_of] (music room) → (pavilion)  μ_F=0.5345  (2 evidence)
+
+========================================================================

@@ -1,0 +1,107 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#bas_relief_sculpture> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#facade> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#roof> onto:part_of <http://transmtl.vn/ent/b2859ab4> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_cultural_house> onto:has_part <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#auditorium_block>,
+        <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#bas_relief_sculpture>,
+        <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#facade>,
+        <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#roof> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#auditorium_block> onto:part_of <http://transmtl.vn/ent/1b20e902>,
+        <http://transmtl.vn/ent/b2859ab4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2515 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#auditorium_block> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3964 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/ent/b2859ab4> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#auditorium_block> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5426 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#bas_relief_sculpture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#facade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4273 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/ent/b2859ab4> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#auditorium_block> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2932 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2837 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/ent/b2859ab4> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#auditorium_block> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#auditorium_block> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3fa5c6738eea" ;
+    fkg:kbId "van_phuc_silk_village_cultural_house" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house#bas_relief_sculpture> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_cultural_house> .
+

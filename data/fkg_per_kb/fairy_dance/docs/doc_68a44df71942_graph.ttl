@@ -1,0 +1,54 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/performance> onto:inaugurated_in <http://transmtl.vn/ent/4d855669> .
+
+<http://transmtl.vn/kb/fairy_dance> onto:has_part <http://transmtl.vn/kb/fairy_dance#puppets>,
+        <http://transmtl.vn/kb/fairy_dance#silk_ribbons> .
+
+<http://transmtl.vn/kb/fairy_dance#puppets> onto:across <http://transmtl.vn/ent/9460370b> .
+
+<http://transmtl.vn/kb/fairy_dance#silk_ribbons> onto:over <http://transmtl.vn/ent/9ae5918c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6066 ;
+    fkg:docId "doc_68a44df71942" ;
+    fkg:kbId "fairy_dance" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/fairy_dance#puppets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_68a44df71942" ;
+    fkg:kbId "fairy_dance" ;
+    rdf:object <http://transmtl.vn/kb/fairy_dance#silk_ribbons> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/fairy_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_68a44df71942" ;
+    fkg:kbId "fairy_dance" ;
+    rdf:object <http://transmtl.vn/kb/fairy_dance#puppets> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/fairy_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3957 ;
+    fkg:docId "doc_68a44df71942" ;
+    fkg:kbId "fairy_dance" ;
+    rdf:object <http://transmtl.vn/ent/9ae5918c> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/fairy_dance#silk_ribbons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8466 ;
+    fkg:docId "doc_68a44df71942" ;
+    fkg:kbId "fairy_dance" ;
+    rdf:object <http://transmtl.vn/ent/4d855669> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+

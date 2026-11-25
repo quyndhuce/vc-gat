@@ -1,0 +1,100 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q10770763#drum_making> onto:symbol_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q10770763#drums> onto:symbol_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q10770763#facades> onto:part_of <http://transmtl.vn/ent/fc62e740> .
+
+<http://www.wikidata.org/entity/Q10770763#tự_tháp_village> onto:renamed_to <http://transmtl.vn/ent/df8067d4> .
+
+<http://www.wikidata.org/entity/Q10770763> onto:connects <http://transmtl.vn/ent/606dcc1a> ;
+    onto:has_part <http://www.wikidata.org/entity/Q10770763#drum_making>,
+        <http://www.wikidata.org/entity/Q10770763#drums>,
+        <http://www.wikidata.org/entity/Q10770763#facades>,
+        <http://www.wikidata.org/entity/Q10770763#tự_tháp_village> ;
+    onto:near <http://transmtl.vn/ent/6c6d4dfa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7389 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770763#tự_tháp_village> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7415 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763#drums> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770763#drum_making> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770763#drums> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3078 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://transmtl.vn/ent/fc62e740> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5452 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770763#facades> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4216 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763#drum_making> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3157 ;
+    fkg:docId "doc_d67315a21589" ;
+    fkg:kbId "hang_trong_street" ;
+    rdf:object <http://transmtl.vn/ent/df8067d4> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770763#tự_tháp_village> .
+

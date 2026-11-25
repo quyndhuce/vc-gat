@@ -1,0 +1,286 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f6cfbcf4> onto:part_of <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+<http://transmtl.vn/ent/207462d2> onto:ruled_by <http://transmtl.vn/ent/3132c28f> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi#base> onto:part_of <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi#cylindrical_shaft> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi#flag> onto:above <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi#foundation> onto:part_of <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi#interior_structure> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi#main_body> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi#windows> onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:connects <http://transmtl.vn/ent/57855271> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi#tower> onto:has_part <http://transmtl.vn/ent/6e011512>,
+        <http://transmtl.vn/ent/81bf8289>,
+        <http://transmtl.vn/ent/9563f573>,
+        <http://transmtl.vn/ent/a2a551a6>,
+        <http://transmtl.vn/ent/eb17ebfc> ;
+    onto:surrounded_by <http://transmtl.vn/ent/992763c3> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi> onto:has_part <http://transmtl.vn/ent/01baf36b>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi#base>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi#cylindrical_shaft>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi#flag>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi#foundation>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi#interior_structure>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi#main_body>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi#tower>,
+        <http://transmtl.vn/kb/flag_tower_of_hanoi#windows> ;
+    onto:located_in <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    onto:surrounded_by <http://transmtl.vn/ent/992763c3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2602 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2568 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3718 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/a2a551a6> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4354 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#foundation> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4457 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/6e011512> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4606 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/57855271> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2782 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/9563f573> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4732 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/81bf8289> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2698 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/01baf36b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3303 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4166 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.357 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.287 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2837 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/3132c28f> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#cylindrical_shaft> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2927 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/eb17ebfc> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#main_body> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2895 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#interior_structure> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#flag> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#interior_structure> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi#foundation> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3155 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/f6cfbcf4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2847 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#flag> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3705 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/kb/flag_tower_of_hanoi> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5723 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#main_body> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.462 ;
+    fkg:docId "doc_d1210977efa9" ;
+    fkg:kbId "flag_tower_of_hanoi" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi#cylindrical_shaft> .
+

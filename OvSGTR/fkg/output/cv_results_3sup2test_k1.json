@@ -1,0 +1,936 @@
+{
+  "scheme": "3sup_2test",
+  "k_views": 1,
+  "mean_accuracy": 0.6,
+  "std_accuracy": 0.0316,
+  "fold_accuracies": [
+    0.6,
+    0.65,
+    0.6,
+    0.55,
+    0.6
+  ],
+  "total_evaluations": 100,
+  "total_correct": 60,
+  "per_landmark_accuracy": {
+    "Hoan Kiem Lake": 0.5,
+    "Van Mieu Quoc Tu Giam": 0.2,
+    "HoangThanhThangLong": 0.2,
+    "West Lake": 0.7,
+    "One Pillar Pagoda": 1.0,
+    "Ho Chi Minh's Mausoleum": 1.0,
+    "The Old Quarter": 0.9,
+    "Vietnam National Museum of History": 0.4,
+    "Bat Trang Pottery Village": 0.8,
+    "Van Phuc Silk Village": 0.3
+  },
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      1,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      1,
+      1,
+      0,
+      5,
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      1,
+      2,
+      0,
+      0,
+      3,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      9,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      3,
+      4,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      8,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      3,
+      0,
+      2,
+      3
+    ]
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "support_indices": [
+        0,
+        1,
+        2
+      ],
+      "test_indices": [
+        3,
+        4
+      ],
+      "accuracy": 0.6,
+      "correct": 12,
+      "total": 20,
+      "predictions": [
+        {
+          "video_id": "69c54bb60a741c71017315d6",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "Vietnam National Museum of History",
+          "is_correct": false,
+          "margin": 0.0042
+        },
+        {
+          "video_id": "69bdd7f0e157dec41ed92f60",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "Hoan Kiem Lake",
+          "is_correct": true,
+          "margin": 0.0084
+        },
+        {
+          "video_id": "69c715430a741c7101731633",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": false,
+          "margin": 0.0001
+        },
+        {
+          "video_id": "69c7156a0a741c7101731634",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": false,
+          "margin": 0.0049
+        },
+        {
+          "video_id": "69c0c1d5a5e55ff6ad938ffc",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "Hoan Kiem Lake",
+          "is_correct": false,
+          "margin": 0.001
+        },
+        {
+          "video_id": "69c0ae6ba5e55ff6ad938fe6",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "Van Mieu Quoc Tu Giam",
+          "is_correct": false,
+          "margin": 0.0004
+        },
+        {
+          "video_id": "6a09609754cac746d34c204e",
+          "ground_truth": "West Lake",
+          "predicted": "West Lake",
+          "is_correct": true,
+          "margin": 0.0064
+        },
+        {
+          "video_id": "6a09609754cac746d34c204d",
+          "ground_truth": "West Lake",
+          "predicted": "West Lake",
+          "is_correct": true,
+          "margin": 0.0069
+        },
+        {
+          "video_id": "6a27861fa0f5665d94c5aff3",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0084
+        },
+        {
+          "video_id": "6a278613a0f5665d94c5aff0",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0066
+        },
+        {
+          "video_id": "69ea3aacdcb04ab40f2a108b",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0047
+        },
+        {
+          "video_id": "69ea3aabdcb04ab40f2a108a",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0108
+        },
+        {
+          "video_id": "69cff36b0a741c71017317bc",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0083
+        },
+        {
+          "video_id": "69cff3420a741c710173179b",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0097
+        },
+        {
+          "video_id": "69e9ff18dcb04ab40f2a104d",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "Vietnam National Museum of History",
+          "is_correct": true,
+          "margin": 0.0128
+        },
+        {
+          "video_id": "69e9ff17dcb04ab40f2a104b",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0002
+        },
+        {
+          "video_id": "69f75726dcb04ab40f2a111b",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": true,
+          "margin": 0.0019
+        },
+        {
+          "video_id": "69f75726dcb04ab40f2a111a",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": true,
+          "margin": 0.002
+        },
+        {
+          "video_id": "69fb4028dcb04ab40f2a1149",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0004
+        },
+        {
+          "video_id": "69fb4012dcb04ab40f2a1137",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "West Lake",
+          "is_correct": false,
+          "margin": 0.001
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "support_indices": [
+        1,
+        2,
+        3
+      ],
+      "test_indices": [
+        4,
+        0
+      ],
+      "accuracy": 0.65,
+      "correct": 13,
+      "total": 20,
+      "predictions": [
+        {
+          "video_id": "69bdd7f0e157dec41ed92f60",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "Hoan Kiem Lake",
+          "is_correct": true,
+          "margin": 0.0052
+        },
+        {
+          "video_id": "69bdd7b3e157dec41ed92f49",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0024
+        },
+        {
+          "video_id": "69c7156a0a741c7101731634",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": false,
+          "margin": 0.0033
+        },
+        {
+          "video_id": "69c716170a741c710173163c",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "West Lake",
+          "is_correct": false,
+          "margin": 0.0055
+        },
+        {
+          "video_id": "69c0ae6ba5e55ff6ad938fe6",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "Hoan Kiem Lake",
+          "is_correct": false,
+          "margin": 0.0028
+        },
+        {
+          "video_id": "69c0b0cda5e55ff6ad938ff4",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "HoangThanhThangLong",
+          "is_correct": true,
+          "margin": 0.0085
+        },
+        {
+          "video_id": "6a09609754cac746d34c204d",
+          "ground_truth": "West Lake",
+          "predicted": "West Lake",
+          "is_correct": true,
+          "margin": 0.0105
+        },
+        {
+          "video_id": "6a09609854cac746d34c2051",
+          "ground_truth": "West Lake",
+          "predicted": "West Lake",
+          "is_correct": true,
+          "margin": 0.0076
+        },
+        {
+          "video_id": "6a278613a0f5665d94c5aff0",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0092
+        },
+        {
+          "video_id": "6a278622a0f5665d94c5aff6",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0109
+        },
+        {
+          "video_id": "69ea3aabdcb04ab40f2a108a",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0088
+        },
+        {
+          "video_id": "69ea3aabdcb04ab40f2a1089",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0177
+        },
+        {
+          "video_id": "69cff3420a741c710173179b",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0123
+        },
+        {
+          "video_id": "69cff36e0a741c71017317bf",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0243
+        },
+        {
+          "video_id": "69e9ff17dcb04ab40f2a104b",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "Van Mieu Quoc Tu Giam",
+          "is_correct": false,
+          "margin": 0.0
+        },
+        {
+          "video_id": "69e9ee9bdcb04ab40f2a1035",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "Vietnam National Museum of History",
+          "is_correct": true,
+          "margin": 0.013
+        },
+        {
+          "video_id": "69f75726dcb04ab40f2a111a",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": true,
+          "margin": 0.0074
+        },
+        {
+          "video_id": "69f75724dcb04ab40f2a1117",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0031
+        },
+        {
+          "video_id": "69fb4012dcb04ab40f2a1137",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "Van Mieu Quoc Tu Giam",
+          "is_correct": false,
+          "margin": 0.0011
+        },
+        {
+          "video_id": "69fb4028dcb04ab40f2a1148",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "Van Phuc Silk Village",
+          "is_correct": true,
+          "margin": 0.0022
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "support_indices": [
+        2,
+        3,
+        4
+      ],
+      "test_indices": [
+        0,
+        1
+      ],
+      "accuracy": 0.6,
+      "correct": 12,
+      "total": 20,
+      "predictions": [
+        {
+          "video_id": "69bdd7b3e157dec41ed92f49",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0021
+        },
+        {
+          "video_id": "69bdd7f1e157dec41ed92f61",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "Hoan Kiem Lake",
+          "is_correct": true,
+          "margin": 0.0072
+        },
+        {
+          "video_id": "69c716170a741c710173163c",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "HoangThanhThangLong",
+          "is_correct": false,
+          "margin": 0.0004
+        },
+        {
+          "video_id": "69c715400a741c7101731631",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "Van Mieu Quoc Tu Giam",
+          "is_correct": true,
+          "margin": 0.0049
+        },
+        {
+          "video_id": "69c0b0cda5e55ff6ad938ff4",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "Vietnam National Museum of History",
+          "is_correct": false,
+          "margin": 0.0017
+        },
+        {
+          "video_id": "69c0b0f2a5e55ff6ad938ff6",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "Vietnam National Museum of History",
+          "is_correct": false,
+          "margin": 0.0012
+        },
+        {
+          "video_id": "6a09609854cac746d34c2051",
+          "ground_truth": "West Lake",
+          "predicted": "West Lake",
+          "is_correct": true,
+          "margin": 0.0044
+        },
+        {
+          "video_id": "6a09609854cac746d34c2050",
+          "ground_truth": "West Lake",
+          "predicted": "West Lake",
+          "is_correct": true,
+          "margin": 0.0027
+        },
+        {
+          "video_id": "6a278622a0f5665d94c5aff6",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0071
+        },
+        {
+          "video_id": "6a278621a0f5665d94c5aff5",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0088
+        },
+        {
+          "video_id": "69ea3aabdcb04ab40f2a1089",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0063
+        },
+        {
+          "video_id": "69ea3aaadcb04ab40f2a1088",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.008
+        },
+        {
+          "video_id": "69cff36e0a741c71017317bf",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0275
+        },
+        {
+          "video_id": "69cff36d0a741c71017317be",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0068
+        },
+        {
+          "video_id": "69e9ee9bdcb04ab40f2a1035",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "Vietnam National Museum of History",
+          "is_correct": true,
+          "margin": 0.006
+        },
+        {
+          "video_id": "69e9ee9bdcb04ab40f2a1034",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0022
+        },
+        {
+          "video_id": "69f75724dcb04ab40f2a1117",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Vietnam National Museum of History",
+          "is_correct": false,
+          "margin": 0.0017
+        },
+        {
+          "video_id": "69f75728dcb04ab40f2a111e",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": true,
+          "margin": 0.0062
+        },
+        {
+          "video_id": "69fb4028dcb04ab40f2a1148",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0017
+        },
+        {
+          "video_id": "69fb4028dcb04ab40f2a1147",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0025
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "support_indices": [
+        3,
+        4,
+        0
+      ],
+      "test_indices": [
+        1,
+        2
+      ],
+      "accuracy": 0.55,
+      "correct": 11,
+      "total": 20,
+      "predictions": [
+        {
+          "video_id": "69bdd7f1e157dec41ed92f61",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "Hoan Kiem Lake",
+          "is_correct": true,
+          "margin": 0.0098
+        },
+        {
+          "video_id": "69bdd7cfe157dec41ed92f54",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0009
+        },
+        {
+          "video_id": "69c715400a741c7101731631",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0039
+        },
+        {
+          "video_id": "69c715410a741c7101731632",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "Van Mieu Quoc Tu Giam",
+          "is_correct": true,
+          "margin": 0.005
+        },
+        {
+          "video_id": "69c0b0f2a5e55ff6ad938ff6",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "HoangThanhThangLong",
+          "is_correct": true,
+          "margin": 0.007
+        },
+        {
+          "video_id": "69c0ae69a5e55ff6ad938fe5",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": false,
+          "margin": 0.0022
+        },
+        {
+          "video_id": "6a09609854cac746d34c2050",
+          "ground_truth": "West Lake",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0053
+        },
+        {
+          "video_id": "6a09609854cac746d34c204f",
+          "ground_truth": "West Lake",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0014
+        },
+        {
+          "video_id": "6a278621a0f5665d94c5aff5",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0076
+        },
+        {
+          "video_id": "6a278620a0f5665d94c5aff4",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0108
+        },
+        {
+          "video_id": "69ea3aaadcb04ab40f2a1088",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0152
+        },
+        {
+          "video_id": "69ea3aaddcb04ab40f2a108c",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0053
+        },
+        {
+          "video_id": "69cff36d0a741c71017317be",
+          "ground_truth": "The Old Quarter",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0042
+        },
+        {
+          "video_id": "6a28365ea0f5665d94c5b11d",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0198
+        },
+        {
+          "video_id": "69e9ee9bdcb04ab40f2a1034",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "The Old Quarter",
+          "is_correct": false,
+          "margin": 0.0027
+        },
+        {
+          "video_id": "69e9ff17dcb04ab40f2a104c",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.002
+        },
+        {
+          "video_id": "69f75728dcb04ab40f2a111e",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": true,
+          "margin": 0.0025
+        },
+        {
+          "video_id": "69f75727dcb04ab40f2a111d",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": true,
+          "margin": 0.0047
+        },
+        {
+          "video_id": "69fb4028dcb04ab40f2a1147",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "Van Phuc Silk Village",
+          "is_correct": true,
+          "margin": 0.0022
+        },
+        {
+          "video_id": "69fb4002dcb04ab40f2a1127",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0189
+        }
+      ]
+    },
+    {
+      "fold": 4,
+      "support_indices": [
+        4,
+        0,
+        1
+      ],
+      "test_indices": [
+        2,
+        3
+      ],
+      "accuracy": 0.6,
+      "correct": 12,
+      "total": 20,
+      "predictions": [
+        {
+          "video_id": "69bdd7cfe157dec41ed92f54",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0002
+        },
+        {
+          "video_id": "69c54bb60a741c71017315d6",
+          "ground_truth": "Hoan Kiem Lake",
+          "predicted": "Hoan Kiem Lake",
+          "is_correct": true,
+          "margin": 0.003
+        },
+        {
+          "video_id": "69c715410a741c7101731632",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": false,
+          "margin": 0.0017
+        },
+        {
+          "video_id": "69c715430a741c7101731633",
+          "ground_truth": "Van Mieu Quoc Tu Giam",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": false,
+          "margin": 0.0013
+        },
+        {
+          "video_id": "69c0ae69a5e55ff6ad938fe5",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": false,
+          "margin": 0.0053
+        },
+        {
+          "video_id": "69c0c1d5a5e55ff6ad938ffc",
+          "ground_truth": "HoangThanhThangLong",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": false,
+          "margin": 0.0033
+        },
+        {
+          "video_id": "6a09609854cac746d34c204f",
+          "ground_truth": "West Lake",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0004
+        },
+        {
+          "video_id": "6a09609754cac746d34c204e",
+          "ground_truth": "West Lake",
+          "predicted": "West Lake",
+          "is_correct": true,
+          "margin": 0.0016
+        },
+        {
+          "video_id": "6a278620a0f5665d94c5aff4",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0089
+        },
+        {
+          "video_id": "6a27861fa0f5665d94c5aff3",
+          "ground_truth": "One Pillar Pagoda",
+          "predicted": "One Pillar Pagoda",
+          "is_correct": true,
+          "margin": 0.0031
+        },
+        {
+          "video_id": "69ea3aaddcb04ab40f2a108c",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0061
+        },
+        {
+          "video_id": "69ea3aacdcb04ab40f2a108b",
+          "ground_truth": "Ho Chi Minh's Mausoleum",
+          "predicted": "Ho Chi Minh's Mausoleum",
+          "is_correct": true,
+          "margin": 0.0044
+        },
+        {
+          "video_id": "6a28365ea0f5665d94c5b11d",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0182
+        },
+        {
+          "video_id": "69cff36b0a741c71017317bc",
+          "ground_truth": "The Old Quarter",
+          "predicted": "The Old Quarter",
+          "is_correct": true,
+          "margin": 0.0068
+        },
+        {
+          "video_id": "69e9ff17dcb04ab40f2a104c",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0005
+        },
+        {
+          "video_id": "69e9ff18dcb04ab40f2a104d",
+          "ground_truth": "Vietnam National Museum of History",
+          "predicted": "Vietnam National Museum of History",
+          "is_correct": true,
+          "margin": 0.0003
+        },
+        {
+          "video_id": "69f75727dcb04ab40f2a111d",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": true,
+          "margin": 0.006
+        },
+        {
+          "video_id": "69f75726dcb04ab40f2a111b",
+          "ground_truth": "Bat Trang Pottery Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": true,
+          "margin": 0.0072
+        },
+        {
+          "video_id": "69fb4002dcb04ab40f2a1127",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "Bat Trang Pottery Village",
+          "is_correct": false,
+          "margin": 0.0109
+        },
+        {
+          "video_id": "69fb4028dcb04ab40f2a1149",
+          "ground_truth": "Van Phuc Silk Village",
+          "predicted": "Van Phuc Silk Village",
+          "is_correct": true,
+          "margin": 0.0002
+        }
+      ]
+    }
+  ]
+}

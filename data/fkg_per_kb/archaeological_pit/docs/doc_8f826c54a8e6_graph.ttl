@@ -1,0 +1,275 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/archaeological_pit#lush_greenery> onto:above <http://transmtl.vn/ent/55a9d6aa> .
+
+<http://transmtl.vn/kb/archaeological_pit#pit> onto:near <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/archaeological_pit#room> onto:part_of <http://transmtl.vn/ent/3ca11381> .
+
+<http://transmtl.vn/kb/archaeological_pit#walls> onto:part_of <http://transmtl.vn/kb/archaeological_pit> .
+
+<http://transmtl.vn/kb/archaeological_pit#alarm_gong> onto:commemorates <http://transmtl.vn/ent/981f1875> ;
+    onto:part_of <http://transmtl.vn/kb/archaeological_pit> .
+
+<http://transmtl.vn/kb/archaeological_pit#underground_bunker> onto:built_in <http://transmtl.vn/ent/39dcaf7a>,
+        <http://transmtl.vn/ent/d46e1fcf> .
+
+<http://transmtl.vn/kb/archaeological_pit#central_chamber> onto:part_of <http://transmtl.vn/ent/3ca11381>,
+        <http://transmtl.vn/ent/c0fd90b8> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/152649df>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/archaeological_pit> onto:built_in <http://transmtl.vn/ent/39dcaf7a> ;
+    onto:has_part <http://transmtl.vn/kb/archaeological_pit#alarm_gong>,
+        <http://transmtl.vn/kb/archaeological_pit#central_chamber>,
+        <http://transmtl.vn/kb/archaeological_pit#lush_greenery>,
+        <http://transmtl.vn/kb/archaeological_pit#pit>,
+        <http://transmtl.vn/kb/archaeological_pit#room>,
+        <http://transmtl.vn/kb/archaeological_pit#underground_bunker>,
+        <http://transmtl.vn/kb/archaeological_pit#walls> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/1b20e902> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2573bc1b>,
+        <http://transmtl.vn/ent/8675e498> ;
+    onto:symbol_of <http://transmtl.vn/ent/439b3a25> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit#central_chamber> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4503 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/3ca11381> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#room> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9828 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit#room> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3282 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/c0fd90b8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#central_chamber> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2517 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#alarm_gong> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2896 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit#pit> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3002 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2774 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/d46e1fcf> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#underground_bunker> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit#central_chamber> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit#underground_bunker> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit#lush_greenery> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3302 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/39dcaf7a> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.294 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/8675e498> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3432 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/2573bc1b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2727 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/439b3a25> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2644 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/981f1875> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#alarm_gong> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2874 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6185 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/39dcaf7a> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#underground_bunker> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6864 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6291 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3895 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/152649df> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/kb/archaeological_pit#alarm_gong> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3887 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/3ca11381> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#central_chamber> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6772 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.277 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.337 ;
+    fkg:docId "doc_8f826c54a8e6" ;
+    fkg:kbId "archaeological_pit" ;
+    rdf:object <http://transmtl.vn/ent/55a9d6aa> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/archaeological_pit#lush_greenery> .
+

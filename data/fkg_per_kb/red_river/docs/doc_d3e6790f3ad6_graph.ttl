@@ -1,0 +1,94 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/5d753649> onto:across <http://transmtl.vn/kb/red_river> ;
+    onto:crosses <http://transmtl.vn/kb/red_river> .
+
+<http://transmtl.vn/ent/943c07a3> onto:across <http://transmtl.vn/kb/red_river> ;
+    onto:crosses <http://transmtl.vn/kb/red_river> .
+
+<http://transmtl.vn/kb/red_river> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2954 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4375 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/ent/5d753649> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3301 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/ent/943c07a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4184 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/ent/943c07a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2513 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.657 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3467 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/ent/943c07a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4604 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/red_river> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3691 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/ent/5d753649> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3283 ;
+    fkg:docId "doc_d3e6790f3ad6" ;
+    fkg:kbId "red_river" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/ent/5d753649> .
+

@@ -1,0 +1,144 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/6936f30f> onto:part_of <http://transmtl.vn/kb/performance> .
+
+<http://transmtl.vn/kb/lion_dance> onto:has_part <http://transmtl.vn/kb/lion_dance#architecture> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/582b795a> .
+
+<http://transmtl.vn/kb/lion_dance#architecture> onto:architectural_style <http://transmtl.vn/ent/582b795a>,
+        <http://transmtl.vn/ent/64e12ab6>,
+        <http://transmtl.vn/ent/bc4150d0> ;
+    onto:part_of <http://transmtl.vn/kb/performance> .
+
+<http://transmtl.vn/kb/performance> onto:architectural_style <http://transmtl.vn/ent/3f51440a>,
+        <http://transmtl.vn/ent/582b795a>,
+        <http://transmtl.vn/ent/64e12ab6>,
+        <http://transmtl.vn/ent/9949df35>,
+        <http://transmtl.vn/ent/9b732bf8>,
+        <http://transmtl.vn/ent/bc4150d0>,
+        <http://transmtl.vn/ent/ce4726f8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2724 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/9949df35> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2829 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/bc4150d0> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/lion_dance#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4796 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7594 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3169 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/lion_dance#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3638 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/lion_dance#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3023 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3978 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/lion_dance#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/kb/lion_dance#architecture> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/lion_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5278 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/3f51440a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7254 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4505 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/ce4726f8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4087 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3828 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/6936f30f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.379 ;
+    fkg:docId "doc_ce19460d57e5" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/ent/bc4150d0> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+

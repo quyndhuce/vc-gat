@@ -1,0 +1,293 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/ab1a5ac4> onto:part_of <http://transmtl.vn/kb/kinh_thien_palace> .
+
+<http://transmtl.vn/ent/d9630ad2> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/46e658f9> onto:belongs_to_dynasty <http://transmtl.vn/ent/c1e59024> .
+
+<http://transmtl.vn/ent/95636fe2> onto:belongs_to_dynasty <http://transmtl.vn/ent/c1e59024> .
+
+<http://transmtl.vn/kb/doan_mon_gate> onto:part_of <http://www.wikidata.org/entity/Q1858> ;
+    onto:with <http://transmtl.vn/ent/8bafd970>,
+        <http://transmtl.vn/ent/c0ca9c71> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long#elevated_platform> onto:part_of <http://transmtl.vn/kb/kinh_thien_palace> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long#small_openings> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/072306ee>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:built_by <http://transmtl.vn/ent/46e658f9> ;
+    onto:built_in <http://transmtl.vn/ent/1e48c442> ;
+    onto:has_part <http://transmtl.vn/kb/imperial_citadel_of_thang_long#elevated_platform>,
+        <http://transmtl.vn/kb/imperial_citadel_of_thang_long#small_openings> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:ruled_by <http://transmtl.vn/ent/072306ee>,
+        <http://transmtl.vn/ent/c1e59024> .
+
+<http://www.wikidata.org/entity/Q1858> onto:built_by <http://transmtl.vn/ent/95636fe2> ;
+    onto:built_in <http://transmtl.vn/ent/1e48c442> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/31647cc4>,
+        <http://transmtl.vn/ent/4015e9ce>,
+        <http://transmtl.vn/ent/41ba2310>,
+        <http://transmtl.vn/ent/a55ef29a>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/d50e6a3d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2549 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.639 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5877 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/1e48c442> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long#small_openings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2881 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/8bafd970> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6541 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/95636fe2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3149 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long#small_openings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7119 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/46e658f9> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7873 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/a55ef29a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3389 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/d50e6a3d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2626 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long#elevated_platform> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3524 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d9630ad2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3779 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/95636fe2> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4313 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9243 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/1e48c442> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6373 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/31647cc4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9824 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.419 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3461 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3673 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/ab1a5ac4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4193 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7352 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/a55ef29a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3159 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6993 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/41ba2310> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8153 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/46e658f9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3467 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.313 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/4015e9ce> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2755 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/c0ca9c71> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long#elevated_platform> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.689 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/41ba2310> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4901 ;
+    fkg:docId "doc_faac6ab76cf6" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

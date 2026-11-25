@@ -1,0 +1,92 @@
+{
+  "ours": {
+    "model_name": "Mô hình đề xuất (Qwen2.5-3B LoRA + OntoKG + Uncertainty Gate)",
+    "total_samples": 250,
+    "wrong_landmark_count": 2,
+    "wrong_landmark_rate_pct": 0.8,
+    "silence_count": 82,
+    "silence_rate_pct": 32.8,
+    "violation_count": 1,
+    "violation_rate_pct": 0.4,
+    "violations_by_tier": {
+      "HIGH": "0/90 (0.0%)",
+      "MEDIUM": "1/80 (1.2%)",
+      "LOW": "0/80 (0.0%)"
+    }
+  },
+  "frozen_base": {
+    "model_name": "Ablation: LLM đóng băng (Base 3B không fine-tune)",
+    "total_samples": 250,
+    "wrong_landmark_count": 11,
+    "wrong_landmark_rate_pct": 4.4,
+    "silence_count": 95,
+    "silence_rate_pct": 38.0,
+    "violation_count": 4,
+    "violation_rate_pct": 1.6,
+    "violations_by_tier": {
+      "HIGH": "0/90 (0.0%)",
+      "MEDIUM": "4/80 (5.0%)",
+      "LOW": "0/80 (0.0%)"
+    }
+  },
+  "ablation_no_threshold": {
+    "model_name": "Ablation: Bỏ ngưỡng (Luôn khẳng định / Always HIGH)",
+    "total_samples": 250,
+    "wrong_landmark_count": 10,
+    "wrong_landmark_rate_pct": 4.0,
+    "silence_count": 5,
+    "silence_rate_pct": 2.0,
+    "violation_count": 86,
+    "violation_rate_pct": 34.4,
+    "violations_by_tier": {
+      "HIGH": "0/90 (0.0%)",
+      "MEDIUM": "11/80 (13.8%)",
+      "LOW": "75/80 (93.8%)"
+    }
+  },
+  "ablation_no_anchor": {
+    "model_name": "Ablation: Bỏ neo (Greedy mu_F, không lọc candidate)",
+    "total_samples": 250,
+    "wrong_landmark_count": 14,
+    "wrong_landmark_rate_pct": 5.6,
+    "silence_count": 98,
+    "silence_rate_pct": 39.2,
+    "violation_count": 3,
+    "violation_rate_pct": 1.2,
+    "violations_by_tier": {
+      "HIGH": "0/90 (0.0%)",
+      "MEDIUM": "1/80 (1.2%)",
+      "LOW": "2/80 (2.5%)"
+    }
+  },
+  "vlm_direct": {
+    "model_name": "Baseline ngoài: VLM trực tiếp (Qwen3-VL-8B, video only)",
+    "total_samples": 250,
+    "wrong_landmark_count": 2,
+    "wrong_landmark_rate_pct": 0.8,
+    "silence_count": 237,
+    "silence_rate_pct": 94.8,
+    "violation_count": 80,
+    "violation_rate_pct": 32.0,
+    "violations_by_tier": {
+      "HIGH": "1/90 (1.1%)",
+      "MEDIUM": "2/80 (2.5%)",
+      "LOW": "77/80 (96.2%)"
+    }
+  },
+  "vlm_rag": {
+    "model_name": "Baseline ngoài: VLM + RAG (Qwen3-VL-8B + SigLIP2 keyframe RAG)",
+    "total_samples": 250,
+    "wrong_landmark_count": 101,
+    "wrong_landmark_rate_pct": 40.4,
+    "silence_count": 138,
+    "silence_rate_pct": 55.2,
+    "violation_count": 139,
+    "violation_rate_pct": 55.6,
+    "violations_by_tier": {
+      "HIGH": "65/90 (72.2%)",
+      "MEDIUM": "2/80 (2.5%)",
+      "LOW": "72/80 (90.0%)"
+    }
+  }
+}

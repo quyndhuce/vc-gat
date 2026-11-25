@@ -1,0 +1,45 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hanoi)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/207462d2
+  Conflict K: 0.6008
+  Candidates:
+    • Ly Dynasty                      Bel=0.5088  Pl=0.6329  (2 evidence)
+    • Vietnam                         Bel=0.3671  Pl=0.4912  (2 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/c1e59024  Bel=0.5088  K=0.6008 ⚠ REVIEW
+  [former_name_of] (Lo Ren Street) → http://transmtl.vn/ent/1f4a9685  Bel=0.3532  K=0.1193
+  [former_name_of] (Hang Buua) → http://transmtl.vn/kb/lo_ren_street  Bel=0.2090  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [located_in] (Lo Ren Street) → (Hanoi)  μ_F=0.9950  (12 evidence)
+  [has_part] (Lo Ren Street) → (street)  μ_F=0.9905  (2 evidence)
+  [has_part] (Lo Ren Street) → (tube houses)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (structures)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (protective embrace)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (metal pipes)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (mechanical components)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (walls)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (ornamental gates)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (railings)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (hinges)  μ_F=0.9025  (1 evidence)
+  [has_part] (Lo Ren Street) → (forges)  μ_F=0.9025  (1 evidence)
+  [part_of] (Lo Ren Street) → (Hanoi)  μ_F=0.8874  (6 evidence)
+  [located_in] (Lo Ren Street) → (Hoan Kiem District)  μ_F=0.8795  (2 evidence)
+  [ruled_by] (Hanoi) → (Le Thanh Tong)  μ_F=0.7917  (2 evidence)
+  [located_in] (Hoan Kiem District) → (Hanoi)  μ_F=0.5775  (2 evidence)
+  [renamed_to] (Tan Khai-Tan Lap) → (Lo Ren Street)  μ_F=0.5514  (1 evidence)
+  [located_in] (Lo Ren Street) → (Hang Bo ward)  μ_F=0.5015  (2 evidence)
+  [located_in] (artisan villages) → (Hanoi)  μ_F=0.4455  (1 evidence)
+  [renamed_to] (Lo Ren Street) → (Lo Ren)  μ_F=0.4420  (1 evidence)
+
+========================================================================

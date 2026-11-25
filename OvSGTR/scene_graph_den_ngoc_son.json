@@ -1,0 +1,454 @@
+{
+  "image": {
+    "file_name": "den-ngoc-son.jpg",
+    "width": 800,
+    "height": 533
+  },
+  "meta": {
+    "detector": "OvSGTR Swin-B (Fully Open-Vocabulary SGG)",
+    "refiner": "SigLIP 2 (google/siglip2-base-patch16-224)",
+    "visual_universe": "vn_tourism_visual_universe.json",
+    "thresholds_applied": {
+      "node_detector_score_threshold": 0.21,
+      "edge_confidence_threshold": 0.058,
+      "reference_demo_images": [
+        "result_den_ngoc_son.jpg (triplet cutoff >= 0.058)",
+        "selective_refinement_result.jpg (9 objects, score >= 0.21)"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "node_id": "node_1",
+      "box_2d": [
+        395.04,
+        190.6,
+        444.15,
+        253.21
+      ],
+      "detector_label": "person",
+      "detector_score": 0.4028,
+      "is_refined_by_siglip2": false,
+      "triage_type": "natural_primitive_or_person",
+      "refined_concept": {
+        "id": "person",
+        "label_en": "person",
+        "group": "natural_primitive",
+        "siglip2_confidence": null,
+        "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+      },
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "siglip2_label": "person",
+      "siglip2_concept_id": "person"
+    },
+    {
+      "node_id": "node_2",
+      "box_2d": [
+        0.62,
+        326.31,
+        799.76,
+        531.52
+      ],
+      "detector_label": "lake",
+      "detector_score": 0.3732,
+      "is_refined_by_siglip2": false,
+      "triage_type": "natural_primitive_or_person",
+      "refined_concept": {
+        "id": "lake",
+        "label_en": "lake",
+        "group": "natural_primitive",
+        "siglip2_confidence": null,
+        "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+      },
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "siglip2_label": "lake",
+      "siglip2_concept_id": "lake"
+    },
+    {
+      "node_id": "node_3",
+      "box_2d": [
+        0.62,
+        326.31,
+        799.76,
+        531.52
+      ],
+      "detector_label": "water",
+      "detector_score": 0.3652,
+      "is_refined_by_siglip2": false,
+      "triage_type": "natural_primitive_or_person",
+      "refined_concept": {
+        "id": "water",
+        "label_en": "water",
+        "group": "natural_primitive",
+        "siglip2_confidence": null,
+        "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+      },
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "siglip2_label": "water",
+      "siglip2_concept_id": "water"
+    },
+    {
+      "node_id": "node_4",
+      "box_2d": [
+        26.45,
+        45.56,
+        203.47,
+        136.67
+      ],
+      "detector_label": "roof",
+      "detector_score": 0.334,
+      "is_refined_by_siglip2": true,
+      "triage_type": "architectural_or_cultural",
+      "refined_concept": {
+        "id": "pagoda",
+        "label_en": "Buddhist pagoda",
+        "description": "a Buddhist pagoda with curved tiled roof",
+        "group": "religious_architecture",
+        "siglip2_confidence": 0.85,
+        "runner_up": {
+          "id": "temple_den",
+          "label_en": "Vietnamese temple",
+          "siglip2_confidence": 0.1004
+        }
+      },
+      "attributes": {
+        "material": {
+          "id": "stone",
+          "label_en": "stone",
+          "confidence": 0.4726
+        },
+        "dominant_colour": {
+          "id": "white",
+          "label_en": "white",
+          "confidence": 0.5185
+        }
+      },
+      "siglip2_label": "Buddhist pagoda",
+      "siglip2_concept_id": "pagoda"
+    },
+    {
+      "node_id": "node_5",
+      "box_2d": [
+        0.77,
+        43.39,
+        210.6,
+        335.53
+      ],
+      "detector_label": "temple",
+      "detector_score": 0.2642,
+      "is_refined_by_siglip2": true,
+      "triage_type": "architectural_or_cultural",
+      "refined_concept": {
+        "id": "temple_den",
+        "label_en": "Vietnamese temple",
+        "description": "a temple hall with red lacquered doors and curved roof",
+        "group": "religious_architecture",
+        "siglip2_confidence": 0.53,
+        "runner_up": {
+          "id": "pagoda",
+          "label_en": "Buddhist pagoda",
+          "siglip2_confidence": 0.3211
+        }
+      },
+      "attributes": {
+        "material": {
+          "id": "stone",
+          "label_en": "stone",
+          "confidence": 0.4483
+        },
+        "dominant_colour": {
+          "id": "grey_stone",
+          "label_en": "grey",
+          "confidence": 0.3283
+        }
+      },
+      "siglip2_label": "Vietnamese temple",
+      "siglip2_concept_id": "temple_den"
+    },
+    {
+      "node_id": "node_6",
+      "box_2d": [
+        0.71,
+        0.39,
+        799.64,
+        303.67
+      ],
+      "detector_label": "tree",
+      "detector_score": 0.2584,
+      "is_refined_by_siglip2": false,
+      "triage_type": "natural_primitive_or_person",
+      "refined_concept": {
+        "id": "tree",
+        "label_en": "tree",
+        "group": "natural_primitive",
+        "siglip2_confidence": null,
+        "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+      },
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree"
+    },
+    {
+      "node_id": "node_7",
+      "box_2d": [
+        0.23,
+        115.41,
+        60.89,
+        190.05
+      ],
+      "detector_label": "roof",
+      "detector_score": 0.2531,
+      "is_refined_by_siglip2": true,
+      "triage_type": "architectural_or_cultural",
+      "refined_concept": {
+        "id": "curved_tiled_roof",
+        "label_en": "curved tiled roof",
+        "description": "an upturned roof corner with layered tiles",
+        "group": "architectural_elements",
+        "siglip2_confidence": 0.7688,
+        "runner_up": {
+          "id": "roof_dragon_ornament",
+          "label_en": "dragon roof ornament",
+          "siglip2_confidence": 0.103
+        }
+      },
+      "attributes": {
+        "material": {
+          "id": "brick",
+          "label_en": "brick",
+          "confidence": 0.8849
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.6744
+        }
+      },
+      "siglip2_label": "curved tiled roof",
+      "siglip2_concept_id": "curved_tiled_roof"
+    },
+    {
+      "node_id": "node_8",
+      "box_2d": [
+        114.6,
+        220.17,
+        799.71,
+        428.94
+      ],
+      "detector_label": "bridge",
+      "detector_score": 0.2496,
+      "is_refined_by_siglip2": true,
+      "triage_type": "architectural_or_cultural",
+      "refined_concept": {
+        "id": "red_wooden_bridge",
+        "label_en": "red painted wooden bridge",
+        "description": "a small red wooden footbridge over water",
+        "group": "water_and_transport",
+        "siglip2_confidence": 0.9815,
+        "runner_up": {
+          "id": "arched_bridge",
+          "label_en": "arched bridge",
+          "siglip2_confidence": 0.0076
+        }
+      },
+      "attributes": {
+        "material": {
+          "id": "brick",
+          "label_en": "brick",
+          "confidence": 0.3265
+        },
+        "dominant_colour": {
+          "id": "red",
+          "label_en": "red",
+          "confidence": 0.9785
+        }
+      },
+      "siglip2_label": "red painted wooden bridge",
+      "siglip2_concept_id": "red_wooden_bridge"
+    },
+    {
+      "node_id": "node_9",
+      "box_2d": [
+        0.57,
+        156.82,
+        124.26,
+        336.18
+      ],
+      "detector_label": "tree",
+      "detector_score": 0.2104,
+      "is_refined_by_siglip2": false,
+      "triage_type": "natural_primitive_or_person",
+      "refined_concept": {
+        "id": "tree",
+        "label_en": "tree",
+        "group": "natural_primitive",
+        "siglip2_confidence": null,
+        "note": "Bypassed SigLIP 2 to preserve natural scene primitive"
+      },
+      "attributes": {
+        "material": null,
+        "dominant_colour": null
+      },
+      "siglip2_label": "tree",
+      "siglip2_concept_id": "tree"
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "edge_1",
+      "subject": "node_1",
+      "subject_label": "person",
+      "predicate": "on",
+      "object": "node_8",
+      "object_label": "bridge",
+      "confidence": 0.1826,
+      "rel_score": 0.5759,
+      "subject_detector_label": "person",
+      "subject_siglip2_label": "person",
+      "object_detector_label": "bridge",
+      "object_siglip2_label": "red painted wooden bridge",
+      "detector_triple": "person -> on -> bridge",
+      "siglip2_refined_triple": "person -> on -> red painted wooden bridge"
+    },
+    {
+      "edge_id": "edge_2",
+      "subject": "node_1",
+      "subject_label": "person",
+      "predicate": "on",
+      "object": "node_2",
+      "object_label": "lake",
+      "confidence": 0.0871,
+      "rel_score": 0.2246,
+      "subject_detector_label": "person",
+      "subject_siglip2_label": "person",
+      "object_detector_label": "lake",
+      "object_siglip2_label": "lake",
+      "detector_triple": "person -> on -> lake",
+      "siglip2_refined_triple": "person -> on -> lake"
+    },
+    {
+      "edge_id": "edge_4",
+      "subject": "node_8",
+      "subject_label": "bridge",
+      "predicate": "on",
+      "object": "node_2",
+      "object_label": "lake",
+      "confidence": 0.0863,
+      "rel_score": 0.2827,
+      "subject_detector_label": "bridge",
+      "subject_siglip2_label": "red painted wooden bridge",
+      "object_detector_label": "lake",
+      "object_siglip2_label": "lake",
+      "detector_triple": "bridge -> on -> lake",
+      "siglip2_refined_triple": "red painted wooden bridge -> on -> lake"
+    },
+    {
+      "edge_id": "edge_5",
+      "subject": "node_4",
+      "subject_label": "roof",
+      "predicate": "on",
+      "object": "node_5",
+      "object_label": "temple",
+      "confidence": 0.0765,
+      "rel_score": 0.2576,
+      "subject_detector_label": "roof",
+      "subject_siglip2_label": "Buddhist pagoda",
+      "object_detector_label": "temple",
+      "object_siglip2_label": "Vietnamese temple",
+      "detector_triple": "roof -> on -> temple",
+      "siglip2_refined_triple": "Buddhist pagoda -> on -> Vietnamese temple"
+    },
+    {
+      "edge_id": "edge_6",
+      "subject": "node_2",
+      "subject_label": "lake",
+      "predicate": "near",
+      "object": "node_8",
+      "object_label": "bridge",
+      "confidence": 0.0729,
+      "rel_score": 0.2387,
+      "subject_detector_label": "lake",
+      "subject_siglip2_label": "lake",
+      "object_detector_label": "bridge",
+      "object_siglip2_label": "red painted wooden bridge",
+      "detector_triple": "lake -> near -> bridge",
+      "siglip2_refined_triple": "lake -> near -> red painted wooden bridge"
+    },
+    {
+      "edge_id": "edge_9",
+      "subject": "node_7",
+      "subject_label": "roof",
+      "predicate": "on",
+      "object": "node_5",
+      "object_label": "temple",
+      "confidence": 0.0707,
+      "rel_score": 0.2734,
+      "subject_detector_label": "roof",
+      "subject_siglip2_label": "curved tiled roof",
+      "object_detector_label": "temple",
+      "object_siglip2_label": "Vietnamese temple",
+      "detector_triple": "roof -> on -> temple",
+      "siglip2_refined_triple": "curved tiled roof -> on -> Vietnamese temple"
+    },
+    {
+      "edge_id": "edge_10",
+      "subject": "node_6",
+      "subject_label": "tree",
+      "predicate": "above",
+      "object": "node_8",
+      "object_label": "bridge",
+      "confidence": 0.0667,
+      "rel_score": 0.2627,
+      "subject_detector_label": "tree",
+      "subject_siglip2_label": "tree",
+      "object_detector_label": "bridge",
+      "object_siglip2_label": "red painted wooden bridge",
+      "detector_triple": "tree -> above -> bridge",
+      "siglip2_refined_triple": "tree -> above -> red painted wooden bridge"
+    },
+    {
+      "edge_id": "edge_7",
+      "subject": "node_6",
+      "subject_label": "tree",
+      "predicate": "above",
+      "object": "node_2",
+      "object_label": "lake",
+      "confidence": 0.0657,
+      "rel_score": 0.2116,
+      "subject_detector_label": "tree",
+      "subject_siglip2_label": "tree",
+      "object_detector_label": "lake",
+      "object_siglip2_label": "lake",
+      "detector_triple": "tree -> above -> lake",
+      "siglip2_refined_triple": "tree -> above -> lake"
+    },
+    {
+      "edge_id": "edge_14",
+      "subject": "node_9",
+      "subject_label": "tree",
+      "predicate": "on",
+      "object": "node_2",
+      "object_label": "lake",
+      "confidence": 0.0582,
+      "rel_score": 0.2077,
+      "subject_detector_label": "tree",
+      "subject_siglip2_label": "tree",
+      "object_detector_label": "lake",
+      "object_siglip2_label": "lake",
+      "detector_triple": "tree -> on -> lake",
+      "siglip2_refined_triple": "tree -> on -> lake"
+    }
+  ]
+}

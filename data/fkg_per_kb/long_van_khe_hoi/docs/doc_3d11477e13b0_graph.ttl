@@ -1,0 +1,54 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/giam_park> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi> onto:has_part <http://transmtl.vn/kb/long_van_khe_hoi#tree> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#tree> onto:surrounded_by <http://transmtl.vn/ent/550c6580> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.264 ;
+    fkg:docId "doc_3d11477e13b0" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/550c6580> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#tree> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6918 ;
+    fkg:docId "doc_3d11477e13b0" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3819 ;
+    fkg:docId "doc_3d11477e13b0" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3d11477e13b0" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#tree> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2928 ;
+    fkg:docId "doc_3d11477e13b0" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+

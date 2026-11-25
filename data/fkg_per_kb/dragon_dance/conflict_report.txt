@@ -1,0 +1,47 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Dragon Dance)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/dragon_dance
+  Conflict K: 0.5808
+  Candidates:
+    • Vietnam                         Bel=0.3368  Pl=0.5699  (1 evidence)
+    • creativity                      Bel=0.1641  Pl=0.3972  (1 evidence)
+    • resilience                      Bel=0.1570  Pl=0.3901  (1 evidence)
+    • country                         Bel=0.1090  Pl=0.3421  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.5768  K=0.0000
+  [inaugurated_in] (Performance) → http://transmtl.vn/ent/4d855669  Bel=0.6646  K=0.0000
+  [symbol_of] (Dragon Dance) → http://transmtl.vn/ent/5f8f9e33  Bel=0.3368  K=0.5808 ⚠ REVIEW
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Dragon Dance) → (Hoàn Kiếm Lake)  μ_F=0.9905  (2 evidence)
+  [has_part] (Dragon Dance) → (Lý Thái Tổ statue garden)  μ_F=0.9025  (1 evidence)
+  [has_part] (Dragon Dance) → (This lake)  μ_F=0.9025  (1 evidence)
+  [has_part] (Dragon Dance) → (mythical creatures)  μ_F=0.9025  (1 evidence)
+  [located_in] (Performance) → (Hanoi)  μ_F=0.7360  (2 evidence)
+  [held_in] (Dragon Dance) → (Hanoi)  μ_F=0.6761  (1 evidence)
+  [surrounded_by] (This lake) → (white foam)  μ_F=0.6634  (1 evidence)
+  [hosts_event] (Hanoi) → (Dragon Dance)  μ_F=0.6512  (2 evidence)
+  [located_in] (Hoàn Kiếm Lake) → (Hanoi)  μ_F=0.4390  (1 evidence)
+  [participated_in] (artists) → (Dragon Dance)  μ_F=0.4270  (1 evidence)
+  [participated_in] (performers) → (Dragon Dance)  μ_F=0.4074  (1 evidence)
+  [near] (Performance) → (Hoàn Kiếm Lake)  μ_F=0.3952  (1 evidence)
+  [located_in] (Dragon Dance) → (Hanoi)  μ_F=0.3712  (1 evidence)
+  [surrounded_by] (Performance) → (white foam)  μ_F=0.3433  (1 evidence)
+  [hosts_event] (Thăng Long Water Puppet Theatre) → (Dragon Dance)  μ_F=0.3067  (1 evidence)
+  [over] (Dragon Dance) → (China)  μ_F=0.2970  (1 evidence)
+  [hosts_event] (Lý Thái Tổ statue garden) → (festival)  μ_F=0.2910  (1 evidence)
+  [participated_in] (participants) → (Performance)  μ_F=0.2820  (1 evidence)
+  [participated_in] (teams) → (Dragon Dance)  μ_F=0.2716  (1 evidence)
+  [on] (Performance) → (Đinh Tiên Hoàng Street)  μ_F=0.2712  (1 evidence)
+
+========================================================================

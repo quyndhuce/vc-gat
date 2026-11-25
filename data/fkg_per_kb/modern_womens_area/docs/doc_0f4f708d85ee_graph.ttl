@@ -1,0 +1,136 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/modern_womens_area#open_layout> onto:part_of <http://transmtl.vn/kb/modern_womens_area> .
+
+<http://transmtl.vn/kb/modern_womens_area#projection_screens> onto:part_of <http://transmtl.vn/kb/modern_womens_area> .
+
+<http://transmtl.vn/kb/modern_womens_area#wall_panels> onto:part_of <http://transmtl.vn/kb/modern_womens_area> .
+
+<http://transmtl.vn/ent/e5fe76bb> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/modern_womens_area#modern_exhibition_floor> onto:designed_by <http://transmtl.vn/ent/f6384f90> ;
+    onto:part_of <http://transmtl.vn/ent/e5fe76bb>,
+        <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/modern_womens_area> onto:architectural_style <http://transmtl.vn/ent/1e0fc024> ;
+    onto:has_part <http://transmtl.vn/kb/modern_womens_area#modern_exhibition_floor>,
+        <http://transmtl.vn/kb/modern_womens_area#open_layout>,
+        <http://transmtl.vn/kb/modern_womens_area#projection_screens>,
+        <http://transmtl.vn/kb/modern_womens_area#wall_panels> ;
+    onto:part_of <http://transmtl.vn/ent/e5fe76bb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4195 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area#modern_exhibition_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/kb/modern_womens_area#projection_screens> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4216 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/ent/1e0fc024> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/kb/modern_womens_area#modern_exhibition_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/kb/modern_womens_area#wall_panels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/kb/modern_womens_area#open_layout> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/kb/modern_womens_area#modern_exhibition_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4001 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3965 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/kb/modern_womens_area> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area#wall_panels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4233 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/kb/modern_womens_area> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area#projection_screens> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.296 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/kb/modern_womens_area> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area#open_layout> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4076 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/ent/f6384f90> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area#modern_exhibition_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4563 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e5fe76bb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.321 ;
+    fkg:docId "doc_0f4f708d85ee" ;
+    fkg:kbId "modern_womens_area" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/modern_womens_area#modern_exhibition_floor> .
+

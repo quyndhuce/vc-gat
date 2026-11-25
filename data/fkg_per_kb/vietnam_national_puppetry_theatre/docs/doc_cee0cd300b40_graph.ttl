@@ -1,0 +1,172 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#green_canopy> onto:over <http://transmtl.vn/ent/844c13d0> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#tiles> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#walls> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre#thủy_đình> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/vietnam_national_puppetry_theatre> onto:has_part <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#green_canopy>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#thủy_đình>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#tiles>,
+        <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#walls> ;
+    onto:surrounded_by <http://transmtl.vn/ent/3a45f088> ;
+    onto:symbol_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1858> onto:architectural_style <http://transmtl.vn/ent/fe9e025d> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:named_after <http://transmtl.vn/ent/f8a61f3e> ;
+    onto:surrounded_by <http://transmtl.vn/ent/3a45f088> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6705 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/fe9e025d> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.308 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#thủy_đình> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.512 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9859 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2647 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#thủy_đình> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3064 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/844c13d0> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#green_canopy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#green_canopy> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3907 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/3a45f088> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4828 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3253 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#tiles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5847 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/3a45f088> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#tiles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3167 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3637 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#thủy_đình> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_puppetry_theatre#thủy_đình> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2706 ;
+    fkg:docId "doc_cee0cd300b40" ;
+    fkg:kbId "vietnam_national_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/f8a61f3e> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

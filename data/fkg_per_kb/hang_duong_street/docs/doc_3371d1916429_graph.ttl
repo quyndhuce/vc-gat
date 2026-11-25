@@ -1,0 +1,92 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:on <http://transmtl.vn/kb/hang_duong_street> .
+
+<http://transmtl.vn/ent/113be712> onto:walking_on <http://transmtl.vn/kb/hang_duong_street> .
+
+<http://transmtl.vn/ent/65004f81> onto:walking_on <http://transmtl.vn/kb/hang_duong_street> .
+
+<http://transmtl.vn/kb/hang_duong_street#structures> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_duong_street#tube_houses> onto:architectural_style <http://transmtl.vn/ent/9a7bfd32> .
+
+<http://transmtl.vn/kb/hang_duong_street> onto:has_part <http://transmtl.vn/kb/hang_duong_street#structures>,
+        <http://transmtl.vn/kb/hang_duong_street#tube_houses> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2752 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street#tube_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4024 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/65004f81> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5233 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/9a7bfd32> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#tube_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5406 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4156 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3444 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/113be712> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street#structures> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3289 ;
+    fkg:docId "doc_3371d1916429" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#structures> .
+

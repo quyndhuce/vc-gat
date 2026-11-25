@@ -1,0 +1,913 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/27f08504> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/df56e91a> onto:located_in <http://transmtl.vn/ent/de5f4e1a> .
+
+<http://transmtl.vn/ent/e712ad22> onto:part_of <http://transmtl.vn/kb/doan_mon_gate> .
+
+<http://transmtl.vn/kb/flag_tower_of_hanoi> onto:near <http://transmtl.vn/kb/doan_mon_gate> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/doan_mon_gate#arched_gates> onto:part_of <http://transmtl.vn/ent/bf497936> .
+
+<http://transmtl.vn/kb/doan_mon_gate#doors> onto:on <http://transmtl.vn/ent/6e4dea2f> .
+
+<http://transmtl.vn/kb/doan_mon_gate#second_level> onto:part_of <http://transmtl.vn/kb/doan_mon_gate> .
+
+<http://transmtl.vn/kb/doan_mon_gate#upper_level> onto:used_as <http://transmtl.vn/ent/f9c707d7> .
+
+<http://transmtl.vn/kb/doan_mon_gate#upper_watchtower> onto:part_of <http://transmtl.vn/ent/8311eb3f> .
+
+<http://transmtl.vn/kb/doan_mon_gate#watchtower> onto:part_of <http://transmtl.vn/ent/6e4dea2f> .
+
+<http://transmtl.vn/ent/ecfd485b> onto:belongs_to_dynasty <http://transmtl.vn/ent/53dd8e39>,
+        <http://transmtl.vn/ent/622cc881> .
+
+<http://transmtl.vn/kb/doan_mon_gate#central_gate> onto:part_of <http://transmtl.vn/ent/63d721d2>,
+        <http://transmtl.vn/kb/doan_mon_gate> .
+
+<http://transmtl.vn/kb/doan_mon_gate#inscriptions> onto:in <http://transmtl.vn/ent/55412482> ;
+    onto:on <http://transmtl.vn/ent/d66ce966> .
+
+<http://transmtl.vn/kb/doan_mon_gate#arch> onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+<http://transmtl.vn/kb/doan_mon_gate#wing> onto:part_of <http://transmtl.vn/ent/63d721d2> .
+
+<http://transmtl.vn/ent/de5f4e1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/doan_mon_gate#octagonal_roof_pavilion> onto:part_of <http://transmtl.vn/kb/doan_mon_gate> ;
+    onto:with <http://transmtl.vn/ent/565c51d8> .
+
+<http://transmtl.vn/kb/doan_mon_gate#steps> onto:leading_to <http://transmtl.vn/ent/6e4dea2f> ;
+    onto:made_of <http://transmtl.vn/ent/cc0fa809> .
+
+<http://transmtl.vn/kb/doan_mon_gate#third_level> onto:used_as <http://transmtl.vn/ent/34a6e5d6>,
+        <http://transmtl.vn/ent/846da8ae> .
+
+<http://transmtl.vn/kb/doan_mon_gate#arches> onto:made_of <http://transmtl.vn/ent/0a840ef4> ;
+    onto:part_of <http://transmtl.vn/kb/doan_mon_gate>,
+        <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+<http://transmtl.vn/kb/doan_mon_gate#gate> onto:has_part <http://transmtl.vn/ent/3328e4f7> ;
+    onto:part_of <http://transmtl.vn/kb/doan_mon_gate>,
+        <http://transmtl.vn/kb/kinh_thien_palace> .
+
+<http://transmtl.vn/kb/doan_mon_gate#plaque> onto:above <http://transmtl.vn/ent/79a67038> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4> ;
+    onto:over <http://transmtl.vn/ent/79a67038> ;
+    onto:overlooks <http://transmtl.vn/ent/79a67038> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:architectural_style <http://transmtl.vn/ent/d2857289> ;
+    onto:has_part <http://transmtl.vn/kb/doan_mon_gate> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/doan_mon_gate> onto:has_part <http://transmtl.vn/kb/doan_mon_gate#arch>,
+        <http://transmtl.vn/kb/doan_mon_gate#arched_gates>,
+        <http://transmtl.vn/kb/doan_mon_gate#arches>,
+        <http://transmtl.vn/kb/doan_mon_gate#central_gate>,
+        <http://transmtl.vn/kb/doan_mon_gate#doors>,
+        <http://transmtl.vn/kb/doan_mon_gate#gate>,
+        <http://transmtl.vn/kb/doan_mon_gate#inscriptions>,
+        <http://transmtl.vn/kb/doan_mon_gate#octagonal_roof_pavilion>,
+        <http://transmtl.vn/kb/doan_mon_gate#plaque>,
+        <http://transmtl.vn/kb/doan_mon_gate#second_level>,
+        <http://transmtl.vn/kb/doan_mon_gate#steps>,
+        <http://transmtl.vn/kb/doan_mon_gate#third_level>,
+        <http://transmtl.vn/kb/doan_mon_gate#upper_level>,
+        <http://transmtl.vn/kb/doan_mon_gate#upper_watchtower>,
+        <http://transmtl.vn/kb/doan_mon_gate#watchtower>,
+        <http://transmtl.vn/kb/doan_mon_gate#wing> ;
+    onto:leading_to <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:made_of <http://transmtl.vn/ent/248cc0a4>,
+        <http://transmtl.vn/ent/7ceffe3b>,
+        <http://transmtl.vn/ent/ecfd485b> ;
+    onto:overlooks <http://transmtl.vn/ent/135367a6> ;
+    onto:part_of <http://transmtl.vn/ent/135367a6>,
+        <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    onto:symbol_of <http://transmtl.vn/ent/dd93302e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#upper_watchtower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4831 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#arch> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7443 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3173 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2982 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/34a6e5d6> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#third_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3572 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/79a67038> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3409 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/ecfd485b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#wing> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2897 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/79a67038> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4271 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/79a67038> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6879 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6556 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2679 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/8311eb3f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#upper_watchtower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.271 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#octagonal_roof_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4806 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#third_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.307 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/3328e4f7> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.316 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#octagonal_roof_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7964 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2636 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/dd93302e> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#arch> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.432 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/135367a6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2602 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/79a67038> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4551 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/135367a6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3947 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3019 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#second_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4315 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5818 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2623 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/135367a6> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3124 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4247 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/6e4dea2f> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2794 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/flag_tower_of_hanoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2872 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/6e4dea2f> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3706 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#wing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4118 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#octagonal_roof_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#plaque> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2503 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#central_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7814 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/cc0fa809> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3216 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#third_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3072 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/d2857289> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#upper_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#inscriptions> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3088 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#arch> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#arches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3416 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/63d721d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#wing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3725 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/d66ce966> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#inscriptions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3071 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/846da8ae> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#third_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3001 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4218 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9541 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4035 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7131 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/6e4dea2f> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4705 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#arched_gates> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#arches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3289 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/f9c707d7> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#upper_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5283 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#octagonal_roof_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3472 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/de5f4e1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3728 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/79a67038> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#arches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#central_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3325 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/55412482> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#inscriptions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.587 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#wing> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#third_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#watchtower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#arch> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3174 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/565c51d8> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#octagonal_roof_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3218 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/bf497936> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#arched_gates> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#plaque> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4987 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6957 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/27f08504> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2729 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/6e4dea2f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#watchtower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2664 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/df56e91a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.348 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/135367a6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4251 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/135367a6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.271 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/cc0fa809> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2862 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/e712ad22> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4637 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6339 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/7ceffe3b> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2589 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#second_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3395 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5495 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/53dd8e39> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/ecfd485b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3063 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3096 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2964 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/622cc881> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/ecfd485b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate#arches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3595 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/doan_mon_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#central_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7792 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4125 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/846da8ae> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate#third_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5251 ;
+    fkg:docId "doc_ea83d264b01a" ;
+    fkg:kbId "doan_mon_gate" ;
+    rdf:object <http://transmtl.vn/ent/248cc0a4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/doan_mon_gate> .
+

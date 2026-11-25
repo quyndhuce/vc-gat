@@ -1,0 +1,65 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  2 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Phu Xuan)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/b2801562
+  Conflict K: 0.6854
+  Candidates:
+    • Nguyen Dynasty                  Bel=0.8367  Pl=0.8999  (2 evidence)
+    • Dynasties                       Bel=0.0457  Pl=0.1088  (1 evidence)
+    • Mac                             Bel=0.0284  Pl=0.0915  (1 evidence)
+    • Le                              Bel=0.0261  Pl=0.0892  (1 evidence)
+
+  (Hanoi)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/207462d2
+  Conflict K: 0.6476
+  Candidates:
+    • Vietnam                         Bel=0.8791  Pl=0.9273  (3 evidence)
+    • Nguyễn dynasty                  Bel=0.0418  Pl=0.0900  (1 evidence)
+    • Nguyen Dynasty                  Bel=0.0309  Pl=0.0792  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [dated_to] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/31b3b31a  Bel=0.2941  K=0.0713
+  [capital_of] (Thang Long) → http://transmtl.vn/ent/c1e59024  Bel=0.3588  K=0.0000
+  [capital_of] (Hoa Lu) → http://transmtl.vn/ent/c1e59024  Bel=0.2096  K=0.0000
+  [capital_of] (Dai La) → http://transmtl.vn/ent/c1e59024  Bel=0.3642  K=0.0000
+  [capital_of] (Phu Xuan) → http://transmtl.vn/ent/c903b2b1  Bel=0.8367  K=0.6854 ⚠ REVIEW
+  [former_name_of] (Phu Xuan) → http://transmtl.vn/kb/imperial_citadel_of_thang_long  Bel=0.2729  K=0.0000
+  [former_name_of] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/b2801562  Bel=0.3375  K=0.0000
+  [capital_of] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/c903b2b1  Bel=0.3961  K=0.0000
+  [capital_of] (new capital) → http://transmtl.vn/ent/c903b2b1  Bel=0.2450  K=0.0000
+  [demolished_in] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/7ffd85d9  Bel=0.3427  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.8791  K=0.6476 ⚠ REVIEW
+  [built_in] (Princess Palace) → http://transmtl.vn/ent/596dedf4  Bel=0.6874  K=0.0000
+  [built_in] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/596dedf4  Bel=0.3772  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Princess Palace) → (Rear Tower)  μ_F=0.9999  (4 evidence)
+  [has_part] (Princess Palace) → (windows)  μ_F=0.9999  (4 evidence)
+  [has_part] (Princess Palace) → (roofline)  μ_F=0.9991  (3 evidence)
+  [has_part] (Princess Palace) → (three-layered city)  μ_F=0.9905  (2 evidence)
+  [has_part] (Princess Palace) → (walls)  μ_F=0.9905  (2 evidence)
+  [has_part] (Princess Palace) → (tower)  μ_F=0.9905  (2 evidence)
+  [has_part] (Princess Palace) → (base)  μ_F=0.9905  (2 evidence)
+  [has_part] (Princess Palace) → (Tran Vu Gate)  μ_F=0.9905  (2 evidence)
+  [has_part] (Princess Palace) → (eaves)  μ_F=0.9905  (2 evidence)
+  [has_part] (Princess Palace) → (roof structures)  μ_F=0.9905  (2 evidence)
+  [has_part] (Princess Palace) → (ornamental elements)  μ_F=0.9905  (2 evidence)
+  [has_part] (Princess Palace) → (Kính Thiên Điện)  μ_F=0.9905  (2 evidence)
+  [located_in] (Princess Palace) → (Hanoi)  μ_F=0.9683  (5 evidence)
+  [part_of] (Princess Palace) → (Imperial Citadel of Thang Long)  μ_F=0.9141  (6 evidence)
+  [has_part] (Princess Palace) → (main body)  μ_F=0.9025  (1 evidence)
+  [has_part] (Princess Palace) → (steps)  μ_F=0.9025  (1 evidence)
+  [has_part] (Princess Palace) → (entrance)  μ_F=0.9025  (1 evidence)
+  [has_part] (Princess Palace) → (archways)  μ_F=0.9025  (1 evidence)
+  [has_part] (Princess Palace) → (western sides)  μ_F=0.9025  (1 evidence)
+  [has_part] (Princess Palace) → (lowest level)  μ_F=0.9025  (1 evidence)
+
+========================================================================

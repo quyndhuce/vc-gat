@@ -1,0 +1,172 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/6984056d> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q10840569#relief_panels> onto:part_of <http://transmtl.vn/ent/8145acf6> .
+
+<http://www.wikidata.org/entity/Q10840569#rồng_chầu_nguyệt> onto:part_of <http://transmtl.vn/ent/8145acf6> .
+
+<http://www.wikidata.org/entity/Q10840569#spiritual_sanctuary> onto:faces <http://transmtl.vn/kb/red_river> .
+
+<http://www.wikidata.org/entity/Q10840569#columns> onto:part_of <http://transmtl.vn/ent/8145acf6> .
+
+<http://transmtl.vn/ent/207462d2> onto:ruled_by <http://transmtl.vn/ent/c1e59024> .
+
+<http://transmtl.vn/ent/8145acf6> onto:located_in <http://transmtl.vn/ent/2c2bf458> .
+
+<http://www.wikidata.org/entity/Q10840569> onto:faces <http://transmtl.vn/kb/red_river> ;
+    onto:has_part <http://www.wikidata.org/entity/Q10840569#columns>,
+        <http://www.wikidata.org/entity/Q10840569#relief_panels>,
+        <http://www.wikidata.org/entity/Q10840569#rồng_chầu_nguyệt>,
+        <http://www.wikidata.org/entity/Q10840569#spiritual_sanctuary> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/6984056d> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3668 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2727 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/8145acf6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#relief_panels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#relief_panels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2647 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3001 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8145acf6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3268 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/8145acf6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2657 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#spiritual_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4105 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/2c2bf458> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8145acf6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5235 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2539 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/8145acf6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#rồng_chầu_nguyệt> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3616 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/6984056d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#spiritual_sanctuary> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5959 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#rồng_chầu_nguyệt> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4325 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/6984056d> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2814 ;
+    fkg:docId "doc_b997019c8663" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/8145acf6> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#columns> .
+

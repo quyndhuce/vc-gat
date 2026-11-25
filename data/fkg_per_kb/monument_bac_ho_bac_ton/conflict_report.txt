@@ -1,0 +1,58 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Thong Nhat park)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/thong_nhat_park
+  Conflict K: 0.9623
+  Candidates:
+    • patriotism                      Bel=0.1342  Pl=0.2598  (1 evidence)
+    • unity                           Bel=0.1324  Pl=0.2579  (1 evidence)
+    • enduring spirit                 Bel=0.0817  Pl=0.2073  (1 evidence)
+    • unified                         Bel=0.0787  Pl=0.2042  (1 evidence)
+    • Vietnamese                      Bel=0.0751  Pl=0.2007  (1 evidence)
+    • prosperous                      Bel=0.0703  Pl=0.1958  (1 evidence)
+    • aspirations                     Bel=0.0681  Pl=0.1936  (1 evidence)
+    • nation                          Bel=0.0645  Pl=0.1900  (1 evidence)
+    • people                          Bel=0.0534  Pl=0.1789  (1 evidence)
+    • national unity                  Bel=0.0511  Pl=0.1766  (1 evidence)
+    • embodying                       Bel=0.0332  Pl=0.1587  (1 evidence)
+    • Vietnamese nation               Bel=0.0318  Pl=0.1573  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.7808  K=0.0000
+  [symbol_of] (Monument Bác Hồ - Bác Tôn) → http://transmtl.vn/ent/caf18694  Bel=0.3172  K=0.1700
+  [gifted_in] (Thong Nhat park) → http://transmtl.vn/ent/d7a84628  Bel=0.2677  K=0.0000
+  [symbol_of] (Thong Nhat park) → http://transmtl.vn/ent/66685481  Bel=0.1342  K=0.9623 ⚠ REVIEW
+  [inaugurated_in] (Monument Bác Hồ - Bác Tôn) → http://transmtl.vn/ent/0587a5ce  Bel=0.7129  K=0.0000
+  [gifted_in] (Monument Bác Hồ - Bác Tôn) → http://transmtl.vn/ent/d7a84628  Bel=0.2750  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Monument Bác Hồ - Bác Tôn) → (cool green trees)  μ_F=0.9905  (2 evidence)
+  [located_in] (Thong Nhat park) → (Thống Nhất Park)  μ_F=0.8767  (3 evidence)
+  [located_in] (Thống Nhất Park) → (Hanoi)  μ_F=0.8082  (2 evidence)
+  [architectural_style] (Thong Nhat park) → (modernist)  μ_F=0.7831  (2 evidence)
+  [commemorates] (Thong Nhat park) → (Bác Hồ)  μ_F=0.7561  (3 evidence)
+  [made_of] (Thong Nhat park) → (bronze)  μ_F=0.7537  (2 evidence)
+  [located_in] (Thong Nhat park) → (Hanoi)  μ_F=0.7277  (3 evidence)
+  [surrounded_by] (Thong Nhat park) → (flowerbeds)  μ_F=0.7138  (3 evidence)
+  [located_in] (Thong Nhat park) → (Thái Nguyên)  μ_F=0.7079  (4 evidence)
+  [surrounded_by] (Thong Nhat park) → (lush greenery)  μ_F=0.7078  (1 evidence)
+  [made_of] (Thong Nhat park) → (durable materials)  μ_F=0.7072  (2 evidence)
+  [surrounded_by] (Thong Nhat park) → (tranquil water features)  μ_F=0.6870  (1 evidence)
+  [made_of] (Thong Nhat park) → (bronze alloy)  μ_F=0.6437  (2 evidence)
+  [commemorates] (Thong Nhat park) → (Bác Tôn)  μ_F=0.6428  (2 evidence)
+  [gifted_by] (Thong Nhat park) → (Communist Party)  μ_F=0.6392  (2 evidence)
+  [overlooks] (cool green trees) → (Thong Nhat park)  μ_F=0.6226  (2 evidence)
+  [located_in] (Monument Bác Hồ - Bác Tôn) → (Thống Nhất Park)  μ_F=0.5570  (2 evidence)
+  [on] (Thong Nhat park) → (pedestal)  μ_F=0.5304  (2 evidence)
+  [ruled_by] (Vietnam) → (Bác Tôn)  μ_F=0.5251  (2 evidence)
+  [gifted_by] (Thong Nhat park) → (people)  μ_F=0.4747  (2 evidence)
+
+========================================================================

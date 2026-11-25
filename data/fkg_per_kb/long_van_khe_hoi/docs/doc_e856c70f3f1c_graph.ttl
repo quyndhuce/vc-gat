@@ -1,0 +1,1010 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:located_in <http://transmtl.vn/ent/71a6b6f0> .
+
+<http://transmtl.vn/ent/6a7c1b1d> onto:part_of <http://transmtl.vn/kb/giam_park> .
+
+<http://transmtl.vn/ent/739d14e0> onto:located_in <http://transmtl.vn/ent/8f1c5099> ;
+    onto:part_of <http://transmtl.vn/kb/giam_park> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#clouds> onto:on <http://transmtl.vn/ent/246b2dd5> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#concrete_beams> onto:made_of <http://transmtl.vn/ent/3eb38fa8> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#five_dragons> onto:on <http://transmtl.vn/ent/246b2dd5> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#mural> onto:part_of <http://transmtl.vn/kb/giam_park> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#painting> onto:part_of <http://transmtl.vn/kb/giam_park> .
+
+<http://transmtl.vn/ent/f540713f> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/ad31e44c> onto:located_in <http://transmtl.vn/ent/71a6b6f0> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#walls> onto:part_of <http://transmtl.vn/kb/giam_park> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#old_hall> onto:part_of <http://transmtl.vn/kb/giam_park> ;
+    onto:used_as <http://transmtl.vn/ent/2570acf2> .
+
+<http://transmtl.vn/ent/71a6b6f0> onto:belongs_to_dynasty <http://transmtl.vn/ent/c903b2b1> ;
+    onto:ruled_by <http://transmtl.vn/ent/c903b2b1> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#hall> onto:architectural_style <http://transmtl.vn/ent/1749786c>,
+        <http://transmtl.vn/ent/85e50e18> ;
+    onto:belongs_to_dynasty <http://transmtl.vn/ent/c903b2b1> ;
+    onto:built_by <http://transmtl.vn/ent/c47c8b00>,
+        <http://transmtl.vn/ent/c903b2b1> ;
+    onto:built_in <http://transmtl.vn/ent/06a15eb1>,
+        <http://transmtl.vn/ent/6a508a60> ;
+    onto:dated_to <http://transmtl.vn/ent/6a508a60> ;
+    onto:over <http://transmtl.vn/ent/2f69d330> ;
+    onto:part_of <http://transmtl.vn/kb/giam_park> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi#main_hall> onto:faces <http://transmtl.vn/ent/4ea46b7e> ;
+    onto:located_in <http://transmtl.vn/ent/fb7a06dc> ;
+    onto:over <http://transmtl.vn/ent/2f69d330> ;
+    onto:part_of <http://transmtl.vn/ent/3590cb8a>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/567904ef>,
+        <http://transmtl.vn/ent/d09d03cc>,
+        <http://transmtl.vn/ent/d684cf2b>,
+        <http://transmtl.vn/ent/f540713f>,
+        <http://transmtl.vn/kb/giam_park> ;
+    onto:reconstructed_by <http://transmtl.vn/ent/ba194c99> .
+
+<http://transmtl.vn/kb/long_van_khe_hoi> onto:dated_to <http://transmtl.vn/ent/378a063b>,
+        <http://transmtl.vn/ent/a38b1617> ;
+    onto:gifted_by <http://transmtl.vn/ent/c47c8b00> ;
+    onto:has_part <http://transmtl.vn/kb/long_van_khe_hoi#clouds>,
+        <http://transmtl.vn/kb/long_van_khe_hoi#concrete_beams>,
+        <http://transmtl.vn/kb/long_van_khe_hoi#five_dragons>,
+        <http://transmtl.vn/kb/long_van_khe_hoi#hall>,
+        <http://transmtl.vn/kb/long_van_khe_hoi#main_hall>,
+        <http://transmtl.vn/kb/long_van_khe_hoi#mural>,
+        <http://transmtl.vn/kb/long_van_khe_hoi#old_hall>,
+        <http://transmtl.vn/kb/long_van_khe_hoi#painting>,
+        <http://transmtl.vn/kb/long_van_khe_hoi#walls> ;
+    onto:located_in <http://transmtl.vn/ent/71a6b6f0> ;
+    onto:over <http://transmtl.vn/ent/246b2dd5> ;
+    onto:part_of <http://transmtl.vn/ent/ad31e44c> .
+
+<http://transmtl.vn/kb/giam_park> onto:has_part <http://transmtl.vn/ent/8f1c5099>,
+        <http://transmtl.vn/ent/c821c672>,
+        <http://transmtl.vn/ent/d684cf2b>,
+        <http://transmtl.vn/ent/f4c9385f> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:surrounded_by <http://transmtl.vn/ent/25d5749e>,
+        <http://transmtl.vn/ent/46d5c58a>,
+        <http://transmtl.vn/ent/b00b8490> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3687 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/71a6b6f0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5676 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/06a15eb1> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3664 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5438 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3098 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/3eb38fa8> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#concrete_beams> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3548 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#painting> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#mural> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6633 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2705 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/c47c8b00> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2926 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/fb7a06dc> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3455 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#mural> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#clouds> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5764 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/f540713f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2602 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2687 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4713 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3237 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/246b2dd5> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#five_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7113 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/f540713f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7762 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3419 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3254 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/246b2dd5> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#clouds> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3441 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/f4c9385f> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#old_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4824 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/d09d03cc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5725 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/ba194c99> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2572 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3747 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.264 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/a38b1617> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4136 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7339 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/06a15eb1> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2684 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/567904ef> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3965 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3636 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/739d14e0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3139 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3477 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/2f69d330> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3399 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4187 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2636 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/4ea46b7e> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5489 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/d09d03cc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.387 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6063 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3906 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/46d5c58a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4139 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/d684cf2b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.483 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/71a6b6f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3055 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/ad31e44c> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3416 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f540713f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3983 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/ad31e44c> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2692 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/3590cb8a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#concrete_beams> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3154 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/739d14e0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2806 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/246b2dd5> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3122 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#old_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2938 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2555 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/246b2dd5> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3177 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/71a6b6f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3839 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5518 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#old_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2615 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/d684cf2b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4749 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2715 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/c821c672> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3401 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2999 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/6a508a60> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3692 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#old_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2624 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/d684cf2b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4541 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/1749786c> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#five_dragons> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4114 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/2f69d330> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.273 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/6a7c1b1d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2647 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/a38b1617> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3794 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3303 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.271 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/71a6b6f0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9204 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/71a6b6f0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ad31e44c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2927 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#old_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2924 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/2570acf2> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#old_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3258 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/378a063b> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4014 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/1749786c> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2928 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/85e50e18> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.58 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/b00b8490> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.426 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/6a508a60> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2763 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/c47c8b00> ;
+    rdf:predicate onto:gifted_by ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#old_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5696 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/6a508a60> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5492 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/71a6b6f0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ad31e44c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3023 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.302 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2633 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/kb/giam_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4512 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/46d5c58a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2796 ;
+    fkg:docId "doc_e856c70f3f1c" ;
+    fkg:kbId "long_van_khe_hoi" ;
+    rdf:object <http://transmtl.vn/ent/378a063b> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/long_van_khe_hoi> .
+

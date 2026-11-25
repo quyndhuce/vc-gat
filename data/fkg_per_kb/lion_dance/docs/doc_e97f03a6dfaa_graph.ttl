@@ -1,0 +1,15 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/8621ffdb> onto:in <http://transmtl.vn/kb/lion_dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4239 ;
+    fkg:docId "doc_e97f03a6dfaa" ;
+    fkg:kbId "lion_dance" ;
+    rdf:object <http://transmtl.vn/kb/lion_dance> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/ent/8621ffdb> .
+

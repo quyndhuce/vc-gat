@@ -1,0 +1,99 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#bark> onto:part_of <http://transmtl.vn/ent/c0af77cf> .
+
+<http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#flowers> onto:gifted_by <http://transmtl.vn/ent/12a032ce> .
+
+<http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#roots> onto:part_of <http://transmtl.vn/ent/c0af77cf> .
+
+<http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh> onto:has_part <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#bark>,
+        <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#flowers>,
+        <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#roots>,
+        <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#tree> .
+
+<http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#tree> onto:surrounded_by <http://transmtl.vn/ent/ea9e8078> ;
+    onto:with <http://transmtl.vn/ent/9f0e6169> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.323 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/ent/c0af77cf> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#bark> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3644 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/ent/12a032ce> ;
+    rdf:predicate onto:gifted_by ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#flowers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2795 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/ent/9f0e6169> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#tree> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#tree> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#flowers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#bark> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#roots> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#tree> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2829 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/ent/c0af77cf> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#roots> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.296 ;
+    fkg:docId "doc_77222ef2f482" ;
+    fkg:kbId "the_banyan_tree_planted_by_ho_chi_minh" ;
+    rdf:object <http://transmtl.vn/ent/ea9e8078> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/the_banyan_tree_planted_by_ho_chi_minh#tree> .
+

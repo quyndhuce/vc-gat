@@ -1,0 +1,105 @@
+{
+  "audit_name": "Final Independent Reproducibility Audit for IJAR Manuscript",
+  "audit_date": "2026-11-24",
+  "git_commit_hash": "efc8364",
+  "execution_environment": {
+    "host": "aircsrv4.airc.lab (192.168.88.31)",
+    "os": "Linux 6.8.0-49-generic (Ubuntu)",
+    "gpu": "NVIDIA GeForce RTX 5090 (32 GB VRAM)",
+    "cuda_version": "12.8",
+    "python_version": "3.10.16",
+    "pytorch_version": "2.11.0+cu128",
+    "conda_env": "/home/nguyendinhquy/miniconda3/envs/qwen_graph"
+  },
+  "verified_checkpoints": {
+    "best_dec_vcgat_v2.pt": {
+      "path": "experiments/checkpoints_fact_selection/best_dec_vcgat_v2.pt",
+      "sha256": "01f3b3742d5e55a296c3d99c784244c66ecb32a0870ad1d3f7b0773745f36633",
+      "num_tensors": 46,
+      "role": "True operational DEC-v2 checkpoint for Hanoi-500 test benchmark",
+      "architecture": "DecoupledVCGATModelV2 (d_model=768, 2 GAT layers, degree damping gamma=0.40, visual saliency gate, reliability gate lambda_i, bounded graph residual [-0.8, +0.8])",
+      "benchmark_score_seen_ndcg5": 0.5049,
+      "benchmark_score_overall_ndcg5": 0.3899
+    },
+    "best_dec_vcgat_v2_full_horn.pt": {
+      "path": "experiments/checkpoints_fact_selection/best_dec_vcgat_v2_full_horn.pt",
+      "sha256": "b8ddb441a1d1ec3be6e0b83090781058493159ae4d3ab44c8f0c8828dd31f54a",
+      "num_tensors": 46,
+      "role": "Horn deductive closure experimental checkpoint (trained on saturated fixpoints without dynamic candidate expansion)",
+      "benchmark_score_seen_ndcg5": 0.3636
+    },
+    "best_decoupled_ranking_vcgat.pt": {
+      "path": "experiments/features/best_decoupled_ranking_vcgat.pt",
+      "sha256": "cf19893f3b8f5a57960e22ea49d6e32b8a604d81c3c69433db3d969a1535930e",
+      "num_tensors": 54,
+      "role": "DecoupledRankingVCGATNetwork dual scorer architecture"
+    },
+    "best_cross_attention.pt": {
+      "path": "experiments/checkpoints_fact_selection/best_cross_attention.pt",
+      "sha256": "e243799dad2701d0821bd18fd63254013df255127a4a0a51ce1c7d5b31476fa8",
+      "num_tensors": 16,
+      "role": "Supervised multimodal non-graph baseline ranker",
+      "benchmark_score_seen_ndcg5": 0.3958,
+      "benchmark_score_overall_ndcg5": 0.3038
+    }
+  },
+  "dataset_specifications": {
+    "benchmark_split": "Hanoi-500 test set",
+    "total_test_clips": 500,
+    "parent_video_clusters": 60,
+    "clustering_column": "source_video_id in evaluation_clips_manifest.json",
+    "ground_truth_file": "experiments/ground_truth/scene_conditioned_gold.jsonl",
+    "cached_features": {
+      "video_features": "experiments/features/benchmark_cache/video_pooled_siglip2.npy",
+      "fact_embeddings": "experiments/features/benchmark_cache/fact_embeddings_siglip2.npy"
+    },
+    "evaluation_slices": {
+      "Overall nDCG@5": {
+        "n_clips": 500,
+        "n_clusters": 60,
+        "definition": "All 500 Hanoi test clips"
+      },
+      "Precision@5": {
+        "n_clips": 500,
+        "n_clusters": 60,
+        "definition": "All 500 Hanoi test clips"
+      },
+      "Hard Negative AUC": {
+        "n_clips": 391,
+        "n_clusters": 60,
+        "definition": "Clips with at least 1 positive and 1 negative fact among candidate/hard-negative facts"
+      },
+      "Seen Landmarks nDCG@5": {
+        "n_clips": 224,
+        "n_clusters": 41,
+        "definition": "Clips belonging to the 7 Seen landmarks (Hoan Kiem Lake, Temple of Literature, One Pillar Pagoda, Tran Quoc Pagoda, Hanoi Opera House, St Joseph Cathedral, Thang Long Imperial Citadel)"
+      },
+      "Unseen Landmarks nDCG@5": {
+        "n_clips": 276,
+        "n_clusters": 19,
+        "definition": "Clips belonging to the remaining Unseen landmarks"
+      },
+      "Historical Facts nDCG@5": {
+        "n_clips": 166,
+        "n_clusters": 42,
+        "definition": "Clips with non-visual historical or commemorative gold facts"
+      }
+    }
+  },
+  "scripts": {
+    "table22_evaluation": "recompute_table22.py",
+    "certificate_evaluation": "evaluate_ranking_certificates.py"
+  },
+  "deliverables": [
+    "recompute_table22.py",
+    "table22_per_clip_metrics.csv",
+    "table22_bootstrap_replicates.npz",
+    "table22_verified_results.json",
+    "evaluate_ranking_certificates.py",
+    "ranking_candidate_predictions.csv",
+    "ranking_certificate_results.json",
+    "evaluation_manifest.json",
+    "manuscript_discrepancy_report.md",
+    "main.pdf"
+  ]
+}

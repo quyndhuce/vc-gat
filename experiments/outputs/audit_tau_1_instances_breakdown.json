@@ -1,0 +1,108 @@
+{
+  "total_instances_retained": 3528,
+  "precision": 82.77,
+  "tp": 2920,
+  "fp": 608,
+  "unique_fact_ids": 233,
+  "unique_triples": 233,
+  "unique_landmarks_count": 18,
+  "unique_clips_count": 510,
+  "avg_instances_per_fact": 15.14,
+  "max_instances_per_fact": 59,
+  "provenance_distribution": {
+    "KB_Base": 3467,
+    "Horn_Inferred": 61
+  },
+  "landmark_distribution": {
+    "vietnam_national_museum_of_history": 8,
+    "vietnam_womens_museum": 63,
+    "hoan_kiem_lake": 268,
+    "one_pillar_pagoda": 77,
+    "west_lake": 30,
+    "thu_le_park": 64,
+    "bat_trang_pottery_village": 82,
+    "imperial_citadel_of_thang_long": 76,
+    "ba_dinh_square": 14,
+    "van_phuc_silk_village": 50,
+    "thang_long_water_puppetry_theatre": 102,
+    "hanoi_old_quarter": 144,
+    "temple_of_literature": 145,
+    "ba_thien_hau_temple": 479,
+    "ben_thanh_market": 888,
+    "independence_palace": 441,
+    "saigon_central_post_office": 288,
+    "saigon_opera_house": 309
+  },
+  "top_repeated_facts": [
+    {
+      "fact_id": "fact_3eddc3f12e",
+      "triple": "(Saigon Opera House, houses, main seating floor)",
+      "landmark_id": "saigon_opera_house",
+      "count": 59,
+      "y_true": 1
+    },
+    {
+      "fact_id": "fact_fa3d971a37",
+      "triple": "(house, has_part, two levels)",
+      "landmark_id": "saigon_opera_house",
+      "count": 59,
+      "y_true": 1
+    },
+    {
+      "fact_id": "fact_161f916c69",
+      "triple": "(main seating floor, located_inside, Saigon Opera House)",
+      "landmark_id": "saigon_opera_house",
+      "count": 59,
+      "y_true": 1
+    },
+    {
+      "fact_id": "fact_deb24b16bf",
+      "triple": "(Republic of Vietnam, has_part, Saigon Opera House)",
+      "landmark_id": "saigon_opera_house",
+      "count": 59,
+      "y_true": 1
+    },
+    {
+      "fact_id": "fact_22ac8cd1bc",
+      "triple": "(painted maps, located_inside, post office)",
+      "landmark_id": "saigon_central_post_office",
+      "count": 45,
+      "y_true": 0
+    },
+    {
+      "fact_id": "fact_7cf001079c",
+      "triple": "(Saigon Central Post Office, near, Notre-Dame Cathedral Basilica)",
+      "landmark_id": "saigon_central_post_office",
+      "count": 45,
+      "y_true": 1
+    },
+    {
+      "fact_id": "fact_70965aff90",
+      "triple": "(post office, houses, painted maps)",
+      "landmark_id": "saigon_central_post_office",
+      "count": 45,
+      "y_true": 0
+    },
+    {
+      "fact_id": "fact_80d645c4cd",
+      "triple": "(Independence Palace, surrounded_by, trees)",
+      "landmark_id": "independence_palace",
+      "count": 40,
+      "y_true": 1
+    },
+    {
+      "fact_id": "fact_24d806a63d",
+      "triple": "(stalls, located_inside, interior hall)",
+      "landmark_id": "ben_thanh_market",
+      "count": 39,
+      "y_true": 1
+    },
+    {
+      "fact_id": "fact_98ae676579",
+      "triple": "(interior hall, houses, stalls)",
+      "landmark_id": "ben_thanh_market",
+      "count": 39,
+      "y_true": 1
+    }
+  ]
+}

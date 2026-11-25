@@ -1,0 +1,266 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0d149b90> onto:located_in <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/ent/7168418d> onto:located_in <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/ent/f42a84a3> onto:located_in <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/ent/f8de951c> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/f904c464> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/tran_quoc_pagoda#lotus_flowers> onto:symbol_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/tran_quoc_pagoda#main_sanctuary> onto:renovated_in <http://transmtl.vn/ent/f0bbac6f> .
+
+<http://transmtl.vn/kb/tran_quoc_pagoda#reception_hall> onto:renovated_in <http://transmtl.vn/ent/f0bbac6f> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:ruled_by <http://transmtl.vn/ent/db0648a4> .
+
+<http://transmtl.vn/kb/tran_quoc_pagoda> onto:built_in <http://transmtl.vn/ent/ef45f0bf> ;
+    onto:former_name_of <http://transmtl.vn/ent/ea7f3fa0> ;
+    onto:has_part <http://transmtl.vn/kb/tran_quoc_pagoda#lotus_flowers>,
+        <http://transmtl.vn/kb/tran_quoc_pagoda#main_sanctuary>,
+        <http://transmtl.vn/kb/tran_quoc_pagoda#reception_hall>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/west_lake> onto:built_in <http://transmtl.vn/ent/ef45f0bf> ;
+    onto:former_name_of <http://transmtl.vn/ent/cd32b8f2> ;
+    onto:on <http://transmtl.vn/kb/red_river> ;
+    onto:part_of <http://transmtl.vn/kb/tran_quoc_pagoda> ;
+    onto:renamed_to <http://transmtl.vn/ent/ea7f3fa0> ;
+    onto:renovated_in <http://transmtl.vn/ent/f0bbac6f> ;
+    onto:worships <http://transmtl.vn/ent/0385870e>,
+        <http://transmtl.vn/ent/ad285d34> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4996 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/db0648a4> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9386 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.46 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2721 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/ea7f3fa0> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4256 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6629 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/ef45f0bf> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2876 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f0bbac6f> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda#reception_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7162 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tran_quoc_pagoda> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tran_quoc_pagoda#reception_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6071 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7168418d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5199 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/0385870e> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tran_quoc_pagoda#main_sanctuary> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tran_quoc_pagoda#lotus_flowers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6339 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/ef45f0bf> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2853 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/ea7f3fa0> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3227 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f904c464> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3839 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/cd32b8f2> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7703 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tran_quoc_pagoda> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2561 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f8de951c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3575 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda#lotus_flowers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3789 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0d149b90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2695 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f0bbac6f> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda#main_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7339 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.76 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f42a84a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4043 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.823 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/ad285d34> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7465 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/ad285d34> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.288 ;
+    fkg:docId "doc_26b282b7719d" ;
+    fkg:kbId "tran_quoc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/f0bbac6f> ;
+    rdf:predicate onto:renovated_in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+

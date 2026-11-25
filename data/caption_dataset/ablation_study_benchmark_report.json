@@ -1,0 +1,61 @@
+{
+  "title": "Real GPU Component Ablation Study Benchmark",
+  "dataset_size": 149,
+  "results": [
+    {
+      "variant": "Full model",
+      "fuzzy_rule_reasoning": true,
+      "mu_f_weighted_kgc": true,
+      "uncertainty_fusion": true,
+      "certainty_aware_ft": true,
+      "e2e_f1": 88.41,
+      "oar": 0.67,
+      "policy_compliance": 89.3,
+      "sample_caption": "In Bat Trang Pottery Village, located within Bát Tràng district, skilled artisans work diligently at pottery wheels. A potter spins wet clay on one of the wheels while another nearby wheel shows a clay sculpture being formed. Hand-painted blue and white ceramic plates line the walls, showcasing the village's traditional craftsmanship."
+    },
+    {
+      "variant": "w/o fuzzy reasoning",
+      "fuzzy_rule_reasoning": false,
+      "mu_f_weighted_kgc": true,
+      "uncertainty_fusion": true,
+      "certainty_aware_ft": true,
+      "e2e_f1": 89.35,
+      "oar": 0.67,
+      "policy_compliance": 87.2,
+      "sample_caption": "The scene features a pottery wheel positioned centrally within an area designated for clay sculpting. A person is using the pottery wheel to spin wet clay, which is visible as it moves around the rim of the wheel. Nearby, there are several hand-painted blue and white ceramic plates displayed on shelves nearby."
+    },
+    {
+      "variant": "w/o mu_F-weighted KGC",
+      "fuzzy_rule_reasoning": true,
+      "mu_f_weighted_kgc": false,
+      "uncertainty_fusion": true,
+      "certainty_aware_ft": true,
+      "e2e_f1": 87.91,
+      "oar": 27.52,
+      "policy_compliance": 36.2,
+      "sample_caption": "Bat Trang Pottery Village, located in Bát Tràng within Gia Lâm District, features several pottery wheels where artisans create their works. A person is seen using one of these wheels to spin wet pottery clay into various shapes. Nearby, there are also displays of hand-painted blue and white ceramic plates, showcasing the village's traditional craftsmanship."
+    },
+    {
+      "variant": "w/o uncertainty fusion",
+      "fuzzy_rule_reasoning": true,
+      "mu_f_weighted_kgc": true,
+      "uncertainty_fusion": false,
+      "certainty_aware_ft": true,
+      "e2e_f1": 90.75,
+      "oar": 34.9,
+      "policy_compliance": 22.1,
+      "sample_caption": "Bat Trang Pottery Village, located within Bát Tràng district of Vietnam, features several pottery wheels set up for demonstration and practice. A skilled potter spins wet pottery clay on one of these wheels while another nearby demonstrates clay sculpting techniques. Hand-painted blue and white ceramic plates line the area, showcasing various artistic expressions from local artisans."
+    },
+    {
+      "variant": "w/o certainty-aware fine-tuning",
+      "fuzzy_rule_reasoning": true,
+      "mu_f_weighted_kgc": true,
+      "uncertainty_fusion": true,
+      "certainty_aware_ft": false,
+      "e2e_f1": 88.96,
+      "oar": 0.0,
+      "policy_compliance": 86.6,
+      "sample_caption": "Bat Trang Pottery Village, established by potters, stands in Bát Tràng, Gia Lâm District, Vietnam. The village features a pottery wheel next to a clay sculpting area where artisans spin wet pottery clay onto the wheel. Hand-painted blue-and-white ceramic plates hang nearby, showcasing the traditional craftsmanship of this historic site."
+    }
+  ]
+}

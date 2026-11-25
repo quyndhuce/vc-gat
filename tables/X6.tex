@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\caption{Empirical verification of fuzzy reliability influence bounds in VC-GAT (Protocol X6'). Evaluated across all 500 balanced test videos and both attention layers ($H=4$ heads). The theoretical bound $|\Delta \text{reliability}| \le 2.76$ holds with zero violations across all layers and heads.}
+\label{tab:x6_vcgat_influence}
+\small
+\begin{tabular}{lcccccc}
+\toprule
+Layer / Head & $N_{\text{nodes}}$ & $|\Delta \text{rel.}|$ (med. / p95) & $|\Delta (\text{sem+vid})|$ (med. / p95) & \% Top-1 Change ($\lambda_f=0$) & $\text{KL}(\alpha \parallel \alpha_0)$ \\
+\midrule
+Layer 1, Head 1 & 70,356 & 0.049 / 0.312 & 1.623 / 5.281 & 4.06\% & 0.0030 \\
+Layer 1, Head 2 & 70,356 & 0.049 / 0.312 & 0.934 / 3.270 & 7.31\% & 0.0038 \\
+Layer 1, Head 3 & 70,356 & 0.049 / 0.312 & 1.629 / 5.600 & 4.10\% & 0.0025 \\
+Layer 1, Head 4 & 70,356 & 0.049 / 0.312 & 1.639 / 5.404 & 5.68\% & 0.0026 \\
+Layer 2, Head 1 & 70,356 & 0.049 / 0.312 & 5.673 / 22.015 & 4.86\% & 0.0017 \\
+Layer 2, Head 2 & 70,356 & 0.049 / 0.312 & 5.538 / 23.971 & 7.06\% & 0.0019 \\
+Layer 2, Head 3 & 70,356 & 0.049 / 0.312 & 6.738 / 27.058 & 4.20\% & 0.0017 \\
+Layer 2, Head 4 & 70,356 & 0.049 / 0.312 & 5.043 / 30.297 & 4.55\% & 0.0019 \\
+\midrule
+\textbf{Layer 1 (All heads)} & 281,424 & 0.049 / 0.312 & 1.407 / 5.071 & 5.29\% & 0.0030 \\
+\midrule
+\textbf{Layer 2 (All heads)} & 281,424 & 0.049 / 0.312 & 5.744 / 26.017 & 5.17\% & 0.0018 \\
+\midrule
+\textbf{Overall (All layers & heads)} & 562,848 & 0.049 / 0.312 & 2.466 / 20.003 & 5.23\% & 0.0024 \\
+\bottomrule
+\end{tabular}
+\end{table*}

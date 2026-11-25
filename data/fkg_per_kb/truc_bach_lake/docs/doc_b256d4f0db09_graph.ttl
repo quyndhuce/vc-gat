@@ -1,0 +1,179 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/113be712> onto:walking_on <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/65004f81> onto:walking_on <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/6621891c> onto:imprisoned_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/d569e149> onto:named_after <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/west_lake> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/truc_bach_lake> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:named_after <http://transmtl.vn/ent/d569e149> ;
+    onto:part_of <http://transmtl.vn/ent/de5f4e1a> .
+
+<http://www.wikidata.org/entity/Q1858> onto:dated_to <http://transmtl.vn/ent/08915416> ;
+    onto:located_in <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:part_of <http://transmtl.vn/ent/0d149b90>,
+        <http://transmtl.vn/ent/dd628246>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:surrounded_by <http://transmtl.vn/ent/b96b32aa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5626 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4721 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3166 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/b96b32aa> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2913 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/d569e149> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3454 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4706 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3842 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/08915416> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3591 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:imprisoned_in ;
+    rdf:subject <http://transmtl.vn/ent/6621891c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2705 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/ent/d569e149> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2958 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6019 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2785 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/0d149b90> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2781 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.323 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/65004f81> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2624 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6174 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/dd628246> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5043 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://transmtl.vn/ent/dd628246> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6362 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:imprisoned_in ;
+    rdf:subject <http://transmtl.vn/ent/6621891c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3061 ;
+    fkg:docId "doc_b256d4f0db09" ;
+    fkg:kbId "truc_bach_lake" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/113be712> .
+

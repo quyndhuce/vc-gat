@@ -1,0 +1,401 @@
+{
+  "engine_settings": {
+    "model": "Qwen2.5-7B-Instruct (4-bit NF4)",
+    "min_path_prob": 0.2,
+    "theta_base": 0.45,
+    "theta_inf": 0.2,
+    "rel_cap": 3,
+    "target_budget": 10
+  },
+  "table_r5": {
+    "panel_a": {
+      "total_conclusions": 1820,
+      "single_derivation_M_1": 1433,
+      "single_derivation_M_1_share": 78.74,
+      "multi_derivation_M_ge_2": 387,
+      "multi_derivation_M_ge_2_share": 21.26,
+      "exact_ldfi_n_le_12": 1655,
+      "exact_ldfi_share": 90.93,
+      "truncated_ldfi_n_gt_12": 165,
+      "truncated_ldfi_share": 9.07,
+      "source_corroboration_kappa_1": 382,
+      "source_corroboration_kappa_ge_2": 5,
+      "partial_overlap_conclusions": 223,
+      "partial_overlap_share_of_M_ge_2": 57.62,
+      "strictly_absorbable_conclusions": 298,
+      "total_absorbed_echo_derivations": 966
+    },
+    "panel_b": {
+      "mu_max": {
+        "mean": 0.2574,
+        "median": 0.2332,
+        "inflation": -0.0046,
+        "violations": 0
+      },
+      "naive": {
+        "mean": 0.3189,
+        "median": 0.2604,
+        "inflation": 0.0569,
+        "affected": 383
+      },
+      "ldfi_v2": {
+        "mean": 0.262,
+        "median": 0.2333,
+        "inflation": 0.0,
+        "violations": 0
+      }
+    }
+  },
+  "table_r6": {
+    "base_only": {
+      "avg_inferred_facts": 0.0,
+      "pct_videos_ge_1_inferred": 0.0,
+      "relation_entropy": 2.25,
+      "echo_rate_pct": 0.0,
+      "unique_relations_per_prompt": 5.44,
+      "knowledge_set_change_pct": 0.0
+    },
+    "naive_noisy_or": {
+      "avg_inferred_facts": 1.05,
+      "pct_videos_ge_1_inferred": 60.8,
+      "relation_entropy": 2.31,
+      "echo_rate_pct": 93.2,
+      "unique_relations_per_prompt": 5.61,
+      "knowledge_set_change_pct": 60.8
+    },
+    "ldfi_v2_no_cap": {
+      "avg_inferred_facts": 0.0,
+      "pct_videos_ge_1_inferred": 0.4,
+      "relation_entropy": 0.67,
+      "echo_rate_pct": 100.0,
+      "unique_relations_per_prompt": 2.26,
+      "knowledge_set_change_pct": 97.6
+    },
+    "ldfi_v2_full": {
+      "avg_inferred_facts": 0.42,
+      "pct_videos_ge_1_inferred": 17.2,
+      "relation_entropy": 2.32,
+      "echo_rate_pct": 19.8,
+      "unique_relations_per_prompt": 5.64,
+      "knowledge_set_change_pct": 17.2
+    }
+  },
+  "table_r7_r8_empirical_bootstrap": {
+    "ours_full": {
+      "factual": {
+        "point_estimate": 66.7,
+        "ci_95_lower": 63.5,
+        "ci_95_upper": 69.8
+      },
+      "unsupported": {
+        "point_estimate": 33.3,
+        "ci_95_lower": 30.2,
+        "ci_95_upper": 36.5
+      },
+      "coverage": {
+        "point_estimate": 68.7,
+        "ci_95_lower": 66.4,
+        "ci_95_upper": 70.8
+      },
+      "scene": {
+        "point_estimate": 83.8,
+        "ci_95_lower": 81.9,
+        "ci_95_upper": 85.5
+      }
+    },
+    "wo_selective_gate": {
+      "factual": {
+        "point_estimate": 65.4,
+        "ci_95_lower": 62.3,
+        "ci_95_upper": 68.5
+      },
+      "unsupported": {
+        "point_estimate": 34.6,
+        "ci_95_lower": 31.5,
+        "ci_95_upper": 37.7
+      },
+      "coverage": {
+        "point_estimate": 66.8,
+        "ci_95_lower": 64.3,
+        "ci_95_upper": 69.3
+      },
+      "scene": {
+        "point_estimate": 84.0,
+        "ci_95_lower": 82.3,
+        "ci_95_upper": 85.7
+      }
+    },
+    "naive_noisy_or": {
+      "factual": {
+        "point_estimate": 67.7,
+        "ci_95_lower": 64.6,
+        "ci_95_upper": 70.7
+      },
+      "unsupported": {
+        "point_estimate": 32.3,
+        "ci_95_lower": 29.3,
+        "ci_95_upper": 35.4
+      },
+      "coverage": {
+        "point_estimate": 65.1,
+        "ci_95_lower": 62.9,
+        "ci_95_upper": 67.2
+      },
+      "scene": {
+        "point_estimate": 83.6,
+        "ci_95_lower": 81.7,
+        "ci_95_upper": 85.4
+      }
+    },
+    "base_only": {
+      "factual": {
+        "point_estimate": 66.8,
+        "ci_95_lower": 63.7,
+        "ci_95_upper": 69.9
+      },
+      "unsupported": {
+        "point_estimate": 33.2,
+        "ci_95_lower": 30.1,
+        "ci_95_upper": 36.3
+      },
+      "coverage": {
+        "point_estimate": 68.5,
+        "ci_95_lower": 66.2,
+        "ci_95_upper": 70.8
+      },
+      "scene": {
+        "point_estimate": 83.7,
+        "ci_95_lower": 81.8,
+        "ci_95_upper": 85.4
+      }
+    },
+    "oracle_grounding": {
+      "factual": {
+        "point_estimate": 75.0,
+        "ci_95_lower": 72.5,
+        "ci_95_upper": 77.5
+      },
+      "unsupported": {
+        "point_estimate": 25.0,
+        "ci_95_lower": 22.5,
+        "ci_95_upper": 27.5
+      },
+      "coverage": {
+        "point_estimate": 57.2,
+        "ci_95_lower": 54.1,
+        "ci_95_upper": 60.2
+      },
+      "scene": {
+        "point_estimate": 82.4,
+        "ci_95_lower": 80.5,
+        "ci_95_upper": 84.1
+      }
+    },
+    "vlm_rag": {
+      "factual": {
+        "point_estimate": 66.9,
+        "ci_95_lower": 63.4,
+        "ci_95_upper": 70.3
+      },
+      "unsupported": {
+        "point_estimate": 33.1,
+        "ci_95_lower": 29.7,
+        "ci_95_upper": 36.6
+      },
+      "coverage": {
+        "point_estimate": 30.7,
+        "ci_95_lower": 28.7,
+        "ci_95_upper": 32.8
+      },
+      "scene": {
+        "point_estimate": 31.2,
+        "ci_95_lower": 30.7,
+        "ci_95_upper": 31.9
+      }
+    },
+    "dedup_first": {
+      "factual": {
+        "point_estimate": 61.0,
+        "ci_95_lower": 57.6,
+        "ci_95_upper": 64.3
+      },
+      "unsupported": {
+        "point_estimate": 39.0,
+        "ci_95_lower": 35.7,
+        "ci_95_upper": 42.4
+      },
+      "coverage": {
+        "point_estimate": 29.6,
+        "ci_95_lower": 27.7,
+        "ci_95_upper": 31.7
+      },
+      "scene": {
+        "point_estimate": 85.1,
+        "ci_95_lower": 83.3,
+        "ci_95_upper": 86.8
+      }
+    },
+    "graphrag": {
+      "factual": {
+        "point_estimate": 65.3,
+        "ci_95_lower": 62.3,
+        "ci_95_upper": 68.4
+      },
+      "unsupported": {
+        "point_estimate": 34.7,
+        "ci_95_lower": 31.6,
+        "ci_95_upper": 37.7
+      },
+      "coverage": {
+        "point_estimate": 49.7,
+        "ci_95_lower": 47.6,
+        "ci_95_upper": 51.9
+      },
+      "scene": {
+        "point_estimate": 85.9,
+        "ci_95_lower": 84.2,
+        "ci_95_upper": 87.5
+      }
+    },
+    "ds_discounting": {
+      "factual": {
+        "point_estimate": 67.7,
+        "ci_95_lower": 64.8,
+        "ci_95_upper": 70.6
+      },
+      "unsupported": {
+        "point_estimate": 32.3,
+        "ci_95_lower": 29.4,
+        "ci_95_upper": 35.2
+      },
+      "coverage": {
+        "point_estimate": 63.6,
+        "ci_95_lower": 61.4,
+        "ci_95_upper": 65.6
+      },
+      "scene": {
+        "point_estimate": 84.2,
+        "ci_95_lower": 82.5,
+        "ci_95_upper": 85.9
+      }
+    },
+    "fkg_only": {
+      "factual": {
+        "point_estimate": 75.6,
+        "ci_95_lower": 72.4,
+        "ci_95_upper": 78.7
+      },
+      "unsupported": {
+        "point_estimate": 24.4,
+        "ci_95_lower": 21.3,
+        "ci_95_upper": 27.6
+      },
+      "coverage": {
+        "point_estimate": 85.0,
+        "ci_95_lower": 83.4,
+        "ci_95_upper": 86.7
+      },
+      "scene": {
+        "point_estimate": 32.1,
+        "ci_95_lower": 31.3,
+        "ci_95_upper": 33.0
+      }
+    },
+    "vis_adm": {
+      "factual": {
+        "point_estimate": 65.9,
+        "ci_95_lower": 62.7,
+        "ci_95_upper": 69.0
+      },
+      "unsupported": {
+        "point_estimate": 34.1,
+        "ci_95_lower": 31.0,
+        "ci_95_upper": 37.3
+      },
+      "coverage": {
+        "point_estimate": 65.9,
+        "ci_95_lower": 63.5,
+        "ci_95_upper": 68.3
+      },
+      "scene": {
+        "point_estimate": 84.8,
+        "ci_95_lower": 83.0,
+        "ci_95_upper": 86.5
+      }
+    },
+    "wo_prov": {
+      "factual": {
+        "point_estimate": 63.8,
+        "ci_95_lower": 60.7,
+        "ci_95_upper": 66.9
+      },
+      "unsupported": {
+        "point_estimate": 36.2,
+        "ci_95_lower": 33.1,
+        "ci_95_upper": 39.3
+      },
+      "coverage": {
+        "point_estimate": 55.5,
+        "ci_95_lower": 53.4,
+        "ci_95_upper": 57.7
+      },
+      "scene": {
+        "point_estimate": 84.7,
+        "ci_95_lower": 82.9,
+        "ci_95_upper": 86.5
+      }
+    },
+    "wo_vis_adm": {
+      "factual": {
+        "point_estimate": 76.0,
+        "ci_95_lower": 72.8,
+        "ci_95_upper": 79.0
+      },
+      "unsupported": {
+        "point_estimate": 24.0,
+        "ci_95_lower": 21.0,
+        "ci_95_upper": 27.2
+      },
+      "coverage": {
+        "point_estimate": 85.3,
+        "ci_95_lower": 83.6,
+        "ci_95_upper": 86.9
+      },
+      "scene": {
+        "point_estimate": 31.9,
+        "ci_95_lower": 31.1,
+        "ci_95_upper": 32.7
+      }
+    }
+  },
+  "table_r9_oracle_paired": {
+    "delta_factual": 8.3,
+    "ci_lower": 5.8,
+    "ci_upper": 11.0
+  },
+  "table_r9_error_decomposition": {
+    "total_claims_evaluated": 1897,
+    "total_errors": 641,
+    "error_rate_pct": 33.79,
+    "components": {
+      "visual_grounding": {
+        "claims": 99,
+        "share_pct": 15.4,
+        "share_pp": 5.22,
+        "mechanism": "Subgraph mismatch or scene entity confusion from visual classifier"
+      },
+      "reasoning_ldfi": {
+        "claims": 16,
+        "share_pct": 2.5,
+        "share_pp": 0.84,
+        "mechanism": "Invalid rule grounding or inference-chain support"
+      },
+      "generation_gate": {
+        "claims": 526,
+        "share_pct": 82.1,
+        "share_pp": 27.73,
+        "mechanism": "Unsupported surface realization or gate leakage"
+      }
+    }
+  }
+}

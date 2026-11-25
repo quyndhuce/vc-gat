@@ -1,0 +1,148 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/148370c2> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/1775ed1a> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/335ffbcf> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/b1dc3ca2> onto:walking_on <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/c1e5bc73> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/d49a712b> onto:crosses <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thu_le_park> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:part_of <http://transmtl.vn/ent/de5f4e1a> .
+
+<http://transmtl.vn/ent/de5f4e1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q1858> onto:located_in <http://transmtl.vn/ent/16b95751> ;
+    onto:surrounded_by <http://transmtl.vn/ent/25d5749e>,
+        <http://transmtl.vn/ent/992763c3>,
+        <http://transmtl.vn/ent/a2a551a6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2618 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/a2a551a6> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2834 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/ent/d49a712b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3853 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1775ed1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4136 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/16b95751> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.278 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.331 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/335ffbcf> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4204 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/b1dc3ca2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.261 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/de5f4e1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3664 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c1e5bc73> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3697 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3935 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6338 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/148370c2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5179 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4915 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thu_le_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5962 ;
+    fkg:docId "doc_c5c3f8520d50" ;
+    fkg:kbId "thu_le_park" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

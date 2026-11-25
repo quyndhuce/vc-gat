@@ -1,0 +1,64 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f20dc05d> onto:located_in <http://transmtl.vn/ent/89690688> .
+
+<http://transmtl.vn/kb/mother_worship_religious_space> onto:has_part <http://transmtl.vn/kb/mother_worship_religious_space#trầm_hương>,
+        <http://transmtl.vn/kb/mother_worship_religious_space#vietnam_post_and_telecommunications_tower> .
+
+<http://transmtl.vn/kb/mother_worship_religious_space#trầm_hương> onto:used_as <http://transmtl.vn/ent/9ce99053> .
+
+<http://transmtl.vn/kb/mother_worship_religious_space#vietnam_post_and_telecommunications_tower> onto:located_in <http://transmtl.vn/ent/89690688> .
+
+<http://transmtl.vn/ent/89690688> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3374 ;
+    fkg:docId "doc_7f4dfadf0ffc" ;
+    fkg:kbId "mother_worship_religious_space" ;
+    rdf:object <http://transmtl.vn/ent/89690688> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f20dc05d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3154 ;
+    fkg:docId "doc_7f4dfadf0ffc" ;
+    fkg:kbId "mother_worship_religious_space" ;
+    rdf:object <http://transmtl.vn/ent/9ce99053> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/mother_worship_religious_space#trầm_hương> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7f4dfadf0ffc" ;
+    fkg:kbId "mother_worship_religious_space" ;
+    rdf:object <http://transmtl.vn/kb/mother_worship_religious_space#trầm_hương> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/mother_worship_religious_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2746 ;
+    fkg:docId "doc_7f4dfadf0ffc" ;
+    fkg:kbId "mother_worship_religious_space" ;
+    rdf:object <http://transmtl.vn/ent/89690688> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/mother_worship_religious_space#vietnam_post_and_telecommunications_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7f4dfadf0ffc" ;
+    fkg:kbId "mother_worship_religious_space" ;
+    rdf:object <http://transmtl.vn/kb/mother_worship_religious_space#vietnam_post_and_telecommunications_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/mother_worship_religious_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3744 ;
+    fkg:docId "doc_7f4dfadf0ffc" ;
+    fkg:kbId "mother_worship_religious_space" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/89690688> .
+

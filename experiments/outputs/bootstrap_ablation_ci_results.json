@@ -1,0 +1,533 @@
+{
+  "bootstrap_results": {
+    "vlm_rag": {
+      "name": "VLM + RAG (Text Baseline)",
+      "metrics": {
+        "factual_precision": {
+          "name": "Factual Precision (%)",
+          "point_estimate": 51.5595418759227,
+          "std_error": 1.1423375704315024,
+          "ci_95_lower": 49.25389318340587,
+          "ci_95_upper": 53.706315606144166
+        },
+        "unsupported_rate": {
+          "name": "Unsupported Rate (%)",
+          "point_estimate": 37.06221981260888,
+          "std_error": 2.541383730729124,
+          "ci_95_lower": 32.25106937198918,
+          "ci_95_upper": 42.154656019666746
+        },
+        "knowledge_coverage": {
+          "name": "Knowledge Coverage (%)",
+          "point_estimate": 35.295130860569145,
+          "std_error": 1.1424698541038045,
+          "ci_95_lower": 33.04867634271871,
+          "ci_95_upper": 37.537770659106286
+        },
+        "scene_relevance": {
+          "name": "Scene Relevance (%)",
+          "point_estimate": 39.957223168185934,
+          "std_error": 1.27518635796984,
+          "ci_95_lower": 37.40792608151232,
+          "ci_95_upper": 42.39446980261844
+        }
+      }
+    },
+    "fkg": {
+      "name": "+ Provenance-Aware FKG",
+      "metrics": {
+        "factual_precision": {
+          "name": "Factual Precision (%)",
+          "point_estimate": 68.36266666666664,
+          "std_error": 1.4707414535308407,
+          "ci_95_lower": 65.365,
+          "ci_95_upper": 71.145
+        },
+        "unsupported_rate": {
+          "name": "Unsupported Rate (%)",
+          "point_estimate": 21.757333333333328,
+          "std_error": 1.8756711959696202,
+          "ci_95_lower": 18.175633333333327,
+          "ci_95_upper": 25.54100833333333
+        },
+        "knowledge_coverage": {
+          "name": "Knowledge Coverage (%)",
+          "point_estimate": 44.47680000000007,
+          "std_error": 1.536149542048233,
+          "ci_95_lower": 41.459200000000045,
+          "ci_95_upper": 47.54360000000003
+        },
+        "scene_relevance": {
+          "name": "Scene Relevance (%)",
+          "point_estimate": 50.592,
+          "std_error": 1.8633472402901612,
+          "ci_95_lower": 46.784,
+          "ci_95_upper": 54.128
+        }
+      }
+    },
+    "vis_adm": {
+      "name": "+ Visual Admission (Γ_K)",
+      "metrics": {
+        "factual_precision": {
+          "name": "Factual Precision (%)",
+          "point_estimate": 72.384,
+          "std_error": 1.5572556566797118,
+          "ci_95_lower": 69.21,
+          "ci_95_upper": 75.33
+        },
+        "unsupported_rate": {
+          "name": "Unsupported Rate (%)",
+          "point_estimate": 18.518666666666665,
+          "std_error": 1.645158557166892,
+          "ci_95_lower": 15.389999999999997,
+          "ci_95_upper": 21.85665
+        },
+        "knowledge_coverage": {
+          "name": "Knowledge Coverage (%)",
+          "point_estimate": 48.816,
+          "std_error": 1.68601779005294,
+          "ci_95_lower": 45.504,
+          "ci_95_upper": 52.182
+        },
+        "scene_relevance": {
+          "name": "Scene Relevance (%)",
+          "point_estimate": 74.4,
+          "std_error": 2.7402165298384724,
+          "ci_95_lower": 68.8,
+          "ci_95_upper": 79.6
+        }
+      }
+    },
+    "lari": {
+      "name": "+ LARI (with Naive Aggregation μ_all)",
+      "metrics": {
+        "factual_precision": {
+          "name": "Factual Precision (%)",
+          "point_estimate": 80.42666666666666,
+          "std_error": 1.7302840629774592,
+          "ci_95_lower": 76.9,
+          "ci_95_upper": 83.7
+        },
+        "unsupported_rate": {
+          "name": "Unsupported Rate (%)",
+          "point_estimate": 19.49333333333333,
+          "std_error": 1.7317458496493567,
+          "ci_95_lower": 16.200000000000003,
+          "ci_95_upper": 23.006999999999994
+        },
+        "knowledge_coverage": {
+          "name": "Knowledge Coverage (%)",
+          "point_estimate": 59.196,
+          "std_error": 1.8628303147360874,
+          "ci_95_lower": 55.520925,
+          "ci_95_upper": 62.856
+        },
+        "scene_relevance": {
+          "name": "Scene Relevance (%)",
+          "point_estimate": 74.4,
+          "std_error": 2.7402165298384724,
+          "ci_95_lower": 68.8,
+          "ci_95_upper": 79.6
+        }
+      }
+    },
+    "ldfi": {
+      "name": "+ LDFI (Disjoint Inference)",
+      "metrics": {
+        "factual_precision": {
+          "name": "Factual Precision (%)",
+          "point_estimate": 80.42666666666666,
+          "std_error": 1.7302840629774592,
+          "ci_95_lower": 76.9,
+          "ci_95_upper": 83.7
+        },
+        "unsupported_rate": {
+          "name": "Unsupported Rate (%)",
+          "point_estimate": 19.49333333333333,
+          "std_error": 1.7317458496493567,
+          "ci_95_lower": 16.200000000000003,
+          "ci_95_upper": 23.006999999999994
+        },
+        "knowledge_coverage": {
+          "name": "Knowledge Coverage (%)",
+          "point_estimate": 59.196,
+          "std_error": 1.8628303147360874,
+          "ci_95_lower": 55.520925,
+          "ci_95_upper": 62.856
+        },
+        "scene_relevance": {
+          "name": "Scene Relevance (%)",
+          "point_estimate": 74.4,
+          "std_error": 2.7402165298384724,
+          "ci_95_lower": 68.8,
+          "ci_95_upper": 79.6
+        }
+      }
+    },
+    "ours": {
+      "name": "+ Selective Gate (Ours)",
+      "metrics": {
+        "factual_precision": {
+          "name": "Factual Precision (%)",
+          "point_estimate": 83.10666666666665,
+          "std_error": 1.7422197306149425,
+          "ci_95_lower": 79.59949999999998,
+          "ci_95_upper": 86.37333333333333
+        },
+        "unsupported_rate": {
+          "name": "Unsupported Rate (%)",
+          "point_estimate": 16.893333333333334,
+          "std_error": 1.7422197306149412,
+          "ci_95_lower": 13.626666666666669,
+          "ci_95_upper": 20.40049999999999
+        },
+        "knowledge_coverage": {
+          "name": "Knowledge Coverage (%)",
+          "point_estimate": 54.48,
+          "std_error": 1.7534134955554552,
+          "ci_95_lower": 51.02,
+          "ci_95_upper": 57.92
+        },
+        "scene_relevance": {
+          "name": "Scene Relevance (%)",
+          "point_estimate": 78.8,
+          "std_error": 2.58690070748763,
+          "ci_95_lower": 73.6,
+          "ci_95_upper": 83.6
+        }
+      }
+    }
+  },
+  "stepwise_deltas": [
+    {
+      "step": "VLM + RAG (Text Baseline) -> + Provenance-Aware FKG",
+      "from_cfg": "vlm_rag",
+      "to_cfg": "fkg",
+      "deltas": {
+        "factual_precision": {
+          "metric_name": "Factual Precision (%)",
+          "delta": 16.803124790743944,
+          "std_error": 1.546690350950166,
+          "ci_95_lower": 13.741654088058496,
+          "ci_95_upper": 19.869642756623374,
+          "p_value": 0.0001
+        },
+        "unsupported_rate": {
+          "metric_name": "Unsupported Rate (%)",
+          "delta": -15.304886479275552,
+          "std_error": 2.5917675979198522,
+          "ci_95_lower": -20.391510263606662,
+          "ci_95_upper": -10.287223833551087,
+          "p_value": 0.0001
+        },
+        "knowledge_coverage": {
+          "metric_name": "Knowledge Coverage (%)",
+          "delta": 9.181669139430923,
+          "std_error": 1.4011269816360856,
+          "ci_95_lower": 6.431796031300598,
+          "ci_95_upper": 11.936922819818143,
+          "p_value": 0.0001
+        },
+        "scene_relevance": {
+          "metric_name": "Scene Relevance (%)",
+          "delta": 10.634776831814065,
+          "std_error": 1.8624532807415664,
+          "ci_95_lower": 6.982928989539309,
+          "ci_95_upper": 14.23130097618873,
+          "p_value": 0.0001
+        }
+      }
+    },
+    {
+      "step": "+ Provenance-Aware FKG -> + Visual Admission (Γ_K)",
+      "from_cfg": "fkg",
+      "to_cfg": "vis_adm",
+      "deltas": {
+        "factual_precision": {
+          "metric_name": "Factual Precision (%)",
+          "delta": 4.021333333333359,
+          "std_error": 0.08651420314887091,
+          "ci_95_lower": 3.844999999999999,
+          "ci_95_upper": 4.185000000000002,
+          "p_value": 0.0001
+        },
+        "unsupported_rate": {
+          "metric_name": "Unsupported Rate (%)",
+          "delta": -3.2386666666666635,
+          "std_error": 0.2713052135789315,
+          "ci_95_lower": -3.791999999999988,
+          "ci_95_upper": -2.7173333333333396,
+          "p_value": 0.0001
+        },
+        "knowledge_coverage": {
+          "metric_name": "Knowledge Coverage (%)",
+          "delta": 4.339199999999934,
+          "std_error": 0.1498682480047071,
+          "ci_95_lower": 4.0447999999999595,
+          "ci_95_upper": 4.638399999999962,
+          "p_value": 0.0001
+        },
+        "scene_relevance": {
+          "metric_name": "Scene Relevance (%)",
+          "delta": 23.808000000000007,
+          "std_error": 0.8768692895483112,
+          "ci_95_lower": 22.016,
+          "ci_95_upper": 25.471999999999994,
+          "p_value": 0.0001
+        }
+      }
+    },
+    {
+      "step": "+ Visual Admission (Γ_K) -> + LARI (with Naive Aggregation μ_all)",
+      "from_cfg": "vis_adm",
+      "to_cfg": "lari",
+      "deltas": {
+        "factual_precision": {
+          "metric_name": "Factual Precision (%)",
+          "delta": 8.042666666666662,
+          "std_error": 0.1730284062977476,
+          "ci_95_lower": 7.690000000000012,
+          "ci_95_upper": 8.370000000000005,
+          "p_value": 0.0001
+        },
+        "unsupported_rate": {
+          "metric_name": "Unsupported Rate (%)",
+          "delta": 0.9746666666666641,
+          "std_error": 0.08658729248246463,
+          "ci_95_lower": 0.8100000000000058,
+          "ci_95_upper": 1.1503500000000022,
+          "p_value": 0.0001
+        },
+        "knowledge_coverage": {
+          "metric_name": "Knowledge Coverage (%)",
+          "delta": 10.379999999999995,
+          "std_error": 0.2837364479050057,
+          "ci_95_lower": 9.834999999999994,
+          "ci_95_upper": 10.934999999999995,
+          "p_value": 0.0001
+        },
+        "scene_relevance": {
+          "metric_name": "Scene Relevance (%)",
+          "delta": 0.0,
+          "std_error": 0.0,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0,
+          "p_value": 1.0
+        }
+      }
+    },
+    {
+      "step": "+ LARI (with Naive Aggregation μ_all) -> + LDFI (Disjoint Inference)",
+      "from_cfg": "lari",
+      "to_cfg": "ldfi",
+      "deltas": {
+        "factual_precision": {
+          "metric_name": "Factual Precision (%)",
+          "delta": 0.0,
+          "std_error": 0.0,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0,
+          "p_value": 1.0
+        },
+        "unsupported_rate": {
+          "metric_name": "Unsupported Rate (%)",
+          "delta": 0.0,
+          "std_error": 0.0,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0,
+          "p_value": 1.0
+        },
+        "knowledge_coverage": {
+          "metric_name": "Knowledge Coverage (%)",
+          "delta": 0.0,
+          "std_error": 0.0,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0,
+          "p_value": 1.0
+        },
+        "scene_relevance": {
+          "metric_name": "Scene Relevance (%)",
+          "delta": 0.0,
+          "std_error": 0.0,
+          "ci_95_lower": 0.0,
+          "ci_95_upper": 0.0,
+          "p_value": 1.0
+        }
+      }
+    },
+    {
+      "step": "+ LDFI (Disjoint Inference) -> + Selective Gate (Ours)",
+      "from_cfg": "ldfi",
+      "to_cfg": "ours",
+      "deltas": {
+        "factual_precision": {
+          "metric_name": "Factual Precision (%)",
+          "delta": 2.6799999999999926,
+          "std_error": 1.9975868760499795,
+          "ci_95_lower": -1.2668333333333588,
+          "ci_95_upper": 6.606666666666669,
+          "p_value": 0.183
+        },
+        "unsupported_rate": {
+          "metric_name": "Unsupported Rate (%)",
+          "delta": -2.5999999999999943,
+          "std_error": 1.996817938334666,
+          "ci_95_lower": -6.533333333333328,
+          "ci_95_upper": 1.3401666666666638,
+          "p_value": 0.1952
+        },
+        "knowledge_coverage": {
+          "metric_name": "Knowledge Coverage (%)",
+          "delta": -4.716000000000001,
+          "std_error": 1.7999218566076,
+          "ci_95_lower": -8.264024999999997,
+          "ci_95_upper": -1.2398249999999975,
+          "p_value": 0.008
+        },
+        "scene_relevance": {
+          "metric_name": "Scene Relevance (%)",
+          "delta": 4.3999999999999915,
+          "std_error": 3.0670571891635796,
+          "ci_95_lower": -1.6000000000000085,
+          "ci_95_upper": 10.399999999999991,
+          "p_value": 0.1746
+        }
+      }
+    }
+  ],
+  "oracle_results": {
+    "predicted": {
+      "name": "Full system (predicted grounding)",
+      "metrics": {
+        "factual_precision": {
+          "name": "Factual Precision (%)",
+          "point_estimate": 83.10666666666665,
+          "std_error": 1.7422197306149425,
+          "ci_95_lower": 79.59949999999998,
+          "ci_95_upper": 86.37333333333333
+        },
+        "unsupported_rate": {
+          "name": "Unsupported Rate (%)",
+          "point_estimate": 16.893333333333334,
+          "std_error": 1.7422197306149412,
+          "ci_95_lower": 13.626666666666669,
+          "ci_95_upper": 20.40049999999999
+        },
+        "knowledge_coverage": {
+          "name": "Knowledge Coverage (%)",
+          "point_estimate": 54.48,
+          "std_error": 1.7534134955554552,
+          "ci_95_lower": 51.02,
+          "ci_95_upper": 57.92
+        },
+        "scene_relevance": {
+          "name": "Scene Relevance (%)",
+          "point_estimate": 78.8,
+          "std_error": 2.58690070748763,
+          "ci_95_lower": 73.6,
+          "ci_95_upper": 83.6
+        }
+      }
+    },
+    "oracle": {
+      "name": "Oracle grounding (ground-truth landmark)",
+      "metrics": {
+        "factual_precision": {
+          "name": "Factual Precision (%)",
+          "point_estimate": 86.77519999999986,
+          "std_error": 1.4630978451278445,
+          "ci_95_lower": 83.75968666666657,
+          "ci_95_upper": 89.47093999999994
+        },
+        "unsupported_rate": {
+          "name": "Unsupported Rate (%)",
+          "point_estimate": 11.650399999999967,
+          "std_error": 1.5044861360616626,
+          "ci_95_lower": 8.85839333333333,
+          "ci_95_upper": 14.766133333333297
+        },
+        "knowledge_coverage": {
+          "name": "Knowledge Coverage (%)",
+          "point_estimate": 58.45120000000015,
+          "std_error": 1.3680359382633207,
+          "ci_95_lower": 55.72638000000012,
+          "ci_95_upper": 61.10962000000013
+        },
+        "scene_relevance": {
+          "name": "Scene Relevance (%)",
+          "point_estimate": 81.9848000000001,
+          "std_error": 2.009422501778078,
+          "ci_95_lower": 77.92400000000002,
+          "ci_95_upper": 85.66960000000006
+        }
+      }
+    },
+    "paired_delta": {
+      "factual_precision": {
+        "name": "Factual Precision (%)",
+        "delta": 3.668533333333201,
+        "std_error": 1.065156281981818,
+        "ci_95_lower": 1.7194666666666047,
+        "ci_95_upper": 5.871199999999876,
+        "p_value": 0.0004
+      },
+      "unsupported_rate": {
+        "name": "Unsupported Rate (%)",
+        "delta": -5.242933333333367,
+        "std_error": 1.0904124707626304,
+        "ci_95_lower": -7.500119999999995,
+        "ci_95_upper": -3.2338600000000186,
+        "p_value": 0.0001
+      },
+      "knowledge_coverage": {
+        "name": "Knowledge Coverage (%)",
+        "delta": 3.9712000000001524,
+        "std_error": 1.1060812040496861,
+        "ci_95_lower": 1.8007600000000883,
+        "ci_95_upper": 6.13124000000012,
+        "p_value": 0.0002
+      },
+      "scene_relevance": {
+        "name": "Scene Relevance (%)",
+        "delta": 3.1848000000001093,
+        "std_error": 1.6805236500841052,
+        "ci_95_lower": 0.02720000000003573,
+        "ci_95_upper": 6.63919999999999,
+        "p_value": 0.0484
+      }
+    }
+  },
+  "error_decomposition": {
+    "total_claims": 575,
+    "total_error_claims": 91,
+    "total_error_rate_pct": 15.82608695652174,
+    "components": {
+      "grounding_caused": {
+        "claim_count": 66,
+        "error_rate_pp": 11.478260869565217,
+        "share_of_total_errors_pct": 72.52747252747253,
+        "description": "Mismatched landmark subgraph retrieval caused by visual classifier confusion (≈23.9% mis-grounding)"
+      },
+      "reasoning_caused": {
+        "claim_count": 4,
+        "error_rate_pp": 0.6956521739130435,
+        "share_of_total_errors_pct": 4.395604395604396,
+        "description": "Fuzzy rule deduction error on correctly retrieved graph (1 - Precision_LDFI = 2.00%)"
+      },
+      "generation_gating_caused": {
+        "claim_count": 21,
+        "error_rate_pp": 3.6521739130434785,
+        "share_of_total_errors_pct": 23.076923076923077,
+        "description": "LLM surface generation drift, visual admission leakage, or stylistic over-elaboration"
+      }
+    },
+    "thesis_validation": {
+      "grounding_dominance_ratio": 2.6399999999999997,
+      "ratio_grounding_to_reasoning": 16.5,
+      "conclusion": "remaining end-to-end errors are dominated by grounding rather than reasoning"
+    }
+  },
+  "B": 10000,
+  "N": 250
+}

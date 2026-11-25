@@ -1,0 +1,43 @@
+visual_judge:
+  model_id: "Qwen/Qwen3-VL-8B-Instruct"
+  torch_dtype: "bfloat16"
+  device: "cuda:0"
+  frames_per_clip: 12
+  min_scene_length: 15
+  temperature: 0.0
+  max_new_tokens: 1024
+
+historical_judge:
+  model_id: "Qwen/Qwen2.5-14B-Instruct"
+  torch_dtype: "bfloat16"
+  device: "cuda:0"
+  temperature: 0.0
+  max_new_tokens: 512
+
+retriever:
+  model_id: "BAAI/bge-m3"
+  device: "cuda:0"
+  top_k_chunks: 5
+  chunk_size_words: 150
+  chunk_overlap_words: 30
+
+datasets:
+  hanoi:
+    split: "test_balanced_500"
+    num_clips: 500
+    landmarks_count: 30
+    prompt_file: "data/caption_dataset/raw_prompts_test_balanced_500_vcgat.jsonl"
+    video_dir: "data/unified_coco_dataset/videos/test"
+    coco_anno: "data/unified_coco_dataset/annotations/test_coco.json"
+  hcmc:
+    split: "ood_test_300"
+    num_clips: 300
+    landmarks_count: 5
+    manifest_file: "data/hcmc_benchmark/hcmc_clean_manifest.json"
+    dataset_file: "data/hcmc_benchmark/hcmc_300_x5_dataset.jsonl"
+    video_dir: "data/VIDEO_TEST_HCMC_CLEAN"
+
+knowledge_base:
+  fkg_per_kb_dir: "data/fkg_per_kb"
+  global_fkg_json: "data/fkg_en/fkg_facts.json"
+  sources_dir: "data/sources/VCGAT_35_Landmarks_NLP_Factual_Expanded"

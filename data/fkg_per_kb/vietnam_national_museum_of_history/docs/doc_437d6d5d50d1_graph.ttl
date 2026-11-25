@@ -1,0 +1,54 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q1858> onto:architectural_style <http://transmtl.vn/ent/73037834> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history> onto:has_part <http://transmtl.vn/kb/vietnam_national_museum_of_history#exhibits>,
+        <http://transmtl.vn/kb/vietnam_national_museum_of_history#stele> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history#exhibits> onto:in <http://transmtl.vn/ent/b8478b5f> .
+
+<http://transmtl.vn/kb/vietnam_national_museum_of_history#stele> onto:dedicated_to <http://transmtl.vn/ent/22a700bb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_437d6d5d50d1" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.818 ;
+    fkg:docId "doc_437d6d5d50d1" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/22a700bb> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3871 ;
+    fkg:docId "doc_437d6d5d50d1" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/73037834> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_437d6d5d50d1" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_national_museum_of_history#exhibits> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2622 ;
+    fkg:docId "doc_437d6d5d50d1" ;
+    fkg:kbId "vietnam_national_museum_of_history" ;
+    rdf:object <http://transmtl.vn/ent/b8478b5f> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_national_museum_of_history#exhibits> .
+

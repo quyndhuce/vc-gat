@@ -1,0 +1,170 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q10840569#columns> onto:part_of <http://transmtl.vn/ent/ce570073> .
+
+<http://transmtl.vn/ent/6984056d> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q10840569#gốm_men_lam_relief_panels> onto:on <http://transmtl.vn/ent/a14be22f> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q10840569> onto:has_part <http://www.wikidata.org/entity/Q10840569#columns>,
+        <http://www.wikidata.org/entity/Q10840569#gốm_men_lam_relief_panels> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/6984056d>,
+        <http://transmtl.vn/ent/92da1d30>,
+        <http://transmtl.vn/ent/960db2ed> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/6984056d>,
+        <http://transmtl.vn/ent/92da1d30> ;
+    onto:symbol_of <http://transmtl.vn/ent/b51695a9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6638 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/b51695a9> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2718 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/a14be22f> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#gốm_men_lam_relief_panels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2672 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/6984056d> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8394 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5065 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/6984056d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.302 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2614 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/92da1d30> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2758 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5645 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/6984056d> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.444 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4955 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2516 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/a14be22f> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#gốm_men_lam_relief_panels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3897 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2585 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/960db2ed> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#gốm_men_lam_relief_panels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2719 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ff21588f23eb" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#gốm_men_lam_relief_panels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+

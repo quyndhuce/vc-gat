@@ -1,0 +1,39 @@
+{
+  "dataset_size": 250,
+  "gpu_sample_size": 30,
+  "prompt_diff_v2_vs_naive": 226,
+  "prompt_diff_v2_vs_base": 250,
+  "prompt_diff_v2_vs_v1": 250,
+  "caption_diff_v2_vs_naive": 20,
+  "caption_diff_v2_vs_base": 30,
+  "metrics_by_cfg": {
+    "ldfi_v2": {
+      "name": "1. Ours: LDFI-v2 (Scaled + Anti-Echo)",
+      "avg_inferred_facts": 1.884,
+      "pct_videos_with_inferred": 42.8,
+      "fact_error_rate_pct": 0.03,
+      "relation_entropy": 2.866
+    },
+    "naive_noisy_or": {
+      "name": "2. Ablation: Naive Noisy-OR (mu_all)",
+      "avg_inferred_facts": 2.724,
+      "pct_videos_with_inferred": 90.4,
+      "fact_error_rate_pct": 0.03,
+      "relation_entropy": 2.84
+    },
+    "base_only": {
+      "name": "3. Ablation: Base Facts Only (No Inf)",
+      "avg_inferred_facts": 0.0,
+      "pct_videos_with_inferred": 0.0,
+      "fact_error_rate_pct": 0.03,
+      "relation_entropy": 1.061
+    },
+    "ldfi_v1": {
+      "name": "4. Ablation: LDFI-v1 (Old Lukasiewicz)",
+      "avg_inferred_facts": 0.0,
+      "pct_videos_with_inferred": 0.0,
+      "fact_error_rate_pct": 0.03,
+      "relation_entropy": 1.061
+    }
+  }
+}

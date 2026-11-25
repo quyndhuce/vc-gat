@@ -1,0 +1,80 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q1858> onto:surrounded_by <http://transmtl.vn/ent/0fdde52c> .
+
+<http://transmtl.vn/ent/9dfe367a> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/de5f4e1a> .
+
+<http://transmtl.vn/kb/huu_tiep_lake> onto:commemorates <http://transmtl.vn/ent/3e79d32e> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/9dfe367a>,
+        <http://transmtl.vn/ent/de5f4e1a> ;
+    onto:part_of <http://transmtl.vn/ent/de5f4e1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3346 ;
+    fkg:docId "doc_17b345ecf2f9" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9dfe367a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3919 ;
+    fkg:docId "doc_17b345ecf2f9" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/9dfe367a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.495 ;
+    fkg:docId "doc_17b345ecf2f9" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3357 ;
+    fkg:docId "doc_17b345ecf2f9" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4251 ;
+    fkg:docId "doc_17b345ecf2f9" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/3e79d32e> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2656 ;
+    fkg:docId "doc_17b345ecf2f9" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9dfe367a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4468 ;
+    fkg:docId "doc_17b345ecf2f9" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/de5f4e1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/huu_tiep_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3143 ;
+    fkg:docId "doc_17b345ecf2f9" ;
+    fkg:kbId "huu_tiep_lake" ;
+    rdf:object <http://transmtl.vn/ent/0fdde52c> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

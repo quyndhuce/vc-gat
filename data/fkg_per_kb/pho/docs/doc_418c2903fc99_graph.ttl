@@ -1,0 +1,80 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/pho> onto:has_part <http://transmtl.vn/kb/pho#stalls> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://transmtl.vn/kb/pho#stalls> onto:located_in <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:part_of <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://www.wikidata.org/entity/Q1858> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3444 ;
+    fkg:docId "doc_418c2903fc99" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3176 ;
+    fkg:docId "doc_418c2903fc99" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2584 ;
+    fkg:docId "doc_418c2903fc99" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pho#stalls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4731 ;
+    fkg:docId "doc_418c2903fc99" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_418c2903fc99" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/kb/pho#stalls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4176 ;
+    fkg:docId "doc_418c2903fc99" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho#stalls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2616 ;
+    fkg:docId "doc_418c2903fc99" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9848 ;
+    fkg:docId "doc_418c2903fc99" ;
+    fkg:kbId "pho" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

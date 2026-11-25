@@ -1,0 +1,627 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/dai_thanh_gate> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/dai_trung_gate> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thien_quang_well> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/ba0e74fe> onto:located_in <http://transmtl.vn/ent/8a7d7ba2>,
+        <http://transmtl.vn/ent/9690a92f> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#final_stele> onto:dated_to <http://transmtl.vn/ent/f63f65b5> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#first_stele> onto:dated_to <http://transmtl.vn/ent/729c6888> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#khu_van_hall> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#minh_duong_lake> onto:located_in <http://transmtl.vn/ent/9690a92f> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/van_mieu_gate> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/2e607776> onto:belongs_to_dynasty <http://transmtl.vn/ent/8c6f13a6> ;
+    onto:located_in <http://transmtl.vn/ent/d6493117> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#shrine> onto:dedicated_to <http://transmtl.vn/ent/f607a351> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/9690a92f> onto:located_in <http://transmtl.vn/ent/8a7d7ba2> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/d873154f> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/d0c6da85>,
+        <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:near <http://transmtl.vn/ent/2e7c2ea3>,
+        <http://transmtl.vn/ent/5ebd8509> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> onto:belongs_to_dynasty <http://transmtl.vn/ent/8c6f13a6> ;
+    onto:dated_to <http://transmtl.vn/ent/f63f65b5> ;
+    onto:made_of <http://transmtl.vn/ent/90ce7743> ;
+    onto:near <http://transmtl.vn/ent/68d20ef0> ;
+    onto:surrounded_by <http://transmtl.vn/ent/4f58bf08> ;
+    onto:symbol_of <http://transmtl.vn/ent/931e138e>,
+        <http://transmtl.vn/ent/a541714a> ;
+    onto:used_as <http://transmtl.vn/kb/calligraphy> .
+
+<http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> onto:has_part <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#final_stele>,
+        <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#first_stele>,
+        <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#khu_van_hall>,
+        <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#minh_duong_lake>,
+        <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion>,
+        <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors>,
+        <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae>,
+        <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#shrine>,
+        <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:former_name_of <http://transmtl.vn/kb/van_mieu_gate> ;
+    onto:has_part <http://transmtl.vn/ent/d0c6da85> ;
+    onto:in <http://transmtl.vn/ent/207462d2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/8a7d7ba2>,
+        <http://transmtl.vn/ent/9690a92f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8843 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/f607a351> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4476 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2717 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/ba0e74fe> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5252 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7978 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4186 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/729c6888> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#first_stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2753 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/calligraphy> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5506 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2541 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/d873154f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4547 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#khu_van_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3046 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/68d20ef0> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4675 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2923 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3188 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/8c6f13a6> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/2e607776> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4849 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_thanh_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2539 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5655 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2861 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/931e138e> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4676 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/d6493117> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2e607776> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2693 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/4f58bf08> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#minh_duong_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#final_stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5664 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/8a7d7ba2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5624 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2841 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/2e607776> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4812 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/8a7d7ba2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9690a92f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3196 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/8c6f13a6> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.331 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/d0c6da85> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3065 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/f63f65b5> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5824 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dai_trung_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#first_stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3187 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/90ce7743> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8446 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/f607a351> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2809 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7262 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2989 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/8a7d7ba2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ba0e74fe> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4048 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3205 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#khu_van_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2537 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/f63f65b5> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#final_stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.296 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/a541714a> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3982 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3203 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3072 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/d0c6da85> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3731 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#stele> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.375 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/5ebd8509> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8075 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/9690a92f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2919 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3037 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7462 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.524 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/9690a92f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ba0e74fe> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2856 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/9690a92f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#minh_duong_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3778 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/8c6f13a6> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/2e607776> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5757 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2817 ;
+    fkg:docId "doc_dbbef58639e4" ;
+    fkg:kbId "the_pavilion_of_doctors_stelae" ;
+    rdf:object <http://transmtl.vn/ent/2e7c2ea3> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/the_pavilion_of_doctors_stelae#pavilion_of_doctors_stelae> .
+

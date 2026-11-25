@@ -1,0 +1,182 @@
+{
+  "vlm_direct": {
+    "baseline_key": "vlm_direct",
+    "baseline_name": "VLM trực tiếp (Qwen3-VL-8B)",
+    "total_pairs": 250,
+    "questions": {
+      "q1_more_scene_consistent": {
+        "ours_win": 189,
+        "ours_win_pct": 75.6,
+        "tie": 9,
+        "tie_pct": 3.6,
+        "ours_loss": 52,
+        "ours_loss_pct": 20.8
+      },
+      "q2_more_factual_reliable": {
+        "ours_win": 162,
+        "ours_win_pct": 64.8,
+        "tie": 2,
+        "tie_pct": 0.8,
+        "ours_loss": 86,
+        "ours_loss_pct": 34.4
+      },
+      "q3_more_engaging_to_listen": {
+        "ours_win": 129,
+        "ours_win_pct": 51.6,
+        "tie": 1,
+        "tie_pct": 0.4,
+        "ours_loss": 120,
+        "ours_loss_pct": 48.0
+      }
+    },
+    "overall": {
+      "ours_win_pct": 64.0,
+      "tie_pct": 1.6,
+      "ours_loss_pct": 34.4
+    }
+  },
+  "vlm_rag": {
+    "baseline_key": "vlm_rag",
+    "baseline_name": "VLM + RAG (Qwen3-VL-8B + SigLIP2)",
+    "total_pairs": 250,
+    "questions": {
+      "q1_more_scene_consistent": {
+        "ours_win": 176,
+        "ours_win_pct": 70.4,
+        "tie": 29,
+        "tie_pct": 11.6,
+        "ours_loss": 45,
+        "ours_loss_pct": 18.0
+      },
+      "q2_more_factual_reliable": {
+        "ours_win": 136,
+        "ours_win_pct": 54.4,
+        "tie": 0,
+        "tie_pct": 0.0,
+        "ours_loss": 114,
+        "ours_loss_pct": 45.6
+      },
+      "q3_more_engaging_to_listen": {
+        "ours_win": 76,
+        "ours_win_pct": 30.4,
+        "tie": 0,
+        "tie_pct": 0.0,
+        "ours_loss": 174,
+        "ours_loss_pct": 69.6
+      }
+    },
+    "overall": {
+      "ours_win_pct": 51.73,
+      "tie_pct": 3.87,
+      "ours_loss_pct": 44.4
+    }
+  },
+  "frozen_base": {
+    "baseline_key": "frozen_base",
+    "baseline_name": "LLM đóng băng (Base Qwen2.5-3B)",
+    "total_pairs": 250,
+    "questions": {
+      "q1_more_scene_consistent": {
+        "ours_win": 155,
+        "ours_win_pct": 62.0,
+        "tie": 16,
+        "tie_pct": 6.4,
+        "ours_loss": 79,
+        "ours_loss_pct": 31.6
+      },
+      "q2_more_factual_reliable": {
+        "ours_win": 158,
+        "ours_win_pct": 63.2,
+        "tie": 4,
+        "tie_pct": 1.6,
+        "ours_loss": 88,
+        "ours_loss_pct": 35.2
+      },
+      "q3_more_engaging_to_listen": {
+        "ours_win": 169,
+        "ours_win_pct": 67.6,
+        "tie": 1,
+        "tie_pct": 0.4,
+        "ours_loss": 80,
+        "ours_loss_pct": 32.0
+      }
+    },
+    "overall": {
+      "ours_win_pct": 64.27,
+      "tie_pct": 2.8,
+      "ours_loss_pct": 32.93
+    }
+  },
+  "ablation_no_threshold": {
+    "baseline_key": "ablation_no_threshold",
+    "baseline_name": "Bỏ ngưỡng (Always Affirm)",
+    "total_pairs": 250,
+    "questions": {
+      "q1_more_scene_consistent": {
+        "ours_win": 136,
+        "ours_win_pct": 54.4,
+        "tie": 4,
+        "tie_pct": 1.6,
+        "ours_loss": 110,
+        "ours_loss_pct": 44.0
+      },
+      "q2_more_factual_reliable": {
+        "ours_win": 128,
+        "ours_win_pct": 51.2,
+        "tie": 1,
+        "tie_pct": 0.4,
+        "ours_loss": 121,
+        "ours_loss_pct": 48.4
+      },
+      "q3_more_engaging_to_listen": {
+        "ours_win": 120,
+        "ours_win_pct": 48.0,
+        "tie": 0,
+        "tie_pct": 0.0,
+        "ours_loss": 130,
+        "ours_loss_pct": 52.0
+      }
+    },
+    "overall": {
+      "ours_win_pct": 51.2,
+      "tie_pct": 0.67,
+      "ours_loss_pct": 48.13
+    }
+  },
+  "ablation_no_anchor": {
+    "baseline_key": "ablation_no_anchor",
+    "baseline_name": "Bỏ neo (Greedy mu_F)",
+    "total_pairs": 250,
+    "questions": {
+      "q1_more_scene_consistent": {
+        "ours_win": 142,
+        "ours_win_pct": 56.8,
+        "tie": 10,
+        "tie_pct": 4.0,
+        "ours_loss": 98,
+        "ours_loss_pct": 39.2
+      },
+      "q2_more_factual_reliable": {
+        "ours_win": 137,
+        "ours_win_pct": 54.8,
+        "tie": 1,
+        "tie_pct": 0.4,
+        "ours_loss": 112,
+        "ours_loss_pct": 44.8
+      },
+      "q3_more_engaging_to_listen": {
+        "ours_win": 135,
+        "ours_win_pct": 54.0,
+        "tie": 0,
+        "tie_pct": 0.0,
+        "ours_loss": 115,
+        "ours_loss_pct": 46.0
+      }
+    },
+    "overall": {
+      "ours_win_pct": 55.2,
+      "tie_pct": 1.47,
+      "ours_loss_pct": 43.33
+    }
+  }
+}

@@ -1,0 +1,60 @@
+# Ontology predicate mapping, aliases, and directional constraints
+
+relation_aliases:
+  has_structural_component: "has_component"
+  component_of: "part_of"
+  spatial_adjacent_to: "adjacent_to"
+  inside: "located_inside"
+  in_front_of: "located_in_front_of"
+  behind: "located_behind"
+  next_to: "adjacent_to"
+  under: "below"
+  consists_of: "has_component"
+  equipped_with: "has_component"
+
+inverse_relations:
+  has_component: "part_of"
+  part_of: "has_component"
+  has_part: "part_of"
+  located_inside: "houses"
+  houses: "located_inside"
+  located_in_front_of: "located_behind"
+  located_behind: "located_in_front_of"
+  above: "below"
+  below: "above"
+
+symmetric_relations:
+  - "adjacent_to"
+  - "connected_to"
+  - "border_with"
+
+spatial_predicates:
+  - "located_in_front_of"
+  - "located_behind"
+  - "adjacent_to"
+  - "above"
+  - "below"
+  - "surrounded_by"
+  - "connected_to"
+  - "faces"
+  - "overlooks"
+
+architectural_component_predicates:
+  - "has_component"
+  - "part_of"
+  - "has_roof_type"
+  - "has_roof_shape"
+  - "has_column_type"
+  - "has_window_type"
+  - "has_door_type"
+  - "has_ornament"
+  - "depicts_motif"
+  - "has_shape"
+  - "has_number_of_levels"
+  - "has_number_of_columns"
+  - "has_surface_texture"
+  - "has_pattern"
+  - "has_inscription"
+  - "has_decoration"
+  - "has_physical_condition"
+  - "has_restoration_feature"

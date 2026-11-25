@@ -1,0 +1,237 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/34a6e5d6> onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+<http://transmtl.vn/ent/8d3e54a8> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/ab1a5ac4> onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+<http://transmtl.vn/ent/d5d40c2e> onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+<http://transmtl.vn/kb/kinh_thien_palace#foundation> onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+<http://transmtl.vn/kb/kinh_thien_palace> onto:built_in <http://transmtl.vn/ent/0663a4dd> ;
+    onto:has_part <http://transmtl.vn/kb/kinh_thien_palace#foundation>,
+        <http://transmtl.vn/kb/kinh_thien_palace#platform> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/kinh_thien_palace#platform> onto:part_of <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    onto:surrounded_by <http://transmtl.vn/ent/16da24a9>,
+        <http://transmtl.vn/ent/ff2364a0> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/8c6f13a6>,
+        <http://transmtl.vn/ent/e909c2d7> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:built_in <http://transmtl.vn/ent/0663a4dd> ;
+    onto:has_part <http://transmtl.vn/ent/01baf36b> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:part_of <http://transmtl.vn/ent/bd983bc0> ;
+    onto:surrounded_by <http://transmtl.vn/ent/88d2c32b>,
+        <http://transmtl.vn/ent/ed0aa594> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3079 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/16da24a9> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace#platform> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2836 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace#platform> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5991 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/0663a4dd> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3051 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/88d2c32b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5793 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/0663a4dd> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2646 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/8c6f13a6> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5413 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/e909c2d7> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4695 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/34a6e5d6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.358 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/bd983bc0> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace#platform> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4563 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/ed0aa594> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3612 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/01baf36b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2745 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/ff2364a0> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace#platform> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6143 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.295 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/d5d40c2e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2536 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/8d3e54a8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4519 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9679 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace#foundation> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7482 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace#platform> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2848 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace#foundation> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3613 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace#platform> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.258 ;
+    fkg:docId "doc_121924e8b43f" ;
+    fkg:kbId "kinh_thien_palace" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/ab1a5ac4> .
+

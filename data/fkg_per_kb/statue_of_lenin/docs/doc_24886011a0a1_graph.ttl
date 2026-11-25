@@ -1,0 +1,42 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/statue_of_lenin> onto:dated_to <http://transmtl.vn/ent/9d7311ba> ;
+    onto:located_in <http://transmtl.vn/ent/122fcc42>,
+        <http://transmtl.vn/ent/b4fe022a> ;
+    onto:on <http://transmtl.vn/ent/273eb985> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3234 ;
+    fkg:docId "doc_24886011a0a1" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/ent/122fcc42> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3029 ;
+    fkg:docId "doc_24886011a0a1" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/ent/9d7311ba> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2583 ;
+    fkg:docId "doc_24886011a0a1" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/ent/273eb985> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4412 ;
+    fkg:docId "doc_24886011a0a1" ;
+    fkg:kbId "statue_of_lenin" ;
+    rdf:object <http://transmtl.vn/ent/b4fe022a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/statue_of_lenin> .
+

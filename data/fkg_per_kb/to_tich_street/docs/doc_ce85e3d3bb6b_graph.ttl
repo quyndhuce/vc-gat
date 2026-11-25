@@ -1,0 +1,283 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/8e950ac9> .
+
+<http://transmtl.vn/ent/b4d65c7f> onto:on <http://transmtl.vn/kb/to_tich_street> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter> onto:located_in <http://transmtl.vn/ent/53aad639>,
+        <http://transmtl.vn/ent/e53f7bd5> .
+
+<http://transmtl.vn/ent/552ea13d> onto:former_name_of <http://transmtl.vn/kb/to_tich_street> .
+
+<http://transmtl.vn/ent/60850958> onto:located_in <http://transmtl.vn/ent/53aad639>,
+        <http://transmtl.vn/ent/e53f7bd5> .
+
+<http://transmtl.vn/kb/to_tich_street#odd_numbered_side> onto:near <http://transmtl.vn/ent/713b714c>,
+        <http://transmtl.vn/kb/hang_gai_street> .
+
+<http://transmtl.vn/ent/e53f7bd5> onto:located_in <http://transmtl.vn/ent/53aad639> .
+
+<http://transmtl.vn/ent/207462d2> onto:has_part <http://transmtl.vn/kb/to_tich_street> .
+
+<http://transmtl.vn/kb/to_tich_street> onto:former_name_of <http://transmtl.vn/ent/552ea13d>,
+        <http://transmtl.vn/ent/81b5025b> ;
+    onto:has_part <http://transmtl.vn/kb/to_tich_street#odd_numbered_side> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/8e950ac9> ;
+    onto:near <http://transmtl.vn/ent/986a6f66>,
+        <http://transmtl.vn/ent/9bfc0316> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/8e950ac9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3092 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4512 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6758 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/b4d65c7f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6729 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.256 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/53aad639> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e53f7bd5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4219 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3339 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/53aad639> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/60850958> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2844 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/986a6f66> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street#odd_numbered_side> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6311 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3296 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/e53f7bd5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/60850958> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3392 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/81b5025b> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.337 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/552ea13d> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.815 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2556 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/713b714c> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street#odd_numbered_side> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3807 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/e53f7bd5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4806 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/e53f7bd5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/60850958> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3491 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3841 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/552ea13d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4359 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3103 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3294 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2731 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/53aad639> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6329 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2721 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3965 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3564 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2902 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/9bfc0316> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3478 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2807 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/b4d65c7f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3747 ;
+    fkg:docId "doc_ce85e3d3bb6b" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street#odd_numbered_side> .
+

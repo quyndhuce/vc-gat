@@ -1,0 +1,105 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/vietnam_museum_of_ethnology> onto:located_in <http://transmtl.vn/ent/bc23ae28> .
+
+<http://transmtl.vn/kb/water_pavilion#rustic_structure> onto:surrounded_by <http://transmtl.vn/ent/1b37d890> .
+
+<http://transmtl.vn/kb/water_pavilion> onto:has_part <http://transmtl.vn/kb/water_pavilion#rustic_structure> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/bc2112cb>,
+        <http://transmtl.vn/ent/c0cb5f0f> ;
+    onto:surrounded_by <http://transmtl.vn/ent/bbdddab4> ;
+    onto:symbol_of <http://transmtl.vn/ent/5db931c1>,
+        <http://transmtl.vn/ent/960db2ed> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.274 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/960db2ed> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/water_pavilion#rustic_structure> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3222 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/1b37d890> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion#rustic_structure> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5476 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5db931c1> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2816 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/bc2112cb> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3303 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5db931c1> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2943 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/bc23ae28> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6511 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/960db2ed> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2628 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.581 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2833 ;
+    fkg:docId "doc_8711bc2ea05f" ;
+    fkg:kbId "water_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/bbdddab4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/water_pavilion> .
+

@@ -1,0 +1,635 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/2369d438> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/2f69a14e> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/5377ef53> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/68e9ecc2> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/7952be31> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/8737b496> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/a7c91fa1> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/cdda16ad> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/e8dd7756> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/34902903> onto:part_of <http://transmtl.vn/kb/pho> .
+
+<http://transmtl.vn/ent/742929dc> onto:part_of <http://transmtl.vn/kb/pho> .
+
+<http://transmtl.vn/ent/f4f47646> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#bowls_of_pho> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#broth> onto:part_of <http://transmtl.vn/kb/pho> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#bun_cha_grills> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#dipping_sauce> onto:part_of <http://transmtl.vn/ent/8565d4b8> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#egg> onto:has_component <http://transmtl.vn/ent/24eb05d1> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#food_preparation> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#fresh_herbs> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#grilled_pork> onto:part_of <http://transmtl.vn/ent/8565d4b8> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#market_stalls> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#rice_noodles> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#street_side_stools> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#bun_cha> onto:has_component <http://transmtl.vn/ent/63375447>,
+        <http://transmtl.vn/ent/a94e717c> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#low_tables> onto:near <http://transmtl.vn/ent/8bb7d1c1> ;
+    onto:part_of <http://transmtl.vn/ent/49cfbe25> .
+
+<http://transmtl.vn/ent/49cfbe25> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/e82f13ba> onto:has_part <http://transmtl.vn/kb/pho> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#stools> onto:near <http://transmtl.vn/ent/8bb7d1c1> ;
+    onto:part_of <http://transmtl.vn/ent/49cfbe25>,
+        <http://transmtl.vn/ent/8bb7d1c1> .
+
+<http://transmtl.vn/ent/8565d4b8> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hanoi_cuisine#restaurants> onto:has_component <http://transmtl.vn/ent/bec0c555>,
+        <http://transmtl.vn/ent/cf4fe235> ;
+    onto:has_part <http://transmtl.vn/ent/bec0c555> ;
+    onto:surrounded_by <http://transmtl.vn/ent/8bb7d1c1> .
+
+<http://transmtl.vn/kb/hanoi_cuisine> onto:has_component <http://transmtl.vn/kb/hanoi_cuisine#bowls_of_pho>,
+        <http://transmtl.vn/kb/hanoi_cuisine#broth>,
+        <http://transmtl.vn/kb/hanoi_cuisine#bun_cha>,
+        <http://transmtl.vn/kb/hanoi_cuisine#bun_cha_grills>,
+        <http://transmtl.vn/kb/hanoi_cuisine#dipping_sauce>,
+        <http://transmtl.vn/kb/hanoi_cuisine#egg>,
+        <http://transmtl.vn/kb/hanoi_cuisine#food_preparation>,
+        <http://transmtl.vn/kb/hanoi_cuisine#fresh_herbs>,
+        <http://transmtl.vn/kb/hanoi_cuisine#grilled_pork>,
+        <http://transmtl.vn/kb/hanoi_cuisine#low_tables>,
+        <http://transmtl.vn/kb/hanoi_cuisine#market_stalls>,
+        <http://transmtl.vn/kb/hanoi_cuisine#restaurants>,
+        <http://transmtl.vn/kb/hanoi_cuisine#rice_noodles>,
+        <http://transmtl.vn/kb/hanoi_cuisine#stools>,
+        <http://transmtl.vn/kb/hanoi_cuisine#street_side_stools> .
+
+<http://transmtl.vn/kb/pho> onto:has_component <http://transmtl.vn/ent/34902903>,
+        <http://transmtl.vn/ent/3767b450>,
+        <http://transmtl.vn/ent/742929dc>,
+        <http://transmtl.vn/ent/ae3d1720>,
+        <http://transmtl.vn/ent/d7eba311> ;
+    onto:has_part <http://transmtl.vn/ent/d7eba311> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/e82f13ba> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#bun_cha> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#bowls_of_pho> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#food_preparation> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6662 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/63375447> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#bun_cha> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3271 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/8bb7d1c1> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#low_tables> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#egg> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3107 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/cdda16ad> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5632 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8dd7756> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8261 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8565d4b8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.355 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/49cfbe25> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#restaurants> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4764 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/a94e717c> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#bun_cha> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4489 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/8565d4b8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#dipping_sauce> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4162 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/8bb7d1c1> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#stools> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2841 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/5377ef53> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2807 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/bec0c555> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#restaurants> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.881 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#food_preparation> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6925 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e82f13ba> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9332 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#bun_cha_grills> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.815 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8737b496> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7153 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/68e9ecc2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4329 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/d7eba311> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5408 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8565d4b8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8299 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f4f47646> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4256 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2369d438> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4899 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/8565d4b8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#grilled_pork> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2959 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/pho> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/e82f13ba> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3314 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/3767b450> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3141 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/34902903> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5869 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/49cfbe25> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#low_tables> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#bun_cha_grills> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#broth> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2883 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a7c91fa1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2579 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/8bb7d1c1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#stools> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#dipping_sauce> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8258 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e8dd7756> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7631 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4581 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/ae3d1720> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5489 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/e82f13ba> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8263 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f4f47646> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#fresh_herbs> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4752 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/e82f13ba> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3104 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/pho> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#broth> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#rice_noodles> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2568 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/pho> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/742929dc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9398 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#fresh_herbs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2501 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/8bb7d1c1> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#restaurants> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3035 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/24eb05d1> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#egg> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#low_tables> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.299 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/d7eba311> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2869 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/pho> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/34902903> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3042 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/bec0c555> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#restaurants> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#grilled_pork> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.543 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f4f47646> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.875 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#street_side_stools> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2829 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/cf4fe235> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#restaurants> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#stools> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3086 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5759 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7952be31> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#market_stalls> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine#street_side_stools> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9228 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#bowls_of_pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2834 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/2f69a14e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9312 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#rice_noodles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2596 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/742929dc> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/pho> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8755 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#market_stalls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6173 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "hanoi_cuisine" ;
+    rdf:object <http://transmtl.vn/ent/49cfbe25> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_cuisine#stools> .
+

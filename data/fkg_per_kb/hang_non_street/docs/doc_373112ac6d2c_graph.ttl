@@ -1,0 +1,247 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/113be712> onto:walking_on <http://transmtl.vn/kb/hang_non_street> .
+
+<http://transmtl.vn/ent/48bb082d> onto:walking_on <http://transmtl.vn/kb/hang_non_street> .
+
+<http://transmtl.vn/ent/65004f81> onto:walking_on <http://transmtl.vn/kb/hang_non_street> .
+
+<http://transmtl.vn/ent/be5d5d37> onto:walking_on <http://transmtl.vn/kb/hang_non_street> .
+
+<http://transmtl.vn/ent/cb897c2c> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_non_street#above> onto:above <http://transmtl.vn/ent/1f4a9685> ;
+    onto:over <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_non_street#glass_display_cases> onto:part_of <http://transmtl.vn/kb/hang_non_street> .
+
+<http://transmtl.vn/kb/hang_non_street#electrical_wires> onto:above <http://transmtl.vn/ent/1f4a9685> ;
+    onto:over <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_non_street> onto:has_part <http://transmtl.vn/kb/hang_non_street#above>,
+        <http://transmtl.vn/kb/hang_non_street#electrical_wires>,
+        <http://transmtl.vn/kb/hang_non_street#glass_display_cases> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2597 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#glass_display_cases> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3585 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#above> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3531 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#above> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#glass_display_cases> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2919 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.573 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/65004f81> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2772 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/48bb082d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5566 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/113be712> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3157 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#electrical_wires> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2593 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb897c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3252 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#above> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3039 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street> ;
+    rdf:predicate onto:walking_on ;
+    rdf:subject <http://transmtl.vn/ent/be5d5d37> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3266 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#glass_display_cases> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4875 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3745 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.296 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#glass_display_cases> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3036 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5419 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4167 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4227 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4954 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_non_street#electrical_wires> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.378 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2904 ;
+    fkg:docId "doc_373112ac6d2c" ;
+    fkg:kbId "hang_non_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_non_street> .
+

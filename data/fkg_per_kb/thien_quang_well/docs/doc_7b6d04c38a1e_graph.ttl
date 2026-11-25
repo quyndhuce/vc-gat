@@ -1,0 +1,335 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/900bc885> onto:above <http://transmtl.vn/kb/thien_quang_well> .
+
+<http://transmtl.vn/ent/867456f9> onto:belongs_to_dynasty <http://transmtl.vn/ent/c1e59024> .
+
+<http://transmtl.vn/ent/a02e9601> onto:belongs_to_dynasty <http://transmtl.vn/ent/c1e59024> .
+
+<http://transmtl.vn/kb/thien_quang_well#square_shaped_structure> onto:made_of <http://transmtl.vn/ent/5eac8ede> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:founded_by <http://transmtl.vn/ent/867456f9>,
+        <http://transmtl.vn/ent/a02e9601> ;
+    onto:founded_in <http://transmtl.vn/ent/dc58e3a3> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/thien_quang_well> onto:architectural_style <http://transmtl.vn/ent/951bc3bb> ;
+    onto:has_part <http://transmtl.vn/kb/thien_quang_well#square_shaped_structure>,
+        <http://transmtl.vn/kb/thien_quang_well#well> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/thien_quang_well#well> onto:built_by <http://transmtl.vn/ent/355d9059> ;
+    onto:connects <http://transmtl.vn/ent/018af74d> ;
+    onto:located_in <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:named_after <http://transmtl.vn/ent/7b943e7d> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> ;
+    onto:surrounded_by <http://transmtl.vn/ent/373801fc>,
+        <http://transmtl.vn/ent/bbdddab4>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/ecb12668>,
+        <http://transmtl.vn/ent/efe79c32> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3165 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4765 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/7b943e7d> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.295 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/355d9059> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9312 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/dc58e3a3> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3501 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/ecb12668> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well#well> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3082 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well#well> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8652 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/dc58e3a3> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3294 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well#well> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3341 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6905 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/867456f9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4856 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5954 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2953 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6824 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/a02e9601> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well#square_shaped_structure> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2632 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/ent/900bc885> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well#well> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2997 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3574 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3495 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5757 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/951bc3bb> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2753 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4258 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2515 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/018af74d> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well#well> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2781 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6866 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well#well> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/kb/thien_quang_well#well> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2709 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/373801fc> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7901 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/867456f9> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6864 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/c1e59024> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/a02e9601> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4966 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/5eac8ede> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#square_shaped_structure> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.411 ;
+    fkg:docId "doc_7b6d04c38a1e" ;
+    fkg:kbId "thien_quang_well" ;
+    rdf:object <http://transmtl.vn/ent/bbdddab4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thien_quang_well#well> .
+

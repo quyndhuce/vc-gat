@@ -1,0 +1,15 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/womans_marriage_area> onto:part_of <http://transmtl.vn/ent/e5fe76bb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3049 ;
+    fkg:docId "doc_eb676aa9fe49" ;
+    fkg:kbId "womans_marriage_area" ;
+    rdf:object <http://transmtl.vn/ent/e5fe76bb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/womans_marriage_area> .
+

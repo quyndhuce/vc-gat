@@ -1,0 +1,220 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/ffc609f1> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/thanh_ha_street#archway> onto:part_of <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/thanh_ha_street#quan_chuong_gate> onto:built_by <http://transmtl.vn/ent/622cc881> .
+
+<http://transmtl.vn/kb/thanh_ha_street#street> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/thanh_ha_street#electrical_wires> onto:above <http://transmtl.vn/ent/1f4a9685> ;
+    onto:over <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/thanh_ha_street#gate> onto:built_by <http://transmtl.vn/ent/622cc881> ;
+    onto:dated_to <http://transmtl.vn/ent/9354f491> .
+
+<http://transmtl.vn/kb/thanh_ha_street#overhead> onto:above <http://transmtl.vn/ent/1f4a9685> ;
+    onto:over <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/thanh_ha_street> onto:has_part <http://transmtl.vn/kb/thanh_ha_street#archway>,
+        <http://transmtl.vn/kb/thanh_ha_street#electrical_wires>,
+        <http://transmtl.vn/kb/thanh_ha_street#gate>,
+        <http://transmtl.vn/kb/thanh_ha_street#overhead>,
+        <http://transmtl.vn/kb/thanh_ha_street#quan_chuong_gate>,
+        <http://transmtl.vn/kb/thanh_ha_street#street> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.306 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4352 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2638 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#archway> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2737 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ffc609f1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5048 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#electrical_wires> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5595 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.34 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/9354f491> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2525 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#quan_chuong_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3474 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2844 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2808 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/622cc881> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3948 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3435 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2994 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#overhead> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3296 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/622cc881> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#quan_chuong_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3302 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#archway> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/kb/thanh_ha_street#overhead> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3658 ;
+    fkg:docId "doc_f2b1bc2f4b68" ;
+    fkg:kbId "thanh_ha_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/thanh_ha_street#overhead> .
+

@@ -1,0 +1,57 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (West Lake)  --[renovated_in]-->  ?
+  Head URI  : http://transmtl.vn/kb/west_lake
+  Conflict K: 0.6976
+  Candidates:
+    • 1893                            Bel=0.6635  Pl=0.7744  (4 evidence)
+    • 1677                            Bel=0.1460  Pl=0.2568  (1 evidence)
+    • renovation                      Bel=0.0471  Pl=0.1579  (1 evidence)
+    • 1856                            Bel=0.0326  Pl=0.1435  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [dated_to] (Quan Thanh Temple) → http://transmtl.vn/ent/1e48c442  Bel=0.6688  K=0.0000
+  [renovated_in] (West Lake) → http://transmtl.vn/ent/56f9f889  Bel=0.6635  K=0.6976 ⚠ REVIEW
+  [symbol_of] (statue) → http://transmtl.vn/kb/west_lake  Bel=0.2674  K=0.0000
+  [renovated_in] (main hall) → http://transmtl.vn/ent/3c947bc2  Bel=0.4243  K=0.0000
+  [symbol_of] (dragon) → http://transmtl.vn/ent/852488dd  Bel=0.2721  K=0.1230
+  [symbol_of] (Quan Thanh Temple) → http://transmtl.vn/ent/207462d2  Bel=0.8343  K=0.1751
+  [founded_in] (Quan Thanh Temple) → http://transmtl.vn/ent/3c4ae94d  Bel=0.5580  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.7814  K=0.0000
+  [founded_in] (West Lake) → http://transmtl.vn/ent/3c4ae94d  Bel=0.2775  K=0.0000
+  [former_name_of] (West Lake) → http://transmtl.vn/ent/77ebdfa5  Bel=0.2294  K=0.0000
+  [renovated_in] (Quan Thanh Temple) → http://transmtl.vn/ent/56f9f889  Bel=0.2514  K=0.0000
+  [dated_to] (stele) → http://transmtl.vn/ent/08e6bea8  Bel=0.6039  K=0.3430
+  [symbol_of] (crane) → http://transmtl.vn/kb/quan_thanh_temple  Bel=0.2473  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Quan Thanh Temple) → (roof)  μ_F=0.9991  (3 evidence)
+  [has_part] (Quan Thanh Temple) → (courtyard)  μ_F=0.9991  (3 evidence)
+  [has_part] (Quan Thanh Temple) → (stele)  μ_F=0.9991  (3 evidence)
+  [has_part] (Quan Thanh Temple) → (shrine)  μ_F=0.9991  (3 evidence)
+  [located_in] (Quan Thanh Temple) → (Hanoi)  μ_F=0.9985  (10 evidence)
+  [has_part] (Quan Thanh Temple) → (ornate gates)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (main hall)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (three-gate entrance)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (front hall)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (middle hall)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (rear chamber)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (outer gate)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (hall)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (steps)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (relief sculptures)  μ_F=0.9905  (2 evidence)
+  [has_part] (Quan Thanh Temple) → (principal gate)  μ_F=0.9905  (2 evidence)
+  [near] (Quan Thanh Temple) → (West Lake)  μ_F=0.9255  (3 evidence)
+  [has_part] (Quan Thanh Temple) → (arched doorways)  μ_F=0.9025  (1 evidence)
+  [has_part] (Quan Thanh Temple) → (yin-yang tiled roof)  μ_F=0.9025  (1 evidence)
+  [has_part] (Quan Thanh Temple) → (pagodas)  μ_F=0.9025  (1 evidence)
+
+========================================================================

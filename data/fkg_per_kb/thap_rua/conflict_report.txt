@@ -1,0 +1,54 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Thap rua)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/thap_rua
+  Conflict K: 0.9277
+  Candidates:
+    • Hanoi                           Bel=0.8876  Pl=0.9104  (3 evidence)
+    • history                         Bel=0.0346  Pl=0.0574  (1 evidence)
+    • culture                         Bel=0.0278  Pl=0.0506  (1 evidence)
+    • cultural identity               Bel=0.0096  Pl=0.0325  (1 evidence)
+    • national pride                  Bel=0.0096  Pl=0.0324  (1 evidence)
+    • heritage                        Bel=0.0081  Pl=0.0309  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.9868  K=0.0000
+  [symbol_of] (Thap rua) → http://transmtl.vn/ent/207462d2  Bel=0.8876  K=0.9277 ⚠ REVIEW
+  [symbol_of] (Turtle Tower) → http://transmtl.vn/ent/207462d2  Bel=0.2167  K=0.0662
+  [built_in] (Thap rua) → http://transmtl.vn/ent/eceafd21  Bel=0.5602  K=0.4570
+  [built_in] (tower) → http://transmtl.vn/ent/5b54e104  Bel=0.3105  K=0.2565
+  [built_in] (three-story tower) → http://transmtl.vn/ent/c366c2c9  Bel=0.3539  K=0.0000
+  [dated_to] (Thap rua) → http://transmtl.vn/ent/c366c2c9  Bel=0.2091  K=0.0000
+  [former_name_of] (tower) → http://transmtl.vn/ent/027820a9  Bel=0.2124  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Thap rua) → (tower)  μ_F=1.0000  (21 evidence)
+  [has_part] (Thap rua) → (square base)  μ_F=0.9905  (2 evidence)
+  [has_part] (Thap rua) → (four tiers)  μ_F=0.9905  (2 evidence)
+  [has_part] (Thap rua) → (lowest floor)  μ_F=0.9905  (2 evidence)
+  [has_part] (Thap rua) → (third floor)  μ_F=0.9905  (2 evidence)
+  [has_part] (Thap rua) → (pavilion)  μ_F=0.9905  (2 evidence)
+  [located_in] (Thap rua) → (Hanoi)  μ_F=0.9905  (9 evidence)
+  [has_part] (Thap rua) → (design)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (form)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (architectural lines)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (Turtle Tower)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (watchtower)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (curved roof)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (lower two floors)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (Gothic arches)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (single circular door)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (topmost floor)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (three-story tower)  μ_F=0.9025  (1 evidence)
+  [has_part] (Thap rua) → (altar)  μ_F=0.9025  (1 evidence)
+  [located_in] (tower) → (Hanoi)  μ_F=0.8991  (4 evidence)
+
+========================================================================

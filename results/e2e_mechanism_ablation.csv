@@ -1,0 +1,6 @@
+name,desc,k_recall,k_recall_std,vsp,vsp_std,oar,oar_std,policy,policy_std,bleu4,bleu4_std,rouge_l,rouge_l_std,reasoning_latency_ms,total_latency_ms
+\textbf{Full Framework (Proposed)},Certified $K=5$ + Dependency Refinement + Conformal $\alpha=0.05$,51.8,1.3,96.9,0.3,0.0,0.0,89.4,1.4,0.73,0.03,10.23,0.11,1.42,52.8
+w/o Certified Stopping ($K=\infty$),Exhaustive derivation search without conservative envelope bounds,52.0,1.3,96.9,0.3,0.0,0.0,89.4,1.4,0.73,0.03,10.24,0.11,21.65,73.0
+w/o Dependency Refinement,Naive Noisy-OR aggregation assuming independent component failures,53.4,1.4,95.8,0.4,2.8,0.7,84.1,1.6,0.72,0.03,10.15,0.11,0.88,52.2
+w/o Conformal Risk Control,"Fixed heuristic thresholds ($\theta_M=0.50, \theta_H=0.80$) without risk bounds",54.1,1.4,95.2,0.4,4.6,0.9,79.5,1.8,0.75,0.03,10.32,0.12,1.41,52.8
+Unconstrained Crisp-KG Baseline,All retrieved candidate triples admitted greedily into context,79.0,0.7,98.0,0.2,20.8,1.8,61.6,2.2,1.44,0.04,10.87,0.12,0.32,51.7

@@ -1,0 +1,2673 @@
+{
+  "meta": {
+    "description": "Visual and architectural descriptions of 30 Hanoi landmarks for GLiNER / GLiNER-Relex extraction",
+    "language": "en",
+    "entity_labels_used": "Visual entity vocab (35 labels) from Module 2",
+    "relation_labels_used": "Visual & spatial relation labels from Module 4; 'leading to' -> connects, 'stands on' -> situated_on, 'contains' -> has_part",
+    "gold_annotations_note": "gold_entities / gold_relations are drafts for reference, need manual review before use as ground truth",
+    "test_count": 13,
+    "total": 30
+  },
+  "landmarks": [
+    {
+      "id": 1,
+      "name_en": "Ba Dinh Square",
+      "name_vi": "Quảng trường Ba Đình (Quần thể Lăng Bác)",
+      "category": "Quảng trường & Di tích quốc gia",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "Ba Dinh Square is a vast open landmark located in Ba Dinh district of Hanoi. The square is covered with a grid of green lawn plots separated by paved walkways, with a tall flagpole carrying the red national flag standing in the center. The Ho Chi Minh Mausoleum faces the square from the west side.",
+        "architecture": "The Ho Chi Minh Mausoleum is a monumental mausoleum made of grey granite with a flat roof and a portico of square stone columns. The mausoleum stands on a stepped stone platform and has a solemn modernist architectural style. Above the entrance, the inscription 'Chu tich Ho Chi Minh' is set in dark red stone.",
+        "surroundings": "The square is surrounded by trees and government buildings, including the yellow Presidential Palace with a French colonial architectural style. The One Pillar Pagoda and the Ho Chi Minh Museum are located near the mausoleum. Honor guards in white uniforms often stand in front of the mausoleum entrance."
+      },
+      "gold_entities": [
+        {
+          "text": "Ba Dinh Square",
+          "label": "landmark"
+        },
+        {
+          "text": "Ho Chi Minh Mausoleum",
+          "label": "mausoleum or tomb"
+        },
+        {
+          "text": "flagpole",
+          "label": "architectural element"
+        },
+        {
+          "text": "grey granite",
+          "label": "building material"
+        },
+        {
+          "text": "square stone columns",
+          "label": "architectural element"
+        },
+        {
+          "text": "stepped stone platform",
+          "label": "architectural element"
+        },
+        {
+          "text": "Presidential Palace",
+          "label": "building"
+        },
+        {
+          "text": "French colonial",
+          "label": "architectural style"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "dark red",
+          "label": "color"
+        },
+        {
+          "text": "One Pillar Pagoda",
+          "label": "pagoda"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Ba Dinh Square",
+          "relation": "located in",
+          "tail": "Ba Dinh district"
+        },
+        {
+          "head": "Ho Chi Minh Mausoleum",
+          "relation": "faces",
+          "tail": "Ba Dinh Square"
+        },
+        {
+          "head": "Ho Chi Minh Mausoleum",
+          "relation": "made of",
+          "tail": "grey granite"
+        },
+        {
+          "head": "Ho Chi Minh Mausoleum",
+          "relation": "with",
+          "tail": "square stone columns"
+        },
+        {
+          "head": "Ho Chi Minh Mausoleum",
+          "relation": "situated on",
+          "tail": "stepped stone platform"
+        },
+        {
+          "head": "Ba Dinh Square",
+          "relation": "surrounded by",
+          "tail": "trees"
+        },
+        {
+          "head": "Presidential Palace",
+          "relation": "architectural style",
+          "tail": "French colonial"
+        },
+        {
+          "head": "Presidential Palace",
+          "relation": "has color",
+          "tail": "yellow"
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "relation": "near",
+          "tail": "Ho Chi Minh Mausoleum"
+        }
+      ],
+      "need_verification": [
+        "Số ô cỏ trên quảng trường (thường được nêu là 168 ô) [Cần Kiểm Tra]",
+        "Chiều cao lăng (thường nêu 21,6 m) chưa đưa vào mô tả [Cần Kiểm Tra]",
+        "Chất liệu dòng chữ trên lăng (đá đỏ/hồng) [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 2,
+      "name_en": "Bat Trang Pottery Village",
+      "name_vi": "Làng gốm Bát Tràng",
+      "category": "Làng nghề truyền thống",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "Bat Trang Pottery Village is a traditional craft village located in Gia Lam district, on the bank of the Red River. Narrow alleys lead between old brick houses, pottery workshops and shops displaying glazed ceramic vases, bowls and jars in blue, white and brown colors.",
+        "architecture": "Many old houses in the village are made of fired brick and have tiled roofs, and some walls are lined with round coal cakes drying in the sun. Inside the workshops, traditional brick kilns stand with chimneys, and rows of unfired clay pots sit on wooden shelves. The Bat Trang Communal House is a traditional communal house with a curved tiled roof and wooden columns.",
+        "surroundings": "The Bat Trang Ceramic Museum is a modern building with terraced curved forms inspired by the shape of a potter's wheel. The village market is surrounded by stalls with ceramic products, and visitors sit at potter's wheels to shape clay. The Red River dyke runs along the edge of the village."
+      },
+      "gold_entities": [
+        {
+          "text": "Bat Trang Pottery Village",
+          "label": "craft village"
+        },
+        {
+          "text": "Red River",
+          "label": "river"
+        },
+        {
+          "text": "old brick houses",
+          "label": "building"
+        },
+        {
+          "text": "fired brick",
+          "label": "building material"
+        },
+        {
+          "text": "tiled roofs",
+          "label": "roof"
+        },
+        {
+          "text": "brick kilns",
+          "label": "architectural element"
+        },
+        {
+          "text": "Bat Trang Communal House",
+          "label": "communal house or shrine"
+        },
+        {
+          "text": "wooden columns",
+          "label": "architectural element"
+        },
+        {
+          "text": "Bat Trang Ceramic Museum",
+          "label": "museum"
+        },
+        {
+          "text": "ceramic vases",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "blue",
+          "label": "color"
+        },
+        {
+          "text": "white",
+          "label": "color"
+        },
+        {
+          "text": "brown",
+          "label": "color"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Bat Trang Pottery Village",
+          "relation": "located in",
+          "tail": "Gia Lam district"
+        },
+        {
+          "head": "Bat Trang Pottery Village",
+          "relation": "near",
+          "tail": "Red River"
+        },
+        {
+          "head": "old brick houses",
+          "relation": "made of",
+          "tail": "fired brick"
+        },
+        {
+          "head": "old brick houses",
+          "relation": "with",
+          "tail": "tiled roofs"
+        },
+        {
+          "head": "Bat Trang Communal House",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "Bat Trang Ceramic Museum",
+          "relation": "inspired by",
+          "tail": "potter's wheel"
+        },
+        {
+          "head": "Bat Trang Pottery Village",
+          "relation": "has part",
+          "tail": "Bat Trang Communal House"
+        }
+      ],
+      "need_verification": [
+        "Hình khối Bảo tàng gốm Bát Tràng lấy cảm hứng từ bàn xoay gốm theo mô tả thiết kế công bố [Cần Kiểm Tra]",
+        "Hình ảnh tường dán than tổ ong hiện còn phổ biến hay không [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 3,
+      "name_en": "Botanical Garden",
+      "name_vi": "Vườn Bách Thảo Hà Nội",
+      "category": "Công viên & Cảnh quan",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "The Hanoi Botanical Garden is a large green park located in Ba Dinh district, behind the Presidential Palace. Shaded walkways run under tall old trees, and a quiet lake with a small island lies inside the garden. A small hill covered with trees rises near the lake, and lawns are surrounded by flower beds and stone benches."
+      },
+      "gold_entities": [
+        {
+          "text": "Hanoi Botanical Garden",
+          "label": "landmark"
+        },
+        {
+          "text": "old trees",
+          "label": "tree"
+        },
+        {
+          "text": "lake",
+          "label": "lake"
+        },
+        {
+          "text": "small island",
+          "label": "island"
+        },
+        {
+          "text": "hill",
+          "label": "mountain"
+        },
+        {
+          "text": "Presidential Palace",
+          "label": "building"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Hanoi Botanical Garden",
+          "relation": "located in",
+          "tail": "Ba Dinh district"
+        },
+        {
+          "head": "Hanoi Botanical Garden",
+          "relation": "near",
+          "tail": "Presidential Palace"
+        },
+        {
+          "head": "small island",
+          "relation": "in",
+          "tail": "lake"
+        },
+        {
+          "head": "lake",
+          "relation": "surrounded by",
+          "tail": "old trees"
+        }
+      ],
+      "need_verification": [
+        "Đảo nhỏ trong hồ và đồi Nùng: vị trí cụ thể [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 4,
+      "name_en": "Dien Hong Park",
+      "name_vi": "Vườn hoa Diên Hồng (Vườn hoa Con Cóc)",
+      "category": "Công viên & Kiến trúc Pháp",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Dien Hong Park is a small triangular urban garden located near Hoan Kiem Lake. The garden is shaded by large old trees and has paved paths and benches. It is surrounded by French colonial buildings with yellow facades, including the Government Guest House and the Hanoi People's Committee building."
+      },
+      "gold_entities": [
+        {
+          "text": "Dien Hong Park",
+          "label": "landmark"
+        },
+        {
+          "text": "old trees",
+          "label": "tree"
+        },
+        {
+          "text": "Hoan Kiem Lake",
+          "label": "lake"
+        },
+        {
+          "text": "French colonial",
+          "label": "architectural style"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "Government Guest House",
+          "label": "building"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Dien Hong Park",
+          "relation": "near",
+          "tail": "Hoan Kiem Lake"
+        },
+        {
+          "head": "Dien Hong Park",
+          "relation": "surrounded by",
+          "tail": "French colonial buildings"
+        },
+        {
+          "head": "Government Guest House",
+          "relation": "near",
+          "tail": "Dien Hong Park"
+        },
+        {
+          "head": "Government Guest House",
+          "relation": "has color",
+          "tail": "yellow"
+        }
+      ],
+      "need_verification": [
+        "Hình dạng vườn (tam giác, giống con cóc) và các công trình bao quanh [Cần Kiểm Tra]",
+        "Trong vườn có tượng/đài phun nước hay không [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 5,
+      "name_en": "Dong Da Mound",
+      "name_vi": "Gò Đống Đa (Tượng đài Quang Trung)",
+      "category": "Di tích lịch sử chiến thắng",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Dong Da Mound is a historical park located in Dong Da district. A large bronze statue of Emperor Quang Trung stands on a high stone pedestal, holding a sword and facing the open plaza. The grass-covered mound rises behind the statue, and the park is surrounded by trees, with a small temple and a lake nearby."
+      },
+      "gold_entities": [
+        {
+          "text": "Dong Da Mound",
+          "label": "landmark"
+        },
+        {
+          "text": "statue of Emperor Quang Trung",
+          "label": "statue"
+        },
+        {
+          "text": "bronze",
+          "label": "building material"
+        },
+        {
+          "text": "stone pedestal",
+          "label": "architectural element"
+        },
+        {
+          "text": "mound",
+          "label": "mountain"
+        },
+        {
+          "text": "temple",
+          "label": "temple"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        },
+        {
+          "text": "lake",
+          "label": "lake"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Dong Da Mound",
+          "relation": "located in",
+          "tail": "Dong Da district"
+        },
+        {
+          "head": "statue of Emperor Quang Trung",
+          "relation": "made of",
+          "tail": "bronze"
+        },
+        {
+          "head": "statue of Emperor Quang Trung",
+          "relation": "situated on",
+          "tail": "stone pedestal"
+        },
+        {
+          "head": "Dong Da Mound",
+          "relation": "surrounded by",
+          "tail": "trees"
+        },
+        {
+          "head": "temple",
+          "relation": "near",
+          "tail": "Dong Da Mound"
+        }
+      ],
+      "need_verification": [
+        "Tư thế tượng (cầm gươm), hướng quay mặt, có đền/hồ trong khuôn viên [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 6,
+      "name_en": "Ha Noi Station",
+      "name_vi": "Ga Hà Nội (Ga Hàng Cỏ)",
+      "category": "Công trình kiến trúc giao thông",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Ha Noi Station is a railway station building located on Le Duan street. The central block has a modern concrete facade with the name 'GA HA NOI' in large red letters on top. The two side wings keep the original French colonial architectural style with yellow walls and arched windows, and a busy forecourt with motorbikes faces the main entrance."
+      },
+      "gold_entities": [
+        {
+          "text": "Ha Noi Station",
+          "label": "building"
+        },
+        {
+          "text": "central block",
+          "label": "architectural element"
+        },
+        {
+          "text": "concrete",
+          "label": "building material"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "French colonial",
+          "label": "architectural style"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "arched windows",
+          "label": "architectural element"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Ha Noi Station",
+          "relation": "located in",
+          "tail": "Le Duan street"
+        },
+        {
+          "head": "Ha Noi Station",
+          "relation": "has part",
+          "tail": "central block"
+        },
+        {
+          "head": "central block",
+          "relation": "made of",
+          "tail": "concrete"
+        },
+        {
+          "head": "side wings",
+          "relation": "architectural style",
+          "tail": "French colonial"
+        },
+        {
+          "head": "side wings",
+          "relation": "has color",
+          "tail": "yellow"
+        }
+      ],
+      "need_verification": [
+        "Màu tường và cửa sổ vòm ở hai cánh nhà Pháp [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 7,
+      "name_en": "Hanoi Cuisine",
+      "name_vi": "Không gian Ẩm thực Hà Nội",
+      "category": "Di sản văn hóa ẩm thực",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Hanoi Cuisine scenes show street food stalls on narrow sidewalks of the Old Quarter, with diners sitting on low plastic stools around small tables. Steaming bowls of pho with white rice noodles, green herbs and red chili are served beside baskets of fresh vegetables. Shop fronts are lit by yellow light and colorful signboards, with motorbikes parked along the street."
+      },
+      "gold_entities": [
+        {
+          "text": "Old Quarter",
+          "label": "landmark"
+        },
+        {
+          "text": "white",
+          "label": "color"
+        },
+        {
+          "text": "green",
+          "label": "color"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "street food stalls",
+          "relation": "located in",
+          "tail": "Old Quarter"
+        }
+      ],
+      "need_verification": [
+        "Bộ nhãn hiện tại không có nhãn cho món ăn, quầy hàng, người; cân nhắc bổ sung nếu cần trích xuất [Lập Luận]"
+      ]
+    },
+    {
+      "id": 8,
+      "name_en": "Hanoi Museum",
+      "name_vi": "Bảo tàng Hà Nội (Kim tự tháp ngược)",
+      "category": "Bảo tàng hiện đại",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "The Hanoi Museum is a modern museum located on Pham Hung street in Nam Tu Liem district. The building has the shape of an inverted pyramid, with each upper floor wider than the floor below. Its facade is made of glass and grey metal panels, and the museum is surrounded by water features, lawns and a wide plaza."
+      },
+      "gold_entities": [
+        {
+          "text": "Hanoi Museum",
+          "label": "museum"
+        },
+        {
+          "text": "inverted pyramid",
+          "label": "architectural element"
+        },
+        {
+          "text": "glass",
+          "label": "building material"
+        },
+        {
+          "text": "metal panels",
+          "label": "building material"
+        },
+        {
+          "text": "grey",
+          "label": "color"
+        },
+        {
+          "text": "water features",
+          "label": "water"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Hanoi Museum",
+          "relation": "located in",
+          "tail": "Nam Tu Liem district"
+        },
+        {
+          "head": "Hanoi Museum",
+          "relation": "inspired by",
+          "tail": "inverted pyramid"
+        },
+        {
+          "head": "Hanoi Museum",
+          "relation": "made of",
+          "tail": "glass"
+        },
+        {
+          "head": "Hanoi Museum",
+          "relation": "surrounded by",
+          "tail": "water features"
+        }
+      ],
+      "need_verification": [
+        "Vật liệu mặt ngoài cụ thể (kính, tấm kim loại) [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 9,
+      "name_en": "Hanoi Old Quarter",
+      "name_vi": "Phố cổ Hà Nội (36 phố phường)",
+      "category": "Khu phố di sản đô thị",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "The Hanoi Old Quarter is a dense historic district located north of Hoan Kiem Lake. Narrow streets are lined with tall, thin tube houses and shophouses, many with small balconies, wooden shutters and colorful signboards. Tangled electrical cables hang above streets crowded with motorbikes and street vendors.",
+        "architecture": "Older tube houses have low tiled roofs made of red clay tiles, while French-era shophouses have yellow plastered walls and green wooden shutters. The Ma May Ancient House is a traditional wooden house with an inner courtyard. Bach Ma Temple is a small temple with a curved tiled roof and a red wooden gate.",
+        "surroundings": "O Quan Chuong is the only remaining city gate of the old citadel walls, a brick gate with an arched passage and an upper watchtower. Dong Xuan Market is a large market building with a French colonial facade. Hang Ma street is decorated with red lanterns and colorful paper toys."
+      },
+      "gold_entities": [
+        {
+          "text": "Hanoi Old Quarter",
+          "label": "landmark"
+        },
+        {
+          "text": "Hoan Kiem Lake",
+          "label": "lake"
+        },
+        {
+          "text": "tube houses",
+          "label": "building"
+        },
+        {
+          "text": "tiled roofs",
+          "label": "roof"
+        },
+        {
+          "text": "red clay tiles",
+          "label": "building material"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "green",
+          "label": "color"
+        },
+        {
+          "text": "wooden shutters",
+          "label": "architectural element"
+        },
+        {
+          "text": "Ma May Ancient House",
+          "label": "building"
+        },
+        {
+          "text": "Bach Ma Temple",
+          "label": "temple"
+        },
+        {
+          "text": "O Quan Chuong",
+          "label": "gate"
+        },
+        {
+          "text": "brick",
+          "label": "building material"
+        },
+        {
+          "text": "Dong Xuan Market",
+          "label": "building"
+        },
+        {
+          "text": "French colonial",
+          "label": "architectural style"
+        },
+        {
+          "text": "red lanterns",
+          "label": "artwork or artifact"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Hanoi Old Quarter",
+          "relation": "near",
+          "tail": "Hoan Kiem Lake"
+        },
+        {
+          "head": "Hanoi Old Quarter",
+          "relation": "has part",
+          "tail": "O Quan Chuong"
+        },
+        {
+          "head": "Hanoi Old Quarter",
+          "relation": "has part",
+          "tail": "Bach Ma Temple"
+        },
+        {
+          "head": "tube houses",
+          "relation": "with",
+          "tail": "tiled roofs"
+        },
+        {
+          "head": "tiled roofs",
+          "relation": "made of",
+          "tail": "red clay tiles"
+        },
+        {
+          "head": "O Quan Chuong",
+          "relation": "made of",
+          "tail": "brick"
+        },
+        {
+          "head": "Bach Ma Temple",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "Dong Xuan Market",
+          "relation": "architectural style",
+          "tail": "French colonial"
+        }
+      ],
+      "need_verification": [
+        "Màu cổng đền Bạch Mã và mặt tiền chợ Đồng Xuân hiện nay [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 10,
+      "name_en": "Hoan Kiem Lake",
+      "name_vi": "Hồ Hoàn Kiếm (Tháp Rùa - Cầu Thê Húc)",
+      "category": "Thắng cảnh & Trung tâm lịch sử",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "Hoan Kiem Lake is a landmark lake located in the center of Hanoi, with calm green water surrounded by willow trees and old banyan trees. Turtle Tower stands on a small island in the middle of the lake. On the northern part of the lake, the red The Huc Bridge connects the eastern shore to Ngoc Son Temple on Jade Island.",
+        "architecture": "Turtle Tower is a small three-storey tower made of brick and lime, with arched openings and a mixed architectural style combining Vietnamese and French Gothic elements. The Huc Bridge is a curved wooden bridge painted bright red, with red railings. Ngoc Son Temple has curved tiled roofs and wooden pillars, surrounded by old trees.",
+        "surroundings": "Pen Tower is a stone tower situated on a small hill at the temple entrance, with the Ink Slab gate carved in stone beside it. The Le Thai To statue stands on the western shore, facing the lake. Hoa Phong Tower stands on the eastern shore, and the lake is surrounded by walking paths and the streets of the Old Quarter."
+      },
+      "gold_entities": [
+        {
+          "text": "Hoan Kiem Lake",
+          "label": "lake"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        },
+        {
+          "text": "willow trees",
+          "label": "tree"
+        },
+        {
+          "text": "banyan trees",
+          "label": "tree"
+        },
+        {
+          "text": "Turtle Tower",
+          "label": "tower"
+        },
+        {
+          "text": "small island",
+          "label": "island"
+        },
+        {
+          "text": "The Huc Bridge",
+          "label": "bridge"
+        },
+        {
+          "text": "Ngoc Son Temple",
+          "label": "temple"
+        },
+        {
+          "text": "Jade Island",
+          "label": "island"
+        },
+        {
+          "text": "brick",
+          "label": "building material"
+        },
+        {
+          "text": "Gothic",
+          "label": "architectural style"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "railings",
+          "label": "railing"
+        },
+        {
+          "text": "curved tiled roofs",
+          "label": "roof"
+        },
+        {
+          "text": "Pen Tower",
+          "label": "tower"
+        },
+        {
+          "text": "Ink Slab gate",
+          "label": "gate"
+        },
+        {
+          "text": "Le Thai To statue",
+          "label": "statue"
+        },
+        {
+          "text": "Hoa Phong Tower",
+          "label": "tower"
+        },
+        {
+          "text": "green",
+          "label": "color"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Hoan Kiem Lake",
+          "relation": "surrounded by",
+          "tail": "willow trees"
+        },
+        {
+          "head": "Turtle Tower",
+          "relation": "situated on",
+          "tail": "small island"
+        },
+        {
+          "head": "small island",
+          "relation": "in",
+          "tail": "Hoan Kiem Lake"
+        },
+        {
+          "head": "The Huc Bridge",
+          "relation": "connects",
+          "tail": "Ngoc Son Temple"
+        },
+        {
+          "head": "The Huc Bridge",
+          "relation": "crosses",
+          "tail": "Hoan Kiem Lake"
+        },
+        {
+          "head": "Ngoc Son Temple",
+          "relation": "situated on",
+          "tail": "Jade Island"
+        },
+        {
+          "head": "Turtle Tower",
+          "relation": "made of",
+          "tail": "brick"
+        },
+        {
+          "head": "Turtle Tower",
+          "relation": "architectural style",
+          "tail": "Gothic"
+        },
+        {
+          "head": "The Huc Bridge",
+          "relation": "has color",
+          "tail": "red"
+        },
+        {
+          "head": "The Huc Bridge",
+          "relation": "with",
+          "tail": "railings"
+        },
+        {
+          "head": "Pen Tower",
+          "relation": "situated on",
+          "tail": "small hill"
+        },
+        {
+          "head": "Le Thai To statue",
+          "relation": "faces",
+          "tail": "Hoan Kiem Lake"
+        },
+        {
+          "head": "Hoan Kiem Lake",
+          "relation": "has part",
+          "tail": "Turtle Tower"
+        }
+      ],
+      "need_verification": [
+        "Số tầng và vật liệu Tháp Rùa (gạch vồ, vôi vữa) [Cần Kiểm Tra]",
+        "Vật liệu Cầu Thê Húc (gỗ) ở trạng thái hiện hữu [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 11,
+      "name_en": "Huu Tiep Lake",
+      "name_vi": "Hồ Hữu Tiệp (Di tích xác máy bay B-52)",
+      "category": "Di tích lịch sử kháng chiến",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Huu Tiep Lake is a small pond located in a residential alley of Ngoc Ha ward, Ba Dinh district. The rusted metal wreckage of a B-52 bomber rises out of the water, partly covered with plants. The lake is surrounded by houses and a low railing, with a stone memorial plaque on the shore."
+      },
+      "gold_entities": [
+        {
+          "text": "Huu Tiep Lake",
+          "label": "lake"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        },
+        {
+          "text": "B-52 bomber wreckage",
+          "label": "relic"
+        },
+        {
+          "text": "metal",
+          "label": "building material"
+        },
+        {
+          "text": "railing",
+          "label": "railing"
+        },
+        {
+          "text": "memorial plaque",
+          "label": "monument or memorial"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Huu Tiep Lake",
+          "relation": "located in",
+          "tail": "Ngoc Ha ward"
+        },
+        {
+          "head": "B-52 bomber wreckage",
+          "relation": "in",
+          "tail": "Huu Tiep Lake"
+        },
+        {
+          "head": "B-52 bomber wreckage",
+          "relation": "made of",
+          "tail": "metal"
+        },
+        {
+          "head": "Huu Tiep Lake",
+          "relation": "surrounded by",
+          "tail": "houses"
+        },
+        {
+          "head": "memorial plaque",
+          "relation": "near",
+          "tail": "Huu Tiep Lake"
+        }
+      ],
+      "need_verification": [
+        "Lan can quanh hồ và vị trí bia di tích [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 12,
+      "name_en": "Imperial Citadel of Thang Long",
+      "name_vi": "Hoàng Thành Thăng Long",
+      "category": "Di sản văn hóa thế giới",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "The Imperial Citadel of Thang Long is an ancient citadel located in Ba Dinh district, in the center of Hanoi. The main entrance is Doan Mon gate, a massive stone and brick gate with arched passages and an upper pavilion with a curved tiled roof. Inside, a long central axis leads through green lawns and old trees to the foundation of Kinh Thien Palace.",
+        "architecture": "Doan Mon gate has five arched entrances, with the central arch larger than the others, and a wooden pavilion with a double roof above. Kinh Thien Palace foundation keeps the stone dragon steps, with carved dragons running along the stone railing. Hau Lau, the Princess Pavilion, is a multi-storey building with yellow walls and a tiled roof.",
+        "surroundings": "The Hanoi Flag Tower is an octagonal brick tower situated on a three-tiered base, with the red national flag at the top. The North Gate is a brick gate with a curved roof, showing cannonball marks on its wall. Across Hoang Dieu street, the archaeological site reveals ancient foundations, wells and relics under protective roofs."
+      },
+      "gold_entities": [
+        {
+          "text": "Imperial Citadel of Thang Long",
+          "label": "ancient citadel or fortress"
+        },
+        {
+          "text": "Doan Mon gate",
+          "label": "gate"
+        },
+        {
+          "text": "stone",
+          "label": "building material"
+        },
+        {
+          "text": "brick",
+          "label": "building material"
+        },
+        {
+          "text": "arched passages",
+          "label": "architectural element"
+        },
+        {
+          "text": "curved tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "Kinh Thien Palace",
+          "label": "building"
+        },
+        {
+          "text": "dragon steps",
+          "label": "architectural element"
+        },
+        {
+          "text": "stone railing",
+          "label": "railing"
+        },
+        {
+          "text": "Hau Lau",
+          "label": "building"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "Hanoi Flag Tower",
+          "label": "tower"
+        },
+        {
+          "text": "three-tiered base",
+          "label": "architectural element"
+        },
+        {
+          "text": "North Gate",
+          "label": "gate"
+        },
+        {
+          "text": "old trees",
+          "label": "tree"
+        },
+        {
+          "text": "relics",
+          "label": "relic"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "located in",
+          "tail": "Ba Dinh district"
+        },
+        {
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "has part",
+          "tail": "Doan Mon gate"
+        },
+        {
+          "head": "Imperial Citadel of Thang Long",
+          "relation": "has part",
+          "tail": "Kinh Thien Palace"
+        },
+        {
+          "head": "Doan Mon gate",
+          "relation": "made of",
+          "tail": "stone"
+        },
+        {
+          "head": "Doan Mon gate",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "Doan Mon gate",
+          "relation": "leading to",
+          "tail": "Kinh Thien Palace"
+        },
+        {
+          "head": "Kinh Thien Palace",
+          "relation": "with",
+          "tail": "dragon steps"
+        },
+        {
+          "head": "Hanoi Flag Tower",
+          "relation": "made of",
+          "tail": "brick"
+        },
+        {
+          "head": "Hanoi Flag Tower",
+          "relation": "situated on",
+          "tail": "three-tiered base"
+        },
+        {
+          "head": "Hau Lau",
+          "relation": "has color",
+          "tail": "yellow"
+        },
+        {
+          "head": "North Gate",
+          "relation": "part of",
+          "tail": "Imperial Citadel of Thang Long"
+        }
+      ],
+      "need_verification": [
+        "Ghi chú: quan hệ 'leading to' ánh xạ về canonical 'connects'",
+        "Cột cờ Hà Nội về mặt quản lý thuộc khu di sản Hoàng thành hay tách riêng [Cần Kiểm Tra]",
+        "Chiều cao Cột cờ (thường nêu 33,4 m, tính cả cán cờ 41 m) chưa đưa vào mô tả [Cần Kiểm Tra]",
+        "Màu tường Hậu Lâu [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 13,
+      "name_en": "Lake Ba Mau",
+      "name_vi": "Hồ Ba Mẫu",
+      "category": "Cảnh quan hồ đô thị",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Ba Mau Lake is an urban lake located in Dong Da district. A paved walking path with a low railing runs around the water, shaded by rows of trees. The lake is surrounded by residential buildings and small cafes along the shore."
+      },
+      "gold_entities": [
+        {
+          "text": "Ba Mau Lake",
+          "label": "lake"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        },
+        {
+          "text": "railing",
+          "label": "railing"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Ba Mau Lake",
+          "relation": "located in",
+          "tail": "Dong Da district"
+        },
+        {
+          "head": "Ba Mau Lake",
+          "relation": "surrounded by",
+          "tail": "trees"
+        }
+      ],
+      "need_verification": [
+        "Đặc điểm cảnh quan cụ thể của hồ (lan can, đường dạo) [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 14,
+      "name_en": "Lake Thien Quang",
+      "name_vi": "Hồ Thiền Quang",
+      "category": "Cảnh quan hồ đô thị",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Thien Quang Lake is an urban lake located in Hai Ba Trung district, near Thong Nhat Park. Calm water reflects the surrounding trees and buildings, and a paved walkway with a railing runs along the shore. Old trees line the streets around the lake."
+      },
+      "gold_entities": [
+        {
+          "text": "Thien Quang Lake",
+          "label": "lake"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        },
+        {
+          "text": "Thong Nhat Park",
+          "label": "landmark"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        },
+        {
+          "text": "railing",
+          "label": "railing"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Thien Quang Lake",
+          "relation": "located in",
+          "tail": "Hai Ba Trung district"
+        },
+        {
+          "head": "Thien Quang Lake",
+          "relation": "near",
+          "tail": "Thong Nhat Park"
+        },
+        {
+          "head": "Thien Quang Lake",
+          "relation": "surrounded by",
+          "tail": "trees"
+        }
+      ],
+      "need_verification": [
+        "Đặc điểm cảnh quan cụ thể quanh hồ [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 15,
+      "name_en": "Le Nin Park",
+      "name_vi": "Công viên Lê Nin (Vườn hoa Chi Lăng)",
+      "category": "Công viên & Quảng trường",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Lenin Park is a small public garden located on Dien Bien Phu street in Ba Dinh district. A bronze statue of Lenin stands on a tall stone pedestal in the center of the garden, facing the Hanoi Flag Tower across the street. The statue is surrounded by an open paved plaza, lawns and trees."
+      },
+      "gold_entities": [
+        {
+          "text": "Lenin Park",
+          "label": "landmark"
+        },
+        {
+          "text": "statue of Lenin",
+          "label": "statue"
+        },
+        {
+          "text": "bronze",
+          "label": "building material"
+        },
+        {
+          "text": "stone pedestal",
+          "label": "architectural element"
+        },
+        {
+          "text": "Hanoi Flag Tower",
+          "label": "tower"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Lenin Park",
+          "relation": "located in",
+          "tail": "Ba Dinh district"
+        },
+        {
+          "head": "statue of Lenin",
+          "relation": "made of",
+          "tail": "bronze"
+        },
+        {
+          "head": "statue of Lenin",
+          "relation": "situated on",
+          "tail": "stone pedestal"
+        },
+        {
+          "head": "statue of Lenin",
+          "relation": "faces",
+          "tail": "Hanoi Flag Tower"
+        },
+        {
+          "head": "statue of Lenin",
+          "relation": "surrounded by",
+          "tail": "trees"
+        }
+      ],
+      "need_verification": [
+        "Hướng quay mặt của tượng Lê Nin so với Cột cờ [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 16,
+      "name_en": "Ngu Xa Bronze Casting Workshop",
+      "name_vi": "Làng nghề đúc đồng Ngũ Xã",
+      "category": "Làng nghề truyền thống",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Ngu Xa is a traditional bronze casting craft village located near Truc Bach Lake in Ba Dinh district. Small workshops and shops display bronze statues, incense burners, bells and trays with a golden brown color. Ngu Xa Pagoda in the village houses a large bronze statue of Amitabha Buddha."
+      },
+      "gold_entities": [
+        {
+          "text": "Ngu Xa",
+          "label": "craft village"
+        },
+        {
+          "text": "Truc Bach Lake",
+          "label": "lake"
+        },
+        {
+          "text": "bronze statues",
+          "label": "statue"
+        },
+        {
+          "text": "bronze",
+          "label": "building material"
+        },
+        {
+          "text": "bells",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "golden brown",
+          "label": "color"
+        },
+        {
+          "text": "Ngu Xa Pagoda",
+          "label": "pagoda"
+        },
+        {
+          "text": "statue of Amitabha Buddha",
+          "label": "statue"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Ngu Xa",
+          "relation": "near",
+          "tail": "Truc Bach Lake"
+        },
+        {
+          "head": "Ngu Xa",
+          "relation": "has part",
+          "tail": "Ngu Xa Pagoda"
+        },
+        {
+          "head": "statue of Amitabha Buddha",
+          "relation": "in",
+          "tail": "Ngu Xa Pagoda"
+        },
+        {
+          "head": "statue of Amitabha Buddha",
+          "relation": "made of",
+          "tail": "bronze"
+        }
+      ],
+      "need_verification": [
+        "Tượng A Di Đà chùa Ngũ Xã (Thần Quang Tự) và kích thước [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 17,
+      "name_en": "One Pillar Pagoda",
+      "name_vi": "Chùa Một Cột (Diên Hựu Tự)",
+      "category": "Di tích kiến trúc tâm linh",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "The One Pillar Pagoda is a small pagoda located in Ba Dinh district, near the Ho Chi Minh Mausoleum. The wooden shrine stands on a single stone pillar rising from the middle of a square lotus pond. The pagoda is inspired by the image of a lotus flower blooming above the water.",
+        "architecture": "The shrine is a square wooden structure with a curved tiled roof, and dragon figures decorate the ridge of the roof. Wooden brackets connect the shrine to the top of the stone pillar. A narrow stone staircase with a railing leads from the edge of the pond up to the shrine.",
+        "surroundings": "The square pond is surrounded by a low brick railing decorated with glazed tiles, and green water lilies cover the water. The pagoda is part of the Dien Huu Pagoda complex, which has a traditional gate and a courtyard. A large Bodhi tree stands in the garden near the pagoda."
+      },
+      "gold_entities": [
+        {
+          "text": "One Pillar Pagoda",
+          "label": "pagoda"
+        },
+        {
+          "text": "Ho Chi Minh Mausoleum",
+          "label": "mausoleum or tomb"
+        },
+        {
+          "text": "wooden shrine",
+          "label": "temple or pagoda"
+        },
+        {
+          "text": "stone pillar",
+          "label": "architectural element"
+        },
+        {
+          "text": "lotus pond",
+          "label": "water"
+        },
+        {
+          "text": "lotus flower",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "curved tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "dragon figures",
+          "label": "architectural element"
+        },
+        {
+          "text": "stone staircase",
+          "label": "architectural element"
+        },
+        {
+          "text": "railing",
+          "label": "railing"
+        },
+        {
+          "text": "brick railing",
+          "label": "railing"
+        },
+        {
+          "text": "Dien Huu Pagoda",
+          "label": "pagoda"
+        },
+        {
+          "text": "Bodhi tree",
+          "label": "tree"
+        },
+        {
+          "text": "wood",
+          "label": "building material"
+        },
+        {
+          "text": "green",
+          "label": "color"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "One Pillar Pagoda",
+          "relation": "located in",
+          "tail": "Ba Dinh district"
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "relation": "near",
+          "tail": "Ho Chi Minh Mausoleum"
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "relation": "stands on",
+          "tail": "stone pillar"
+        },
+        {
+          "head": "stone pillar",
+          "relation": "in",
+          "tail": "lotus pond"
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "relation": "inspired by",
+          "tail": "lotus flower"
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "relation": "above",
+          "tail": "lotus pond"
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "lotus pond",
+          "relation": "surrounded by",
+          "tail": "brick railing"
+        },
+        {
+          "head": "stone staircase",
+          "relation": "leading to",
+          "tail": "One Pillar Pagoda"
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "relation": "part of",
+          "tail": "Dien Huu Pagoda"
+        },
+        {
+          "head": "Bodhi tree",
+          "relation": "near",
+          "tail": "One Pillar Pagoda"
+        }
+      ],
+      "need_verification": [
+        "Ghi chú: 'stands on' ánh xạ về situated_on, 'leading to' ánh xạ về connects",
+        "Kích thước trụ đá (thường nêu đường kính ~1,2 m, cao ~4 m) chưa đưa vào mô tả [Cần Kiểm Tra]",
+        "Lan can gạch quanh hồ có ốp men/sứ hay không [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 18,
+      "name_en": "Temple of Literature",
+      "name_vi": "Văn Miếu - Quốc Tử Giám",
+      "category": "Di tích lịch sử & Giáo dục",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "The Temple of Literature is a historic temple complex located in Dong Da district. The complex follows a long rectangular plan of five walled courtyards aligned on a central axis. The main entrance is Van Mieu Gate, a gate with three arched passages and a curved tiled roof.",
+        "architecture": "Khue Van Cac, the Constellation of Literature Pavilion, is a two-storey pavilion with four square brick pillars supporting an upper wooden structure with round windows on each side and a tiled roof. Rows of stone stelae of doctors stand on the backs of stone turtles, sheltered under tiled roofs. Dai Thanh Shrine has a wide curved tiled roof, red lacquered wooden columns and gilded horizontal boards.",
+        "surroundings": "The Well of Heavenly Clarity is a square pond surrounded by a stone railing, situated in front of Khue Van Cac. The courtyards are surrounded by old trees, lawns and brick walls. Visitors and graduating students in traditional dress walk along the stone paths between the gates."
+      },
+      "gold_entities": [
+        {
+          "text": "Temple of Literature",
+          "label": "temple"
+        },
+        {
+          "text": "Van Mieu Gate",
+          "label": "gate"
+        },
+        {
+          "text": "arched passages",
+          "label": "architectural element"
+        },
+        {
+          "text": "curved tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "Khue Van Cac",
+          "label": "tower"
+        },
+        {
+          "text": "brick pillars",
+          "label": "architectural element"
+        },
+        {
+          "text": "round windows",
+          "label": "architectural element"
+        },
+        {
+          "text": "stone stelae",
+          "label": "relic"
+        },
+        {
+          "text": "stone turtles",
+          "label": "statue"
+        },
+        {
+          "text": "Dai Thanh Shrine",
+          "label": "communal house or shrine"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "wooden columns",
+          "label": "architectural element"
+        },
+        {
+          "text": "horizontal boards",
+          "label": "architectural element"
+        },
+        {
+          "text": "Well of Heavenly Clarity",
+          "label": "water"
+        },
+        {
+          "text": "stone railing",
+          "label": "railing"
+        },
+        {
+          "text": "old trees",
+          "label": "tree"
+        },
+        {
+          "text": "brick",
+          "label": "building material"
+        },
+        {
+          "text": "stone",
+          "label": "building material"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Temple of Literature",
+          "relation": "located in",
+          "tail": "Dong Da district"
+        },
+        {
+          "head": "Temple of Literature",
+          "relation": "followed plan of",
+          "tail": "five courtyards"
+        },
+        {
+          "head": "Temple of Literature",
+          "relation": "has part",
+          "tail": "Khue Van Cac"
+        },
+        {
+          "head": "Temple of Literature",
+          "relation": "has part",
+          "tail": "Dai Thanh Shrine"
+        },
+        {
+          "head": "Van Mieu Gate",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "Khue Van Cac",
+          "relation": "made of",
+          "tail": "brick"
+        },
+        {
+          "head": "Khue Van Cac",
+          "relation": "with",
+          "tail": "round windows"
+        },
+        {
+          "head": "stone stelae",
+          "relation": "situated on",
+          "tail": "stone turtles"
+        },
+        {
+          "head": "Well of Heavenly Clarity",
+          "relation": "surrounded by",
+          "tail": "stone railing"
+        },
+        {
+          "head": "Khue Van Cac",
+          "relation": "faces",
+          "tail": "Well of Heavenly Clarity"
+        },
+        {
+          "head": "wooden columns",
+          "relation": "has color",
+          "tail": "red"
+        }
+      ],
+      "need_verification": [
+        "Số bia tiến sĩ (thường nêu 82 bia) chưa đưa vào mô tả [Cần Kiểm Tra]",
+        "Thứ tự Giếng Thiên Quang và Khuê Văn Các trên trục (giếng nằm sau gác) [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 19,
+      "name_en": "Thang Long Water Puppetry Theatre",
+      "name_vi": "Nhà hát Múa rối Thăng Long",
+      "category": "Nghệ thuật biểu diễn dân gian",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "The Thang Long Water Puppetry Theatre is a performance building located on Dinh Tien Hoang street, near the northeastern shore of Hoan Kiem Lake. The facade has large posters and a ticket counter at the entrance, facing the lake.",
+        "architecture": "Inside, the stage is a pool of water, and behind it stands a water pavilion with a curved tiled roof in the style of a traditional communal house. Bamboo screens hang across the front of the pavilion, hiding the puppeteers. The wooden puppets are carved and painted with bright lacquer in red, yellow and green colors.",
+        "surroundings": "A live traditional music band with drums, bamboo flutes and a monochord sits on a platform beside the water stage. Puppets of dragons, phoenixes, farmers and fishermen move across the water surface under colorful stage lights, with smoke and water splashing."
+      },
+      "gold_entities": [
+        {
+          "text": "Thang Long Water Puppetry Theatre",
+          "label": "building"
+        },
+        {
+          "text": "Hoan Kiem Lake",
+          "label": "lake"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        },
+        {
+          "text": "water pavilion",
+          "label": "communal house or shrine"
+        },
+        {
+          "text": "curved tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "bamboo screens",
+          "label": "architectural element"
+        },
+        {
+          "text": "wooden puppets",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "green",
+          "label": "color"
+        },
+        {
+          "text": "wood",
+          "label": "building material"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Thang Long Water Puppetry Theatre",
+          "relation": "located in",
+          "tail": "Dinh Tien Hoang street"
+        },
+        {
+          "head": "Thang Long Water Puppetry Theatre",
+          "relation": "near",
+          "tail": "Hoan Kiem Lake"
+        },
+        {
+          "head": "Thang Long Water Puppetry Theatre",
+          "relation": "faces",
+          "tail": "Hoan Kiem Lake"
+        },
+        {
+          "head": "water pavilion",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "water pavilion",
+          "relation": "on",
+          "tail": "water"
+        },
+        {
+          "head": "wooden puppets",
+          "relation": "made of",
+          "tail": "wood"
+        },
+        {
+          "head": "wooden puppets",
+          "relation": "has color",
+          "tail": "red"
+        }
+      ],
+      "need_verification": [
+        "Mặt tiền nhà hát có quay ra hồ hay không [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 20,
+      "name_en": "The Government Guest House",
+      "name_vi": "Nhà Khách Chính Phủ (Bắc Bộ Phủ)",
+      "category": "Kiến trúc thuộc địa Pháp",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "The Government Guest House is a large French colonial building located on Ngo Quyen street, near Hoan Kiem Lake. The building has a yellow facade with white decorative mouldings, tall windows with shutters and a tiled roof. It stands in a garden surrounded by old trees and a wrought iron fence."
+      },
+      "gold_entities": [
+        {
+          "text": "Government Guest House",
+          "label": "building"
+        },
+        {
+          "text": "French colonial",
+          "label": "architectural style"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "white",
+          "label": "color"
+        },
+        {
+          "text": "tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "old trees",
+          "label": "tree"
+        },
+        {
+          "text": "Hoan Kiem Lake",
+          "label": "lake"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Government Guest House",
+          "relation": "located in",
+          "tail": "Ngo Quyen street"
+        },
+        {
+          "head": "Government Guest House",
+          "relation": "near",
+          "tail": "Hoan Kiem Lake"
+        },
+        {
+          "head": "Government Guest House",
+          "relation": "architectural style",
+          "tail": "French colonial"
+        },
+        {
+          "head": "Government Guest House",
+          "relation": "has color",
+          "tail": "yellow"
+        },
+        {
+          "head": "Government Guest House",
+          "relation": "surrounded by",
+          "tail": "old trees"
+        }
+      ],
+      "need_verification": [
+        "Màu mặt tiền, loại mái, hàng rào sắt [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 21,
+      "name_en": "Thong Nhat park",
+      "name_vi": "Công viên Thống Nhất (Hồ Bảy Mẫu)",
+      "category": "Đại công viên đô thị",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Thong Nhat Park is a large urban park located in Hai Ba Trung district, with Bay Mau Lake in its center. Small islands in the lake are connected to the shore by bridges, and paved paths run under rows of tall trees. The park is surrounded by a fence and city streets, and Thien Quang Lake lies near its northern gate."
+      },
+      "gold_entities": [
+        {
+          "text": "Thong Nhat Park",
+          "label": "landmark"
+        },
+        {
+          "text": "Bay Mau Lake",
+          "label": "lake"
+        },
+        {
+          "text": "islands",
+          "label": "island"
+        },
+        {
+          "text": "bridges",
+          "label": "bridge"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        },
+        {
+          "text": "Thien Quang Lake",
+          "label": "lake"
+        },
+        {
+          "text": "gate",
+          "label": "gate"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Thong Nhat Park",
+          "relation": "located in",
+          "tail": "Hai Ba Trung district"
+        },
+        {
+          "head": "Thong Nhat Park",
+          "relation": "has part",
+          "tail": "Bay Mau Lake"
+        },
+        {
+          "head": "islands",
+          "relation": "in",
+          "tail": "Bay Mau Lake"
+        },
+        {
+          "head": "bridges",
+          "relation": "connects",
+          "tail": "islands"
+        },
+        {
+          "head": "Thien Quang Lake",
+          "relation": "near",
+          "tail": "Thong Nhat Park"
+        }
+      ],
+      "need_verification": [
+        "Số đảo, cầu trong hồ Bảy Mẫu và vị trí cổng gần hồ Thiền Quang [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 22,
+      "name_en": "Thu Le Park",
+      "name_vi": "Công viên Thủ Lệ (Vườn thú Hà Nội)",
+      "category": "Công viên sinh thái & Vườn thú",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "Thu Le Park is an ecological park and the Hanoi Zoo, located in Ba Dinh district. A large lake with an irregular shape lies at the center of the park, with small islands covered by trees. Paved paths, lawns and animal enclosures are surrounded by tall old trees.",
+        "architecture": "Voi Phuc Temple is a traditional temple near the park entrance, with a curved tiled roof and a gate guarded by two kneeling stone elephant statues. Animal enclosures are made of metal fences, concrete walls and moats, and bridges cross narrow sections of the lake.",
+        "surroundings": "Pedal boats float on the green water of the lake, and families walk along the shore. The park is surrounded by busy streets, with tall modern buildings visible above the trees."
+      },
+      "gold_entities": [
+        {
+          "text": "Thu Le Park",
+          "label": "landmark"
+        },
+        {
+          "text": "lake",
+          "label": "lake"
+        },
+        {
+          "text": "small islands",
+          "label": "island"
+        },
+        {
+          "text": "old trees",
+          "label": "tree"
+        },
+        {
+          "text": "Voi Phuc Temple",
+          "label": "temple"
+        },
+        {
+          "text": "curved tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "gate",
+          "label": "gate"
+        },
+        {
+          "text": "stone elephant statues",
+          "label": "statue"
+        },
+        {
+          "text": "stone",
+          "label": "building material"
+        },
+        {
+          "text": "bridges",
+          "label": "bridge"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        },
+        {
+          "text": "green",
+          "label": "color"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Thu Le Park",
+          "relation": "located in",
+          "tail": "Ba Dinh district"
+        },
+        {
+          "head": "Thu Le Park",
+          "relation": "has part",
+          "tail": "lake"
+        },
+        {
+          "head": "small islands",
+          "relation": "in",
+          "tail": "lake"
+        },
+        {
+          "head": "Thu Le Park",
+          "relation": "surrounded by",
+          "tail": "old trees"
+        },
+        {
+          "head": "Voi Phuc Temple",
+          "relation": "near",
+          "tail": "Thu Le Park"
+        },
+        {
+          "head": "Voi Phuc Temple",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "stone elephant statues",
+          "relation": "made of",
+          "tail": "stone"
+        },
+        {
+          "head": "bridges",
+          "relation": "crosses",
+          "tail": "lake"
+        }
+      ],
+      "need_verification": [
+        "Đền Voi Phục nằm trong hay ngoài khuôn viên công viên [Cần Kiểm Tra]",
+        "Có thuyền đạp nước hiện hoạt động hay không [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 23,
+      "name_en": "Truc Bach Lake",
+      "name_vi": "Hồ Trúc Bạch",
+      "category": "Thắng cảnh hồ lịch sử",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Truc Bach Lake is a historic lake located in Ba Dinh district, separated from West Lake by Thanh Nien road. Swan-shaped pedal boats float on the water, and the lake is surrounded by trees and low-rise houses. A stone memorial on the shore marks the site where an American pilot was captured, and Quan Thanh Temple stands near the southern end of the lake."
+      },
+      "gold_entities": [
+        {
+          "text": "Truc Bach Lake",
+          "label": "lake"
+        },
+        {
+          "text": "West Lake",
+          "label": "lake"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        },
+        {
+          "text": "stone memorial",
+          "label": "monument or memorial"
+        },
+        {
+          "text": "Quan Thanh Temple",
+          "label": "temple"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Truc Bach Lake",
+          "relation": "located in",
+          "tail": "Ba Dinh district"
+        },
+        {
+          "head": "Truc Bach Lake",
+          "relation": "near",
+          "tail": "West Lake"
+        },
+        {
+          "head": "Truc Bach Lake",
+          "relation": "surrounded by",
+          "tail": "trees"
+        },
+        {
+          "head": "Quan Thanh Temple",
+          "relation": "near",
+          "tail": "Truc Bach Lake"
+        }
+      ],
+      "need_verification": [
+        "Vị trí tương đối đền Quán Thánh so với hồ [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 24,
+      "name_en": "Van Phuc Silk Village",
+      "name_vi": "Làng lụa Vạn Phúc (Hà Đông)",
+      "category": "Làng nghề truyền thống",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "Van Phuc Silk Village is a traditional craft village located in Ha Dong district. The village gate is a traditional gate with a curved tiled roof and Chinese-style inscriptions, leading to a main street lined with silk shops. Bright silk fabrics in red, yellow, blue and purple colors hang in front of the shop windows.",
+        "architecture": "Inside the workshops, wooden and mechanical looms weave silk, with rows of colored thread on spools. Van Phuc Communal House is a traditional communal house with a curved tiled roof, wooden columns and a stone courtyard, facing a small pond.",
+        "surroundings": "One street in the village is decorated with hundreds of colorful umbrellas hanging overhead, creating a canopy of color above visitors walking below. Old brick houses with tiled roofs stand in the narrow alleys behind the shops."
+      },
+      "gold_entities": [
+        {
+          "text": "Van Phuc Silk Village",
+          "label": "craft village"
+        },
+        {
+          "text": "village gate",
+          "label": "gate"
+        },
+        {
+          "text": "curved tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "silk fabrics",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "blue",
+          "label": "color"
+        },
+        {
+          "text": "purple",
+          "label": "color"
+        },
+        {
+          "text": "looms",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "Van Phuc Communal House",
+          "label": "communal house or shrine"
+        },
+        {
+          "text": "wooden columns",
+          "label": "architectural element"
+        },
+        {
+          "text": "pond",
+          "label": "water"
+        },
+        {
+          "text": "brick",
+          "label": "building material"
+        },
+        {
+          "text": "tiled roofs",
+          "label": "roof"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Van Phuc Silk Village",
+          "relation": "located in",
+          "tail": "Ha Dong district"
+        },
+        {
+          "head": "Van Phuc Silk Village",
+          "relation": "has part",
+          "tail": "Van Phuc Communal House"
+        },
+        {
+          "head": "village gate",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "village gate",
+          "relation": "leading to",
+          "tail": "main street"
+        },
+        {
+          "head": "Van Phuc Communal House",
+          "relation": "faces",
+          "tail": "pond"
+        },
+        {
+          "head": "Van Phuc Communal House",
+          "relation": "with",
+          "tail": "wooden columns"
+        },
+        {
+          "head": "old brick houses",
+          "relation": "made of",
+          "tail": "brick"
+        }
+      ],
+      "need_verification": [
+        "Đình Vạn Phúc quay mặt ra ao/giếng hay không [Cần Kiểm Tra]",
+        "Con đường ô màu hiện còn được trang trí hay không [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 25,
+      "name_en": "Vietnam Museum of Ethnology",
+      "name_vi": "Bảo tàng Dân tộc học Việt Nam",
+      "category": "Bảo tàng văn hóa dân tộc",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "The Vietnam Museum of Ethnology is a museum located in Cau Giay district. The main exhibition building has a rounded form inspired by the Dong Son bronze drum. Behind it, an outdoor garden displays full-size traditional houses of ethnic groups, including a Bahnar communal house with a very tall steep thatched roof, an Ede longhouse on stilts and a Giarai tomb with carved wooden statues."
+      },
+      "gold_entities": [
+        {
+          "text": "Vietnam Museum of Ethnology",
+          "label": "museum"
+        },
+        {
+          "text": "Dong Son bronze drum",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "Bahnar communal house",
+          "label": "communal house or shrine"
+        },
+        {
+          "text": "thatched roof",
+          "label": "roof"
+        },
+        {
+          "text": "Ede longhouse",
+          "label": "building"
+        },
+        {
+          "text": "Giarai tomb",
+          "label": "mausoleum or tomb"
+        },
+        {
+          "text": "carved wooden statues",
+          "label": "statue"
+        },
+        {
+          "text": "wood",
+          "label": "building material"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Vietnam Museum of Ethnology",
+          "relation": "located in",
+          "tail": "Cau Giay district"
+        },
+        {
+          "head": "Vietnam Museum of Ethnology",
+          "relation": "inspired by",
+          "tail": "Dong Son bronze drum"
+        },
+        {
+          "head": "Vietnam Museum of Ethnology",
+          "relation": "has part",
+          "tail": "Bahnar communal house"
+        },
+        {
+          "head": "Bahnar communal house",
+          "relation": "with",
+          "tail": "thatched roof"
+        },
+        {
+          "head": "Giarai tomb",
+          "relation": "with",
+          "tail": "carved wooden statues"
+        }
+      ],
+      "need_verification": [
+        "Hình khối nhà chính lấy cảm hứng từ trống đồng Đông Sơn [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 26,
+      "name_en": "Vietnam National Museum of History",
+      "name_vi": "Bảo tàng Lịch sử Quốc gia",
+      "category": "Bảo tàng khảo cổ & Lịch sử",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "The Vietnam National Museum of History is a museum located on Trang Tien street, near the Hanoi Opera House and the Red River. The main building has a yellow facade and an Indochinese architectural style that blends French and East Asian forms.",
+        "architecture": "The central part of the building is an octagonal tower with a multi-tiered tiled roof, inspired by traditional pagoda roofs. The facade has deep verandas, tall windows with wooden shutters and decorative brackets under the eaves. The second building on Tran Quang Khai street has a French colonial architectural style.",
+        "surroundings": "Inside, glass cases display bronze drums, stone statues, ceramics and ancient relics. The museum is surrounded by old trees and a quiet courtyard, with the second building located across the street."
+      },
+      "gold_entities": [
+        {
+          "text": "Vietnam National Museum of History",
+          "label": "museum"
+        },
+        {
+          "text": "Hanoi Opera House",
+          "label": "building"
+        },
+        {
+          "text": "Red River",
+          "label": "river"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "Indochinese",
+          "label": "architectural style"
+        },
+        {
+          "text": "octagonal tower",
+          "label": "tower"
+        },
+        {
+          "text": "multi-tiered tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "wooden shutters",
+          "label": "architectural element"
+        },
+        {
+          "text": "French colonial",
+          "label": "architectural style"
+        },
+        {
+          "text": "bronze drums",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "stone statues",
+          "label": "statue"
+        },
+        {
+          "text": "ancient relics",
+          "label": "relic"
+        },
+        {
+          "text": "old trees",
+          "label": "tree"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Vietnam National Museum of History",
+          "relation": "located in",
+          "tail": "Trang Tien street"
+        },
+        {
+          "head": "Vietnam National Museum of History",
+          "relation": "near",
+          "tail": "Hanoi Opera House"
+        },
+        {
+          "head": "Vietnam National Museum of History",
+          "relation": "has color",
+          "tail": "yellow"
+        },
+        {
+          "head": "Vietnam National Museum of History",
+          "relation": "architectural style",
+          "tail": "Indochinese"
+        },
+        {
+          "head": "Vietnam National Museum of History",
+          "relation": "has part",
+          "tail": "octagonal tower"
+        },
+        {
+          "head": "octagonal tower",
+          "relation": "with",
+          "tail": "multi-tiered tiled roof"
+        },
+        {
+          "head": "octagonal tower",
+          "relation": "inspired by",
+          "tail": "pagoda roofs"
+        },
+        {
+          "head": "Vietnam National Museum of History",
+          "relation": "surrounded by",
+          "tail": "old trees"
+        }
+      ],
+      "need_verification": [
+        "Địa chỉ cơ sở 2 (216 Trần Quang Khải) và phong cách kiến trúc [Cần Kiểm Tra]",
+        "Hai cơ sở nằm đối diện nhau qua đường [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 27,
+      "name_en": "Vietnam National Puppetry Theatre",
+      "name_vi": "Nhà hát Múa rối Quốc gia Việt Nam",
+      "category": "Nghệ thuật biểu diễn dân gian",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "The Vietnam National Puppetry Theatre is a performance building located on Truong Chinh street. Inside, a water stage lies in front of a water pavilion with a curved tiled roof and bamboo screens. Colorful wooden puppets painted in red, yellow and green perform on the water surface, accompanied by a traditional music band."
+      },
+      "gold_entities": [
+        {
+          "text": "Vietnam National Puppetry Theatre",
+          "label": "building"
+        },
+        {
+          "text": "water stage",
+          "label": "water"
+        },
+        {
+          "text": "water pavilion",
+          "label": "communal house or shrine"
+        },
+        {
+          "text": "curved tiled roof",
+          "label": "roof"
+        },
+        {
+          "text": "wooden puppets",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "yellow",
+          "label": "color"
+        },
+        {
+          "text": "green",
+          "label": "color"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Vietnam National Puppetry Theatre",
+          "relation": "located in",
+          "tail": "Truong Chinh street"
+        },
+        {
+          "head": "water pavilion",
+          "relation": "with",
+          "tail": "curved tiled roof"
+        },
+        {
+          "head": "water pavilion",
+          "relation": "on",
+          "tail": "water stage"
+        }
+      ],
+      "need_verification": [
+        "Mặt ngoài tòa nhà chưa mô tả do thiếu dữ liệu xác thực [ ... điền đặc điểm mặt tiền ]"
+      ]
+    },
+    {
+      "id": 28,
+      "name_en": "Vietnam Women's Museum",
+      "name_vi": "Bảo tàng Phụ nữ Việt Nam",
+      "category": "Bảo tàng chuyên đề văn hóa",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "The Vietnam Women's Museum is a modern museum located on Ly Thuong Kiem street in Hoan Kiem district. The building has a light-colored concrete and glass facade with clean geometric lines.",
+        "architecture": "In the central atrium stands the Vietnamese Mother statue, a large statue with a golden color showing a woman holding her hands open. Natural light falls from above into the atrium, and spiral staircases and walkways connect the exhibition floors.",
+        "surroundings": "Exhibition rooms display traditional costumes, textiles, jewelry and household artifacts of ethnic groups in glass cases. Colorful brocade fabrics in red, black and indigo colors hang on the walls."
+      },
+      "gold_entities": [
+        {
+          "text": "Vietnam Women's Museum",
+          "label": "museum"
+        },
+        {
+          "text": "concrete",
+          "label": "building material"
+        },
+        {
+          "text": "glass",
+          "label": "building material"
+        },
+        {
+          "text": "Vietnamese Mother statue",
+          "label": "statue"
+        },
+        {
+          "text": "golden",
+          "label": "color"
+        },
+        {
+          "text": "atrium",
+          "label": "architectural element"
+        },
+        {
+          "text": "staircases",
+          "label": "architectural element"
+        },
+        {
+          "text": "traditional costumes",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "brocade fabrics",
+          "label": "artwork or artifact"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "black",
+          "label": "color"
+        },
+        {
+          "text": "indigo",
+          "label": "color"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Vietnam Women's Museum",
+          "relation": "located in",
+          "tail": "Hoan Kiem district"
+        },
+        {
+          "head": "Vietnam Women's Museum",
+          "relation": "made of",
+          "tail": "concrete"
+        },
+        {
+          "head": "Vietnam Women's Museum",
+          "relation": "has part",
+          "tail": "atrium"
+        },
+        {
+          "head": "Vietnamese Mother statue",
+          "relation": "in",
+          "tail": "atrium"
+        },
+        {
+          "head": "Vietnamese Mother statue",
+          "relation": "has color",
+          "tail": "golden"
+        },
+        {
+          "head": "staircases",
+          "relation": "connects",
+          "tail": "exhibition floors"
+        }
+      ],
+      "need_verification": [
+        "Tư thế và màu tượng Mẹ Việt Nam [Cần Kiểm Tra]",
+        "Vật liệu mặt tiền, cầu thang xoắn [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 29,
+      "name_en": "West Lake",
+      "name_vi": "Hồ Tây (Chùa Trấn Quốc - Phủ Tây Hồ)",
+      "category": "Quần thể danh thắng cảnh hồ",
+      "in_test_set": true,
+      "split": "test",
+      "visual_descriptions": {
+        "overview": "West Lake is the largest lake in Hanoi, located in Tay Ho district. The wide water surface reflects the sky at sunset, and the lake is surrounded by trees, hotels and residential buildings. Swan-shaped pedal boats float near the shore.",
+        "architecture": "Tran Quoc Pagoda is an ancient pagoda situated on a small island in the east of the lake, connected to Thanh Nien road by a short causeway. Its most visible part is a tall multi-tiered stupa with a red-brown color, with small statues set in arched niches on each tier. The pagoda has curved tiled roofs and is surrounded by old trees and a low railing.",
+        "surroundings": "Tay Ho Palace is a temple situated on a small peninsula, with curved tiled roofs, red wooden gates and a courtyard facing the lake. Food stalls along the lane leading to the temple sell fried shrimp cakes. Thanh Nien road runs between West Lake and Truc Bach Lake."
+      },
+      "gold_entities": [
+        {
+          "text": "West Lake",
+          "label": "lake"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        },
+        {
+          "text": "Tran Quoc Pagoda",
+          "label": "pagoda"
+        },
+        {
+          "text": "small island",
+          "label": "island"
+        },
+        {
+          "text": "stupa",
+          "label": "tower"
+        },
+        {
+          "text": "red-brown",
+          "label": "color"
+        },
+        {
+          "text": "statues",
+          "label": "statue"
+        },
+        {
+          "text": "curved tiled roofs",
+          "label": "roof"
+        },
+        {
+          "text": "railing",
+          "label": "railing"
+        },
+        {
+          "text": "Tay Ho Palace",
+          "label": "temple"
+        },
+        {
+          "text": "red",
+          "label": "color"
+        },
+        {
+          "text": "Truc Bach Lake",
+          "label": "lake"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "West Lake",
+          "relation": "located in",
+          "tail": "Tay Ho district"
+        },
+        {
+          "head": "West Lake",
+          "relation": "surrounded by",
+          "tail": "trees"
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "relation": "situated on",
+          "tail": "small island"
+        },
+        {
+          "head": "small island",
+          "relation": "in",
+          "tail": "West Lake"
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "relation": "has part",
+          "tail": "stupa"
+        },
+        {
+          "head": "stupa",
+          "relation": "has color",
+          "tail": "red-brown"
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "relation": "with",
+          "tail": "curved tiled roofs"
+        },
+        {
+          "head": "Tay Ho Palace",
+          "relation": "faces",
+          "tail": "West Lake"
+        },
+        {
+          "head": "West Lake",
+          "relation": "near",
+          "tail": "Truc Bach Lake"
+        }
+      ],
+      "need_verification": [
+        "Số tầng và chiều cao bảo tháp chùa Trấn Quốc (thường nêu 11 tầng, 15 m) chưa đưa vào mô tả [Cần Kiểm Tra]",
+        "Hướng quay mặt của Phủ Tây Hồ [Cần Kiểm Tra]"
+      ]
+    },
+    {
+      "id": 30,
+      "name_en": "Yen So park",
+      "name_vi": "Công viên Yên Sở (Gamuda City)",
+      "category": "Công viên sinh thái hiện đại",
+      "in_test_set": false,
+      "split": "train_gallery",
+      "visual_descriptions": {
+        "overview": "Yen So Park is a large modern ecological park located in Hoang Mai district. Wide lakes with curved shorelines are surrounded by lawns, young trees and paved cycling paths. Modern bridges cross the water, and residential towers of the urban area are visible beyond the park."
+      },
+      "gold_entities": [
+        {
+          "text": "Yen So Park",
+          "label": "landmark"
+        },
+        {
+          "text": "lakes",
+          "label": "lake"
+        },
+        {
+          "text": "trees",
+          "label": "tree"
+        },
+        {
+          "text": "bridges",
+          "label": "bridge"
+        },
+        {
+          "text": "water",
+          "label": "water"
+        }
+      ],
+      "gold_relations": [
+        {
+          "head": "Yen So Park",
+          "relation": "located in",
+          "tail": "Hoang Mai district"
+        },
+        {
+          "head": "lakes",
+          "relation": "surrounded by",
+          "tail": "trees"
+        },
+        {
+          "head": "bridges",
+          "relation": "crosses",
+          "tail": "lakes"
+        }
+      ],
+      "need_verification": [
+        "Có cầu bắc qua hồ trong công viên hay không [Cần Kiểm Tra]"
+      ]
+    }
+  ]
+}

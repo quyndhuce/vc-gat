@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "experiment": "E1_QueryComplexityStatistics",
+    "fkg_path": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/fkg_per_kb/fkg_global_merged.json",
+    "test_1119_path": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/generated_captions_test_full_1119.jsonl",
+    "test_500_path": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/generated_captions_test_balanced_500_vcgat.jsonl",
+    "allowed_scientific_claim": "Compound queries constitute the computationally demanding subset because they induce substantially larger candidate spaces.",
+    "methodology_note": "Classification based on relational query size e_Q = |E_Q| and derivation topology. Q1: e_Q = 1 (single relation); Q2: e_Q = 2 (two-relation); QC: e_Q >= 3 or branching / multiple convergent derivations. Candidate space measured by grounded path expansion in candidate domain."
+  },
+  "test_1119_benchmark": {
+    "dataset_name": "Benchmark Test-1119 Reasoning Targets",
+    "total_queries": 10659,
+    "rows": [
+      {
+        "query_class": "Single",
+        "count": 4538,
+        "percentage": 42.57,
+        "mean_depth": 1.0,
+        "mean_branching": 1.0,
+        "mean_candidates": 14.0,
+        "max_candidates": 45,
+        "mean_k": 2.0,
+        "mean_e_Q": 1.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 0.0
+      },
+      {
+        "query_class": "Two-relation",
+        "count": 287,
+        "percentage": 2.69,
+        "mean_depth": 2.0,
+        "mean_branching": 5.62,
+        "mean_candidates": 32.2,
+        "max_candidates": 118,
+        "mean_k": 3.0,
+        "mean_e_Q": 2.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 1.0
+      },
+      {
+        "query_class": "Compound",
+        "count": 5834,
+        "percentage": 54.73,
+        "mean_depth": 2.65,
+        "mean_branching": 15.34,
+        "mean_candidates": 878.0,
+        "max_candidates": 2187,
+        "mean_k": 17.92,
+        "mean_e_Q": 108.94,
+        "mean_branching_points": 15.92,
+        "mean_support": 39.12,
+        "mean_shared_intermediate_components": 15.92
+      }
+    ],
+    "class_stats": {
+      "Single": {
+        "query_class": "Single",
+        "count": 4538,
+        "percentage": 42.57,
+        "mean_depth": 1.0,
+        "mean_branching": 1.0,
+        "mean_candidates": 14.0,
+        "max_candidates": 45,
+        "mean_k": 2.0,
+        "mean_e_Q": 1.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 0.0
+      },
+      "Two-relation": {
+        "query_class": "Two-relation",
+        "count": 287,
+        "percentage": 2.69,
+        "mean_depth": 2.0,
+        "mean_branching": 5.62,
+        "mean_candidates": 32.2,
+        "max_candidates": 118,
+        "mean_k": 3.0,
+        "mean_e_Q": 2.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 1.0
+      },
+      "Compound": {
+        "query_class": "Compound",
+        "count": 5834,
+        "percentage": 54.73,
+        "mean_depth": 2.65,
+        "mean_branching": 15.34,
+        "mean_candidates": 878.0,
+        "max_candidates": 2187,
+        "mean_k": 17.92,
+        "mean_e_Q": 108.94,
+        "mean_branching_points": 15.92,
+        "mean_support": 39.12,
+        "mean_shared_intermediate_components": 15.92
+      }
+    }
+  },
+  "test_500_balanced": {
+    "dataset_name": "Balanced Test-500 Reasoning Targets",
+    "total_queries": 4750,
+    "rows": [
+      {
+        "query_class": "Single",
+        "count": 1845,
+        "percentage": 38.84,
+        "mean_depth": 1.0,
+        "mean_branching": 1.0,
+        "mean_candidates": 11.6,
+        "max_candidates": 45,
+        "mean_k": 2.0,
+        "mean_e_Q": 1.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 0.0
+      },
+      {
+        "query_class": "Two-relation",
+        "count": 797,
+        "percentage": 16.78,
+        "mean_depth": 2.0,
+        "mean_branching": 5.97,
+        "mean_candidates": 40.3,
+        "max_candidates": 135,
+        "mean_k": 3.0,
+        "mean_e_Q": 2.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 1.0
+      },
+      {
+        "query_class": "Compound",
+        "count": 2108,
+        "percentage": 44.38,
+        "mean_depth": 2.54,
+        "mean_branching": 15.65,
+        "mean_candidates": 569.5,
+        "max_candidates": 1805,
+        "mean_k": 11.78,
+        "mean_e_Q": 56.28,
+        "mean_branching_points": 9.78,
+        "mean_support": 20.42,
+        "mean_shared_intermediate_components": 9.78
+      }
+    ],
+    "class_stats": {
+      "Single": {
+        "query_class": "Single",
+        "count": 1845,
+        "percentage": 38.84,
+        "mean_depth": 1.0,
+        "mean_branching": 1.0,
+        "mean_candidates": 11.6,
+        "max_candidates": 45,
+        "mean_k": 2.0,
+        "mean_e_Q": 1.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 0.0
+      },
+      "Two-relation": {
+        "query_class": "Two-relation",
+        "count": 797,
+        "percentage": 16.78,
+        "mean_depth": 2.0,
+        "mean_branching": 5.97,
+        "mean_candidates": 40.3,
+        "max_candidates": 135,
+        "mean_k": 3.0,
+        "mean_e_Q": 2.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 1.0
+      },
+      "Compound": {
+        "query_class": "Compound",
+        "count": 2108,
+        "percentage": 44.38,
+        "mean_depth": 2.54,
+        "mean_branching": 15.65,
+        "mean_candidates": 569.5,
+        "max_candidates": 1805,
+        "mean_k": 11.78,
+        "mean_e_Q": 56.28,
+        "mean_branching_points": 9.78,
+        "mean_support": 20.42,
+        "mean_shared_intermediate_components": 9.78
+      }
+    }
+  },
+  "unique_canonical_queries": {
+    "dataset_name": "Unique Canonical Query Targets across 20 Landmarks",
+    "total_queries": 186,
+    "rows": [
+      {
+        "query_class": "Single",
+        "count": 79,
+        "percentage": 42.47,
+        "mean_depth": 1.0,
+        "mean_branching": 1.0,
+        "mean_candidates": 16.7,
+        "max_candidates": 45,
+        "mean_k": 2.0,
+        "mean_e_Q": 1.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 0.0
+      },
+      {
+        "query_class": "Two-relation",
+        "count": 6,
+        "percentage": 3.23,
+        "mean_depth": 2.0,
+        "mean_branching": 6.51,
+        "mean_candidates": 46.5,
+        "max_candidates": 118,
+        "mean_k": 3.0,
+        "mean_e_Q": 2.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 1.0
+      },
+      {
+        "query_class": "Compound",
+        "count": 101,
+        "percentage": 54.3,
+        "mean_depth": 2.62,
+        "mean_branching": 16.22,
+        "mean_candidates": 907.4,
+        "max_candidates": 2187,
+        "mean_k": 15.95,
+        "mean_e_Q": 95.14,
+        "mean_branching_points": 13.95,
+        "mean_support": 34.03,
+        "mean_shared_intermediate_components": 13.95
+      }
+    ],
+    "class_stats": {
+      "Single": {
+        "query_class": "Single",
+        "count": 79,
+        "percentage": 42.47,
+        "mean_depth": 1.0,
+        "mean_branching": 1.0,
+        "mean_candidates": 16.7,
+        "max_candidates": 45,
+        "mean_k": 2.0,
+        "mean_e_Q": 1.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 0.0
+      },
+      "Two-relation": {
+        "query_class": "Two-relation",
+        "count": 6,
+        "percentage": 3.23,
+        "mean_depth": 2.0,
+        "mean_branching": 6.51,
+        "mean_candidates": 46.5,
+        "max_candidates": 118,
+        "mean_k": 3.0,
+        "mean_e_Q": 2.0,
+        "mean_branching_points": 0.0,
+        "mean_support": 1.0,
+        "mean_shared_intermediate_components": 1.0
+      },
+      "Compound": {
+        "query_class": "Compound",
+        "count": 101,
+        "percentage": 54.3,
+        "mean_depth": 2.62,
+        "mean_branching": 16.22,
+        "mean_candidates": 907.4,
+        "max_candidates": 2187,
+        "mean_k": 15.95,
+        "mean_e_Q": 95.14,
+        "mean_branching_points": 13.95,
+        "mean_support": 34.03,
+        "mean_shared_intermediate_components": 13.95
+      }
+    }
+  }
+}

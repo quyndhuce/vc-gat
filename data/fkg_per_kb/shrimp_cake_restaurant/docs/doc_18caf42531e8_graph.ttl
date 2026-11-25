@@ -1,0 +1,54 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/5be8e1d7> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/6d4b6296> onto:near <http://transmtl.vn/kb/hanoi_cuisine> .
+
+<http://transmtl.vn/ent/ebd556e6> onto:over <http://transmtl.vn/kb/hanoi_cuisine> .
+
+<http://transmtl.vn/kb/shrimp_cake_restaurant> onto:founded_in <http://transmtl.vn/ent/6ce8ddd2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5003 ;
+    fkg:docId "doc_18caf42531e8" ;
+    fkg:kbId "shrimp_cake_restaurant" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/6d4b6296> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3305 ;
+    fkg:docId "doc_18caf42531e8" ;
+    fkg:kbId "shrimp_cake_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/6ce8ddd2> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://transmtl.vn/kb/shrimp_cake_restaurant> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5878 ;
+    fkg:docId "doc_18caf42531e8" ;
+    fkg:kbId "shrimp_cake_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/shrimp_cake_restaurant> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7691 ;
+    fkg:docId "doc_18caf42531e8" ;
+    fkg:kbId "shrimp_cake_restaurant" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_cuisine> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/ent/ebd556e6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5867 ;
+    fkg:docId "doc_18caf42531e8" ;
+    fkg:kbId "shrimp_cake_restaurant" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/5be8e1d7> .
+

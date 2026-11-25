@@ -1,0 +1,63 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/thap_rua> onto:has_part <http://transmtl.vn/kb/thap_rua#turtle_tower> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/thap_rua#turtle_tower> onto:located_in <http://www.wikidata.org/entity/Q1151254> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/8fc42c6d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_073f6f2c51ac" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/kb/thap_rua#turtle_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3079 ;
+    fkg:docId "doc_073f6f2c51ac" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/8fc42c6d> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#turtle_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7638 ;
+    fkg:docId "doc_073f6f2c51ac" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3427 ;
+    fkg:docId "doc_073f6f2c51ac" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#turtle_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.368 ;
+    fkg:docId "doc_073f6f2c51ac" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3357 ;
+    fkg:docId "doc_073f6f2c51ac" ;
+    fkg:kbId "thap_rua" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/thap_rua#turtle_tower> .
+

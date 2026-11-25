@@ -1,0 +1,136 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/portrait_painting#back> onto:faces <http://transmtl.vn/ent/4b2a1529> .
+
+<http://transmtl.vn/kb/portrait_painting#eyebrows> onto:part_of <http://transmtl.vn/ent/ad9b8a7b> .
+
+<http://transmtl.vn/kb/portrait_painting#eyes> onto:part_of <http://transmtl.vn/ent/ad9b8a7b> .
+
+<http://transmtl.vn/kb/portrait_painting#subject> onto:faces <http://transmtl.vn/ent/4b2a1529> .
+
+<http://transmtl.vn/kb/portrait_painting> onto:commissioned_by <http://transmtl.vn/ent/1471e4e0>,
+        <http://transmtl.vn/ent/177162d2>,
+        <http://transmtl.vn/ent/898c548d>,
+        <http://transmtl.vn/ent/9827f490>,
+        <http://transmtl.vn/ent/a8317bfb>,
+        <http://transmtl.vn/ent/b9750157> ;
+    onto:has_part <http://transmtl.vn/kb/portrait_painting#back>,
+        <http://transmtl.vn/kb/portrait_painting#eyebrows>,
+        <http://transmtl.vn/kb/portrait_painting#eyes>,
+        <http://transmtl.vn/kb/portrait_painting#subject> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5128 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/4b2a1529> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#back> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2695 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/4b2a1529> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#subject> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3336 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/ad9b8a7b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#eyes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3124 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/ad9b8a7b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting#eyebrows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#subject> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#back> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3485 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/898c548d> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5898 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/1471e4e0> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#eyebrows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6001 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/b9750157> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5952 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/9827f490> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6357 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/177162d2> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6326 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/a8317bfb> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5f8304d7d817" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/kb/portrait_painting#eyes> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+

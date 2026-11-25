@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-10-27 21:31:39",
+  "total_test_videos": 1119,
+  "global_kg_size": 10062,
+  "elapsed_seconds": 5.24,
+  "ms_per_video": 4.68,
+  "summary": {
+    "baseline_pointwise": {
+      "top1_landmark_accuracy": 5.72,
+      "top3_landmark_accuracy": 20.91,
+      "landmark_purity_in_top_k": {
+        "mean": 6.99,
+        "std": 10.73
+      },
+      "gold_fact_hit_rate": {
+        "mean": 1.36,
+        "std": 4.03
+      },
+      "subgraph_coherence_scr": {
+        "mean": 20.48,
+        "std": 17.91
+      }
+    },
+    "global_cross_attention": {
+      "top1_landmark_accuracy": 0.8,
+      "top3_landmark_accuracy": 22.61,
+      "landmark_purity_in_top_k": {
+        "mean": 1.6,
+        "std": 5.35
+      },
+      "gold_fact_hit_rate": {
+        "mean": 1.57,
+        "std": 5.24
+      },
+      "subgraph_coherence_scr": {
+        "mean": 11.55,
+        "std": 14.57
+      }
+    },
+    "global_graph_localized": {
+      "top1_landmark_accuracy": 0.8,
+      "top3_landmark_accuracy": 22.61,
+      "landmark_purity_in_top_k": {
+        "mean": 9.39,
+        "std": 22.37
+      },
+      "gold_fact_hit_rate": {
+        "mean": 3.55,
+        "std": 8.73
+      },
+      "subgraph_coherence_scr": {
+        "mean": 45.49,
+        "std": 5.7
+      }
+    }
+  }
+}

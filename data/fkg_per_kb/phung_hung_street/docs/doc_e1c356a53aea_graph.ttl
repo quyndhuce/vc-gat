@@ -1,0 +1,144 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:ruled_by <http://transmtl.vn/ent/ab8a5c95> .
+
+<http://transmtl.vn/kb/phung_hung_street#arches> onto:made_of <http://transmtl.vn/ent/fce026a8> .
+
+<http://transmtl.vn/kb/phung_hung_street#path> onto:part_of <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/phung_hung_street#railway_arches> onto:built_by <http://transmtl.vn/ent/ab8a5c95> ;
+    onto:made_of <http://transmtl.vn/ent/fce026a8> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/phung_hung_street> onto:has_part <http://transmtl.vn/kb/phung_hung_street#arches>,
+        <http://transmtl.vn/kb/phung_hung_street#path>,
+        <http://transmtl.vn/kb/phung_hung_street#railway_arches> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:named_after <http://transmtl.vn/ent/0219a854> ;
+    onto:symbol_of <http://transmtl.vn/ent/207462d2> ;
+    onto:used_as <http://transmtl.vn/ent/4940af35> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/kb/phung_hung_street#railway_arches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6252 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/fce026a8> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street#arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2814 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7641 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/0219a854> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/kb/phung_hung_street#arches> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4447 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/4940af35> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8589 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3672 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/4940af35> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4149 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/ab8a5c95> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street#railway_arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5112 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4788 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/kb/phung_hung_street#path> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4388 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/fce026a8> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street#railway_arches> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3356 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/phung_hung_street#path> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2884 ;
+    fkg:docId "doc_e1c356a53aea" ;
+    fkg:kbId "phung_hung_street" ;
+    rdf:object <http://transmtl.vn/ent/ab8a5c95> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+

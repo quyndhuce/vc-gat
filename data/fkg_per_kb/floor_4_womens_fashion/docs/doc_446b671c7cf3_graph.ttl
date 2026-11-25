@@ -1,0 +1,196 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/ab88dd69> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/floor_4_womens_fashion#fashion_gallery> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/floor_4_womens_fashion#gallery> onto:part_of <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+<http://transmtl.vn/kb/floor_4_womens_fashion#gallery不仅是对越南女性时尚的展示> onto:part_of <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+<http://transmtl.vn/kb/floor_4_womens_fashion#áo_dài> onto:architectural_style <http://transmtl.vn/ent/0f276b8e> .
+
+<http://transmtl.vn/kb/floor_4_womens_fashion> onto:has_part <http://transmtl.vn/kb/floor_4_womens_fashion#fashion_gallery>,
+        <http://transmtl.vn/kb/floor_4_womens_fashion#fourth_floor>,
+        <http://transmtl.vn/kb/floor_4_womens_fashion#gallery>,
+        <http://transmtl.vn/kb/floor_4_womens_fashion#gallery不仅是对越南女性时尚的展示>,
+        <http://transmtl.vn/kb/floor_4_womens_fashion#áo_dài> .
+
+<http://transmtl.vn/kb/floor_4_womens_fashion#fourth_floor> onto:part_of <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+<http://transmtl.vn/kb/vietnam_womens_museum> onto:has_part <http://transmtl.vn/ent/254bdc3c>,
+        <http://transmtl.vn/ent/91474b80> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://transmtl.vn/ent/ab88dd69> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/floor_4_womens_fashion#gallery不仅是对越南女性时尚的展示> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3771 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/254bdc3c> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/floor_4_womens_fashion#fourth_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4174 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion#gallery> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/floor_4_womens_fashion#fashion_gallery> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.253 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/91474b80> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4839 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/254bdc3c> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4351 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion#gallery不仅是对越南女性时尚的展示> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6536 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion#fourth_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5778 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ab88dd69> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2834 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion#fourth_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/floor_4_womens_fashion#gallery> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7353 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_womens_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion#fourth_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6441 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/ab88dd69> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/floor_4_womens_fashion#fourth_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3147 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion#fashion_gallery> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2719 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/0f276b8e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion#áo_dài> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/floor_4_womens_fashion#fourth_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2826 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/254bdc3c> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/kb/floor_4_womens_fashion#áo_dài> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/floor_4_womens_fashion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5602 ;
+    fkg:docId "doc_446b671c7cf3" ;
+    fkg:kbId "floor_4_womens_fashion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/vietnam_womens_museum> .
+

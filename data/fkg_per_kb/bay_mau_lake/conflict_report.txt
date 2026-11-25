@@ -1,0 +1,47 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Bay Mau Lake)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/bay_mau_lake
+  Conflict K: 0.5665
+  Candidates:
+    • Hanoi                           Bel=0.5914  Pl=0.7648  (3 evidence)
+    • urban spirit                    Bel=0.1125  Pl=0.2859  (1 evidence)
+    • city                            Bel=0.0711  Pl=0.2445  (1 evidence)
+    • people                          Bel=0.0516  Pl=0.2250  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [dated_to] (Thong Nhat park) → http://transmtl.vn/ent/47a2ad40  Bel=0.4578  K=0.0000
+  [symbol_of] (Bay Mau Lake) → http://transmtl.vn/ent/207462d2  Bel=0.5914  K=0.5665 ⚠ REVIEW
+  [founded_in] (Thong Nhat park) → http://transmtl.vn/ent/7f16109f  Bel=0.7879  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [located_in] (Bay Mau Lake) → (Hanoi)  μ_F=0.9749  (10 evidence)
+  [has_part] (Bay Mau Lake) → (perimeter)  μ_F=0.9025  (1 evidence)
+  [over] (sun) → (Thong Nhat park)  μ_F=0.8915  (2 evidence)
+  [surrounded_by] (Thong Nhat park) → (weeping willows)  μ_F=0.8906  (3 evidence)
+  [located_in] (Thong Nhat park) → (Hanoi)  μ_F=0.8661  (3 evidence)
+  [part_of] (Bay Mau Lake) → (Thong Nhat park)  μ_F=0.8331  (3 evidence)
+  [part_of] (Thong Nhat Island) → (Thong Nhat park)  μ_F=0.7103  (2 evidence)
+  [located_in] (Bay Mau Lake) → (Hai Ba Trung)  μ_F=0.6510  (3 evidence)
+  [located_in] (Bay Mau Lake) → (Hai Ba Trung District)  μ_F=0.6390  (2 evidence)
+  [surrounded_by] (Thong Nhat park) → (mahogany canopies)  μ_F=0.6327  (1 evidence)
+  [near] (Bay Mau Lake) → (Hanoi)  μ_F=0.5617  (2 evidence)
+  [surrounded_by] (Thong Nhat park) → (greenery)  μ_F=0.5520  (1 evidence)
+  [near] (open spaces) → (Thong Nhat park)  μ_F=0.5459  (2 evidence)
+  [across] (boat ride) → (Thong Nhat park)  μ_F=0.5342  (2 evidence)
+  [part_of] (Bay Mau Lake) → (Hai Ba Trung District)  μ_F=0.5256  (2 evidence)
+  [part_of] (Thong Nhat Island) → (Bay Mau Lake)  μ_F=0.5149  (2 evidence)
+  [surrounded_by] (Thong Nhat park) → (landscape)  μ_F=0.5131  (2 evidence)
+  [surrounded_by] (Thong Nhat park) → (trees)  μ_F=0.5096  (2 evidence)
+  [surrounded_by] (Thong Nhat park) → (lush greenery)  μ_F=0.5090  (1 evidence)
+  [located_in] (Hai Ba Trung District) → (Hanoi)  μ_F=0.5066  (2 evidence)
+
+========================================================================

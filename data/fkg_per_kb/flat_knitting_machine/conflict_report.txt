@@ -1,0 +1,37 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Flat knitting machine)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/flat_knitting_machine
+  Conflict K: 0.9470
+  Candidates:
+    • cultural heritage               Bel=0.3019  Pl=0.4065  (2 evidence)
+    • cultural significance           Bel=0.1683  Pl=0.2729  (1 evidence)
+    • region                          Bel=0.1597  Pl=0.2643  (1 evidence)
+    • tradition                       Bel=0.0835  Pl=0.1881  (1 evidence)
+    • innovation                      Bel=0.0773  Pl=0.1819  (1 evidence)
+    • heritage                        Bel=0.0528  Pl=0.1574  (1 evidence)
+    • roots                           Bel=0.0519  Pl=0.1565  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [symbol_of] (machines) → http://transmtl.vn/ent/5db931c1  Bel=0.3351  K=0.0000
+  [symbol_of] (Flat knitting machine) → http://transmtl.vn/ent/caf18694  Bel=0.3019  K=0.9470 ⚠ REVIEW
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Flat knitting machine) → (slider assembly)  μ_F=0.9025  (1 evidence)
+  [has_part] (Flat knitting machine) → (tiny needles)  μ_F=0.9025  (1 evidence)
+  [has_part] (Flat knitting machine) → (machines)  μ_F=0.9025  (1 evidence)
+  [located_in] (Van Phuc Ward) → (Ha Dong District)  μ_F=0.4088  (2 evidence)
+  [located_in] (Flat knitting machine) → (Van Phuc Ward)  μ_F=0.3931  (2 evidence)
+  [located_in] (Flat knitting machine) → (textile workshop)  μ_F=0.2714  (1 evidence)
+  [part_of] (slider assembly) → (textile workshops)  μ_F=0.2570  (1 evidence)
+  [part_of] (tiny needles) → (textile workshops)  μ_F=0.2314  (1 evidence)
+
+========================================================================

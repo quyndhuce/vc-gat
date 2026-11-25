@@ -1,0 +1,195 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/tam_quan_gate> onto:part_of <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/tao_sach_pagoda#gate> onto:built_by <http://transmtl.vn/ent/abb45fdc> .
+
+<http://transmtl.vn/kb/tao_sach_pagoda#second_floor> onto:part_of <http://transmtl.vn/ent/43555739> .
+
+<http://transmtl.vn/kb/tao_sach_pagoda#three_entrance_gate> onto:built_by <http://transmtl.vn/ent/abb45fdc> ;
+    onto:made_of <http://transmtl.vn/ent/b7800d7a> ;
+    onto:part_of <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> onto:on <http://transmtl.vn/ent/1b9b57f8> ;
+    onto:part_of <http://transmtl.vn/kb/tao_sach_pagoda>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:symbol_of <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/tao_sach_pagoda> onto:has_part <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower>,
+        <http://transmtl.vn/kb/tao_sach_pagoda#gate>,
+        <http://transmtl.vn/kb/tao_sach_pagoda#second_floor>,
+        <http://transmtl.vn/kb/tao_sach_pagoda#three_entrance_gate> ;
+    onto:near <http://transmtl.vn/kb/west_lake> ;
+    onto:overlooks <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5977 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.349 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b7800d7a> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#three_entrance_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2925 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/43555739> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#second_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8723 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/b7800d7a> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#three_entrance_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3381 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tao_sach_pagoda#second_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tao_sach_pagoda#three_entrance_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3342 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tao_sach_pagoda> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2886 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/abb45fdc> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4832 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/1b9b57f8> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3952 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3841 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tao_sach_pagoda#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3206 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3226 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tam_quan_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tao_sach_pagoda#three_entrance_gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4587 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#three_entrance_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2832 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/tao_sach_pagoda#bell_tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4586 ;
+    fkg:docId "doc_11fd7977c71b" ;
+    fkg:kbId "tao_sach_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/abb45fdc> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/tao_sach_pagoda#three_entrance_gate> .
+

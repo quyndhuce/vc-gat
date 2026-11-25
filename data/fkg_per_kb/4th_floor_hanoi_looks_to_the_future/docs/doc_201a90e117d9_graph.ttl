@@ -1,0 +1,130 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/f4158331> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#avenues> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#cultural_and_scientific_centers> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#projection_screens> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#public_buildings> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#residential_districts> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#urban_models> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future> onto:has_part <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#avenues>,
+        <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#cultural_and_scientific_centers>,
+        <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#projection_screens>,
+        <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#public_buildings>,
+        <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#residential_districts>,
+        <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#urban_models> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#public_buildings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3611 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f4158331> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#urban_models> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5747 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#residential_districts> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#residential_districts> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#avenues> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4626 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#cultural_and_scientific_centers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#projection_screens> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2909 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#public_buildings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5077 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#avenues> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2838 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#projection_screens> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.343 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#urban_models> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_201a90e117d9" ;
+    fkg:kbId "4th_floor_hanoi_looks_to_the_future" ;
+    rdf:object <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future#cultural_and_scientific_centers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/4th_floor_hanoi_looks_to_the_future> .
+

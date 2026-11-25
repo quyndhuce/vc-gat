@@ -1,0 +1,306 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/4744f556> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/ent/495883b7> onto:former_name_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/ent/8ac69fec> onto:located_in <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/ent/9429e07e> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/ent/d1159b50> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_pagoda#umbrella_lined_path> onto:near <http://transmtl.vn/ent/2a20afe0> .
+
+<http://transmtl.vn/ent/08d6f40a> onto:former_name_of <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:surrounded_by <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_pagoda#mural_wall> onto:located_in <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_pagoda> onto:has_part <http://transmtl.vn/kb/van_phuc_pagoda#mural_wall>,
+        <http://transmtl.vn/kb/van_phuc_pagoda#umbrella_lined_path>,
+        <http://transmtl.vn/kb/van_phuc_pagoda#wall> ;
+    onto:near <http://transmtl.vn/ent/bc5986eb> ;
+    onto:surrounded_by <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_pagoda#wall> onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    onto:surrounded_by <http://transmtl.vn/ent/31657521>,
+        <http://transmtl.vn/ent/8fc42c6d>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/da5ce016>,
+        <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village> onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:near <http://transmtl.vn/ent/bc5986eb> ;
+    onto:renamed_to <http://transmtl.vn/ent/08d6f40a> ;
+    onto:surrounded_by <http://transmtl.vn/ent/a4f550de> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3046 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/bc5986eb> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4558 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#mural_wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4615 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3475 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3482 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3889 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/8fc42c6d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7742 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/08d6f40a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6657 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda#umbrella_lined_path> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4504 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/08d6f40a> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4192 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/da5ce016> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda#mural_wall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5356 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/495883b7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda#wall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4529 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/bc5986eb> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4246 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#mural_wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5528 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2528 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#mural_wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6436 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/da5ce016> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda#wall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4943 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8ac69fec> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.258 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/a4f550de> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2883 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/9429e07e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3525 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/d1159b50> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2759 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/31657521> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3013 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/2a20afe0> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#umbrella_lined_path> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4158 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3623 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/08d6f40a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3388 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/ent/08d6f40a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_pagoda#mural_wall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4303 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/08d6f40a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2565 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/4744f556> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.349 ;
+    fkg:docId "doc_aa6186254f95" ;
+    fkg:kbId "van_phuc_pagoda" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_pagoda#wall> .
+

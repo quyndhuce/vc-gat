@@ -1,0 +1,373 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/3b2230c6> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/6d211621> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/381e6411> onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/d26876cb> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:surrounded_by <http://transmtl.vn/ent/0be49294>,
+        <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/381e6411>,
+        <http://transmtl.vn/ent/46d5c58a>,
+        <http://transmtl.vn/ent/603cb3a9>,
+        <http://transmtl.vn/ent/a97ea6a4>,
+        <http://transmtl.vn/ent/e601d20a>,
+        <http://transmtl.vn/ent/ed0aa594>,
+        <http://transmtl.vn/kb/van_lake> .
+
+<http://transmtl.vn/kb/van_lake> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/d26876cb> ;
+    onto:part_of <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/d26876cb>,
+        <http://transmtl.vn/kb/temple_of_literature>,
+        <http://transmtl.vn/kb/van_mieu_gate> ;
+    onto:surrounded_by <http://transmtl.vn/ent/603cb3a9>,
+        <http://transmtl.vn/ent/a97ea6a4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3217 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6332 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/ed0aa594> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6652 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/0be49294> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3632 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d26876cb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2976 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/van_lake> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2675 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2976 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/381e6411> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6246 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.441 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.473 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/d26876cb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3082 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2662 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/381e6411> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5867 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4628 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/603cb3a9> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3023 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3b2230c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.294 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/6d211621> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3219 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/e601d20a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4922 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/46d5c58a> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3692 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/ed0aa594> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8709 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/a97ea6a4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3711 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3759 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4535 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/a97ea6a4> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3999 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/d26876cb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5923 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9663 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3877 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/381e6411> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.386 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4845 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3355 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/d26876cb> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3363 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8954 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/603cb3a9> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4357 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3843 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/d26876cb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9041 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.262 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2578 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/d26876cb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.494 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/381e6411> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6955 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/d26876cb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3249 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4072 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2772 ;
+    fkg:docId "doc_a1046ee6123a" ;
+    fkg:kbId "van_lake" ;
+    rdf:object <http://transmtl.vn/ent/d26876cb> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_lake> .
+

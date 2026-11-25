@@ -1,0 +1,52 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hanoi_museum> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion> onto:has_part <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#pavilion> onto:faces <http://transmtl.vn/ent/ebd556e6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_858dd04951d9" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4581 ;
+    fkg:docId "doc_858dd04951d9" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/ebd556e6> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4412 ;
+    fkg:docId "doc_858dd04951d9" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5141 ;
+    fkg:docId "doc_858dd04951d9" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.525 ;
+    fkg:docId "doc_858dd04951d9" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+

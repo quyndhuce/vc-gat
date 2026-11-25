@@ -1,0 +1,13 @@
+OFFICIAL LATEST EVALUATION REFERENCE NOTE
+======================================
+Directory: results/two_level_silver_reference_latest/
+Status:    LATEST CANONICAL REFERENCE (Multi-VLM Consensus Silver Reference: F_ref^full(V))
+Created:   2026-11-12
+
+This directory replaces prior ranking-coupled / static-mu_F / operational proxy sets as the primary, audit-ready evaluation reference for:
+  - Level 1 (Quota-Free Evidence Ranking & Discrimination over full C(V), 72,450 pairs)
+  - Level 2 (Quota-Constrained Evidence@K and Blinded Claim-Level Caption Evaluation)
+
+Previous sets remain preserved in results/ and data/caption_dataset/ for comparison and transparency (never deleted):
+  - Legacy VC-GAT-coupled Hanoi F_gold: data/caption_dataset/generated_captions_test_balanced_500_vcgat.jsonl
+  - Independent Dual-LLM X4/X5 audits: results/X4_X5_independent_audit_report.json & X4_X5_independent_audit_v2_report.json

@@ -1,0 +1,55 @@
+manuscript_location,claim_description,reported_value,recomputed_value,unit,absolute_difference,relative_difference_pct,source_artifact,verification_status,explanation
+Table 2 (Row 1),Exhaustive derivations,12391,12391,derivs,0.000000,0.0000%,measured_persistent_storage_benchmark_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 2 (Row 4),Hybrid mode derivations evaluated,4096,4096,derivs,0.000000,0.0000%,measured_persistent_storage_benchmark_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 2 (Row 4),Hybrid computational savings,66.94,66.94,%,0.000000,0.0000%,measured_persistent_storage_benchmark_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 2 (Row 4),Hybrid policy flips,0,0,count,0.000000,0.0000%,measured_persistent_storage_benchmark_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 2 (Row 4),Hybrid Top-5 set agreement,100.0,100.0,%,0.000000,0.0000%,measured_persistent_storage_benchmark_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 2 (Row 4),Hybrid Top-5 order agreement,100.0,100.0,%,0.000000,0.0000%,measured_persistent_storage_benchmark_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 2 (Row 4),Measured NVMe disk speedup,1.72,1.72,factor,0.000000,0.0000%,measured_persistent_storage_benchmark_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 3 (k=0),Mean envelope width W_0,0.1521,0.1521,prob,0.000000,0.0000%,certified_horn_early_stopping_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 3 (k=3),Mean envelope width W_3,0.029,0.029,prob,0.000000,0.0000%,certified_horn_early_stopping_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 3 (k=3),Regime resolution rate at depth 3,96.9,96.9,%,0.000000,0.0000%,certified_horn_early_stopping_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 3 (k=0..3),Monotonicity violations,0,0,count,0.000000,0.0000%,certified_horn_early_stopping_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel A (alpha=0.40),Empirical flip probability P(F),2.77,2.77,%,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel A (alpha=0.40),Empirical flip accuracy a_emp,0.745,0.745,ratio,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel A (alpha=0.40),Net pairwise risk change Delta R,-1.359,-1.359,%,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel B,Entering Top-5 delta nDCG,0.04163,0.04163,score,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel B,Leaving Top-5 delta nDCG,-0.0146,-0.0146,score,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel B,Within Top-5 delta nDCG,0.01281,0.01281,score,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel B,Outside Top-5 delta nDCG,0.0,0.0,score,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel B,Total partition algebraic sum,0.03984,0.03984,score,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 5 Panel B,Direct empirical nDCG delta,0.03984,0.03984,score,0.000000,0.0000%,raw_candidate_predictions_hanoi500.csv,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.05),VC-GAT threshold theta_hat,0.679,0.679,score,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.05),VC-GAT reported cal risk,4.99,4.99,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.05),VC-GAT test cluster risk,0.89,0.89,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.05),VC-GAT grounded recall,10.27,10.27,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.05),VC-GAT admission precision,46.29,46.29,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.10),VC-GAT threshold theta_hat,0.525,0.525,score,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.10),VC-GAT test cluster risk,5.25,5.25,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.10),VC-GAT grounded recall,22.62,22.62,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.20),VC-GAT threshold theta_hat,0.403,0.403,score,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.20),VC-GAT test cluster risk,17.13,17.13,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 6 (alpha=0.20),VC-GAT grounded recall,37.27,37.27,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 1),Overall nDCG@5 Cross-Attn,0.3038,0.3038,score,0.000000,0.0000%,table22_per_clip_metrics.csv,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 1),Overall nDCG@5 VC-GAT,0.3899,0.3899,score,0.000000,0.0000%,table22_per_clip_metrics.csv,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 1),Overall nDCG@5 Paired Delta,0.0861,0.0861,score,0.000000,0.0000%,table22_per_clip_metrics.csv,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 1),Overall nDCG@5 Cluster CI Low,0.0432,0.0432,score,0.000000,0.0000%,table22_bootstrap_replicates.npz,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 1),Overall nDCG@5 Cluster CI High,0.1335,0.1335,score,0.000000,0.0000%,table22_bootstrap_replicates.npz,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 1),Overall nDCG@5 Cohen d,0.407,0.407,effect,0.000000,0.0000%,table22_verified_results.json,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 2),Precision@5 Paired Delta,0.0736,0.0736,score,0.000000,0.0000%,table22_per_clip_metrics.csv,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 3),Hard-Negative AUC Paired Delta,0.0437,0.0437,score,0.000000,0.0000%,table22_per_clip_metrics.csv,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 4),Seen Landmarks nDCG@5 Paired Delta,0.109,0.109,score,0.000000,0.0000%,table22_per_clip_metrics.csv,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 5),Unseen Landmarks nDCG@5 Paired Delta,0.0675,0.0675,score,0.000000,0.0000%,table22_per_clip_metrics.csv,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 6),Historical Facts nDCG@5 Paired Delta,0.0367,0.0367,score,0.000000,0.0000%,table22_per_clip_metrics.csv,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 6),Historical Facts Cluster CI Low,-0.042,-0.042,score,0.000000,0.0000%,table22_bootstrap_replicates.npz,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 6),Historical Facts Cluster CI High,0.0977,0.0977,score,0.000000,0.0000%,table22_bootstrap_replicates.npz,PASS,Exact numerical match within floating-point tolerance
+Table 20 (Row 6),Historical Facts Significance,n.s.,n.s.,label,0.000000,0.0000%,table22_verified_results.json,PASS,Exact numerical match within floating-point tolerance
+Table 7 (E6 vs E5),Proposed CSR vs Base Qwen3B,0.4642,0.4642,score,0.000000,0.0000%,test_500_balanced_all_models_captions_scientific_vcgat.json,PASS,Exact numerical match within floating-point tolerance
+Table 7 (E6 vs E5),Proposed BKR@5 vs Base Qwen3B,0.6813,0.6813,score,0.000000,0.0000%,test_500_balanced_all_models_captions_scientific_vcgat.json,PASS,Exact numerical match within floating-point tolerance
+Table 7 (E6 vs E3),Proposed VFAR vs Crisp-KG,0.2613,0.2613,score,0.000000,0.0000%,test_500_balanced_all_models_captions_scientific_vcgat.json,PASS,Exact numerical match within floating-point tolerance
+Table 17 (Evidence Adm),Grounded Recall Gain alpha=0.05,3.06,3.06,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 17 (Evidence Adm),Grounded Recall Gain alpha=0.10,3.67,3.67,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 17 (Evidence Adm),Grounded Recall Gain alpha=0.20,3.88,3.88,%,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 17 (Evidence Adm),P-value alpha=0.05,0.0509,0.0509,p-val,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 17 (Evidence Adm),P-value alpha=0.10,0.0015,0.0015,p-val,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance
+Table 17 (Evidence Adm),P-value alpha=0.20,0.0022,0.0022,p-val,0.000000,0.0000%,master_reconciliation_audit_report.json,PASS,Exact numerical match within floating-point tolerance

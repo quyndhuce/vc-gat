@@ -1,0 +1,48 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Drum house)  --[built_in]-->  ?
+  Head URI  : http://transmtl.vn/kb/drum_house
+  Conflict K: 0.5919
+  Candidates:
+    • 2000                            Bel=0.6149  Pl=0.7296  (2 evidence)
+    • 1999                            Bel=0.2704  Pl=0.3851  (2 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [symbol_of] (Temple of Literature) → http://transmtl.vn/ent/f849505d  Bel=0.5602  K=0.0000
+  [built_in] (Drum house) → http://transmtl.vn/ent/08f90c1a  Bel=0.6149  K=0.5919 ⚠ REVIEW
+  [symbol_of] (Drum house) → http://transmtl.vn/ent/5fc4d1e2  Bel=0.2213  K=0.0560
+  [symbol_of] (Bell house) → http://transmtl.vn/kb/temple_of_literature  Bel=0.2586  K=0.0000
+  [symbol_of] (structures) → http://transmtl.vn/kb/temple_of_literature  Bel=0.2877  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.3602  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [part_of] (Drum house) → (Temple of Literature)  μ_F=0.9984  (12 evidence)
+  [has_part] (Drum house) → (drumhead)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (roof tiles)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (railings)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (walls)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (eaves)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (finials)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (bell)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (drum)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (thunder drum)  μ_F=0.9905  (2 evidence)
+  [has_part] (Drum house) → (drumbeats)  μ_F=0.9905  (2 evidence)
+  [located_in] (Temple of Literature) → (Hanoi)  μ_F=0.9111  (3 evidence)
+  [has_part] (Drum house) → (Bell Tower)  μ_F=0.9025  (1 evidence)
+  [has_part] (Drum house) → (fluid connection)  μ_F=0.9025  (1 evidence)
+  [has_part] (Drum house) → (large drum)  μ_F=0.9025  (1 evidence)
+  [has_part] (Drum house) → (audio guide)  μ_F=0.9025  (1 evidence)
+  [has_part] (Drum house) → (construction)  μ_F=0.9025  (1 evidence)
+  [has_part] (Drum house) → (structures)  μ_F=0.9025  (1 evidence)
+  [has_part] (Drum house) → (columns)  μ_F=0.9025  (1 evidence)
+  [has_part] (Drum house) → (Thai Hoa courtyard)  μ_F=0.9025  (1 evidence)
+
+========================================================================

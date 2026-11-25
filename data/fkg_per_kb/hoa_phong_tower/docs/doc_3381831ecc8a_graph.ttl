@@ -1,0 +1,251 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hoa_phong_tower#inscriptions> onto:above <http://transmtl.vn/ent/d6194c68> .
+
+<http://transmtl.vn/kb/hoa_phong_tower#entrances> onto:on <http://transmtl.vn/ent/48bfc9a7> ;
+    onto:part_of <http://transmtl.vn/ent/79835ea3> .
+
+<http://transmtl.vn/kb/hoa_phong_tower#tower> onto:has_part <http://transmtl.vn/ent/1b9b57f8> ;
+    onto:on <http://transmtl.vn/ent/48bfc9a7> .
+
+<http://transmtl.vn/ent/3c3377be> onto:belongs_to_dynasty <http://transmtl.vn/ent/c903b2b1> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/kb/hoa_phong_tower> onto:has_part <http://transmtl.vn/kb/hoa_phong_tower#entrances>,
+        <http://transmtl.vn/kb/hoa_phong_tower#inscriptions>,
+        <http://transmtl.vn/kb/hoa_phong_tower#tower> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:on <http://www.wikidata.org/entity/Q1151254> ;
+    onto:part_of <http://transmtl.vn/ent/3c3377be> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:demolished_by <http://transmtl.vn/ent/9693ec62> ;
+    onto:demolished_in <http://transmtl.vn/ent/2d1b2a5f> ;
+    onto:destroyed_in <http://transmtl.vn/ent/2d1b2a5f> ;
+    onto:faces <http://transmtl.vn/kb/red_river> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:on <http://transmtl.vn/ent/428ec619> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/kb/hoa_phong_tower#entrances> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4338 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/3c3377be> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8103 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/9693ec62> ;
+    rdf:predicate onto:demolished_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5589 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/3c3377be> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.368 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3c3377be> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5118 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/3c3377be> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/kb/hoa_phong_tower#tower> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2672 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/79835ea3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower#entrances> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.537 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5313 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2777 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/d6194c68> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower#inscriptions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7139 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/2d1b2a5f> ;
+    rdf:predicate onto:demolished_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2639 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/2d1b2a5f> ;
+    rdf:predicate onto:destroyed_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4546 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/c903b2b1> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/3c3377be> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4944 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/kb/red_river> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5609 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/9693ec62> ;
+    rdf:predicate onto:demolished_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3594 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.665 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/428ec619> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4435 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/48bfc9a7> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.358 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/2d1b2a5f> ;
+    rdf:predicate onto:destroyed_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4258 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/1b9b57f8> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower#tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5675 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/kb/hoa_phong_tower#inscriptions> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4901 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/2d1b2a5f> ;
+    rdf:predicate onto:demolished_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2551 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/48bfc9a7> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/hoa_phong_tower#entrances> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3609 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9632 ;
+    fkg:docId "doc_3381831ecc8a" ;
+    fkg:kbId "hoa_phong_tower" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+

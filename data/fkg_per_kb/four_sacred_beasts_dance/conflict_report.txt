@@ -1,0 +1,46 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Four Sacred Beasts Dance)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/four_sacred_beasts_dance
+  Conflict K: 0.8243
+  Candidates:
+    • earth                           Bel=0.1236  Pl=0.3208  (1 evidence)
+    • water                           Bel=0.1170  Pl=0.3142  (1 evidence)
+    • wind                            Bel=0.1041  Pl=0.3012  (1 evidence)
+    • fire                            Bel=0.0979  Pl=0.2950  (1 evidence)
+    • four cardinal directions        Bel=0.0970  Pl=0.2942  (1 evidence)
+    • cultural identity               Bel=0.0545  Pl=0.2516  (1 evidence)
+    • adaptability                    Bel=0.0531  Pl=0.2503  (1 evidence)
+    • elements                        Bel=0.0526  Pl=0.2498  (1 evidence)
+    • Vietnam                         Bel=0.0518  Pl=0.2490  (1 evidence)
+    • resilience                      Bel=0.0513  Pl=0.2485  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [capital_of] (capital) → http://transmtl.vn/ent/5f8f9e33  Bel=0.6175  K=0.0000
+  [symbol_of] (Four Sacred Beasts Dance) → http://transmtl.vn/ent/852488dd  Bel=0.1236  K=0.8243 ⚠ REVIEW
+  [inaugurated_in] (Performance) → http://transmtl.vn/ent/4d855669  Bel=0.5281  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Four Sacred Beasts Dance) → (otherworldly aura)  μ_F=0.9025  (1 evidence)
+  [has_part] (Four Sacred Beasts Dance) → (Hoàn Kiếm Lake)  μ_F=0.9025  (1 evidence)
+  [on] (Performance) → (Đinh Tiên Hoàng Street)  μ_F=0.8230  (2 evidence)
+  [near] (Performance) → (Hoàn Kiếm Lake)  μ_F=0.5643  (1 evidence)
+  [located_in] (Performance) → (Hanoi)  μ_F=0.4636  (1 evidence)
+  [part_of] (Four Sacred Beasts Dance) → (Vietnam)  μ_F=0.3712  (1 evidence)
+  [ruled_by] (Vietnam) → (King Lý Thái Tổ)  μ_F=0.3159  (1 evidence)
+  [located_in] (Thăng Long Water Puppet Theatre) → (Hanoi)  μ_F=0.2526  (1 evidence)
+  [surrounded_by] (Performance) → (surrounding area)  μ_F=0.2465  (1 evidence)
+  [located_in] (Four Sacred Beasts Dance) → (Ngũ phụng tề phi)  μ_F=0.2424  (1 evidence)
+  [located_in] (Hoàn Kiếm Lake) → (Hanoi)  μ_F=0.2108  (1 evidence)
+  [located_in] (Performance) → (,)  μ_F=0.2090  (1 evidence)
+  [connects] (otherworldly aura) → (earth)  μ_F=0.2078  (1 evidence)
+
+========================================================================

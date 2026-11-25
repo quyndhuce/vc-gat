@@ -1,0 +1,252 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/2c6bbccf> onto:on <http://transmtl.vn/kb/hang_duong_street> .
+
+<http://transmtl.vn/ent/59da8bd0> onto:on <http://transmtl.vn/kb/hang_duong_street> .
+
+<http://transmtl.vn/ent/ad45bdd0> onto:on <http://transmtl.vn/kb/hang_duong_street> .
+
+<http://transmtl.vn/ent/2b8fdb58> onto:renamed_to <http://transmtl.vn/kb/hang_duong_street> .
+
+<http://transmtl.vn/ent/25299fd9> onto:near <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+<http://transmtl.vn/kb/hang_duong_street#street> onto:connects <http://transmtl.vn/ent/1ebd9270>,
+        <http://transmtl.vn/ent/a4f5c30d> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter> onto:near <http://transmtl.vn/ent/25299fd9> .
+
+<http://transmtl.vn/kb/hang_duong_street#upper_level> onto:part_of <http://transmtl.vn/ent/ce570073> ;
+    onto:used_as <http://transmtl.vn/ent/f7b0e354> .
+
+<http://transmtl.vn/kb/hang_duong_street#ground_floor> onto:part_of <http://transmtl.vn/ent/ce570073> ;
+    onto:used_as <http://transmtl.vn/ent/bc5986eb> .
+
+<http://transmtl.vn/kb/hang_duong_street> onto:has_part <http://transmtl.vn/kb/hang_duong_street#ground_floor>,
+        <http://transmtl.vn/kb/hang_duong_street#street>,
+        <http://transmtl.vn/kb/hang_duong_street#upper_level> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ccfa6e7>,
+        <http://transmtl.vn/ent/8cd49a97> ;
+    onto:renamed_to <http://transmtl.vn/ent/2b8fdb58>,
+        <http://transmtl.vn/ent/9d6e6869> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2942 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/a4f5c30d> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street#ground_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5666 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/25299fd9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street#upper_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.263 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/2c6bbccf> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3445 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/2b8fdb58> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2943 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#upper_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4036 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7573 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3632 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/1ebd9270> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3214 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5184 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/25299fd9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2644 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/8cd49a97> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3444 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/4ccfa6e7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2561 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/59da8bd0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2503 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/25299fd9> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4956 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/bc5986eb> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4788 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/ad45bdd0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street#ground_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4027 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/4ccfa6e7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2581 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/ent/2b8fdb58> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5718 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/ad45bdd0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_duong_street#upper_level> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2548 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/f7b0e354> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#upper_level> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5104 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/9d6e6869> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6265 ;
+    fkg:docId "doc_96ba674f62a6" ;
+    fkg:kbId "hang_duong_street" ;
+    rdf:object <http://transmtl.vn/ent/bc5986eb> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/hang_duong_street#ground_floor> .
+

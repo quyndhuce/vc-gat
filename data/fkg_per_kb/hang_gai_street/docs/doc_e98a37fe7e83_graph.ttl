@@ -1,0 +1,50 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/94a55a83> onto:on <http://transmtl.vn/kb/hang_gai_street> .
+
+<http://transmtl.vn/kb/hang_gai_street> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6988 ;
+    fkg:docId "doc_e98a37fe7e83" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/94a55a83> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2824 ;
+    fkg:docId "doc_e98a37fe7e83" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/94a55a83> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.736 ;
+    fkg:docId "doc_e98a37fe7e83" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2705 ;
+    fkg:docId "doc_e98a37fe7e83" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4914 ;
+    fkg:docId "doc_e98a37fe7e83" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+

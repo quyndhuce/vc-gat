@@ -1,0 +1,432 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/05c18af2> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/135367a6> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/1e063cca> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/58ceace4> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/d0297ab8> onto:located_in <http://transmtl.vn/ent/de1720f0> .
+
+<http://transmtl.vn/ent/e523bbdb> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/f057c371> onto:capital_of <http://transmtl.vn/ent/5a2e3157> .
+
+<http://transmtl.vn/ent/f860e266> onto:belongs_to_dynasty <http://transmtl.vn/ent/5a2e3157> .
+
+<http://transmtl.vn/ent/6dd87b17> onto:has_part <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+<http://transmtl.vn/ent/5f8f9e33> onto:ruled_by <http://transmtl.vn/ent/5e232f5c> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/072306ee>,
+        <http://transmtl.vn/ent/5a2e3157>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:ruled_by <http://transmtl.vn/ent/072306ee>,
+        <http://transmtl.vn/ent/5e232f5c> .
+
+<http://transmtl.vn/ent/42df5f4e> onto:capital_of <http://transmtl.vn/ent/072306ee>,
+        <http://transmtl.vn/ent/2bb3d86d>,
+        <http://transmtl.vn/ent/8fc2aa54>,
+        <http://transmtl.vn/ent/e475d46e> ;
+    onto:ruled_by <http://transmtl.vn/ent/072306ee> .
+
+<http://transmtl.vn/ent/de1720f0> onto:ruled_by <http://transmtl.vn/ent/043a1e9b>,
+        <http://transmtl.vn/ent/5a2e3157>,
+        <http://transmtl.vn/ent/98018197>,
+        <http://transmtl.vn/ent/cd2a24dc> .
+
+<http://transmtl.vn/ent/5e232f5c> onto:belongs_to_dynasty <http://transmtl.vn/ent/5a2e3157> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:architectural_style <http://transmtl.vn/ent/5051cec5> ;
+    onto:belongs_to_dynasty <http://transmtl.vn/ent/072306ee> ;
+    onto:built_by <http://transmtl.vn/ent/072306ee>,
+        <http://transmtl.vn/ent/5e232f5c> ;
+    onto:built_in <http://transmtl.vn/ent/1e48c442> ;
+    onto:commissioned_by <http://transmtl.vn/ent/6261b381> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/42df5f4e> ;
+    onto:part_of <http://transmtl.vn/ent/6dd87b17>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:reconstructed_by <http://transmtl.vn/ent/6261b381> ;
+    onto:reconstructed_in <http://transmtl.vn/ent/7ffd85d9> .
+
+<http://www.wikidata.org/entity/Q1858> onto:belongs_to_dynasty <http://transmtl.vn/ent/5a2e3157> ;
+    onto:built_by <http://transmtl.vn/ent/5e232f5c> ;
+    onto:built_in <http://transmtl.vn/ent/1e48c442> ;
+    onto:dated_to <http://transmtl.vn/ent/902a915b> ;
+    onto:located_in <http://transmtl.vn/ent/de1720f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3385 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/6261b381> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2538 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/2bb3d86d> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/42df5f4e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3916 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5e232f5c> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8523 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/42df5f4e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2928 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/kb/imperial_citadel_of_thang_long> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/ent/6dd87b17> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7004 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5a2e3157> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/5e232f5c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.517 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/e475d46e> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/42df5f4e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6201 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5e232f5c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8085 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/42df5f4e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.255 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/42df5f4e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2839 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/98018197> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/de1720f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.264 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/8fc2aa54> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/42df5f4e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6449 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6296 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5203 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5a2e3157> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/f057c371> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4739 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9735 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2771 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/42df5f4e> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3702 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/1e063cca> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2759 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/6dd87b17> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4862 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/902a915b> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.343 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/de1720f0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3107 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/de1720f0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d0297ab8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2532 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5a2e3157> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2669 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5a2e3157> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/de1720f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3605 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5a2e3157> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/f860e266> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3758 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/135367a6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3785 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/e523bbdb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5057 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/7ffd85d9> ;
+    rdf:predicate onto:reconstructed_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3815 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5a2e3157> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/5e232f5c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2937 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.473 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/1e48c442> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4166 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/05c18af2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3673 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3481 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5e232f5c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3909 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/cd2a24dc> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/de1720f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3549 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5a2e3157> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2621 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/072306ee> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4002 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/1e48c442> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4202 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2901 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/6261b381> ;
+    rdf:predicate onto:commissioned_by ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4637 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5051cec5> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3865 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/043a1e9b> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/de1720f0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3831 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/58ceace4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3034 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/5e232f5c> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.638 ;
+    fkg:docId "doc_9359b0e54a09" ;
+    fkg:kbId "imperial_citadel_of_thang_long" ;
+    rdf:object <http://transmtl.vn/ent/6261b381> ;
+    rdf:predicate onto:reconstructed_by ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+

@@ -1,0 +1,499 @@
+{
+  "overall_auroc": 0.671,
+  "clustered_bootstrap_95_ci": {
+    "auroc": [
+      0.63129,
+      0.710905
+    ],
+    "auprc": [
+      0.8102900000000001,
+      0.8726050000000001
+    ],
+    "n_bootstraps": 1000
+  },
+  "grouped_5fold_landmark_cv": {
+    "mean_auroc": 0.6764399999999999,
+    "std_auroc": 0.05572943925790031,
+    "mean_auprc": 0.8443400000000001,
+    "std_auprc": 0.04040601935355669,
+    "folds": [
+      {
+        "fold": 1,
+        "test_landmarks_count": 7,
+        "test_facts_count": 1398,
+        "auroc": 0.6598,
+        "auprc": 0.843,
+        "ece": 0.2937,
+        "test_landmarks": [
+          "dien_hong_park",
+          "hanoi_museum",
+          "huu_tiep_lake",
+          "saigon_central_post_office",
+          "temple_of_literature",
+          "vietnam_museum_of_ethnology",
+          "vietnam_national_puppetry_theatre"
+        ]
+      },
+      {
+        "fold": 2,
+        "test_landmarks_count": 7,
+        "test_facts_count": 1441,
+        "auroc": 0.7078,
+        "auprc": 0.8864,
+        "ece": 0.2788,
+        "test_landmarks": [
+          "hanoi_old_quarter",
+          "hoan_kiem_lake",
+          "independence_palace",
+          "lake_thien_quang",
+          "the_government_guest_house",
+          "thu_le_park",
+          "truc_bach_lake"
+        ]
+      },
+      {
+        "fold": 3,
+        "test_landmarks_count": 7,
+        "test_facts_count": 1251,
+        "auroc": 0.6471,
+        "auprc": 0.7972,
+        "ece": 0.3112,
+        "test_landmarks": [
+          "ba_dinh_square",
+          "dong_da_mound",
+          "hanoi_cuisine",
+          "one_pillar_pagoda",
+          "thong_nhat_park",
+          "vietnam_national_museum_of_history",
+          "west_lake"
+        ]
+      },
+      {
+        "fold": 4,
+        "test_landmarks_count": 7,
+        "test_facts_count": 1703,
+        "auroc": 0.6022,
+        "auprc": 0.802,
+        "ece": 0.3146,
+        "test_landmarks": [
+          "bat_trang_pottery_village",
+          "ben_thanh_market",
+          "imperial_citadel_of_thang_long",
+          "ngu_xa_traditional_bronze_casting_workshop",
+          "saigon_opera_house",
+          "van_phuc_silk_village",
+          "vietnam_womens_museum"
+        ]
+      },
+      {
+        "fold": 5,
+        "test_landmarks_count": 7,
+        "test_facts_count": 1295,
+        "auroc": 0.7653,
+        "auprc": 0.8931,
+        "ece": 0.2648,
+        "test_landmarks": [
+          "ba_thien_hau_temple",
+          "botanical_garden",
+          "ha_noi_station",
+          "lake_ba_mau",
+          "le_nin_park",
+          "thang_long_water_puppetry_theatre",
+          "yen_so_park"
+        ]
+      }
+    ]
+  },
+  "landmark_macro_averages": {
+    "macro_auroc": 0.6834914285714285,
+    "macro_auprc": 0.8428342857142858,
+    "valid_landmarks_count": 35
+  },
+  "per_landmark_breakdown": {
+    "ba_dinh_square": {
+      "n": 130,
+      "n_pos": 101,
+      "n_neg": 29,
+      "base_rate": 77.7,
+      "auroc": 0.8238,
+      "auprc": 0.9205,
+      "ece": 0.1808,
+      "mean_true": 0.7984,
+      "mean_false": 0.2856
+    },
+    "ba_thien_hau_temple": {
+      "n": 236,
+      "n_pos": 193,
+      "n_neg": 43,
+      "base_rate": 81.8,
+      "auroc": 0.5072,
+      "auprc": 0.8167,
+      "ece": 0.2685,
+      "mean_true": 0.7584,
+      "mean_false": 0.6722
+    },
+    "bat_trang_pottery_village": {
+      "n": 196,
+      "n_pos": 148,
+      "n_neg": 48,
+      "base_rate": 75.5,
+      "auroc": 0.6575,
+      "auprc": 0.8171,
+      "ece": 0.3215,
+      "mean_true": 0.6711,
+      "mean_false": 0.4185
+    },
+    "ben_thanh_market": {
+      "n": 448,
+      "n_pos": 324,
+      "n_neg": 124,
+      "base_rate": 72.3,
+      "auroc": 0.5297,
+      "auprc": 0.7644,
+      "ece": 0.3241,
+      "mean_true": 0.7531,
+      "mean_false": 0.7373
+    },
+    "botanical_garden": {
+      "n": 248,
+      "n_pos": 193,
+      "n_neg": 55,
+      "base_rate": 77.8,
+      "auroc": 0.8792,
+      "auprc": 0.9595,
+      "ece": 0.2259,
+      "mean_true": 0.7457,
+      "mean_false": 0.2238
+    },
+    "dien_hong_park": {
+      "n": 201,
+      "n_pos": 157,
+      "n_neg": 44,
+      "base_rate": 78.1,
+      "auroc": 0.7368,
+      "auprc": 0.8718,
+      "ece": 0.2559,
+      "mean_true": 0.6985,
+      "mean_false": 0.375
+    },
+    "dong_da_mound": {
+      "n": 135,
+      "n_pos": 102,
+      "n_neg": 33,
+      "base_rate": 75.6,
+      "auroc": 0.8143,
+      "auprc": 0.9086,
+      "ece": 0.2201,
+      "mean_true": 0.7069,
+      "mean_false": 0.2378
+    },
+    "ha_noi_station": {
+      "n": 146,
+      "n_pos": 128,
+      "n_neg": 18,
+      "base_rate": 87.7,
+      "auroc": 0.6944,
+      "auprc": 0.9273,
+      "ece": 0.1994,
+      "mean_true": 0.7826,
+      "mean_false": 0.5151
+    },
+    "hanoi_cuisine": {
+      "n": 109,
+      "n_pos": 43,
+      "n_neg": 66,
+      "base_rate": 39.4,
+      "auroc": 0.546,
+      "auprc": 0.418,
+      "ece": 0.4431,
+      "mean_true": 0.8371,
+      "mean_false": 0.6618
+    },
+    "hanoi_museum": {
+      "n": 162,
+      "n_pos": 108,
+      "n_neg": 54,
+      "base_rate": 66.7,
+      "auroc": 0.6168,
+      "auprc": 0.7559,
+      "ece": 0.2966,
+      "mean_true": 0.8092,
+      "mean_false": 0.6244
+    },
+    "hanoi_old_quarter": {
+      "n": 192,
+      "n_pos": 173,
+      "n_neg": 19,
+      "base_rate": 90.1,
+      "auroc": 0.9188,
+      "auprc": 0.9874,
+      "ece": 0.1457,
+      "mean_true": 0.8368,
+      "mean_false": 0.1538
+    },
+    "hoan_kiem_lake": {
+      "n": 261,
+      "n_pos": 220,
+      "n_neg": 41,
+      "base_rate": 84.3,
+      "auroc": 0.6661,
+      "auprc": 0.9186,
+      "ece": 0.3381,
+      "mean_true": 0.6126,
+      "mean_false": 0.4462
+    },
+    "huu_tiep_lake": {
+      "n": 102,
+      "n_pos": 80,
+      "n_neg": 22,
+      "base_rate": 78.4,
+      "auroc": 0.6594,
+      "auprc": 0.878,
+      "ece": 0.3382,
+      "mean_true": 0.6585,
+      "mean_false": 0.4805
+    },
+    "imperial_citadel_of_thang_long": {
+      "n": 302,
+      "n_pos": 256,
+      "n_neg": 46,
+      "base_rate": 84.8,
+      "auroc": 0.5099,
+      "auprc": 0.8462,
+      "ece": 0.4292,
+      "mean_true": 0.5338,
+      "mean_false": 0.512
+    },
+    "independence_palace": {
+      "n": 305,
+      "n_pos": 234,
+      "n_neg": 71,
+      "base_rate": 76.7,
+      "auroc": 0.5962,
+      "auprc": 0.7841,
+      "ece": 0.2502,
+      "mean_true": 0.7866,
+      "mean_false": 0.5722
+    },
+    "lake_ba_mau": {
+      "n": 171,
+      "n_pos": 120,
+      "n_neg": 51,
+      "base_rate": 70.2,
+      "auroc": 0.6693,
+      "auprc": 0.8088,
+      "ece": 0.3995,
+      "mean_true": 0.4965,
+      "mean_false": 0.3509
+    },
+    "lake_thien_quang": {
+      "n": 146,
+      "n_pos": 124,
+      "n_neg": 22,
+      "base_rate": 84.9,
+      "auroc": 0.6065,
+      "auprc": 0.877,
+      "ece": 0.4063,
+      "mean_true": 0.5716,
+      "mean_false": 0.4729
+    },
+    "le_nin_park": {
+      "n": 174,
+      "n_pos": 143,
+      "n_neg": 31,
+      "base_rate": 82.2,
+      "auroc": 0.8319,
+      "auprc": 0.95,
+      "ece": 0.2634,
+      "mean_true": 0.6805,
+      "mean_false": 0.2155
+    },
+    "ngu_xa_traditional_bronze_casting_workshop": {
+      "n": 89,
+      "n_pos": 54,
+      "n_neg": 35,
+      "base_rate": 60.7,
+      "auroc": 0.5659,
+      "auprc": 0.6771,
+      "ece": 0.3494,
+      "mean_true": 0.8169,
+      "mean_false": 0.7208
+    },
+    "one_pillar_pagoda": {
+      "n": 289,
+      "n_pos": 221,
+      "n_neg": 68,
+      "base_rate": 76.5,
+      "auroc": 0.5306,
+      "auprc": 0.7963,
+      "ece": 0.3766,
+      "mean_true": 0.6067,
+      "mean_false": 0.5802
+    },
+    "saigon_central_post_office": {
+      "n": 249,
+      "n_pos": 187,
+      "n_neg": 62,
+      "base_rate": 75.1,
+      "auroc": 0.6691,
+      "auprc": 0.8215,
+      "ece": 0.2544,
+      "mean_true": 0.7224,
+      "mean_false": 0.468
+    },
+    "saigon_opera_house": {
+      "n": 307,
+      "n_pos": 228,
+      "n_neg": 79,
+      "base_rate": 74.3,
+      "auroc": 0.7018,
+      "auprc": 0.8362,
+      "ece": 0.2441,
+      "mean_true": 0.7504,
+      "mean_false": 0.4663
+    },
+    "temple_of_literature": {
+      "n": 426,
+      "n_pos": 375,
+      "n_neg": 51,
+      "base_rate": 88.0,
+      "auroc": 0.6663,
+      "auprc": 0.9238,
+      "ece": 0.3765,
+      "mean_true": 0.5773,
+      "mean_false": 0.4089
+    },
+    "thang_long_water_puppetry_theatre": {
+      "n": 154,
+      "n_pos": 91,
+      "n_neg": 63,
+      "base_rate": 59.1,
+      "auroc": 0.7955,
+      "auprc": 0.7798,
+      "ece": 0.2515,
+      "mean_true": 0.644,
+      "mean_false": 0.2324
+    },
+    "the_government_guest_house": {
+      "n": 186,
+      "n_pos": 149,
+      "n_neg": 37,
+      "base_rate": 80.1,
+      "auroc": 0.6822,
+      "auprc": 0.8733,
+      "ece": 0.2996,
+      "mean_true": 0.7077,
+      "mean_false": 0.4598
+    },
+    "thong_nhat_park": {
+      "n": 199,
+      "n_pos": 148,
+      "n_neg": 51,
+      "base_rate": 74.4,
+      "auroc": 0.6628,
+      "auprc": 0.8442,
+      "ece": 0.3614,
+      "mean_true": 0.5952,
+      "mean_false": 0.4188
+    },
+    "thu_le_park": {
+      "n": 167,
+      "n_pos": 136,
+      "n_neg": 31,
+      "base_rate": 81.4,
+      "auroc": 0.7673,
+      "auprc": 0.9051,
+      "ece": 0.3019,
+      "mean_true": 0.6687,
+      "mean_false": 0.2833
+    },
+    "truc_bach_lake": {
+      "n": 184,
+      "n_pos": 132,
+      "n_neg": 52,
+      "base_rate": 71.7,
+      "auroc": 0.7654,
+      "auprc": 0.8871,
+      "ece": 0.3095,
+      "mean_true": 0.6072,
+      "mean_false": 0.2775
+    },
+    "van_phuc_silk_village": {
+      "n": 215,
+      "n_pos": 156,
+      "n_neg": 59,
+      "base_rate": 72.6,
+      "auroc": 0.7401,
+      "auprc": 0.8318,
+      "ece": 0.402,
+      "mean_true": 0.4858,
+      "mean_false": 0.1924
+    },
+    "vietnam_museum_of_ethnology": {
+      "n": 154,
+      "n_pos": 113,
+      "n_neg": 41,
+      "base_rate": 73.4,
+      "auroc": 0.5415,
+      "auprc": 0.7334,
+      "ece": 0.2322,
+      "mean_true": 0.8538,
+      "mean_false": 0.6615
+    },
+    "vietnam_national_museum_of_history": {
+      "n": 126,
+      "n_pos": 111,
+      "n_neg": 15,
+      "base_rate": 88.1,
+      "auroc": 0.5889,
+      "auprc": 0.9018,
+      "ece": 0.2676,
+      "mean_true": 0.75,
+      "mean_false": 0.6447
+    },
+    "vietnam_national_puppetry_theatre": {
+      "n": 104,
+      "n_pos": 72,
+      "n_neg": 32,
+      "base_rate": 69.2,
+      "auroc": 0.8785,
+      "auprc": 0.9162,
+      "ece": 0.2201,
+      "mean_true": 0.6823,
+      "mean_false": 0.1726
+    },
+    "vietnam_womens_museum": {
+      "n": 146,
+      "n_pos": 119,
+      "n_neg": 27,
+      "base_rate": 81.5,
+      "auroc": 0.6113,
+      "auprc": 0.8371,
+      "ece": 0.1776,
+      "mean_true": 0.9086,
+      "mean_false": 0.8209
+    },
+    "west_lake": {
+      "n": 263,
+      "n_pos": 185,
+      "n_neg": 78,
+      "base_rate": 70.3,
+      "auroc": 0.6958,
+      "auprc": 0.8255,
+      "ece": 0.3197,
+      "mean_true": 0.6204,
+      "mean_false": 0.352
+    },
+    "yen_so_park": {
+      "n": 166,
+      "n_pos": 120,
+      "n_neg": 46,
+      "base_rate": 72.3,
+      "auroc": 0.7954,
+      "auprc": 0.8991,
+      "ece": 0.3171,
+      "mean_true": 0.5974,
+      "mean_false": 0.2596
+    }
+  }
+}

@@ -1,0 +1,1586 @@
+{
+  "meta": {
+    "name": "Vietnamese tourism visual universe",
+    "purpose": "Tap nen (universe of discourse) cho FKG: khai niem thi giac, bien ngon ngu thuoc tinh, quan he, dau hieu chuyen dong",
+    "language_note": "Nhan va prompt bang tieng Anh de dung voi SigLIP 2 / CLIP. Khong dung ten rieng dia danh trong prompt.",
+    "prompt_templates": [
+      "a photo of {label}",
+      "a close-up photo of {label}",
+      "a photo of {description}"
+    ],
+    "membership_note": "Diem tuong dong duoc chuan hoa bang softmax tren toan tap khai niem (ke ca background_class) roi qua ham thuoc hieu chinh."
+  },
+  "background_class": [
+    {
+      "id": "bg_other",
+      "label_en": "something else",
+      "description": "an unrelated object"
+    },
+    {
+      "id": "bg_scene",
+      "label_en": "background",
+      "description": "plain background with no salient object"
+    },
+    {
+      "id": "bg_text",
+      "label_en": "text or signage",
+      "description": "a sign with text"
+    }
+  ],
+  "object_concepts": {
+    "religious_architecture": [
+      {
+        "id": "pagoda",
+        "label_en": "Buddhist pagoda",
+        "description": "a Buddhist pagoda with curved tiled roof",
+        "notes": "Chua. De nham voi den va dinh, xem notes o temple"
+      },
+      {
+        "id": "temple_den",
+        "label_en": "traditional temple",
+        "description": "a temple hall with red lacquered doors and curved roof",
+        "notes": "Den tho. Phan biet voi pagoda bang tuong Phat va thap"
+      },
+      {
+        "id": "communal_house",
+        "label_en": "communal house",
+        "description": "a large wooden communal hall with a wide low tiled roof",
+        "notes": "Dinh lang. Mai thap va rong hon chua"
+      },
+      {
+        "id": "shrine_small",
+        "label_en": "small roadside shrine",
+        "description": "a small shrine with incense and offerings"
+      },
+      {
+        "id": "three_entrance_gate",
+        "label_en": "triple gate",
+        "description": "an ornate gate with three arched entrances",
+        "notes": "Tam quan. Dau hieu manh cho chua va den"
+      },
+      {
+        "id": "stupa",
+        "label_en": "stupa tower",
+        "description": "a multi-tiered brick stupa in a temple yard",
+        "notes": "De nham voi cham_tower"
+      },
+      {
+        "id": "ancient_brick_sanctuary_tower",
+        "label_en": "ancient red brick sanctuary tower",
+        "description": "a weathered red brick tower with tiered levels and carved reliefs",
+        "notes": "Thap Cham. Gach do, khong co mai ngoi"
+      },
+      {
+        "id": "tiered_wooden_bell_tower",
+        "label_en": "tiered wooden temple bell tower",
+        "description": "a traditional wooden tower housing a large bronze ceremonial bell"
+      },
+      {
+        "id": "church",
+        "label_en": "church",
+        "description": "a church with a bell tower and arched windows"
+      },
+      {
+        "id": "cathedral_gothic",
+        "label_en": "gothic cathedral",
+        "description": "a stone cathedral with twin spires and pointed arches"
+      },
+      {
+        "id": "mosque",
+        "label_en": "mosque",
+        "description": "a mosque with a dome and minaret"
+      },
+      {
+        "id": "monastery_hall",
+        "label_en": "monastery hall",
+        "description": "a large prayer hall with rows of columns"
+      }
+    ],
+    "imperial_and_civic_architecture": [
+      {
+        "id": "citadel_wall",
+        "label_en": "citadel wall",
+        "description": "a thick ancient stone or brick defensive wall"
+      },
+      {
+        "id": "city_gate",
+        "label_en": "ancient city gate",
+        "description": "an arched gate in an old city wall"
+      },
+      {
+        "id": "imperial_palace",
+        "label_en": "imperial palace hall",
+        "description": "a palace hall with red and gold lacquered columns"
+      },
+      {
+        "id": "royal_tomb",
+        "label_en": "royal tomb",
+        "description": "a monumental stone tomb complex with stone statues and stelae"
+      },
+      {
+        "id": "stone_stele",
+        "label_en": "stone stele",
+        "description": "an engraved stone slab standing on a pedestal"
+      },
+      {
+        "id": "stele_on_turtle",
+        "label_en": "stele on a stone turtle",
+        "description": "a stone stele standing on the back of a carved stone turtle",
+        "notes": "Dau hieu rat phan biet"
+      },
+      {
+        "id": "stele_house",
+        "label_en": "stele pavilion",
+        "description": "a small open pavilion sheltering stone stelae"
+      },
+      {
+        "id": "colonial_building",
+        "label_en": "yellow classical colonial building",
+        "description": "a yellow historic colonial building with wooden shutters and balconies"
+      },
+      {
+        "id": "grand_neoclassic_theatre_facade",
+        "label_en": "grand neoclassical theatre facade",
+        "description": "a majestic neoclassical facade with towering columns, arches and decorative balustrade"
+      },
+      {
+        "id": "old_post_office",
+        "label_en": "colonial hall interior",
+        "description": "a vaulted colonial interior with iron arches"
+      },
+      {
+        "id": "lighthouse",
+        "label_en": "lighthouse",
+        "description": "a tall lighthouse tower by the sea"
+      },
+      {
+        "id": "ancient_house",
+        "label_en": "old wooden house",
+        "description": "an old wooden house with dark timber beams"
+      },
+      {
+        "id": "tube_house",
+        "label_en": "narrow shophouse",
+        "description": "a narrow multi-storey shophouse on a street"
+      },
+      {
+        "id": "apartment_block_old",
+        "label_en": "old apartment block",
+        "description": "a weathered concrete apartment block with balconies"
+      },
+      {
+        "id": "skyscraper",
+        "label_en": "modern skyscraper",
+        "description": "a tall glass skyscraper"
+      },
+      {
+        "id": "village_gate",
+        "label_en": "village gate",
+        "description": "a brick archway marking a village entrance"
+      },
+      {
+        "id": "ancient_well",
+        "label_en": "old stone well",
+        "description": "a round stone village well"
+      },
+      {
+        "id": "war_memorial",
+        "label_en": "memorial monument",
+        "description": "a large stone memorial monument"
+      },
+      {
+        "id": "museum_interior",
+        "label_en": "museum exhibition room",
+        "description": "a room with display cases and exhibits"
+      }
+    ],
+    "architectural_elements": [
+      {
+        "id": "curved_tiled_roof",
+        "label_en": "curved tiled roof",
+        "description": "an upturned roof corner with layered tiles"
+      },
+      {
+        "id": "glazed_roof_tile",
+        "label_en": "glazed roof tiles",
+        "description": "rows of green or yellow glazed roof tiles"
+      },
+      {
+        "id": "roof_dragon_ornament",
+        "label_en": "dragon roof ornament",
+        "description": "a ceramic dragon figure on a roof ridge"
+      },
+      {
+        "id": "wooden_pillar",
+        "label_en": "wooden pillar",
+        "description": "a thick round wooden column supporting a roof"
+      },
+      {
+        "id": "stone_pillar",
+        "label_en": "stone pillar",
+        "description": "a carved stone column"
+      },
+      {
+        "id": "lacquered_column",
+        "label_en": "red lacquered column",
+        "description": "a red and gold lacquered wooden column"
+      },
+      {
+        "id": "carved_wood_panel",
+        "label_en": "carved wooden panel",
+        "description": "an intricately carved wooden panel"
+      },
+      {
+        "id": "parallel_sentence_board",
+        "label_en": "vertical calligraphy board",
+        "description": "a long vertical board with gold calligraphy"
+      },
+      {
+        "id": "calligraphy_inscribed_wooden_plaque",
+        "label_en": "horizontal calligraphy inscribed wooden plaque",
+        "description": "a horizontal lacquered wooden plaque with gilded calligraphy characters"
+      },
+      {
+        "id": "courtyard",
+        "label_en": "paved courtyard",
+        "description": "an open paved courtyard inside a walled complex"
+      },
+      {
+        "id": "moon_gate",
+        "label_en": "circular doorway",
+        "description": "a round doorway in a garden wall"
+      },
+      {
+        "id": "wooden_bracket",
+        "label_en": "carved roof bracket",
+        "description": "a carved wooden bracket under the eaves"
+      },
+      {
+        "id": "mosaic_wall",
+        "label_en": "ceramic mosaic wall",
+        "description": "a wall covered with colourful ceramic mosaic"
+      },
+      {
+        "id": "yellow_wall",
+        "label_en": "yellow painted wall",
+        "description": "a weathered ochre yellow wall"
+      },
+      {
+        "id": "shuttered_window",
+        "label_en": "wooden shuttered window",
+        "description": "a window with green wooden shutters"
+      },
+      {
+        "id": "balcony_railing",
+        "label_en": "iron balcony railing",
+        "description": "a wrought iron balcony railing"
+      },
+      {
+        "id": "tiled_floor_pattern",
+        "label_en": "patterned floor tiles",
+        "description": "an old encaustic tiled floor"
+      }
+    ],
+    "religious_objects": [
+      {
+        "id": "buddha_statue",
+        "label_en": "Buddha statue",
+        "description": "a large seated Buddha statue"
+      },
+      {
+        "id": "standing_deity_statue",
+        "label_en": "standing deity statue",
+        "description": "a standing statue of a deity in robes"
+      },
+      {
+        "id": "guardian_lion_statue",
+        "label_en": "guardian lion statue",
+        "description": "a stone guardian lion at an entrance"
+      },
+      {
+        "id": "dragon_statue",
+        "label_en": "dragon statue",
+        "description": "a long carved dragon statue"
+      },
+      {
+        "id": "dragon_carved_stairs",
+        "label_en": "dragon stair railing",
+        "description": "stone stairs flanked by carved dragon railings"
+      },
+      {
+        "id": "phoenix_motif",
+        "label_en": "phoenix carving",
+        "description": "a carved phoenix motif"
+      },
+      {
+        "id": "altar",
+        "label_en": "altar with offerings",
+        "description": "an altar with fruit, flowers and candles"
+      },
+      {
+        "id": "incense_burner",
+        "label_en": "bronze incense burner",
+        "description": "a large bronze incense burner"
+      },
+      {
+        "id": "incense_sticks",
+        "label_en": "burning incense sticks",
+        "description": "a bundle of incense sticks with smoke"
+      },
+      {
+        "id": "incense_coil",
+        "label_en": "hanging incense coils",
+        "description": "spiral incense coils hanging from a ceiling"
+      },
+      {
+        "id": "bronze_bell",
+        "label_en": "bronze bell",
+        "description": "a large hanging bronze bell"
+      },
+      {
+        "id": "wooden_fish_drum",
+        "label_en": "wooden temple drum",
+        "description": "a large wooden drum on a stand"
+      },
+      {
+        "id": "ancestral_tablet",
+        "label_en": "ancestral tablet",
+        "description": "a gilded ancestral tablet on an altar"
+      },
+      {
+        "id": "prayer_flag_banner",
+        "label_en": "temple banner",
+        "description": "a long embroidered ceremonial banner"
+      },
+      {
+        "id": "lotus_motif",
+        "label_en": "lotus carving",
+        "description": "a carved or sculpted lotus flower motif"
+      }
+    ],
+    "natural_landscape": [
+      {
+        "id": "limestone_karst",
+        "label_en": "limestone karst peak",
+        "description": "a steep limestone karst rising from water or fields"
+      },
+      {
+        "id": "karst_bay",
+        "label_en": "bay with limestone islands",
+        "description": "a seascape with many limestone islands"
+      },
+      {
+        "id": "cave_interior",
+        "label_en": "cave interior",
+        "description": "a large illuminated cave chamber"
+      },
+      {
+        "id": "stalactite",
+        "label_en": "stalactites",
+        "description": "hanging stalactite formations in a cave"
+      },
+      {
+        "id": "terraced_field",
+        "label_en": "terraced rice field",
+        "description": "stepped rice terraces on a hillside",
+        "notes": "Phan biet voi rice_paddy phang"
+      },
+      {
+        "id": "rice_paddy",
+        "label_en": "flat rice paddy",
+        "description": "a flat green rice field"
+      },
+      {
+        "id": "rice_harvest",
+        "label_en": "golden ripe rice field",
+        "description": "a field of golden ripe rice"
+      },
+      {
+        "id": "sand_dune",
+        "label_en": "sand dunes",
+        "description": "rolling sand dunes"
+      },
+      {
+        "id": "waterfall",
+        "label_en": "waterfall",
+        "description": "a wide waterfall over rock"
+      },
+      {
+        "id": "river",
+        "label_en": "river",
+        "description": "a wide calm river"
+      },
+      {
+        "id": "lake",
+        "label_en": "lake",
+        "description": "a calm lake surrounded by trees"
+      },
+      {
+        "id": "lagoon",
+        "label_en": "coastal lagoon",
+        "description": "a shallow coastal lagoon"
+      },
+      {
+        "id": "sea_open",
+        "label_en": "open sea",
+        "description": "the open sea with waves"
+      },
+      {
+        "id": "sandy_beach",
+        "label_en": "sandy beach",
+        "description": "a sandy beach with palm trees"
+      },
+      {
+        "id": "rocky_coast",
+        "label_en": "rocky coastline",
+        "description": "rocks and cliffs along a coast"
+      },
+      {
+        "id": "coral_reef",
+        "label_en": "coral reef underwater",
+        "description": "an underwater coral reef with fish"
+      },
+      {
+        "id": "mangrove",
+        "label_en": "mangrove forest",
+        "description": "mangrove trees standing in water"
+      },
+      {
+        "id": "pine_forest",
+        "label_en": "pine forest",
+        "description": "a forest of tall pine trees"
+      },
+      {
+        "id": "bamboo_grove",
+        "label_en": "bamboo grove",
+        "description": "a dense grove of bamboo"
+      },
+      {
+        "id": "tea_hill",
+        "label_en": "tea plantation hill",
+        "description": "rounded rows of tea bushes on hills"
+      },
+      {
+        "id": "coffee_plantation",
+        "label_en": "coffee plantation",
+        "description": "rows of coffee shrubs with red berries"
+      },
+      {
+        "id": "flower_field",
+        "label_en": "flower field",
+        "description": "a field of blooming flowers"
+      },
+      {
+        "id": "lotus_pond",
+        "label_en": "lotus pond",
+        "description": "a pond covered with lotus leaves and pink flowers"
+      },
+      {
+        "id": "mountain_range",
+        "label_en": "mountain range",
+        "description": "layered mountain ridges in the distance"
+      },
+      {
+        "id": "cliff",
+        "label_en": "steep cliff",
+        "description": "a steep rocky cliff face"
+      },
+      {
+        "id": "valley",
+        "label_en": "green valley",
+        "description": "a wide valley between mountains"
+      },
+      {
+        "id": "cloud_sea",
+        "label_en": "sea of clouds",
+        "description": "clouds filling a valley below mountain peaks"
+      },
+      {
+        "id": "fog_landscape",
+        "label_en": "misty landscape",
+        "description": "a landscape covered in mist"
+      },
+      {
+        "id": "jungle_forest",
+        "label_en": "tropical forest",
+        "description": "dense tropical forest canopy"
+      },
+      {
+        "id": "banyan_tree",
+        "label_en": "old banyan tree",
+        "description": "a large banyan tree with aerial roots"
+      },
+      {
+        "id": "palm_tree",
+        "label_en": "palm tree",
+        "description": "a coconut palm tree"
+      },
+      {
+        "id": "salt_field",
+        "label_en": "salt evaporation field",
+        "description": "flat salt pans with white salt piles"
+      },
+      {
+        "id": "water_buffalo",
+        "label_en": "water buffalo",
+        "description": "a water buffalo in a field"
+      },
+      {
+        "id": "langur_monkey",
+        "label_en": "monkey in the wild",
+        "description": "a monkey sitting on a rock or branch"
+      },
+      {
+        "id": "sea_birds",
+        "label_en": "seabirds",
+        "description": "birds flying over water"
+      }
+    ],
+    "water_and_transport": [
+      {
+        "id": "junk_boat_sail",
+        "label_en": "wooden junk boat with sails",
+        "description": "a wooden boat with large brown battened sails"
+      },
+      {
+        "id": "cruise_boat",
+        "label_en": "white tourist cruise boat",
+        "description": "a white wooden tourist boat on a bay"
+      },
+      {
+        "id": "sampan",
+        "label_en": "small rowing boat",
+        "description": "a narrow wooden rowing boat"
+      },
+      {
+        "id": "basket_boat",
+        "label_en": "round bamboo basket boat",
+        "description": "a round woven bamboo coracle"
+      },
+      {
+        "id": "dragon_boat",
+        "label_en": "dragon-headed boat",
+        "description": "a long boat with a carved dragon head"
+      },
+      {
+        "id": "ferry_boat",
+        "label_en": "river ferry",
+        "description": "a flat ferry carrying people across a river"
+      },
+      {
+        "id": "fishing_boat",
+        "label_en": "blue fishing boat",
+        "description": "a small blue wooden fishing boat"
+      },
+      {
+        "id": "fishing_net_square",
+        "label_en": "square dip fishing net",
+        "description": "a large square net suspended over water"
+      },
+      {
+        "id": "floating_house",
+        "label_en": "floating fish farm house",
+        "description": "a wooden house floating on water"
+      },
+      {
+        "id": "cyclo",
+        "label_en": "cycle rickshaw",
+        "description": "a three-wheeled passenger cycle rickshaw"
+      },
+      {
+        "id": "motorbike",
+        "label_en": "motorbike",
+        "description": "a motorbike on a street"
+      },
+      {
+        "id": "motorbike_traffic",
+        "label_en": "dense motorbike traffic",
+        "description": "a street crowded with motorbikes"
+      },
+      {
+        "id": "loaded_bicycle",
+        "label_en": "bicycle loaded with flowers",
+        "description": "a bicycle carrying baskets of flowers"
+      },
+      {
+        "id": "cable_car",
+        "label_en": "cable car gondola",
+        "description": "a cable car cabin hanging from a line"
+      },
+      {
+        "id": "train_on_track",
+        "label_en": "train on a railway track",
+        "description": "a train passing along a narrow track"
+      },
+      {
+        "id": "railway_track_street",
+        "label_en": "railway track between houses",
+        "description": "a railway track running between close houses"
+      },
+      {
+        "id": "arched_bridge",
+        "label_en": "arched bridge",
+        "description": "a bridge with stone arches"
+      },
+      {
+        "id": "red_wooden_bridge",
+        "label_en": "red painted wooden bridge",
+        "description": "a small red wooden footbridge over water"
+      },
+      {
+        "id": "covered_bridge",
+        "label_en": "covered wooden bridge",
+        "description": "a wooden footbridge with a tiled roof over it"
+      },
+      {
+        "id": "suspension_bridge",
+        "label_en": "suspension bridge",
+        "description": "a long suspension bridge with cables"
+      },
+      {
+        "id": "steel_truss_bridge",
+        "label_en": "steel truss bridge",
+        "description": "an old steel lattice bridge"
+      },
+      {
+        "id": "bamboo_bridge",
+        "label_en": "bamboo footbridge",
+        "description": "a narrow bamboo footbridge over water"
+      },
+      {
+        "id": "monkey_bridge",
+        "label_en": "single-plank footbridge",
+        "description": "a thin plank bridge with a handrail over a canal"
+      },
+      {
+        "id": "modern_bridge",
+        "label_en": "modern concrete bridge",
+        "description": "a wide modern road bridge"
+      },
+      {
+        "id": "boat_pier",
+        "label_en": "wooden pier",
+        "description": "a wooden pier with moored boats"
+      }
+    ],
+    "food_and_drink": [
+      {
+        "id": "noodle_soup_bowl",
+        "label_en": "bowl of noodle soup",
+        "description": "a bowl of clear broth with rice noodles and herbs",
+        "notes": "Lop chung; phan biet bang topping"
+      },
+      {
+        "id": "flat_rice_noodle",
+        "label_en": "flat white rice noodles",
+        "description": "flat white rice noodles"
+      },
+      {
+        "id": "round_rice_noodle",
+        "label_en": "round white rice vermicelli",
+        "description": "thin round rice vermicelli"
+      },
+      {
+        "id": "yellow_noodle",
+        "label_en": "yellow wheat noodles",
+        "description": "yellow wheat noodles"
+      },
+      {
+        "id": "beef_slices",
+        "label_en": "sliced beef in broth",
+        "description": "thin slices of beef in soup"
+      },
+      {
+        "id": "grilled_pork_patty",
+        "label_en": "grilled pork patties",
+        "description": "charred grilled pork patties in sauce"
+      },
+      {
+        "id": "roast_pork",
+        "label_en": "sliced roast pork",
+        "description": "slices of roast pork"
+      },
+      {
+        "id": "shrimp_dish",
+        "label_en": "cooked shrimp",
+        "description": "cooked shrimp on a plate"
+      },
+      {
+        "id": "crab_dish",
+        "label_en": "cooked crab",
+        "description": "a cooked crab on a plate"
+      },
+      {
+        "id": "fish_grilled",
+        "label_en": "grilled fish",
+        "description": "a grilled whole fish"
+      },
+      {
+        "id": "fresh_spring_roll",
+        "label_en": "fresh rice paper roll",
+        "description": "translucent fresh rolls with herbs inside"
+      },
+      {
+        "id": "fried_spring_roll",
+        "label_en": "fried spring rolls",
+        "description": "golden crispy fried rolls"
+      },
+      {
+        "id": "baguette_sandwich",
+        "label_en": "baguette sandwich",
+        "description": "a crusty baguette filled with meat and herbs"
+      },
+      {
+        "id": "savory_crepe",
+        "label_en": "yellow rice flour crepe",
+        "description": "a large yellow crispy rice-flour crepe with bean sprouts"
+      },
+      {
+        "id": "steamed_rice_roll",
+        "label_en": "steamed rice sheet rolls",
+        "description": "soft white steamed rice sheets rolled with filling"
+      },
+      {
+        "id": "broken_rice_plate",
+        "label_en": "rice plate with grilled pork",
+        "description": "a plate of rice with grilled pork chop and egg"
+      },
+      {
+        "id": "sticky_rice",
+        "label_en": "sticky rice",
+        "description": "a portion of steamed sticky rice"
+      },
+      {
+        "id": "square_rice_cake",
+        "label_en": "square green leaf-wrapped rice cake",
+        "description": "a square cake wrapped in green leaves"
+      },
+      {
+        "id": "sweet_soup_dessert",
+        "label_en": "sweet bean dessert in a glass",
+        "description": "a glass of sweet beans, jelly and coconut milk"
+      },
+      {
+        "id": "egg_coffee",
+        "label_en": "coffee with whipped egg foam",
+        "description": "a small glass of coffee topped with thick yellow foam"
+      },
+      {
+        "id": "drip_coffee_filter",
+        "label_en": "metal coffee drip filter",
+        "description": "a small metal drip filter on a glass"
+      },
+      {
+        "id": "iced_coffee_glass",
+        "label_en": "iced coffee with condensed milk",
+        "description": "a tall glass of iced coffee with milk"
+      },
+      {
+        "id": "tea_set",
+        "label_en": "ceramic tea set",
+        "description": "a small ceramic teapot and cups"
+      },
+      {
+        "id": "coconut_drink",
+        "label_en": "fresh coconut drink",
+        "description": "a coconut with a straw"
+      },
+      {
+        "id": "sugarcane_juice",
+        "label_en": "glass of sugarcane juice",
+        "description": "a glass of pale green juice with ice"
+      },
+      {
+        "id": "draft_beer_glass",
+        "label_en": "glass of draft beer",
+        "description": "a glass mug of light beer"
+      },
+      {
+        "id": "herb_plate",
+        "label_en": "plate of fresh herbs",
+        "description": "a plate of fresh green herbs and lettuce"
+      },
+      {
+        "id": "dipping_sauce_bowl",
+        "label_en": "small dipping sauce bowl",
+        "description": "a small bowl of dipping sauce with chili"
+      },
+      {
+        "id": "chili_pepper",
+        "label_en": "red chili peppers",
+        "description": "sliced red chili peppers"
+      },
+      {
+        "id": "lime_wedge",
+        "label_en": "lime wedges",
+        "description": "wedges of green lime"
+      },
+      {
+        "id": "chopsticks",
+        "label_en": "chopsticks",
+        "description": "a pair of chopsticks"
+      },
+      {
+        "id": "metal_tray_table",
+        "label_en": "metal tray table",
+        "description": "a round metal tray used as a table"
+      },
+      {
+        "id": "plastic_stool",
+        "label_en": "low plastic stool",
+        "description": "small colourful plastic stools on a pavement"
+      },
+      {
+        "id": "street_food_cart",
+        "label_en": "street food cart",
+        "description": "a metal food cart on a street"
+      },
+      {
+        "id": "clay_pot_dish",
+        "label_en": "clay pot dish",
+        "description": "food served in a small clay pot"
+      },
+      {
+        "id": "hotpot",
+        "label_en": "hotpot on a table",
+        "description": "a simmering hotpot on a portable stove"
+      },
+      {
+        "id": "charcoal_grill",
+        "label_en": "charcoal grill",
+        "description": "food grilling over glowing charcoal"
+      },
+      {
+        "id": "steam_from_food",
+        "label_en": "steam rising from food",
+        "description": "visible steam rising from a hot dish"
+      },
+      {
+        "id": "fish_sauce_barrel",
+        "label_en": "wooden fish sauce barrel",
+        "description": "large wooden barrels in a fermentation house"
+      },
+      {
+        "id": "fruit_basket",
+        "label_en": "basket of tropical fruit",
+        "description": "a basket of tropical fruit"
+      }
+    ],
+    "culture_activity_people": [
+      {
+        "id": "water_puppet_figure",
+        "label_en": "wooden water puppet",
+        "description": "a brightly painted wooden puppet standing in water"
+      },
+      {
+        "id": "water_puppet_stage",
+        "label_en": "puppet stage over water",
+        "description": "a red and gold pavilion stage above a pool"
+      },
+      {
+        "id": "lion_dance",
+        "label_en": "lion dance costume",
+        "description": "a colourful lion dance costume being performed"
+      },
+      {
+        "id": "dragon_dance",
+        "label_en": "dragon dance procession",
+        "description": "a long cloth dragon carried by performers"
+      },
+      {
+        "id": "silk_lantern",
+        "label_en": "colourful silk lantern",
+        "description": "a round or oval coloured silk lantern"
+      },
+      {
+        "id": "lantern_street",
+        "label_en": "street hung with lanterns",
+        "description": "a street with many hanging lanterns at night"
+      },
+      {
+        "id": "floating_lantern",
+        "label_en": "floating candle lantern on water",
+        "description": "small paper lanterns with candles floating on water"
+      },
+      {
+        "id": "conical_hat",
+        "label_en": "conical leaf hat",
+        "description": "a conical straw hat"
+      },
+      {
+        "id": "long_dress_aodai",
+        "label_en": "long silk tunic dress",
+        "description": "a woman in a long fitted silk tunic over trousers"
+      },
+      {
+        "id": "ethnic_costume",
+        "label_en": "ethnic minority costume",
+        "description": "an embroidered indigo and colourful ethnic costume"
+      },
+      {
+        "id": "brocade_textile",
+        "label_en": "handwoven brocade textile",
+        "description": "colourful handwoven patterned cloth"
+      },
+      {
+        "id": "weaving_loom",
+        "label_en": "wooden weaving loom",
+        "description": "a person weaving on a wooden loom"
+      },
+      {
+        "id": "pottery_wheel",
+        "label_en": "potter shaping clay",
+        "description": "hands shaping clay on a potter wheel"
+      },
+      {
+        "id": "ceramic_vase",
+        "label_en": "painted ceramic vase",
+        "description": "a blue and white painted ceramic vase"
+      },
+      {
+        "id": "calligraphy_writing",
+        "label_en": "writing calligraphy with a brush",
+        "description": "a person writing characters with an ink brush"
+      },
+      {
+        "id": "incense_bundles_red",
+        "label_en": "bundles of red incense sticks",
+        "description": "fanned bundles of bright red incense sticks drying"
+      },
+      {
+        "id": "shoulder_pole_vendor",
+        "label_en": "street vendor with shoulder pole",
+        "description": "a vendor carrying two baskets on a shoulder pole"
+      },
+      {
+        "id": "market_stall",
+        "label_en": "market stall with produce",
+        "description": "a stall piled with vegetables and fruit"
+      },
+      {
+        "id": "floating_market_boat",
+        "label_en": "boat loaded with produce",
+        "description": "a boat full of fruit and vegetables on a river"
+      },
+      {
+        "id": "night_market",
+        "label_en": "night market street",
+        "description": "a busy street market lit at night"
+      },
+      {
+        "id": "fishing_village",
+        "label_en": "fishing village",
+        "description": "small houses and boats along a shore"
+      },
+      {
+        "id": "rowing_with_feet",
+        "label_en": "person rowing a boat with their feet",
+        "description": "a boat rower using their feet to row"
+      },
+      {
+        "id": "farmer_in_field",
+        "label_en": "farmer working in a rice field",
+        "description": "a farmer bending over in a rice field"
+      },
+      {
+        "id": "festival_procession",
+        "label_en": "festival procession",
+        "description": "a procession of people in ceremonial dress"
+      },
+      {
+        "id": "festival_crowd",
+        "label_en": "crowd at a festival",
+        "description": "a dense crowd at an outdoor event"
+      },
+      {
+        "id": "traditional_drum",
+        "label_en": "large ceremonial drum",
+        "description": "a large drum being struck at a ceremony"
+      },
+      {
+        "id": "bronze_gong",
+        "label_en": "bronze gong",
+        "description": "a large flat bronze gong"
+      },
+      {
+        "id": "string_instrument_trad",
+        "label_en": "traditional string instrument",
+        "description": "a long wooden zither-like string instrument"
+      },
+      {
+        "id": "monk_robe",
+        "label_en": "monk in robes",
+        "description": "a monk in brown or saffron robes"
+      },
+      {
+        "id": "peach_blossom",
+        "label_en": "pink peach blossom branch",
+        "description": "a branch with pink blossoms in a vase"
+      },
+      {
+        "id": "apricot_blossom",
+        "label_en": "yellow apricot blossom",
+        "description": "a small tree with yellow blossoms"
+      },
+      {
+        "id": "kumquat_tree",
+        "label_en": "potted kumquat tree",
+        "description": "a small potted tree with orange fruit"
+      },
+      {
+        "id": "red_envelope",
+        "label_en": "red lucky envelope",
+        "description": "small red envelopes with gold printing"
+      },
+      {
+        "id": "offering_tray",
+        "label_en": "tray of ritual offerings",
+        "description": "a tray of fruit and flowers as an offering"
+      },
+      {
+        "id": "paper_votive",
+        "label_en": "votive paper offerings",
+        "description": "colourful paper votive objects"
+      },
+      {
+        "id": "fireworks",
+        "label_en": "fireworks in the night sky",
+        "description": "fireworks exploding above a city"
+      },
+      {
+        "id": "fire_flame_show",
+        "label_en": "jet of flame",
+        "description": "a jet of fire shooting into the air"
+      },
+      {
+        "id": "water_spray_show",
+        "label_en": "water jet spray",
+        "description": "a jet of water sprayed into the air"
+      },
+      {
+        "id": "light_show",
+        "label_en": "coloured light show",
+        "description": "coloured lights illuminating a structure at night"
+      },
+      {
+        "id": "tourist_group",
+        "label_en": "group of tourists",
+        "description": "a group of tourists with cameras"
+      },
+      {
+        "id": "photo_taking",
+        "label_en": "person taking a photo",
+        "description": "a person holding up a phone or camera"
+      }
+    ]
+  },
+  "attribute_variables": [
+    {
+      "id": "time_of_day",
+      "values": [
+        {
+          "id": "daytime",
+          "label_en": "daytime",
+          "description": "a scene in bright daylight"
+        },
+        {
+          "id": "night",
+          "label_en": "night",
+          "description": "a night scene with artificial lights"
+        },
+        {
+          "id": "sunrise",
+          "label_en": "sunrise",
+          "description": "a scene at sunrise with orange sky"
+        },
+        {
+          "id": "sunset",
+          "label_en": "sunset",
+          "description": "a scene at sunset with warm light"
+        },
+        {
+          "id": "blue_hour",
+          "label_en": "dusk",
+          "description": "a scene at dusk with deep blue sky"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "values": [
+        {
+          "id": "clear_sky",
+          "label_en": "clear sky",
+          "description": "a scene under a clear blue sky"
+        },
+        {
+          "id": "overcast",
+          "label_en": "overcast sky",
+          "description": "a scene under grey clouds"
+        },
+        {
+          "id": "rain",
+          "label_en": "rain",
+          "description": "a rainy scene with wet ground"
+        },
+        {
+          "id": "fog",
+          "label_en": "fog",
+          "description": "a foggy scene with low visibility"
+        }
+      ]
+    },
+    {
+      "id": "setting",
+      "values": [
+        {
+          "id": "indoor",
+          "label_en": "indoor scene",
+          "description": "an interior space"
+        },
+        {
+          "id": "outdoor",
+          "label_en": "outdoor scene",
+          "description": "an outdoor space"
+        },
+        {
+          "id": "underground",
+          "label_en": "underground cave scene",
+          "description": "an underground cavern"
+        },
+        {
+          "id": "on_water",
+          "label_en": "scene on water",
+          "description": "a scene taken from or on water"
+        },
+        {
+          "id": "underwater",
+          "label_en": "underwater scene",
+          "description": "an underwater view"
+        }
+      ]
+    },
+    {
+      "id": "material",
+      "values": [
+        {
+          "id": "stone",
+          "label_en": "stone",
+          "description": "an object made of carved stone"
+        },
+        {
+          "id": "wood",
+          "label_en": "wood",
+          "description": "an object made of dark timber"
+        },
+        {
+          "id": "brick",
+          "label_en": "brick",
+          "description": "an object made of red brick"
+        },
+        {
+          "id": "bronze",
+          "label_en": "bronze or metal",
+          "description": "an object made of bronze"
+        },
+        {
+          "id": "concrete",
+          "label_en": "concrete",
+          "description": "an object made of concrete"
+        },
+        {
+          "id": "bamboo",
+          "label_en": "bamboo",
+          "description": "an object made of bamboo"
+        },
+        {
+          "id": "fabric",
+          "label_en": "fabric or silk",
+          "description": "an object made of cloth"
+        },
+        {
+          "id": "ceramic",
+          "label_en": "ceramic",
+          "description": "an object made of glazed ceramic"
+        },
+        {
+          "id": "glass_steel",
+          "label_en": "glass and steel",
+          "description": "a modern glass and steel structure"
+        }
+      ]
+    },
+    {
+      "id": "dominant_colour",
+      "values": [
+        {
+          "id": "red",
+          "label_en": "red",
+          "description": "a predominantly red object"
+        },
+        {
+          "id": "yellow_ochre",
+          "label_en": "yellow or ochre",
+          "description": "a predominantly yellow object"
+        },
+        {
+          "id": "gold",
+          "label_en": "gold",
+          "description": "a gilded golden object"
+        },
+        {
+          "id": "green",
+          "label_en": "green",
+          "description": "a predominantly green scene"
+        },
+        {
+          "id": "white",
+          "label_en": "white",
+          "description": "a predominantly white object"
+        },
+        {
+          "id": "blue",
+          "label_en": "blue",
+          "description": "a predominantly blue scene"
+        },
+        {
+          "id": "grey_stone",
+          "label_en": "grey",
+          "description": "a predominantly grey stone object"
+        }
+      ]
+    },
+    {
+      "id": "condition",
+      "values": [
+        {
+          "id": "ancient_weathered",
+          "label_en": "ancient and weathered",
+          "description": "an old weathered structure with moss"
+        },
+        {
+          "id": "restored_new",
+          "label_en": "newly restored",
+          "description": "a freshly painted restored structure"
+        },
+        {
+          "id": "ruined",
+          "label_en": "ruined",
+          "description": "a partly collapsed ruin"
+        }
+      ]
+    },
+    {
+      "id": "crowd_level",
+      "values": [
+        {
+          "id": "empty_scene",
+          "label_en": "empty scene",
+          "description": "a scene with no people"
+        },
+        {
+          "id": "few_people",
+          "label_en": "a few people",
+          "description": "a scene with a few people"
+        },
+        {
+          "id": "crowded",
+          "label_en": "crowded",
+          "description": "a scene packed with people"
+        }
+      ]
+    },
+    {
+      "id": "viewpoint",
+      "values": [
+        {
+          "id": "close_up",
+          "label_en": "close-up view",
+          "description": "a close-up of a single object"
+        },
+        {
+          "id": "wide_shot",
+          "label_en": "wide view",
+          "description": "a wide view of a whole scene"
+        },
+        {
+          "id": "aerial",
+          "label_en": "aerial drone view",
+          "description": "an aerial view from above"
+        },
+        {
+          "id": "street_level",
+          "label_en": "street level view",
+          "description": "a view from street level"
+        }
+      ]
+    },
+    {
+      "id": "scale_size",
+      "values": [
+        {
+          "id": "monumental",
+          "label_en": "monumental structure",
+          "description": "a very large monumental structure"
+        },
+        {
+          "id": "small_object",
+          "label_en": "small handheld object",
+          "description": "a small object held in a hand"
+        }
+      ]
+    }
+  ],
+  "spatial_relations": [
+    {
+      "id": "on_top_of",
+      "label_en": "on top of",
+      "geometry": "chong lan ngang cao; tam A cao hon tam B; day A gan dinh B"
+    },
+    {
+      "id": "inside",
+      "label_en": "inside",
+      "geometry": "bbox A nam gan tron trong bbox B (ty le dien tich giao tren dien tich A cao)"
+    },
+    {
+      "id": "next_to",
+      "label_en": "next to",
+      "geometry": "khoang cach tam nho, chong lan thap, cung muc cao"
+    },
+    {
+      "id": "in_front_of",
+      "label_en": "in front of",
+      "geometry": "chong lan va A thap hon trong khung hinh (heuristic do sau, do tin cay thap)"
+    },
+    {
+      "id": "behind",
+      "label_en": "behind",
+      "geometry": "nghich dao cua in_front_of"
+    },
+    {
+      "id": "surrounded_by",
+      "label_en": "surrounded by",
+      "geometry": "nhieu the hien cua B bao quanh A tu nhieu phia"
+    },
+    {
+      "id": "floating_on",
+      "label_en": "floating on",
+      "geometry": "day A tiep giap vung nuoc B"
+    },
+    {
+      "id": "reflected_in",
+      "label_en": "reflected in",
+      "geometry": "vung doi xung guong phia duoi A trong B"
+    },
+    {
+      "id": "spanning_across",
+      "label_en": "spanning across",
+      "geometry": "A dai theo phuong ngang, cat qua B (nuoc hoac duong)"
+    },
+    {
+      "id": "hanging_from",
+      "label_en": "hanging from",
+      "geometry": "dinh A tiep giap day B, A o duoi"
+    },
+    {
+      "id": "held_by",
+      "label_en": "held by",
+      "geometry": "A nho, chong lan voi vung tay cua nguoi B"
+    },
+    {
+      "id": "worn_by",
+      "label_en": "worn by",
+      "geometry": "A chong lan vung dau hoac than cua nguoi B"
+    },
+    {
+      "id": "riding",
+      "label_en": "riding",
+      "geometry": "nguoi A ngoi tren phuong tien B"
+    },
+    {
+      "id": "sitting_on",
+      "label_en": "sitting on",
+      "geometry": "nguoi A o tren do vat B"
+    },
+    {
+      "id": "emitting",
+      "label_en": "emitting",
+      "geometry": "vung lua, khoi hoac nuoc B xuat phat tu A, keo dai theo thoi gian"
+    },
+    {
+      "id": "aligned_row",
+      "label_en": "in a row",
+      "geometry": "nhieu the hien cung khai niem thang hang deu nhau"
+    },
+    {
+      "id": "carrying",
+      "label_en": "carrying",
+      "geometry": "A (gio, hang) gan lien va di chuyen cung B"
+    }
+  ],
+  "motion_cues": [
+    {
+      "id": "static_scene",
+      "description": "khong co chuyen dong dang ke giua cac frame"
+    },
+    {
+      "id": "flowing_water",
+      "description": "chuyen dong lien tuc trong vung nuoc"
+    },
+    {
+      "id": "flame_smoke_motion",
+      "description": "chuyen dong huong len cua lua hoac khoi"
+    },
+    {
+      "id": "crowd_motion",
+      "description": "nhieu track nguoi cung di chuyen"
+    },
+    {
+      "id": "performing_motion",
+      "description": "chuyen dong tuan hoan cua trang phuc hoac roi"
+    },
+    {
+      "id": "vehicle_motion",
+      "description": "track phuong tien di chuyen nhanh qua khung hinh"
+    },
+    {
+      "id": "camera_pan",
+      "description": "toan bo khung hinh dich chuyen dong deu"
+    },
+    {
+      "id": "cooking_motion",
+      "description": "chuyen dong tay lap lai quanh vung do an"
+    }
+  ],
+  "disambiguation_pairs": [
+    {
+      "pair": [
+        "pagoda",
+        "temple_den",
+        "communal_house"
+      ],
+      "distinguishing": [
+        "buddha_statue",
+        "stupa",
+        "parallel_sentence_board",
+        "curved_tiled_roof",
+        "courtyard"
+      ],
+      "note": "Chua co tuong Phat va thap; den co ban tho than va hoanh phi cau doi; dinh co mai rong thap va san lang"
+    },
+    {
+      "pair": [
+        "stupa",
+        "cham_tower"
+      ],
+      "distinguishing": [
+        "material:brick",
+        "condition:ancient_weathered",
+        "curved_tiled_roof"
+      ],
+      "note": "Thap Cham gach do khong mai ngoi"
+    },
+    {
+      "pair": [
+        "red_wooden_bridge",
+        "covered_bridge",
+        "arched_bridge"
+      ],
+      "distinguishing": [
+        "curved_tiled_roof",
+        "dominant_colour:red",
+        "material:stone"
+      ],
+      "note": "Cau co mai la covered_bridge"
+    },
+    {
+      "pair": [
+        "terraced_field",
+        "rice_paddy",
+        "rice_harvest"
+      ],
+      "distinguishing": [
+        "viewpoint:aerial",
+        "dominant_colour:green",
+        "dominant_colour:yellow_ochre"
+      ],
+      "note": "Ruong bac thang co duong cong bac cap"
+    },
+    {
+      "pair": [
+        "noodle_soup_bowl_variants"
+      ],
+      "distinguishing": [
+        "flat_rice_noodle",
+        "round_rice_noodle",
+        "yellow_noodle",
+        "beef_slices",
+        "grilled_pork_patty",
+        "herb_plate"
+      ],
+      "note": "Cac mon nuoc phan biet bang loai soi va topping, khong phai bang bat"
+    },
+    {
+      "pair": [
+        "lake",
+        "river",
+        "lagoon",
+        "sea_open"
+      ],
+      "distinguishing": [
+        "karst_bay",
+        "sandy_beach",
+        "spanning_across",
+        "viewpoint:aerial"
+      ],
+      "note": "Can bo sung boi canh xung quanh"
+    },
+    {
+      "pair": [
+        "silk_lantern",
+        "floating_lantern",
+        "light_show"
+      ],
+      "distinguishing": [
+        "setting:on_water",
+        "time_of_day:night",
+        "lantern_street"
+      ],
+      "note": ""
+    },
+    {
+      "pair": [
+        "colonial_building",
+        "opera_house_facade",
+        "old_post_office"
+      ],
+      "distinguishing": [
+        "yellow_wall",
+        "shuttered_window",
+        "balcony_railing",
+        "setting:indoor"
+      ],
+      "note": ""
+    },
+    {
+      "pair": [
+        "water_puppet_figure",
+        "lion_dance",
+        "dragon_dance"
+      ],
+      "distinguishing": [
+        "water_puppet_stage",
+        "setting:on_water",
+        "festival_procession"
+      ],
+      "note": ""
+    }
+  ],
+  "usage_notes": [
+    "Moi vung anh duoc cham diem tren TAT CA khai nghiem trong object_concepts cong background_class, bang softmax; moi attribute_variable cham diem RIENG tren tap gia tri cua no.",
+    "Khong dung ten rieng trong prompt. Danh tinh doi tuong (dia danh, mon an, hoat dong) la KET LUAN cua suy dien FKG, khong phai dau vao.",
+    "Khai niem nao co diem khong tach duoc khoi background_class tren tap kiem dinh thi loai khoi tap nen, hoac bo sung anh mau lam nguyen mau.",
+    "Quan he suy tu hinh hoc bbox bang ham thuoc co tham so; in_front_of va behind do tin cay thap, nen gan trong so thap.",
+    "Tap nen nay la ban de xuat, can rut gon sau buoc kiem thu tren mau 100 video."
+  ]
+}

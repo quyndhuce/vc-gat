@@ -1,0 +1,50 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Ly Thai To statue)  --[symbol_of]-->  ?
+  Head URI  : http://transmtl.vn/kb/ly_thai_to_statue
+  Conflict K: 0.8094
+  Candidates:
+    • Hanoi                           Bel=0.2859  Pl=0.4456  (1 evidence)
+    • city                            Bel=0.2543  Pl=0.4140  (1 evidence)
+    • people                          Bel=0.1035  Pl=0.2632  (2 evidence)
+    • enduring spirit                 Bel=0.0986  Pl=0.2583  (1 evidence)
+    • perseverance                    Bel=0.0578  Pl=0.2176  (1 evidence)
+    • indomitable will                Bel=0.0402  Pl=0.1999  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [former_name_of] (Ly Thai To Garden) → http://transmtl.vn/ent/aa0820e4  Bel=0.3734  K=0.0000
+  [inaugurated_in] (Ly Thai To statue) → http://transmtl.vn/ent/b8b4b727  Bel=0.4054  K=0.0000
+  [symbol_of] (Ly Thai To statue) → http://transmtl.vn/ent/207462d2  Bel=0.2859  K=0.8094 ⚠ REVIEW
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.3455  K=0.0000
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Ly Thai To statue) → (Ly Thai To Garden)  μ_F=0.9025  (1 evidence)
+  [has_part] (Ly Thai To statue) → (winning design)  μ_F=0.9025  (1 evidence)
+  [has_part] (Ly Thai To statue) → (Hoàn Kiếm Lake)  μ_F=0.9025  (1 evidence)
+  [over] (sun) → (Ly Thai To Park)  μ_F=0.8425  (2 evidence)
+  [located_in] (statue) → (Ly Thai To Park)  μ_F=0.7413  (2 evidence)
+  [located_in] (statue) → (central area)  μ_F=0.6992  (2 evidence)
+  [ruled_by] (Hanoi) → (Lý Thái Tổ)  μ_F=0.6535  (3 evidence)
+  [located_in] (Ly Thai To statue) → (Ho Chi Minh City)  μ_F=0.6344  (2 evidence)
+  [located_in] (Ly Thai To statue) → (Hanoi)  μ_F=0.5968  (2 evidence)
+  [located_in] (Ly Thai To Park) → (Ho Chi Minh City)  μ_F=0.4464  (2 evidence)
+  [located_in] (statue) → (Ly Thai To Garden)  μ_F=0.3794  (1 evidence)
+  [located_in] (Ly Thai To statue) → (Hoàn Kiếm District)  μ_F=0.3231  (1 evidence)
+  [part_of] (statue) → (Ly Thai To Park)  μ_F=0.2990  (1 evidence)
+  [near] (Hoàn Kiếm Lake) → (Hanoi)  μ_F=0.2787  (1 evidence)
+  [located_in] (Hoàn Kiếm Lake) → (Hanoi)  μ_F=0.2786  (1 evidence)
+  [located_in] (statue) → (Hanoi)  μ_F=0.2657  (1 evidence)
+  [ruled_by] (Hanoi) → (Ly Thai To)  μ_F=0.2602  (1 evidence)
+  [located_in] (Ly Thai To statue) → (Ly Thai To Garden)  μ_F=0.2564  (1 evidence)
+  [overlooks] (statue) → (Ly Thai To Park)  μ_F=0.2492  (1 evidence)
+  [dedicated_to] (Ly Thai To statue) → (Lý Thái Tổ)  μ_F=0.2490  (1 evidence)
+
+========================================================================

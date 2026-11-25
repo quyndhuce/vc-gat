@@ -1,0 +1,70 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/81f09091> onto:former_name_of <http://transmtl.vn/kb/yen_so_park> .
+
+<http://www.wikidata.org/entity/Q1858> onto:surrounded_by <http://transmtl.vn/ent/373801fc>,
+        <http://transmtl.vn/ent/8fc42c6d>,
+        <http://transmtl.vn/ent/992763c3> .
+
+<http://transmtl.vn/kb/yen_so_park> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3275 ;
+    fkg:docId "doc_add2f8d275ff" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6745 ;
+    fkg:docId "doc_add2f8d275ff" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3242 ;
+    fkg:docId "doc_add2f8d275ff" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/373801fc> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3552 ;
+    fkg:docId "doc_add2f8d275ff" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/8fc42c6d> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6328 ;
+    fkg:docId "doc_add2f8d275ff" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2775 ;
+    fkg:docId "doc_add2f8d275ff" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/81f09091> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4048 ;
+    fkg:docId "doc_add2f8d275ff" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+

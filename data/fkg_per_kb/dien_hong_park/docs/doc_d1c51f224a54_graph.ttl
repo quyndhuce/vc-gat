@@ -1,0 +1,186 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/79de7a61> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q1858> onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/0b47af74> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q10834022#garden> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/3590cb8a>,
+        <http://transmtl.vn/ent/493a75f0>,
+        <http://transmtl.vn/ent/5058f1af> .
+
+<http://www.wikidata.org/entity/Q10834022> onto:border_with <http://transmtl.vn/ent/bf8b5478>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/ebdfab22> ;
+    onto:has_part <http://www.wikidata.org/entity/Q10834022#garden> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a> ;
+    onto:near <http://transmtl.vn/ent/63be8e4a> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2717 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6357 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/bf8b5478> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3972 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2605 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4045 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4391 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0b47af74> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3652 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/79de7a61> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6614 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/ebdfab22> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3631 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4068 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/493a75f0> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3442 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4208 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3681 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2646 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.304 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:border_with ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.295 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/3590cb8a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2762 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8431 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0b47af74> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3586 ;
+    fkg:docId "doc_d1c51f224a54" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+

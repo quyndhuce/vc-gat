@@ -1,0 +1,31 @@
+{
+  "dataset": {
+    "total_triples": 5704,
+    "train_triples": 5134,
+    "test_triples": 570,
+    "num_entities": 3134,
+    "num_relations": 58
+  },
+  "standard_transe": {
+    "num_test_queries": 1140,
+    "filtered_mrr": 0.0554,
+    "filtered_hits@1": 2.02,
+    "filtered_hits@3": 5.53,
+    "filtered_hits@10": 13.6,
+    "filtered_mr": 1166.6,
+    "raw_mrr": 0.0511,
+    "raw_hits@10": 12.98,
+    "raw_mr": 1175.2
+  },
+  "ftranse_fuzzy": {
+    "num_test_queries": 1140,
+    "filtered_mrr": 0.0488,
+    "filtered_hits@1": 1.14,
+    "filtered_hits@3": 4.65,
+    "filtered_hits@10": 13.86,
+    "filtered_mr": 1316.3,
+    "raw_mrr": 0.0441,
+    "raw_hits@10": 13.16,
+    "raw_mr": 1324.9
+  }
+}

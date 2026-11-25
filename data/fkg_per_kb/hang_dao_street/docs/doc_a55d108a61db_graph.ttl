@@ -1,0 +1,256 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/433169d5> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/6ea9ab1b> onto:on <http://www.wikidata.org/entity/Q10770772> .
+
+<http://transmtl.vn/ent/7bb705b2> onto:on <http://www.wikidata.org/entity/Q10770772> .
+
+<http://transmtl.vn/ent/c20ad4d7> onto:on <http://www.wikidata.org/entity/Q10770772> .
+
+<http://transmtl.vn/ent/d82c8d16> onto:on <http://www.wikidata.org/entity/Q10770772> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q10770772#tram_tracks> onto:connects <http://transmtl.vn/ent/6c6d4dfa> .
+
+<http://www.wikidata.org/entity/Q10770772#axis> onto:connects <http://transmtl.vn/ent/6c6d4dfa> ;
+    onto:leading_to <http://transmtl.vn/ent/cb4f019f> .
+
+<http://www.wikidata.org/entity/Q10770772#hoàn_kiếm_lake> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/cb4f019f> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q10770772> onto:has_part <http://www.wikidata.org/entity/Q10770772#axis>,
+        <http://www.wikidata.org/entity/Q10770772#hoàn_kiếm_lake>,
+        <http://www.wikidata.org/entity/Q10770772#tram_tracks> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/468bd38c>,
+        <http://transmtl.vn/ent/5c5520ef>,
+        <http://transmtl.vn/ent/b335d20c> ;
+    onto:renamed_to <http://transmtl.vn/ent/534bc202> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4934 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/7bb705b2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772#hoàn_kiếm_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4741 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/d82c8d16> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4056 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/534bc202> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2602 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/468bd38c> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772#hoàn_kiếm_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6158 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb4f019f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.658 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2649 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4027 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb4f019f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3169 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772#hoàn_kiếm_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2669 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772#axis> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.332 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.391 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772#tram_tracks> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2538 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb4f019f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772#axis> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3058 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772#hoàn_kiếm_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4094 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb4f019f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.281 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/433169d5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2551 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772#tram_tracks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2522 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/cb4f019f> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772#axis> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3803 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/b335d20c> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5554 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4989 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/6ea9ab1b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4837 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/c20ad4d7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3843 ;
+    fkg:docId "doc_a55d108a61db" ;
+    fkg:kbId "hang_dao_street" ;
+    rdf:object <http://transmtl.vn/ent/5c5520ef> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10770772> .
+

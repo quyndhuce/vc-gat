@@ -1,0 +1,33 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/the_four_pillars> onto:dedicated_to <http://transmtl.vn/ent/02720174> ;
+    onto:located_in <http://transmtl.vn/ent/35ea495a>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3123 ;
+    fkg:docId "doc_e219d7011a3b" ;
+    fkg:kbId "the_four_pillars" ;
+    rdf:object <http://transmtl.vn/ent/02720174> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/the_four_pillars> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4895 ;
+    fkg:docId "doc_e219d7011a3b" ;
+    fkg:kbId "the_four_pillars" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_four_pillars> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2775 ;
+    fkg:docId "doc_e219d7011a3b" ;
+    fkg:kbId "the_four_pillars" ;
+    rdf:object <http://transmtl.vn/ent/35ea495a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/the_four_pillars> .
+

@@ -1,0 +1,19 @@
+# Core Dependencies
+torch>=2.0.0
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+spacy>=3.7.0
+
+# Optional: High accuracy English spaCy model (RoBERTa Transformer)
+# Run: python -m spacy download en_core_web_trf
+# Or lightweight: python -m spacy download en_core_web_sm
+
+# GLiNER for Zero-Shot Open-Domain NER (Optional State-of-the-Art)
+gliner>=0.1.10
+
+# Scientific & Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+tqdm>=4.66.0
+rdflib>=7.0.0

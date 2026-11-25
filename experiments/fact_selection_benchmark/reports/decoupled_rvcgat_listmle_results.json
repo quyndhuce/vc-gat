@@ -1,0 +1,29 @@
+{
+  "baseline_cross_attention": {
+    "ndcg@5": 0.2882,
+    "p@5": 0.252,
+    "hard_neg_auc": 0.618,
+    "contrastive_acc": 56.1,
+    "seen_ndcg@5": 0.4196,
+    "unseen_ndcg@5": 0.2083,
+    "vis_ndcg@5": 0.3512,
+    "hist_ndcg@5": 0.2245
+  },
+  "decoupled_rvcgat_listmle": {
+    "ndcg@5": 0.2519285985463097,
+    "p@5": 0.2225,
+    "hard_neg_auc": 0.6574239507764398,
+    "contrastive_acc": 58.79424778761062,
+    "seen_ndcg@5": 0.38160515249788984,
+    "unseen_ndcg@5": 0.2014988275651397,
+    "vis_ndcg@5": 0.3481882484163286,
+    "hist_ndcg@5": 0.1743825721881348
+  },
+  "deltas": {
+    "delta_ndcg5": -0.03627140145369029,
+    "delta_p5": -0.0295,
+    "delta_auc": 0.03942395077643979,
+    "delta_unseen": -0.006801172434860309,
+    "delta_historical": -0.050117427811865206
+  }
+}

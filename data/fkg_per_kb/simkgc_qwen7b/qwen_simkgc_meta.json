@@ -1,0 +1,25 @@
+{
+  "backbone": "Qwen/Qwen2.5-7B-Instruct",
+  "in_dim": 3584,
+  "proj_dim": 512,
+  "link_prediction": {
+    "Hits@1": 9.17726143504311,
+    "Hits@3": 17.799210872424375,
+    "Hits@10": 31.98889376004676,
+    "MRR": 0.1678244950649778
+  },
+  "video_benchmark": {
+    "pure_qwen": {
+      "TypeValid": 100.0,
+      "GeoConsist": 96.08,
+      "VisAligned": 34.88,
+      "FactualPrec": 96.24000000000001
+    },
+    "hybrid_qwen": {
+      "TypeValid": 100.0,
+      "GeoConsist": 97.92,
+      "VisAligned": 32.32,
+      "FactualPrec": 96.39999999999999
+    }
+  }
+}

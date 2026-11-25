@@ -1,0 +1,662 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/7dbf02f9> onto:part_of <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+<http://transmtl.vn/ent/8e7bb02b> onto:located_in <http://transmtl.vn/kb/hang_can_street> .
+
+<http://transmtl.vn/ent/c11e6eee> onto:part_of <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+<http://transmtl.vn/ent/f053801c> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_can_street#> onto:made_of <http://transmtl.vn/ent/068daf58> .
+
+<http://transmtl.vn/kb/hang_can_street#floor_tiles> onto:part_of <http://transmtl.vn/ent/2ca63cdd> .
+
+<http://transmtl.vn/kb/hang_can_street#ground_floor> onto:part_of <http://transmtl.vn/ent/2ca63cdd> .
+
+<http://transmtl.vn/kb/hang_can_street#houses> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_can_street#two_floors> onto:part_of <http://transmtl.vn/ent/2ca63cdd> .
+
+<http://transmtl.vn/kb/hang_can_street#ceiling> onto:made_of <http://transmtl.vn/ent/068daf58> ;
+    onto:part_of <http://transmtl.vn/ent/2ca63cdd>,
+        <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+<http://transmtl.vn/kb/hang_can_street#roof> onto:above <http://transmtl.vn/ent/2ca63cdd> ;
+    onto:part_of <http://transmtl.vn/ent/2ca63cdd>,
+        <http://transmtl.vn/ent/9e925e93> .
+
+<http://transmtl.vn/ent/8e950ac9> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_can_street#doors> onto:made_of <http://transmtl.vn/ent/068daf58> ;
+    onto:part_of <http://transmtl.vn/ent/2ca63cdd>,
+        <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter> onto:architectural_style <http://transmtl.vn/ent/951bc3bb> ;
+    onto:made_of <http://transmtl.vn/ent/068daf58> .
+
+<http://transmtl.vn/kb/hang_can_street#windows> onto:made_of <http://transmtl.vn/ent/068daf58> ;
+    onto:part_of <http://transmtl.vn/ent/2ca63cdd>,
+        <http://transmtl.vn/ent/94a55a83>,
+        <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    onto:with <http://transmtl.vn/ent/5baa9350> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/2ca63cdd> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/ee999824> .
+
+<http://transmtl.vn/kb/hang_can_street> onto:former_name_of <http://transmtl.vn/ent/50a33857> ;
+    onto:has_part <http://transmtl.vn/kb/hang_can_street#>,
+        <http://transmtl.vn/kb/hang_can_street#ceiling>,
+        <http://transmtl.vn/kb/hang_can_street#doors>,
+        <http://transmtl.vn/kb/hang_can_street#floor_tiles>,
+        <http://transmtl.vn/kb/hang_can_street#ground_floor>,
+        <http://transmtl.vn/kb/hang_can_street#houses>,
+        <http://transmtl.vn/kb/hang_can_street#roof>,
+        <http://transmtl.vn/kb/hang_can_street#two_floors>,
+        <http://transmtl.vn/kb/hang_can_street#windows> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/8e950ac9> ;
+    onto:near <http://transmtl.vn/ent/ded809d4> ;
+    onto:part_of <http://transmtl.vn/ent/133b931a>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/8e950ac9> ;
+    onto:surrounded_by <http://transmtl.vn/ent/30a650cd>,
+        <http://transmtl.vn/ent/5abe8656> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#ceiling> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5826 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3112 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/ee999824> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2ca63cdd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3232 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#two_floors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2583 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/5abe8656> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6807 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7962 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4881 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#ground_floor> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3683 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2837 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/30a650cd> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2979 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4666 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/951bc3bb> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3415 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#ceiling> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3276 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/50a33857> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5442 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4634 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6808 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3273 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7663 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#ceiling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6104 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4856 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.456 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c11e6eee> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.859 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7457 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.449 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/133b931a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.268 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2ca63cdd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4232 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2631 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f053801c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4209 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#floor_tiles> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4873 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4505 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/7dbf02f9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5189 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3559 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4354 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#ceiling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#doors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4006 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.333 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/94a55a83> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#two_floors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3249 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8e950ac9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4574 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8688 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4501 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#ground_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4721 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8e950ac9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5202 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4931 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#floor_tiles> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8493 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#ceiling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.739 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/068daf58> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4144 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5073 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#ceiling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4156 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#doors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2534 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/5baa9350> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4019 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/2ca63cdd> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#windows> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.25 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street#windows> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6763 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2ca63cdd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4078 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7764 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4234 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/ded809d4> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2578 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/9e925e93> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2791 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_can_street> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8e7bb02b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.316 ;
+    fkg:docId "doc_483a2c539695" ;
+    fkg:kbId "hang_can_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_can_street> .
+

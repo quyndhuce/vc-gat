@@ -1,0 +1,263 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/tran_ba_communal_house#ornate_details> onto:on <http://transmtl.vn/ent/e31fbf08> .
+
+<http://transmtl.vn/kb/tran_ba_communal_house#pavilion> onto:surrounded_by <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/tran_ba_communal_house#pillars> onto:surrounded_by <http://transmtl.vn/ent/994bee04>,
+        <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+<http://transmtl.vn/kb/tran_ba_communal_house#tran_ba_pavilion> onto:architectural_style <http://transmtl.vn/ent/6594f92e> ;
+    onto:surrounded_by <http://transmtl.vn/ent/994bee04> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/tran_ba_communal_house#eight_curved_roofs> onto:part_of <http://transmtl.vn/ent/227dd828>,
+        <http://transmtl.vn/ent/b2f3ffc5>,
+        <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+<http://transmtl.vn/kb/ngoc_son_temple> onto:with <http://transmtl.vn/ent/9ec5e3e7>,
+        <http://transmtl.vn/ent/f732d4fb> .
+
+<http://transmtl.vn/kb/tran_ba_communal_house> onto:architectural_style <http://transmtl.vn/ent/82eaeb40> ;
+    onto:built_by <http://transmtl.vn/ent/582b795a> ;
+    onto:has_part <http://transmtl.vn/kb/tran_ba_communal_house#eight_curved_roofs>,
+        <http://transmtl.vn/kb/tran_ba_communal_house#ornate_details>,
+        <http://transmtl.vn/kb/tran_ba_communal_house#pavilion>,
+        <http://transmtl.vn/kb/tran_ba_communal_house#pillars>,
+        <http://transmtl.vn/kb/tran_ba_communal_house#tran_ba_pavilion> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> ;
+    onto:near <http://transmtl.vn/kb/ngoc_son_temple>,
+        <http://www.wikidata.org/entity/Q1151254> ;
+    onto:on <http://transmtl.vn/kb/the_huc_bridge> ;
+    onto:part_of <http://transmtl.vn/ent/606dcc1a> ;
+    onto:surrounded_by <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house#eight_curved_roofs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2552 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/the_huc_bridge> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2532 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5589 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/6594f92e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#tran_ba_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3634 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3712 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.563 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/994bee04> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#pillars> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8102 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2601 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#pillars> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2558 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/82eaeb40> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6176 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/994bee04> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#tran_ba_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2543 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/b2f3ffc5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#eight_curved_roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3593 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/9ec5e3e7> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house#ornate_details> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2896 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/e31fbf08> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#ornate_details> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5105 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5755 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2745 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#eight_curved_roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2653 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/582b795a> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house#tran_ba_pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4165 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/f732d4fb> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.417 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house#pillars> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house#eight_curved_roofs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/tran_ba_communal_house#eight_curved_roofs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3874 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4798 ;
+    fkg:docId "doc_12b2f0fc26de" ;
+    fkg:kbId "tran_ba_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/227dd828> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house#eight_curved_roofs> .
+

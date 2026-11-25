@@ -1,0 +1,109 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/e05eebf4> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/9e630e0f> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/frog_fishing> onto:has_part <http://transmtl.vn/kb/frog_fishing#hoàn_kiếm_lake> ;
+    onto:part_of <http://transmtl.vn/kb/performance> .
+
+<http://transmtl.vn/kb/frog_fishing#hoàn_kiếm_lake> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/performance> onto:inaugurated_in <http://transmtl.vn/ent/4d855669> ;
+    onto:near <http://transmtl.vn/ent/6c6d4dfa> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/kb/frog_fishing#hoàn_kiếm_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/frog_fishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7785 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7973 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/e05eebf4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.339 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/frog_fishing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4009 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3177 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/frog_fishing#hoàn_kiếm_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7361 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/frog_fishing#hoàn_kiếm_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4792 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4528 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9e630e0f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8259 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/4d855669> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4999 ;
+    fkg:docId "doc_5babd3f366bc" ;
+    fkg:kbId "frog_fishing" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/9e630e0f> .
+

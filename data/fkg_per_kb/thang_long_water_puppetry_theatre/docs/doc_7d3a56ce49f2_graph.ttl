@@ -1,0 +1,254 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre#dance> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre#lights> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre#model> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre#music> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre#puppetry> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre#sun> onto:over <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre#architecture> onto:architectural_style <http://transmtl.vn/ent/9b732bf8>,
+        <http://transmtl.vn/ent/ae74ea4e> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre#façade> onto:part_of <http://transmtl.vn/ent/1b20e902>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/thang_long_water_puppetry_theatre> onto:has_part <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#architecture>,
+        <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#dance>,
+        <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#façade>,
+        <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#lights>,
+        <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#model>,
+        <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#music>,
+        <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#puppetry>,
+        <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#sun> .
+
+<http://www.wikidata.org/entity/Q1858> onto:architectural_style <http://transmtl.vn/ent/9b732bf8>,
+        <http://transmtl.vn/ent/ae74ea4e> ;
+    onto:surrounded_by <http://transmtl.vn/ent/8e2af740>,
+        <http://transmtl.vn/ent/9f864082> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3068 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#architecture> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3566 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.78 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/ae74ea4e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#model> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2724 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#dance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#lights> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3197 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/ae74ea4e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3113 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#model> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8407 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7992 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#sun> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#puppetry> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7988 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#façade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5234 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2585 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#puppetry> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3609 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/9b732bf8> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2613 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#lights> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2816 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2601 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/8e2af740> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2849 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#architecture> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#music> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#façade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2598 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#music> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5692 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/ent/ae74ea4e> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#sun> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_7d3a56ce49f2" ;
+    fkg:kbId "thang_long_water_puppetry_theatre" ;
+    rdf:object <http://transmtl.vn/kb/thang_long_water_puppetry_theatre#dance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thang_long_water_puppetry_theatre> .
+

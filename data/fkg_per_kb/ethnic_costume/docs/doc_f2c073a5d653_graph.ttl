@@ -1,0 +1,25 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/ethnic_costume> onto:has_part <http://transmtl.vn/kb/ethnic_costume#fringes> .
+
+<http://transmtl.vn/kb/ethnic_costume#fringes> onto:used_by <http://transmtl.vn/ent/d2fc17cc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2673 ;
+    fkg:docId "doc_f2c073a5d653" ;
+    fkg:kbId "ethnic_costume" ;
+    rdf:object <http://transmtl.vn/ent/d2fc17cc> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_costume#fringes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f2c073a5d653" ;
+    fkg:kbId "ethnic_costume" ;
+    rdf:object <http://transmtl.vn/kb/ethnic_costume#fringes> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_costume> .
+

@@ -1,0 +1,345 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/2cc0b2bc> onto:associated_with <http://transmtl.vn/kb/hang_thiec_street> .
+
+<http://transmtl.vn/ent/8aaf9380> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/f27f0b62> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/ae501912> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/f0e3ae71> onto:located_in <http://transmtl.vn/ent/8e950ac9> .
+
+<http://transmtl.vn/ent/71459eea> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/kb/hang_thiec_street#metal_goods> onto:made_of <http://transmtl.vn/ent/2cb1b780>,
+        <http://transmtl.vn/ent/9c28efab>,
+        <http://transmtl.vn/ent/bcd31c71> .
+
+<http://transmtl.vn/kb/hang_thiec_street#traditional_furnaces> onto:used_by <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/e886b5e8>,
+        <http://transmtl.vn/ent/f389976c> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/c0cb5f0f> .
+
+<http://transmtl.vn/kb/hang_thiec_street> onto:has_part <http://transmtl.vn/kb/hang_thiec_street#metal_goods>,
+        <http://transmtl.vn/kb/hang_thiec_street#traditional_furnaces> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/ent/8e950ac9>,
+        <http://transmtl.vn/ent/f0e3ae71> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6507 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6441 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/ent/2cc0b2bc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2835 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f27f0b62> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3174 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5624 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/71459eea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4006 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3042 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/e886b5e8> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#traditional_furnaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3801 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3386 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5503 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/9c28efab> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#metal_goods> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3817 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3531 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/f0e3ae71> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4687 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ae501912> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7995 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/f389976c> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#traditional_furnaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4487 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4248 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5672 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/bcd31c71> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#metal_goods> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2595 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/8aaf9380> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5032 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/71459eea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3698 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2809 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3518 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ae501912> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street#metal_goods> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7464 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5769 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/2cb1b780> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#metal_goods> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5967 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3308 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7707 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2715 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4521 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/71459eea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.514 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#traditional_furnaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3803 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/f0e3ae71> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3201 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street#traditional_furnaces> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3712 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/8e950ac9> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3456 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/71459eea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2967 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/71459eea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.441 ;
+    fkg:docId "doc_81cfc2db30a0" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+

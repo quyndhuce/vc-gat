@@ -1,0 +1,236 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/softshell_turtle#head> onto:part_of <http://transmtl.vn/kb/softshell_turtle> .
+
+<http://transmtl.vn/kb/softshell_turtle#its> onto:has_part <http://transmtl.vn/ent/469bba0a> .
+
+<http://transmtl.vn/kb/softshell_turtle#neck> onto:part_of <http://transmtl.vn/kb/softshell_turtle> .
+
+<http://transmtl.vn/kb/softshell_turtle#snout> onto:part_of <http://transmtl.vn/kb/softshell_turtle> .
+
+<http://transmtl.vn/kb/softshell_turtle#specimen> onto:dated_to <http://transmtl.vn/ent/da410d6b> .
+
+<http://transmtl.vn/kb/softshell_turtle#it> onto:has_part <http://transmtl.vn/ent/2591c98b>,
+        <http://transmtl.vn/ent/96e89a29>,
+        <http://transmtl.vn/ent/ecd027c0> .
+
+<http://transmtl.vn/kb/softshell_turtle#dong_mo_lake> onto:located_in <http://transmtl.vn/ent/e53f7bd5>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://transmtl.vn/ent/e53f7bd5>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/softshell_turtle> onto:has_part <http://transmtl.vn/ent/469bba0a>,
+        <http://transmtl.vn/ent/96e89a29>,
+        <http://transmtl.vn/ent/fa83f404>,
+        <http://transmtl.vn/kb/softshell_turtle#dong_mo_lake>,
+        <http://transmtl.vn/kb/softshell_turtle#head>,
+        <http://transmtl.vn/kb/softshell_turtle#it>,
+        <http://transmtl.vn/kb/softshell_turtle#its>,
+        <http://transmtl.vn/kb/softshell_turtle#neck>,
+        <http://transmtl.vn/kb/softshell_turtle#snout>,
+        <http://transmtl.vn/kb/softshell_turtle#specimen> ;
+    onto:located_in <http://transmtl.vn/ent/6c6d4dfa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3324 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#dong_mo_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2662 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/ecd027c0> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#it> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6299 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/e53f7bd5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#dong_mo_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2746 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#neck> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.426 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/e53f7bd5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#dong_mo_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle#specimen> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle#dong_mo_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2824 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/2591c98b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#it> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3079 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/96e89a29> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#it> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3937 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#head> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3142 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/da410d6b> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#specimen> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle#head> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3927 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle#snout> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3275 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/e53f7bd5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#dong_mo_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.402 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/469bba0a> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle#dong_mo_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3308 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#snout> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3274 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/fa83f404> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2875 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/469bba0a> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#its> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle#it> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle#neck> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/kb/softshell_turtle#its> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3573 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle#dong_mo_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2677 ;
+    fkg:docId "doc_055ec2e4010b" ;
+    fkg:kbId "softshell_turtle" ;
+    rdf:object <http://transmtl.vn/ent/96e89a29> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/softshell_turtle> .
+

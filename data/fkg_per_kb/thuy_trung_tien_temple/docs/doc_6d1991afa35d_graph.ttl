@@ -1,0 +1,218 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/2c6eb0e7> onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/ent/152d9967> onto:connects <http://transmtl.vn/kb/thuy_trung_tien_temple>,
+        <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/kb/thuy_trung_tien_temple#roofs> onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/kb/thuy_trung_tien_temple#walls> onto:part_of <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/ent/5d14662f> onto:in <http://transmtl.vn/kb/truc_bach_lake> ;
+    onto:located_in <http://transmtl.vn/kb/truc_bach_lake> .
+
+<http://transmtl.vn/kb/thuy_trung_tien_temple> onto:architectural_style <http://transmtl.vn/ent/d3d2ed6a> ;
+    onto:has_part <http://transmtl.vn/kb/thuy_trung_tien_temple#roofs>,
+        <http://transmtl.vn/kb/thuy_trung_tien_temple#walls> ;
+    onto:located_in <http://transmtl.vn/kb/truc_bach_lake>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:near <http://www.wikidata.org/entity/Q1858> ;
+    onto:on <http://transmtl.vn/ent/3dbacfd7> .
+
+<http://transmtl.vn/kb/truc_bach_lake> onto:located_in <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://www.wikidata.org/entity/Q1858> ;
+    onto:on <http://transmtl.vn/ent/5d14662f> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> ;
+    onto:surrounded_by <http://transmtl.vn/ent/43077315>,
+        <http://transmtl.vn/ent/474adbb8>,
+        <http://transmtl.vn/ent/9460370b>,
+        <http://transmtl.vn/ent/e4bb6962> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4333 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.693 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/3dbacfd7> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3385 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/thuy_trung_tien_temple> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/ent/152d9967> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/thuy_trung_tien_temple#walls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2617 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3501 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/ent/5d14662f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.463 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3326 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/e4bb6962> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3265 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/5d14662f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4533 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/2c6eb0e7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2676 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4954 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple#walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.317 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/43077315> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2858 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/thuy_trung_tien_temple#roofs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3594 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6212 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/5d14662f> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4485 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/474adbb8> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4512 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/ent/152d9967> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6937 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/truc_bach_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2586 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/ent/d3d2ed6a> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.407 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple#roofs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2974 ;
+    fkg:docId "doc_6d1991afa35d" ;
+    fkg:kbId "thuy_trung_tien_temple" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thuy_trung_tien_temple> .
+

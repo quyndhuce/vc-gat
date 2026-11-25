@@ -1,0 +1,738 @@
+{
+  "taxonomy": {
+    "Spatial Misattribution (Geo Drift)": 2,
+    "Attenuated Inheritance Under-ranking": 33,
+    "Score Suppression (Margin Erosion)": 2
+  },
+  "total_error_cases": 37,
+  "baselines_on_clean_test": {
+    "Symbolic_Horn_Rules": {
+      "Hits@1": 5.838739573679333,
+      "Hits@3": 5.838739573679333,
+      "Hits@10": 5.838739573679333,
+      "MRR": 0.066353991782341,
+      "Raw_Hits@1": 5.838739573679333,
+      "Raw_Hits@10": 5.838739573679333,
+      "Raw_MRR": 0.066353991782341
+    },
+    "TransE_128d": {
+      "Filtered_Hits@1": 0.0,
+      "Filtered_Hits@3": 0.09267840593141798,
+      "Filtered_Hits@10": 0.27803521779425394,
+      "Filtered_MRR": 0.0012859730316765073,
+      "Raw_Hits@1": 0.0,
+      "Raw_Hits@10": 0.27803521779425394,
+      "Raw_MRR": 0.001283910858578515
+    },
+    "RotatE_128d": {
+      "Filtered_Hits@1": 0.09267840593141798,
+      "Filtered_Hits@3": 0.18535681186283595,
+      "Filtered_Hits@10": 0.3707136237256719,
+      "Filtered_MRR": 0.002035701445286018,
+      "Raw_Hits@1": 0.09267840593141798,
+      "Raw_Hits@10": 0.3707136237256719,
+      "Raw_MRR": 0.002031226438775485
+    }
+  },
+  "sample_cases": [
+    {
+      "query_idx": 42,
+      "video_id": "430",
+      "landmark": "Thu Le Park",
+      "relation": "located_in",
+      "expected_groundtruth": [
+        "ba dinh district",
+        "city",
+        "central area",
+        "hanoi"
+      ],
+      "pred_C_correct": "hanoi cuisine",
+      "score_C": 0.3439,
+      "pred_D_incorrect": "tay ho temple",
+      "score_D": -0.1729,
+      "failure_category": "Spatial Misattribution (Geo Drift)"
+    },
+    {
+      "query_idx": 58,
+      "video_id": "179",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "geometric blocks",
+        "floors",
+        "permanent exhibitions",
+        "vietnam",
+        "fa\u00e7ade",
+        "ethnic groups",
+        "permanent exhibition space",
+        "second floor",
+        "54 ethnic groups",
+        "women in history",
+        "third",
+        "glass panels",
+        "expansive facade",
+        "women in the family",
+        "permanent exhibition system",
+        "souvenir shop",
+        "special exhibition space",
+        "fourth",
+        "multiple floors",
+        "exploration room",
+        "second"
+      ],
+      "pred_C_correct": "van phuc silk craft founder temple",
+      "score_C": 0.5306,
+      "pred_D_incorrect": "van phuc silk craft founder temple",
+      "score_D": 0.3861,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 81,
+      "video_id": "141",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "hanoi",
+        "vietnam"
+      ],
+      "pred_C_correct": "modern women's area",
+      "score_C": 0.4028,
+      "pred_D_incorrect": "ngu xa traditional bronze casting workshop",
+      "score_D": 0.2646,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 103,
+      "video_id": "393",
+      "landmark": "Thu Le Park",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "lawns",
+        "happiness",
+        "walking paths",
+        "central lake",
+        "play areas",
+        "joy",
+        "animal enclosures",
+        "trees",
+        "pathways",
+        "nostalgia",
+        "simplicity"
+      ],
+      "pred_C_correct": "lake ba mau",
+      "score_C": 0.415,
+      "pred_D_incorrect": "west lake",
+      "score_D": 0.3525,
+      "failure_category": "Score Suppression (Margin Erosion)"
+    },
+    {
+      "query_idx": 166,
+      "video_id": "292",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "hanoi",
+        "vietnam"
+      ],
+      "pred_C_correct": "modern women's area",
+      "score_C": 0.512,
+      "pred_D_incorrect": "ngu xa traditional bronze casting shop",
+      "score_D": 0.3939,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 188,
+      "video_id": "390",
+      "landmark": "Thu Le Park",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "lawns",
+        "happiness",
+        "walking paths",
+        "central lake",
+        "play areas",
+        "joy",
+        "animal enclosures",
+        "trees",
+        "pathways",
+        "nostalgia",
+        "simplicity"
+      ],
+      "pred_C_correct": "tao sach pagoda",
+      "score_C": 0.4498,
+      "pred_D_incorrect": "lake ba mau",
+      "score_D": 0.3964,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 216,
+      "video_id": "600",
+      "landmark": "Bat Trang Pottery Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "traditional vietnamese architectural styles"
+      ],
+      "pred_C_correct": "traditional activity",
+      "score_C": 0.4047,
+      "pred_D_incorrect": "ngu xa traditional bronze casting workshop",
+      "score_D": 0.2743,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 218,
+      "video_id": "600",
+      "landmark": "Bat Trang Pottery Museum",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "memorial temple",
+      "score_C": 0.6305,
+      "pred_D_incorrect": "van phuc silk craft founder temple",
+      "score_D": 0.3642,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 268,
+      "video_id": "636",
+      "landmark": "Bat Trang Pottery shop",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "van phuc silk craft founder temple",
+      "score_C": 0.6363,
+      "pred_D_incorrect": "van phuc silk craft founder temple",
+      "score_D": 0.3519,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 311,
+      "video_id": "159",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "hanoi",
+        "vietnam"
+      ],
+      "pred_C_correct": "modern women's area",
+      "score_C": 0.512,
+      "pred_D_incorrect": "ngu xa traditional bronze casting shop",
+      "score_D": 0.3939,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 331,
+      "video_id": "639",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "traditional vietnamese architectural styles"
+      ],
+      "pred_C_correct": "ngu xa traditional bronze casting workshop",
+      "score_C": 0.427,
+      "pred_D_incorrect": "ngu xa traditional bronze casting workshop",
+      "score_D": 0.3647,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 341,
+      "video_id": "646",
+      "landmark": "Bat Trang Pottery shop",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "traditional vietnamese architectural styles"
+      ],
+      "pred_C_correct": "ngu xa traditional bronze casting workshop",
+      "score_C": 0.5251,
+      "pred_D_incorrect": "ngu xa traditional bronze casting workshop",
+      "score_D": 0.3773,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 346,
+      "video_id": "618",
+      "landmark": "Bat Trang Pottery Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "traditional vietnamese architectural styles"
+      ],
+      "pred_C_correct": "ngu xa traditional bronze casting workshop",
+      "score_C": 0.5383,
+      "pred_D_incorrect": "ngu xa traditional bronze casting workshop",
+      "score_D": 0.354,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 363,
+      "video_id": "116",
+      "landmark": "Vietnam National Museum of History",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "bustling streets",
+        "symmetrical structure",
+        "double octagonal roof",
+        "and",
+        "roof tiles",
+        "roof",
+        "stele",
+        "walls",
+        "doors",
+        "exhibits",
+        "vietnam",
+        "architectural block"
+      ],
+      "pred_C_correct": "ho chi minh mausoleum",
+      "score_C": 0.5567,
+      "pred_D_incorrect": "ho chi minh mausoleum",
+      "score_D": 0.3985,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 408,
+      "video_id": "567",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "bat trang market",
+      "score_C": 0.4835,
+      "pred_D_incorrect": "kim truc tu pagoda",
+      "score_D": 0.3918,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 417,
+      "video_id": "411",
+      "landmark": "Thu Le Park",
+      "relation": "located_in",
+      "expected_groundtruth": [
+        "ba dinh district",
+        "city",
+        "central area",
+        "hanoi"
+      ],
+      "pred_C_correct": "hanoi cuisine",
+      "score_C": 0.3339,
+      "pred_D_incorrect": "ba dinh square",
+      "score_D": -0.2999,
+      "failure_category": "Spatial Misattribution (Geo Drift)"
+    },
+    {
+      "query_idx": 418,
+      "video_id": "411",
+      "landmark": "Thu Le Park",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "lawns",
+        "happiness",
+        "walking paths",
+        "central lake",
+        "play areas",
+        "joy",
+        "animal enclosures",
+        "trees",
+        "pathways",
+        "nostalgia",
+        "simplicity"
+      ],
+      "pred_C_correct": "lake ba mau",
+      "score_C": 0.4222,
+      "pred_D_incorrect": "west lake",
+      "score_D": 0.3737,
+      "failure_category": "Score Suppression (Margin Erosion)"
+    },
+    {
+      "query_idx": 486,
+      "video_id": "647",
+      "landmark": "Bat Trang Pottery shop",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "traditional vietnamese architectural styles"
+      ],
+      "pred_C_correct": "ngu xa traditional bronze casting workshop",
+      "score_C": 0.4213,
+      "pred_D_incorrect": "ngu xa traditional bronze casting workshop",
+      "score_D": 0.2962,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 488,
+      "video_id": "647",
+      "landmark": "Bat Trang Pottery shop",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "van phuc silk craft founder temple",
+      "score_C": 0.6244,
+      "pred_D_incorrect": "van phuc silk craft founder temple",
+      "score_D": 0.3618,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 496,
+      "video_id": "265",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "hanoi",
+        "vietnam"
+      ],
+      "pred_C_correct": "modern women's area",
+      "score_C": 0.4111,
+      "pred_D_incorrect": "ngu xa traditional bronze casting shop",
+      "score_D": 0.3013,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 536,
+      "video_id": "196",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "hanoi",
+        "vietnam"
+      ],
+      "pred_C_correct": "modern women's area",
+      "score_C": 0.4076,
+      "pred_D_incorrect": "ngu xa traditional bronze casting shop",
+      "score_D": 0.2941,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 546,
+      "video_id": "558",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "traditional vietnamese architectural styles"
+      ],
+      "pred_C_correct": "ngu xa traditional bronze casting workshop",
+      "score_C": 0.4838,
+      "pred_D_incorrect": "ngu xa traditional bronze casting shop",
+      "score_D": 0.3648,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 586,
+      "video_id": "272",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "hanoi",
+        "vietnam"
+      ],
+      "pred_C_correct": "modern women's area",
+      "score_C": 0.4028,
+      "pred_D_incorrect": "ngu xa traditional bronze casting workshop",
+      "score_D": 0.2646,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 723,
+      "video_id": "521",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "van phuc silk craft founder temple",
+      "score_C": 0.5409,
+      "pred_D_incorrect": "van phuc silk craft founder temple",
+      "score_D": 0.3713,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 748,
+      "video_id": "563",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "lake ba mau",
+      "score_C": 0.4927,
+      "pred_D_incorrect": "lake ba mau",
+      "score_D": 0.3447,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 773,
+      "video_id": "514",
+      "landmark": "Bat Trang Pottery Museum",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "memorial temple",
+      "score_C": 0.4439,
+      "pred_D_incorrect": "kim truc tu pagoda",
+      "score_D": 0.2069,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 843,
+      "video_id": "353",
+      "landmark": "Thu Le Park",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "lawns",
+        "happiness",
+        "walking paths",
+        "central lake",
+        "play areas",
+        "joy",
+        "animal enclosures",
+        "trees",
+        "pathways",
+        "nostalgia",
+        "simplicity"
+      ],
+      "pred_C_correct": "van phuc silk craft founder temple",
+      "score_C": 0.5185,
+      "pred_D_incorrect": "tay ho temple",
+      "score_D": 0.3314,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 886,
+      "video_id": "183",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "hanoi",
+        "vietnam"
+      ],
+      "pred_C_correct": "modern women's area",
+      "score_C": 0.551,
+      "pred_D_incorrect": "modern women's area",
+      "score_D": 0.3751,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 891,
+      "video_id": "628",
+      "landmark": "Bat Trang Pottery Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "traditional vietnamese architectural styles"
+      ],
+      "pred_C_correct": "traditional activity",
+      "score_C": 0.4033,
+      "pred_D_incorrect": "ngu xa traditional bronze casting shop",
+      "score_D": 0.3425,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 903,
+      "video_id": "617",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "bat trang market",
+      "score_C": 0.4113,
+      "pred_D_incorrect": "kim truc tu pagoda",
+      "score_D": 0.296,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 953,
+      "video_id": "822",
+      "landmark": "Silk Village Market",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "stalls",
+        "houses",
+        "green canopies",
+        "pathways",
+        "hanoi"
+      ],
+      "pred_C_correct": "van phuc silk craft founder temple",
+      "score_C": 0.4566,
+      "pred_D_incorrect": "van phuc silk craft founder temple",
+      "score_D": 0.3734,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 958,
+      "video_id": "540",
+      "landmark": "Bat Trang Pottery Museum",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "bat trang market",
+      "score_C": 0.4676,
+      "pred_D_incorrect": "lake ba mau",
+      "score_D": 0.3206,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 978,
+      "video_id": "608",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "van phuc silk craft founder temple",
+      "score_C": 0.4266,
+      "pred_D_incorrect": "bat trang market",
+      "score_D": 0.3063,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 996,
+      "video_id": "529",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "traditional vietnamese architectural styles"
+      ],
+      "pred_C_correct": "ngu xa traditional bronze casting workshop",
+      "score_C": 0.4684,
+      "pred_D_incorrect": "ngu xa traditional bronze casting shop",
+      "score_D": 0.342,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 1031,
+      "video_id": "181",
+      "landmark": "Vietnam Women's Museum",
+      "relation": "architectural_style",
+      "expected_groundtruth": [
+        "hanoi",
+        "vietnam"
+      ],
+      "pred_C_correct": "modern women's area",
+      "score_C": 0.4111,
+      "pred_D_incorrect": "ngu xa traditional bronze casting shop",
+      "score_D": 0.3013,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 1153,
+      "video_id": "659",
+      "landmark": "Princess Palace",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "la city",
+        "steps",
+        "rear tower",
+        "small windows",
+        "ornamental elements",
+        "dragon heads",
+        "base",
+        "ly dynasty",
+        "roof",
+        "walls",
+        "upper levels",
+        "tran vu gate",
+        "vietnam",
+        "mythical creatures",
+        "tiers",
+        "roof structures",
+        "forbidden city",
+        "nguyen dynasty",
+        "roofline",
+        "upper part",
+        "lions",
+        "entrance",
+        "lowest level",
+        "corners",
+        "main body",
+        "tower",
+        "nguy\u1ec5n dynasty",
+        "northern part",
+        "outer edges",
+        "k\u00ednh thi\u00ean \u0111i\u1ec7n",
+        "western sides",
+        "imperial citadel of thang long",
+        "three-layered city",
+        "archways",
+        "eaves",
+        "windows",
+        "tier",
+        "lower section"
+      ],
+      "pred_C_correct": "kim truc tu pagoda",
+      "score_C": 0.4904,
+      "pred_D_incorrect": "tao sach pagoda",
+      "score_D": 0.3837,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    },
+    {
+      "query_idx": 1188,
+      "video_id": "570",
+      "landmark": "Bat Trang Pottery Village",
+      "relation": "associated_with",
+      "expected_groundtruth": [
+        "alleys",
+        "hand-painted patterns",
+        "bat trang pottery village",
+        "vietnam",
+        "hanoi",
+        "shops"
+      ],
+      "pred_C_correct": "van phuc silk craft founder temple",
+      "score_C": 0.4383,
+      "pred_D_incorrect": "lake ba mau",
+      "score_D": 0.386,
+      "failure_category": "Attenuated Inheritance Under-ranking"
+    }
+  ]
+}

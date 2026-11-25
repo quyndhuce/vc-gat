@@ -1,0 +1,69 @@
+{
+  "protocol": "Phase1_EndToEnd_Captioning_Evaluation",
+  "status": "FROZEN",
+  "date_frozen": "2026-11-20T11:57:00Z",
+  "seed": 42,
+  "models": {
+    "base_llm": "Qwen/Qwen2.5-3B-Instruct",
+    "lora_adapter": "experiments/checkpoints_caption/qwen25_3b_certainty_lora",
+    "dec_rvc2_checkpoint": "experiments/checkpoints_fact_selection/best_dec_vcgat_v2_full_horn.pt",
+    "nli_verifier": "cross-encoder/nli-deberta-v3-base",
+    "fkg_v2_data": "experiments/outputs/fkg_facts_verified_v2.json"
+  },
+  "certainty_formulation": {
+    "formula": "c(f, v) = mu_F(f) * mu_L(v)",
+    "description": "Epistemic certainty is the product of FKG factual certainty mu_F and landmark recognition certainty mu_L. DEC-RVC2 logits are used purely for relevance admission, NOT for certainty calculation.",
+    "thresholds": {
+      "tau_assert": 0.65,
+      "tau_hedge": 0.25
+    },
+    "regimes": {
+      "ASSERT": "c >= 0.65",
+      "HEDGE": "0.25 <= c < 0.65",
+      "OMIT": "c < 0.25"
+    },
+    "scene_graph_policy": "Unhedged direct visual observations (c = 1.0, ASSERT)"
+  },
+  "decoding_parameters": {
+    "do_sample": false,
+    "max_new_tokens": 140,
+    "repetition_penalty": 1.1,
+    "temperature": 1.0
+  },
+  "evidence_budget": {
+    "max_knowledge_facts": 5,
+    "scene_graph_elements": "Direct visual focus and visible entities"
+  },
+  "dataset_splits": {
+    "hanoi_in_domain_test": {
+      "manifest": "experiments/phase1/config/hanoi_manifest.jsonl",
+      "num_clips": 500,
+      "num_landmarks": 13,
+      "unique_source_videos": 60
+    },
+    "hcmc_out_of_domain_test": {
+      "manifest": "experiments/phase1/config/hcmc_manifest.jsonl",
+      "num_clips": 300,
+      "num_landmarks": 5,
+      "unique_source_videos": 26
+    }
+  },
+  "evaluation_metrics": [
+    "Factual Precision (FP = N_S / (N_S + N_C))",
+    "Verification Coverage ((N_S + N_C) / (N_S + N_C + N_U))",
+    "Conservative Factual Precision (FP_conservative = N_S / (N_S + N_C + N_U))",
+    "Knowledge Recall (KR = |Match(T_supported, G_i)| / |G_i|)",
+    "Budgeted Knowledge Recall (BKR@5 = |Match(T_5_supported, G_i)| / min(5, |G_i|))",
+    "Visual-Semantic Precision (VSP = N_vis_supported / N_vis_total)",
+    "Verified False Assertion Rate (VFAR = A_C / (A_S + A_C))",
+    "Asserted Unknown Rate (AUR = A_U / (A_S + A_C + A_U))",
+    "Evidence Adherence Precision (EAP)",
+    "Omission Violation Rate (OVR)",
+    "Generator Over-Assertion Rate (OARgen)"
+  ],
+  "bootstrap_configuration": {
+    "resamples": 10000,
+    "cluster_grouping": "source_video_id",
+    "confidence_level": 0.95
+  }
+}

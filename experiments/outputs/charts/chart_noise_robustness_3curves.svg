@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="840" height="520" style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;">
+  <text x="420" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#0f172a">Khả Năng Kháng Nhiễu Đa Nguồn (Kèm Mốc Gốc 0% Sạch - GPU RTX 5090)</text>
+  <text x="420" y="52" text-anchor="middle" font-size="12" fill="#64748b">Tỷ lệ mệnh đề sai thực tế trên 250 video test từ 0% sạch đến 40% nhiễu (3.000 caption sinh thật)</text>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="420" x2="780" y2="420" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="68" y="424" text-anchor="end" font-size="12" fill="#64748b">0%</text>
+
+  <line x1="80" y1="335.0" x2="780" y2="335.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="339.0" text-anchor="end" font-size="12" fill="#64748b">10%</text>
+
+  <line x1="80" y1="250.0" x2="780" y2="250.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="254.0" text-anchor="end" font-size="12" fill="#64748b">20%</text>
+
+  <line x1="80" y1="165.0" x2="780" y2="165.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="169.0" text-anchor="end" font-size="12" fill="#64748b">30%</text>
+
+  <line x1="80" y1="80.0" x2="780" y2="80.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4" />
+  <text x="68" y="84.0" text-anchor="end" font-size="12" fill="#64748b">40%</text>
+
+  <!-- X ticks -->
+  <line x1="130" y1="420" x2="130" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="130" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">0% (Gốc)</text>
+  <line x1="260" y1="420" x2="260" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="260" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">5%</text>
+  <line x1="390" y1="420" x2="390" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="390" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">10%</text>
+  <line x1="550" y1="420" x2="550" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="550" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">20%</text>
+  <line x1="720" y1="420" x2="720" y2="426" stroke="#94a3b8" stroke-width="2" />
+  <text x="720" y="445" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">40%</text>
+  <text x="420" y="480" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">Tỷ Lệ Nhiễu Tri Thức Tiêm Vào (Noise Ratio η)</text>
+  <text x="25" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b" transform="rotate(-90 25 250)">Tỷ Lệ Mệnh Đề Sai Thực Tế Trong Caption (%)</text>
+  <!-- Curve 1: VLM + RAG -->
+  <polyline points="130,365.6 260,273.8 390,229.60000000000002 550,236.39999999999998 720,131.0" fill="none" stroke="#ef4444" stroke-width="3.5" stroke-dasharray="6,4" />
+  <circle cx="130" cy="365.6" r="5.5" fill="#ef4444" stroke="#ffffff" stroke-width="2" />
+  <text x="130" y="355.6" text-anchor="middle" font-size="11" font-weight="bold" fill="#b91c1c">6.4%</text>
+  <circle cx="260" cy="273.8" r="5.5" fill="#ef4444" stroke="#ffffff" stroke-width="2" />
+  <text x="260" y="263.8" text-anchor="middle" font-size="11" font-weight="bold" fill="#b91c1c">17.2%</text>
+  <circle cx="390" cy="229.60000000000002" r="5.5" fill="#ef4444" stroke="#ffffff" stroke-width="2" />
+  <text x="390" y="219.60000000000002" text-anchor="middle" font-size="11" font-weight="bold" fill="#b91c1c">22.4%</text>
+  <circle cx="550" cy="236.39999999999998" r="5.5" fill="#ef4444" stroke="#ffffff" stroke-width="2" />
+  <text x="550" y="226.39999999999998" text-anchor="middle" font-size="11" font-weight="bold" fill="#b91c1c">21.6%</text>
+  <circle cx="720" cy="131.0" r="5.5" fill="#ef4444" stroke="#ffffff" stroke-width="2" />
+  <text x="720" y="121.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#b91c1c">34.0%</text>
+  <!-- Curve 2: Bỏ Ngưỡng -->
+  <polyline points="130,392.8 260,403.0 390,362.2 550,226.2 720,246.6" fill="none" stroke="#f59e0b" stroke-width="3" />
+  <circle cx="130" cy="392.8" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+  <text x="130" y="382.8" text-anchor="middle" font-size="11" font-weight="bold" fill="#b45309">3.2%</text>
+  <circle cx="260" cy="403.0" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+  <text x="260" y="393.0" text-anchor="middle" font-size="11" font-weight="bold" fill="#b45309">2.0%</text>
+  <circle cx="390" cy="362.2" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+  <text x="390" y="352.2" text-anchor="middle" font-size="11" font-weight="bold" fill="#b45309">6.8%</text>
+  <circle cx="550" cy="226.2" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+  <text x="550" y="216.2" text-anchor="middle" font-size="11" font-weight="bold" fill="#b45309">22.8%</text>
+  <circle cx="720" cy="246.6" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="2" />
+  <text x="720" y="236.6" text-anchor="middle" font-size="11" font-weight="bold" fill="#b45309">20.4%</text>
+  <!-- Curve 3: Ours -->
+  <polyline points="130,413.2 260,413.2 390,372.4 550,277.2 720,290.8" fill="none" stroke="#10b981" stroke-width="4" />
+  <circle cx="130" cy="413.2" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="130" y="431.2" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">0.8%</text>
+  <circle cx="260" cy="413.2" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="260" y="431.2" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">0.8%</text>
+  <circle cx="390" cy="372.4" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="390" y="390.4" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">5.6%</text>
+  <circle cx="550" cy="277.2" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="550" y="295.2" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">16.8%</text>
+  <circle cx="720" cy="290.8" r="6.5" fill="#10b981" stroke="#ffffff" stroke-width="2.5" />
+  <text x="720" y="308.8" text-anchor="middle" font-size="11" font-weight="bold" fill="#047857">15.2%</text>
+  <!-- Legend -->
+  <rect x="100" y="70" width="370" height="95" fill="#f8fafc" stroke="#cbd5e1" rx="6" />
+  <line x1="115" y1="90" x2="145" y2="90" stroke="#10b981" stroke-width="4" />
+  <circle cx="130" cy="90" r="4.5" fill="#10b981" />
+  <text x="155" y="94" font-size="12" font-weight="bold" fill="#0f172a">Hệ thống đầy đủ (Ours: FKG + Lọc Ngưỡng + Neo)</text>
+
+  <line x1="115" y1="115" x2="145" y2="115" stroke="#f59e0b" stroke-width="3" />
+  <circle cx="130" cy="115" r="4.5" fill="#f59e0b" />
+  <text x="155" y="119" font-size="12" font-weight="bold" fill="#0f172a">Bỏ ngưỡng μ_F (Ablation: Luôn khẳng định)</text>
+
+  <line x1="115" y1="140" x2="145" y2="140" stroke="#ef4444" stroke-width="3" stroke-dasharray="5,3" />
+  <circle cx="130" cy="140" r="4.5" fill="#ef4444" />
+  <text x="155" y="144" font-size="12" font-weight="bold" fill="#0f172a">VLM + RAG (SigLIP2 Retrieval từ kho văn bản)</text>
+</svg>

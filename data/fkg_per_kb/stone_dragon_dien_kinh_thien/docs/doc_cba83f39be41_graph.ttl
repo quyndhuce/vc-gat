@@ -1,0 +1,559 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/16543448> onto:located_in <http://transmtl.vn/ent/525c1fc1> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#> onto:has_part <http://transmtl.vn/ent/d2aa0f19> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#body> onto:in <http://transmtl.vn/ent/860e119b> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#elongated_snout> onto:part_of <http://transmtl.vn/ent/b03577a8> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#feathers> onto:part_of <http://transmtl.vn/ent/8621ffdb> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#grand_halls> onto:part_of <http://transmtl.vn/ent/525c1fc1> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#pathway> onto:leading_to <http://transmtl.vn/ent/65c715ec> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#sharp_fangs> onto:part_of <http://transmtl.vn/ent/b03577a8> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#wings> onto:part_of <http://transmtl.vn/ent/8621ffdb> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragons_eyes> onto:above <http://transmtl.vn/kb/kinh_thien_palace> ;
+    onto:over <http://transmtl.vn/kb/kinh_thien_palace> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#foot> onto:on <http://transmtl.vn/ent/57855271> ;
+    onto:part_of <http://transmtl.vn/ent/8621ffdb> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#legs> onto:has_part <http://transmtl.vn/ent/d2aa0f19> ;
+    onto:part_of <http://transmtl.vn/ent/8621ffdb> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#railings> onto:used_as <http://transmtl.vn/ent/37598dad>,
+        <http://transmtl.vn/ent/aa177432> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#eyes> onto:over <http://transmtl.vn/kb/kinh_thien_palace> ;
+    onto:part_of <http://transmtl.vn/ent/b03577a8> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#steps> onto:leading_to <http://transmtl.vn/ent/b43c85a1> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_head> onto:has_part <http://transmtl.vn/ent/8e7bb02b>,
+        <http://transmtl.vn/ent/a310e765> ;
+    onto:with <http://transmtl.vn/ent/1efa8b19>,
+        <http://transmtl.vn/ent/475f7ba7>,
+        <http://transmtl.vn/ent/9e61a3f2> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_tail> onto:has_part <http://transmtl.vn/ent/a0c58530>,
+        <http://transmtl.vn/ent/b9b1ec37>,
+        <http://transmtl.vn/ent/d2aa0f19> ;
+    onto:part_of <http://transmtl.vn/ent/a0c58530> .
+
+<http://transmtl.vn/ent/525c1fc1> onto:belongs_to_dynasty <http://transmtl.vn/ent/53dd8e39>,
+        <http://transmtl.vn/ent/7010e65e> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon> onto:has_part <http://transmtl.vn/ent/86acdeea>,
+        <http://transmtl.vn/ent/b9b1ec37>,
+        <http://transmtl.vn/ent/d2aa0f19>,
+        <http://transmtl.vn/ent/d8735f74> ;
+    onto:surrounded_by <http://transmtl.vn/ent/11bcd65b> .
+
+<http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> onto:has_part <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#body>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_head>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_tail>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragons_eyes>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#elongated_snout>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#eyes>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#feathers>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#foot>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#grand_halls>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#legs>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#pathway>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#railings>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#sharp_fangs>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#steps>,
+        <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#wings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#wings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6615 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/aa177432> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#railings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2591 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/b03577a8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#eyes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2582 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/525c1fc1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/16543448> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3268 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/7010e65e> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/525c1fc1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4833 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/9e61a3f2> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_head> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#eyes> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_head> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3281 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/8621ffdb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#legs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#body> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#steps> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#railings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.378 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/d8735f74> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4898 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragons_eyes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#foot> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2816 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragons_eyes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2919 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/a310e765> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_head> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#eyes> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3646 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/8e7bb02b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_head> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.257 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/b9b1ec37> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_tail> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2829 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/d2aa0f19> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#legs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2567 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/37598dad> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#railings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.346 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/860e119b> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#body> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3035 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/a0c58530> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_tail> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3955 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/57855271> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#foot> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#pathway> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2744 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#eyes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2576 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/b03577a8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#elongated_snout> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2925 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/8621ffdb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#feathers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_tail> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2512 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/b03577a8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#sharp_fangs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#feathers> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5317 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/b43c85a1> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3967 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/86acdeea> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4829 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/8621ffdb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#wings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8597 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/53dd8e39> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/525c1fc1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#sharp_fangs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#grand_halls> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3636 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/8621ffdb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#foot> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3685 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/b9b1ec37> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_tail> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4973 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/7010e65e> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/525c1fc1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4783 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/1efa8b19> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_head> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2521 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/525c1fc1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2928 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/d2aa0f19> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_tail> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3276 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/525c1fc1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#grand_halls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3366 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/b43c85a1> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4085 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/11bcd65b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#elongated_snout> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.43 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/65c715ec> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#pathway> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragons_eyes> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3045 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/d2aa0f19> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.463 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/d2aa0f19> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2544 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/a0c58530> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_tail> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4176 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/475f7ba7> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#dragon_s_head> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cba83f39be41" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien#legs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/stone_dragon_dien_kinh_thien> .
+

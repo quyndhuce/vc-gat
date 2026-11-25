@@ -1,0 +1,45 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Bell house)  --[built_in]-->  ?
+  Head URI  : http://transmtl.vn/kb/bell_house
+  Conflict K: 0.7635
+  Candidates:
+    • 1910                            Bel=0.4340  Pl=0.5560  (2 evidence)
+    • 1999                            Bel=0.2937  Pl=0.4157  (2 evidence)
+    • 2000                            Bel=0.1503  Pl=0.2723  (2 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [founded_in] (Temple of Literature) → http://transmtl.vn/ent/08f90c1a  Bel=0.3143  K=0.0000
+  [built_in] (Bell house) → http://transmtl.vn/ent/ab731488  Bel=0.4340  K=0.7635 ⚠ REVIEW
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Bell house) → (courtyard)  μ_F=0.9905  (2 evidence)
+  [has_part] (Bell house) → (Drum Tower)  μ_F=0.9905  (2 evidence)
+  [has_part] (Bell house) → (columns)  μ_F=0.9905  (2 evidence)
+  [has_part] (Bell house) → (curved roof)  μ_F=0.9905  (2 evidence)
+  [has_part] (Bell house) → (pavement)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bell house) → (two-story square pavilion)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bell house) → (roof)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bell house) → (dragon head finials)  μ_F=0.9025  (1 evidence)
+  [has_part] (Bell house) → (walls)  μ_F=0.9025  (1 evidence)
+  [located_in] (Bell house) → (Hanoi)  μ_F=0.8623  (4 evidence)
+  [architectural_style] (Bell house) → (traditional Vietnamese architecture)  μ_F=0.7948  (2 evidence)
+  [surrounded_by] (Bell house) → (ancient trees)  μ_F=0.7819  (2 evidence)
+  [architectural_style] (Bell house) → (Vietnamese architecture)  μ_F=0.7454  (2 evidence)
+  [located_in] (Bell house) → (Bastrop County)  μ_F=0.7448  (2 evidence)
+  [located_in] (Bell-Johnson House) → (Cache County)  μ_F=0.7103  (2 evidence)
+  [located_in] (Bell house) → (Los Angeles County)  μ_F=0.7079  (2 evidence)
+  [part_of] (courtyard) → (Temple of Literature)  μ_F=0.6921  (2 evidence)
+  [located_in] (Bell house) → (Fredericktown)  μ_F=0.6478  (2 evidence)
+  [located_in] (Bell house) → (Ada County)  μ_F=0.6112  (2 evidence)
+  [located_in] (Bell house) → (Douglas County)  μ_F=0.6110  (2 evidence)
+
+========================================================================

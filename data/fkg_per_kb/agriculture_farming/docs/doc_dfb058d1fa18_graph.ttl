@@ -1,0 +1,24 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/performance> onto:inaugurated_in <http://transmtl.vn/ent/4d855669> ;
+    onto:on <http://transmtl.vn/ent/0e6ff17c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9256 ;
+    fkg:docId "doc_dfb058d1fa18" ;
+    fkg:kbId "agriculture_farming" ;
+    rdf:object <http://transmtl.vn/ent/4d855669> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2722 ;
+    fkg:docId "doc_dfb058d1fa18" ;
+    fkg:kbId "agriculture_farming" ;
+    rdf:object <http://transmtl.vn/ent/0e6ff17c> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+

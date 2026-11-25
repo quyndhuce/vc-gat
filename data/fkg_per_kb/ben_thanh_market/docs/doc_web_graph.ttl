@@ -1,0 +1,388 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q3232879#interior_hall> onto:has_component <http://transmtl.vn/ent/7391481f> .
+
+<http://www.wikidata.org/entity/Q3232879#wharf> onto:adjacent_to <http://transmtl.vn/ent/d34afb18> .
+
+<http://www.wikidata.org/entity/Q3232879#main_entrance_gates> onto:has_part <http://transmtl.vn/ent/50fd76e3> ;
+    onto:overlooks <http://transmtl.vn/ent/0fef8221> .
+
+<http://www.wikidata.org/entity/Q3232879#new_market_hall> onto:located_in <http://www.wikidata.org/entity/Q1854> ;
+    onto:over <http://transmtl.vn/ent/429327b7> .
+
+<http://www.wikidata.org/entity/Q3232879#southern_clock_tower> onto:has_component <http://transmtl.vn/ent/6af90cd7> ;
+    onto:overlooks <http://transmtl.vn/ent/58c9cb5b> .
+
+<http://www.wikidata.org/entity/Q3232879#stalls> onto:located_inside <http://transmtl.vn/ent/7554a38a> ;
+    onto:part_of <http://transmtl.vn/ent/7554a38a> .
+
+<http://www.wikidata.org/entity/Q3232879#three_clock_faces> onto:over <http://transmtl.vn/ent/58c9cb5b> ;
+    onto:part_of <http://transmtl.vn/ent/291959e9> .
+
+<http://www.wikidata.org/entity/Q3232879#wide_walkways> onto:located_inside <http://transmtl.vn/ent/7554a38a> ;
+    onto:part_of <http://transmtl.vn/ent/7554a38a> .
+
+<http://transmtl.vn/ent/1675f1c5> onto:located_in <http://www.wikidata.org/entity/Q1854> .
+
+<http://www.wikidata.org/entity/Q3232879#above> onto:above <http://transmtl.vn/ent/c158ac6e> ;
+    onto:made_of <http://transmtl.vn/ent/b259914e> ;
+    onto:over <http://transmtl.vn/ent/c158ac6e> .
+
+<http://www.wikidata.org/entity/Q3232879#informal_markets> onto:adjacent_to <http://transmtl.vn/ent/d34afb18> ;
+    onto:near <http://transmtl.vn/ent/910abcd5>,
+        <http://transmtl.vn/ent/ef602779> .
+
+<http://www.wikidata.org/entity/Q1854> onto:has_part <http://www.wikidata.org/entity/Q3232879> .
+
+<http://www.wikidata.org/entity/Q3232879#bas_reliefs> onto:above <http://transmtl.vn/ent/55a9d6aa>,
+        <http://transmtl.vn/ent/c158ac6e> ;
+    onto:made_of <http://transmtl.vn/ent/b259914e> ;
+    onto:over <http://transmtl.vn/ent/55a9d6aa>,
+        <http://transmtl.vn/ent/c158ac6e> .
+
+<http://www.wikidata.org/entity/Q3232879> onto:has_component <http://www.wikidata.org/entity/Q3232879#above>,
+        <http://www.wikidata.org/entity/Q3232879#bas_reliefs>,
+        <http://www.wikidata.org/entity/Q3232879#informal_markets>,
+        <http://www.wikidata.org/entity/Q3232879#interior_hall>,
+        <http://www.wikidata.org/entity/Q3232879#main_entrance_gates>,
+        <http://www.wikidata.org/entity/Q3232879#new_market_hall>,
+        <http://www.wikidata.org/entity/Q3232879#southern_clock_tower>,
+        <http://www.wikidata.org/entity/Q3232879#stalls>,
+        <http://www.wikidata.org/entity/Q3232879#three_clock_faces>,
+        <http://www.wikidata.org/entity/Q3232879#wharf>,
+        <http://www.wikidata.org/entity/Q3232879#wide_walkways> ;
+    onto:located_in <http://transmtl.vn/ent/1675f1c5>,
+        <http://www.wikidata.org/entity/Q1854> ;
+    onto:part_of <http://transmtl.vn/ent/1675f1c5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4886 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/ef602779> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#informal_markets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2758 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/7391481f> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#interior_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#interior_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#main_entrance_gates> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#informal_markets> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7801 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/7554a38a> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#wide_walkways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3968 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/58c9cb5b> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#three_clock_faces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3936 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/1675f1c5> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#southern_clock_tower> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#new_market_hall> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.519 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/7554a38a> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#stalls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3397 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/7554a38a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#stalls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#stalls> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6247 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/55a9d6aa> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#bas_reliefs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5216 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/910abcd5> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#informal_markets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2841 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1675f1c5> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3636 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#new_market_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5429 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/c158ac6e> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#bas_reliefs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#above> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3081 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/0fef8221> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#main_entrance_gates> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8051 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/b259914e> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#bas_reliefs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4748 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/d34afb18> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#informal_markets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#wide_walkways> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7585 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/58c9cb5b> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#southern_clock_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5404 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/6af90cd7> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#southern_clock_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2564 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/50fd76e3> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#main_entrance_gates> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3197 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/c158ac6e> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#above> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3638 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/291959e9> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#three_clock_faces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3487 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/55a9d6aa> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#bas_reliefs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4821 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/b259914e> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#above> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8896 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/429327b7> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#new_market_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3001 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/d34afb18> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#wharf> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5269 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/7554a38a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#wide_walkways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6288 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/c158ac6e> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#bas_reliefs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2652 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1854> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#wharf> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#bas_reliefs> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q3232879#three_clock_faces> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8329 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://www.wikidata.org/entity/Q1854> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3407 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/c158ac6e> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879#above> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7098 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ben_thanh_market" ;
+    rdf:object <http://transmtl.vn/ent/1675f1c5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q3232879> .
+

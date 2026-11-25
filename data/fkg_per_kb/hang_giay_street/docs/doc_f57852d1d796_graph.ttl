@@ -1,0 +1,133 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_giay_street#above> onto:above <http://transmtl.vn/ent/1f4a9685> ;
+    onto:over <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_giay_street#electrical_wires> onto:above <http://transmtl.vn/ent/1f4a9685> ;
+    onto:over <http://transmtl.vn/ent/1f4a9685> .
+
+<http://transmtl.vn/kb/hang_giay_street> onto:has_part <http://transmtl.vn/kb/hang_giay_street#above>,
+        <http://transmtl.vn/kb/hang_giay_street#electrical_wires> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/c0bc680b> ;
+    onto:part_of <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/c0bc680b> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2618 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2695 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street#above> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3076 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/c0bc680b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3295 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3878 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street#above> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4044 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_giay_street#electrical_wires> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2635 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2507 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_giay_street#electrical_wires> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_giay_street#above> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4092 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street#electrical_wires> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5133 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/c0bc680b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.55 ;
+    fkg:docId "doc_f57852d1d796" ;
+    fkg:kbId "hang_giay_street" ;
+    rdf:object <http://transmtl.vn/ent/1f4a9685> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/hang_giay_street#electrical_wires> .
+

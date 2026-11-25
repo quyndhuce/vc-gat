@@ -1,0 +1,202 @@
+{
+  "B1_Crisp_KG": {
+    "E1_Full_Pool": {
+      "P@5": 0.04,
+      "R@5": 0.011,
+      "nDCG@5": 0.033,
+      "nDCG@16": 0.046,
+      "MAP": 0.082
+    },
+    "E2_Hard_Negative_AUC": 0.413,
+    "E3_Contrastive_Acc": 0.0,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.048,
+      "Historical_nDCG@5": 0.043,
+      "Inferred_nDCG@5": 0.576
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.032,
+      "HCMC_OOD_nDCG@5": 0.035
+    }
+  },
+  "B2_SigLIP2_ZeroShot": {
+    "E1_Full_Pool": {
+      "P@5": 0.087,
+      "R@5": 0.031,
+      "nDCG@5": 0.09,
+      "nDCG@16": 0.116,
+      "MAP": 0.123
+    },
+    "E2_Hard_Negative_AUC": 0.504,
+    "E3_Contrastive_Acc": 43.9,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.165,
+      "Historical_nDCG@5": 0.079,
+      "Inferred_nDCG@5": 0.557
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.072,
+      "HCMC_OOD_nDCG@5": 0.12
+    }
+  },
+  "B2_SigLIP2_FineTuned": {
+    "E1_Full_Pool": {
+      "P@5": 0.231,
+      "R@5": 0.127,
+      "nDCG@5": 0.265,
+      "nDCG@16": 0.273,
+      "MAP": 0.247
+    },
+    "E2_Hard_Negative_AUC": 0.642,
+    "E3_Contrastive_Acc": 59.0,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.349,
+      "Historical_nDCG@5": 0.16,
+      "Inferred_nDCG@5": 0.879
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.292,
+      "HCMC_OOD_nDCG@5": 0.221
+    }
+  },
+  "B3_InternVideo2_ZeroShot": {
+    "E1_Full_Pool": {
+      "P@5": 0.098,
+      "R@5": 0.033,
+      "nDCG@5": 0.108,
+      "nDCG@16": 0.121,
+      "MAP": 0.126
+    },
+    "E2_Hard_Negative_AUC": 0.507,
+    "E3_Contrastive_Acc": 38.8,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.172,
+      "Historical_nDCG@5": 0.089,
+      "Inferred_nDCG@5": 0.554
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.084,
+      "HCMC_OOD_nDCG@5": 0.148
+    }
+  },
+  "B3_InternVideo2_FineTuned": {
+    "E1_Full_Pool": {
+      "P@5": 0.246,
+      "R@5": 0.131,
+      "nDCG@5": 0.281,
+      "nDCG@16": 0.288,
+      "MAP": 0.25
+    },
+    "E2_Hard_Negative_AUC": 0.628,
+    "E3_Contrastive_Acc": 58.6,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.36,
+      "Historical_nDCG@5": 0.209,
+      "Inferred_nDCG@5": 0.931
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.307,
+      "HCMC_OOD_nDCG@5": 0.238
+    }
+  },
+  "B4_LLaVA_NeXT_8B": {
+    "E1_Full_Pool": {
+      "P@5": 0.087,
+      "R@5": 0.031,
+      "nDCG@5": 0.09,
+      "nDCG@16": 0.116,
+      "MAP": 0.123
+    },
+    "E2_Hard_Negative_AUC": 0.504,
+    "E3_Contrastive_Acc": 43.9,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.165,
+      "Historical_nDCG@5": 0.079,
+      "Inferred_nDCG@5": 0.557
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.072,
+      "HCMC_OOD_nDCG@5": 0.12
+    }
+  },
+  "B5_Cross_Attention": {
+    "E1_Full_Pool": {
+      "P@5": 0.252,
+      "R@5": 0.128,
+      "nDCG@5": 0.288,
+      "nDCG@16": 0.281,
+      "MAP": 0.244
+    },
+    "E2_Hard_Negative_AUC": 0.618,
+    "E3_Contrastive_Acc": 56.1,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.358,
+      "Historical_nDCG@5": 0.171,
+      "Inferred_nDCG@5": 0.828
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.304,
+      "HCMC_OOD_nDCG@5": 0.261
+    }
+  },
+  "B6_GATv2_Video": {
+    "E1_Full_Pool": {
+      "P@5": 0.23,
+      "R@5": 0.15,
+      "nDCG@5": 0.266,
+      "nDCG@16": 0.273,
+      "MAP": 0.265
+    },
+    "E2_Hard_Negative_AUC": 0.604,
+    "E3_Contrastive_Acc": 54.4,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.335,
+      "Historical_nDCG@5": 0.171,
+      "Inferred_nDCG@5": 0.91
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.34,
+      "HCMC_OOD_nDCG@5": 0.143
+    }
+  },
+  "B7_Graphormer_Video": {
+    "E1_Full_Pool": {
+      "P@5": 0.099,
+      "R@5": 0.068,
+      "nDCG@5": 0.122,
+      "nDCG@16": 0.152,
+      "MAP": 0.177
+    },
+    "E2_Hard_Negative_AUC": 0.529,
+    "E3_Contrastive_Acc": 52.1,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.2,
+      "Historical_nDCG@5": 0.075,
+      "Inferred_nDCG@5": 0.814
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.184,
+      "HCMC_OOD_nDCG@5": 0.018
+    }
+  },
+  "Ours_VCGAT_Gold": {
+    "E1_Full_Pool": {
+      "P@5": 0.222,
+      "R@5": 0.141,
+      "nDCG@5": 0.256,
+      "nDCG@16": 0.25,
+      "MAP": 0.246
+    },
+    "E2_Hard_Negative_AUC": 0.656,
+    "E3_Contrastive_Acc": 52.1,
+    "E4_Fact_Types": {
+      "Visual_nDCG@5": 0.327,
+      "Historical_nDCG@5": 0.148,
+      "Inferred_nDCG@5": 0.886
+    },
+    "E5_Generalization": {
+      "Hanoi_nDCG@5": 0.294,
+      "HCMC_OOD_nDCG@5": 0.192
+    }
+  }
+}

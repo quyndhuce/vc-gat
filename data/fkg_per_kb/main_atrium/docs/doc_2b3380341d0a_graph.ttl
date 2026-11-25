@@ -1,0 +1,265 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/main_atrium#atrium> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/main_atrium#central_void> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/main_atrium#glass_roof> onto:part_of <http://transmtl.vn/ent/1e7f604b> .
+
+<http://transmtl.vn/kb/main_atrium#grand_lobby> onto:part_of <http://transmtl.vn/ent/1e7f604b> .
+
+<http://transmtl.vn/kb/main_atrium#inverted_pyramid_shape> onto:connects <http://transmtl.vn/ent/1b20e902> .
+
+<http://transmtl.vn/kb/main_atrium#multi_story_space> onto:connects <http://transmtl.vn/ent/6d88bad5> .
+
+<http://transmtl.vn/kb/main_atrium#open_corridors> onto:part_of <http://transmtl.vn/ent/1e7f604b> .
+
+<http://transmtl.vn/kb/main_atrium#railings> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://transmtl.vn/kb/main_atrium#tiered_railings> onto:architectural_style <http://transmtl.vn/ent/473db9e4> .
+
+<http://transmtl.vn/kb/main_atrium> onto:built_in <http://transmtl.vn/ent/d7a84628> ;
+    onto:connects <http://transmtl.vn/ent/6d88bad5> ;
+    onto:has_part <http://transmtl.vn/kb/main_atrium#atrium>,
+        <http://transmtl.vn/kb/main_atrium#central_void>,
+        <http://transmtl.vn/kb/main_atrium#glass_roof>,
+        <http://transmtl.vn/kb/main_atrium#grand_lobby>,
+        <http://transmtl.vn/kb/main_atrium#inverted_pyramid_shape>,
+        <http://transmtl.vn/kb/main_atrium#multi_story_space>,
+        <http://transmtl.vn/kb/main_atrium#open_corridors>,
+        <http://transmtl.vn/kb/main_atrium#railings>,
+        <http://transmtl.vn/kb/main_atrium#tiered_railings> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/kb/hanoi_museum> ;
+    onto:part_of <http://transmtl.vn/ent/1b20e902>,
+        <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/eb0ea0bc>,
+        <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3493 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/6d88bad5> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2536 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/1e7f604b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#grand_lobby> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#multi_story_space> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5194 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/d7a84628> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2672 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/1e7f604b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#glass_roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4434 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3135 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2811 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#inverted_pyramid_shape> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#inverted_pyramid_shape> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6945 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2823 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4751 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6041 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2809 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#central_void> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#central_void> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3082 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/1e7f604b> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#open_corridors> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#grand_lobby> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3562 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5553 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/473db9e4> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#tiered_railings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4459 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3448 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/6d88bad5> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#multi_story_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#glass_roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2515 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium#railings> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#tiered_railings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2912 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#atrium> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#open_corridors> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_2b3380341d0a" ;
+    fkg:kbId "main_atrium" ;
+    rdf:object <http://transmtl.vn/kb/main_atrium#railings> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/main_atrium> .
+

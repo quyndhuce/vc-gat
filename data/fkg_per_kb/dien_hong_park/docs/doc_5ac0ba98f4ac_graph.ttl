@@ -1,0 +1,610 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/d7bc306d> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/b434a8b0> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q10834022#circular_fountain_base> onto:part_of <http://transmtl.vn/ent/bc804441> .
+
+<http://www.wikidata.org/entity/Q10834022#dragons> onto:part_of <http://transmtl.vn/ent/bc804441> .
+
+<http://www.wikidata.org/entity/Q10834022#eight_dragons> onto:part_of <http://transmtl.vn/ent/79de7a61> .
+
+<http://www.wikidata.org/entity/Q10834022#fountain_system> onto:part_of <http://www.wikidata.org/entity/Q10834022> .
+
+<http://www.wikidata.org/entity/Q10834022#four_toads> onto:part_of <http://transmtl.vn/ent/79de7a61> .
+
+<http://www.wikidata.org/entity/Q10834022#grand_fountain_system> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://www.wikidata.org/entity/Q10834022#toads> onto:part_of <http://transmtl.vn/ent/bc804441> .
+
+<http://transmtl.vn/ent/fd50eb8d> onto:part_of <http://www.wikidata.org/entity/Q10834022>,
+        <http://www.wikidata.org/entity/Q1858> .
+
+<http://www.wikidata.org/entity/Q10834022#central_fountain> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> ;
+    onto:with <http://transmtl.vn/ent/cb16583b> .
+
+<http://transmtl.vn/ent/63be8e4a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/79de7a61> onto:located_in <http://www.wikidata.org/entity/Q10834022> ;
+    onto:part_of <http://www.wikidata.org/entity/Q10834022> .
+
+<http://www.wikidata.org/entity/Q10834022#shaded_pathways> onto:used_by <http://transmtl.vn/ent/9592cbca>,
+        <http://transmtl.vn/ent/9df9fdb8>,
+        <http://transmtl.vn/ent/b1dc3ca2>,
+        <http://transmtl.vn/ent/be5d5d37>,
+        <http://transmtl.vn/ent/c3bec4fb>,
+        <http://transmtl.vn/ent/fd168b4a> .
+
+<http://www.wikidata.org/entity/Q1858> onto:former_name_of <http://transmtl.vn/ent/b434a8b0> ;
+    onto:founded_by <http://transmtl.vn/ent/64e12ab6> ;
+    onto:founded_in <http://transmtl.vn/ent/d54e99a6> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:named_after <http://transmtl.vn/ent/b9b62079> ;
+    onto:near <http://transmtl.vn/ent/1a4443a3>,
+        <http://transmtl.vn/ent/1a82bcd0>,
+        <http://transmtl.vn/ent/30ef454b>,
+        <http://transmtl.vn/ent/746a744a>,
+        <http://transmtl.vn/ent/9666855f>,
+        <http://transmtl.vn/ent/98793a9d>,
+        <http://transmtl.vn/ent/d31d015b> ;
+    onto:surrounded_by <http://transmtl.vn/ent/25d5749e> .
+
+<http://www.wikidata.org/entity/Q10834022> onto:founded_by <http://transmtl.vn/ent/64e12ab6> ;
+    onto:founded_in <http://transmtl.vn/ent/d54e99a6> ;
+    onto:has_part <http://www.wikidata.org/entity/Q10834022#central_fountain>,
+        <http://www.wikidata.org/entity/Q10834022#circular_fountain_base>,
+        <http://www.wikidata.org/entity/Q10834022#dragons>,
+        <http://www.wikidata.org/entity/Q10834022#eight_dragons>,
+        <http://www.wikidata.org/entity/Q10834022#fountain_system>,
+        <http://www.wikidata.org/entity/Q10834022#four_toads>,
+        <http://www.wikidata.org/entity/Q10834022#grand_fountain_system>,
+        <http://www.wikidata.org/entity/Q10834022#shaded_pathways>,
+        <http://www.wikidata.org/entity/Q10834022#toads> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a> ;
+    onto:named_after <http://transmtl.vn/ent/b9b62079> ;
+    onto:on <http://transmtl.vn/ent/2208a71f> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8463 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/1a82bcd0> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.338 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/b434a8b0> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3777 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/fd50eb8d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5322 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/9592cbca> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#shaded_pathways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2734 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#fountain_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5021 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/79de7a61> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3516 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3144 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/fd50eb8d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2938 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/d54e99a6> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.429 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/be5d5d37> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#shaded_pathways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#toads> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8417 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/98793a9d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3323 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/b1dc3ca2> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#shaded_pathways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3918 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6883 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3689 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/fd50eb8d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#dragons> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4066 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2502 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/b434a8b0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2817 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/cb16583b> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#central_fountain> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3506 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8373 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/30ef454b> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2879 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4865 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3444 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/b9b62079> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#eight_dragons> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2929 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#four_toads> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7805 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/d31d015b> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2633 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/fd168b4a> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#shaded_pathways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6674 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2786 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/bc804441> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#toads> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5086 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/1a4443a3> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2727 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/79de7a61> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#four_toads> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4756 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#central_fountain> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7621 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/64e12ab6> ;
+    rdf:predicate onto:founded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4204 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/fd50eb8d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5618 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/c3bec4fb> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#shaded_pathways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3129 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/b9b62079> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.672 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/d54e99a6> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#fountain_system> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4418 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/98793a9d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#shaded_pathways> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3926 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3873 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#grand_fountain_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7374 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/9666855f> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3423 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2618 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/79de7a61> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#eight_dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3836 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8385 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/d54e99a6> ;
+    rdf:predicate onto:founded_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3282 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3843 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/bc804441> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#circular_fountain_base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3691 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/9df9fdb8> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#shaded_pathways> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3189 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#grand_fountain_system> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8455 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/1a4443a3> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2948 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/bc804441> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#dragons> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6764 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#circular_fountain_base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2846 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/746a744a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2848 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/2208a71f> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022#central_fountain> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2504 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022#central_fountain> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2818 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3549 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q10834022> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/79de7a61> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.37 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10834022> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3001 ;
+    fkg:docId "doc_5ac0ba98f4ac" ;
+    fkg:kbId "dien_hong_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/d7bc306d> .
+

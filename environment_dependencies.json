@@ -1,0 +1,40 @@
+{
+  "hardware": {
+    "gpu_cluster": {
+      "host": "aircsrv4.airc.lab",
+      "gpu": "NVIDIA GeForce RTX 5090 (32 GB VRAM)",
+      "cpu_ram": "64 GB DDR5",
+      "storage": "Physical NVMe SSD (PCIe 4.0)"
+    },
+    "audit_workstation": {
+      "system": "Apple macOS Darwin arm64",
+      "memory": "Unified Memory"
+    }
+  },
+  "software_environment": {
+    "os": "Linux 6.8.0-49-generic (Ubuntu 22.04 LTS)",
+    "cuda_version": "12.8 / 12.4",
+    "python_version": "3.10.16 (Server) / 3.14 (Audit)",
+    "pytorch_version": "2.11.0+cu128 / 2.5.1",
+    "transformers": "4.46.3",
+    "peft": "0.13.2",
+    "accelerate": "1.1.1",
+    "numpy": "2.5.3 (Audit) / 1.26.4 (Server)",
+    "scipy": "1.18.1 (Audit) / 1.14.1 (Server)",
+    "pandas": "3.0.6 (Audit) / 2.2.2 (Server)",
+    "scikit_learn": "1.9.1 (Audit) / 1.5.2 (Server)",
+    "rdflib": "7.6.0",
+    "networkx": "3.7"
+  },
+  "reproducibility_seeds": {
+    "global_default": 42,
+    "bootstrap_resamples_b": 10000,
+    "vcgat_retraining_seeds": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ]
+  }
+}

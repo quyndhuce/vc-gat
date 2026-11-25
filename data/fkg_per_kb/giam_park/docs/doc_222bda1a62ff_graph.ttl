@@ -1,0 +1,134 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/adf073f7> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/c7cae06f> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/ent/687ee323> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/giam_park> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/kb/van_mieu_gate> ;
+    onto:on <http://transmtl.vn/ent/687ee323> ;
+    onto:part_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/van_mieu_gate> onto:former_name_of <http://transmtl.vn/kb/temple_of_literature> .
+
+<http://transmtl.vn/kb/temple_of_literature> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2731 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3734 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4876 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/687ee323> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6404 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2715 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/adf073f7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4719 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2658 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/687ee323> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3014 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/temple_of_literature> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4932 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/ent/687ee323> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3496 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c7cae06f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7325 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/kb/van_mieu_gate> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4482 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/c7cae06f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2969 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/kb/temple_of_literature> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/van_mieu_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3948 ;
+    fkg:docId "doc_222bda1a62ff" ;
+    fkg:kbId "giam_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/giam_park> .
+

@@ -1,0 +1,527 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/3c68cbe4> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/tran_quoc_pagoda> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q167346> onto:near <http://transmtl.vn/kb/thanh_nien_road> .
+
+<http://transmtl.vn/kb/thanh_nien_road#road> onto:connects <http://transmtl.vn/ent/9b81e0c5> .
+
+<http://transmtl.vn/kb/thanh_nien_road#shrine> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/thanh_nien_road#thuy_trung_tien_shrine> onto:dated_to <http://transmtl.vn/ent/4b8ccbfa> ;
+    onto:near <http://transmtl.vn/kb/thanh_nien_road> .
+
+<http://transmtl.vn/ent/38740ffb> onto:belongs_to_dynasty <http://transmtl.vn/ent/53dd8e39> .
+
+<http://transmtl.vn/ent/ece66551> onto:in <http://transmtl.vn/kb/west_lake> ;
+    onto:located_in <http://transmtl.vn/kb/west_lake> .
+
+<http://transmtl.vn/kb/thanh_nien_road#street> onto:near <http://transmtl.vn/kb/truc_bach_lake>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:overlooks <http://transmtl.vn/ent/59c8f2d1> .
+
+<http://transmtl.vn/kb/thanh_nien_road#dike> onto:built_by <http://transmtl.vn/ent/ef971ab8> ;
+    onto:built_in <http://transmtl.vn/ent/45ea8990> ;
+    onto:connects <http://transmtl.vn/ent/013bf31c>,
+        <http://transmtl.vn/ent/4f93e793> ;
+    onto:part_of <http://transmtl.vn/ent/38740ffb> .
+
+<http://transmtl.vn/kb/west_lake> onto:in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:on <http://transmtl.vn/ent/ece66551> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/thanh_nien_road> onto:connects <http://transmtl.vn/ent/207462d2> ;
+    onto:former_name_of <http://transmtl.vn/ent/36d94769> ;
+    onto:has_part <http://transmtl.vn/kb/thanh_nien_road#dike>,
+        <http://transmtl.vn/kb/thanh_nien_road#road>,
+        <http://transmtl.vn/kb/thanh_nien_road#shrine>,
+        <http://transmtl.vn/kb/thanh_nien_road#street>,
+        <http://transmtl.vn/kb/thanh_nien_road#thuy_trung_tien_shrine> ;
+    onto:in <http://transmtl.vn/ent/207462d2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/02482948>,
+        <http://transmtl.vn/ent/13a658ad>,
+        <http://transmtl.vn/ent/5d26721b>,
+        <http://transmtl.vn/ent/6c1d0a0d>,
+        <http://transmtl.vn/ent/97b209b4>,
+        <http://transmtl.vn/ent/a0d82f9c>,
+        <http://transmtl.vn/ent/c0cb5f0f>,
+        <http://transmtl.vn/ent/e58be935>,
+        <http://transmtl.vn/ent/e75df350>,
+        <http://transmtl.vn/kb/truc_bach_lake>,
+        <http://transmtl.vn/kb/west_lake> ;
+    onto:surrounded_by <http://transmtl.vn/ent/b7eade62> ;
+    onto:used_as <http://transmtl.vn/ent/76ca1ef9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4136 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/76ca1ef9> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3086 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3853 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3c68cbe4> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3082 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/tran_quoc_pagoda> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road#dike> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4409 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5465 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/45ea8990> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3982 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/38740ffb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7389 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4767 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7317 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/e75df350> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3887 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/9b81e0c5> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3342 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2801 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5175 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/4f93e793> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2908 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/ece66551> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.28 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road#shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3511 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/59c8f2d1> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3868 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road#road> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7794 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4303 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/5d26721b> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4347 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/97b209b4> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4875 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4616 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7524 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/e58be935> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2546 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/36d94769> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3875 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#thuy_trung_tien_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4077 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/ece66551> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2688 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/west_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3871 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4403 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/6c1d0a0d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2837 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/4b8ccbfa> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#thuy_trung_tien_shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3028 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ece66551> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5342 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/013bf31c> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3848 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/02482948> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3515 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/b7eade62> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4447 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3173 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/38740ffb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2711 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/truc_bach_lake> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3417 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/ef971ab8> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2724 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4341 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5293 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/e58be935> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road#thuy_trung_tien_shrine> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4742 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/13a658ad> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3507 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/53dd8e39> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/38740ffb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2638 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#shrine> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3618 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/45ea8990> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road#dike> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5183 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/e75df350> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.401 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/a0d82f9c> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3713 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3461 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.918 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/ent/53dd8e39> ;
+    rdf:predicate onto:belongs_to_dynasty ;
+    rdf:subject <http://transmtl.vn/ent/38740ffb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.477 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/west_lake> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/ent/ece66551> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_0c80d56a6e72" ;
+    fkg:kbId "thanh_nien_road" ;
+    rdf:object <http://transmtl.vn/kb/thanh_nien_road#dike> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/thanh_nien_road> .
+

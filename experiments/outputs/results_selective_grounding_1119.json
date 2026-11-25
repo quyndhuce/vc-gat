@@ -1,0 +1,299 @@
+{
+  "theta_star_selected_on_val": 0.4,
+  "val_f1_score": 0.9840174431003114,
+  "validation_grid": {
+    "0.1": {
+      "coverage": 100.0,
+      "acc_assert": 96.84,
+      "far": 3.16,
+      "f1": 0.9839
+    },
+    "0.15": {
+      "coverage": 100.0,
+      "acc_assert": 96.84,
+      "far": 3.16,
+      "f1": 0.9839
+    },
+    "0.2": {
+      "coverage": 100.0,
+      "acc_assert": 96.84,
+      "far": 3.16,
+      "f1": 0.9839
+    },
+    "0.25": {
+      "coverage": 99.84,
+      "acc_assert": 96.99,
+      "far": 3.01,
+      "f1": 0.9839
+    },
+    "0.3": {
+      "coverage": 99.53,
+      "acc_assert": 97.3,
+      "far": 2.7,
+      "f1": 0.984
+    },
+    "0.35": {
+      "coverage": 99.53,
+      "acc_assert": 97.3,
+      "far": 2.7,
+      "f1": 0.984
+    },
+    "0.4": {
+      "coverage": 99.21,
+      "acc_assert": 97.61,
+      "far": 2.39,
+      "f1": 0.984
+    },
+    "0.45": {
+      "coverage": 99.21,
+      "acc_assert": 97.61,
+      "far": 2.39,
+      "f1": 0.984
+    },
+    "0.5": {
+      "coverage": 98.89,
+      "acc_assert": 97.76,
+      "far": 2.24,
+      "f1": 0.9832
+    },
+    "0.55": {
+      "coverage": 98.58,
+      "acc_assert": 97.91,
+      "far": 2.09,
+      "f1": 0.9824
+    },
+    "0.6": {
+      "coverage": 98.26,
+      "acc_assert": 98.07,
+      "far": 1.93,
+      "f1": 0.9816
+    },
+    "0.65": {
+      "coverage": 97.78,
+      "acc_assert": 98.38,
+      "far": 1.62,
+      "f1": 0.9808
+    },
+    "0.7": {
+      "coverage": 97.63,
+      "acc_assert": 98.38,
+      "far": 1.62,
+      "f1": 0.98
+    },
+    "0.75": {
+      "coverage": 97.31,
+      "acc_assert": 98.54,
+      "far": 1.46,
+      "f1": 0.9792
+    },
+    "0.8": {
+      "coverage": 96.99,
+      "acc_assert": 98.86,
+      "far": 1.14,
+      "f1": 0.9792
+    },
+    "0.85": {
+      "coverage": 96.84,
+      "acc_assert": 99.02,
+      "far": 0.98,
+      "f1": 0.9792
+    },
+    "0.9": {
+      "coverage": 96.36,
+      "acc_assert": 99.34,
+      "far": 0.66,
+      "f1": 0.9783
+    }
+  },
+  "test_models": {
+    "B1_DINOv2_1NN": {
+      "name": "DINOv2 Base (Cosine 1-NN)",
+      "type": "1-NN",
+      "naive_accuracy": 56.57,
+      "naive_far": 43.43,
+      "selective_acc_assert": null,
+      "selective_acc_cautious": null,
+      "selective_far": 43.43,
+      "excess_silence_rate": 0.0
+    },
+    "B2_SigLIP2_1frame_1NN": {
+      "name": "SigLIP 2 (1-frame 1-NN)",
+      "type": "1-NN",
+      "naive_accuracy": 52.9,
+      "naive_far": 47.1,
+      "selective_acc_assert": null,
+      "selective_acc_cautious": null,
+      "selective_far": 47.1,
+      "excess_silence_rate": 0.0
+    },
+    "B3_SigLIP2_6frame_1NN": {
+      "name": "SigLIP 2 (6-frame Mean-Pool 1-NN)",
+      "type": "1-NN",
+      "naive_accuracy": 64.61,
+      "naive_far": 35.39,
+      "selective_acc_assert": null,
+      "selective_acc_cautious": null,
+      "selective_far": 35.39,
+      "excess_silence_rate": 0.0
+    },
+    "B5_WholeFrame_Concept_1NN": {
+      "name": "Khái niệm toàn ảnh (285-d 1-NN)",
+      "type": "1-NN",
+      "naive_accuracy": 54.69,
+      "naive_far": 45.31,
+      "selective_acc_assert": null,
+      "selective_acc_cautious": null,
+      "selective_far": 45.31,
+      "excess_silence_rate": 0.0
+    },
+    "B6_BBox_NoisyOR_Concept_1NN": {
+      "name": "Khái niệm BBox Max-Pooling (285-d 1-NN)",
+      "type": "1-NN",
+      "naive_accuracy": 53.89,
+      "naive_far": 46.11,
+      "selective_acc_assert": null,
+      "selective_acc_cautious": null,
+      "selective_far": 46.11,
+      "excess_silence_rate": 0.0
+    },
+    "B9_ScoreFusion_SigLIP_WholeConcept": {
+      "name": "Cộng điểm SigLIP + Khái niệm toàn ảnh",
+      "type": "1-NN",
+      "naive_accuracy": 65.68,
+      "naive_far": 34.32,
+      "selective_acc_assert": null,
+      "selective_acc_cautious": null,
+      "selective_far": 34.32,
+      "excess_silence_rate": 0.0
+    },
+    "B10_ScoreFusion_SigLIP_BBoxConcept": {
+      "name": "Cộng điểm SigLIP + Khái niệm BBox",
+      "type": "1-NN",
+      "naive_accuracy": 68.1,
+      "naive_far": 31.9,
+      "selective_acc_assert": null,
+      "selective_acc_cautious": null,
+      "selective_far": 31.9,
+      "excess_silence_rate": 0.0
+    },
+    "C1_DINOv2_MLP": {
+      "name": "DINOv2 (768-d) + MLP",
+      "type": "Supervised MLP",
+      "naive_accuracy": 59.07,
+      "naive_far": 40.93,
+      "selective_acc_assert": 71.1,
+      "selective_acc_cautious": 26.09,
+      "selective_far": 28.9,
+      "excess_silence_rate": 11.8,
+      "counts": {
+        "TA": 583,
+        "FA": 237,
+        "SA": 78,
+        "SI": 221,
+        "N": 1119
+      }
+    },
+    "C2_SigLIP6f_MLP": {
+      "name": "SigLIP 2 (6-frame) + MLP",
+      "type": "Supervised MLP",
+      "naive_accuracy": 68.19,
+      "naive_far": 31.81,
+      "selective_acc_assert": 75.87,
+      "selective_acc_cautious": 37.5,
+      "selective_far": 24.13,
+      "excess_silence_rate": 11.01,
+      "counts": {
+        "TA": 679,
+        "FA": 216,
+        "SA": 84,
+        "SI": 140,
+        "N": 1119
+      }
+    },
+    "C3_WholeConcept_MLP": {
+      "name": "Khái niệm toàn ảnh (285-d) + MLP",
+      "type": "Supervised MLP",
+      "naive_accuracy": 63.9,
+      "naive_far": 36.1,
+      "selective_acc_assert": 72.17,
+      "selective_acc_cautious": 32.77,
+      "selective_far": 27.83,
+      "excess_silence_rate": 10.77,
+      "counts": {
+        "TA": 638,
+        "FA": 246,
+        "SA": 77,
+        "SI": 158,
+        "N": 1119
+      }
+    },
+    "C4_BBoxConcept_MLP": {
+      "name": "Khái niệm BBox (285-d) + MLP",
+      "type": "Supervised MLP",
+      "naive_accuracy": 56.75,
+      "naive_far": 43.25,
+      "selective_acc_assert": 68.61,
+      "selective_acc_cautious": 26.2,
+      "selective_far": 31.39,
+      "excess_silence_rate": 12.91,
+      "counts": {
+        "TA": 553,
+        "FA": 253,
+        "SA": 82,
+        "SI": 231,
+        "N": 1119
+      }
+    },
+    "C5_MultiTask_MLP": {
+      "name": "MultiTask MLP (1,053-d)",
+      "type": "Supervised MLP",
+      "naive_accuracy": 69.62,
+      "naive_far": 30.38,
+      "selective_acc_assert": 80.0,
+      "selective_acc_cautious": 36.8,
+      "selective_far": 20.0,
+      "excess_silence_rate": 12.71,
+      "counts": {
+        "TA": 680,
+        "FA": 170,
+        "SA": 99,
+        "SI": 170,
+        "N": 1119
+      }
+    },
+    "C6_LateFusion_SigLIP_Concept_MLP": {
+      "name": "Late Fusion SigLIP + Khái niệm MLP",
+      "type": "Supervised MLP",
+      "naive_accuracy": 69.17,
+      "naive_far": 30.83,
+      "selective_acc_assert": 78.87,
+      "selective_acc_cautious": 35.08,
+      "selective_far": 21.13,
+      "excess_silence_rate": 11.24,
+      "counts": {
+        "TA": 687,
+        "FA": 184,
+        "SA": 87,
+        "SI": 161,
+        "N": 1119
+      }
+    },
+    "C7_Full_Proposed_System": {
+      "name": "HỆ THỐNG ĐẦY ĐỦ (SuperEnsemble + Geo + Tầng 2)",
+      "type": "Supervised MLP",
+      "naive_accuracy": 76.05,
+      "naive_far": 23.95,
+      "selective_acc_assert": 88.31,
+      "selective_acc_cautious": 39.5,
+      "selective_far": 11.69,
+      "excess_silence_rate": 13.04,
+      "counts": {
+        "TA": 740,
+        "FA": 98,
+        "SA": 111,
+        "SI": 170,
+        "N": 1119
+      }
+    }
+  }
+}

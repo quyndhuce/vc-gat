@@ -1,0 +1,180 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_thiec_street#basins> onto:across <http://transmtl.vn/ent/4181fbc9> .
+
+<http://transmtl.vn/kb/hang_thiec_street#buckets> onto:across <http://transmtl.vn/ent/4181fbc9> .
+
+<http://transmtl.vn/kb/hang_thiec_street#hòm_tôn> onto:across <http://transmtl.vn/ent/4181fbc9> .
+
+<http://transmtl.vn/kb/hang_thiec_street#metal_cake_molds> onto:across <http://transmtl.vn/ent/4181fbc9> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_thiec_street#street> onto:located_in <http://transmtl.vn/ent/b681fed1> ;
+    onto:surrounded_by <http://transmtl.vn/ent/a99e8ff5> .
+
+<http://transmtl.vn/kb/hang_thiec_street> onto:has_part <http://transmtl.vn/kb/hang_thiec_street#basins>,
+        <http://transmtl.vn/kb/hang_thiec_street#buckets>,
+        <http://transmtl.vn/kb/hang_thiec_street#hòm_tôn>,
+        <http://transmtl.vn/kb/hang_thiec_street#metal_cake_molds>,
+        <http://transmtl.vn/kb/hang_thiec_street#street> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2745 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street#hòm_tôn> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2991 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/a99e8ff5> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3246 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/4181fbc9> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#buckets> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2617 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2996 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/b681fed1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.378 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/4181fbc9> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#basins> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2683 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4353 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2518 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street#metal_cake_molds> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.253 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street#buckets> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_thiec_street#basins> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2595 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/4181fbc9> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#hòm_tôn> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3145 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/4181fbc9> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street#metal_cake_molds> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4265 ;
+    fkg:docId "doc_ad1c8f2643d4" ;
+    fkg:kbId "hang_thiec_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_thiec_street> .
+

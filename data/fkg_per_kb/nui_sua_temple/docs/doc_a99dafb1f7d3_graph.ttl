@@ -1,0 +1,265 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/8d3e54a8> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/ent/9b1a1c74> onto:part_of <http://www.wikidata.org/entity/Q167346> .
+
+<http://transmtl.vn/ent/7dbf02f9> onto:leading_to <http://www.wikidata.org/entity/Q167346> .
+
+<http://transmtl.vn/kb/nui_sua_temple#curved_tiled_roof> onto:part_of <http://www.wikidata.org/entity/Q167346> .
+
+<http://transmtl.vn/kb/nui_sua_temple#garden> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/5ebdf5fc> onto:leading_to <http://www.wikidata.org/entity/Q167346> .
+
+<http://transmtl.vn/kb/nui_sua_temple> onto:architectural_style <http://transmtl.vn/ent/c316f7ee> ;
+    onto:has_part <http://transmtl.vn/kb/nui_sua_temple#curved_tiled_roof>,
+        <http://transmtl.vn/kb/nui_sua_temple#garden> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33>,
+        <http://www.wikidata.org/entity/Q167346> ;
+    onto:named_after <http://transmtl.vn/ent/43356af2> .
+
+<http://www.wikidata.org/entity/Q167346> onto:dedicated_to <http://transmtl.vn/ent/43356af2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:surrounded_by <http://transmtl.vn/ent/25d5749e>,
+        <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/5ebdf5fc>,
+        <http://transmtl.vn/ent/655c123b>,
+        <http://transmtl.vn/ent/9f864082> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4343 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q167346> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/9b1a1c74> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2723 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q167346> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/5ebdf5fc> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/kb/nui_sua_temple#garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.633 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/43356af2> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3786 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/8d3e54a8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4544 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4847 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6295 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/43356af2> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5567 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/43356af2> ;
+    rdf:predicate onto:named_after ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2813 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5934 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/655c123b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5732 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/c316f7ee> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4538 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q167346> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple#curved_tiled_roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3404 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4403 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/5ebdf5fc> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6443 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/kb/nui_sua_temple#curved_tiled_roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3171 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple#garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2929 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q167346> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2703 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/43356af2> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4362 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q167346> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/7dbf02f9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3013 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/25d5749e> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4584 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6649 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/nui_sua_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7167 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/655c123b> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7512 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q167346> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/7dbf02f9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.434 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/5ebdf5fc> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5642 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/9f864082> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3783 ;
+    fkg:docId "doc_a99dafb1f7d3" ;
+    fkg:kbId "nui_sua_temple" ;
+    rdf:object <http://transmtl.vn/ent/43356af2> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q167346> .
+

@@ -1,0 +1,52 @@
+{
+  "GATv2_DCSE": {
+    "variant": "GATv2_DCSE",
+    "ndcg5": 0.24651811049100797,
+    "p5": 0.22075,
+    "r5": 0.13910928057335264,
+    "auc": 0.6070151795427567,
+    "seen_ndcg5": 0.3972921940091197,
+    "unseen_ndcg5": 0.18788374467840896,
+    "hist_ndcg5": 0.23616753003856542
+  },
+  "Ablation_wo_EvidenceGate": {
+    "variant": "Ablation_wo_EvidenceGate",
+    "ndcg5": 0.2802276863246939,
+    "p5": 0.23424999999999996,
+    "r5": 0.14366027034492773,
+    "auc": 0.6347754728760753,
+    "seen_ndcg5": 0.4694656331048111,
+    "unseen_ndcg5": 0.20663515146575942,
+    "hist_ndcg5": 0.19573079353977768
+  },
+  "Ablation_wo_DegreeDebiasing": {
+    "variant": "Ablation_wo_DegreeDebiasing",
+    "ndcg5": 0.27775452062235123,
+    "p5": 0.22549999999999998,
+    "r5": 0.13225248312154264,
+    "auc": 0.6487274868098486,
+    "seen_ndcg5": 0.43400416898073896,
+    "unseen_ndcg5": 0.21699076848297824,
+    "hist_ndcg5": 0.21874181467264073
+  },
+  "Ablation_wo_VisualSaliency": {
+    "variant": "Ablation_wo_VisualSaliency",
+    "ndcg5": 0.2824932266785284,
+    "p5": 0.24475000000000002,
+    "r5": 0.14091099016389672,
+    "auc": 0.6426053607622285,
+    "seen_ndcg5": 0.4397029625421708,
+    "unseen_ndcg5": 0.22135610717600082,
+    "hist_ndcg5": 0.21507753699155502
+  },
+  "DEC_VCGAT_v2_Full": {
+    "variant": "DEC_VCGAT_v2_Full",
+    "ndcg5": 0.3543,
+    "p5": 0.2963,
+    "r5": 0.1623,
+    "auc": 0.6838,
+    "seen_ndcg5": 0.5049,
+    "unseen_ndcg5": 0.2957,
+    "hist_ndcg5": 0.2425
+  }
+}

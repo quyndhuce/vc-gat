@@ -1,0 +1,110 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/050fa52a> onto:located_in <http://transmtl.vn/ent/4ed5d2ea>,
+        <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/kb/to_tich_street#balusters> onto:made_of <http://transmtl.vn/ent/7004bf44> .
+
+<http://transmtl.vn/kb/to_tich_street#canopy> onto:above <http://transmtl.vn/ent/5058f1af> .
+
+<http://transmtl.vn/kb/to_tich_street#pavement> onto:part_of <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/kb/to_tich_street> onto:has_part <http://transmtl.vn/kb/to_tich_street#balusters>,
+        <http://transmtl.vn/kb/to_tich_street#canopy>,
+        <http://transmtl.vn/kb/to_tich_street#pavement>,
+        <http://transmtl.vn/kb/to_tich_street#street> .
+
+<http://transmtl.vn/kb/to_tich_street#street> onto:located_in <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:part_of <http://transmtl.vn/ent/4ed5d2ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2907 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street#canopy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2909 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/050fa52a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5016 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/050fa52a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3002 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3098 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/7004bf44> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street#balusters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street#canopy> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6427 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street#balusters> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2825 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street#pavement> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_5be9983caec3" ;
+    fkg:kbId "to_tich_street" ;
+    rdf:object <http://transmtl.vn/kb/to_tich_street#pavement> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/to_tich_street> .
+

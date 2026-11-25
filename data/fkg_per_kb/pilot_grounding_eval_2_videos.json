@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "evaluator_model": "Qwen/Qwen2.5-14B-Instruct",
+    "evaluated_at": "2026-10-04 22:20:13",
+    "total_videos_evaluated": 2,
+    "total_facts_evaluated": 14,
+    "total_suitable_facts": 12,
+    "overall_grounding_precision": 0.8571,
+    "instructions": "Bạn có thể chỉnh sửa trực tiếp trường 'is_suitable' (true/false) hoặc 'reason' trong file JSON này nếu muốn hiệu chỉnh đánh giá thủ công."
+  },
+  "video_evaluations": [
+    {
+      "video_id": 321,
+      "file_name": "videos/test/Chùa Một Cột Hà Nội #travel [oOPXyW_ht_Y].mp4",
+      "parent_landmark": "One Pillar Pagoda",
+      "sub_landmark": "One Pillar Pagoda",
+      "detected_visual_cues": [
+        "valley (0.15)",
+        "shrine_small (0.15)",
+        "karst_bay (0.13)",
+        "three_entrance_gate (0.12)",
+        "old_post_office (0.12)",
+        "bamboo_bridge (0.11)"
+      ],
+      "total_visual_facts": 7,
+      "suitable_count": 5,
+      "unsuitable_count": 2,
+      "grounding_accuracy": 0.7143,
+      "evaluated_facts": [
+        {
+          "fact_id": 1,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "column",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.99991,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cột là thành phần chính của chùa Một Cột.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 2,
+          "head": "Dien Huu Pagoda complex",
+          "rel": "has_part",
+          "tail": "One Pillar Pagoda",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9998,
+          "is_suitable": false,
+          "verdict": "không phù hợp",
+          "reason": "Chùa Một Cột không thuộc quần thể Diên Hiền.",
+          "source_section": "surroundings"
+        },
+        {
+          "fact_id": 3,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.99907,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Nhà mái là cấu trúc tiêu biểu của chùa.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 4,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "dragon motif",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.99049,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Ý tưởng rồng thường xuất hiện trong kiến trúc.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 5,
+          "head": "One Pillar Pagoda",
+          "rel": "near",
+          "tail": "Ho Chi Minh Mausoleum",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.964,
+          "is_suitable": false,
+          "verdict": "không phù hợp",
+          "reason": "Không gần Lăng Chủ tịch Hồ Chí Minh.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 6,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "pillar",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9025,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cột là thành phần chính của chùa.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 7,
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "lotus flower",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9025,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Hoa sen là biểu tượng của chùa.",
+          "source_section": ""
+        }
+      ]
+    },
+    {
+      "video_id": 299,
+      "file_name": "videos/test/Đền Ngọc Sơn #hanoi #vietnam [B9EoyChchJY].mp4",
+      "parent_landmark": "Hoan Kiem Lake",
+      "sub_landmark": "The Huc bridge",
+      "detected_visual_cues": [
+        "steel_truss_bridge (0.15)",
+        "silk_lantern (0.12)",
+        "bamboo_bridge (0.11)",
+        "boat_pier (0.11)",
+        "sandy_beach (0.11)",
+        "sea_open (0.11)"
+      ],
+      "total_visual_facts": 7,
+      "suitable_count": 7,
+      "unsuitable_count": 0,
+      "grounding_accuracy": 1.0,
+      "evaluated_facts": [
+        {
+          "fact_id": 1,
+          "head": "The Huc Bridge",
+          "rel": "has_color",
+          "tail": "red",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 1.0,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cầu Thê Húc có màu đỏ.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 2,
+          "head": "The Huc Bridge",
+          "rel": "connects",
+          "tail": "eastern shore",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 1.0,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cầu nối bờ đông.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 3,
+          "head": "The Huc Bridge",
+          "rel": "connected_to",
+          "tail": "eastern shore",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 1.0,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cầu nối với bờ đông.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 4,
+          "head": "The Huc Bridge",
+          "rel": "connected_to",
+          "tail": "Ngoc Son Temple",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9874,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cầu nối với đền Ngọc Sơn.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 5,
+          "head": "The Huc Bridge",
+          "rel": "leads_to",
+          "tail": "Ngoc Son Temple",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.9874,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cầu dẫn đến đền Ngọc Sơn.",
+          "source_section": "overview"
+        },
+        {
+          "fact_id": 6,
+          "head": "The Huc bridge",
+          "rel": "over",
+          "tail": "Hoan Kiem Lake",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 0.7624,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cầu nằm trên Hồ Hoàn Kiếm.",
+          "source_section": ""
+        },
+        {
+          "fact_id": 7,
+          "head": "Huc Bridge",
+          "rel": "has_color",
+          "tail": "red",
+          "grounding_level": "DIRECT",
+          "algorithm_mu_F": 1.0,
+          "is_suitable": true,
+          "verdict": "phù hợp",
+          "reason": "Cầu Thê Húc màu đỏ.",
+          "source_section": "architecture"
+        }
+      ]
+    }
+  ]
+}

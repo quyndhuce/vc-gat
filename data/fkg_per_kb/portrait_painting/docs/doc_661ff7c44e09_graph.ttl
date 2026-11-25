@@ -1,0 +1,54 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/2438cf73> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/portrait_painting> onto:near <http://transmtl.vn/ent/5e2344c1>,
+        <http://transmtl.vn/ent/5ebdf5fc> .
+
+<http://www.wikidata.org/entity/Q1858> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2847 ;
+    fkg:docId "doc_661ff7c44e09" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/2438cf73> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5026 ;
+    fkg:docId "doc_661ff7c44e09" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2547 ;
+    fkg:docId "doc_661ff7c44e09" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/5e2344c1> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3112 ;
+    fkg:docId "doc_661ff7c44e09" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/5ebdf5fc> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/portrait_painting> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3188 ;
+    fkg:docId "doc_661ff7c44e09" ;
+    fkg:kbId "portrait_painting" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+

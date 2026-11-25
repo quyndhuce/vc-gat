@@ -1,0 +1,79 @@
+{
+  "total_samples": 1000,
+  "error_samples": 0,
+  "filtered_precision_lt_090": 0,
+  "passed_filter": 1000,
+  "overall_ece": 0.2238,
+  "by_certainty": {
+    "HIGH": {
+      "n": 250,
+      "precision": 1.0,
+      "recall": 0.762,
+      "f1": 0.8396,
+      "oar": 0.0,
+      "calibration_rate": 0.844,
+      "mean_words": 49.7,
+      "min_words": 4,
+      "max_words": 65,
+      "mean_sentences": 3.1
+    },
+    "MEDIUM": {
+      "n": 250,
+      "precision": 1.0,
+      "recall": 0.874,
+      "f1": 0.9027,
+      "oar": 0.0,
+      "calibration_rate": 0.996,
+      "mean_words": 59.9,
+      "min_words": 4,
+      "max_words": 80,
+      "mean_sentences": 3.0
+    },
+    "LOW": {
+      "n": 500,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "oar": 0.004,
+      "calibration_rate": 0.974,
+      "mean_words": 59.1,
+      "min_words": 37,
+      "max_words": 83,
+      "mean_sentences": 3.6
+    }
+  },
+  "by_scenario": {
+    "A_high": {
+      "n": 250,
+      "precision": 1.0,
+      "oar": 0.0,
+      "calibration_rate": 0.844,
+      "mean_words": 49.7,
+      "mean_sentences": 3.1
+    },
+    "B_medium": {
+      "n": 250,
+      "precision": 1.0,
+      "oar": 0.0,
+      "calibration_rate": 0.996,
+      "mean_words": 59.9,
+      "mean_sentences": 3.0
+    },
+    "C_ambiguous": {
+      "n": 250,
+      "precision": 1.0,
+      "oar": 0.004,
+      "calibration_rate": 0.984,
+      "mean_words": 58.2,
+      "mean_sentences": 3.6
+    },
+    "D_wrong": {
+      "n": 250,
+      "precision": 1.0,
+      "oar": 0.004,
+      "calibration_rate": 0.964,
+      "mean_words": 60.1,
+      "mean_sentences": 3.5
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "n_entities": 250,
+  "n_single_valued_groups": 2,
+  "n_multi_valued_facts": 30,
+  "n_metadata_facts": 0,
+  "n_evidence_single_valued": 2,
+  "n_evidence_multi_valued": 39,
+  "n_conflicts_flagged": 0,
+  "n_uri_merges": 0,
+  "n_ambiguous_pairs": 0,
+  "relation_summary": {
+    "inaugurated_in": {
+      "type": "single_valued",
+      "n_groups": 1,
+      "mean_K": 0.0,
+      "max_K": 0.0,
+      "n_flagged": 0
+    },
+    "built_in": {
+      "type": "single_valued",
+      "n_groups": 1,
+      "mean_K": 0.0,
+      "max_K": 0.0,
+      "n_flagged": 0
+    },
+    "part_of": {
+      "type": "multi_valued",
+      "n_facts": 13,
+      "mean_mu": 0.3212,
+      "max_mu": 0.6649
+    },
+    "has_part": {
+      "type": "multi_valued",
+      "n_facts": 11,
+      "mean_mu": 0.9273,
+      "max_mu": 0.9991
+    },
+    "located_in": {
+      "type": "multi_valued",
+      "n_facts": 4,
+      "mean_mu": 0.4959,
+      "max_mu": 0.8285
+    },
+    "architectural_style": {
+      "type": "multi_valued",
+      "n_facts": 2,
+      "mean_mu": 0.2898,
+      "max_mu": 0.3622
+    }
+  }
+}

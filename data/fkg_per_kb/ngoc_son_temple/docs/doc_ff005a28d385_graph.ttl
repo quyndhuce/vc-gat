@@ -1,0 +1,202 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/470bef90> onto:part_of <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/ent/bf2e8235> onto:part_of <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/pen_tower> onto:part_of <http://transmtl.vn/ent/16e2ce5f>,
+        <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/tran_ba_communal_house> onto:part_of <http://transmtl.vn/ent/16e2ce5f>,
+        <http://transmtl.vn/kb/ngoc_son_temple> .
+
+<http://transmtl.vn/kb/ngoc_son_temple#hoàn_kiếm_lake> onto:in <http://transmtl.vn/ent/207462d2> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:commemorates <http://transmtl.vn/ent/c1a938b5> ;
+    onto:dated_to <http://transmtl.vn/ent/5b54e104> ;
+    onto:dedicated_to <http://transmtl.vn/ent/2394cb8f>,
+        <http://transmtl.vn/ent/b7580d16>,
+        <http://transmtl.vn/ent/c1a938b5> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/ngoc_son_temple> onto:dedicated_to <http://transmtl.vn/ent/7ba4c720> ;
+    onto:has_part <http://transmtl.vn/kb/ngoc_son_temple#hoàn_kiếm_lake> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/6c6d4dfa> ;
+    onto:on <http://transmtl.vn/ent/6c6d4dfa> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple#hoàn_kiếm_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2733 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple#hoàn_kiếm_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2732 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3342 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple#hoàn_kiếm_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2781 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/b7580d16> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5276 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple#hoàn_kiếm_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2757 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/5b54e104> ;
+    rdf:predicate onto:dated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2714 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3169 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/c1a938b5> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7543 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4522 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/470bef90> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.828 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5972 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/bf2e8235> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4001 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/kb/ngoc_son_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5606 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/16e2ce5f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/pen_tower> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2508 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/7ba4c720> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5286 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/6c6d4dfa> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2552 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/2394cb8f> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4796 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/c1a938b5> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4058 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/16e2ce5f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/tran_ba_communal_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2881 ;
+    fkg:docId "doc_ff005a28d385" ;
+    fkg:kbId "ngoc_son_temple" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ngoc_son_temple> .
+

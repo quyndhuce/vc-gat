@@ -1,0 +1,68 @@
+{
+  "issue_a_inference_pruning_benchmark": {
+    "eps_1e-02": {
+      "eps": 0.01,
+      "queries_evaluated": 1217,
+      "early_stopped_queries": 918,
+      "early_stop_rate_pct": 75.43,
+      "full_node_expansions": 8450,
+      "pruned_node_expansions": 4198,
+      "node_expansions_saved_pct": 50.32,
+      "full_derivations_computed": 3545,
+      "pruned_derivations_computed": 1822,
+      "derivations_saved_pct": 48.6,
+      "time_full_ms": 3.11,
+      "time_prune_ms": 4.92,
+      "speedup": 0.63
+    },
+    "eps_1e-03": {
+      "eps": 0.001,
+      "queries_evaluated": 1217,
+      "early_stopped_queries": 616,
+      "early_stop_rate_pct": 50.62,
+      "full_node_expansions": 8450,
+      "pruned_node_expansions": 6023,
+      "node_expansions_saved_pct": 28.72,
+      "full_derivations_computed": 3545,
+      "pruned_derivations_computed": 2557,
+      "derivations_saved_pct": 27.87,
+      "time_full_ms": 3.27,
+      "time_prune_ms": 7.12,
+      "speedup": 0.46
+    },
+    "eps_1e-04": {
+      "eps": 0.0001,
+      "queries_evaluated": 1217,
+      "early_stopped_queries": 370,
+      "early_stop_rate_pct": 30.4,
+      "full_node_expansions": 8450,
+      "pruned_node_expansions": 7175,
+      "node_expansions_saved_pct": 15.09,
+      "full_derivations_computed": 3545,
+      "pruned_derivations_computed": 3030,
+      "derivations_saved_pct": 14.53,
+      "time_full_ms": 3.41,
+      "time_prune_ms": 7.78,
+      "speedup": 0.44
+    }
+  },
+  "issue_b_stratification_audit": {
+    "inter_strata_nodes_count": 21406,
+    "inter_strata_edges_count": 39845,
+    "total_sccs_count": 21406,
+    "cycles_count": 0,
+    "is_dag": true,
+    "stratum_0_facts_count": 16154,
+    "stratum_1_derivations_count": 3536,
+    "stratum_2_derivations_count": 11052
+  },
+  "issue_c_k0_boundary_verification": {
+    "q0_formula": "U_0 = 1 - (1 - b_f)(1 - q_0)^m where q_0 = max_r gamma_r * w_max",
+    "coverage_verified": true
+  },
+  "section_3_multi_stratum_interval_propagation": {
+    "facts_tested": 11052,
+    "violations_count": 0,
+    "compliance_pct": 100.0
+  }
+}

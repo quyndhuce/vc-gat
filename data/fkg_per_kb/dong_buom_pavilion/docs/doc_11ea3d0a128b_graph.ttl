@@ -1,0 +1,71 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion> onto:associated_with <http://transmtl.vn/ent/207462d2> ;
+    onto:inaugurated_in <http://transmtl.vn/ent/312351bf> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/kb/hanoi_museum> ;
+    onto:part_of <http://transmtl.vn/kb/hanoi_museum> .
+
+<http://transmtl.vn/kb/hanoi_museum> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6885 ;
+    fkg:docId "doc_11ea3d0a128b" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3464 ;
+    fkg:docId "doc_11ea3d0a128b" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3322 ;
+    fkg:docId "doc_11ea3d0a128b" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5412 ;
+    fkg:docId "doc_11ea3d0a128b" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4049 ;
+    fkg:docId "doc_11ea3d0a128b" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/312351bf> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2525 ;
+    fkg:docId "doc_11ea3d0a128b" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:associated_with ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3852 ;
+    fkg:docId "doc_11ea3d0a128b" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+

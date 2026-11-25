@@ -1,0 +1,43 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/7352f96f> onto:located_in <http://transmtl.vn/ent/cec8408a> .
+
+<http://transmtl.vn/kb/thong_nhat_park> onto:located_in <http://transmtl.vn/ent/c861f28d>,
+        <http://transmtl.vn/ent/cec8408a> ;
+    onto:surrounded_by <http://transmtl.vn/ent/5d545978> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3623 ;
+    fkg:docId "doc_deec165f6389" ;
+    fkg:kbId "da_nang_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/cec8408a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3088 ;
+    fkg:docId "doc_deec165f6389" ;
+    fkg:kbId "da_nang_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/c861f28d> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4729 ;
+    fkg:docId "doc_deec165f6389" ;
+    fkg:kbId "da_nang_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/5d545978> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/thong_nhat_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3444 ;
+    fkg:docId "doc_deec165f6389" ;
+    fkg:kbId "da_nang_station_replica" ;
+    rdf:object <http://transmtl.vn/ent/cec8408a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/7352f96f> .
+

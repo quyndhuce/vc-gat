@@ -1,0 +1,88 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q137258731#architectural_marvel> onto:architectural_style <http://transmtl.vn/ent/fe6a3083> .
+
+<http://www.wikidata.org/entity/Q137258731#spiral_blocks> onto:part_of <http://transmtl.vn/ent/eb0ea0bc> .
+
+<http://www.wikidata.org/entity/Q137258731> onto:has_part <http://www.wikidata.org/entity/Q137258731#architectural_marvel>,
+        <http://www.wikidata.org/entity/Q137258731#potter_s_wheel>,
+        <http://www.wikidata.org/entity/Q137258731#spiral_blocks> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q137258731#potter_s_wheel> onto:symbol_of <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4383 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#potter_s_wheel> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#potter_s_wheel> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3046 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#spiral_blocks> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#spiral_blocks> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8312 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q1319921> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#potter_s_wheel> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#architectural_marvel> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6716 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://www.wikidata.org/entity/Q137258731#potter_s_wheel> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3253 ;
+    fkg:docId "doc_cf01a190d313" ;
+    fkg:kbId "bat_trang_pottery_museum" ;
+    rdf:object <http://transmtl.vn/ent/fe6a3083> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://www.wikidata.org/entity/Q137258731#architectural_marvel> .
+

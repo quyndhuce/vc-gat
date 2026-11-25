@@ -1,0 +1,345 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/00c36878> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/39f16ff7> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/471dda44> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/5af23e9d> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/61b19aa8> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/66ece715> onto:near <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/7f958dee> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/8fdb4832> onto:near <http://www.wikidata.org/entity/Q1151254> .
+
+<http://transmtl.vn/ent/9076bdd3> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/920c2d70> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/a6b64e36> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/b5272e7c> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/c35c1d13> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/c64e48f3> onto:near <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/c6b640c9> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/cf0d8c0a> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/d8a28f7c> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/f48094ea> onto:part_of <http://transmtl.vn/kb/walking_street> .
+
+<http://transmtl.vn/ent/95cf0949> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://www.wikidata.org/entity/Q1151254> .
+
+<http://www.wikidata.org/entity/Q1151254> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:surrounded_by <http://transmtl.vn/ent/b0622fa9>,
+        <http://transmtl.vn/ent/ebdfab22> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/walking_street> onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:near <http://transmtl.vn/ent/105c6aca>,
+        <http://transmtl.vn/ent/b75708a9>,
+        <http://www.wikidata.org/entity/Q1151254> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2623 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3589 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/8fdb4832> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3776 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3193 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3953 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4817 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/105c6aca> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3739 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5512 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/7f958dee> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4006 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c6b640c9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4368 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/cf0d8c0a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4188 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/95cf0949> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5958 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4882 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/ebdfab22> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6594 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3581 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/39f16ff7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3625 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/471dda44> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6054 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q1151254> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/95cf0949> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3769 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/61b19aa8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4539 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/920c2d70> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3756 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a6b64e36> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6579 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4082 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/66ece715> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5544 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/00c36878> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4528 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/d8a28f7c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3575 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c35c1d13> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5944 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.522 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/f48094ea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2551 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5582 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/5af23e9d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5879 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/b0622fa9> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1151254> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2917 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5849 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/9076bdd3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3614 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/b5272e7c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3947 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/kb/walking_street> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/ent/c64e48f3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4181 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4794 ;
+    fkg:docId "doc_0663fbdb6522" ;
+    fkg:kbId "walking_street" ;
+    rdf:object <http://transmtl.vn/ent/b75708a9> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/walking_street> .
+

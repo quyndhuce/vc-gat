@@ -1,0 +1,118 @@
+{
+  "individual_ablation": {
+    "1. Baseline (Standard Fuzzy InfoNCE)": {
+      "Hits@1": 2.3169601482854496,
+      "Hits@3": 6.209453197405004,
+      "Hits@10": 12.882298424467098,
+      "MRR": 0.06167047826816936,
+      "TypeValid": 100.0,
+      "GeoConsist": 96.08,
+      "VisAligned": 30.159999999999997,
+      "FactualPrec": 97.76
+    },
+    "2. + Variant A: Multimodal \u03bc (Visual Confidence)": {
+      "Hits@1": 2.9657089898053752,
+      "Hits@3": 5.560704355885079,
+      "Hits@10": 11.862835959221501,
+      "MRR": 0.06113762398796568,
+      "TypeValid": 100.0,
+      "GeoConsist": 95.67999999999999,
+      "VisAligned": 31.840000000000003,
+      "FactualPrec": 98.0
+    },
+    "3. + Variant B: Learnable Rule Attenuation": {
+      "Hits@1": 2.4096385542168677,
+      "Hits@3": 5.097312326227989,
+      "Hits@10": 11.955514365152919,
+      "MRR": 0.05798779634546192,
+      "TypeValid": 100.0,
+      "GeoConsist": 95.67999999999999,
+      "VisAligned": 28.32,
+      "FactualPrec": 96.8
+    },
+    "4. + Variant C: Spatial-Aware Hard Negatives": {
+      "Hits@1": 2.3169601482854496,
+      "Hits@3": 5.653382761816497,
+      "Hits@10": 12.140871177015756,
+      "MRR": 0.05865221613716586,
+      "TypeValid": 100.0,
+      "GeoConsist": 97.28,
+      "VisAligned": 31.36,
+      "FactualPrec": 98.48
+    },
+    "5. + Variant D: Clean False-Negative Masking": {
+      "Hits@1": 7.784986098239111,
+      "Hits@3": 12.696941612604263,
+      "Hits@10": 19.647822057460612,
+      "MRR": 0.12105850324957207,
+      "TypeValid": 100.0,
+      "GeoConsist": 99.11999999999999,
+      "VisAligned": 26.88,
+      "FactualPrec": 91.28
+    },
+    "6. + Variant E: Full Combined (All Enhancements)": {
+      "Hits@1": 7.506950880444857,
+      "Hits@3": 12.604263206672844,
+      "Hits@10": 19.647822057460612,
+      "MRR": 0.11786688377474587,
+      "TypeValid": 100.0,
+      "GeoConsist": 99.36,
+      "VisAligned": 28.16,
+      "FactualPrec": 92.4
+    }
+  },
+  "multi_seed": {
+    "Baseline": {
+      "Hits@1": {
+        "mean": 2.5949953660797034,
+        "std": 0.22701480470650384
+      },
+      "Hits@3": {
+        "mean": 5.869632375656472,
+        "std": 0.26574993101768973
+      },
+      "Hits@10": {
+        "mean": 12.82051282051282,
+        "std": 0.30582313675043854
+      },
+      "MRR": {
+        "mean": 0.06288370305240697,
+        "std": 0.0012433597878716476
+      },
+      "FactualPrec": {
+        "mean": 95.78666666666668,
+        "std": 1.5406780614031266
+      },
+      "GeoConsist": {
+        "mean": 96.85333333333334,
+        "std": 0.9826947078767111
+      }
+    },
+    "Full (Ours)": {
+      "Hits@1": {
+        "mean": 8.464627741736175,
+        "std": 0.6866268387671565
+      },
+      "Hits@3": {
+        "mean": 12.573370404695703,
+        "std": 0.043689019535776634
+      },
+      "Hits@10": {
+        "mean": 19.400679641643496,
+        "std": 0.4865003320365652
+      },
+      "MRR": {
+        "mean": 0.12281593460694573,
+        "std": 0.0038117602883762894
+      },
+      "FactualPrec": {
+        "mean": 92.53333333333335,
+        "std": 0.49888765156985965
+      },
+      "GeoConsist": {
+        "mean": 99.60000000000001,
+        "std": 0.17281975195754584
+      }
+    }
+  }
+}

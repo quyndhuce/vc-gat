@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\caption{End-to-end mechanism ablation on the canonical balanced $500$-clip benchmark. Evaluates the downstream factual, policy, linguistic, and latency impacts of removing certified stopping, dependency refinement, and conformal risk control. Values report bootstrap mean $\pm$ standard deviation over $B=10{,}000$ clip resamples.}
+\label{tab:e2e_mechanism_ablation}
+\footnotesize
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+\textbf{System Configuration} & \textbf{K-Recall (\%)} $\uparrow$ & \textbf{VSP (\%)} $\uparrow$ & \textbf{OAR (\%)} $\downarrow$ & \textbf{Policy (\%)} $\uparrow$ & \textbf{BLEU-4} $\uparrow$ & \textbf{ROUGE-L} $\uparrow$ & \textbf{Reasoning Latency} \\
+\midrule
+\textbf{Full Framework (Proposed)} & $51.8 \pm 1.3$ & $96.9 \pm 0.3$ & $0.0 \pm 0.0$ & $89.4 \pm 1.4$ & $0.73 \pm 0.03$ & $10.23 \pm 0.11$ & 1.42 ms/clip \\
+w/o Certified Stopping ($K=\infty$) & $52.0 \pm 1.3$ & $96.9 \pm 0.3$ & $0.0 \pm 0.0$ & $89.4 \pm 1.4$ & $0.73 \pm 0.03$ & $10.24 \pm 0.11$ & 21.65 ms/clip \\
+w/o Dependency Refinement & $53.4 \pm 1.4$ & $95.8 \pm 0.4$ & $2.8 \pm 0.7$ & $84.1 \pm 1.6$ & $0.72 \pm 0.03$ & $10.15 \pm 0.11$ & 0.88 ms/clip \\
+w/o Conformal Risk Control & $54.1 \pm 1.4$ & $95.2 \pm 0.4$ & $4.6 \pm 0.9$ & $79.5 \pm 1.8$ & $0.75 \pm 0.03$ & $10.32 \pm 0.12$ & 1.41 ms/clip \\
+Unconstrained Crisp-KG Baseline & $79.0 \pm 0.7$ & $98.0 \pm 0.2$ & $20.8 \pm 1.8$ & $61.6 \pm 2.2$ & $1.44 \pm 0.04$ & $10.87 \pm 0.12$ & 0.32 ms/clip \\
+\bottomrule
+\end{tabular}}
+\end{table*}

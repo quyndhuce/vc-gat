@@ -1,0 +1,123 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/boat_racing> onto:has_part <http://transmtl.vn/kb/boat_racing#boats>,
+        <http://transmtl.vn/kb/boat_racing#serene_lake> .
+
+<http://transmtl.vn/kb/performance> onto:on <http://transmtl.vn/ent/5cbbd1f4> .
+
+<http://transmtl.vn/kb/boat_racing#boats> onto:across <http://transmtl.vn/ent/9460370b>,
+        <http://transmtl.vn/kb/performance> ;
+    onto:crosses <http://transmtl.vn/ent/9460370b>,
+        <http://transmtl.vn/kb/performance> ;
+    onto:over <http://transmtl.vn/ent/9460370b> .
+
+<http://transmtl.vn/kb/boat_racing#serene_lake> onto:surrounded_by <http://transmtl.vn/ent/9ec5e3e7>,
+        <http://transmtl.vn/ent/b3350e57> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5806 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/b3350e57> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#serene_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2686 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/b3350e57> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#serene_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4812 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#boats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2795 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/5cbbd1f4> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/performance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/kb/boat_racing#serene_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2609 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#boats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3319 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/9ec5e3e7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#serene_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2569 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:crosses ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#boats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/kb/boat_racing#boats> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6237 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/9460370b> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#boats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6095 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/ent/9ec5e3e7> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#serene_lake> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3994 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/kb/performance> ;
+    rdf:predicate onto:across ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing#boats> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_febe8b9f1880" ;
+    fkg:kbId "boat_racing" ;
+    rdf:object <http://transmtl.vn/kb/boat_racing#serene_lake> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/boat_racing> .
+

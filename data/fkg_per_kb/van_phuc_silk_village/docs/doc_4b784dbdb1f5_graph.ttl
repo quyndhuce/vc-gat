@@ -1,0 +1,121 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/9429e07e> onto:symbol_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village> onto:has_part <http://transmtl.vn/kb/van_phuc_silk_village#gate>,
+        <http://transmtl.vn/kb/van_phuc_silk_village#umbrellas> .
+
+<http://transmtl.vn/ent/6791d446> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village#gate> onto:leading_to <http://transmtl.vn/ent/7d793037> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village#umbrellas> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village_gate> onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/6791d446> ;
+    onto:near <http://transmtl.vn/ent/da1525ff> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://www.wikidata.org/entity/Q1858> onto:with <http://transmtl.vn/ent/0e06257a>,
+        <http://transmtl.vn/ent/bef9cf35> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2594 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/ent/bef9cf35> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village#umbrellas> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village#gate> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2556 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village#umbrellas> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.255 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/6791d446> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5752 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/ent/6791d446> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4244 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3146 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3198 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/ent/0e06257a> ;
+    rdf:predicate onto:with ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4441 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/ent/9429e07e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2769 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/ent/7d793037> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village#gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3035 ;
+    fkg:docId "doc_4b784dbdb1f5" ;
+    fkg:kbId "van_phuc_silk_village" ;
+    rdf:object <http://transmtl.vn/ent/da1525ff> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village_gate> .
+

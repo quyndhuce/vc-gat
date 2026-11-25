@@ -1,0 +1,388 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q1319921> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://www.wikidata.org/entity/Q10840569#communal_altar> onto:part_of <http://transmtl.vn/ent/8f1c5099> .
+
+<http://www.wikidata.org/entity/Q10840569#interior> onto:has_part <http://transmtl.vn/ent/643dbfc8> .
+
+<http://www.wikidata.org/entity/Q10840569#rear_hall> onto:part_of <http://www.wikidata.org/entity/Q10840569> .
+
+<http://www.wikidata.org/entity/Q10840569#main_hall> onto:part_of <http://transmtl.vn/ent/ce570073>,
+        <http://www.wikidata.org/entity/Q10840569> .
+
+<http://www.wikidata.org/entity/Q10840569#columns> onto:made_of <http://transmtl.vn/ent/58ec7bcc> ;
+    onto:part_of <http://transmtl.vn/ent/ce570073> .
+
+<http://www.wikidata.org/entity/Q10840569#plaque> onto:above <http://transmtl.vn/ent/68f3df62> ;
+    onto:over <http://transmtl.vn/ent/68f3df62> .
+
+<http://www.wikidata.org/entity/Q10840569#courtyard> onto:made_of <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:part_of <http://transmtl.vn/ent/ce570073> .
+
+<http://www.wikidata.org/entity/Q10840569#lowest_step> onto:made_of <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:part_of <http://transmtl.vn/ent/ce570073> .
+
+<http://transmtl.vn/ent/ce570073> onto:located_in <http://transmtl.vn/kb/bat_trang_gate> .
+
+<http://www.wikidata.org/entity/Q10840569> onto:built_in <http://transmtl.vn/ent/acab0116> ;
+    onto:has_part <http://www.wikidata.org/entity/Q10840569#columns>,
+        <http://www.wikidata.org/entity/Q10840569#communal_altar>,
+        <http://www.wikidata.org/entity/Q10840569#courtyard>,
+        <http://www.wikidata.org/entity/Q10840569#interior>,
+        <http://www.wikidata.org/entity/Q10840569#lowest_step>,
+        <http://www.wikidata.org/entity/Q10840569#main_hall>,
+        <http://www.wikidata.org/entity/Q10840569#plaque>,
+        <http://www.wikidata.org/entity/Q10840569#rear_hall> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/8beb8538>,
+        <http://transmtl.vn/kb/bat_trang_gate> ;
+    onto:worships <http://transmtl.vn/ent/cf9635f7> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3977 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2543 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/68f3df62> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3723 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/68f3df62> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4145 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2601 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4295 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/cf9635f7> ;
+    rdf:predicate onto:worships ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3974 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/acab0116> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3117 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#main_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4589 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/acab0116> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#rear_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5747 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4201 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/8beb8538> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4044 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3717 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#lowest_step> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2717 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#rear_hall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2792 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#lowest_step> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5212 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/acab0116> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#plaque> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#lowest_step> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4118 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#lowest_step> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3269 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/68f3df62> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#plaque> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3789 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/acab0116> ;
+    rdf:predicate onto:built_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#interior> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#columns> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4072 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7262 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/58ec7bcc> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3067 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#lowest_step> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2797 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#communal_altar> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5678 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#courtyard> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3589 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ce570073> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2712 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/ce570073> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#columns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#main_hall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3238 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/643dbfc8> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#interior> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#lowest_step> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#plaque> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6147 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3201 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/kb/bat_trang_gate> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569#courtyard> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2737 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1319921> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_99ea211a8973" ;
+    fkg:kbId "bat_trang_communal_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q10840569#communal_altar> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q10840569> .
+

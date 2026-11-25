@@ -1,0 +1,110 @@
+[
+  {
+    "name": "DINOv2 Base (ViT-B/14 1-NN)",
+    "type": "1-NN",
+    "ungated_far": 43.43,
+    "assert_acc": null,
+    "gated_far": 43.43,
+    "fabr": 0.0,
+    "coverage": 100.0
+  },
+  {
+    "name": "SigLIP 2 1-frame (Cosine 1-NN)",
+    "type": "1-NN",
+    "ungated_far": 47.1,
+    "assert_acc": null,
+    "gated_far": 47.1,
+    "fabr": 0.0,
+    "coverage": 100.0
+  },
+  {
+    "name": "SigLIP 2 6-frame max-pool (1-NN)",
+    "type": "1-NN",
+    "ungated_far": 35.39,
+    "assert_acc": null,
+    "gated_far": 35.39,
+    "fabr": 0.0,
+    "coverage": 100.0
+  },
+  {
+    "name": "Score fusion: SigLIP 2 + BBox (1-NN)",
+    "type": "1-NN",
+    "ungated_far": 31.9,
+    "assert_acc": null,
+    "gated_far": 31.9,
+    "fabr": 0.0,
+    "coverage": 100.0
+  },
+  {
+    "name": "DINOv2 (768-d) + MLP",
+    "type": "Supervised",
+    "ungated_far": 40.93,
+    "assert_acc": 71.1,
+    "gated_far": 28.9,
+    "fabr": 11.8,
+    "coverage": 73.28,
+    "n_assert": 820,
+    "correct_assert": 583,
+    "false_assert": 237
+  },
+  {
+    "name": "SigLIP 2 6-frame + MLP",
+    "type": "Supervised",
+    "ungated_far": 31.81,
+    "assert_acc": 75.87,
+    "gated_far": 24.13,
+    "fabr": 11.01,
+    "coverage": 79.98,
+    "n_assert": 895,
+    "correct_assert": 679,
+    "false_assert": 216
+  },
+  {
+    "name": "Concept MLP (Whole Frame 285-d)",
+    "type": "Supervised",
+    "ungated_far": 36.1,
+    "assert_acc": 72.17,
+    "gated_far": 27.83,
+    "fabr": 10.77,
+    "coverage": 79.0,
+    "n_assert": 884,
+    "correct_assert": 638,
+    "false_assert": 246
+  },
+  {
+    "name": "Multi-task Concept MLP (1,053-d)",
+    "type": "Supervised",
+    "ungated_far": 30.38,
+    "assert_acc": 80.0,
+    "gated_far": 20.0,
+    "fabr": 12.71,
+    "coverage": 75.96,
+    "n_assert": 850,
+    "correct_assert": 680,
+    "false_assert": 170
+  },
+  {
+    "name": "Late fusion (SigLIP + Concept MLP)",
+    "type": "Supervised",
+    "ungated_far": 30.83,
+    "assert_acc": 78.87,
+    "gated_far": 21.13,
+    "fabr": 11.24,
+    "coverage": 77.84,
+    "n_assert": 871,
+    "correct_assert": 687,
+    "false_assert": 184
+  },
+  {
+    "name": "Full proposed system (Łukasiewicz / Ensemble)",
+    "type": "Supervised",
+    "ungated_far": 23.95,
+    "assert_acc": 88.31,
+    "gated_far": 11.69,
+    "fabr": 13.04,
+    "coverage": 74.89,
+    "n_assert": 838,
+    "correct_assert": 740,
+    "false_assert": 98
+  }
+]

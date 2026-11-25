@@ -1,0 +1,531 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/a643f0c6> onto:located_in <http://transmtl.vn/ent/0359d255> .
+
+<http://transmtl.vn/ent/c00880e0> onto:part_of <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/ent/fca3ffea> onto:part_of <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/ent/5421188d> onto:part_of <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/kb/dong_da_mound#commemorative_inscriptions> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/dong_da_mound#forces> onto:over <http://transmtl.vn/ent/834af260> .
+
+<http://transmtl.vn/kb/dong_da_mound#trees> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/ent/50786522> onto:part_of <http://transmtl.vn/kb/dong_da_mound> .
+
+<http://transmtl.vn/kb/dong_da_mound#ceremonial_spaces> onto:located_in <http://transmtl.vn/ent/0359d255> ;
+    onto:located_inside <http://transmtl.vn/ent/0359d255> ;
+    onto:part_of <http://transmtl.vn/ent/0359d255> .
+
+<http://transmtl.vn/kb/dong_da_mound#characteristic_physical_features> onto:has_component <http://transmtl.vn/ent/13cd5891> ;
+    onto:has_part <http://transmtl.vn/ent/13cd5891> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed> .
+
+<http://transmtl.vn/kb/dong_da_mound#memorial> onto:located_inside <http://transmtl.vn/ent/0359d255> ;
+    onto:part_of <http://transmtl.vn/ent/7dc22b2c> .
+
+<http://transmtl.vn/kb/dong_da_mound#mound> onto:has_part <http://transmtl.vn/ent/78f0805f> ;
+    onto:surrounded_by <http://transmtl.vn/ent/2d5563ed>,
+        <http://transmtl.vn/ent/c66a25ea> .
+
+<http://transmtl.vn/kb/dong_da_mound#parts> onto:part_of <http://transmtl.vn/ent/4c664c59>,
+        <http://transmtl.vn/ent/fa8baf85> .
+
+<http://transmtl.vn/kb/dong_da_mound#paths> onto:connected_to <http://transmtl.vn/ent/3c9cd463>,
+        <http://transmtl.vn/ent/4c664c59>,
+        <http://transmtl.vn/ent/78f0805f> .
+
+<http://transmtl.vn/kb/dong_da_mound#steps> onto:connected_to <http://transmtl.vn/ent/4c664c59> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/ent/13cd5891> .
+
+<http://www.wikidata.org/entity/Q1858> onto:connected_to <http://transmtl.vn/ent/1a861286>,
+        <http://transmtl.vn/ent/4fb12f2e> ;
+    onto:located_in <http://transmtl.vn/ent/4c664c59>,
+        <http://transmtl.vn/ent/6b77ef4b>,
+        <http://transmtl.vn/ent/7dc22b2c>,
+        <http://transmtl.vn/ent/b8f780e1> ;
+    onto:part_of <http://transmtl.vn/ent/4c664c59>,
+        <http://transmtl.vn/ent/7dc22b2c>,
+        <http://transmtl.vn/ent/b8f780e1> .
+
+<http://transmtl.vn/ent/4c664c59> onto:located_in <http://transmtl.vn/ent/7f8c8d23> .
+
+<http://transmtl.vn/kb/dong_da_mound> onto:adjacent_to <http://transmtl.vn/ent/50786522> ;
+    onto:has_component <http://transmtl.vn/kb/dong_da_mound#ceremonial_spaces>,
+        <http://transmtl.vn/kb/dong_da_mound#characteristic_physical_features>,
+        <http://transmtl.vn/kb/dong_da_mound#commemorative_inscriptions>,
+        <http://transmtl.vn/kb/dong_da_mound#forces>,
+        <http://transmtl.vn/kb/dong_da_mound#memorial>,
+        <http://transmtl.vn/kb/dong_da_mound#mound>,
+        <http://transmtl.vn/kb/dong_da_mound#parts>,
+        <http://transmtl.vn/kb/dong_da_mound#paths>,
+        <http://transmtl.vn/kb/dong_da_mound#steps>,
+        <http://transmtl.vn/kb/dong_da_mound#trees> ;
+    onto:located_in <http://transmtl.vn/ent/f6fbb633> ;
+    onto:near <http://transmtl.vn/ent/50786522>,
+        <http://transmtl.vn/ent/5421188d> ;
+    onto:part_of <http://transmtl.vn/ent/b04aa0fb> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7812 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3874 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/0359d255> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/a643f0c6> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#parts> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7557 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/c66a25ea> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4379 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/50786522> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5682 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/0359d255> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#ceremonial_spaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#steps> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.429 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/6b77ef4b> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3526 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/b8f780e1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4329 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/13cd5891> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#forces> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8686 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/f6fbb633> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#mound> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#parts> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2564 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/4c664c59> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#parts> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5032 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/4c664c59> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3396 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/7f8c8d23> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/4c664c59> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#memorial> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3573 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/0359d255> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#memorial> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3225 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/7dc22b2c> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7785 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/0359d255> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#ceremonial_spaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2799 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/7dc22b2c> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#memorial> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#trees> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5968 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/834af260> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#forces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6147 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/3c9cd463> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#steps> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5147 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/4c664c59> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5435 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/fca3ffea> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4582 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/0359d255> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#ceremonial_spaces> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4667 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/4c664c59> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3337 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/13cd5891> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2701 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/b8f780e1> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5126 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/4c664c59> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4718 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/5421188d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4783 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/fa8baf85> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#parts> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3111 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/c00880e0> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#commemorative_inscriptions> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7054 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/b04aa0fb> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4167 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#commemorative_inscriptions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2678 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/78f0805f> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6253 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/1a861286> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#ceremonial_spaces> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5521 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/4fb12f2e> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6733 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#characteristic_physical_features> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6959 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/78f0805f> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7878 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/b8f780e1> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5427 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/50786522> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#memorial> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2843 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/7dc22b2c> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5469 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#trees> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#characteristic_physical_features> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound#paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7572 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/2d5563ed> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#mound> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2517 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/13cd5891> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound#steps> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5315 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/kb/dong_da_mound> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/5421188d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2836 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "dong_da_mound" ;
+    rdf:object <http://transmtl.vn/ent/50786522> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/dong_da_mound> .
+

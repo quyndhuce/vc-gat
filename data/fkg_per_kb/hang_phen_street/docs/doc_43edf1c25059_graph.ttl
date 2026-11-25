@@ -1,0 +1,319 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/346c846d> onto:on <http://transmtl.vn/kb/hang_phen_street> .
+
+<http://transmtl.vn/ent/a1b0311b> onto:on <http://transmtl.vn/kb/hang_phen_street> .
+
+<http://transmtl.vn/ent/dc322ccd> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/92de49ab> onto:on <http://transmtl.vn/kb/hang_phen_street> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_phen_street#everyday_needs> onto:used_by <http://transmtl.vn/ent/d26d00c3> .
+
+<http://transmtl.vn/kb/hang_phen_street#street> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_phen_street#natural_resources> onto:used_by <http://transmtl.vn/ent/53d670af>,
+        <http://transmtl.vn/ent/d26d00c3> .
+
+<http://transmtl.vn/kb/hang_phen_street#traditional_methods> onto:used_by <http://transmtl.vn/ent/53d670af>,
+        <http://transmtl.vn/ent/d26d00c3> .
+
+<http://transmtl.vn/ent/63be8e4a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_phen_street> onto:has_part <http://transmtl.vn/kb/hang_phen_street#everyday_needs>,
+        <http://transmtl.vn/kb/hang_phen_street#natural_resources>,
+        <http://transmtl.vn/kb/hang_phen_street#street>,
+        <http://transmtl.vn/kb/hang_phen_street#traditional_methods> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/63be8e4a>,
+        <http://transmtl.vn/ent/64756c49>,
+        <http://transmtl.vn/ent/966c3396>,
+        <http://transmtl.vn/ent/c0cb5f0f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4892 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_phen_street#everyday_needs> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5788 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_phen_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/92de49ab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2755 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.329 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2528 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2685 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/53d670af> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street#traditional_methods> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2739 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/dc322ccd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2557 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_phen_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6343 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/d26d00c3> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street#traditional_methods> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3221 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2985 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/64756c49> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3296 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3144 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_phen_street#natural_resources> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.385 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_phen_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/346c846d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3553 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/53d670af> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street#natural_resources> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2674 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3093 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/966c3396> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3582 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/d26d00c3> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street#everyday_needs> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.489 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_phen_street#traditional_methods> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.292 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2655 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/64756c49> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2873 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/c0cb5f0f> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2872 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_phen_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/a1b0311b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3802 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6831 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/d26d00c3> ;
+    rdf:predicate onto:used_by ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street#natural_resources> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3866 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2986 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8342 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.326 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_phen_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/92de49ab> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3157 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7357 ;
+    fkg:docId "doc_43edf1c25059" ;
+    fkg:kbId "hang_phen_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_phen_street> .
+

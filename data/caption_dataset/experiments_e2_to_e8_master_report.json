@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "title": "Master Experimental Suite: E2 to E8 Theoretical & Algorithmic Validation",
+    "timestamp": "2026-10-29 15:21:50",
+    "graph_summary": {
+      "entities": 2334,
+      "Delta": 361,
+      "mean_b": 4.51
+    }
+  },
+  "E2_search_space_growth": {
+    "rows": [
+      {
+        "depth": 1,
+        "expanded_states": 355,
+        "complete_paths": 350,
+        "b_L_estimate": 22.6,
+        "worst_case_bound": 1805,
+        "effective_branching": 70.0,
+        "runtime_ms": 0.21,
+        "peak_ram_mb": 0.01
+      },
+      {
+        "depth": 2,
+        "expanded_states": 5225,
+        "complete_paths": 4870,
+        "b_L_estimate": 124.3,
+        "worst_case_bound": 653410,
+        "effective_branching": 31.21,
+        "runtime_ms": 3.89,
+        "peak_ram_mb": 0.06
+      },
+      {
+        "depth": 3,
+        "expanded_states": 112790,
+        "complete_paths": 107565,
+        "b_L_estimate": 583.0,
+        "worst_case_bound": 235882815,
+        "effective_branching": 27.81,
+        "runtime_ms": 86.85,
+        "peak_ram_mb": 0.07
+      },
+      {
+        "depth": 4,
+        "expanded_states": 1562331,
+        "complete_paths": 1449541,
+        "b_L_estimate": 2652.1,
+        "worst_case_bound": 85153698020,
+        "effective_branching": 23.2,
+        "runtime_ms": 1172.6,
+        "peak_ram_mb": 0.08
+      }
+    ],
+    "fig_states": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8/fig_e2_depth_vs_states.svg",
+    "fig_time": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8/fig_e2_depth_vs_runtime.svg",
+    "allowed_claim": "The measured search space grows rapidly with reasoning depth and follows the qualitative trend predicted by the branching-factor analysis."
+  },
+  "E3_safe_branch_and_bound": {
+    "table_rows": [
+      {
+        "method": "Exhaustive",
+        "top1_agreement": 100.0,
+        "top5_exact_set": 100.0,
+        "states": 255571,
+        "pruned": 0,
+        "runtime_ms": 153.34
+      },
+      {
+        "method": "Branch-and-Bound (B&B)",
+        "top1_agreement": 100.0,
+        "top5_exact_set": 100.0,
+        "states": 2203,
+        "pruned": 22241,
+        "runtime_ms": 2.25
+      }
+    ],
+    "false_safe_pruning_violations": 0,
+    "prune_ratio_pct": 90.99,
+    "speedup_factor": 68.25,
+    "mean_best_score_diff": 0.0
+  },
+  "E4_exactness_certificate": {
+    "rows": [
+      {
+        "budget": 100,
+        "certified_queries": "13/13",
+        "certification_rate": "100.0%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 500,
+        "certified_queries": "13/13",
+        "certification_rate": "100.0%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 1000,
+        "certified_queries": "13/13",
+        "certification_rate": "100.0%",
+        "exact_set_accuracy": "100.0%"
+      },
+      {
+        "budget": 5000,
+        "certified_queries": "13/13",
+        "certification_rate": "100.0%",
+        "exact_set_accuracy": "100.0%"
+      }
+    ]
+  },
+  "E5_budget_depth_bounds": {
+    "rows": [
+      {
+        "budget_label": "10^2",
+        "budget_numeric": 100,
+        "worst_case_L_max": 0,
+        "estimated_L_max": 2,
+        "observed_L_max": 1,
+        "observed_k_max": 2
+      },
+      {
+        "budget_label": "10^3",
+        "budget_numeric": 1000,
+        "worst_case_L_max": 1,
+        "estimated_L_max": 4,
+        "observed_L_max": 2,
+        "observed_k_max": 3
+      },
+      {
+        "budget_label": "10^4",
+        "budget_numeric": 10000,
+        "worst_case_L_max": 1,
+        "estimated_L_max": 5,
+        "observed_L_max": 2,
+        "observed_k_max": 3
+      },
+      {
+        "budget_label": "10^5",
+        "budget_numeric": 100000,
+        "worst_case_L_max": 1,
+        "estimated_L_max": 7,
+        "observed_L_max": 3,
+        "observed_k_max": 4
+      },
+      {
+        "budget_label": "10^6",
+        "budget_numeric": 1000000,
+        "worst_case_L_max": 2,
+        "estimated_L_max": 9,
+        "observed_L_max": 4,
+        "observed_k_max": 5
+      }
+    ],
+    "scholarly_note": "k_max is a dynamic function k_max(B, b, Delta), proving mathematically why fixed query limits cannot apply globally across varying knowledge graphs."
+  },
+  "E6_approximate_search_tradeoff": {
+    "rows": [
+      {
+        "beam_width": 5,
+        "path_recall_at_5": "72.7%",
+        "best_score_gap": "0.0000",
+        "relative_gap": "0.00%",
+        "runtime_ms": 0.08,
+        "expanded_states": 332.4
+      },
+      {
+        "beam_width": 10,
+        "path_recall_at_5": "72.7%",
+        "best_score_gap": "0.0000",
+        "relative_gap": "0.00%",
+        "runtime_ms": 0.11,
+        "expanded_states": 596.8
+      },
+      {
+        "beam_width": 20,
+        "path_recall_at_5": "72.7%",
+        "best_score_gap": "0.0000",
+        "relative_gap": "0.00%",
+        "runtime_ms": 0.19,
+        "expanded_states": 960.5
+      },
+      {
+        "beam_width": 50,
+        "path_recall_at_5": "72.7%",
+        "best_score_gap": "0.0000",
+        "relative_gap": "0.00%",
+        "runtime_ms": 1.71,
+        "expanded_states": 2234.1
+      },
+      {
+        "beam_width": 100,
+        "path_recall_at_5": "72.7%",
+        "best_score_gap": "0.0000",
+        "relative_gap": "0.00%",
+        "runtime_ms": 0.89,
+        "expanded_states": 3623.0
+      }
+    ],
+    "narrative": "Less computation corresponds to small controlled retrieval loss. Beam search provides robust approximation but is explicitly bounded rather than exact."
+  },
+  "E7_noisy_or_dependency_bounds": {
+    "num_facts_evaluated": 30,
+    "violations": 0,
+    "mean_interval_width": 0.0629,
+    "mean_optimism_gap": 0.0112,
+    "mean_overlap_degree": 0.0709,
+    "spearman_rho": 0.8579,
+    "spearman_pval": 1.3698928009310292e-09,
+    "fig_overlap_vs_optimism": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8/fig_e7_overlap_vs_optimism.svg",
+    "sample_facts": [
+      {
+        "fact": "vietnam national museum of history (located_in) hanoi",
+        "num_supports": 3,
+        "L0": 0.2634,
+        "U0": 0.5551,
+        "pi_hat": 0.5548,
+        "interval_width": 0.2916,
+        "optimism_gap": 0.0003,
+        "overlap_degree": 0.0
+      },
+      {
+        "fact": "vietnam national museum of history (has_part) and",
+        "num_supports": 2,
+        "L0": 0.9025,
+        "U0": 0.9201,
+        "pi_hat": 0.9211,
+        "interval_width": 0.0176,
+        "optimism_gap": -0.001,
+        "overlap_degree": 0.0
+      },
+      {
+        "fact": "vietnam women's museum (located_in) hanoi",
+        "num_supports": 3,
+        "L0": 0.9702,
+        "U0": 0.9839,
+        "pi_hat": 0.9841,
+        "interval_width": 0.0137,
+        "optimism_gap": -0.0002,
+        "overlap_degree": 0.0
+      },
+      {
+        "fact": "hoan kiem lake (has_part) sword lake",
+        "num_supports": 2,
+        "L0": 0.9991,
+        "U0": 0.9994,
+        "pi_hat": 0.9994,
+        "interval_width": 0.0004,
+        "optimism_gap": 0.0,
+        "overlap_degree": 0.0
+      },
+      {
+        "fact": "hoan kiem lake (has_part) turtle tower",
+        "num_supports": 2,
+        "L0": 0.9991,
+        "U0": 0.9997,
+        "pi_hat": 0.9997,
+        "interval_width": 0.0007,
+        "optimism_gap": -0.0,
+        "overlap_degree": 0.0
+      }
+    ]
+  },
+  "E8_interval_refinement_conditioning": {
+    "primary_table": [
+      {
+        "k": 0,
+        "L_k": 0.9879,
+        "U_k": 0.9999,
+        "width": 0.012,
+        "runtime_ms": 0.027
+      },
+      {
+        "k": 1,
+        "L_k": 0.996,
+        "U_k": 0.9966,
+        "width": 0.0006,
+        "runtime_ms": 0.033
+      },
+      {
+        "k": 2,
+        "L_k": 0.996,
+        "U_k": 0.9961,
+        "width": 0.0001,
+        "runtime_ms": 0.051
+      }
+    ],
+    "primary_fact": "hoan kiem lake -> lý thái tổ",
+    "monotonic_violations": 0,
+    "fig_interval_refinement": "/home/nguyendinhquy/TransMTL_OntoKG-main/data/caption_dataset/plots_e2_to_e8/fig_e8_interval_refinement.svg",
+    "narrative": "More computation directly yields tighter uncertainty intervals. Invariant W_{k+1} <= W_k holds strictly for all cases."
+  }
+}

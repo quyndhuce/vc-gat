@@ -1,0 +1,436 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/e9fe6285> onto:located_inside <http://www.wikidata.org/entity/Q1063916> .
+
+<http://transmtl.vn/ent/ff1e27b8> onto:located_inside <http://www.wikidata.org/entity/Q1063916> .
+
+<http://transmtl.vn/ent/ea90cd13> onto:located_inside <http://www.wikidata.org/entity/Q1063916> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://transmtl.vn/ent/f9adc628> onto:located_inside <http://www.wikidata.org/entity/Q1063916> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://transmtl.vn/kb/calligraphy> onto:located_inside <http://www.wikidata.org/entity/Q1063916> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://transmtl.vn/ent/303bdf5d> onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://transmtl.vn/ent/362bd1bd> onto:located_in <http://transmtl.vn/ent/84aaf2ac> .
+
+<http://www.wikidata.org/entity/Q1063916#pink_prayer_papers> onto:located_inside <http://www.wikidata.org/entity/Q1063916> .
+
+<http://www.wikidata.org/entity/Q1063916#yin_yang_tiled_roofs> onto:part_of <http://transmtl.vn/ent/584826e7> .
+
+<http://www.wikidata.org/entity/Q1063916#main_sanctuary> onto:connected_to <http://www.wikidata.org/entity/Q1063916> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://www.wikidata.org/entity/Q1063916#upper_walls> onto:made_of <http://transmtl.vn/ent/f5ae49d3> ;
+    onto:part_of <http://transmtl.vn/ent/584826e7> .
+
+<http://transmtl.vn/ent/bf779fae> onto:located_inside <http://www.wikidata.org/entity/Q1063916> .
+
+<http://www.wikidata.org/entity/Q1063916#front_vestibule> onto:connected_to <http://www.wikidata.org/entity/Q1063916> ;
+    onto:located_in_front_of <http://www.wikidata.org/entity/Q1063916> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://transmtl.vn/ent/b3d40c5b> onto:connected_to <http://www.wikidata.org/entity/Q1063916> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://transmtl.vn/ent/f4a52449> onto:located_inside <http://www.wikidata.org/entity/Q1063916> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1063916> .
+
+<http://www.wikidata.org/entity/Q1063916#drifting_fragrant_smoke> onto:above <http://transmtl.vn/ent/bf779fae> ;
+    onto:located_inside <http://www.wikidata.org/entity/Q1063916> ;
+    onto:over <http://transmtl.vn/ent/bf779fae>,
+        <http://transmtl.vn/ent/f4a52449> .
+
+<http://www.wikidata.org/entity/Q1063916> onto:has_component <http://transmtl.vn/ent/303bdf5d>,
+        <http://transmtl.vn/ent/ad532214>,
+        <http://transmtl.vn/ent/b3d40c5b>,
+        <http://transmtl.vn/ent/f4a52449>,
+        <http://transmtl.vn/ent/f82987ff>,
+        <http://www.wikidata.org/entity/Q1063916#drifting_fragrant_smoke>,
+        <http://www.wikidata.org/entity/Q1063916#front_vestibule>,
+        <http://www.wikidata.org/entity/Q1063916#main_sanctuary>,
+        <http://www.wikidata.org/entity/Q1063916#pink_prayer_papers>,
+        <http://www.wikidata.org/entity/Q1063916#upper_walls>,
+        <http://www.wikidata.org/entity/Q1063916#yin_yang_tiled_roofs> ;
+    onto:has_part <http://transmtl.vn/ent/ad532214>,
+        <http://transmtl.vn/ent/b3d40c5b>,
+        <http://transmtl.vn/ent/f82987ff> ;
+    onto:located_in <http://transmtl.vn/ent/362bd1bd>,
+        <http://transmtl.vn/ent/84aaf2ac>,
+        <http://transmtl.vn/ent/ed6713e0> ;
+    onto:made_of <http://transmtl.vn/ent/2d2ac038> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.41 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/f82987ff> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3993 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/ent/e9fe6285> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2812 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/362bd1bd> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7981 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/ad532214> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2953 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/f9adc628> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3796 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#drifting_fragrant_smoke> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7573 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#front_vestibule> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#pink_prayer_papers> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3454 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/84aaf2ac> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/362bd1bd> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2661 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3037 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/f4a52449> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6629 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/b3d40c5b> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6534 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/b3d40c5b> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9906 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/2d2ac038> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#drifting_fragrant_smoke> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7819 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/b3d40c5b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6582 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#pink_prayer_papers> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.478 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/84aaf2ac> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2552 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/ea90cd13> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2911 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#front_vestibule> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5548 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/584826e7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#upper_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4352 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/f5ae49d3> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#upper_walls> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#front_vestibule> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.296 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#main_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#upper_walls> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3196 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/ent/bf779fae> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2631 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_in_front_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#front_vestibule> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#yin_yang_tiled_roofs> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3289 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/f4a52449> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#drifting_fragrant_smoke> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.75 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#main_sanctuary> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4341 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/f82987ff> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916#main_sanctuary> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2555 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/f4a52449> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4296 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/303bdf5d> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3907 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/ent/f4a52449> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4989 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/ad532214> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3153 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/ent/b3d40c5b> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8224 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/ent/ff1e27b8> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.361 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/ed6713e0> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6915 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/ent/f9adc628> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7252 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/bf779fae> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#drifting_fragrant_smoke> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7115 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/303bdf5d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6974 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/bf779fae> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#drifting_fragrant_smoke> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6473 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/ent/ea90cd13> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6562 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://www.wikidata.org/entity/Q1063916> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://transmtl.vn/kb/calligraphy> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3726 ;
+    fkg:docId "doc_web" ;
+    fkg:kbId "ba_thien_hau_temple" ;
+    rdf:object <http://transmtl.vn/ent/584826e7> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1063916#yin_yang_tiled_roofs> .
+

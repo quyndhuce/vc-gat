@@ -1,0 +1,100 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/2bb3d86d> onto:part_of <http://transmtl.vn/kb/kinh_thien_palace> .
+
+<http://transmtl.vn/ent/d5d40c2e> onto:part_of <http://transmtl.vn/kb/kinh_thien_palace> .
+
+<http://transmtl.vn/kb/imperial_citadel_of_thang_long> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/e023df35> onto:leading_to <http://transmtl.vn/kb/kinh_thien_palace> .
+
+<http://transmtl.vn/ent/207462d2> onto:ruled_by <http://transmtl.vn/ent/6c9fd08c>,
+        <http://transmtl.vn/ent/f860e266> .
+
+<http://transmtl.vn/kb/kinh_thien_palace> onto:hosts_event <http://transmtl.vn/ent/77197c17>,
+        <http://transmtl.vn/ent/e4c56db7> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4791 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/6c9fd08c> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6851 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/imperial_citadel_of_thang_long> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3103 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/e4c56db7> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.252 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/f860e266> ;
+    rdf:predicate onto:ruled_by ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2695 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/77197c17> ;
+    rdf:predicate onto:hosts_event ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3181 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/e023df35> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5549 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/ent/e023df35> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3518 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/kinh_thien_palace> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2567 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/2bb3d86d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.27 ;
+    fkg:docId "doc_cef1f2b34a29" ;
+    fkg:kbId "stone_dragon_dien_kinh_thien" ;
+    rdf:object <http://transmtl.vn/kb/kinh_thien_palace> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/d5d40c2e> .
+

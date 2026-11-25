@@ -1,0 +1,146 @@
+{
+  "prompt_only": {
+    "method": "Prompt-only LLM",
+    "claim_precision": 0.9933,
+    "claim_recall": 0.5195,
+    "claim_f1": 0.5283,
+    "high_f1": 0.0553,
+    "medium_f1": 0.0721,
+    "low_f1": 0.9867,
+    "oar": 0.0805,
+    "policy_compliance": 12.1,
+    "bleu4": 11.33,
+    "rouge_l": 28.77,
+    "eval_time_sec": 19.1,
+    "sample_captions": [
+      {
+        "scenario": "A_high",
+        "cert": "HIGH",
+        "cap": "In the workshop, a pottery wheel spins with wet pottery clay, while nearby a sculptor skillfully shapes clay figures; both activities take place within an open space where hand-painted blue-and-white ceramic plates hang as evidence of previous creations."
+      },
+      {
+        "scenario": "C_ambiguous",
+        "cert": "LOW",
+        "cap": "In the workshop, a pottery wheel spins with wet pottery clay, while nearby a sculptor skillfully shapes clay figures; both activities take place within an open space where hand-painted blue-and-white ceramic plates hang as evidence of previous creations."
+      },
+      {
+        "scenario": "C_ambiguous",
+        "cert": "LOW",
+        "cap": "The bustling sidewalk is lined with vibrant street food stalls, their colorful umbrellas casting shadows on the narrow sidewalk as they stretch out in front of a shoulder pole vendor, who stands proudly amidst them, creating a lively market atmosphere that spills into a nearby tube house."
+      },
+      {
+        "scenario": "A_high",
+        "cert": "HIGH",
+        "cap": "In the bustling traditional temple courtyard sanctuary, a shoulder pole vendor stands alongside a tourist group, while nearby, a serene doctor's stelae and turtle pavilion row add to the tranquil yet lively atmosphere of this ancient site. Wooden pillars line the perimeter, creating an inviting space for visitors to explore."
+      }
+    ]
+  },
+  "kg_conditioned": {
+    "method": "KG-conditioned LLM",
+    "claim_precision": 1.0,
+    "claim_recall": 0.8973,
+    "claim_f1": 0.9242,
+    "high_f1": 0.7847,
+    "medium_f1": 0.9099,
+    "low_f1": 1.0,
+    "oar": 0.3624,
+    "policy_compliance": 22.8,
+    "bleu4": 9.84,
+    "rouge_l": 26.4,
+    "eval_time_sec": 27.1,
+    "sample_captions": [
+      {
+        "scenario": "A_high",
+        "cert": "HIGH",
+        "cap": "In the heart of Bát Tràng, Vietnam, the Bat Trang Pottery Village stands as a testament to centuries-old craftsmanship. The village, founded by local potters, is nestled within the Gia Lâm District and can be found near Bat Trang Gate. Visitors often see artisans at work, with pottery wheels meticulously turning wet clay into intricate designs, while others skillfully apply hand-painted blue-and-white patterns onto their creations."
+      },
+      {
+        "scenario": "C_ambiguous",
+        "cert": "LOW",
+        "cap": "In the vibrant Bat Trang Pottery Village of Vietnam's Bát Tràng, skilled artisans skillfully craft exquisite ceramics using traditional methods. The pottery wheel, central to their process, spins alongside clay sculptures meticulously shaped by hands. Hand-painted blue-and-white ceramic plates hang as testament to this ancient art form, while wet pottery clay dances gracefully on the spinning wheel."
+      },
+      {
+        "scenario": "C_ambiguous",
+        "cert": "LOW",
+        "cap": "The Hanoi Old Quarter is composed of 76 interconnected streets, with one notable section featuring over 76 vibrant street food stalls that span across the sidewalks, creating an engaging atmosphere where vendors like the shoulder pole vendor are surrounded by these bustling eateries. Amidst this lively scene, traditional tube houses stand as architectural remnants, while street food carts add to the culinary diversity in this historic district."
+      },
+      {
+        "scenario": "A_high",
+        "cert": "HIGH",
+        "cap": "The landmark, the Doctor's Stele Pavilion, stands gracefully within the traditional temple courtyard sanctuary, its rows of steles lining the path as tourists walk alongside it. This architectural marvel features a pavilion with a wooden structure that houses these important stone tablets, creating an atmosphere rich in history and reverence. Surrounding this sacred space is a tranquil environment where shoulder pole vendors offer their wares to curious visitors, adding a vibrant touch to the serene setting."
+      }
+    ]
+  },
+  "hard_threshold": {
+    "method": "Hard-threshold captioning",
+    "claim_precision": 0.9933,
+    "claim_recall": 0.9074,
+    "claim_f1": 0.936,
+    "high_f1": 0.8414,
+    "medium_f1": 0.9279,
+    "low_f1": 0.9867,
+    "oar": 0.2483,
+    "policy_compliance": 26.8,
+    "bleu4": 12.34,
+    "rouge_l": 31.34,
+    "eval_time_sec": 22.8,
+    "sample_captions": [
+      {
+        "scenario": "A_high",
+        "cert": "HIGH",
+        "cap": "Bat Trang Pottery Village, located in Bát Tràng, Gia Lâm District, Vietnam, was founded by local potters. The village is renowned for its traditional pottery-making techniques, evident from the presence of pottery wheels alongside sculpting clay and hand-painted blue-white ceramic plates. Wet pottery clay spins on these wheels as artisans craft their masterpieces."
+      },
+      {
+        "scenario": "C_ambiguous",
+        "cert": "LOW",
+        "cap": "The scene features a pottery wheel in the center, with a piece of clay being sculpted nearby. The wheel itself spins steadily as a figure expertly shapes the clay into form. A few hand-painted blue and white ceramic plates lie beside them, adding color to the otherwise neutral palette."
+      },
+      {
+        "scenario": "C_ambiguous",
+        "cert": "LOW",
+        "cap": "The shoulder pole vendor stands at the edge of the sidewalk, surrounded by a cluster of vibrant street food stalls that span across the narrow space, creating a bustling market scene where each stall contributes to the lively atmosphere along the busy street."
+      },
+      {
+        "scenario": "A_high",
+        "cert": "HIGH",
+        "cap": "The landmark, the Pavilion of Doctors' Stelae, stands as a significant structure within the traditional temple courtyard sanctuary. It features parts such as a pavilion, a stele, a shrine, and another pavilion, all harmoniously integrated into its design. Notably, it is adjacent to the tour groups exploring the area, with a shoulder pole vendor nearby, while the term \"doctor stelae\" can be found in various references around this sacred site."
+      }
+    ]
+  },
+  "ours_certainty_aware": {
+    "method": "Ours: Certainty-aware fine-tuned LLM",
+    "claim_precision": 1.0,
+    "claim_recall": 0.8497,
+    "claim_f1": 0.8841,
+    "high_f1": 0.7405,
+    "medium_f1": 0.7928,
+    "low_f1": 1.0,
+    "oar": 0.0067,
+    "policy_compliance": 89.3,
+    "bleu4": 32.12,
+    "rouge_l": 48.18,
+    "eval_time_sec": 49.3,
+    "sample_captions": [
+      {
+        "scenario": "A_high",
+        "cert": "HIGH",
+        "cap": "In Bat Trang Pottery Village, located within Bát Tràng district, skilled artisans work diligently at pottery wheels. A potter spins wet clay on one of the wheels while another nearby wheel shows a clay sculpture being formed. Hand-painted blue and white ceramic plates line the walls, showcasing the village's traditional craftsmanship."
+      },
+      {
+        "scenario": "C_ambiguous",
+        "cert": "LOW",
+        "cap": "The exact landmark identity remains uncertain due to limited visual evidence. A pottery wheel is prominently displayed, positioned closely alongside another similar wheel for sculpting purposes. Wet pottery clay spins on one of the wheels, while nearby, hand-painted blue and white ceramic plates can be seen."
+      },
+      {
+        "scenario": "C_ambiguous",
+        "cert": "LOW",
+        "cap": "The scene depicts a narrow street within an area known as the Hanoi Old Quarter, where various vendors are active. A shoulder pole vendor stands near several sidewalk street food stalls, which span across the width of the street. Sidewalk street food stalls surround the vendor on all sides, creating a bustling atmosphere along this part of the quarter. The exact landmark identity remains uncertain due to limited visual evidence."
+      },
+      {
+        "scenario": "A_high",
+        "cert": "HIGH",
+        "cap": "The traditional temple courtyard sanctuary spans across where a tourist group stands nearby. A shoulder pole vendor is also present, positioned close by. In the vicinity, there is a row of doctor stelae turtle pavilions and a stele house, though these structures are less prominent in the current view."
+      }
+    ]
+  }
+}

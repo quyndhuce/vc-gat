@@ -1,0 +1,312 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/93f87b95> onto:held_in <http://transmtl.vn/kb/memorial_temple> .
+
+<http://transmtl.vn/kb/memorial_temple#central_entrance> onto:faces <http://transmtl.vn/ent/5d486151> .
+
+<http://transmtl.vn/kb/memorial_temple#main_door> onto:made_of <http://transmtl.vn/ent/40748815> .
+
+<http://transmtl.vn/kb/memorial_temple#base> onto:made_of <http://transmtl.vn/ent/90ce7743> ;
+    onto:on <http://transmtl.vn/ent/1accaa5d> .
+
+<http://transmtl.vn/kb/memorial_temple#main_facade> onto:on <http://transmtl.vn/ent/1accaa5d> ;
+    onto:part_of <http://transmtl.vn/kb/memorial_temple> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village> onto:commemorates <http://transmtl.vn/ent/9fb252e0>,
+        <http://transmtl.vn/ent/a84d1d31>,
+        <http://transmtl.vn/ent/b30430c6> ;
+    onto:designed_by <http://transmtl.vn/ent/6198e228>,
+        <http://transmtl.vn/ent/d508fe45> ;
+    onto:recognized_in <http://transmtl.vn/ent/313e0be8> .
+
+<http://transmtl.vn/kb/memorial_temple#facades> onto:made_of <http://transmtl.vn/ent/8a76b744> ;
+    onto:on <http://transmtl.vn/ent/1accaa5d>,
+        <http://transmtl.vn/ent/da417343> ;
+    onto:part_of <http://transmtl.vn/kb/memorial_temple>,
+        <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/memorial_temple> onto:commemorates <http://transmtl.vn/ent/9fb252e0>,
+        <http://transmtl.vn/ent/b30430c6> ;
+    onto:has_part <http://transmtl.vn/kb/memorial_temple#base>,
+        <http://transmtl.vn/kb/memorial_temple#central_entrance>,
+        <http://transmtl.vn/kb/memorial_temple#facades>,
+        <http://transmtl.vn/kb/memorial_temple#main_door>,
+        <http://transmtl.vn/kb/memorial_temple#main_facade> ;
+    onto:inaugurated_in <http://transmtl.vn/ent/8f136ee3> ;
+    onto:recognized_in <http://transmtl.vn/ent/d0fb963f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4802 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/8a76b744> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple#main_facade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3001 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/313e0be8> ;
+    rdf:predicate onto:recognized_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2699 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/da417343> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple#facades> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple#facades> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple#central_entrance> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3056 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/90ce7743> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3679 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/9fb252e0> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2877 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/8a76b744> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4694 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/1accaa5d> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#base> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3214 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/9fb252e0> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2941 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5807 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/40748815> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#main_door> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple#main_facade> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2662 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/da417343> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4293 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/a84d1d31> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple#base> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.307 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/1accaa5d> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8285 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/1accaa5d> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#main_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.26 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#main_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3161 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/b30430c6> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3039 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/d0fb963f> ;
+    rdf:predicate onto:recognized_in ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5368 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/1accaa5d> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#main_facade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3522 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2522 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#facades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2828 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/6198e228> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.32 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/d508fe45> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2747 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple> ;
+    rdf:predicate onto:held_in ;
+    rdf:subject <http://transmtl.vn/ent/93f87b95> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3383 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/b30430c6> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/kb/memorial_temple#main_door> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2695 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/5d486151> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple#central_entrance> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4955 ;
+    fkg:docId "doc_726873261bc6" ;
+    fkg:kbId "memorial_temple" ;
+    rdf:object <http://transmtl.vn/ent/8f136ee3> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/memorial_temple> .
+

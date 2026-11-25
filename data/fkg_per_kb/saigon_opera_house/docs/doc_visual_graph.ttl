@@ -1,0 +1,468 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.wikidata.org/entity/Q1949129#caryatid_statues> onto:part_of <http://transmtl.vn/ent/d6133205> .
+
+<http://www.wikidata.org/entity/Q1949129#corinthian_pilasters> onto:part_of <http://transmtl.vn/ent/d6133205> .
+
+<http://www.wikidata.org/entity/Q1949129#sculpted_relief_balustrades> onto:part_of <http://transmtl.vn/ent/d6133205> .
+
+<http://www.wikidata.org/entity/Q1949129#triangular_pediment> onto:part_of <http://transmtl.vn/ent/d6133205> .
+
+<http://www.wikidata.org/entity/Q1949129#two_layer_soundproof_door_system> onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q1949129#two_levels_of_seating> onto:part_of <http://www.wikidata.org/entity/Q1949129> .
+
+<http://www.wikidata.org/entity/Q1949129#two_meters> onto:above <http://transmtl.vn/ent/3c82db0a> ;
+    onto:over <http://transmtl.vn/ent/3c82db0a> .
+
+<http://www.wikidata.org/entity/Q1949129#grand_arched_central_portal> onto:part_of <http://transmtl.vn/ent/d6133205> ;
+    onto:surrounded_by <http://transmtl.vn/ent/180f0836>,
+        <http://transmtl.vn/ent/22713308> .
+
+<http://www.wikidata.org/entity/Q1949129#main_seating_floor> onto:located_inside <http://transmtl.vn/ent/335cf450>,
+        <http://www.wikidata.org/entity/Q1949129> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1949129> .
+
+<http://www.wikidata.org/entity/Q1949129#auditorium> onto:adjacent_to <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:faces <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:near <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:overlooks <http://transmtl.vn/ent/4ed5d2ea> ;
+    onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q1949129#raised_floor> onto:above <http://transmtl.vn/ent/2c2e29b0>,
+        <http://transmtl.vn/ent/3c82db0a> ;
+    onto:over <http://transmtl.vn/ent/2c2e29b0>,
+        <http://transmtl.vn/ent/3c82db0a> ;
+    onto:part_of <http://transmtl.vn/ent/1b20e902> .
+
+<http://www.wikidata.org/entity/Q1949129#façade> onto:has_component <http://transmtl.vn/ent/265b2b18>,
+        <http://transmtl.vn/ent/aa7dd44e>,
+        <http://transmtl.vn/ent/cbda97c6> ;
+    onto:has_entrance <http://transmtl.vn/ent/aa7dd44e> ;
+    onto:has_part <http://transmtl.vn/ent/aa7dd44e>,
+        <http://transmtl.vn/ent/cbda97c6> ;
+    onto:made_of <http://transmtl.vn/ent/0a840ef4> .
+
+<http://www.wikidata.org/entity/Q1949129> onto:adjacent_to <http://transmtl.vn/ent/cbca0090> ;
+    onto:has_component <http://transmtl.vn/ent/26f9c691>,
+        <http://transmtl.vn/ent/b52a0764>,
+        <http://www.wikidata.org/entity/Q1949129#auditorium>,
+        <http://www.wikidata.org/entity/Q1949129#caryatid_statues>,
+        <http://www.wikidata.org/entity/Q1949129#corinthian_pilasters>,
+        <http://www.wikidata.org/entity/Q1949129#façade>,
+        <http://www.wikidata.org/entity/Q1949129#grand_arched_central_portal>,
+        <http://www.wikidata.org/entity/Q1949129#main_seating_floor>,
+        <http://www.wikidata.org/entity/Q1949129#raised_floor>,
+        <http://www.wikidata.org/entity/Q1949129#sculpted_relief_balustrades>,
+        <http://www.wikidata.org/entity/Q1949129#triangular_pediment>,
+        <http://www.wikidata.org/entity/Q1949129#two_layer_soundproof_door_system>,
+        <http://www.wikidata.org/entity/Q1949129#two_levels_of_seating>,
+        <http://www.wikidata.org/entity/Q1949129#two_meters> ;
+    onto:has_part <http://transmtl.vn/ent/26f9c691> ;
+    onto:located_in <http://transmtl.vn/ent/1675f1c5> ;
+    onto:near <http://transmtl.vn/ent/cbca0090> ;
+    onto:overlooks <http://transmtl.vn/ent/11431c92> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5789 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/cbca0090> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3442 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/b52a0764> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4816 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3c82db0a> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#two_meters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.613 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/d6133205> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#caryatid_statues> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.917 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/0a840ef4> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#triangular_pediment> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8108 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/aa7dd44e> ;
+    rdf:predicate onto:has_entrance ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#grand_arched_central_portal> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3451 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/cbda97c6> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#sculpted_relief_balustrades> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4175 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/265b2b18> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7668 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/d6133205> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#triangular_pediment> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.753 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#raised_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5812 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/180f0836> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#grand_arched_central_portal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3212 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/d6133205> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#corinthian_pilasters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#two_layer_soundproof_door_system> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#caryatid_statues> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#auditorium> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5864 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/26f9c691> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2977 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/cbca0090> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#two_meters> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2995 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#auditorium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#main_seating_floor> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4974 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#main_seating_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#façade> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6582 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3c82db0a> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#raised_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6283 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3c82db0a> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#raised_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4472 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/d6133205> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#sculpted_relief_balustrades> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8937 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/1675f1c5> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2888 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/2c2e29b0> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#raised_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3753 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#auditorium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3469 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/11431c92> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#raised_floor> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4498 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:faces ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#auditorium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6876 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#main_seating_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2999 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:overlooks ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#auditorium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4279 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#auditorium> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5233 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/cbda97c6> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3184 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/26f9c691> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#two_levels_of_seating> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5698 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/1b20e902> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#two_layer_soundproof_door_system> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3202 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#two_levels_of_seating> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2559 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/aa7dd44e> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4072 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/3c82db0a> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#two_meters> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6516 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/d6133205> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#grand_arched_central_portal> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://www.wikidata.org/entity/Q1949129#corinthian_pilasters> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2912 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/335cf450> ;
+    rdf:predicate onto:located_inside ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#main_seating_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.287 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/aa7dd44e> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#façade> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3255 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/2c2e29b0> ;
+    rdf:predicate onto:above ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#raised_floor> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8365 ;
+    fkg:docId "doc_visual" ;
+    fkg:kbId "saigon_opera_house" ;
+    rdf:object <http://transmtl.vn/ent/22713308> ;
+    rdf:predicate onto:surrounded_by ;
+    rdf:subject <http://www.wikidata.org/entity/Q1949129#grand_arched_central_portal> .
+

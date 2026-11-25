@@ -1,0 +1,55 @@
+========================================================================
+FUZZY KNOWLEDGE GRAPH — CONFLICT & REVIEW REPORT
+========================================================================
+
+⚠  1 SINGLE-VALUED GROUPS NEED REVIEW (K ≥ 0.5)
+
+  (Hanoi)  --[capital_of]-->  ?
+  Head URI  : http://transmtl.vn/ent/207462d2
+  Conflict K: 0.8843
+  Candidates:
+    • Vietnam                         Bel=0.9833  Pl=0.9873  (4 evidence)
+    • Vietnamese                      Bel=0.0064  Pl=0.0105  (1 evidence)
+    • country                         Bel=0.0031  Pl=0.0071  (1 evidence)
+    • Later Lê Dynasty                Bel=0.0021  Pl=0.0062  (1 evidence)
+    • Later Le dynasty                Bel=0.0011  Pl=0.0051  (1 evidence)
+
+------------------------------------------------------------------------
+ALL SINGLE-VALUED FACT GROUPS:
+------------------------------------------------------------------------
+  [former_name_of] (Kính Thien Palace) → http://transmtl.vn/kb/kinh_thien_palace  Bel=0.3205  K=0.0757
+  [built_in] (Kinh Thien Palace) → http://transmtl.vn/ent/0663a4dd  Bel=0.6594  K=0.0000
+  [capital_of] (Hanoi) → http://transmtl.vn/ent/5f8f9e33  Bel=0.9833  K=0.8843 ⚠ REVIEW
+  [built_in] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/0663a4dd  Bel=0.7805  K=0.0000
+  [capital_of] (capital city) → http://transmtl.vn/ent/5f8f9e33  Bel=0.2029  K=0.0000
+  [dated_to] (Kinh Thien Palace) → http://transmtl.vn/ent/837632ba  Bel=0.2983  K=0.0933
+  [capital_of] (Thang Long) → http://transmtl.vn/ent/5f8f9e33  Bel=0.9051  K=0.0000
+  [dated_to] (Dragon Threshold) → http://transmtl.vn/ent/0245952e  Bel=0.2160  K=0.0000
+  [symbol_of] (Imperial Citadel of Thang Long) → http://transmtl.vn/ent/f74e2ce1  Bel=0.2012  K=0.0000
+  [demolished_in] (Kinh Thien Palace) → http://transmtl.vn/ent/e5fe3c72  Bel=0.3697  K=0.0852
+
+------------------------------------------------------------------------
+MULTI-VALUED FACTS (top-20 by μ_F):
+------------------------------------------------------------------------
+  [has_part] (Kinh Thien Palace) → (foundation)  μ_F=1.0000  (9 evidence)
+  [has_part] (Kinh Thien Palace) → (platform)  μ_F=0.9991  (3 evidence)
+  [has_part] (Kinh Thien Palace) → (Dragon Threshold)  μ_F=0.9991  (3 evidence)
+  [has_part] (Kinh Thien Palace) → (path)  μ_F=0.9905  (2 evidence)
+  [has_part] (Kinh Thien Palace) → (double-eaved roof)  μ_F=0.9905  (2 evidence)
+  [has_part] (Kinh Thien Palace) → (eight ridges)  μ_F=0.9905  (2 evidence)
+  [has_part] (Kinh Thien Palace) → (dragons)  μ_F=0.9905  (2 evidence)
+  [has_part] (Kinh Thien Palace) → (eyes)  μ_F=0.9905  (2 evidence)
+  [has_part] (Kinh Thien Palace) → (Cửa Bắc)  μ_F=0.9905  (2 evidence)
+  [part_of] (Kinh Thien Palace) → (Imperial Citadel of Thang Long)  μ_F=0.9277  (6 evidence)
+  [part_of] (foundation) → (Imperial Citadel of Thang Long)  μ_F=0.9230  (7 evidence)
+  [located_in] (Imperial Citadel of Thang Long) → (Hanoi)  μ_F=0.9098  (4 evidence)
+  [has_part] (Kinh Thien Palace) → (main hall)  μ_F=0.9025  (1 evidence)
+  [has_part] (Kinh Thien Palace) → (wings)  μ_F=0.9025  (1 evidence)
+  [has_part] (Kinh Thien Palace) → (two wings)  μ_F=0.9025  (1 evidence)
+  [has_part] (Kinh Thien Palace) → (corner)  μ_F=0.9025  (1 evidence)
+  [has_part] (Kinh Thien Palace) → (eight roofs)  μ_F=0.9025  (1 evidence)
+  [has_part] (Kinh Thien Palace) → (roofs)  μ_F=0.9025  (1 evidence)
+  [has_part] (Kinh Thien Palace) → (roof edges)  μ_F=0.9025  (1 evidence)
+  [has_part] (Kinh Thien Palace) → (entrance)  μ_F=0.9025  (1 evidence)
+
+========================================================================

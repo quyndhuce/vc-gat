@@ -1,0 +1,686 @@
+{
+  "full_kb_base": {
+    "M0_baseline": {
+      "n": 7088,
+      "n_pos": 5444,
+      "n_neg": 1644,
+      "base_rate": 76.81,
+      "auroc": 0.5204,
+      "auprc": 0.7732,
+      "brier": 0.2627,
+      "ece": 0.2597,
+      "spearman_rho": -0.0071,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 7088,
+          "retained_pct": 100.0,
+          "precision": 76.81,
+          "recall": 100.0,
+          "far": 100.0,
+          "accuracy": 76.81
+        },
+        "tau_0.3": {
+          "retained": 6140,
+          "retained_pct": 86.63,
+          "precision": 77.61,
+          "recall": 87.53,
+          "far": 83.64,
+          "accuracy": 71.02
+        },
+        "tau_0.5": {
+          "retained": 4407,
+          "retained_pct": 62.18,
+          "precision": 77.47,
+          "recall": 62.71,
+          "far": 60.4,
+          "accuracy": 57.35
+        },
+        "tau_0.7": {
+          "retained": 3716,
+          "retained_pct": 52.43,
+          "precision": 78.07,
+          "recall": 53.29,
+          "far": 49.57,
+          "accuracy": 52.62
+        },
+        "tau_0.8": {
+          "retained": 3514,
+          "retained_pct": 49.58,
+          "precision": 78.4,
+          "recall": 50.61,
+          "far": 46.17,
+          "accuracy": 51.35
+        },
+        "tau_0.85": {
+          "retained": 3451,
+          "retained_pct": 48.69,
+          "precision": 78.73,
+          "recall": 49.91,
+          "far": 44.65,
+          "accuracy": 51.17
+        },
+        "tau_0.9": {
+          "retained": 2942,
+          "retained_pct": 41.51,
+          "precision": 80.08,
+          "recall": 43.28,
+          "far": 35.64,
+          "accuracy": 48.17
+        },
+        "tau_0.95": {
+          "retained": 2668,
+          "retained_pct": 37.64,
+          "precision": 79.84,
+          "recall": 39.13,
+          "far": 32.73,
+          "accuracy": 45.65
+        },
+        "tau_1.0": {
+          "retained": 1903,
+          "retained_pct": 26.85,
+          "precision": 74.78,
+          "recall": 26.14,
+          "far": 29.2,
+          "accuracy": 36.5
+        }
+      }
+    },
+    "M2_V1": {
+      "n": 7088,
+      "n_pos": 5444,
+      "n_neg": 1644,
+      "base_rate": 76.81,
+      "auroc": 0.4623,
+      "auprc": 0.7522,
+      "brier": 0.3912,
+      "ece": 0.3701,
+      "spearman_rho": -0.008,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5293,
+          "retained_pct": 74.68,
+          "precision": 75.53,
+          "recall": 73.44,
+          "far": 78.77,
+          "accuracy": 61.33
+        },
+        "tau_0.3": {
+          "retained": 4811,
+          "retained_pct": 67.88,
+          "precision": 75.66,
+          "recall": 66.86,
+          "far": 71.23,
+          "accuracy": 58.03
+        },
+        "tau_0.5": {
+          "retained": 4497,
+          "retained_pct": 63.45,
+          "precision": 75.52,
+          "recall": 62.38,
+          "far": 66.97,
+          "accuracy": 55.57
+        },
+        "tau_0.7": {
+          "retained": 4101,
+          "retained_pct": 57.86,
+          "precision": 75.25,
+          "recall": 56.69,
+          "far": 61.74,
+          "accuracy": 52.41
+        },
+        "tau_0.8": {
+          "retained": 3710,
+          "retained_pct": 52.34,
+          "precision": 75.18,
+          "recall": 51.23,
+          "far": 56.02,
+          "accuracy": 49.55
+        },
+        "tau_0.85": {
+          "retained": 3263,
+          "retained_pct": 46.04,
+          "precision": 74.44,
+          "recall": 44.62,
+          "far": 50.73,
+          "accuracy": 45.7
+        },
+        "tau_0.9": {
+          "retained": 2902,
+          "retained_pct": 40.94,
+          "precision": 73.5,
+          "recall": 39.18,
+          "far": 46.78,
+          "accuracy": 42.44
+        },
+        "tau_0.95": {
+          "retained": 2494,
+          "retained_pct": 35.19,
+          "precision": 73.46,
+          "recall": 33.65,
+          "far": 40.27,
+          "accuracy": 39.7
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 23.19
+        }
+      }
+    },
+    "M2_V2": {
+      "n": 7088,
+      "n_pos": 5444,
+      "n_neg": 1644,
+      "base_rate": 76.81,
+      "auroc": 0.671,
+      "auprc": 0.8431,
+      "brier": 0.2951,
+      "ece": 0.2909,
+      "spearman_rho": -0.0085,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5227,
+          "retained_pct": 73.74,
+          "precision": 83.3,
+          "recall": 79.98,
+          "far": 53.1,
+          "accuracy": 72.31
+        },
+        "tau_0.3": {
+          "retained": 4801,
+          "retained_pct": 67.73,
+          "precision": 83.38,
+          "recall": 73.53,
+          "far": 48.54,
+          "accuracy": 68.41
+        },
+        "tau_0.5": {
+          "retained": 4592,
+          "retained_pct": 64.79,
+          "precision": 83.38,
+          "recall": 70.33,
+          "far": 46.41,
+          "accuracy": 66.45
+        },
+        "tau_0.7": {
+          "retained": 4301,
+          "retained_pct": 60.68,
+          "precision": 83.19,
+          "recall": 65.72,
+          "far": 43.98,
+          "accuracy": 63.47
+        },
+        "tau_0.8": {
+          "retained": 4073,
+          "retained_pct": 57.46,
+          "precision": 83.18,
+          "recall": 62.23,
+          "far": 41.67,
+          "accuracy": 61.33
+        },
+        "tau_0.85": {
+          "retained": 3716,
+          "retained_pct": 52.43,
+          "precision": 83.21,
+          "recall": 56.8,
+          "far": 37.96,
+          "accuracy": 58.01
+        },
+        "tau_0.9": {
+          "retained": 3532,
+          "retained_pct": 49.83,
+          "precision": 83.27,
+          "recall": 54.02,
+          "far": 35.95,
+          "accuracy": 56.35
+        },
+        "tau_0.95": {
+          "retained": 3225,
+          "retained_pct": 45.5,
+          "precision": 82.98,
+          "recall": 49.16,
+          "far": 33.39,
+          "accuracy": 53.2
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 23.19
+        }
+      }
+    },
+    "M2_V2_strict": {
+      "n": 7088,
+      "n_pos": 5420,
+      "n_neg": 1668,
+      "base_rate": 76.47,
+      "auroc": 0.6677,
+      "auprc": 0.8385,
+      "brier": 0.2965,
+      "ece": 0.2918,
+      "spearman_rho": -0.0089,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5227,
+          "retained_pct": 73.74,
+          "precision": 82.92,
+          "recall": 79.96,
+          "far": 53.54,
+          "accuracy": 72.08
+        },
+        "tau_0.3": {
+          "retained": 4801,
+          "retained_pct": 67.73,
+          "precision": 82.98,
+          "recall": 73.51,
+          "far": 48.98,
+          "accuracy": 68.21
+        },
+        "tau_0.5": {
+          "retained": 4592,
+          "retained_pct": 64.79,
+          "precision": 83.01,
+          "recall": 70.33,
+          "far": 46.76,
+          "accuracy": 66.31
+        },
+        "tau_0.7": {
+          "retained": 4301,
+          "retained_pct": 60.68,
+          "precision": 82.84,
+          "recall": 65.74,
+          "far": 44.24,
+          "accuracy": 63.39
+        },
+        "tau_0.8": {
+          "retained": 4073,
+          "retained_pct": 57.46,
+          "precision": 82.81,
+          "recall": 62.23,
+          "far": 41.97,
+          "accuracy": 61.24
+        },
+        "tau_0.85": {
+          "retained": 3716,
+          "retained_pct": 52.43,
+          "precision": 82.83,
+          "recall": 56.79,
+          "far": 38.25,
+          "accuracy": 57.96
+        },
+        "tau_0.9": {
+          "retained": 3532,
+          "retained_pct": 49.83,
+          "precision": 82.87,
+          "recall": 54.0,
+          "far": 36.27,
+          "accuracy": 56.29
+        },
+        "tau_0.95": {
+          "retained": 3225,
+          "retained_pct": 45.5,
+          "precision": 82.57,
+          "recall": 49.13,
+          "far": 33.69,
+          "accuracy": 53.17
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 23.53
+        }
+      }
+    }
+  },
+  "admissible_kb_base": {
+    "M0_baseline": {
+      "n": 6470,
+      "n_pos": 5378,
+      "n_neg": 1092,
+      "base_rate": 83.12,
+      "auroc": 0.5348,
+      "auprc": 0.8392,
+      "brier": 0.2367,
+      "ece": 0.2594,
+      "spearman_rho": 0.0026,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 6470,
+          "retained_pct": 100.0,
+          "precision": 83.12,
+          "recall": 100.0,
+          "far": 100.0,
+          "accuracy": 83.12
+        },
+        "tau_0.3": {
+          "retained": 5633,
+          "retained_pct": 87.06,
+          "precision": 83.85,
+          "recall": 87.82,
+          "far": 83.33,
+          "accuracy": 75.81
+        },
+        "tau_0.5": {
+          "retained": 4016,
+          "retained_pct": 62.07,
+          "precision": 84.41,
+          "recall": 63.03,
+          "far": 57.33,
+          "accuracy": 59.6
+        },
+        "tau_0.7": {
+          "retained": 3397,
+          "retained_pct": 52.5,
+          "precision": 84.87,
+          "recall": 53.61,
+          "far": 47.07,
+          "accuracy": 53.49
+        },
+        "tau_0.8": {
+          "retained": 3233,
+          "retained_pct": 49.97,
+          "precision": 84.69,
+          "recall": 50.91,
+          "far": 45.33,
+          "accuracy": 51.55
+        },
+        "tau_0.85": {
+          "retained": 3190,
+          "retained_pct": 49.3,
+          "precision": 84.67,
+          "recall": 50.22,
+          "far": 44.78,
+          "accuracy": 51.07
+        },
+        "tau_0.9": {
+          "retained": 2727,
+          "retained_pct": 42.15,
+          "precision": 85.92,
+          "recall": 43.57,
+          "far": 35.16,
+          "accuracy": 47.16
+        },
+        "tau_0.95": {
+          "retained": 2465,
+          "retained_pct": 38.1,
+          "precision": 85.88,
+          "recall": 39.36,
+          "far": 31.87,
+          "accuracy": 44.22
+        },
+        "tau_1.0": {
+          "retained": 1728,
+          "retained_pct": 26.71,
+          "precision": 81.89,
+          "recall": 26.31,
+          "far": 28.66,
+          "accuracy": 33.91
+        }
+      }
+    },
+    "M2_V1": {
+      "n": 6470,
+      "n_pos": 5378,
+      "n_neg": 1092,
+      "base_rate": 83.12,
+      "auroc": 0.5019,
+      "auprc": 0.8361,
+      "brier": 0.3668,
+      "ece": 0.3585,
+      "spearman_rho": 0.0005,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 4760,
+          "retained_pct": 73.57,
+          "precision": 83.07,
+          "recall": 73.52,
+          "far": 73.81,
+          "accuracy": 65.53
+        },
+        "tau_0.3": {
+          "retained": 4325,
+          "retained_pct": 66.85,
+          "precision": 83.28,
+          "recall": 66.98,
+          "far": 66.21,
+          "accuracy": 61.38
+        },
+        "tau_0.5": {
+          "retained": 4041,
+          "retained_pct": 62.46,
+          "precision": 83.22,
+          "recall": 62.53,
+          "far": 62.09,
+          "accuracy": 58.38
+        },
+        "tau_0.7": {
+          "retained": 3681,
+          "retained_pct": 56.89,
+          "precision": 83.16,
+          "recall": 56.92,
+          "far": 56.78,
+          "accuracy": 54.61
+        },
+        "tau_0.8": {
+          "retained": 3326,
+          "retained_pct": 51.41,
+          "precision": 83.16,
+          "recall": 51.43,
+          "far": 51.28,
+          "accuracy": 50.97
+        },
+        "tau_0.85": {
+          "retained": 2907,
+          "retained_pct": 44.93,
+          "precision": 82.9,
+          "recall": 44.81,
+          "far": 45.51,
+          "accuracy": 46.45
+        },
+        "tau_0.9": {
+          "retained": 2575,
+          "retained_pct": 39.8,
+          "precision": 82.21,
+          "recall": 39.36,
+          "far": 41.94,
+          "accuracy": 42.52
+        },
+        "tau_0.95": {
+          "retained": 2210,
+          "retained_pct": 34.16,
+          "precision": 82.26,
+          "recall": 33.8,
+          "far": 35.9,
+          "accuracy": 38.92
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 16.88
+        }
+      }
+    },
+    "M2_V2": {
+      "n": 6470,
+      "n_pos": 5378,
+      "n_neg": 1092,
+      "base_rate": 83.12,
+      "auroc": 0.5153,
+      "auprc": 0.8443,
+      "brier": 0.3131,
+      "ece": 0.3085,
+      "spearman_rho": 0.0,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5227,
+          "retained_pct": 80.79,
+          "precision": 83.3,
+          "recall": 80.96,
+          "far": 79.95,
+          "accuracy": 70.68
+        },
+        "tau_0.3": {
+          "retained": 4801,
+          "retained_pct": 74.2,
+          "precision": 83.38,
+          "recall": 74.43,
+          "far": 73.08,
+          "accuracy": 66.41
+        },
+        "tau_0.5": {
+          "retained": 4592,
+          "retained_pct": 70.97,
+          "precision": 83.38,
+          "recall": 71.2,
+          "far": 69.87,
+          "accuracy": 64.27
+        },
+        "tau_0.7": {
+          "retained": 4301,
+          "retained_pct": 66.48,
+          "precision": 83.19,
+          "recall": 66.53,
+          "far": 66.21,
+          "accuracy": 61.0
+        },
+        "tau_0.8": {
+          "retained": 4073,
+          "retained_pct": 62.95,
+          "precision": 83.18,
+          "recall": 63.0,
+          "far": 62.73,
+          "accuracy": 58.66
+        },
+        "tau_0.85": {
+          "retained": 3716,
+          "retained_pct": 57.43,
+          "precision": 83.21,
+          "recall": 57.49,
+          "far": 57.14,
+          "accuracy": 55.02
+        },
+        "tau_0.9": {
+          "retained": 3532,
+          "retained_pct": 54.59,
+          "precision": 83.27,
+          "recall": 54.69,
+          "far": 54.12,
+          "accuracy": 53.2
+        },
+        "tau_0.95": {
+          "retained": 3225,
+          "retained_pct": 49.85,
+          "precision": 82.98,
+          "recall": 49.76,
+          "far": 50.27,
+          "accuracy": 49.75
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 16.88
+        }
+      }
+    },
+    "M2_V2_strict": {
+      "n": 6470,
+      "n_pos": 5354,
+      "n_neg": 1116,
+      "base_rate": 82.75,
+      "auroc": 0.5137,
+      "auprc": 0.8397,
+      "brier": 0.3146,
+      "ece": 0.3094,
+      "spearman_rho": -0.0006,
+      "sweep": {
+        "tau_0.1": {
+          "retained": 5227,
+          "retained_pct": 80.79,
+          "precision": 82.92,
+          "recall": 80.95,
+          "far": 80.02,
+          "accuracy": 70.43
+        },
+        "tau_0.3": {
+          "retained": 4801,
+          "retained_pct": 74.2,
+          "precision": 82.98,
+          "recall": 74.41,
+          "far": 73.21,
+          "accuracy": 66.2
+        },
+        "tau_0.5": {
+          "retained": 4592,
+          "retained_pct": 70.97,
+          "precision": 83.01,
+          "recall": 71.2,
+          "far": 69.89,
+          "accuracy": 64.11
+        },
+        "tau_0.7": {
+          "retained": 4301,
+          "retained_pct": 66.48,
+          "precision": 82.84,
+          "recall": 66.55,
+          "far": 66.13,
+          "accuracy": 60.91
+        },
+        "tau_0.8": {
+          "retained": 4073,
+          "retained_pct": 62.95,
+          "precision": 82.81,
+          "recall": 63.0,
+          "far": 62.72,
+          "accuracy": 58.56
+        },
+        "tau_0.85": {
+          "retained": 3716,
+          "retained_pct": 57.43,
+          "precision": 82.83,
+          "recall": 57.49,
+          "far": 57.17,
+          "accuracy": 54.96
+        },
+        "tau_0.9": {
+          "retained": 3532,
+          "retained_pct": 54.59,
+          "precision": 82.87,
+          "recall": 54.67,
+          "far": 54.21,
+          "accuracy": 53.14
+        },
+        "tau_0.95": {
+          "retained": 3225,
+          "retained_pct": 49.85,
+          "precision": 82.57,
+          "recall": 49.74,
+          "far": 50.36,
+          "accuracy": 49.72
+        },
+        "tau_1.0": {
+          "retained": 0,
+          "retained_pct": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "far": 0.0,
+          "accuracy": 17.25
+        }
+      }
+    }
+  }
+}

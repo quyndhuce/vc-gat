@@ -1,0 +1,118 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/d09c6c71> onto:symbol_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple> onto:has_part <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#architectural_block>,
+        <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#hoành_phi> ;
+    onto:located_in <http://transmtl.vn/ent/d96123b7> .
+
+<http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#architectural_block> onto:built_by <http://transmtl.vn/ent/abb45fdc> .
+
+<http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#hoành_phi> onto:located_in <http://transmtl.vn/ent/8f1c5099> ;
+    onto:part_of <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+<http://transmtl.vn/kb/van_phuc_silk_village> onto:commemorates <http://transmtl.vn/ent/23ed0062> ;
+    onto:dedicated_to <http://transmtl.vn/ent/23ed0062>,
+        <http://transmtl.vn/ent/c1769aa3>,
+        <http://transmtl.vn/ent/d33f9504> ;
+    onto:resting_place_of <http://transmtl.vn/ent/d33f9504> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4097 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/8f1c5099> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#hoành_phi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2863 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/c1769aa3> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3557 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/abb45fdc> ;
+    rdf:predicate onto:built_by ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#architectural_block> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.485 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/23ed0062> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#architectural_block> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.326 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#hoành_phi> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6197 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/d96123b7> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple#hoành_phi> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_craft_founder_temple> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3022 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/d33f9504> ;
+    rdf:predicate onto:resting_place_of ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2536 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/23ed0062> ;
+    rdf:predicate onto:commemorates ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5384 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/ent/d33f9504> ;
+    rdf:predicate onto:dedicated_to ;
+    rdf:subject <http://transmtl.vn/kb/van_phuc_silk_village> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2865 ;
+    fkg:docId "doc_c2a900135ef4" ;
+    fkg:kbId "van_phuc_silk_craft_founder_temple" ;
+    rdf:object <http://transmtl.vn/kb/van_phuc_silk_village> ;
+    rdf:predicate onto:symbol_of ;
+    rdf:subject <http://transmtl.vn/ent/d09c6c71> .
+

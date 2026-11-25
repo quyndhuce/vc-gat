@@ -1,0 +1,118 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/0076a2a3> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/7dbf02f9> onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+<http://transmtl.vn/kb/ethnic_house#porch_wall> onto:part_of <http://transmtl.vn/kb/vietnam_museum_of_ethnology> .
+
+<http://transmtl.vn/kb/ethnic_house#roof> onto:part_of <http://transmtl.vn/ent/3ed8ccd8> .
+
+<http://transmtl.vn/kb/ethnic_house> onto:has_part <http://transmtl.vn/kb/ethnic_house#porch_wall>,
+        <http://transmtl.vn/kb/ethnic_house#roof> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://transmtl.vn/ent/207462d2> onto:capital_of <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/ent/e909c2d7> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.371 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2876 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_house#porch_wall> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.9865 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3286 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/kb/ethnic_house#porch_wall> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5086 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/7dbf02f9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_house> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7343 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/0076a2a3> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4839 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/ent/3ed8ccd8> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_house#roof> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5006 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/ent/e909c2d7> ;
+    rdf:predicate onto:capital_of ;
+    rdf:subject <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3035 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/kb/vietnam_museum_of_ethnology> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/7dbf02f9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_ae9e9243b412" ;
+    fkg:kbId "ethnic_house" ;
+    rdf:object <http://transmtl.vn/kb/ethnic_house#roof> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/ethnic_house> .
+

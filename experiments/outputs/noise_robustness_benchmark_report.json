@@ -1,0 +1,189 @@
+{
+  "theta_threshold": 0.6,
+  "experiments": {
+    "05pct": {
+      "noise_ratio_pct": 5,
+      "noise_facts_injected": 323,
+      "total_graph_facts": 6203,
+      "layer_1_leakage": {
+        "leaked_count": 103,
+        "leakage_pct": 31.89,
+        "blocked_pct": 68.11
+      },
+      "layer_2_leakage": {
+        "ours_top3_leaked": 2,
+        "ours_leakage_pct": 0.27,
+        "no_threshold_leakage_pct": 0.27,
+        "vlm_rag_contamination_pct": 8.0
+      },
+      "layer_3_caption_false_claim_rate": {
+        "ours_pct": 0.1,
+        "no_threshold_pct": 0.21,
+        "vlm_rag_pct": 7.04
+      },
+      "dempster_conflict": {
+        "mean_conflict_K": 0.0856,
+        "high_conflict_ratio_pct": 3.48
+      },
+      "proposition_verification": {
+        "ece": 0.4168,
+        "theoretical_upper_bound": 0.8168,
+        "theoretical_bound_pct": 81.68,
+        "empirical_far": 0.0462,
+        "empirical_far_pct": 4.62,
+        "bound_satisfied": true,
+        "margin": 0.7706
+      }
+    },
+    "10pct": {
+      "noise_ratio_pct": 10,
+      "noise_facts_injected": 683,
+      "total_graph_facts": 6428,
+      "layer_1_leakage": {
+        "leaked_count": 205,
+        "leakage_pct": 30.01,
+        "blocked_pct": 69.99
+      },
+      "layer_2_leakage": {
+        "ours_top3_leaked": 25,
+        "ours_leakage_pct": 3.34,
+        "no_threshold_leakage_pct": 3.47,
+        "vlm_rag_contamination_pct": 14.4
+      },
+      "layer_3_caption_false_claim_rate": {
+        "ours_pct": 1.27,
+        "no_threshold_pct": 2.71,
+        "vlm_rag_pct": 12.67
+      },
+      "dempster_conflict": {
+        "mean_conflict_K": 0.1327,
+        "high_conflict_ratio_pct": 8.79
+      },
+      "proposition_verification": {
+        "ece": 0.3799,
+        "theoretical_upper_bound": 0.7799,
+        "theoretical_bound_pct": 77.99,
+        "empirical_far": 0.0883,
+        "empirical_far_pct": 8.83,
+        "bound_satisfied": true,
+        "margin": 0.6915
+      }
+    },
+    "20pct": {
+      "noise_ratio_pct": 20,
+      "noise_facts_injected": 1537,
+      "total_graph_facts": 6897,
+      "layer_1_leakage": {
+        "leaked_count": 439,
+        "leakage_pct": 28.56,
+        "blocked_pct": 71.44
+      },
+      "layer_2_leakage": {
+        "ours_top3_leaked": 33,
+        "ours_leakage_pct": 4.41,
+        "no_threshold_leakage_pct": 4.53,
+        "vlm_rag_contamination_pct": 34.0
+      },
+      "layer_3_caption_false_claim_rate": {
+        "ours_pct": 1.68,
+        "no_threshold_pct": 3.53,
+        "vlm_rag_pct": 29.92
+      },
+      "dempster_conflict": {
+        "mean_conflict_K": 0.2018,
+        "high_conflict_ratio_pct": 17.73
+      },
+      "proposition_verification": {
+        "ece": 0.3209,
+        "theoretical_upper_bound": 0.7209,
+        "theoretical_bound_pct": 72.09,
+        "empirical_far": 0.1735,
+        "empirical_far_pct": 17.35,
+        "bound_satisfied": true,
+        "margin": 0.5473
+      }
+    },
+    "40pct": {
+      "noise_ratio_pct": 40,
+      "noise_facts_injected": 4098,
+      "total_graph_facts": 8179,
+      "layer_1_leakage": {
+        "leaked_count": 1101,
+        "leakage_pct": 26.87,
+        "blocked_pct": 73.13
+      },
+      "layer_2_leakage": {
+        "ours_top3_leaked": 41,
+        "ours_leakage_pct": 5.47,
+        "no_threshold_leakage_pct": 5.47,
+        "vlm_rag_contamination_pct": 61.6
+      },
+      "layer_3_caption_false_claim_rate": {
+        "ours_pct": 2.08,
+        "no_threshold_pct": 4.27,
+        "vlm_rag_pct": 54.21
+      },
+      "dempster_conflict": {
+        "mean_conflict_K": 0.2342,
+        "high_conflict_ratio_pct": 26.13
+      },
+      "proposition_verification": {
+        "ece": 0.2668,
+        "theoretical_upper_bound": 0.6668,
+        "theoretical_bound_pct": 66.68,
+        "empirical_far": 0.3464,
+        "empirical_far_pct": 34.64,
+        "bound_satisfied": true,
+        "margin": 0.3204
+      }
+    }
+  },
+  "summary_table": [
+    {
+      "noise_ratio": "5%",
+      "ours_caption_error": "0.10%",
+      "no_threshold_caption_error": "0.21%",
+      "vlm_rag_caption_error": "7.04%",
+      "avg_conflict_K": "0.0856",
+      "ece": "0.4168",
+      "theoretical_bound": "81.68%",
+      "empirical_far": "4.62%",
+      "bound_satisfied": "YES"
+    },
+    {
+      "noise_ratio": "10%",
+      "ours_caption_error": "1.27%",
+      "no_threshold_caption_error": "2.71%",
+      "vlm_rag_caption_error": "12.67%",
+      "avg_conflict_K": "0.1327",
+      "ece": "0.3799",
+      "theoretical_bound": "77.99%",
+      "empirical_far": "8.83%",
+      "bound_satisfied": "YES"
+    },
+    {
+      "noise_ratio": "20%",
+      "ours_caption_error": "1.68%",
+      "no_threshold_caption_error": "3.53%",
+      "vlm_rag_caption_error": "29.92%",
+      "avg_conflict_K": "0.2018",
+      "ece": "0.3209",
+      "theoretical_bound": "72.09%",
+      "empirical_far": "17.35%",
+      "bound_satisfied": "YES"
+    },
+    {
+      "noise_ratio": "40%",
+      "ours_caption_error": "2.08%",
+      "no_threshold_caption_error": "4.27%",
+      "vlm_rag_caption_error": "54.21%",
+      "avg_conflict_K": "0.2342",
+      "ece": "0.2668",
+      "theoretical_bound": "66.68%",
+      "empirical_far": "34.64%",
+      "bound_satisfied": "YES"
+    }
+  ],
+  "dempster_conflict_analysis": {},
+  "theorem_verification": {}
+}

@@ -1,0 +1,94 @@
+{
+  "num_documents": 739,
+  "total_triples": 9120,
+  "experiment_order_invariance": {
+    "num_permutations": 5,
+    "max_delta_mu": 0.0,
+    "permutations": [
+      {
+        "permutation": 1,
+        "seed": 42,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "winner_mismatches": 0
+      },
+      {
+        "permutation": 2,
+        "seed": 123,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "winner_mismatches": 0
+      },
+      {
+        "permutation": 3,
+        "seed": 999,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "winner_mismatches": 0
+      },
+      {
+        "permutation": 4,
+        "seed": 2026,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "winner_mismatches": 0
+      },
+      {
+        "permutation": 5,
+        "seed": 7777,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "winner_mismatches": 0
+      }
+    ]
+  },
+  "experiment_exact_deletion": {
+    "scenarios": [
+      {
+        "k_retracted": 1,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "retract_latency_ms": 5937.52,
+        "abinitio_latency_ms": 5980.55
+      },
+      {
+        "k_retracted": 5,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "retract_latency_ms": 5983.91,
+        "abinitio_latency_ms": 6054.08
+      },
+      {
+        "k_retracted": 10,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "retract_latency_ms": 6054.68,
+        "abinitio_latency_ms": 5992.29
+      },
+      {
+        "k_retracted": 20,
+        "max_delta_mu": 0.0,
+        "max_delta_K": 0.0,
+        "key_diff": 0,
+        "retract_latency_ms": 5880.17,
+        "abinitio_latency_ms": 5822.38
+      }
+    ],
+    "max_delta_mu": 0.0
+  },
+  "experiment_online_batch_equivalence": {
+    "max_delta_mu": 0.0,
+    "max_delta_K": 0.0,
+    "key_diff": 0,
+    "batch_time_s": 5.9,
+    "online_time_s": 5.919
+  }
+}

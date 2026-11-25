@@ -1,0 +1,538 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/fb6036de> onto:located_in <http://transmtl.vn/ent/5f8f9e33> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#bamboo_lattice> onto:part_of <http://transmtl.vn/ent/efe79c32> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#casa_blanca_garden> onto:recognized_in <http://transmtl.vn/ent/312351bf> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#design> onto:inspired_by <http://transmtl.vn/ent/90db4bf0> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#element> onto:part_of <http://transmtl.vn/ent/efe79c32> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#evaluation_process> onto:over <http://transmtl.vn/ent/0641fef8> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#open_spatial_experience> onto:part_of <http://transmtl.vn/ent/efe79c32> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#three_towering_sails> onto:made_of <http://transmtl.vn/ent/82960335> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#sails> onto:made_of <http://transmtl.vn/ent/82960335> ;
+    onto:used_as <http://transmtl.vn/ent/00acd7b3> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#bamboo> onto:in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33> ;
+    onto:used_as <http://transmtl.vn/ent/6529f1ff>,
+        <http://transmtl.vn/ent/f970e276> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion> onto:has_part <http://transmtl.vn/kb/dong_buom_pavilion#bamboo>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#bamboo_lattice>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#casa_blanca_garden>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#design>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#element>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#evaluation_process>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#open_spatial_experience>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#pavilion>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#sails>,
+        <http://transmtl.vn/kb/dong_buom_pavilion#three_towering_sails> .
+
+<http://transmtl.vn/kb/dong_buom_pavilion#pavilion> onto:architectural_style <http://transmtl.vn/ent/9a7bfd32>,
+        <http://transmtl.vn/ent/e3ae2de0> ;
+    onto:designed_by <http://transmtl.vn/ent/306c62b0>,
+        <http://transmtl.vn/ent/527a17dc>,
+        <http://transmtl.vn/ent/618f65b3>,
+        <http://transmtl.vn/ent/7ea6a87b>,
+        <http://transmtl.vn/ent/8fc42c6d>,
+        <http://transmtl.vn/ent/f6384f90> ;
+    onto:inaugurated_in <http://transmtl.vn/ent/b5654acb> ;
+    onto:inspired_by <http://transmtl.vn/ent/78805a22>,
+        <http://transmtl.vn/ent/7abcd300>,
+        <http://transmtl.vn/ent/90db4bf0> ;
+    onto:located_in <http://transmtl.vn/ent/5f8f9e33>,
+        <http://transmtl.vn/kb/hanoi_museum> ;
+    onto:part_of <http://transmtl.vn/ent/eb0ea0bc>,
+        <http://transmtl.vn/ent/f99377de>,
+        <http://transmtl.vn/kb/hanoi_museum> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2695 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/8fc42c6d> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3008 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6009 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#bamboo> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.277 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/f970e276> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#bamboo> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3854 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#bamboo> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5397 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/312351bf> ;
+    rdf:predicate onto:recognized_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#casa_blanca_garden> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4642 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/82960335> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#sails> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#sails> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#sails> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4754 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/527a17dc> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2709 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3044 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#bamboo_lattice> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3149 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/9a7bfd32> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5584 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/306c62b0> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3362 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/00acd7b3> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#sails> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#casa_blanca_garden> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3184 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/6529f1ff> ;
+    rdf:predicate onto:used_as ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#bamboo> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2896 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/eb0ea0bc> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4292 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/90db4bf0> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#design> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#element> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6951 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/90db4bf0> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#bamboo> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3198 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/b5654acb> ;
+    rdf:predicate onto:inaugurated_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.47 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/306c62b0> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5107 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/9a7bfd32> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2638 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/618f65b3> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#open_spatial_experience> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5485 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/0641fef8> ;
+    rdf:predicate onto:over ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#evaluation_process> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#evaluation_process> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.456 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/78805a22> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#bamboo_lattice> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.693 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/7ea6a87b> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2857 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_museum> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5847 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/f99377de> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2544 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#open_spatial_experience> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7962 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/7abcd300> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.595 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/82960335> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#three_towering_sails> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3818 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/f6384f90> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4389 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/9a7bfd32> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#bamboo> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3364 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/7abcd300> ;
+    rdf:predicate onto:inspired_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2832 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/efe79c32> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#element> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4244 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/527a17dc> ;
+    rdf:predicate onto:designed_by ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#three_towering_sails> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3145 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/5f8f9e33> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/fb6036de> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#design> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2765 ;
+    fkg:docId "doc_3a25566127f7" ;
+    fkg:kbId "dong_buom_pavilion" ;
+    rdf:object <http://transmtl.vn/ent/e3ae2de0> ;
+    rdf:predicate onto:architectural_style ;
+    rdf:subject <http://transmtl.vn/kb/dong_buom_pavilion#pavilion> .
+

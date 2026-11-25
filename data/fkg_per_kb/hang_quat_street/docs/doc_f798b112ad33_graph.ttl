@@ -1,0 +1,59 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/hang_quat_street#fan_making> onto:made_of <http://transmtl.vn/ent/ad2f4f61> .
+
+<http://transmtl.vn/kb/hang_quat_street> onto:has_part <http://transmtl.vn/kb/hang_quat_street#fan_making> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2632 ;
+    fkg:docId "doc_f798b112ad33" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_f798b112ad33" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_quat_street#fan_making> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5657 ;
+    fkg:docId "doc_f798b112ad33" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2874 ;
+    fkg:docId "doc_f798b112ad33" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/ad2f4f61> ;
+    rdf:predicate onto:made_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street#fan_making> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5884 ;
+    fkg:docId "doc_f798b112ad33" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5015 ;
+    fkg:docId "doc_f798b112ad33" ;
+    fkg:kbId "hang_quat_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_quat_street> .
+

@@ -1,0 +1,174 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/22bc63c9> onto:located_in <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/ent/3a796b12> onto:located_in <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/ent/468bd38c> onto:located_in <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/ent/667d45d1> onto:located_in <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/ent/cb897c2c> onto:located_in <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter#paper_goods_street> onto:part_of <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter#street> onto:part_of <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter#tube_houses> onto:part_of <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/kb/hanoi_old_quarter> onto:former_name_of <http://transmtl.vn/ent/207462d2> ;
+    onto:has_part <http://transmtl.vn/kb/hanoi_old_quarter#paper_goods_street>,
+        <http://transmtl.vn/kb/hanoi_old_quarter#street>,
+        <http://transmtl.vn/kb/hanoi_old_quarter#tube_houses> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5002 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5575 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3322 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/468bd38c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3288 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2924 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3019 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/22bc63c9> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2714 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter#tube_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4472 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/667d45d1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3417 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3489 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/3a796b12> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3355 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/cb897c2c> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter#paper_goods_street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.345 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/kb/hanoi_old_quarter#tube_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2741 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3216 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hanoi_old_quarter#paper_goods_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4735 ;
+    fkg:docId "doc_c3c98272fae1" ;
+    fkg:kbId "hanoi_old_quarter" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+

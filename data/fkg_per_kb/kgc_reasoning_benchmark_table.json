@@ -1,0 +1,62 @@
+{
+  "1. Pure Horn Rules": {
+    "Symbolic Rules": true,
+    "Densification": true,
+    "Text Encoder": false,
+    "Fuzzy Weight": true,
+    "Hits@1": 5.84,
+    "Hits@10": 5.84,
+    "MRR": 0.0664,
+    "ECE": 24.5
+  },
+  "2. TransE (128d)": {
+    "Symbolic Rules": false,
+    "Densification": false,
+    "Text Encoder": false,
+    "Fuzzy Weight": false,
+    "Hits@1": 0.0,
+    "Hits@10": 0.28,
+    "MRR": 0.0013,
+    "ECE": 34.2
+  },
+  "3. RotatE (128d)": {
+    "Symbolic Rules": false,
+    "Densification": false,
+    "Text Encoder": false,
+    "Fuzzy Weight": false,
+    "Hits@1": 0.09,
+    "Hits@10": 0.37,
+    "MRR": 0.002,
+    "ECE": 32.8
+  },
+  "4. SimKGC / BGE-M3 (Base KG)": {
+    "Symbolic Rules": false,
+    "Densification": false,
+    "Text Encoder": true,
+    "Fuzzy Weight": false,
+    "Hits@1": 2.32,
+    "Hits@10": 12.88,
+    "MRR": 0.0617,
+    "ECE": 26.4
+  },
+  "5. Densified SimKGC w/o mu_F": {
+    "Symbolic Rules": true,
+    "Densification": true,
+    "Text Encoder": true,
+    "Fuzzy Weight": false,
+    "Hits@1": 4.63,
+    "Hits@10": 15.12,
+    "MRR": 0.0815,
+    "ECE": 22.8
+  },
+  "6. Ours: Fuzzy-Densified SimKGC": {
+    "Symbolic Rules": true,
+    "Densification": true,
+    "Text Encoder": true,
+    "Fuzzy Weight": true,
+    "Hits@1": 8.46,
+    "Hits@10": 19.4,
+    "MRR": 0.1228,
+    "ECE": 14.2
+  }
+}

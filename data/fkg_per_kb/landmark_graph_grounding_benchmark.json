@@ -1,0 +1,596 @@
+{
+  "meta": {
+    "description": "Benchmark retrieving visual facts from global landmark graph using video scene graph",
+    "total_videos": 150,
+    "total_facts_evaluated": 1880
+  },
+  "random_baseline": {
+    "P@1": 0.051111111111111114,
+    "P@2": 0.05043333333333334,
+    "P@3": 0.05062962962962962,
+    "P@5": 0.05101777777777779,
+    "P@7": 0.050853968253968256,
+    "R@3": 0.12387740740740741,
+    "Hit@3": 0.1416222222222222
+  },
+  "prior_confidence_only": {
+    "P@1": 0.3466666666666667,
+    "P@2": 0.4266666666666667,
+    "P@3": 0.39555555555555555,
+    "P@5": 0.3253333333333333,
+    "P@7": 0.3057142857142857,
+    "R@3": 0.5005238095238095,
+    "Hit@3": 0.7466666666666667
+  },
+  "visual_grounding_engine": {
+    "P@1": 0.56,
+    "P@2": 0.55,
+    "P@3": 0.5422222222222223,
+    "P@5": 0.5199999999999999,
+    "P@7": 0.4866666666666667,
+    "R@3": 0.4606825396825397,
+    "Hit@3": 0.8266666666666667
+  },
+  "sample_video_details": [
+    {
+      "video_id": 321,
+      "parent_landmark": "One Pillar Pagoda",
+      "sub_landmark": "One Pillar Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "dragon motif",
+          "is_suitable": false,
+          "reason": "No dragon motifs present in the pagoda."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof",
+          "is_suitable": true,
+          "reason": "Pagoda features a tiered, dark-tiled roof."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "Linh Chiểu Lake",
+          "is_suitable": true,
+          "reason": "Evaluated based on visual correspondence."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "column",
+          "is_suitable": true,
+          "reason": "Pagoda is supported by a single stone pillar."
+        },
+        {
+          "head": "shrine",
+          "rel": "made_of",
+          "tail": "wooden",
+          "is_suitable": true,
+          "reason": "Evaluated based on visual correspondence."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "square platform",
+          "is_suitable": true,
+          "reason": "Evaluated based on visual correspondence."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "located_in",
+          "tail": "Hanoi",
+          "is_suitable": true,
+          "reason": "Evaluated based on visual correspondence."
+        }
+      ]
+    },
+    {
+      "video_id": 322,
+      "parent_landmark": "One Pillar Pagoda",
+      "sub_landmark": "One Pillar Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "dragon motif",
+          "is_suitable": false,
+          "reason": "No dragons visible in the video."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof",
+          "is_suitable": true,
+          "reason": "Pagoda has a curved, tiled roof."
+        },
+        {
+          "head": "shrine",
+          "rel": "made_of",
+          "tail": "wooden",
+          "is_suitable": true,
+          "reason": "Pagoda is described as having a wooden pavilion."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "column",
+          "is_suitable": true,
+          "reason": "Pagoda features a solitary stone pillar."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "square platform",
+          "is_suitable": false,
+          "reason": "No mention of a square platform in the description."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof tiles",
+          "is_suitable": true,
+          "reason": "Roof tiles are part of the pagoda's description."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "lotus flower",
+          "is_suitable": false,
+          "reason": "Lotus flowers not mentioned in description."
+        }
+      ]
+    },
+    {
+      "video_id": 323,
+      "parent_landmark": "One Pillar Pagoda",
+      "sub_landmark": "One Pillar Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "dragon motif",
+          "is_suitable": false,
+          "reason": "No dragons or motifs mentioned in the description."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof",
+          "is_suitable": true,
+          "reason": "Traditional Vietnamese pagodas have roofs."
+        },
+        {
+          "head": "shrine",
+          "rel": "made_of",
+          "tail": "wooden",
+          "is_suitable": true,
+          "reason": "Traditional Vietnamese architecture includes wooden shrines."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "Linh Chiểu Lake",
+          "is_suitable": true,
+          "reason": "The pagoda rises from a tranquil pond, likely Linh Chiểu Lake."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "column",
+          "is_suitable": true,
+          "reason": "Column is a key part of the pagoda."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "square platform",
+          "is_suitable": true,
+          "reason": "The pagoda sits on a square platform over the pond."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "lotus flower",
+          "is_suitable": false,
+          "reason": "Lotus leaves, not flowers, are mentioned."
+        }
+      ]
+    },
+    {
+      "video_id": 324,
+      "parent_landmark": "One Pillar Pagoda",
+      "sub_landmark": "One Pillar Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "dragon motif",
+          "is_suitable": false,
+          "reason": "No dragon motifs are described."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof",
+          "is_suitable": true,
+          "reason": "Pagoda has a multi-tiered, curved roof."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "column",
+          "is_suitable": true,
+          "reason": "The single stone pillar is a key feature."
+        },
+        {
+          "head": "shrine",
+          "rel": "made_of",
+          "tail": "wooden",
+          "is_suitable": true,
+          "reason": "Pagoda is described as having a wooden pavilion."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "located_in",
+          "tail": "Hanoi",
+          "is_suitable": true,
+          "reason": "Ground-truth confirms pagoda's location in Hanoi."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "square platform",
+          "is_suitable": false,
+          "reason": "Description mentions a single pillar, not a square platform."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "lotus flower",
+          "is_suitable": true,
+          "reason": "Lotus flowers are mentioned."
+        }
+      ]
+    },
+    {
+      "video_id": 325,
+      "parent_landmark": "One Pillar Pagoda",
+      "sub_landmark": "One Pillar Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "dragon motif",
+          "is_suitable": false,
+          "reason": "No dragons or dragon motifs are present in the description."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof",
+          "is_suitable": true,
+          "reason": "Traditional wooden structure with tiered roof is visible."
+        },
+        {
+          "head": "shrine",
+          "rel": "made_of",
+          "tail": "wooden",
+          "is_suitable": true,
+          "reason": "Pagoda's wooden structure is visible."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "column",
+          "is_suitable": true,
+          "reason": "Column is a key part of the pagoda's structure."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "square platform",
+          "is_suitable": false,
+          "reason": "Pagoda rises from a single pillar."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "located_in",
+          "tail": "Hanoi",
+          "is_suitable": true,
+          "reason": "Location matches video description."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof tiles",
+          "is_suitable": true,
+          "reason": "Roof tiles are visible."
+        }
+      ]
+    },
+    {
+      "video_id": 326,
+      "parent_landmark": "One Pillar Pagoda",
+      "sub_landmark": "One Pillar Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "dragon motif",
+          "is_suitable": false,
+          "reason": "No mention of dragon motifs in the video description."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "roof",
+          "is_suitable": true,
+          "reason": "Traditional Vietnamese architecture includes tiled roofs."
+        },
+        {
+          "head": "shrine",
+          "rel": "made_of",
+          "tail": "wooden",
+          "is_suitable": false,
+          "reason": "No mention of shrine material in description."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "column",
+          "is_suitable": true,
+          "reason": "Column is a key part of the pagoda's structure."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "square platform",
+          "is_suitable": true,
+          "reason": "Pagoda rises from a pond, likely on a platform."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "located_in",
+          "tail": "Hanoi",
+          "is_suitable": true,
+          "reason": "Video explicitly states it's in Hanoi."
+        },
+        {
+          "head": "One Pillar Pagoda",
+          "rel": "has_part",
+          "tail": "lotus flower",
+          "is_suitable": true,
+          "reason": "Lotus flowers are mentioned in the courtyard."
+        }
+      ]
+    },
+    {
+      "video_id": 327,
+      "parent_landmark": "West Lake",
+      "sub_landmark": "Tran Quoc Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_style",
+          "tail": "curved tiled roofs",
+          "is_suitable": true,
+          "reason": "Curved tiled roofs are described."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_part",
+          "tail": "tall multi-tiered stupa",
+          "is_suitable": false,
+          "reason": "No tall multi-tiered stupa mentioned."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_part",
+          "tail": "pagoda",
+          "is_suitable": true,
+          "reason": "Pagoda is a key part of the scene."
+        },
+        {
+          "head": "short causeway",
+          "rel": "connects",
+          "tail": "Tran Quoc Pagoda",
+          "is_suitable": false,
+          "reason": "No short causeway mentioned."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "connected_to",
+          "tail": "Thanh Nien road",
+          "is_suitable": false,
+          "reason": "No mention of Thanh Nien road in the description."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "surrounded_by",
+          "tail": "old trees",
+          "is_suitable": true,
+          "reason": "Lush greenery including old trees present."
+        },
+        {
+          "head": "Tay Ho Palace",
+          "rel": "decorated_with",
+          "tail": "red wooden gates",
+          "is_suitable": false,
+          "reason": "Incorrect landmark and feature not present."
+        }
+      ]
+    },
+    {
+      "video_id": 328,
+      "parent_landmark": "West Lake",
+      "sub_landmark": "Tran Quoc Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_style",
+          "tail": "curved tiled roofs",
+          "is_suitable": false,
+          "reason": "Curved tiled roofs not clearly visible."
+        },
+        {
+          "head": "short causeway",
+          "rel": "connects",
+          "tail": "Tran Quoc Pagoda",
+          "is_suitable": false,
+          "reason": "Causeway not specifically mentioned or visible."
+        },
+        {
+          "head": "West Lake",
+          "rel": "part_of",
+          "tail": "Tran Quoc Pagoda",
+          "is_suitable": false,
+          "reason": "West Lake is not part of Tran Quoc Pagoda."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_part",
+          "tail": "pagoda",
+          "is_suitable": false,
+          "reason": "Pagoda structure not clearly visible in video."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_part",
+          "tail": "tall multi-tiered stupa",
+          "is_suitable": false,
+          "reason": "Tall multi-tiered stupa not visible."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "connected_to",
+          "tail": "Thanh Nien road",
+          "is_suitable": false,
+          "reason": "Thanh Nien road not mentioned or visible."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "surrounded_by",
+          "tail": "old trees",
+          "is_suitable": true,
+          "reason": "Video mentions lush green trees."
+        }
+      ]
+    },
+    {
+      "video_id": 329,
+      "parent_landmark": "West Lake",
+      "sub_landmark": "Tran Quoc Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_style",
+          "tail": "curved tiled roofs",
+          "is_suitable": false,
+          "reason": "Roofs are multi-tiered, green-tiled, not curved."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_part",
+          "tail": "pagoda",
+          "is_suitable": true,
+          "reason": "Pagoda is a central part of the scene."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_part",
+          "tail": "tall multi-tiered stupa",
+          "is_suitable": false,
+          "reason": "Description mentions pagoda's roof, not a stupa."
+        },
+        {
+          "head": "short causeway",
+          "rel": "connects",
+          "tail": "Tran Quoc Pagoda",
+          "is_suitable": false,
+          "reason": "No causeway mentioned in the description."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "connected_to",
+          "tail": "Thanh Nien road",
+          "is_suitable": false,
+          "reason": "No mention of Thanh Nien road in the description."
+        },
+        {
+          "head": "West Lake",
+          "rel": "part_of",
+          "tail": "Tran Quoc Pagoda",
+          "is_suitable": false,
+          "reason": "West Lake is separate from Tran Quoc Pagoda."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "surrounded_by",
+          "tail": "old trees",
+          "is_suitable": false,
+          "reason": "Trees are manicured, not specified as old."
+        }
+      ]
+    },
+    {
+      "video_id": 330,
+      "parent_landmark": "West Lake",
+      "sub_landmark": "Tran Quoc Pagoda",
+      "retrieved_facts": [
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_style",
+          "tail": "curved tiled roofs",
+          "is_suitable": true,
+          "reason": "Red-tiled roofs are described."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_part",
+          "tail": "pagoda",
+          "is_suitable": true,
+          "reason": "Pagoda is a central part of the scene."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "has_part",
+          "tail": "tall multi-tiered stupa",
+          "is_suitable": true,
+          "reason": "Multi-tiered structure is visible."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "connected_to",
+          "tail": "Thanh Nien road",
+          "is_suitable": false,
+          "reason": "No mention of Thanh Nien road in the description."
+        },
+        {
+          "head": "short causeway",
+          "rel": "connects",
+          "tail": "Tran Quoc Pagoda",
+          "is_suitable": false,
+          "reason": "No specific causeway mentioned."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "surrounded_by",
+          "tail": "old trees",
+          "is_suitable": true,
+          "reason": "Surrounded by leafy trees."
+        },
+        {
+          "head": "Tran Quoc Pagoda",
+          "rel": "surrounded_by",
+          "tail": "low railing",
+          "is_suitable": false,
+          "reason": "No mention of low railing."
+        }
+      ]
+    }
+  ]
+}

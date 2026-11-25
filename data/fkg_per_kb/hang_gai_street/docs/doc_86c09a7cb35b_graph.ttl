@@ -1,0 +1,503 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/ent/1f4a9685> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/6af40450> onto:on <http://transmtl.vn/kb/hang_gai_street> .
+
+<http://transmtl.vn/ent/8d00d29e> onto:on <http://transmtl.vn/kb/hang_gai_street> .
+
+<http://transmtl.vn/ent/ae206d1f> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_gai_street#old_houses> onto:part_of <http://transmtl.vn/ent/4ed5d2ea> .
+
+<http://transmtl.vn/kb/hang_gai_street#tunnels> onto:located_in <http://transmtl.vn/ent/6e76862c> .
+
+<http://transmtl.vn/kb/hang_gai_street#western_side> onto:leading_to <http://transmtl.vn/ent/df8067d4>,
+        <http://transmtl.vn/ent/ed8b78b7> .
+
+<http://transmtl.vn/kb/hang_gai_street#rear_entrances> onto:leading_to <http://transmtl.vn/ent/b57f6b42> .
+
+<http://transmtl.vn/kb/hang_gai_street#street> onto:connects <http://transmtl.vn/kb/hang_bong_street> ;
+    onto:leading_to <http://transmtl.vn/ent/df8067d4>,
+        <http://transmtl.vn/ent/ed8b78b7> .
+
+<http://transmtl.vn/kb/hang_gai_street#narrow_alleys> onto:connects <http://transmtl.vn/ent/b96b32aa> ;
+    onto:part_of <http://transmtl.vn/ent/606dcc1a> .
+
+<http://transmtl.vn/ent/73cc1496> onto:former_name_of <http://transmtl.vn/kb/hang_gai_street> .
+
+<http://transmtl.vn/ent/63be8e4a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/ent/606dcc1a> onto:located_in <http://transmtl.vn/ent/207462d2> .
+
+<http://transmtl.vn/kb/hang_gai_street> onto:former_name_of <http://transmtl.vn/ent/73cc1496> ;
+    onto:has_part <http://transmtl.vn/ent/73cc1496>,
+        <http://transmtl.vn/kb/hang_gai_street#narrow_alleys>,
+        <http://transmtl.vn/kb/hang_gai_street#old_houses>,
+        <http://transmtl.vn/kb/hang_gai_street#rear_entrances>,
+        <http://transmtl.vn/kb/hang_gai_street#street>,
+        <http://transmtl.vn/kb/hang_gai_street#tunnels>,
+        <http://transmtl.vn/kb/hang_gai_street#western_side> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/ent/63be8e4a> ;
+    onto:near <http://transmtl.vn/ent/291f141d>,
+        <http://www.wikidata.org/entity/Q10770772> ;
+    onto:part_of <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/606dcc1a>,
+        <http://transmtl.vn/ent/63be8e4a>,
+        <http://transmtl.vn/ent/d6b53665> ;
+    onto:renamed_to <http://transmtl.vn/ent/ba66bcb3>,
+        <http://transmtl.vn/ent/cda6571e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3324 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street#rear_entrances> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4507 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/6e76862c> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#tunnels> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3338 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/d6b53665> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2531 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8153 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street#narrow_alleys> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.523 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/b96b32aa> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#narrow_alleys> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street#old_houses> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5025 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/73cc1496> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street#narrow_alleys> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2765 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/ed8b78b7> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3207 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/b96b32aa> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#narrow_alleys> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.55 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/291f141d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6874 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/73cc1496> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.51 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3627 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/df8067d4> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#western_side> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.396 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://www.wikidata.org/entity/Q10770772> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7567 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/b57f6b42> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#rear_entrances> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2728 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/8d00d29e> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3055 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/df8067d4> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7112 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2693 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.54 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street#street> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3005 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5981 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/606dcc1a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3146 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2515 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/ae206d1f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3147 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2504 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.346 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street#western_side> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2766 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4241 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/cda6571e> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2842 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_bong_street> ;
+    rdf:predicate onto:connects ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2584 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#narrow_alleys> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3569 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3058 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street#rear_entrances> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street#tunnels> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3061 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/63be8e4a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8493 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/63be8e4a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4538 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/ent/73cc1496> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.277 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/ed8b78b7> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#western_side> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4673 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/73cc1496> ;
+    rdf:predicate onto:former_name_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.273 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2942 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/606dcc1a> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3554 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/ba66bcb3> ;
+    rdf:predicate onto:renamed_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2656 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/4ed5d2ea> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#old_houses> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.261 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/b57f6b42> ;
+    rdf:predicate onto:leading_to ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street#rear_entrances> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2945 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4164 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/1f4a9685> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3001 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/73cc1496> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4305 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/hang_gai_street> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2825 ;
+    fkg:docId "doc_86c09a7cb35b" ;
+    fkg:kbId "hang_gai_street" ;
+    rdf:object <http://transmtl.vn/kb/hang_gai_street> ;
+    rdf:predicate onto:on ;
+    rdf:subject <http://transmtl.vn/ent/6af40450> .
+

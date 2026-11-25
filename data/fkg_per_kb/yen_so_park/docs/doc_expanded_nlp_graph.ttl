@@ -1,0 +1,691 @@
+@prefix fkg: <http://transmtl.vn/fkg/> .
+@prefix onto: <http://transmtl.vn/onto/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://transmtl.vn/kb/yen_so_gate> onto:located_in <http://transmtl.vn/ent/9a058d85> ;
+    onto:part_of <http://transmtl.vn/ent/9a058d85> .
+
+<http://transmtl.vn/ent/78f0805f> onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/e057a615> onto:part_of <http://transmtl.vn/kb/yen_so_park> .
+
+<http://transmtl.vn/kb/yen_so_park#broad_lakes> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/yen_so_park#cycling> onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/yen_so_park#open_green_space> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/yen_so_park#pavilions> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/yen_so_park#pedestrian_paths> onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/ent/48be92a1> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/ent/fd50eb8d> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/yen_so_park#lakes> onto:located_in <http://transmtl.vn/ent/992763c3> ;
+    onto:part_of <http://transmtl.vn/ent/992763c3> .
+
+<http://transmtl.vn/kb/yen_so_park#pedestrian> onto:connected_to <http://transmtl.vn/ent/1755347e> ;
+    onto:located_in <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/yen_so_park#planted_open_space> onto:part_of <http://transmtl.vn/ent/31c13f47>,
+        <http://transmtl.vn/ent/992763c3> .
+
+<http://transmtl.vn/kb/yen_so_park#routes> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/yen_so_park#sections> onto:located_in <http://www.wikidata.org/entity/Q1858> ;
+    onto:part_of <http://www.wikidata.org/entity/Q1858> .
+
+<http://transmtl.vn/kb/yen_so_park#tree_lined_paths> onto:located_in <http://transmtl.vn/ent/992763c3> ;
+    onto:part_of <http://transmtl.vn/ent/992763c3> .
+
+<http://transmtl.vn/ent/02482948> onto:part_of <http://transmtl.vn/kb/yen_so_park> .
+
+<http://transmtl.vn/ent/4223d25a> onto:part_of <http://transmtl.vn/kb/yen_so_park> .
+
+<http://transmtl.vn/ent/9d05c914> onto:part_of <http://transmtl.vn/kb/yen_so_park> .
+
+<http://transmtl.vn/ent/a55ef29a> onto:part_of <http://transmtl.vn/kb/yen_so_park> .
+
+<http://transmtl.vn/kb/yen_so_park#bridges> onto:connected_to <http://transmtl.vn/ent/ff4dee88> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac> .
+
+<http://transmtl.vn/kb/yen_so_park#planted_lawns> onto:located_in <http://transmtl.vn/ent/992763c3> ;
+    onto:part_of <http://transmtl.vn/ent/10cf68ac>,
+        <http://transmtl.vn/ent/992763c3> .
+
+<http://www.wikidata.org/entity/Q1858> onto:adjacent_to <http://transmtl.vn/ent/6ad1586d> ;
+    onto:has_component <http://transmtl.vn/ent/48be92a1>,
+        <http://transmtl.vn/ent/fd50eb8d> ;
+    onto:has_part <http://transmtl.vn/ent/1755347e>,
+        <http://transmtl.vn/ent/78f0805f> ;
+    onto:located_in <http://transmtl.vn/ent/22edb75e> ;
+    onto:near <http://transmtl.vn/ent/6ad1586d> ;
+    onto:part_of <http://transmtl.vn/ent/22edb75e>,
+        <http://transmtl.vn/ent/2c4a9a99> .
+
+<http://transmtl.vn/kb/yen_so_park> onto:adjacent_to <http://transmtl.vn/ent/02482948>,
+        <http://transmtl.vn/ent/22edb75e>,
+        <http://transmtl.vn/ent/4223d25a>,
+        <http://transmtl.vn/ent/9d05c914>,
+        <http://transmtl.vn/ent/a55ef29a> ;
+    onto:has_component <http://transmtl.vn/kb/yen_so_park#bridges>,
+        <http://transmtl.vn/kb/yen_so_park#broad_lakes>,
+        <http://transmtl.vn/kb/yen_so_park#cycling>,
+        <http://transmtl.vn/kb/yen_so_park#lakes>,
+        <http://transmtl.vn/kb/yen_so_park#open_green_space>,
+        <http://transmtl.vn/kb/yen_so_park#pavilions>,
+        <http://transmtl.vn/kb/yen_so_park#pedestrian>,
+        <http://transmtl.vn/kb/yen_so_park#pedestrian_paths>,
+        <http://transmtl.vn/kb/yen_so_park#planted_lawns>,
+        <http://transmtl.vn/kb/yen_so_park#planted_open_space>,
+        <http://transmtl.vn/kb/yen_so_park#routes>,
+        <http://transmtl.vn/kb/yen_so_park#sections>,
+        <http://transmtl.vn/kb/yen_so_park#tree_lined_paths> ;
+    onto:located_in <http://transmtl.vn/ent/207462d2>,
+        <http://transmtl.vn/ent/5058f1af>,
+        <http://transmtl.vn/ent/9a058d85> ;
+    onto:near <http://transmtl.vn/ent/02482948>,
+        <http://transmtl.vn/ent/22edb75e>,
+        <http://transmtl.vn/ent/4223d25a>,
+        <http://transmtl.vn/ent/9d05c914>,
+        <http://transmtl.vn/ent/a55ef29a>,
+        <http://transmtl.vn/ent/e057a615> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8603 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/9a058d85> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3316 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#cycling> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2905 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#sections> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2737 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/48be92a1> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#tree_lined_paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6621 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#planted_lawns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2788 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/9d05c914> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7981 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#pedestrian_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6511 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#pavilions> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3661 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/6ad1586d> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#routes> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#sections> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3818 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/fd50eb8d> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.8956 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2502 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/9a058d85> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#broad_lakes> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6484 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/fd50eb8d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4921 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/4223d25a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4879 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/22edb75e> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4063 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/e057a615> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4979 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/a55ef29a> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6793 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#lakes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#pavilions> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.473 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/48be92a1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2615 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/31c13f47> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#planted_open_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4604 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/e057a615> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6881 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#open_green_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5895 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/48be92a1> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5315 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/4223d25a> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4339 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/a55ef29a> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#cycling> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.467 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#lakes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#lakes> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5621 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/02482948> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.612 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/22edb75e> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4731 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/9d05c914> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#planted_lawns> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#bridges> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6937 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5215 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#sections> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#planted_open_space> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6334 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/4223d25a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4835 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/9d05c914> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.83 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/207462d2> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3051 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/1755347e> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#pedestrian> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#open_green_space> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4498 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/78f0805f> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2534 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#routes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5466 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/ent/fd50eb8d> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2723 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/1755347e> ;
+    rdf:predicate onto:has_part ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7917 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/6ad1586d> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4101 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/02482948> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#planted_lawns> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4382 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#planted_open_space> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4374 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/ff4dee88> ;
+    rdf:predicate onto:connected_to ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#bridges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.345 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/ent/78f0805f> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6456 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/22edb75e> ;
+    rdf:predicate onto:adjacent_to ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4026 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#routes> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7501 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#planted_lawns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6244 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#tree_lined_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#bridges> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#pedestrian> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2665 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/2c4a9a99> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.7334 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#bridges> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3934 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/5058f1af> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.2647 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://www.wikidata.org/entity/Q1858> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#pedestrian> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3663 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/22edb75e> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://www.wikidata.org/entity/Q1858> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5652 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/a55ef29a> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.5098 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/02482948> ;
+    rdf:predicate onto:near ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6722 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/9a058d85> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_gate> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.4188 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#planted_lawns> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.95 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/kb/yen_so_park#pedestrian_paths> ;
+    rdf:predicate onto:has_component ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.3581 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/992763c3> ;
+    rdf:predicate onto:located_in ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#tree_lined_paths> .
+
+[] a fkg:DocumentStatement ;
+    fkg:confidence 0.6856 ;
+    fkg:docId "doc_expanded_nlp" ;
+    fkg:kbId "yen_so_park" ;
+    rdf:object <http://transmtl.vn/ent/10cf68ac> ;
+    rdf:predicate onto:part_of ;
+    rdf:subject <http://transmtl.vn/kb/yen_so_park#broad_lakes> .
+
