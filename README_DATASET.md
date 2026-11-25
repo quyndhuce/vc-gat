@@ -86,7 +86,7 @@ The benchmark enforces **Scheme A (Parent-Video Grouped Split)** where no two se
 | `train` | 702 | 175.7 min (2.93 h) | 15.0 s | VC-GAT degree-debiased ranking & LoRA training |
 | `val` | 149 | 35.4 min (0.59 h) | 14.3 s | Finite-sample Conformal Risk Control calibration |
 | `test_balanced_500` | 500 | 203.4 min (3.39 h) | 24.4 s | Hanoi In-Domain Benchmark (Tables 2, 5, 6, 7) |
-| `test_hcmc_300` | 300 | 80.2 min (1.34 h) | 16.0 s | HCMC Cross-Domain Zero-Shot Transfer (Table 11) |
+| `test_hcmc_300` | 300 | 80.2 min (1.34 h) | 16.0 s | HCMC Cross-Region Transfer with Landmark Adaptation (Table 23) |
 | **Total Benchmark** | **1,651** | **494.7 min (8.25 h)** | **18.0 s** | **100% Parent-Video Disjointness** |
 
 ---
@@ -112,14 +112,14 @@ To reproduce all tables and figures reported in the manuscript using this datase
 
 3. (Optional) To inspect or process the raw 4,346 cut video clips, download `videos/` (50.6 GB) from the Google Drive mirror into `data/unified_coco_dataset/videos/`.
 
-3. Install CPU verification dependencies:
+4. Install CPU verification dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Execute the master reproduction suite:
+5. Execute the master reproduction suite:
    ```bash
-   # Level 1 & Level 2 verification of all paper tables (Tables 2, 5, 6, 7, 11)
+   # Level 1 & Level 2 verification of all paper tables (Tables 2, 3, 4, 5, 6, 7, 8, 20, 23)
    python3 reproduce_all.py
 
    # Recompute 10,000 cluster bootstrap resamples

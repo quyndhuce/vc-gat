@@ -37,7 +37,7 @@ BENCHMARK_JSON = OUTPUTS_DIR / "measured_persistent_storage_benchmark_report.jso
 
 def print_table3():
     print("=" * 110)
-    print("TABLE 3: Decision-Certified Fuzzy Horn Reasoning Benchmark (Hanoi 500 Clips)")
+    print("TABLE 2 (Table 3 in earlier draft): Decision-Certified Horn Reasoning Benchmark (Hanoi 500 Clips)")
     print("=" * 110)
     header = f"{'Inference Method':<30} {'Derivs':<10} {'Saved (%)':<12} {'Flips':<8} {'Viol':<6} {'Top-5 Set':<15} {'Top-5 Order':<15} {'RAM Time (ms)':<16} {'Disk Time (ms)'}"
     print(header)

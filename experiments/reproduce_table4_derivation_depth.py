@@ -30,7 +30,7 @@ X3B_CSV = RESULTS_DIR / "X3b.csv"
 
 def print_table4():
     print("=" * 95)
-    print("TABLE 4: Anytime Conditioning on Fixed Cohort 3 <= |C| <= 20 (N = 98, Protocol X3b)")
+    print("TABLE 3 (Table 4 in earlier draft): Anytime Conditioning on Fixed Cohort 3 <= |C| <= 20 (N = 98)")
     print("=" * 95)
     header = f"{'k':<6} {'Mean W_k':<12} {'Median W_k':<14} {'Exact':<10} {'Regime Resolved':<18} {'Mono. Viol':<14} {'Latency (ms/fact)'}"
     print(header)

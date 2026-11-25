@@ -19,30 +19,29 @@ sys.path.insert(0, str(REPO_ROOT))
 
 
 def print_table5():
-    print("=" * 110)
-    print("TABLE 5: Paired Statistical Significance & 95% Bootstrap CI (B = 10,000) on Hanoi-500")
-    print("=" * 110)
-    header = f"{'Evaluation Slice':<28} {'Clips (N)':<12} {'Cross-Attn':<14} {'VC-GAT (Ours)':<16} {'Paired Delta':<14} {'95% Bootstrap CI':<20} {'Cohen d'}"
+    print("=" * 115)
+    print("TABLE 4 & TABLE 20: Fact Selection Benchmark & Paired Cluster Bootstrap Grounding (Hanoi-500)")
+    print("=" * 115)
+    header = f"{'Evaluation Slice':<26} {'Clips':<8} {'Cross-Attn':<12} {'VC-GAT (Ours)':<16} {'Paired Delta':<14} {'95% Cluster CI':<22} {'Cohen d':<10} {'Sig'}"
     print(header)
-    print("-" * 110)
+    print("-" * 115)
 
     rows = [
-        ("Overall nDCG@5", "500", "0.3041", "0.3996", "+0.0955", "[+0.0784, +0.1126]", "0.495***"),
-        ("Precision@5", "500", "0.2518", "0.3118", "+0.0600", "[+0.0452, +0.0748]", "0.358***"),
-        ("Hard Negative AUC", "425", "0.6182", "0.7104", "+0.0922", "[+0.0812, +0.1032]", "0.812***"),
-        ("Seen Landmarks nDCG@5", "224", "0.3958", "0.5049", "+0.1090", "[+0.0779, +0.1406]", "0.462***"),
-        ("Unseen Landmarks nDCG@5", "276", "0.2297", "0.3142", "+0.0845", "[+0.0621, +0.1069]", "0.448***"),
-        ("Historical Facts nDCG@5", "142", "0.1712", "0.2586", "+0.0874", "[+0.0512, +0.1236]", "0.478***"),
+        ("Overall nDCG@5", "500", "0.3038", "0.3899", "+0.0861", "[+0.0432, +0.1335]", "0.407", "**"),
+        ("Precision@5", "500", "0.2460", "0.3196", "+0.0736", "[+0.0335, +0.1179]", "0.383", "**"),
+        ("Hard Negative AUC", "391", "0.7064", "0.7501", "+0.0437", "[+0.0234, +0.0675]", "0.475", "**"),
+        ("Seen Landmarks nDCG@5", "224", "0.3958", "0.5049", "+0.1090", "[+0.0440, +0.1733]", "0.462", "**"),
+        ("Unseen Landmarks nDCG@5", "276", "0.2291", "0.2966", "+0.0675", "[+0.0182, +0.1335]", "0.360", "*"),
+        ("Historical Facts nDCG@5", "166", "0.2545", "0.2911", "+0.0367", "[-0.0420, +0.0977]", "0.208", "n.s."),
     ]
 
-    for name, n_c, base, ours, delta, ci, d in rows:
-        print(f"{name:<28} {n_c:<12} {base:<14} {ours:<16} {delta:<14} {ci:<20} {d}")
+    for name, n_c, base, ours, delta, ci, d, sig in rows:
+        print(f"{name:<26} {n_c:<8} {base:<12} {ours:<16} {delta:<14} {ci:<22} {d:<10} {sig}")
 
-    print("-" * 110)
-    print("*** p < 0.001 under two-sided paired Student's t-test and Wilcoxon signed-rank test.")
-    print("    Tripartite ablation on Hanoi-500 confirms: Degree-debiasing (+0.0812 gain),")
-    print("    Evidence reliability gate (+0.0761 gain), Visual saliency transmission (+0.0748 gain).")
-    print("=" * 110)
+    print("-" * 115)
+    print("* p < 0.05, ** p < 0.01 under paired parent-video cluster bootstrap (B = 10,000 resamples over 60 parent videos).")
+    print("  Corresponds to Table 4 (Fact selection benchmark) and Table 20 (Paired grounding) in final IJAR manuscript.")
+    print("=" * 115)
 
 
 if __name__ == "__main__":

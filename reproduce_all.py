@@ -172,13 +172,18 @@ if t22_p.exists():
         print(f"{sname:<26} {n_c:<8} {base:<12.4f} {ours:<12.4f} {delta:+<14.4f} {ci:<22} {cd:<10.3f} {sig}")
 
 # =============================================================================
-# 7. REPRODUCING TABLE 7 & 11: END-TO-END CAPTIONING BENCHMARK
+# 7. REPRODUCING TABLE 7 & TABLE 23: CAPTIONING & CROSS-REGION TRANSFER
 # =============================================================================
-print("\n>>> [STEP 7/7] REPRODUCING TABLE 7 & TABLE 11: CAPTIONING & PORTABILITY...")
+print("\n>>> [STEP 7/7] REPRODUCING TABLE 7 & TABLE 23: CAPTIONING & CROSS-REGION TRANSFER...")
 cap_e2e_p = REPO_ROOT / "experiments/reproduce_table7_end2end_captioning.py"
 if cap_e2e_p.exists():
     import subprocess
     subprocess.run([sys.executable, str(cap_e2e_p)], check=True)
+
+hcmc_cross_p = REPO_ROOT / "experiments/reproduce_table11_cross_domain_hcmc.py"
+if hcmc_cross_p.exists():
+    import subprocess
+    subprocess.run([sys.executable, str(hcmc_cross_p)], check=True)
 
 print("\n" + "=" * 110)
 print("ALL EXPERIMENTAL RESULTS SUCCESSFULLY REPRODUCED AND VERIFIED AGAINST MANUSCRIPT!")

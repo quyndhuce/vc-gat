@@ -24,7 +24,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 def print_table6():
     print("=" * 95)
-    print("TABLE 6: Calibration & Conformal Control on Audited Claims (N = 644, Protocol X4a & X4b)")
+    print("TABLE 6 & TABLE 21: Calibration & Risk-Constrained Evidence Admission (Protocol X4a & X4b)")
     print("=" * 95)
     print("\nPART A: Score Quality (Protocol X4a)")
     print("-" * 95)

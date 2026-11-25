@@ -27,7 +27,7 @@ sys.path.insert(0, str(REPO_ROOT))
 
 def print_table11():
     print("=" * 115)
-    print("TABLE 11: Cross-Region Out-of-Domain Evaluation on HCMC (300 Clips, 5 Unseen Topologies)")
+    print("TABLE 23 (Table 11 in earlier draft): Cross-Region Evaluation on HCMC (300 Clips, Landmark Adaptation)")
     print("=" * 115)
     header = f"{'System':<25} {'FP Macro':<20} {'CSR':<18} {'BKR@5':<18} {'KR':<18} {'VSP':<18} {'VFAR'}"
     print(header)
@@ -46,8 +46,10 @@ def print_table11():
         print(f"{sys_name:<25} {fp:<20} {csr:<18} {bkr:<18} {kr:<18} {vsp:<18} {vfar}")
 
     print("-" * 115)
-    print("* Proposed LoRA (E6) achieves highest CSR (0.7196 vs 0.5717 in Base, p < 0.001) and cuts VFAR by more")
-    print("  than half (0.0596 vs 0.1279 in Base) while completely eliminating modal over-assertion violations (OVR=0.0%).")
+    print("* Proposed LoRA (E6) achieves highest CSR (0.7196 vs 0.5717 in Base) and lowest VFAR (0.0596 vs 0.1279 in Base).")
+    print("  Note: HCMC evaluation uses landmark-recognizer adaptation on out-of-fold predictions (Recall@1 = 91.33%),")
+    print("  while VC-GAT, Horn reasoning, decision thresholds, and generator remain frozen from Hanoi. Recognizer")
+    print("  adaptation prevents interpreting this as fully zero-shot transfer.")
     print("=" * 115)
 
 
