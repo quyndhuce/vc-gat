@@ -4,6 +4,10 @@ Official code and evaluation repository for the paper:
 **"Decision-Certified Partial Reasoning for Uncertainty-Aware Heritage Video Captioning"**  
 Submitted to the *International Journal of Approximate Reasoning* (IJAR), Elsevier.
 
+- **Anonymous Code Repository:** [https://anonymous.4open.science/r/vc-gat-E1C7/](https://anonymous.4open.science/r/vc-gat-E1C7/)
+- **Dataset Archive (Figshare DOI):** [10.6084/m9.figshare.35113231](https://doi.org/10.6084/m9.figshare.35113231)
+- **Dataset & Video Mirror (Google Drive):** [https://drive.google.com/drive/folders/1iTEHWfA5XfYW5Y1KvoFMofbhSpki2Dwv?usp=sharing](https://drive.google.com/drive/folders/1iTEHWfA5XfYW5Y1KvoFMofbhSpki2Dwv?usp=sharing)
+
 ---
 
 ## 📌 Executive Summary & Core Contributions
@@ -128,6 +132,27 @@ TransMTL_OntoKG-main/
 ├── results/                              # Benchmark CSV summaries and raw metric logs
 └── legacy_archive/                       # Safely archived exploratory and historical scripts
 ```
+
+---
+
+## 💾 Dataset & Video Clips Download
+
+The complete cultural heritage knowledge graph, verified scene-conditioned Horn evidence, benchmark splits, and 4,346 cut video clips are accessible via:
+
+1. **Google Drive Mirror (Clean Benchmark Package & Cut Video Clips):**  
+   🔗 **[Google Drive Dedicated Folder](https://drive.google.com/drive/folders/1iTEHWfA5XfYW5Y1KvoFMofbhSpki2Dwv?usp=sharing)**
+   - `vc_gat_dataset_clean_462M.tar.gz` (2.24 GB): Master benchmark archive containing:
+     - `data/caption_dataset/`: Benchmark captions across epistemic regimes (Hanoi-500, HCMC-300, Val-149).
+     - `data/fkg_per_kb/`: Complete fused fuzzy knowledge graphs (13,553 facts across 4,093 cultural landmarks).
+     - `data/unified_coco_dataset/annotations/`: Object and concept grounding annotations with bounding boxes.
+     - `data/dataset_splits_scheme_A_parent.json`: Canonical parent-video disjoint train/val/test splits.
+     - `scene_conditioned_gold/`: Ground-truth Horn-complete evidence and contrastive challenge pairs.
+     - `experiments/features/`: Pre-extracted visual scene graph features (`.pkl`, `.npy`), enabling instant reproduction without raw video decoding.
+   - `videos/` (50.6 GB): Complete 4,346 cut video clips (Train: 3,227 clips, Test: 1,119 clips) directly fed into the multimodal models.
+
+2. **Figshare Open Science Repository (DOI):**  
+   🔗 **[Figshare Dataset Record (DOI: 10.6084/m9.figshare.35113231)](https://doi.org/10.6084/m9.figshare.35113231)**  
+   Permanent academic repository for long-term open access preservation.
 
 ---
 
